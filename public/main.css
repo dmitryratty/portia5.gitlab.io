@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+  color: #333;
+  font-family: Roboto, serif;
+}
+body {
+  margin: 0;
+}
+article {
+  width: 100%;
+  max-width: 50rem;
+  font-size: 1.14rem;
+  margin: 0rem auto;
+  padding: 1.0rem 3.0rem;
+  box-sizing: border-box;
+  line-height: 1.55em;
+}
+@media (max-width: 650px) {
+  article {
+    padding: 0.7rem 2.5rem;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 560px) {
+  article {
+    padding: 0.5rem 2.0rem;
+    font-size: 1.08rem;
+  }
+}
