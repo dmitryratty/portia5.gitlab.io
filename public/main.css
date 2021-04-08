@@ -1,29 +1,63 @@
 html {
-  font-size: 16px;
-  color: #333;
-  font-family: Roboto, serif;
+    /*
+     * Lato, Liberation Sans: Linux
+     * Segoe UI, Arial: Windows
+     * Roboto: Android
+     * Arimo: ChromeOS
+     * sans-serif: fallback
+     */
+    font-family: -apple-system, BlinkMacSystemFont,
+     'Lato', 'Liberation Sans', 'Segoe UI', 'Arial', 'Roboto', 'Arimo', sans-serif,
+     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 0.89rem;
+    line-height: 1.5;
 }
 body {
   margin: 0;
 }
-article {
-  width: 100%;
-  max-width: 50rem;
-  font-size: 1.14rem;
-  margin: 0rem auto;
-  padding: 1.0rem 3.0rem;
-  box-sizing: border-box;
-  line-height: 1.55em;
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
-@media (max-width: 650px) {
-  article {
+.nowrap {
+  white-space: nowrap;
+}
+main {
+  width: 100%;
+  max-width: 46rem;
+  margin: 0rem auto;
+  box-sizing: border-box;
+}
+p {
+  margin: 1.4em 0rem;
+}
+.dinkus {
+  /* https://stackoverflow.com/questions/38781089/font-family-monospace-monospace */
+  font-family: monospace, monospace;
+  font-weight: bold;
+}
+.ul-header {
+  margin-bottom: 0px;
+}
+ul {
+  list-style-type: disc;
+  margin-top: 0.5rem;
+  padding-left: 1.8rem;
+}
+ul li {
+  margin-bottom: 0.4rem;
+}
+/* Responsive part */
+main {
+  padding: 1.0rem 3.0rem;
+}
+@media (max-width: 830px) {
+  main {
     padding: 0.7rem 2.5rem;
-    font-size: 1.1rem;
   }
 }
-@media (max-width: 560px) {
-  article {
-    padding: 0.5rem 2.0rem;
-    font-size: 1.08rem;
+/* Phone in portrait orientation */
+@media (max-width: 430px) {
+  main {
+    padding: 0.3rem 1.3rem;
   }
 }

@@ -1,6 +1,7 @@
 .idea/misc.xml
 .idea/inspectionProfiles
 .idea/vcs.xml
+.idea/modules.xml
 
 # https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 # User-specific stuff
@@ -21,3 +22,5 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+
+/out
