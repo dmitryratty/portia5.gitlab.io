@@ -1,7 +1,6 @@
 .idea/misc.xml
 .idea/inspectionProfiles
 .idea/vcs.xml
-.idea/modules.xml
 
 # https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 # User-specific stuff
@@ -23,4 +22,15 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-/out
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# IntelliJ
+out/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
