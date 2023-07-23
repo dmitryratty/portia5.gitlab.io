@@ -9,7 +9,7 @@ class PagesGenerator {
     }
 
     fun main() {
-        val projectDir = Paths.get("public")
+        val projectDir = Paths.get("ratty-public")
         val pageTemplate = projectDir.resolve("src/page-template.html").toFile().readText()
 
         val title = "Ну… Жизнь!"
