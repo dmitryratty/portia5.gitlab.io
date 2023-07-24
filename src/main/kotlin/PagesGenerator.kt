@@ -1,5 +1,6 @@
-import java.lang.StringBuilder
+import java.io.File
 import java.nio.file.Paths
+import kotlin.text.StringBuilder
 
 class PagesGenerator {
     companion object {
@@ -13,14 +14,24 @@ class PagesGenerator {
 
     fun main() {
         val projectDir = Paths.get("ratty-public")
-        val pageTemplate = projectDir.resolve("src/page-template.html").toFile().readText()
+        val resourcesDir = projectDir.resolve("src/main/resources")
+        val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
+        listOf("life", "library").forEach {
+            val text = resourcesDir.resolve("$it.txt").toFile().readText()
+            val pageOut = projectDir.resolve("public/$it.html").toFile()
+            processPage(pageTemplate, text, pageOut)
+        }
+    }
 
-        val title = "Ну… Жизнь!"
+    private fun processPage(pageTemplate: String, text: String, pageOut: File) {
+        val title = StringBuilder()
         val article = StringBuilder()
-        val text = projectDir.resolve("src/life.txt").toFile().readText()
-
         val paragraphs = text.split("\n\n")
         paragraphs.forEach { paragraph ->
+            if (title.isEmpty()) {
+                title.append(paragraph)
+                return@forEach
+            }
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }
@@ -46,8 +57,7 @@ class PagesGenerator {
             article.append(lines.joinToString("\n        <br/>"))
             article.append("</p>")
         }
-        val pageOut = projectDir.resolve("public/life.html")
-        val titledTemplate = pageTemplate.replace("<!-- TITLE -->", title)
-        pageOut.toFile().writeText(titledTemplate.replace("<!-- DATA -->", article.toString()))
+        val titledTemplate = pageTemplate.replace("<!-- TITLE -->", title.toString())
+        pageOut.writeText(titledTemplate.replace("<!-- DATA -->", article.toString()))
     }
 }
