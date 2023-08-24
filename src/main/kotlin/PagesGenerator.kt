@@ -49,7 +49,7 @@ class PagesGenerator {
                 if (oldValue.contains('-')) {
                     iterate.set(dashNoWrap.replace(oldValue, "<span class=\"nowrap\">$1</span>"))
                 }
-                if (oldValue.contains(" http")) {
+                if (oldValue.contains("http")) {
                     iterate.set(hyperlink.replace(oldValue, "<a href=\"$1\">\$1</a>"))
                 }
             }
