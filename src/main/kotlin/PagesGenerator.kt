@@ -9,8 +9,12 @@ class PagesGenerator {
         }
     }
 
+    // "<span class=\"nowrap\">$1</span>"
     val dashNoWrap = "(\\S+-\\S+)".toRegex()
+    // "<a href=\"$1\">\$1</a>"
     val hyperlink = "(http\\S+)".toRegex()
+    // "<span class=\"nowrap\">$1</span>"
+    val footnote = "(\\S+\\[\\d+])".toRegex()
 
     fun main() {
         val projectDir = Paths.get("ratty-public")
@@ -21,6 +25,34 @@ class PagesGenerator {
             val pageOut = projectDir.resolve("public/$it.html").toFile()
             processPage(pageTemplate, text, pageOut)
         }
+    }
+
+    private fun makeNoWrap(word: String): String {
+        return "<span class=\"nowrap\">$word</span>"
+    }
+
+    private fun processLine(line: String): String? {
+        if (!line.contains("http") && !line.contains('-') && !line.contains('[')) {
+            return null
+        }
+        val builder = StringBuilder()
+        line.split(' ').forEach { word ->
+            if (builder.isNotEmpty()) {
+                builder.append(' ')
+            }
+            if (word.length == 1) {
+                builder.append(word)
+            } else if (word.startsWith("http")) {
+                builder.append("<a href=\"$word\">$word</a>")
+            } else if (word.contains('-')) {
+                builder.append(makeNoWrap(word))
+            } else if (word.contains('[') && footnote.matches(word)) {
+                builder.append(makeNoWrap(word))
+            } else {
+                builder.append(word)
+            }
+        }
+        return builder.toString()
     }
 
     private fun processPage(pageTemplate: String, text: String, pageOut: File) {
@@ -46,11 +78,9 @@ class PagesGenerator {
             val iterate = lines.listIterator()
             while (iterate.hasNext()) {
                 val oldValue = iterate.next()
-                if (oldValue.contains('-')) {
-                    iterate.set(dashNoWrap.replace(oldValue, "<span class=\"nowrap\">$1</span>"))
-                }
-                if (oldValue.contains("http")) {
-                    iterate.set(hyperlink.replace(oldValue, "<a href=\"$1\">\$1</a>"))
+                val newValue = processLine(oldValue)
+                if (newValue != null) {
+                    iterate.set(newValue)
                 }
             }
             article.append("<p>")
