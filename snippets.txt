@@ -1,3 +1,25 @@
+Gallery
+
+    image gallery html library like google photos
+
+        https://nanogallery2.nanostudio.org/
+
+    simple image lightbox html
+
+html make border around emoji
+
+    https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+
+Replace "…" with html entity?
+
+    <!-- &#x1F921; - Clown Face Emoji. -->
+    <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+    <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+
+Footnotes:
+
+    https://css-tricks.com/footnote-characters
+
 Fonts:
 
     fun font(projectDir: Path) {
@@ -63,7 +85,3 @@ Fonts:
             padding: 0.3rem 1.3rem;
           }
         }
-
-Footnotes:
-
-    https://css-tricks.com/footnote-characters
