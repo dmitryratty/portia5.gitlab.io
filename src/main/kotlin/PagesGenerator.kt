@@ -17,6 +17,7 @@ class PagesGenerator {
     val footnote = "(\\S+\\[\\d+])".toRegex()
 
     fun main() {
+        Library().main()
         val projectDir = Paths.get("ratty-public")
         val resourcesDir = projectDir.resolve("src/main/resources")
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
