@@ -16,11 +16,40 @@ Replace "…" with html entity?
     <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
 
+Difference between CSS3's :root pseudo class and html
+
+    https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
+
+    https://www.30secondsofcode.org/css/s/root-vs-html/
+
+        CSS has two ways to target the root element of an HTML document - the :root pseudo-class and the html selector. While these are very similar to each other, they have a couple of differences you should know.
+
+        Selector specificity
+        The :root selector has a higher specificity than the html selector. This is because :root is a pseudo-class selector, while html is a type selector.
+
+        :root {
+          background-color: red;
+        }
+
+        html {
+          background-color: blue;
+        }
+
+        /* The HTML document's root element will have a red background-color.  */
+        Targeting the root element
+        CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
+
 Footnotes:
 
     https://css-tricks.com/footnote-characters
 
 Fonts:
+
+    https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/
+
+        :root {
+          font-size: calc(1rem + 0.25vw);
+        }
 
     fun font(projectDir: Path) {
         val font = Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())

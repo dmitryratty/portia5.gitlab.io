@@ -1,3 +1,6 @@
+:root {
+  font-size: calc(0.65rem + 0.25vw);
+}
 html {
     /*
      * Lato, Liberation Sans: Linux
@@ -9,7 +12,6 @@ html {
     font-family: -apple-system, BlinkMacSystemFont,
      'Lato', 'Liberation Sans', 'Segoe UI', 'Arial', 'Roboto', 'Arimo', sans-serif,
      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-size: 0.89rem;
     line-height: 1.5;
 }
 body {
@@ -26,7 +28,7 @@ a, a:visited, a:hover, a:active {
 }
 main {
   width: 100%;
-  max-width: 46rem;
+  max-width: 45rem;
   margin: 0rem auto;
   box-sizing: border-box;
 }
