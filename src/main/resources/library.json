@@ -4240,6 +4240,106 @@
     {
         "names": [
             {
+                "name": "Introductory Antimemetics",
+                "language": "?",
+                "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam \"qntm\" Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 950
+    },
+    {
+        "names": [
+            {
+                "name": "Lena",
+                "language": "?",
+                "link": "https://qntm.org/mmacevedo"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam \"qntm\" Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 975
+    },
+    {
+        "names": [
+            {
+                "name": "We Need To Talk About Fifty-Five",
+                "language": "?",
+                "link": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam \"qntm\" Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 980
+    },
+    {
+        "names": [
+            {
+                "name": "If You Are Reading This",
+                "language": "?",
+                "link": "https://qntm.org/readin"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam \"qntm\" Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 970
+    },
+    {
+        "names": [
+            {
                 "name": "The Path to Reason",
                 "language": "?"
             }
