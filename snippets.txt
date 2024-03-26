@@ -16,6 +16,12 @@ Replace "…" with html entity?
     <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
 
+CSS
+
+    MAGICK.CSS https://css.winterveil.net/
+
+    Tufte CSS https://edwardtufte.github.io/tufte-css/
+
 Difference between CSS3's :root pseudo class and html
 
     https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
@@ -38,6 +44,13 @@ Difference between CSS3's :root pseudo class and html
         /* The HTML document's root element will have a red background-color.  */
         Targeting the root element
         CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
+
+Game.
+
+    When I stopped trying to self-optimize, I got better
+
+        Link: https://readhacker.news/s/5QkjM
+        Comments: https://readhacker.news/c/5QkjM
 
 Footnotes:
 
