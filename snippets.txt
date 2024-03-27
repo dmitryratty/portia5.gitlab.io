@@ -15,6 +15,8 @@ Replace "…" with html entity?
     <!-- &#x1F921; - Clown Face Emoji. -->
     <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+    <!-- &#x1F3AE; - Video Game Emoji. -->
+    <!-- &#x1F3B2; - Game Die Emoji. -->
 
 CSS
 
