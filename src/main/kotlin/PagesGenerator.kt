@@ -10,18 +10,21 @@ class PagesGenerator {
     }
 
     // "<span class=\"nowrap\">$1</span>"
-    val dashNoWrap = "(\\S+-\\S+)".toRegex()
+    private val dashNoWrap = "(\\S+-\\S+)".toRegex()
     // "<a href=\"$1\">\$1</a>"
-    val hyperlink = "(http\\S+)".toRegex()
+    private val hyperlink = "(http\\S+)".toRegex()
     // "<span class=\"nowrap\">$1</span>"
-    val footnote = "(\\S+\\[\\d+])".toRegex()
+    private val footnote = "(\\S+\\[\\d+])".toRegex()
+    private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
+    private val wbrAfter = "([:])".toRegex()
+    private val wbrBeforeAfter = "([=&])".toRegex()
 
     fun main() {
         Library().main()
         val projectDir = Paths.get("ratty-public")
         val resourcesDir = projectDir.resolve("src/main/resources")
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
-        listOf("life", "library").forEach {
+        listOf("life", "library", "tech").forEach {
             val text = resourcesDir.resolve("$it.txt").toFile().readText()
             val pageOut = projectDir.resolve("public/$it.html").toFile()
             processPage(pageTemplate, text, pageOut)
@@ -30,6 +33,19 @@ class PagesGenerator {
 
     private fun makeNoWrap(word: String): String {
         return "<span class=\"nowrap\">$word</span>"
+    }
+
+    private fun longUrlLineBreaks(url: String): String {
+        // https://css-tricks.com/better-line-breaks-for-long-urls/
+        return url.split("//").joinToString("//<wbr>") { part ->
+            // Insert a word break opportunity after a colon
+            part.replace(wbrAfter, "\$1<wbr>")
+                // Before a single slash, tilde, period, comma, hyphen, underline,
+                // question mark, number sign, or percent symbol.
+                .replace(wbrBefore, "<wbr>\$1")
+                // Before and after an equals sign or ampersand
+                .replace(wbrBeforeAfter, "<wbr>\$1<wbr>")
+        }
     }
 
     private fun processLine(line: String): String? {
@@ -44,10 +60,12 @@ class PagesGenerator {
             if (word.length == 1) {
                 builder.append(word)
             } else if (word.startsWith("http")) {
-                builder.append("<a href=\"$word\">$word</a>")
+                builder.append("<a href=\"$word\">${longUrlLineBreaks(word)}</a>")
             } else if (word.contains('-')) {
                 builder.append(makeNoWrap(word))
             } else if (word.contains('[') && footnote.matches(word)) {
+                // Footnote inside text, like "Hello, world![2]" and
+                // we make "world![2]" no wrap.
                 builder.append(makeNoWrap(word))
             } else {
                 builder.append(word)

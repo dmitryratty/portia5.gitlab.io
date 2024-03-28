@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow"/>
+    <title>Ну… Технологии!</title>
+    <link rel="stylesheet" media="screen" href="main.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+</head>
+<body><main>
+<article>
+    <p>Изучал аналитику от приложения и увидел редкое дублирование одного события. В его нормальном названии была буква «i»: «event_item_buy». Но кроме него иногда приходило событие в названии которого вместо «i» была <span class="nowrap">какая-то</span> «ı»: «event_ıtem_buy». Аналитика показывала, что все эти странные события приходят из Турции.</p>
+
+    <p>Оказалось, что в английском есть только «I» и «i», а в турецком есть две разные буквы. Одна буква это «I» и «ı» без точек, а другая буква это «İ» и «i» с точками.</p>
+
+    <p>В моём случае, для формирования названия события, я переводил слово с английской «I» в нижний регистр, используя локаль по умолчанию. В большинстве случаев это работало нормально, ибо в большинстве локалей «I» уменьшается в «i». Но в турецкой локали «I» уменьшается в «ı». И на устройствах где по умолчанию бралась турецкая локаль я получал «event_ıtem_buy». Для меня проблема решилась явным указанием английской локали при изменении регистра строк.</p>
+
+    <p>Когда я всё это гуглил, то нашёл грустную историю связанную с подобными ошибками, типичными для софта в Турции.</p>
+
+    <p>Одна супружеская пара была в ссоре. Они разъехались и выясняли отношения через смс. Парень отправил безобидное сообщение, но <span class="nowrap">из-за</span> изменения регистра в софте передающем смс, смысл одного слова изменился и фраза стала смертельным оскорблением. Девушка показала это смс своей семье. Отец пригласил этого парня домой, и там эта девушка, вместе с отцом и двумя сёстрами, попытались парня зарезать.</p>
+
+    <p>Парень сумел вытащить из себя нож и смертельно ранил девушку, которая истекла кровью до приезда скорой. Через несколько дней, находясь в тюрьме, парень совершил самоубийство.</p>
+
+    <p>█ <span class="nowrap">NOTE-??.03.2018</span> <•> <a href="https://en.wikipedia.org/w/index.php?title=Dotted_and_dotless_I&direction=prev&oldid=1050027008">https:<wbr>//<wbr>en<wbr>.wikipedia<wbr>.org<wbr>/w<wbr>/index<wbr>.php<wbr>?title<wbr>=<wbr>Dotted<wbr>_and<wbr>_dotless<wbr>_I<wbr>&<wbr>direction<wbr>=<wbr>prev<wbr>&<wbr>oldid<wbr>=<wbr>1050027008</a> <•> <a href="https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026">https:<wbr>//<wbr>gizmodo<wbr>.com<wbr>/a<wbr>-cellphones<wbr>-missing<wbr>-dot<wbr>-kills<wbr>-two<wbr>-people<wbr>-puts<wbr>-three<wbr>-m<wbr>-382026</a> <•> <a href="https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch">https:<wbr>//<wbr>web<wbr>.archive<wbr>.org<wbr>/web<wbr>/20100102064618<wbr>/http:<wbr>//<wbr>www<wbr>.theinquirer<wbr>.net<wbr>/inquirer<wbr>/news<wbr>/1017243<wbr>/cellphone<wbr>-localisation<wbr>-glitch</a> █</p>
+
+    <p class="dinkus">* * *</p>
+
+    <p>Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день. <•> При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. <•> При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.</p>
+
+    <p class="dinkus">* * *</p>
+
+    <p>Intel Management Engine,  AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the <span class="nowrap">owner-controlled</span> CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".</p>
+
+    <p><a href="https://en.wikipedia.org/wiki/Intel_Management_Engine">https:<wbr>//<wbr>en<wbr>.wikipedia<wbr>.org<wbr>/wiki<wbr>/Intel<wbr>_Management<wbr>_Engine</a></p>
+
+    <p class="dinkus">* * *</p>
+
+    <p>Планируется добавление сюда разного по мере разбирания архива. Однажды я перейду с Ubuntu на NixOS и начну писать в Fediverse.</p>
+
+    <p class="dinkus">* * *</p>
+    <p><a href="https://dmitryratty.gitlab.io">В начало</a>.</p>
+</article>
+</main></body>
+</html>
