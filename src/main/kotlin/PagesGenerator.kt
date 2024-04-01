@@ -24,7 +24,7 @@ class PagesGenerator {
         val projectDir = Paths.get("ratty-public")
         val resourcesDir = projectDir.resolve("src/main/resources")
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
-        listOf("life", "library", "tech").forEach {
+        listOf("game", "tech", "library", "life").forEach {
             val text = resourcesDir.resolve("$it.txt").toFile().readText()
             val pageOut = projectDir.resolve("public/$it.html").toFile()
             processPage(pageTemplate, text, pageOut)

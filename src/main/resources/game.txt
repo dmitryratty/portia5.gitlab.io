@@ -1,0 +1,42 @@
+Ну… Игры!
+
+Время от времени погружаюсь во что-то из теории игр, это вкусно, угощайтесь ссылками.
+
+* * *
+
+https://en.wikipedia.org/wiki/Game_theory
+
+Cooperative and non-cooperative, zero-sum and non-zero-sum...
+
+* * *
+
+https://en.wikipedia.org/wiki/Prisoner's_dilemma
+
+Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.
+
+https://en.wikipedia.org/wiki/Tit_for_tat
+
+A tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Noise presence, revenge cycles - forgiveness.
+
+Acausal, acausal, acausal, trade, trade, trade:
+ — https://www.lesswrong.com/tag/acausal-trade
+
+Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
+ — https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+
+Nicky Case, curious shtuff you can play:
+ — https://ncase.me
+
+* * *
+
+https://en.wikipedia.org/wiki/Minimax
+
+https://en.wikipedia.org/wiki/Hawk-dove
+
+https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+
+https://en.wikipedia.org/wiki/The_Market_for_Lemons
+
+* * *
+
+Позже сюда будет добавлен подраздел о нескольких годах времени моей жизни проведённых в видеоиграх.
