@@ -30,4 +30,4 @@ https://en.wikipedia.org/wiki/Intel_Management_Engine
 
 * * *
 
-Планируется добавление сюда разного по мере разбирания архива. Однажды я перейду с Ubuntu на NixOS и начну писать в Fediverse.
+Планируется добавление сюда разного по мере разбирания архива. Однажды я перейду с Ubuntu на NixOS, начну использовать RSS, Fediverse и Matrix.
