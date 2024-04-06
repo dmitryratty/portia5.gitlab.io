@@ -25,10 +25,17 @@ class PagesGenerator {
         val resourcesDir = projectDir.resolve("src/main/resources")
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
         listOf("game", "tech", "library", "life").forEach {
-            val text = resourcesDir.resolve("$it.txt").toFile().readText()
-            val pageOut = projectDir.resolve("public/$it.html").toFile()
-            processPage(pageTemplate, text, pageOut)
+            val txtFile = resourcesDir.resolve("$it.txt").toFile()
+            val text = reformatTxt(txtFile.readText())
+            txtFile.writeText(text)
+            val htmlFile = projectDir.resolve("public/$it.html").toFile()
+            generateHtml(pageTemplate, text, htmlFile)
         }
+    }
+
+    private fun reformatTxt(raw: String): String {
+        // Replace "..." with html entity instead "…"?
+        return raw.replace("...", "…")
     }
 
     private fun makeNoWrap(word: String): String {
@@ -74,7 +81,7 @@ class PagesGenerator {
         return builder.toString()
     }
 
-    private fun processPage(pageTemplate: String, text: String, pageOut: File) {
+    private fun generateHtml(pageTemplate: String, text: String, htmlFile: File) {
         val title = StringBuilder()
         val article = StringBuilder()
         val paragraphs = text.split("\n\n")
@@ -107,6 +114,6 @@ class PagesGenerator {
             article.append("</p>")
         }
         val titledTemplate = pageTemplate.replace("<!-- TITLE -->", title.toString())
-        pageOut.writeText(titledTemplate.replace("<!-- DATA -->", article.toString()))
+        htmlFile.writeText(titledTemplate.replace("<!-- DATA -->", article.toString()))
     }
 }

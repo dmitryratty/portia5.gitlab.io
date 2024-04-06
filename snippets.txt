@@ -6,17 +6,18 @@ Gallery
 
     simple image lightbox html
 
+<!-- dmitryratty [at] gmail [dot] com? image, as at ncase? -->
+
 html make border around emoji
 
     https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
-
-Replace "…" with html entity?
 
     <!-- &#x1F921; - Clown Face Emoji. -->
     <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
     <!-- &#x1F3AE; - Video Game Emoji. -->
     <!-- &#x1F3B2; - Game Die Emoji. -->
+    <!-- &#x3C0; - Greek Small Letter Pi. -->
 
 CSS
 
