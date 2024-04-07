@@ -24,7 +24,7 @@ class PagesGenerator {
         val projectDir = Paths.get("ratty-public")
         val resourcesDir = projectDir.resolve("src/main/resources")
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
-        listOf("game", "tech", "library", "life").forEach {
+        listOf("game", "tech", "math", "library", "life").forEach {
             val txtFile = resourcesDir.resolve("$it.txt").toFile()
             val text = reformatTxt(txtFile.readText())
             txtFile.writeText(text)
@@ -56,7 +56,8 @@ class PagesGenerator {
     }
 
     private fun processLine(line: String): String? {
-        if (!line.contains("http") && !line.contains('-') && !line.contains('[')) {
+        if (!line.contains("http") && !line.contains('-') && !line.contains('[')
+            && !line.contains("<•>") && !line.contains('❖')) {
             return null
         }
         val builder = StringBuilder()
@@ -64,7 +65,10 @@ class PagesGenerator {
             if (builder.isNotEmpty()) {
                 builder.append(' ')
             }
-            if (word.length == 1) {
+            if (word.isEmpty()) {
+                // Leading space in string, for example for padding.
+                //builder.append(" ")
+            } else if (word.length == 1) {
                 builder.append(word)
             } else if (word.startsWith("http")) {
                 builder.append("<a href=\"$word\">${longUrlLineBreaks(word)}</a>")
@@ -73,6 +77,8 @@ class PagesGenerator {
             } else if (word.contains('[') && footnote.matches(word)) {
                 // Footnote inside text, like "Hello, world![2]" and
                 // we make "world![2]" no wrap.
+                builder.append(makeNoWrap(word))
+            } else if (word == "<•>") {
                 builder.append(makeNoWrap(word))
             } else {
                 builder.append(word)
