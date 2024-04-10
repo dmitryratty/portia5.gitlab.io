@@ -43,10 +43,15 @@ class Library {
         if ((recommendation + entertaining + archive + hidden) != novelCount) {
             throw IllegalStateException()
         }
-        println("Novels recommendation $recommendation, entertaining $entertaining, archive $archive, hidden $hidden.")
-        // Novels recommendation 6, entertaining 25, archive 80, hidden 9.
-        println("Novels $novelCount, and 35 unlisted, total ${novelCount + 35}.")
-        // Novels 120, and 35 unlisted, total 155.
+        // Total novels 162, listed 127, unlisted 35.
+        // Recommendation 7, entertaining 0, archive 111, hidden 9.
+        val unlisted = 35
+        print("Total novels ${novelCount + unlisted}, listed $novelCount, unlisted $unlisted.")
+        print(" ")
+        print("Recommendation $recommendation, entertaining $entertaining,")
+        print(" ")
+        print("archive $archive, hidden $hidden.")
+        print("\n")
     }
 
     private fun formatWritings(writings: List<Writing>, language: String): String {

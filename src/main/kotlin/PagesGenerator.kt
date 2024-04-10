@@ -1,4 +1,4 @@
-import java.io.File
+import java.nio.file.Path
 import java.nio.file.Paths
 import kotlin.text.StringBuilder
 
@@ -18,25 +18,32 @@ class PagesGenerator {
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
+    private val lineStartDash = "^(- )".toRegex(RegexOption.MULTILINE)
+
+    private val projectDir: Path
+        get() {
+            val current = Paths.get("").toAbsolutePath()
+            if (current.endsWith("ratty-public")) {
+                return current
+            }
+            return current.resolve("ratty-public")
+        }
+    private val resourcesDir get() = projectDir.resolve("src/main/resources")
+    private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
 
     fun main() {
         Library().main()
-        val projectDir = Paths.get("ratty-public")
-        val resourcesDir = projectDir.resolve("src/main/resources")
-        val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
         listOf("game", "tech", "math", "library", "life").forEach {
             val txtFile = resourcesDir.resolve("$it.txt").toFile()
-            val txtString = reformatTxt(txtFile.readText())
-            txtFile.writeText(txtString)
             val htmlFile = projectDir.resolve("public/$it.html").toFile()
-            val htmlString = txtToHtml(pageTemplate, txtString)
-            htmlFile.writeText(htmlString)
+            htmlFile.writeText(txtToHtml(txtBeatify(txtFile.readText())))
         }
     }
 
-    private fun reformatTxt(raw: String): String {
+    fun txtBeatify(raw: String): String {
         // Replace "..." with html entity instead "…"?
-        return raw.replace("...", "…")
+        val result = raw.replace(lineStartDash, "— ")
+        return result.replace("...", "…").replace(" - ", " — ")
     }
 
     private fun makeNoWrap(word: String): String {
@@ -56,20 +63,30 @@ class PagesGenerator {
         }
     }
 
-    private fun processLine(line: String): String? {
+    fun transformLine(line: String): String? {
         if (!line.contains("http") && !line.contains('-') && !line.contains('[')
-            && !line.contains("<•>") && !line.contains('❖')) {
+            && !line.contains("<•>") && !line.contains('❖') && !line.startsWith(' ')) {
             return null
         }
         val builder = StringBuilder()
-        line.split(' ').forEach { word ->
-            if (builder.isNotEmpty()) {
+        var processingLeadingSpaces = true
+        line.split(' ').forEachIndexed { i, word ->
+            if (builder.isNotEmpty() && !processingLeadingSpaces) {
                 builder.append(' ')
             }
+            if (word.isNotBlank()) {
+                processingLeadingSpaces = false
+            }
             if (word.isEmpty()) {
-                // Leading space in string, for example for padding.
-                //builder.append(" ")
-            } else if (word.length == 1) {
+                if (processingLeadingSpaces) {
+                    // Leading spaces in string, for example for padding.
+                    builder.append("&nbsp;")
+                } else {
+                    builder.append(' ')
+                }
+                return@forEachIndexed
+            }
+            if (word.length == 1) {
                 builder.append(word)
             } else if (word.startsWith("http")) {
                 builder.append("<a href=\"$word\">${longUrlLineBreaks(word)}</a>")
@@ -88,7 +105,35 @@ class PagesGenerator {
         return builder.toString()
     }
 
-    private fun txtToHtml(htmlTemplate: String, txtString: String): String {
+    fun transformParagraph(paragraph: String): String {
+        val result = StringBuilder()
+        if (paragraph.contains("* * *")) {
+            if (paragraph != "* * *") {
+                throw IllegalStateException()
+            }
+            result.append("<p class=\"dinkus\">* * *</p>")
+            return result.toString()
+        }
+        val lines = paragraph.trim().split('\n').toMutableList()
+        val iterate = lines.listIterator()
+        while (iterate.hasNext()) {
+            val oldValue = iterate.next()
+            val newValue = transformLine(oldValue)
+            if (newValue != null) {
+                iterate.set(newValue)
+            }
+            val value = newValue ?: oldValue
+            if (value.contains("  ")) {
+                throw IllegalStateException("Double space: [$value]")
+            }
+        }
+        result.append("<p>")
+        result.append(lines.joinToString("\n        <br/>"))
+        result.append("</p>")
+        return result.toString()
+    }
+
+    fun txtToHtml(txtString: String): String {
         val title = StringBuilder()
         val article = StringBuilder()
         val paragraphs = txtString.split("\n\n")
@@ -100,25 +145,7 @@ class PagesGenerator {
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }
-            if (paragraph.contains("* * *")) {
-                if (paragraph != "* * *") {
-                    throw IllegalStateException()
-                }
-                article.append("<p class=\"dinkus\">* * *</p>")
-                return@forEach
-            }
-            val lines = paragraph.trim().split('\n').toMutableList()
-            val iterate = lines.listIterator()
-            while (iterate.hasNext()) {
-                val oldValue = iterate.next()
-                val newValue = processLine(oldValue)
-                if (newValue != null) {
-                    iterate.set(newValue)
-                }
-            }
-            article.append("<p>")
-            article.append(lines.joinToString("\n        <br/>"))
-            article.append("</p>")
+            article.append(transformParagraph(paragraph))
         }
         return htmlTemplate
             .replace("<!-- TITLE -->", title.toString())
