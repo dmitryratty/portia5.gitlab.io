@@ -38,3 +38,5 @@ Algorithmic Mathematical Art:
 ❖ https://arxiv.org/abs/2011.00412 <•> https://www.youtube.com/watch?v=4AuV93LOPcE <•> https://www.scottaaronson.com/papers/bb.pdf <•> https://youtube.com/user/numberphile - cамый не техничный <•> https://youtube.com/c/MichaelPennMath - cамый техничный <•> https://youtube.com/c/3blue1brown - золотая середина ❖
 
 ❖ Не знаю, какой у тебя контекст, но «вдруг пригодится»: на моей практике вот эти материалы помогают бороться с выученной беспомощностью в математике: читать теорию: http://spacemath.xyz <•> Отрабатывать практику: https://school-assistant.ru/?class=5_matematika <•> До конца это проходить это все необязательно и возможно даже излишне, но для внутренней уверенности может помочь. ❖
+
+❖ https://en.wikipedia.org/wiki/Three-valued_logic ❖

@@ -17,7 +17,22 @@ html make border around emoji
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
     <!-- &#x1F3AE; - Video Game Emoji. -->
     <!-- &#x1F3B2; - Game Die Emoji. -->
+    <!-- &#x1F392; - School Satchel. -->
     <!-- &#x3C0; - Greek Small Letter Pi. -->
+    <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+    ➗
+    🦉
+    🎒
+    🖤
+    ⚫
+    ❄
+    ⁂
+
+https://css-tricks.com/emoji-as-a-favicon/
+
+https://en.wikipedia.org/wiki/Fleuron_(typography)
+
+https://en.wikipedia.org/wiki/Dingbat
 
 CSS
 
