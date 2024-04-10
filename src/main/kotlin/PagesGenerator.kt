@@ -26,10 +26,11 @@ class PagesGenerator {
         val pageTemplate = resourcesDir.resolve("page-template.html").toFile().readText()
         listOf("game", "tech", "math", "library", "life").forEach {
             val txtFile = resourcesDir.resolve("$it.txt").toFile()
-            val text = reformatTxt(txtFile.readText())
-            txtFile.writeText(text)
+            val txtString = reformatTxt(txtFile.readText())
+            txtFile.writeText(txtString)
             val htmlFile = projectDir.resolve("public/$it.html").toFile()
-            generateHtml(pageTemplate, text, htmlFile)
+            val htmlString = txtToHtml(pageTemplate, txtString)
+            htmlFile.writeText(htmlString)
         }
     }
 
@@ -87,10 +88,10 @@ class PagesGenerator {
         return builder.toString()
     }
 
-    private fun generateHtml(pageTemplate: String, text: String, htmlFile: File) {
+    private fun txtToHtml(htmlTemplate: String, txtString: String): String {
         val title = StringBuilder()
         val article = StringBuilder()
-        val paragraphs = text.split("\n\n")
+        val paragraphs = txtString.split("\n\n")
         paragraphs.forEach { paragraph ->
             if (title.isEmpty()) {
                 title.append(paragraph)
@@ -119,7 +120,8 @@ class PagesGenerator {
             article.append(lines.joinToString("\n        <br/>"))
             article.append("</p>")
         }
-        val titledTemplate = pageTemplate.replace("<!-- TITLE -->", title.toString())
-        htmlFile.writeText(titledTemplate.replace("<!-- DATA -->", article.toString()))
+        return htmlTemplate
+            .replace("<!-- TITLE -->", title.toString())
+            .replace("<!-- DATA -->", article.toString())
     }
 }
