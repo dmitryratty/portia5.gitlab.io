@@ -6,6 +6,8 @@ Gallery
 
     simple image lightbox html
 
+Library "database" splitting into authors and books.
+
 <!-- dmitryratty [at] gmail [dot] com? image, as at ncase? -->
 
 html make border around emoji

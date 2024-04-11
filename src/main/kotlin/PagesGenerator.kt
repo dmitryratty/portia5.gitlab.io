@@ -19,6 +19,7 @@ class PagesGenerator {
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val lineStartDash = "^(- )".toRegex(RegexOption.MULTILINE)
+    private val breakLevelOne = "</>"
 
     private val projectDir: Path
         get() {
@@ -64,13 +65,14 @@ class PagesGenerator {
     }
 
     fun transformLine(line: String): String? {
-        if (!line.contains("http") && !line.contains('-') && !line.contains('[')
-            && !line.contains("<•>") && !line.contains('❖') && !line.startsWith(' ')) {
+        if (!line.contains("http") && !line.contains('-')
+            && !line.contains('[') && !line.contains(breakLevelOne)
+            && !line.contains('❖') && !line.startsWith(' ')) {
             return null
         }
         val builder = StringBuilder()
         var processingLeadingSpaces = true
-        line.split(' ').forEachIndexed { i, word ->
+        line.split(' ').forEach { word ->
             if (builder.isNotEmpty() && !processingLeadingSpaces) {
                 builder.append(' ')
             }
@@ -84,7 +86,7 @@ class PagesGenerator {
                 } else {
                     builder.append(' ')
                 }
-                return@forEachIndexed
+                return@forEach
             }
             if (word.length == 1) {
                 builder.append(word)
@@ -96,8 +98,8 @@ class PagesGenerator {
                 // Footnote inside text, like "Hello, world![2]" and
                 // we make "world![2]" no wrap.
                 builder.append(makeNoWrap(word))
-            } else if (word == "<•>") {
-                builder.append(makeNoWrap(word))
+            } else if (word == breakLevelOne) {
+                builder.append(makeNoWrap("&lt;/&gt;"))
             } else {
                 builder.append(word)
             }
