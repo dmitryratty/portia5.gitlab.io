@@ -46,4 +46,8 @@ Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has
 
 * * *
 
+https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
+
+* * *
+
 Планируется добавление сюда разного по мере разбирания архива. Однажды я перейду с Ubuntu на NixOS, начну использовать Fediverse, Matrix...
