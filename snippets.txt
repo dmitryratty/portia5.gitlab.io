@@ -30,6 +30,18 @@ html make border around emoji
     ❄
     ⁂
 
+Beaty.
+
+    <///////////////////////////>
+
+    <///><///><///>
+
+    ❖ ❖ ❖
+
+    《》
+
+    <•>
+
 https://css-tricks.com/emoji-as-a-favicon/
 
 https://en.wikipedia.org/wiki/Fleuron_(typography)
