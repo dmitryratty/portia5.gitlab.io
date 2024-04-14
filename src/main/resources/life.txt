@@ -28,7 +28,9 @@
 
 * * *
 
-Multiverse is probabilities. Acausal trade. Если нравится процесс, то ты в выигрыше при любом результате. The Singularity Is Nigh. Memento mori. Нет предела совершенству. Exploration-exploitation dilemma. Внутренний локус контроля или депрессивное бессилие. Модель личности как множества субличностей, которые могут обучаться и договариваться. Лаконичность хорошо. Восприятие мира через мысли и через эмоции. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. Бесконечная молодость это не бессмертие. В отсуствии дополнительной информации лучшее предположение о будущем - среднее значение. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Детально и чётко сформулированные задачи хорошо. Радость в обыденности. Знать больше, чем ты знал вчера. Четыре вида эскапизма: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. Оптимизация бывает преждевременна и избыточна. If you never miss a plane, you're spending too much time at the airport. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Иногда оптимальнее менять мир, иногда — себя. Indecision is a decision.
+Multiverse is probabilities. Acausal trade. Если нравится процесс, то ты в выигрыше при любом результате. The Singularity Is Nigh. Memento mori. Exploration-exploitation dilemma. Premature optimization. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. Лаконичность. Восприятие мира через мысли и через эмоции. Virtue of silence. Детально и чётко сформулированные задачи. Четыре вида эскапизма: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision.
+
+Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. Бесконечная молодость это не бессмертие. В отсуствии дополнительной информации лучшее предположение о будущем - среднее значение. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Знать больше, чем ты знал вчера. If you never miss a plane, you're spending too much time at the airport. Иногда оптимальнее менять мир, иногда — себя. Радость в обыденности.
 
 * * *
 
@@ -60,9 +62,8 @@ From "Return Trip to Nirvana" by Arthur Koestler, "Sunday Telegraph", 12 March 1
 
 * * *
 
-https://en.wikipedia.org/wiki/Dark_forest_hypothesis
-
-https://en.wikipedia.org/wiki/Uncontacted_peoples
+- https://en.wikipedia.org/wiki/Dark_forest_hypothesis
+- https://en.wikipedia.org/wiki/Uncontacted_peoples
 
 * * *
 
@@ -74,4 +75,4 @@ The same technique would be popularized twenty years later by Edward Jenner, mar
 
 The point: there is knowledge for which money cannot substitute. Even if Louis XV had offered a large monetary bounty for ways to immunize himself against the pox, he would have had no way to distinguish Benjamin Jesty from the endless crowd of snake-oil sellers and faith healers and humoral balancers. Indeed, top medical “experts” of the time would likely have warned him away from Jesty.
 
-https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg/what-money-cannot-buy
+- https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg/what-money-cannot-buy
