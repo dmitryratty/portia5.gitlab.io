@@ -48,7 +48,8 @@ Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has
 
 * * *
 
-https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
+- https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
+- https://effectiviology.com/premature-optimization
 
 * * *
 
