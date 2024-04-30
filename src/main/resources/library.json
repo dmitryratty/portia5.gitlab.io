@@ -4066,6 +4066,18 @@
     },
     {
         "names": [
+            { "name": "Conditions of Personhood", "language": "en", "link": "https://doi.org/10.1007/978-1-4612-3950-5_7" }
+        ],
+        "authors": [ {
+            "names": [
+                { "name": "Daniel Dennett", "language": "en" }
+            ]
+        } ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 700
+    },
+    {
+        "names": [
             {
                 "name": "Double Crux — A Strategy for Mutual Understanding",
                 "language": "?"
@@ -4360,7 +4372,7 @@
         "names": [
             {
                 "name": "Keep Your Identity Small",
-                "language": "?",
+                "language": "en",
                 "link": "https://www.paulgraham.com/identity.html"
             }
         ],
@@ -4369,7 +4381,7 @@
                 "names": [
                     {
                         "name": "Paul Graham",
-                        "language": "?"
+                        "language": "en"
                     }
                 ]
             }
@@ -4385,7 +4397,7 @@
         "names": [
             {
                 "name": "Introductory Antimemetics",
-                "language": "?",
+                "language": "en",
                 "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
             }
         ],
