@@ -34,7 +34,7 @@ class PagesGenerator {
 
     fun main() {
         Library().main()
-        listOf("game", "tech", "math", "library", "life").forEach {
+        listOf("tech", "math", "library", "life", "vidya").forEach {
             val txtFile = resourcesDir.resolve("$it.txt").toFile()
             val htmlFile = projectDir.resolve("public/$it.html").toFile()
             htmlFile.writeText(txtToHtml(txtBeatify(txtFile.readText())))

@@ -21,7 +21,7 @@
  - https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 
 A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best:
-- https://en.wikipedia.org/wiki/Inductive_bias
+ - https://en.wikipedia.org/wiki/Inductive_bias
 
 https://arbital.com/p/bayes_rule
 
@@ -31,6 +31,34 @@ Algorithmic Mathematical Art:
 
 "Painting a Character with Maths" by Inigo Quilez:
  - https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
+
+* * *
+
+Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum…
+ - https://en.wikipedia.org/wiki/Game_theory
+
+Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.
+ - https://en.wikipedia.org/wiki/Prisoner's_dilemma
+
+A tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Noise presence, revenge cycles - forgiveness.
+ - https://en.wikipedia.org/wiki/Tit_for_tat
+
+- https://www.lesswrong.com/tag/acausal-trade
+- https://www.lesswrong.com/tag/parfits-hitchhiker
+- https://effectiviology.com/precommitment
+
+Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
+ - https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+
+Nicky Case, curious shtuff you can play:
+ - https://ncase.me
+
+https://en.wikipedia.org/wiki/Minimax
+https://en.wikipedia.org/wiki/Hawk-dove
+https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+https://en.wikipedia.org/wiki/The_Market_for_Lemons
+
+[TAG-GAME] [TAG-MATH]
 
 * * *
 

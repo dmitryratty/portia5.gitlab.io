@@ -10,6 +10,10 @@ Library "database" splitting into authors and books.
 
 <!-- dmitryratty [at] gmail [dot] com? image, as at ncase? -->
 
+<!--<p>🚀 Деньги.
+    <br/>&nbsp;— <a href="https://dmitryratty.gitlab.io/money">
+        https://dmitryratty.gitlab.io/money</a></p>-->
+
 Beaty.
 
     Emoji.
@@ -32,6 +36,16 @@ Beaty.
         🖤
         ⚫
         ❄
+        🪐
+        ໒
+        °｡°｡°｡°｡°
+        ₊₊₊₊
+        ♡
+        ⋆⋆⋆
+        ‧‧‧
+        ⸜⸜⸜
+        ₊₊₊
+        ˚˚˚
 
     <///////////////////////////>
 
