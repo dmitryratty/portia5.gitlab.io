@@ -1,7 +1,4 @@
-import java.nio.file.Path
-import java.nio.file.Paths
 import kotlin.io.path.listDirectoryEntries
-import kotlin.io.path.name
 import kotlin.io.path.nameWithoutExtension
 import kotlin.text.StringBuilder
 
@@ -23,7 +20,8 @@ class PagesGenerator {
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val lineStartDash = "^(- )".toRegex(RegexOption.MULTILINE)
     private val breakLevelOne = "</>"
-
+    private val bottomNavigationHtml = "<p class=\"dinkus\">* * *</p>" +
+            "<p><a href=\"https://dmitryratty.gitlab.io\">В начало</a>.</p>"
     private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
 
@@ -31,12 +29,28 @@ class PagesGenerator {
         Library().main()
         val projectDir = Utils().projectDir
         Utils().pagesDir.listDirectoryEntries("*.txt").forEach {
-            val htmlFile = projectDir.resolve("public/${it.nameWithoutExtension}.html").toFile()
-            htmlFile.writeText(txtToHtml(txtBeatify(it.toFile().readText())))
+            val pageName = it.nameWithoutExtension
+            val beautyfiedText = beautifyText(it.toFile().readText())
+            val titleAndBody = titleAndBody(beautyfiedText)
+            val bodyHtml = textToHtml(titleAndBody.second)
+            val htmlFile = projectDir.resolve("public/$pageName.html").toFile()
+            htmlFile.writeText(htmlPage(titleAndBody.first, bodyHtml, pageName != "index"))
         }
     }
 
-    fun txtBeatify(raw: String): String {
+    fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
+        return htmlTemplate
+            .replace("<!-- TITLE -->", title)
+            .replace("<!-- DATA -->", body)
+            .replace("<!-- DATA FOOTER -->", if (bottomNavigation) bottomNavigationHtml else "")
+    }
+
+    fun titleAndBody(beautyfiedText: String): Pair<String, String> {
+        val titleAndBody = beautyfiedText.split("\n\n", limit = 2)
+        return Pair(titleAndBody[0], titleAndBody[1])
+    }
+
+    fun beautifyText(raw: String): String {
         // Replace "..." with html entity instead "…"?
         val result = raw.replace(lineStartDash, "— ")
         return result.replace("...", "…").replace(" - ", " — ")
@@ -130,22 +144,15 @@ class PagesGenerator {
         return result.toString()
     }
 
-    fun txtToHtml(txtString: String): String {
-        val title = StringBuilder()
+    fun textToHtml(txtString: String): String {
         val article = StringBuilder()
         val paragraphs = txtString.split("\n\n")
         paragraphs.forEach { paragraph ->
-            if (title.isEmpty()) {
-                title.append(paragraph)
-                return@forEach
-            }
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }
             article.append(transformParagraph(paragraph))
         }
-        return htmlTemplate
-            .replace("<!-- TITLE -->", title.toString())
-            .replace("<!-- DATA -->", article.toString())
+        return article.toString()
     }
 }

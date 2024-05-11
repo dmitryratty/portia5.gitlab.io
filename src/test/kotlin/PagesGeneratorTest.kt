@@ -8,7 +8,7 @@ class PagesGeneratorTest {
     private val pagesGenerator: PagesGenerator = PagesGenerator()
 
     @Test
-    fun txtBeatify() {
+    fun beautifyText() {
         var lineIn = " - Start space-dash. And - dash in middle... And - another dash...\n" +
                 "- Start dash. Hello!\n" +
                 " \n" +
@@ -17,7 +17,7 @@ class PagesGeneratorTest {
                 "— Start dash. Hello!\n" +
                 " \n" +
                 "— Another start dash. And — dash…"
-        assertEquals(lineOut, pagesGenerator.txtBeatify(lineIn))
+        assertEquals(lineOut, pagesGenerator.beautifyText(lineIn))
     }
 
     @Test
@@ -43,12 +43,16 @@ class PagesGeneratorTest {
     }
 
     @Test
-    fun txtToHtml() {
+    fun textToHtml() {
         val resourcesDir = Paths.get("src/test/resources")
         assert(resourcesDir.exists())
-        val txtString = resourcesDir.resolve("test1.txt").toFile().readText()
+        val textString = resourcesDir.resolve("test1.txt").toFile().readText()
         val expectedHtmlString = resourcesDir.resolve("test1.html").toFile().readText()
-        val txtBeatify = pagesGenerator.txtBeatify(txtString)
-        assertEquals(expectedHtmlString, pagesGenerator.txtToHtml(txtBeatify))
+
+        val beautyfiedText = pagesGenerator.beautifyText(textString)
+        val titleAndBody = pagesGenerator.titleAndBody(beautyfiedText)
+        val bodyHtml = pagesGenerator.textToHtml(titleAndBody.second)
+        val htmlPage = pagesGenerator.htmlPage(titleAndBody.first, bodyHtml, true)
+        assertEquals(expectedHtmlString, htmlPage)
     }
 }
