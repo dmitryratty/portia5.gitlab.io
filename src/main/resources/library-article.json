@@ -1,0 +1,956 @@
+[
+    {
+        "names": [
+            {
+                "name": "Well-Kept Gardens Die By Pacifism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "The Demiurge’s Older Brother",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 250
+    },
+    {
+        "names": [
+            {
+                "name": "The Parable Of The Talents",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Talents Part 2: Attitude vs. Altitude",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "The Virtue of Silence",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "Schelling fences on slippery slopes",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Simulacra Levels Summary",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Zvi Mowshowitz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Simulacra Levels and Their Interactions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Zvi Mowshowitz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "Unifying the Simulacra Definitions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Zvi Mowshowitz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "The Four Children of the Seder as the Simulacra Levels",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Zvi Mowshowitz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Precommitment: Intentionally Limiting Your Future Options",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Itamar Shatz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1040
+    },
+    {
+        "names": [
+            {
+                "name": "Premature Optimization: Why It’s the “Root of All Evil” and How to Avoid It",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Itamar Shatz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1050
+    },
+    {
+        "names": [
+            {
+                "name": "The Platinum Rule: Treat Others the Way They Want to Be Treated",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Itamar Shatz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1060
+    },
+    {
+        "names": [
+            {
+                "name": "The Egocentric Bias: Why It’s Hard to See Things from a Different Perspective",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Itamar Shatz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1061
+    },
+    {
+        "names": [
+            {
+                "name": "Self-Distancing: What It Is and How You Can Use It to Make Better Decisions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Itamar Shatz",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1062
+    },
+    {
+        "names": [
+            {
+                "name": "Conditions of Personhood",
+                "language": "en",
+                "link": "https://doi.org/10.1007/978-1-4612-3950-5_7"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Daniel Dennett",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Double Crux — A Strategy for Mutual Understanding",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Duncan Sabien",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
+                "name": "Preview: eternalism and nihilism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Chapman",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "David Chapman",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "It Looks Like You’re Trying To Take Over The World",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gwern Branwen",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "In Praise of Boredom",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Eight Short Studies On Excuses",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "16 types of useful predictions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Julia Galef",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Intentionally Making Close Friends",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Neel Nanda",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Negative Feedback and Simulacra",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Elizabeth Van Nostrand",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "In praise of fake frameworks",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Michael Smith",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Are You Living in a Computer Simulation?",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Nick Bostrom",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "The Stamp Collector",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Nate Soares",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "Keep Your Identity Small",
+                "language": "en",
+                "link": "https://www.paulgraham.com/identity.html"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Paul Graham",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Introductory Antimemetics",
+                "language": "en",
+                "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam qntm Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 950
+    },
+    {
+        "names": [
+            {
+                "name": "Lena",
+                "language": "?",
+                "link": "https://qntm.org/mmacevedo"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam qntm Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 975
+    },
+    {
+        "names": [
+            {
+                "name": "We Need To Talk About Fifty-Five",
+                "language": "?",
+                "link": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam qntm Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 980
+    },
+    {
+        "names": [
+            {
+                "name": "If You Are Reading This",
+                "language": "?",
+                "link": "https://qntm.org/readin"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Sam qntm Hughes",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 970
+    },
+    {
+        "names": [
+            {
+                "name": "The Path to Reason",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Masculine Virtues",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
+                "name": "100 Ways To Live Better",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "Selfless Dating",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Jacob Falkovich",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "Hammertime Day 7: Aversion Factoring",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Xiaoyu He",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 1400
+    }
+]

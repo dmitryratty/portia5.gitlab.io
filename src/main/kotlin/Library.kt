@@ -2,7 +2,7 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.lang.StringBuilder
-import java.nio.file.Paths
+import kotlin.io.path.listDirectoryEntries
 
 /**
  * Novel - роман.
@@ -71,10 +71,24 @@ class Library {
     }
 
     private fun generatePublic() {
-        val moduleDir = Paths.get("ratty-public")
-        val inputFile = moduleDir.resolve("src/main/resources/library.json").toFile()
-        val writingsIn = Json.decodeFromString<List<Writing>>(inputFile.readText())
+        val resourcesDir = Utils().resourcesDir
+        val writingsIn : MutableList<Writing> = arrayListOf()
+        resourcesDir.listDirectoryEntries("library*.json").forEach {
+            writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
+        }
         printCount(writingsIn)
+
+        val format = Json { prettyPrint = true }
+
+        val articlesToSave = writingsIn.filter {
+            it.tags.contains("essay") || it.tags.contains("blogging") }
+        val outArticleFile = resourcesDir.resolve("library-article.json").toFile()
+        outArticleFile.writeText(format.encodeToString(articlesToSave))
+
+        val othersToSave = writingsIn.filter {
+            !it.tags.contains("essay") && !it.tags.contains("blogging") }
+        val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
+        outOtherFile.writeText(format.encodeToString(othersToSave))
 
         val result = StringBuilder("Ну… Библиотека!")
 
@@ -86,21 +100,21 @@ class Library {
             result.append(formatAuthors(authors, "ru"))
             result.append(formatWritings(writings, "ru"))
         }
-        result.append("\n\n* * *")
 
         val entertaining =
             writingsIn.filter { it.tags.contains("entertaining") && !it.tags.contains("blogging") }
                 .groupBy { it.authors }
         if (entertaining.isNotEmpty()) {
+            result.append("\n\n* * *")
             result.append("\n\nПросто забавные штуки.\n\n")
             entertaining.forEach { (authors, writings) ->
                 result.append(" ")
                 result.append(formatAuthors(authors, "ru"))
                 result.append(formatWritings(writings, "ru"))
             }
-            result.append("\n\n* * *")
         }
 
+        result.append("\n\n* * *")
         result.append("\n\nЕщё я читал этих авторов.\n\n")
         val authors =
             writingsIn.filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
@@ -112,8 +126,8 @@ class Library {
             prefix = " ",
             postfix = ".",
             transform = { it[0].names[0].name }))
-        result.append("\n\n* * *")
 
+        result.append("\n\n* * *")
         result.append("\n\nИнтересные тексты в Интернетах.\n\n")
         val posts =
             writingsIn.filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
