@@ -115,6 +115,17 @@ class Library {
         }
 
         result.append("\n\n* * *")
+        result.append("\n\nИнтересные тексты в Интернетах.\n\n")
+        val posts =
+            writingsIn.filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
+                .groupBy { it.authors }
+        posts.forEach { (authors, writings) ->
+            result.append(" ")
+            result.append(formatAuthors(authors, "en"))
+            result.append(formatWritings(writings, "en"))
+        }
+
+        result.append("\n\n* * *")
         result.append("\n\nЕщё я читал этих авторов.\n\n")
         val authors =
             writingsIn.filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
@@ -126,17 +137,6 @@ class Library {
             prefix = " ",
             postfix = ".",
             transform = { it[0].names[0].name }))
-
-        result.append("\n\n* * *")
-        result.append("\n\nИнтересные тексты в Интернетах.\n\n")
-        val posts =
-            writingsIn.filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
-                .groupBy { it.authors }
-        posts.forEach { (authors, writings) ->
-            result.append(" ")
-            result.append(formatAuthors(authors, "en"))
-            result.append(formatWritings(writings, "en"))
-        }
 
         Utils().pagesDir.resolve("library.txt").toFile().writeText(result.toString())
     }
