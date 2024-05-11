@@ -1,5 +1,8 @@
 import java.nio.file.Path
 import java.nio.file.Paths
+import kotlin.io.path.listDirectoryEntries
+import kotlin.io.path.name
+import kotlin.io.path.nameWithoutExtension
 import kotlin.text.StringBuilder
 
 class PagesGenerator {
@@ -21,23 +24,15 @@ class PagesGenerator {
     private val lineStartDash = "^(- )".toRegex(RegexOption.MULTILINE)
     private val breakLevelOne = "</>"
 
-    private val projectDir: Path
-        get() {
-            val current = Paths.get("").toAbsolutePath()
-            if (current.endsWith("ratty-public")) {
-                return current
-            }
-            return current.resolve("ratty-public")
-        }
-    private val resourcesDir get() = projectDir.resolve("src/main/resources")
+    private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
 
     fun main() {
         Library().main()
-        listOf("tech", "math", "library", "vidya", "is", "life").forEach {
-            val txtFile = resourcesDir.resolve("$it.txt").toFile()
-            val htmlFile = projectDir.resolve("public/$it.html").toFile()
-            htmlFile.writeText(txtToHtml(txtBeatify(txtFile.readText())))
+        val projectDir = Utils().projectDir
+        Utils().pagesDir.listDirectoryEntries("*.txt").forEach {
+            val htmlFile = projectDir.resolve("public/${it.nameWithoutExtension}.html").toFile()
+            htmlFile.writeText(txtToHtml(txtBeatify(it.toFile().readText())))
         }
     }
 

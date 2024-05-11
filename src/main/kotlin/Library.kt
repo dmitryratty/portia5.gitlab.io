@@ -124,6 +124,6 @@ class Library {
             result.append(formatWritings(writings, "en"))
         }
 
-        Paths.get("ratty-public/src/main/resources/library.txt").toFile().writeText(result.toString())
+        Utils().pagesDir.resolve("library.txt").toFile().writeText(result.toString())
     }
 }
