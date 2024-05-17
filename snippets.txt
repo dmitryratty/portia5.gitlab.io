@@ -8,6 +8,12 @@ Gallery
 
 Library "database" splitting into authors and books.
 
+    https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
+
+    https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
+
+    YAML, HOCON?
+
 <!-- dmitryratty [at] gmail [dot] com? image, as at ncase? -->
 
 <!--<p>🚀 Деньги.
