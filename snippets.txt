@@ -20,6 +20,9 @@ Library "database" splitting into authors and books.
     <br/>&nbsp;— <a href="https://dmitryratty.gitlab.io/money">
         https://dmitryratty.gitlab.io/money</a></p>-->
 
+’ <> '
+" <> “”
+
 Library
 
     "language": "en"
@@ -122,6 +125,13 @@ Library
         "rating": 900
     },
 
+Game.
+
+    When I stopped trying to self-optimize, I got better
+
+        Link: https://readhacker.news/s/5QkjM
+        Comments: https://readhacker.news/c/5QkjM
+
 Beaty.
 
     Emoji.
@@ -203,13 +213,6 @@ Difference between CSS3's :root pseudo class and html
         /* The HTML document's root element will have a red background-color.  */
         Targeting the root element
         CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
-
-Game.
-
-    When I stopped trying to self-optimize, I got better
-
-        Link: https://readhacker.news/s/5QkjM
-        Comments: https://readhacker.news/c/5QkjM
 
 Footnotes:
 
