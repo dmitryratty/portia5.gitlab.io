@@ -45,6 +45,21 @@ Library
 
     {
         "names": [
+            { "name": "Eight Billion People", "language": "en", "link": "https://www.oranlooney.com/post/eight-billion/" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "Oran Looney", "language": "en", "link": "https://www.oranlooney.com/" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 9000
+    },
+
+    {
+        "names": [
             { "name": "The Shirky Principle: Institutions Try to Preserve the Problem to Which They Are the Solution", "language": "en", "link": "https://effectiviology.com/shirky-principle/" }
         ],
         "authors": [
@@ -165,6 +180,8 @@ Beaty.
         ⸜⸜⸜
         ₊₊₊
         ˚˚˚
+
+        ༺♡༻
 
     <///////////////////////////>
 
