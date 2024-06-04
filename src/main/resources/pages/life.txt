@@ -1,5 +1,7 @@
 Ну… Жизнь!
 
+Сперва я ничего не понял. Впрочем, потом тоже.
+
 При грамотном планировании времени и адекватной оценке собственных возможностей можно запланировать на выходные ничего не делать и всё успеть.
 
 Плохую метафору можно уподобить котёнку с дверцей.
@@ -24,28 +26,16 @@
 - Есть.
 - А теперь постройте ее проекцию на четырехмерное пространство.
 
-Сперва я ничего не понял. Впрочем, потом тоже.
+"Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials".
+ - https://doi.org/10.1136/bmj.327.7429.1459
+"Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".
+ - https://doi.org/10.1136/bmj.k5094
 
-* * *
-
-- "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials".[1]
-- "Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".[2]
-
-[1]. https://doi.org/10.1136/bmj.327.7429.1459
-[2]. https://doi.org/10.1136/bmj.k5094
-
-* * *
-
-…a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger."
-
-"Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
+…a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger." "Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
 
-* * *
-
-Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
-
-Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину и-или стыд за то, что не ощущаю того, что согласно социальным нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
+In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
+ - https://en.wikipedia.org/wiki/Idiot_plot
 
 * * *
 
@@ -64,8 +54,9 @@ https://en.wikipedia.org/wiki/Abilene_paradox
 
 * * *
 
-In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
- - https://en.wikipedia.org/wiki/Idiot_plot
+Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
+
+Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину и-или стыд за то, что не ощущаю того, что согласно социальным нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
 
 * * *
 
