@@ -1,3 +1,53 @@
+Well...
+
+Прочитать.
+
+Simple Mobile Tools bought by ZipoApps?
+- https://github.com/SimpleMobileTools/General-Discussion/issues/241
+
+"Why Everything is Becoming a Game" by "GURWINDER" at "APR 20, 2024".
+- https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
+
+Умер ли Никола Бурбаки?
+- https://www.mathnet.ru/rus/mp18
+
+https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+
+https://en.wikipedia.org/wiki/Alexander_Grothendieck
+
+https://www.alignmentforum.org/tag/instrumental-convergence
+
+https://www.lesswrong.com/tag/acausal-trade
+
+AI Safety 101.
+- https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
+
+https://en.m.wikipedia.org/wiki/No_free_lunch_theorem
+
+https://en.m.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
+
+https://en.m.wikipedia.org/wiki/Kolmogorov_complexity
+
+https://en.m.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference
+
+https://en.m.wikipedia.org/wiki/Problem_of_induction
+
+https://ciechanow.ski/airfoil/
+
+https://blog.frost.kiwi/WebGL-LUTS-made-simple/
+
+"Structure and Interpretation of Computer Programs" - Gerald Jay Sussman, Hal Abelson, Julie Sussman.
+
+"Конкретная математика. Основание информатики" - Рональд Грэхем, Дональд Кнут и Орен Паташник.
+
+"Гёдель Эшер Бах" - Дуглас Хоффштадтер.
+
+"Ожерелье Индры. Видение Феликса Клейна" - Дэвид Мамфорд, Дэвид Райт, Кэролайн Сирис.
+
+"Компьютерные сети" - Эндрю Таненбаум, Дэвид Уэзеролл.
+
+⚫ ⚫ ⚫
+
 Gallery
 
     image gallery html library like google photos
@@ -147,60 +197,44 @@ Game.
         Link: https://readhacker.news/s/5QkjM
         Comments: https://readhacker.news/c/5QkjM
 
-Beaty.
+Beaty. Emoji.
 
-    Emoji.
+    html make border around emoji
 
-        html make border around emoji
+    https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 
-        https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+    <!-- &#x1F921; - Clown Face Emoji. -->
+    <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+    <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+    <!-- &#x1F3AE; - Video Game Emoji. -->
+    <!-- &#x1F3B2; - Game Die Emoji. -->
+    <!-- &#x1F392; - School Satchel. -->
+    <!-- &#x3C0; - Greek Small Letter Pi. -->
+    <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+    ➗ 🦉 🎒 🖤 ⚫ ❄ 💠 🪐
 
-        <!-- &#x1F921; - Clown Face Emoji. -->
-        <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
-        <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
-        <!-- &#x1F3AE; - Video Game Emoji. -->
-        <!-- &#x1F3B2; - Game Die Emoji. -->
-        <!-- &#x1F392; - School Satchel. -->
-        <!-- &#x3C0; - Greek Small Letter Pi. -->
-        <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
-        ➗
-        🦉
-        🎒
-        🖤
-        ⚫
-        ❄
-        💠
-        🪐
-        ໒
-        °｡°｡°｡°｡°
-        ₊₊₊₊
-        ♡
-        ⋆⋆⋆
-        ‧‧‧
-        ⸜⸜⸜
-        ₊₊₊
-        ˚˚˚
+Beaty. https://en.wikipedia.org/wiki/Fleuron_(typography) https://en.wikipedia.org/wiki/Dingbat
 
-        ༺♡༻
-
+    ⁂ ❦
+    ໒
+    °｡°｡°｡°｡°
+    ₊₊₊₊
+    ♡
+    ⋆⋆⋆
+    ‧‧‧
+    ⸜⸜⸜
+    ₊₊₊
+    ˚˚˚
+    ༺♡༻
     <///////////////////////////>
-
     <///><///><///>
-
     ❖ ❖ ❖
-
     《》
-
     <•>
 
-    ⁂
-
-    https://en.wikipedia.org/wiki/Fleuron_(typography)
-
-    https://en.wikipedia.org/wiki/Dingbat
+THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 https://css-tricks.com/emoji-as-a-favicon/
-
 
 CSS
 
