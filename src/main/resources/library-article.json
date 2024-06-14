@@ -30,6 +30,31 @@
     {
         "names": [
             {
+                "name": "Умер ли Никола Бурбаки?",
+                "language": "ru",
+                "link": "https://www.mathnet.ru/rus/mp18"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "А. Б. Сосинский",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1900
+    },
+    {
+        "names": [
+            {
                 "name": "Hero Licensing",
                 "language": "?"
             }

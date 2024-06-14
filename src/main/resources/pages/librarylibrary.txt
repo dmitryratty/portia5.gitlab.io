@@ -6,9 +6,6 @@ Well, well… Library!
 
 Возможно прочитаю.
 
-Умер ли Никола Бурбаки?
-- https://www.mathnet.ru/rus/mp18
-
 Simple Mobile Tools bought by ZipoApps?
 - https://github.com/SimpleMobileTools/General-Discussion/issues/241
 

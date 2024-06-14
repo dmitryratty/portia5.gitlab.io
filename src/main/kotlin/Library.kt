@@ -118,7 +118,7 @@ class Library {
         result.append("\n\nИнтересные тексты в Интернетах.\n\n")
         val posts =
             writingsIn.filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
-                .groupBy { it.authors }
+                .sortedBy { it.rating }.groupBy { it.authors }
         posts.forEach { (authors, writings) ->
             result.append(" ")
             result.append(formatAuthors(authors, "en"))
