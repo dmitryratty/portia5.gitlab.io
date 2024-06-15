@@ -100,6 +100,10 @@ The shadow libraries Anna's Archive and Library Genesis also deliver books via I
 
 During the block of Wikipedia in Turkey, IPFS was used to create a mirror of Wikipedia, which allowed access to archived static Wikipedia content despite the ban. The mirror has now been expanded to more languages, such as English, Ukrainian, Russian, Arabic, and Chinese. A collection of the mirrors can be viewed by using its CID at an IPFS Gateway.
 
+Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser.
+
+Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
+
 * * *
 
 Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
