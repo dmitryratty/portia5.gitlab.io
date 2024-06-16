@@ -41,7 +41,7 @@ Well… Technology!
 
 [1]. https://en.wikipedia.org/wiki/Spaced_repetition
 
-[MATH]
+#Math
 
 * * *
 
@@ -60,7 +60,7 @@ Algorithmic Mathematical Art:
 "Painting a Character with Maths" by Inigo Quilez:
  - https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 
-[MATH]
+#Math
 
 * * *
 
@@ -88,7 +88,7 @@ https://en.wikipedia.org/wiki/Hawk-dove
 https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 https://en.wikipedia.org/wiki/The_Market_for_Lemons
 
-[MATH]
+#Math #GameTheory
 
 * * *
 
@@ -109,6 +109,12 @@ Opera for Android has default support for IPFS, allowing mobile users to browse 
 Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
 - https://en.wikipedia.org/wiki/Intel_Management_Engine
 - https://mjg59.dreamwidth.org/48429.html
+
+* * *
+
+https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish
+
+#Trickery
 
 * * *
 
