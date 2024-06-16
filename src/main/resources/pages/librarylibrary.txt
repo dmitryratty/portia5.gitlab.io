@@ -6,28 +6,30 @@ Well, well… Library!
 
 Возможно прочитаю.
 
-https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+https://ciechanow.ski/airfoil/
+
+https://blog.frost.kiwi/WebGL-LUTS-made-simple/
+
+https://en.wikipedia.org/wiki/No_free_lunch_theorem
+
+https://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
 
 https://www.alignmentforum.org/tag/instrumental-convergence
 
 https://www.lesswrong.com/tag/acausal-trade
 
+https://www.lesswrong.com/tag/moloch
+
+https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+
 AI Safety 101.
 - https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
-
-https://en.wikipedia.org/wiki/No_free_lunch_theorem
-
-https://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
 
 https://en.wikipedia.org/wiki/Kolmogorov_complexity
 
 https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
 
 https://en.wikipedia.org/wiki/Problem_of_induction
-
-https://ciechanow.ski/airfoil/
-
-https://blog.frost.kiwi/WebGL-LUTS-made-simple/
 
 "Structure and Interpretation of Computer Programs" - Gerald Jay Sussman, Hal Abelson, Julie Sussman.
 
