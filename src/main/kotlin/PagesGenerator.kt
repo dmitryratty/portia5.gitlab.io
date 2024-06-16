@@ -73,12 +73,32 @@ class PagesGenerator {
         }
     }
 
-    fun transformLine(line: String): String? {
-        if (!line.contains("http") && !line.contains('-')
-            && !line.contains('[') && !line.contains(breakLevelOne)
-            && !line.contains('❖') && !line.startsWith(' ')) {
-            return null
+    fun longWordLineBreaks(word: String): String {
+        return word
+        //return word.split("(.{20})|(.+)").joinToString { "<wbr>" }
+    }
+
+    fun transformWord(word: String): String {
+        return if (word.length == 1) {
+            word
+        } else if (word.startsWith("http")) {
+            "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
+        } else if (word.contains('-')) {
+            makeNoWrap(word)
+        } else if (word.contains('[') && footnote.matches(word)) {
+            // Footnote inside text, like "Hello, world![2]" and
+            // we make "world![2]" no wrap.
+            makeNoWrap(word)
+        } else if (word == breakLevelOne) {
+            makeNoWrap("&lt;•&gt;")
+        } else if (word.length > 20) {
+            longWordLineBreaks(word)
+        } else {
+            word
         }
+    }
+
+    fun transformLine(line: String): String {
         val builder = StringBuilder()
         var processingLeadingSpaces = true
         line.split(' ').forEach { word ->
@@ -97,21 +117,7 @@ class PagesGenerator {
                 }
                 return@forEach
             }
-            if (word.length == 1) {
-                builder.append(word)
-            } else if (word.startsWith("http")) {
-                builder.append("<a href=\"$word\">${longUrlLineBreaks(word)}</a>")
-            } else if (word.contains('-')) {
-                builder.append(makeNoWrap(word))
-            } else if (word.contains('[') && footnote.matches(word)) {
-                // Footnote inside text, like "Hello, world![2]" and
-                // we make "world![2]" no wrap.
-                builder.append(makeNoWrap(word))
-            } else if (word == breakLevelOne) {
-                builder.append(makeNoWrap("&lt;/&gt;"))
-            } else {
-                builder.append(word)
-            }
+            builder.append(transformWord(word))
         }
         return builder.toString()
     }
@@ -130,12 +136,9 @@ class PagesGenerator {
         while (iterate.hasNext()) {
             val oldValue = iterate.next()
             val newValue = transformLine(oldValue)
-            if (newValue != null) {
-                iterate.set(newValue)
-            }
-            val value = newValue ?: oldValue
-            if (value.contains("  ")) {
-                throw IllegalStateException("Double space: [$value]")
+            iterate.set(newValue)
+            if (newValue.contains("  ")) {
+                throw IllegalStateException("Double space: [$newValue]")
             }
         }
         result.append("<p>")
