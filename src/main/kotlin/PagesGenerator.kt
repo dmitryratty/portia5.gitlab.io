@@ -9,6 +9,7 @@ class PagesGenerator {
         }
     }
 
+    private val maxUnwrappedWordLenght = 30
     // "<span class=\"nowrap\">$1</span>"
     private val dashNoWrap = "(\\S+-\\S+)".toRegex()
     // "<a href=\"$1\">\$1</a>"
@@ -73,9 +74,11 @@ class PagesGenerator {
         }
     }
 
+    @Suppress("RegExpSimplifiable")
+    private val longWordLineBreaks = "((.{$maxUnwrappedWordLenght})|(.+))".toRegex()
+
     fun longWordLineBreaks(word: String): String {
-        return word
-        //return word.split("(.{20})|(.+)").joinToString { "<wbr>" }
+        return longWordLineBreaks.findAll(word).map { it.value }.joinToString("<wbr>")
     }
 
     fun transformWord(word: String): String {
@@ -91,7 +94,7 @@ class PagesGenerator {
             makeNoWrap(word)
         } else if (word == breakLevelOne) {
             makeNoWrap("&lt;•&gt;")
-        } else if (word.length > 20) {
+        } else if (word.length > maxUnwrappedWordLenght) {
             longWordLineBreaks(word)
         } else {
             word
