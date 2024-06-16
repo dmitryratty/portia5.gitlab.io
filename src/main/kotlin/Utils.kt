@@ -24,4 +24,8 @@ class Utils {
     fun splitToParagraphs(text: String): List<String> {
         return text.split("\n\n")
     }
+
+    fun splitParagraphToLines(paragraph: String): List<String> {
+        return paragraph.split('\n')
+    }
 }

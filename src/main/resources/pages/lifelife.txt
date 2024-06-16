@@ -1,4 +1,4 @@
-Well, well… Life!
+Well, well... Life!
 
 [START TO UNDERSTAND] P(A|B) = [P(A)*P(B|A)]/P(B) [TO UNDERSTAND END]
 
@@ -130,7 +130,7 @@ https://open.substack.com/pub/malmesbury/p/there-is-way-too-much-serendipity
 При встрече с ним мой стих ты вспомнишь,
 И вот тогда глухую полночь
 Прорежет жуткий крик: «На помощь!»
-А дальше - чавканье и хруст…
+А дальше - чавканье и хруст...
 
 - https://stihi.ru/2002/10/10-463
 

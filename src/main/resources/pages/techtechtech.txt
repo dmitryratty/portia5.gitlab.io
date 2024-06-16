@@ -1,4 +1,4 @@
-Well, well, well… Technology!
+Well, well, well... Technology!
 
 Difference between CSS3's ":root" pseudo class and "html"
 

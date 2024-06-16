@@ -1,4 +1,4 @@
-Well… Technology!
+Well... Technology!
 
 Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день. </> При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. </> При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала. [25.03.2024]
 
@@ -64,7 +64,7 @@ Algorithmic Mathematical Art:
 
 * * *
 
-Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum…
+Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum...
  - https://en.wikipedia.org/wiki/Game_theory
 
 Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.

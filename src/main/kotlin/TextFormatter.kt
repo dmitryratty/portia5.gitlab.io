@@ -8,18 +8,32 @@ class TextFormatter {
     fun main() {
         Utils().textPagesPaths().forEach {
             val file = it.toFile()
-            file.writeText(textFormatting(file.readText()))
+            file.writeText(textFormatting(file.name, file.readText()))
         }
     }
 
-    fun textFormatting(text: String): String {
-        // Replace "…" to "...".
+    fun textFormatting(name: String, text: String): String {
         // Replace ’ with ', “” with ".
-        // Replace multiple spaces in the middle of the line with single space.
         // Remove trailing spaces.
-        Utils().splitToParagraphs(text).forEach {
-
+        val result = StringBuilder()
+        Utils().splitToParagraphs(text).forEach { paragraph ->
+            val paragraphBuilder = StringBuilder()
+            Utils().splitParagraphToLines(paragraph).forEach { line ->
+                if (line.trim().contains("  ")) {
+                    // Detect multiple spaces in the middle of the line, it's usually a typos.
+                    throw IllegalStateException("Double space in [$name], line: [$line]")
+                }
+                if (paragraphBuilder.isNotEmpty()) {
+                    paragraphBuilder.append("\n")
+                }
+                paragraphBuilder.append(line.trimEnd()
+                    .replace("…", "..."))
+            }
+            if (result.isNotEmpty()) {
+                result.append("\n\n")
+            }
+            result.append(paragraphBuilder)
         }
-        return text
+        return result.toString()
     }
 }

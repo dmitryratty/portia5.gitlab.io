@@ -33,6 +33,7 @@ class PagesGenerator {
 
     fun main() {
         Library().main()
+        TextFormatter().main()
         val projectDir = Utils().projectDir
         Utils().textPagesPaths().forEach {
             val pageName = it.nameWithoutExtension
@@ -147,12 +148,7 @@ class PagesGenerator {
         val lines = paragraph.split('\n').toMutableList()
         val iterate = lines.listIterator()
         while (iterate.hasNext()) {
-            val oldValue = iterate.next()
-            val newValue = transformLine(oldValue)
-            iterate.set(newValue)
-            if (newValue.contains("  ")) {
-                throw IllegalStateException("Double space: [$newValue]")
-            }
+            iterate.set(transformLine(iterate.next()))
         }
         result.append("<p>")
         result.append(lines.joinToString("\n        $brElement"))
