@@ -9,6 +9,12 @@ class PagesGenerator {
         }
     }
 
+    /**
+     * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
+     */
+    private val xhmtlCompatibleVoidElements = false
+    private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
+    private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 30
     // "<span class=\"nowrap\">$1</span>"
     private val dashNoWrap = "(\\S+-\\S+)".toRegex()
@@ -63,7 +69,7 @@ class PagesGenerator {
 
     private fun longUrlLineBreaks(url: String): String {
         // https://css-tricks.com/better-line-breaks-for-long-urls/
-        return url.split("//").joinToString("//<wbr>") { part ->
+        val newUrl = url.split("//").joinToString("//<wbr>") { part ->
             // Insert a word break opportunity after a colon
             part.replace(wbrAfter, "\$1<wbr>")
                 // Before a single slash, tilde, period, comma, hyphen, underline,
@@ -72,33 +78,38 @@ class PagesGenerator {
                 // Before and after an equals sign or ampersand
                 .replace(wbrBeforeAfter, "<wbr>\$1<wbr>")
         }
+        return if (xhmtlCompatibleVoidElements) {
+            newUrl.replace("<wbr>", "<wbr/>")
+        } else {
+            newUrl
+        }
     }
 
     @Suppress("RegExpSimplifiable")
     private val longWordLineBreaks = "((.{$maxUnwrappedWordLenght})|(.+))".toRegex()
 
     fun longWordLineBreaks(word: String): String {
-        return longWordLineBreaks.findAll(word).map { it.value }.joinToString("<wbr>")
+        return longWordLineBreaks.findAll(word).map { it.value }.joinToString(wbrElement)
     }
 
     fun transformWord(word: String): String {
-        return if (word.length == 1) {
-            word
-        } else if (word.startsWith("http")) {
-            "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
-        } else if (word.contains('-')) {
-            makeNoWrap(word)
-        } else if (word.contains('[') && footnote.matches(word)) {
+        if (word.startsWith("http")) {
+            return "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
+        } else if (word == breakLevelOne) {
+            return makeNoWrap("&lt;•&gt;")
+        }
+        var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            //.replace("\"", "&quot;").replace("'", "&apos;")
+        if (newWord.contains('-')) {
+            newWord = makeNoWrap(newWord)
+        } else if (newWord.contains('[') && footnote.matches(newWord)) {
             // Footnote inside text, like "Hello, world![2]" and
             // we make "world![2]" no wrap.
-            makeNoWrap(word)
-        } else if (word == breakLevelOne) {
-            makeNoWrap("&lt;•&gt;")
-        } else if (word.length > maxUnwrappedWordLenght) {
-            longWordLineBreaks(word)
-        } else {
-            word
+            newWord = makeNoWrap(newWord)
+        } else if (newWord.length > maxUnwrappedWordLenght) {
+            newWord = longWordLineBreaks(newWord)
         }
+        return newWord
     }
 
     fun transformLine(line: String): String {
@@ -145,7 +156,7 @@ class PagesGenerator {
             }
         }
         result.append("<p>")
-        result.append(lines.joinToString("\n        <br/>"))
+        result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")
         return result.toString()
     }
