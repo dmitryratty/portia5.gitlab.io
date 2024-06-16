@@ -1,4 +1,3 @@
-import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.nameWithoutExtension
 import kotlin.text.StringBuilder
 
@@ -12,7 +11,7 @@ class PagesGenerator {
     /**
      * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
      */
-    private val xhmtlCompatibleVoidElements = false
+    var xhmtlCompatibleVoidElements = false
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 30
@@ -35,7 +34,7 @@ class PagesGenerator {
     fun main() {
         Library().main()
         val projectDir = Utils().projectDir
-        Utils().pagesDir.listDirectoryEntries("*.txt").forEach {
+        Utils().textPagesPaths().forEach {
             val pageName = it.nameWithoutExtension
             val beautyfiedText = beautifyText(it.toFile().readText())
             val titleAndBody = titleAndBody(beautyfiedText)
@@ -58,7 +57,6 @@ class PagesGenerator {
     }
 
     fun beautifyText(raw: String): String {
-        // Replace "..." with html entity instead "…"?
         val result = raw.replace(lineStartDash, "— ")
         return result.replace("...", "…").replace(" - ", " — ")
     }
@@ -98,6 +96,7 @@ class PagesGenerator {
         } else if (word == breakLevelOne) {
             return makeNoWrap("&lt;•&gt;")
         }
+        // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             //.replace("\"", "&quot;").replace("'", "&apos;")
         if (newWord.contains('-')) {
@@ -145,7 +144,7 @@ class PagesGenerator {
             result.append("<p class=\"dinkus\">* * *</p>")
             return result.toString()
         }
-        val lines = paragraph.trim().split('\n').toMutableList()
+        val lines = paragraph.split('\n').toMutableList()
         val iterate = lines.listIterator()
         while (iterate.hasNext()) {
             val oldValue = iterate.next()
@@ -161,10 +160,9 @@ class PagesGenerator {
         return result.toString()
     }
 
-    fun textToHtml(txtString: String): String {
+    fun textToHtml(text: String): String {
         val article = StringBuilder()
-        val paragraphs = txtString.split("\n\n")
-        paragraphs.forEach { paragraph ->
+        Utils().splitToParagraphs(text).forEach { paragraph ->
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }

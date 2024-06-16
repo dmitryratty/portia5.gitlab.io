@@ -1,7 +1,14 @@
 Well... TODO!
 
-’ <> '
-" <> “”
+Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
+
+Переделать “master” в “main”. Переделать автора коммитов на Ratty.
+
+no wrap для финализаторов слов и предложений, вроде сносок.
+
+Почему в Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
+
+Английский. Тёмнотема.
 
 Gallery
 
@@ -136,11 +143,7 @@ Library
         "rating": 900
     },
 
-Game.
-
-    When I stopped trying to self-optimize, I got better
-    Link: https://readhacker.news/s/5QkjM
-    Comments: https://readhacker.news/c/5QkjM
+THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 Beaty. Emoji.
 
@@ -175,8 +178,6 @@ Beaty. https://en.wikipedia.org/wiki/Fleuron_(typography) https://en.wikipedia.o
     ˚˚˚
     ༺♡༻
 
-THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
 https://css-tricks.com/emoji-as-a-favicon/
 
 CSS
@@ -184,29 +185,6 @@ CSS
     MAGICK.CSS https://css.winterveil.net/
 
     Tufte CSS https://edwardtufte.github.io/tufte-css/
-
-    Difference between CSS3's :root pseudo class and html
-
-        https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
-
-        https://www.30secondsofcode.org/css/s/root-vs-html/
-
-            CSS has two ways to target the root element of an HTML document - the :root pseudo-class and the html selector. While these are very similar to each other, they have a couple of differences you should know.
-
-            Selector specificity
-            The :root selector has a higher specificity than the html selector. This is because :root is a pseudo-class selector, while html is a type selector.
-
-            :root {
-              background-color: red;
-            }
-
-            html {
-              background-color: blue;
-            }
-
-            /* The HTML document's root element will have a red background-color. */
-            Targeting the root element
-            CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
 
 Footnotes:
 

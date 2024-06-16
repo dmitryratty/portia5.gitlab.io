@@ -1,8 +1,8 @@
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import java.lang.StringBuilder
 import kotlin.io.path.listDirectoryEntries
+import kotlin.text.StringBuilder
 
 /**
  * Novel - роман.
@@ -80,61 +80,80 @@ class Library {
 
         val format = Json { prettyPrint = true }
 
-        val articlesToSave = writingsIn.filter {
-            it.tags.contains("essay") || it.tags.contains("blogging") }
+        val articlesToSave = writingsIn
+            .filter { it.tags.contains("essay") || it.tags.contains("blogging") }
         val outArticleFile = resourcesDir.resolve("library-article.json").toFile()
         outArticleFile.writeText(format.encodeToString(articlesToSave))
 
-        val othersToSave = writingsIn.filter {
-            !it.tags.contains("essay") && !it.tags.contains("blogging") }
+        val othersToSave = writingsIn
+            .filter { !it.tags.contains("essay") && !it.tags.contains("blogging") }
         val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
 
         val result = StringBuilder("Ну… Библиотека!")
+        val builder = StringBuilder()
 
         result.append("\n\nШтуки, которые могу порекомендовать.\n\n")
-        val recommendations = writingsIn.filter { it.tags.contains("recommendation") }
-            .sortedBy { it.rating }.groupBy { it.authors }
+        val recommendations = writingsIn
+            .filter { it.tags.contains("recommendation") }
+            .sortedBy { it.rating }
+            .groupBy { it.authors }
+        builder.clear()
         recommendations.forEach { (authors, writings) ->
-            result.append(" ")
-            result.append(formatAuthors(authors, "ru"))
-            result.append(formatWritings(writings, "ru"))
+            if (builder.isNotEmpty()) {
+                builder.append(" ")
+            }
+            builder.append(formatAuthors(authors, "ru"))
+            builder.append(formatWritings(writings, "ru"))
         }
+        result.append(builder)
 
-        val entertaining =
-            writingsIn.filter { it.tags.contains("entertaining") && !it.tags.contains("blogging") }
-                .groupBy { it.authors }
+        val entertaining = writingsIn
+            .filter { it.tags.contains("entertaining") && !it.tags.contains("blogging") }
+            .sortedBy { it.rating }
+            .groupBy { it.authors }
         if (entertaining.isNotEmpty()) {
             result.append("\n\n* * *")
             result.append("\n\nПросто забавные штуки.\n\n")
+            builder.clear()
             entertaining.forEach { (authors, writings) ->
-                result.append(" ")
-                result.append(formatAuthors(authors, "ru"))
-                result.append(formatWritings(writings, "ru"))
+                if (builder.isNotEmpty()) {
+                    builder.append(" ")
+                }
+                builder.append(formatAuthors(authors, "ru"))
+                builder.append(formatWritings(writings, "ru"))
             }
+            result.append(builder)
         }
 
         result.append("\n\n* * *")
         result.append("\n\nИнтересные тексты в Интернетах.\n\n")
-        val posts =
-            writingsIn.filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
-                .sortedBy { it.rating }.groupBy { it.authors }
+        val posts = writingsIn
+            .filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
+            .sortedBy { it.rating }
+            .groupBy { it.authors }
+        builder.clear()
         posts.forEach { (authors, writings) ->
-            result.append(" ")
-            result.append(formatAuthors(authors, "en"))
-            result.append(formatWritings(writings, "en"))
+            if (builder.isNotEmpty()) {
+                builder.append(" ")
+            }
+            builder.append(formatAuthors(authors, "en"))
+            builder.append(formatWritings(writings, "en"))
         }
+        result.append(builder)
 
         result.append("\n\n* * *")
         result.append("\n\nЕщё я читал этих авторов.\n\n")
-        val authors =
-            writingsIn.filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
-                .sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
+        val authors = writingsIn
+            .filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
+            .sortedBy { it.rating }
+            .groupBy { it.authors }
+            .keys.toMutableList()
         authors.removeAll(recommendations.keys)
         authors.removeAll(entertaining.keys)
         result.append(authors.joinToString(
             separator = ", ",
-            prefix = " ",
+            prefix = "",
             postfix = ".",
             transform = { it[0].names[0].name }))
 
