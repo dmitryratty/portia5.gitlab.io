@@ -1,5 +1,8 @@
 Well...
 
+’ <> '
+" <> “”
+
 Gallery
 
     image gallery html library like google photos
@@ -8,24 +11,15 @@ Gallery
 
     simple image lightbox html
 
-Library "database" splitting into authors and books.
-
-    https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
-
-    https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
-
-    YAML, HOCON?
-
-<!-- dmitryratty [at] gmail [dot] com? image, as at ncase? -->
-
-<!--<p>🚀 Деньги.
-    <br/>&nbsp;— <a href="https://dmitryratty.gitlab.io/money">
-        https://dmitryratty.gitlab.io/money</a></p>-->
-
-’ <> '
-" <> “”
-
 Library
+
+    Library "database" splitting into authors and books.
+
+        https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
+
+        https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
+
+        YAML, HOCON?
 
     "language": "en"
     "language": "ru"
@@ -145,9 +139,8 @@ Library
 Game.
 
     When I stopped trying to self-optimize, I got better
-
-        Link: https://readhacker.news/s/5QkjM
-        Comments: https://readhacker.news/c/5QkjM
+    Link: https://readhacker.news/s/5QkjM
+    Comments: https://readhacker.news/c/5QkjM
 
 Beaty. Emoji.
 
@@ -160,29 +153,27 @@ Beaty. Emoji.
     <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
     <!-- &#x1F3AE; - Video Game Emoji. -->
     <!-- &#x1F3B2; - Game Die Emoji. -->
-    <!-- &#x1F392; - School Satchel. -->
+    🎒 <!-- &#x1F392; - School Satchel. -->
     <!-- &#x3C0; - Greek Small Letter Pi. -->
     <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
-    ➗ 🦉 🎒 🖤 ⚫ ❄ 💠 🪐
+    ➗ 🦉 🖤 ⚫ ❄ 💠 🪐
 
 Beaty. https://en.wikipedia.org/wiki/Fleuron_(typography) https://en.wikipedia.org/wiki/Dingbat
 
-    ⁂ ❦
-    ໒
+    ⁂ ❦ ❖《》⟨⟩
+    <///////////////////////////>
+    <///><///><///>
+    <•>
     °｡°｡°｡°｡°
+    ໒໒໒
     ₊₊₊₊
-    ♡
+    ♡♡♡
     ⋆⋆⋆
     ‧‧‧
     ⸜⸜⸜
     ₊₊₊
     ˚˚˚
     ༺♡༻
-    <///////////////////////////>
-    <///><///><///>
-    ❖ ❖ ❖
-    《》⟨⟩
-    <•>
 
 THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -194,28 +185,28 @@ CSS
 
     Tufte CSS https://edwardtufte.github.io/tufte-css/
 
-Difference between CSS3's :root pseudo class and html
+    Difference between CSS3's :root pseudo class and html
 
-    https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
+        https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
 
-    https://www.30secondsofcode.org/css/s/root-vs-html/
+        https://www.30secondsofcode.org/css/s/root-vs-html/
 
-        CSS has two ways to target the root element of an HTML document - the :root pseudo-class and the html selector. While these are very similar to each other, they have a couple of differences you should know.
+            CSS has two ways to target the root element of an HTML document - the :root pseudo-class and the html selector. While these are very similar to each other, they have a couple of differences you should know.
 
-        Selector specificity
-        The :root selector has a higher specificity than the html selector. This is because :root is a pseudo-class selector, while html is a type selector.
+            Selector specificity
+            The :root selector has a higher specificity than the html selector. This is because :root is a pseudo-class selector, while html is a type selector.
 
-        :root {
-          background-color: red;
-        }
+            :root {
+              background-color: red;
+            }
 
-        html {
-          background-color: blue;
-        }
+            html {
+              background-color: blue;
+            }
 
-        /* The HTML document's root element will have a red background-color.  */
-        Targeting the root element
-        CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
+            /* The HTML document's root element will have a red background-color. */
+            Targeting the root element
+            CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
 
 Footnotes:
 
@@ -292,3 +283,5 @@ Fonts:
             padding: 0.3rem 1.3rem;
           }
         }
+
+В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
