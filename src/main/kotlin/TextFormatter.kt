@@ -8,31 +8,40 @@ class TextFormatter {
     fun main() {
         Utils().textPagesPaths().forEach {
             val file = it.toFile()
-            file.writeText(textFormatting(file.name, file.readText()))
+            file.writeText(transform(file.name, file.readText()))
         }
     }
 
-    fun textFormatting(name: String, text: String): String {
-        // Replace ’ with ', “” with ".
-        // Remove trailing spaces.
+    fun transformLine(name: String, line: String): String {
+        if (line.trim().contains("  ")) {
+            // Detect multiple spaces in the middle of the line, it's usually a typos.
+            throw IllegalStateException("Double space in [$name], line: [$line]")
+        }
+        return line.trimEnd()
+            .replace("…", "...")
+            .replace("’", "'")
+            .replace("“", "\"")
+            .replace("”", "\"")
+    }
+
+    fun transformParagraph(name: String, paragraph: String): String {
+        val result = StringBuilder()
+        Utils().splitParagraphToLines(paragraph).forEach { line ->
+            if (result.isNotEmpty()) {
+                result.append("\n")
+            }
+            result.append(transformLine(name, line))
+        }
+        return result.toString()
+    }
+
+    fun transform(name: String, text: String): String {
         val result = StringBuilder()
         Utils().splitToParagraphs(text).forEach { paragraph ->
-            val paragraphBuilder = StringBuilder()
-            Utils().splitParagraphToLines(paragraph).forEach { line ->
-                if (line.trim().contains("  ")) {
-                    // Detect multiple spaces in the middle of the line, it's usually a typos.
-                    throw IllegalStateException("Double space in [$name], line: [$line]")
-                }
-                if (paragraphBuilder.isNotEmpty()) {
-                    paragraphBuilder.append("\n")
-                }
-                paragraphBuilder.append(line.trimEnd()
-                    .replace("…", "..."))
-            }
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }
-            result.append(paragraphBuilder)
+            result.append(transformParagraph(name, paragraph))
         }
         return result.toString()
     }

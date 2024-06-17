@@ -1,17 +1,19 @@
+import kotlin.io.path.name
 import kotlin.io.path.nameWithoutExtension
 import kotlin.text.StringBuilder
 
-class PagesGenerator {
+class PagesGenerator(
+    /**
+     * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
+     */
+    val xhmtlCompatibleVoidElements: Boolean = false
+) {
     companion object {
         @JvmStatic fun main(args: Array<String>) {
             PagesGenerator().main()
         }
     }
 
-    /**
-     * https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br
-     */
-    var xhmtlCompatibleVoidElements = false
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 30
@@ -24,8 +26,6 @@ class PagesGenerator {
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val lineStartDash = "^(- )".toRegex(RegexOption.MULTILINE)
-    private val breakLevelOne = "</>"
     private val bottomNavigationHtml = "<p class=\"dinkus\">* * *</p>" +
             "<p><a href=\"https://dmitryratty.gitlab.io\">В начало</a>.</p>"
     private val resourcesDir = Utils().resourcesDir
@@ -37,7 +37,7 @@ class PagesGenerator {
         val projectDir = Utils().projectDir
         Utils().textPagesPaths().forEach {
             val pageName = it.nameWithoutExtension
-            val beautyfiedText = beautifyText(it.toFile().readText())
+            val beautyfiedText = TextBeautifier().transform(it.name, it.toFile().readText())
             val titleAndBody = titleAndBody(beautyfiedText)
             val bodyHtml = textToHtml(titleAndBody.second)
             val htmlFile = projectDir.resolve("public/$pageName.html").toFile()
@@ -55,11 +55,6 @@ class PagesGenerator {
     fun titleAndBody(beautyfiedText: String): Pair<String, String> {
         val titleAndBody = beautyfiedText.split("\n\n", limit = 2)
         return Pair(titleAndBody[0], titleAndBody[1])
-    }
-
-    fun beautifyText(raw: String): String {
-        val result = raw.replace(lineStartDash, "— ")
-        return result.replace("...", "…").replace(" - ", " — ")
     }
 
     private fun makeNoWrap(word: String): String {
@@ -92,9 +87,9 @@ class PagesGenerator {
     }
 
     fun transformWord(word: String): String {
-        if (word.startsWith("http")) {
+        if (Utils().isHyperlink(word)) {
             return "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
-        } else if (word == breakLevelOne) {
+        } else if (word == TextBeautifier().breakLevelOneBeautified) {
             return makeNoWrap("&lt;•&gt;")
         }
         // Replace "…" with html entity?
