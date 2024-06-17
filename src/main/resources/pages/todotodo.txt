@@ -1,0 +1,73 @@
+Well, well... TODO!
+
+Fonts:
+
+    https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/
+
+        :root {
+          font-size: calc(1rem + 0.25vw);
+        }
+
+    fun font(projectDir: Path) {
+        val font = Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())
+        val fontSrc = "src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"
+        val fontCss = "@font-face{font-family:Plex;${fontSrc};font-weight:400;font-style:normal;}"
+        projectDir.resolve("public/font.css").toFile().writeText(fontCss)
+    }
+
+    https://www.figma.com/blog/line-height-changes/
+
+    https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs
+
+        https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file
+
+        https://github.com/AceLewis/fontcrusher
+
+        https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
+
+        http://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
+
+        https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
+    https://developers.google.com/fonts/docs/getting_started
+
+    https://www.w3.org/TR/css-fonts-4/#font-display-desc
+
+    http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+
+    https://www.zachleat.com/web/web-font-data-uris/
+
+    The "font-size-adjust" is Firefox only.
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tinos|Noto+Serif">
+
+    Serif
+
+        /* Trying to pick fonts with similar metrics
+         * - Liberation Serif: for some Linux distros
+         * - Times New Roman: for Windows
+         * - Tinos: for ChromeOS
+         * Fallback 'serif': Noto Serif on Android, metrics does't match to Times New Roman
+         */
+        font-family: 'Liberation Serif', 'Times New Roman', 'Tinos', serif;
+
+        /* Responsive part */
+        main {
+          font-size: 1.10rem;
+          padding: 1.0rem 3.0rem;
+        }
+        @media (max-width: 830px) {
+          main {
+            font-size: 1.00rem;
+            padding: 0.7rem 2.5rem;
+          }
+        }
+        /* Phone in portrait orientation */
+        @media (max-width: 430px) {
+          main {
+            font-size: 0.90rem;
+            padding: 0.3rem 1.3rem;
+          }
+        }

@@ -20,6 +20,7 @@ class TextFormatter {
         return line.trimEnd()
             .replace("…", "...")
             .replace("’", "'")
+            .replace("ʼ", "'")
             .replace("“", "\"")
             .replace("”", "\"")
     }

@@ -138,13 +138,9 @@ class PagesGenerator(
             result.append("<p class=\"dinkus\">* * *</p>")
             return result.toString()
         }
-        val lines = paragraph.split('\n').toMutableList()
-        val iterate = lines.listIterator()
-        while (iterate.hasNext()) {
-            iterate.set(transformLine(iterate.next()))
-        }
         result.append("<p>")
-        result.append(lines.joinToString("\n        $brElement"))
+        val lines = Utils().splitParagraphToLines(paragraph)
+        result.append(lines.joinToString("\n        $brElement", transform = ::transformLine))
         result.append("</p>")
         return result.toString()
     }

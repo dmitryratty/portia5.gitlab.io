@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow"/>
+    <title>Well, well… TODO!</title>
+    <link rel="stylesheet" media="screen" href="css/main.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❖</text></svg>">
+</head>
+<body><main>
+<article>
+    <p>Fonts:</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/">https:<wbr>//<wbr>jameshfisher<wbr>.com<wbr>/2024<wbr>/03<wbr>/12<wbr>/a<wbr>-formula<wbr>-for<wbr>-responsive<wbr>-font<wbr>-size<wbr>/</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:root {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nowrap">font-size:</span> calc(1rem + 0.25vw);
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;fun font(projectDir: Path) {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;val font = Base64.getEncoder().encodeToSt<wbr>ring(projectDir.resolve("src/p<wbr>lex.woff").toFile().readBytes(<wbr>))
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;val fontSrc = <span class="nowrap">"src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"</span>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;val fontCss = <span class="nowrap">"@font-face{font-family:Plex;${fontSrc};font-weight:400;font-style:normal;}"</span>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;projectDir.resolve("public/fon<wbr>t.css").toFile().writeText(fon<wbr>tCss)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.figma.com/blog/line-height-changes/">https:<wbr>//<wbr>www<wbr>.figma<wbr>.com<wbr>/blog<wbr>/line<wbr>-height<wbr>-changes<wbr>/</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/14557944<wbr>/downsizing<wbr>-an<wbr>-otf<wbr>-font<wbr>-by<wbr>-removing<wbr>-glyphs</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/12976424<wbr>/how<wbr>-to<wbr>-remove<wbr>-characters<wbr>-from<wbr>-a<wbr>-font<wbr>-file</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/AceLewis/fontcrusher">https:<wbr>//<wbr>github<wbr>.com<wbr>/AceLewis<wbr>/fontcrusher</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/35555816<wbr>/delete<wbr>-all<wbr>-unused<wbr>-characters<wbr>-from<wbr>-a<wbr>-ttf<wbr>-font<wbr>-with<wbr>-fontforge</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/">http:<wbr>//<wbr>brettklamer<wbr>.com<wbr>/diversions<wbr>/non<wbr>-statistical<wbr>/subset<wbr>-and<wbr>-self<wbr>-host<wbr>-webfonts<wbr>/</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9">https:<wbr>//<wbr>dev<wbr>.to<wbr>/benjaminblack<wbr>/save<wbr>-your<wbr>-users<wbr>-data<wbr>-by<wbr>-subsetting<wbr>-web<wbr>-fonts<wbr>-5eo9</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face">https:<wbr>//<wbr>developer<wbr>.mozilla<wbr>.org<wbr>/en<wbr>-US<wbr>/docs<wbr>/Web<wbr>/CSS<wbr>/@font<wbr>-face</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developers.google.com/fonts/docs/getting_started">https:<wbr>//<wbr>developers<wbr>.google<wbr>.com<wbr>/fonts<wbr>/docs<wbr>/getting<wbr>_started</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.w3.org/TR/css-fonts-4/#font-display-desc">https:<wbr>//<wbr>www<wbr>.w3<wbr>.org<wbr>/TR<wbr>/css<wbr>-fonts<wbr>-4<wbr>/<wbr>#font<wbr>-display<wbr>-desc</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align">http:<wbr>//<wbr>iamvdo<wbr>.me<wbr>/en<wbr>/blog<wbr>/css<wbr>-font<wbr>-metrics<wbr>-line<wbr>-height<wbr>-and<wbr>-vertical<wbr>-align</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.zachleat.com/web/web-font-data-uris/">https:<wbr>//<wbr>www<wbr>.zachleat<wbr>.com<wbr>/web<wbr>/web<wbr>-font<wbr>-data<wbr>-uris<wbr>/</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;The <span class="nowrap">"font-size-adjust"</span> is Firefox only.</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="https://fonts.googleapis<wbr>.com/css?family=Tinos|Noto+Ser<wbr>if"&gt;</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Serif</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* Trying to pick fonts with similar metrics
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* — Liberation Serif: for some Linux distros
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* — Times New Roman: for Windows
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* — Tinos: for ChromeOS
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Fallback 'serif': Noto Serif on Android, metrics does't match to Times New Roman
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nowrap">font-family:</span> 'Liberation Serif', 'Times New Roman', 'Tinos', serif;</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* Responsive part */
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nowrap">font-size:</span> 1.10rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 1.0rem 3.0rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@media <span class="nowrap">(max-width:</span> 830px) {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nowrap">font-size:</span> 1.00rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 0.7rem 2.5rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* Phone in portrait orientation */
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@media <span class="nowrap">(max-width:</span> 430px) {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="nowrap">font-size:</span> 0.90rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 0.3rem 1.3rem;
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+    <p class="dinkus">* * *</p><p><a href="https://dmitryratty.gitlab.io">В начало</a>.</p>
+</article>
+</main></body>
+</html>
