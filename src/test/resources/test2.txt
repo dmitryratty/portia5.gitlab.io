@@ -1,0 +1,287 @@
+Well... TODO!
+
+’ <> '
+" <> “”
+
+Gallery
+
+    image gallery html library like google photos
+
+        https://nanogallery2.nanostudio.org/
+
+    simple image lightbox html
+
+Library
+
+    Library "database" splitting into authors and books.
+
+        https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
+
+        https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
+
+        YAML, HOCON?
+
+    "language": "en"
+    "language": "ru"
+
+    {
+        "names": [
+            { "name": "", "language": "?", "link": "" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "", "language": "?" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 900
+    },
+
+    {
+        "names": [
+            { "name": "Eight Billion People", "language": "en", "link": "https://www.oranlooney.com/post/eight-billion/" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "Oran Looney", "language": "en", "link": "https://www.oranlooney.com/" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 9000
+    },
+
+    {
+        "names": [
+            { "name": "The Shirky Principle: Institutions Try to Preserve the Problem to Which They Are the Solution", "language": "en", "link": "https://effectiviology.com/shirky-principle/" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "Itamar Shatz", "language": "en" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 900
+    },
+
+    {
+        "names": [
+            { "name": "The Best Essay", "language": "en", "link": "https://paulgraham.com/best.html" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "Paul Graham", "language": "en" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 900
+    },
+
+    {
+        "names": [
+            { "name": "Deceptively Aligned Mesa-Optimizers: It's Not Funny If I Have To Explain It", "language": "en", "link": "https://www.astralcodexten.com/p/deceptively-aligned-mesa-optimizers" }
+        ],
+        "authors": [
+            {
+                "names": [
+                    { "name": "Scott Alexander", "language": "en" }
+                ]
+            }
+        ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 900
+    },
+
+    {
+        "names": [
+            {
+                "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Emily Nagoski",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 620
+    },
+
+    {
+        "names": [
+            { "name": "Условия присутствия личности", "language": "ru", "link": "http://www.ruthenia.ru/logos/number/37/07.pdf" }
+        ],
+        "authors": [ {
+            "names": [
+                { "name": "Даниель Деннетт", "language": "ru" }
+            ]
+        } ],
+        "tags": [ "blogging", "essay", "entertaining" ],
+        "rating": 900
+    },
+
+Game.
+
+    When I stopped trying to self-optimize, I got better
+    Link: https://readhacker.news/s/5QkjM
+    Comments: https://readhacker.news/c/5QkjM
+
+Beaty. Emoji.
+
+    html make border around emoji
+
+    https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+
+    <!-- &#x1F921; - Clown Face Emoji. -->
+    <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+    <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+    <!-- &#x1F3AE; - Video Game Emoji. -->
+    <!-- &#x1F3B2; - Game Die Emoji. -->
+    🎒 <!-- &#x1F392; - School Satchel. -->
+    <!-- &#x3C0; - Greek Small Letter Pi. -->
+    <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+    ➗ 🦉 🖤 ⚫ ❄ 💠 🪐
+
+Beaty. https://en.wikipedia.org/wiki/Fleuron_(typography) https://en.wikipedia.org/wiki/Dingbat
+
+    ⁂ ❦ ❖《》⟨⟩
+    <///////////////////////////>
+    <///><///><///>
+    <•>
+    °｡°｡°｡°｡°
+    ໒໒໒
+    ₊₊₊₊
+    ♡♡♡
+    ⋆⋆⋆
+    ‧‧‧
+    ⸜⸜⸜
+    ₊₊₊
+    ˚˚˚
+    ༺♡༻
+
+THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+https://css-tricks.com/emoji-as-a-favicon/
+
+CSS
+
+    MAGICK.CSS https://css.winterveil.net/
+
+    Tufte CSS https://edwardtufte.github.io/tufte-css/
+
+    Difference between CSS3's :root pseudo class and html
+
+        https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
+
+        https://www.30secondsofcode.org/css/s/root-vs-html/
+
+            CSS has two ways to target the root element of an HTML document - the :root pseudo-class and the html selector. While these are very similar to each other, they have a couple of differences you should know.
+
+            Selector specificity
+            The :root selector has a higher specificity than the html selector. This is because :root is a pseudo-class selector, while html is a type selector.
+
+            :root {
+              background-color: red;
+            }
+
+            html {
+              background-color: blue;
+            }
+
+            /* The HTML document's root element will have a red background-color. */
+            Targeting the root element
+            CSS can be used to style other types of documents, apart from HTML. This is where the :root element comes in to play, allowing you to style the root element of a document. This can be especially important when styling SVG documents, where the html selector will not work.
+
+Footnotes:
+
+    https://css-tricks.com/footnote-characters
+
+Fonts:
+
+    https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/
+
+        :root {
+          font-size: calc(1rem + 0.25vw);
+        }
+
+    fun font(projectDir: Path) {
+        val font = Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())
+        val fontSrc = "src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"
+        val fontCss = "@font-face{font-family:Plex;${fontSrc};font-weight:400;font-style:normal;}"
+        projectDir.resolve("public/font.css").toFile().writeText(fontCss)
+    }
+
+    https://www.figma.com/blog/line-height-changes/
+
+    https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs
+
+        https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file
+
+        https://github.com/AceLewis/fontcrusher
+
+        https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
+
+        http://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
+
+        https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
+    https://developers.google.com/fonts/docs/getting_started
+
+    https://www.w3.org/TR/css-fonts-4/#font-display-desc
+
+    http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+
+    https://www.zachleat.com/web/web-font-data-uris/
+
+    The "font-size-adjust" is Firefox only.
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tinos|Noto+Serif">
+
+    Serif
+
+        /* Trying to pick fonts with similar metrics
+         * - Liberation Serif: for some Linux distros
+         * - Times New Roman: for Windows
+         * - Tinos: for ChromeOS
+         * Fallback 'serif': Noto Serif on Android, metrics does't match to Times New Roman
+         */
+        font-family: 'Liberation Serif', 'Times New Roman', 'Tinos', serif;
+
+        /* Responsive part */
+        main {
+          font-size: 1.10rem;
+          padding: 1.0rem 3.0rem;
+        }
+        @media (max-width: 830px) {
+          main {
+            font-size: 1.00rem;
+            padding: 0.7rem 2.5rem;
+          }
+        }
+        /* Phone in portrait orientation */
+        @media (max-width: 430px) {
+          main {
+            font-size: 0.90rem;
+            padding: 0.3rem 1.3rem;
+          }
+        }
+
+В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".

@@ -2,7 +2,7 @@ class TextBeautifier {
 
     private val typewriterApostrophes = true
     private val breakLevelOne = "</>"
-    val breakLevelOneBeautified = "<•>"
+    private val breakLevelOneBeautified = "<•>"
 
     fun transformWord(name: String, word: String): String {
         if (word == breakLevelOne) {

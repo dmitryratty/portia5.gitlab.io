@@ -89,8 +89,6 @@ class PagesGenerator(
     fun transformWord(word: String): String {
         if (Utils().isHyperlink(word)) {
             return "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
-        } else if (word == TextBeautifier().breakLevelOneBeautified) {
-            return makeNoWrap("&lt;•&gt;")
         }
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
