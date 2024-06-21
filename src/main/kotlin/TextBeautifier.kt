@@ -3,6 +3,7 @@ class TextBeautifier {
     private val typewriterApostrophes = true
     private val breakLevelOne = "</>"
     private val breakLevelOneBeautified = "<•>"
+    private val lineTransformer = LineTransformer()
 
     fun transformWord(word: String): String {
         if (word == breakLevelOne) {
@@ -26,7 +27,7 @@ class TextBeautifier {
             newLine = newLine.replaceFirst("- ", "— ")
         }
         newLine = newLine.replace("...", "…").replace(" - ", " — ")
-        return Utils().transformLine(newLine, ::transformWord)
+        return lineTransformer.transform(newLine, ::transformWord)
     }
 
     fun transformParagraph(name: String, paragraph: String): String {

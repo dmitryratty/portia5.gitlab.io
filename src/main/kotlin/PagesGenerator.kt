@@ -31,6 +31,7 @@ class PagesGenerator(
             "<p><a href=\"https://dmitryratty.gitlab.io\">В начало</a>.</p>"
     private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
+    private val lineTransformer = LineTransformer(true, LineTransformer().simpleSpacesTransformer)
 
     fun main() {
         Library().main()
@@ -107,27 +108,7 @@ class PagesGenerator(
     }
 
     fun transformLine(line: String): String {
-        val builder = StringBuilder()
-        var processingLeadingSpaces = true
-        line.split(' ').forEach { word ->
-            if (builder.isNotEmpty() && !processingLeadingSpaces) {
-                builder.append(' ')
-            }
-            if (word.isNotBlank()) {
-                processingLeadingSpaces = false
-            }
-            if (word.isEmpty()) {
-                if (processingLeadingSpaces) {
-                    // Leading spaces in string, for example for padding.
-                    builder.append("&nbsp;")
-                } else {
-                    builder.append(' ')
-                }
-                return@forEach
-            }
-            builder.append(transformWord(word))
-        }
-        return builder.toString()
+        return lineTransformer.transform(line, ::transformWord)
     }
 
     fun transformParagraph(paragraph: String): String {

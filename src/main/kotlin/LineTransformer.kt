@@ -44,6 +44,12 @@ class LineTransformer(
                 }
             }
         }
+        if (builder.length > 1 && builder[0] == ' ' && builder[1] != ' ') {
+            val temp = StringBuilder()
+            temp.append(spacesTransformer(" "))
+            temp.append(builder.subSequence(1, builder.length))
+            return temp.toString()
+        }
         return builder.toString()
     }
 }

@@ -60,7 +60,13 @@ class TextBeautifierTest {
         lineOu = "&nbsp;&nbsp;&nbsp;3 spaces,&nbsp;&nbsp;2 spaces."
         assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
 
+        transformer = LineTransformer(true, LineTransformer().simpleSpacesTransformer)
+        lineIn = " 1 space."
+        lineOu = "&nbsp;1 space."
+        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+
         transformer = LineTransformer()
+        lineIn = "   3 spaces,  2 spaces."
         assertFailsWith(LineTransformer.MultispacesOnlyAtStart::class) {
             transformer.transform(
                 lineIn

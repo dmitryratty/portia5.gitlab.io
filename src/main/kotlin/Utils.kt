@@ -29,25 +29,6 @@ class Utils {
         return paragraph.split('\n')
     }
 
-    fun transformLine(line: String, wordTransformer: (word: String) -> String): String {
-        val builder = StringBuilder()
-        var processingLeadingSpaces = true
-        line.split(' ').forEach { word ->
-            if (builder.isNotEmpty() && !processingLeadingSpaces) {
-                builder.append(' ')
-            }
-            if (word.isNotBlank()) {
-                processingLeadingSpaces = false
-            }
-            if (word.isEmpty()) {
-                builder.append(' ')
-                return@forEach
-            }
-            builder.append(wordTransformer(word))
-        }
-        return builder.toString()
-    }
-
     fun isHyperlink(word: String): Boolean {
         // if (word.contains(" ")) throw IllegalStateException()
         return word.startsWith("http")
