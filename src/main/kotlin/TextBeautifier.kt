@@ -4,10 +4,11 @@ class TextBeautifier {
     private val breakLevelOne = "</>"
     private val breakLevelOneBeautified = "<•>"
 
-    fun transformWord(name: String, word: String): String {
+    fun transformWord(word: String): String {
         if (word == breakLevelOne) {
             return breakLevelOneBeautified
-        } else if (!typewriterApostrophes) {
+        }
+        if (!typewriterApostrophes) {
             if (!Utils().isHyperlink(word)) {
                 // ''''' - Wikipedia typewriter apostrophe.
                 // ’’’’’ - Substack curly apostrophe.
@@ -25,7 +26,7 @@ class TextBeautifier {
             newLine = newLine.replaceFirst("- ", "— ")
         }
         newLine = newLine.replace("...", "…").replace(" - ", " — ")
-        return Utils().transformLine(name, newLine, ::transformWord)
+        return Utils().transformLine(newLine, ::transformWord)
     }
 
     fun transformParagraph(name: String, paragraph: String): String {

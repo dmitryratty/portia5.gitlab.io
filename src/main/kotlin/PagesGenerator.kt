@@ -9,7 +9,8 @@ class PagesGenerator(
     val xhmtlCompatibleVoidElements: Boolean = false
 ) {
     companion object {
-        @JvmStatic fun main(args: Array<String>) {
+        @JvmStatic
+        fun main(args: Array<String>) {
             PagesGenerator().main()
         }
     }

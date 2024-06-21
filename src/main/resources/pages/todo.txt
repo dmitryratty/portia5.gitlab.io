@@ -1,5 +1,7 @@
 Well... TODO!
 
+THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
 Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
 
 Переделать "master" в "main". Переделать автора коммитов на Ratty.
@@ -14,11 +16,73 @@ no wrap для финализаторов слов и предложений, в
 
 Gallery
 
+    Flexbox
+
+        https://yoksel.github.io/flex-cheatsheet/
+
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
     image gallery html library like google photos
 
         https://nanogallery2.nanostudio.org/
 
     simple image lightbox html
+
+Beaty. Emoji.
+
+    html make border around emoji
+
+    https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+
+    <!-- &#x1F921; - Clown Face Emoji. -->
+    <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+    <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+    <!-- &#x1F3AE; - Video Game Emoji. -->
+    <!-- &#x1F3B2; - Game Die Emoji. -->
+    🎒 <!-- &#x1F392; - School Satchel. -->
+    <!-- &#x3C0; - Greek Small Letter Pi. -->
+    <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+    ➗ 🦉 🖤 ⚫ ❄ 💠 🪐
+
+Beaty.
+
+    https://en.wikipedia.org/wiki/Fleuron_(typography)
+
+    https://en.wikipedia.org/wiki/Dingbat
+
+    https://en.wikipedia.org/wiki/Bullet_(typography)
+
+    https://en.wikipedia.org/wiki/Ellipsis
+
+    ⁂ ❦ ❖《》⟨⟩
+    <///////////////////////////>
+    <///><///><///>
+    <•>
+    ╰┈➤ ❝ [?] ❞ <(_ _*)>
+    °｡°｡°｡°｡°
+    ໒໒໒
+    ₊₊₊₊
+    ♡♡♡
+    ⋆⋆⋆
+    ‧‧‧
+    ⸜⸜⸜
+    ₊₊₊
+    ˚˚˚
+    ༺♡༻
+
+https://css-tricks.com/emoji-as-a-favicon/
+
+CSS
+
+    MAGICK.CSS https://css.winterveil.net/
+
+    Tufte CSS https://edwardtufte.github.io/tufte-css/
+
+Footnotes:
+
+    https://css-tricks.com/footnote-characters
+
+В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
 
 Library
 
@@ -144,61 +208,6 @@ Library
         "tags": [ "blogging", "essay", "entertaining" ],
         "rating": 900
     },
-
-THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
-Beaty. Emoji.
-
-    html make border around emoji
-
-    https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
-
-    <!-- &#x1F921; - Clown Face Emoji. -->
-    <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
-    <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
-    <!-- &#x1F3AE; - Video Game Emoji. -->
-    <!-- &#x1F3B2; - Game Die Emoji. -->
-    🎒 <!-- &#x1F392; - School Satchel. -->
-    <!-- &#x3C0; - Greek Small Letter Pi. -->
-    <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
-    ➗ 🦉 🖤 ⚫ ❄ 💠 🪐
-
-Beaty.
-
-    https://en.wikipedia.org/wiki/Fleuron_(typography)
-
-    https://en.wikipedia.org/wiki/Dingbat
-
-    https://en.wikipedia.org/wiki/Bullet_(typography)
-
-    ⁂ ❦ ❖《》⟨⟩
-    <///////////////////////////>
-    <///><///><///>
-    <•>
-    °｡°｡°｡°｡°
-    ໒໒໒
-    ₊₊₊₊
-    ♡♡♡
-    ⋆⋆⋆
-    ‧‧‧
-    ⸜⸜⸜
-    ₊₊₊
-    ˚˚˚
-    ༺♡༻
-
-https://css-tricks.com/emoji-as-a-favicon/
-
-CSS
-
-    MAGICK.CSS https://css.winterveil.net/
-
-    Tufte CSS https://edwardtufte.github.io/tufte-css/
-
-Footnotes:
-
-    https://css-tricks.com/footnote-characters
-
-В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
 
 * * *
 

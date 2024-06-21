@@ -8,7 +8,7 @@ Well... Technology!
 
 * * *
 
-Дискуссия об интеллектуальной собственности и свободном коде. Фундаментальная и прикладная наука, использование теорий математиков, физиков... [12.04.2024]
+В дискуссиях об интеллектуальной собственности и свободном коде мне хочется упоминать фундаметальную и прикладную науку, использование теорий математиков, физиков, химиков... [12.04.2024]
 
 * * *
 
@@ -45,7 +45,7 @@ Well... Technology!
 
 * * *
 
-"The Map of Mathematics" by Domain of Science:
+"The Map of Mathematics" by "Domain of Science".
  - https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 
 A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best:
@@ -53,11 +53,14 @@ A classical example of an inductive bias is Occam's razor, assuming that the sim
 
 https://arbital.com/p/bayes_rule
 
+"A visual guide to Bayesian thinking" by "Julia Galef".
+ - https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
+
 Algorithmic Mathematical Art:
  - http://xahlee.info/math/algorithmic_math_art.html
  - https://readhacker.news/c/64ysi
 
-"Painting a Character with Maths" by Inigo Quilez:
+"Painting a Character with Maths" by "Inigo Quilez".
  - https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 
 #Math

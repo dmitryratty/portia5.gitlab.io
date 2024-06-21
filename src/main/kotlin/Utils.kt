@@ -29,10 +29,7 @@ class Utils {
         return paragraph.split('\n')
     }
 
-    fun transformLine(
-        tag: String, line: String,
-        wordTransformer: (tag: String, line: String) -> String
-    ): String {
+    fun transformLine(line: String, wordTransformer: (word: String) -> String): String {
         val builder = StringBuilder()
         var processingLeadingSpaces = true
         line.split(' ').forEach { word ->
@@ -46,7 +43,7 @@ class Utils {
                 builder.append(' ')
                 return@forEach
             }
-            builder.append(wordTransformer(tag, word))
+            builder.append(wordTransformer(word))
         }
         return builder.toString()
     }

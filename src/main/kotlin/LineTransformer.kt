@@ -1,0 +1,49 @@
+class LineTransformer(
+    private val multispacesOnlyAtStart: Boolean = true,
+    private val spacesTransformer: (spaces: String) -> String = { spaces: String -> spaces }
+) {
+
+    class MultispacesOnlyAtStart(message: String) : Exception(message)
+
+    // https://stackoverflow.com/questions/6151554/text-inside-div-not-showing-multiple-white-spaces-between-words
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
+    // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
+    val simpleSpacesTransformer: (spaces: String) -> String = { spaces: String ->
+        spaces.replace(" ", "&nbsp;")
+    }
+
+    fun transform(line: String, wordTransformer: (word: String) -> String): String {
+        val builder = StringBuilder()
+        val spaces = StringBuilder()
+        var firstWord = true
+        var firstNonBlankWordTransformed = false
+        line.split(' ').forEach { word ->
+            if (firstWord) {
+                firstWord = false
+                builder.append(wordTransformer(word))
+            } else {
+                if (word.isEmpty()) {
+                    spaces.append(' ')
+                } else if (spaces.isNotEmpty()) {
+                    spaces.append(' ')
+                    builder.append(spacesTransformer(spaces.toString()))
+                    spaces.clear()
+                    builder.append(wordTransformer(word))
+                } else {
+                    builder.append(' ')
+                    builder.append(wordTransformer(word))
+                }
+                if (multispacesOnlyAtStart) {
+                    if (firstNonBlankWordTransformed) {
+                        if (word.isEmpty()) {
+                            throw MultispacesOnlyAtStart(line)
+                        }
+                    } else if (word.isNotBlank()) {
+                        firstNonBlankWordTransformed = true
+                    }
+                }
+            }
+        }
+        return builder.toString()
+    }
+}
