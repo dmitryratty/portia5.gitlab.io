@@ -127,4 +127,7 @@ The point: there is knowledge for which money cannot substitute. Even if Louis X
 
 * * *
 
-More: https://dmitryratty.gitlab.io/lifelife
+More.
+ - https://dmitryratty.gitlab.io/lifelife
+ - https://dmitryratty.gitlab.io/health
+ - https://dmitryratty.gitlab.io/todo

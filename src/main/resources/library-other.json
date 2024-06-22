@@ -282,10 +282,34 @@
             }
         ],
         "tags": [
-            "archive",
+            "recommendation",
             "novel"
         ],
         "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Настя",
+                "language": "ru",
+                "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7)"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Владимир Сорокин",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 800
     },
     {
         "names": [
