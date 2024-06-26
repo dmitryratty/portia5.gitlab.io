@@ -79,6 +79,7 @@ A tit-for-tat population is penetrable by non-retaliating nice strategies, which
 - https://www.lesswrong.com/tag/acausal-trade
 - https://www.lesswrong.com/tag/parfits-hitchhiker
 - https://effectiviology.com/precommitment
+- https://en.wikipedia.org/wiki/Precommitment
 
 Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
  - https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA

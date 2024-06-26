@@ -2,6 +2,9 @@ Well... TODO!
 
 THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
+Не является финансовым советом.
+/money
+
 Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
 
 Переделать "master" в "main". Переделать автора коммитов на Ratty.
@@ -13,6 +16,12 @@ no wrap для финализаторов слов и предложений, в
 Английский. Тёмнотема.
 
 Сделать внутренние ссылки относительными.
+
+* * *
+
+https://t.me/durov/284
+
+* * *
 
 Gallery
 
