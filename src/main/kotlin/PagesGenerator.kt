@@ -1,4 +1,4 @@
-import kotlin.io.path.nameWithoutExtension
+import kotlin.collections.ArrayList
 import kotlin.io.path.pathString
 import kotlin.text.StringBuilder
 
@@ -44,6 +44,39 @@ class PagesGenerator(
             htmlFile.parentFile.mkdirs()
             val bottomNavigation = it.key.pathString != "index.txt"
             htmlFile.writeText(htmlPage(titleAndBody.first, bodyHtml, bottomNavigation))
+        }
+        printMap()
+    }
+
+    fun printMap() {
+        val pagesListLayerOne = ArrayList<String>()
+        val pagesListLayerTwo = ArrayList<String>()
+        val prefix = " - https://dmitryratty.gitlab.io"
+        Utils().textPagesInput().forEach {
+            val path = it.key.pathString
+            if (path.startsWith("other/")) {
+                if (path.endsWith("/index.txt")) {
+                    val endIndex = path.length - "/index.txt".length
+                    pagesListLayerTwo.add(prefix + "/" + path.substring(0, endIndex))
+                } else {
+                    pagesListLayerTwo.add(prefix + "/" + path.substring(0, path.length - ".txt".length))
+                }
+            } else {
+                if (path == "index.txt") {
+                    pagesListLayerOne.add(prefix)
+                } else {
+                    pagesListLayerOne.add(prefix + "/" + path.substring(0, path.length - ".txt".length))
+                }
+            }
+
+        }
+        pagesListLayerOne.sort()
+        pagesListLayerOne.forEach {
+            println(it)
+        }
+        pagesListLayerTwo.sort()
+        pagesListLayerTwo.forEach {
+            println(it)
         }
     }
 
