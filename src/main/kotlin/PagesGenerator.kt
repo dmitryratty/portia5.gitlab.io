@@ -14,7 +14,7 @@ class PagesGenerator(
             PagesGenerator().main()
         }
     }
-
+    val hostName = "https://dmitryratty.gitlab.io"
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 30
@@ -27,8 +27,8 @@ class PagesGenerator(
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val bottomNavigationHtml = "<p class=\"dinkus\">* * *</p>" +
-            "<p><a href=\"https://dmitryratty.gitlab.io\">В начало</a>.</p>"
+    private val bottomNavigationHtml = "\n\n    <p class=\"dinkus\">* * *</p>" +
+            "\n\n    <p>🏠 <a href=\"$hostName\">$hostName</a></p>"
     private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
     private val lineTransformer = LineTransformer(true, LineTransformer().simpleSpacesTransformer)
@@ -51,7 +51,7 @@ class PagesGenerator(
     fun printMap() {
         val pagesListLayerOne = ArrayList<String>()
         val pagesListLayerTwo = ArrayList<String>()
-        val prefix = " - https://dmitryratty.gitlab.io"
+        val prefix = " - $hostName"
         Utils().textPagesInput().forEach {
             val path = it.key.pathString
             if (path.startsWith("other/")) {
