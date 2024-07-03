@@ -1,6 +1,7 @@
+import java.nio.file.Path
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.io.path.pathString
+import kotlin.io.path.*
 import kotlin.text.StringBuilder
 
 class PagesGenerator(
@@ -37,6 +38,7 @@ class PagesGenerator(
     fun main() {
         Library().main()
         TextFormatter().main()
+        Utils().cleanupBuildDir()
         Utils().textPagesInput().forEach {
             val beautyfiedText = TextBeautifier().transform(it.value.readText())
             val titleAndBody = titleAndBody(it.key.pathString, beautyfiedText)
@@ -49,7 +51,7 @@ class PagesGenerator(
         printMap()
     }
 
-    fun printMap() {
+    private fun printMap() {
         val pagesListLayerOne = ArrayList<String>()
         val pagesListLayerTwo = ArrayList<String>()
         val prefix = " - $hostName"

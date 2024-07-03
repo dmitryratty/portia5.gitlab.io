@@ -1,6 +1,7 @@
 import java.io.File
 import java.nio.file.Path
 import java.nio.file.Paths
+import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.pathString
 import kotlin.io.path.relativeTo
 
@@ -17,15 +18,24 @@ class Utils {
 
     val resourcesDir get() = projectDir.resolve("src/main/resources")
 
-    val pagesDir get() = resourcesDir.resolve("pages")
+    val pagesTextSrcDir get() = resourcesDir.resolve("pages")
+
+    val buildOutDir get() = projectDir.resolve("public")
 
     fun textPagesInput(): Map<Path, File> {
-        return pagesDir.toFile().walk().filter { it.name.endsWith(".txt") }
-            .map { it.toPath().relativeTo(pagesDir) to it }.toMap()
+        return pagesTextSrcDir.toFile().walk().filter { it.name.endsWith(".txt") }
+            .map { it.toPath().relativeTo(pagesTextSrcDir) to it }.toMap()
     }
 
     fun splitToParagraphs(text: String): List<String> {
         return text.split("\n\n")
+    }
+
+    fun cleanupBuildDir() {
+        val persistentFiles = listOf(buildOutDir.resolve("css"), buildOutDir.resolve("test"))
+        buildOutDir.listDirectoryEntries().forEach {
+            if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
+        }
     }
 
     fun splitParagraphToLines(paragraph: String): List<String> {
@@ -38,7 +48,8 @@ class Utils {
     }
 
     fun textPageInputToHtmlOutputFile(path: Path): File {
-        val pathWithoutExtension = path.pathString.substring(0, path.pathString.length - 3)
-        return projectDir.resolve("public/${pathWithoutExtension}html").toFile()
+        val pathString = path.pathString
+        val pathWithoutExtension = pathString.substring(0, pathString.length - "txt".length)
+        return buildOutDir.resolve("${pathWithoutExtension}html").toFile()
     }
 }
