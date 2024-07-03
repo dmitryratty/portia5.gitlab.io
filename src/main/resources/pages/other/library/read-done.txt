@@ -1,0 +1,126 @@
+TODO
+
+Library "database" splitting into authors and books.
+
+    https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
+
+    https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
+
+    YAML, HOCON?
+
+"language": "en"
+"language": "ru"
+
+{
+    "names": [
+        { "name": "", "language": "?", "link": "" }
+    ],
+    "authors": [
+        {
+            "names": [
+                { "name": "", "language": "?" }
+            ]
+        }
+    ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 900
+},
+
+{
+    "names": [
+        { "name": "Eight Billion People", "language": "en", "link": "https://www.oranlooney.com/post/eight-billion/" }
+    ],
+    "authors": [
+        {
+            "names": [
+                { "name": "Oran Looney", "language": "en", "link": "https://www.oranlooney.com/" }
+            ]
+        }
+    ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 9000
+},
+
+{
+    "names": [
+        { "name": "The Shirky Principle: Institutions Try to Preserve the Problem to Which They Are the Solution", "language": "en", "link": "https://effectiviology.com/shirky-principle/" }
+    ],
+    "authors": [
+        {
+            "names": [
+                { "name": "Itamar Shatz", "language": "en" }
+            ]
+        }
+    ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 900
+},
+
+{
+    "names": [
+        { "name": "The Best Essay", "language": "en", "link": "https://paulgraham.com/best.html" }
+    ],
+    "authors": [
+        {
+            "names": [
+                { "name": "Paul Graham", "language": "en" }
+            ]
+        }
+    ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 900
+},
+
+{
+    "names": [
+        { "name": "Deceptively Aligned Mesa-Optimizers: It's Not Funny If I Have To Explain It", "language": "en", "link": "https://www.astralcodexten.com/p/deceptively-aligned-mesa-optimizers" }
+    ],
+    "authors": [
+        {
+            "names": [
+                { "name": "Scott Alexander", "language": "en" }
+            ]
+        }
+    ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 900
+},
+
+{
+    "names": [
+        {
+            "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
+            "language": "?"
+        }
+    ],
+    "authors": [
+        {
+            "names": [
+                {
+                    "name": "Emily Nagoski",
+                    "language": "?"
+                }
+            ]
+        }
+    ],
+    "tags": [
+        "recommendation",
+        "novel"
+    ],
+    "rating": 620
+},
+
+{
+    "names": [
+        { "name": "Условия присутствия личности", "language": "ru", "link": "http://www.ruthenia.ru/logos/number/37/07.pdf" }
+    ],
+    "authors": [ {
+        "names": [
+            { "name": "Даниель Деннетт", "language": "ru" }
+        ]
+    } ],
+    "tags": [ "blogging", "essay", "entertaining" ],
+    "rating": 900
+},
+
+https://ciechanow.ski/airfoil/

@@ -1,6 +1,8 @@
+import java.io.File
 import java.nio.file.Path
 import java.nio.file.Paths
-import kotlin.io.path.listDirectoryEntries
+import kotlin.io.path.pathString
+import kotlin.io.path.relativeTo
 
 class Utils {
 
@@ -17,8 +19,9 @@ class Utils {
 
     val pagesDir get() = resourcesDir.resolve("pages")
 
-    fun textPagesPaths(): List<Path> {
-        return pagesDir.listDirectoryEntries("*.txt")
+    fun textPagesInput(): Map<Path, File> {
+        return pagesDir.toFile().walk().filter { it.name.endsWith(".txt") }
+            .map { it.toPath().relativeTo(pagesDir) to it }.toMap()
     }
 
     fun splitToParagraphs(text: String): List<String> {
@@ -32,5 +35,10 @@ class Utils {
     fun isHyperlink(word: String): Boolean {
         // if (word.contains(" ")) throw IllegalStateException()
         return word.startsWith("http")
+    }
+
+    fun textPageInputToHtmlOutputFile(path: Path): File {
+        val pathWithoutExtension = path.pathString.substring(0, path.pathString.length - 3)
+        return projectDir.resolve("public/${pathWithoutExtension}html").toFile()
     }
 }

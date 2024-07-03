@@ -1,5 +1,5 @@
-import kotlin.io.path.name
 import kotlin.io.path.nameWithoutExtension
+import kotlin.io.path.pathString
 import kotlin.text.StringBuilder
 
 class PagesGenerator(
@@ -36,14 +36,14 @@ class PagesGenerator(
     fun main() {
         Library().main()
         TextFormatter().main()
-        val projectDir = Utils().projectDir
-        Utils().textPagesPaths().forEach {
-            val pageName = it.nameWithoutExtension
-            val beautyfiedText = TextBeautifier().transform(it.name, it.toFile().readText())
+        Utils().textPagesInput().forEach {
+            val beautyfiedText = TextBeautifier().transform(it.value.readText())
             val titleAndBody = titleAndBody(beautyfiedText)
             val bodyHtml = textToHtml(titleAndBody.second)
-            val htmlFile = projectDir.resolve("public/$pageName.html").toFile()
-            htmlFile.writeText(htmlPage(titleAndBody.first, bodyHtml, pageName != "index"))
+            val htmlFile = Utils().textPageInputToHtmlOutputFile(it.key)
+            htmlFile.parentFile.mkdirs()
+            val bottomNavigation = it.key.pathString != "index.txt"
+            htmlFile.writeText(htmlPage(titleAndBody.first, bodyHtml, bottomNavigation))
         }
     }
 

@@ -4,11 +4,12 @@ Omega-3 DHA/EPA, 250 mg per day. Omega-3 ALA хуже DHA/EPA. Omega-6/9 в бо
 
 Цинк. Витамин D. Витамин C.
 
-Глицин для сна?
+Магний L-треонат. Глицин?
 
-Магний L-треонат.
-
-Фонтурацетам aka Фенотропил, рецептурное: https://en.wikipedia.org/wiki/Phenylpiracetam
+Фонтурацетам aka Фенотропил: https://en.wikipedia.org/wiki/Phenylpiracetam
+- https://www.ozon.ru/product/fenotropil-tabletki-100-mg-30-sht-672864398
+Попробую от 100 до 400 мг в сутки с курс - месяц.
+- L-α-Glycerophosphorylcholine, alpha-GPC, choline alfoscerate, sn-glycero-3-phosphocholine. The FDA determined that intake of no more than 196.2 mg/person/day is considered generally recognized as safe (GRAS). Alpha-GPC metabolizes to trimethylamine n-oxide in the gastrointestinal tract, which has implications for cardiovascular health. In one study, risk of stroke over a ten-year period was increased by about 40% in users of alpha-GPC.
 
 L-теанин: https://apteka.ru/product/teanin-30-sht-kapsuly-5e327198ca7bdc0001931596/
 
@@ -59,5 +60,10 @@ https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psycho
 
 * * *
 
-More: https://dmitryratty.gitlab.io/fleshflesh
+Using self-distancing language can reduce the egocentric bias by increasing your psychological distance from your own perspective.
+ - https://effectiviology.com/egocentric-bias
 
+...when deciding what to do, you can also try to visualize the perspective of an exemplar, which is someone you admire, and then ask yourself what would they do in that situation.
+ - https://effectiviology.com/self-distancing-rational-decisions
+
+#Wetware

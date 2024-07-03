@@ -21,7 +21,7 @@ class TextBeautifier {
         return word
     }
 
-    fun transformLine(name: String, line: String): String {
+    fun transformLine(line: String): String {
         var newLine = line
         if (line.startsWith("- ")) {
             newLine = newLine.replaceFirst("- ", "— ")
@@ -30,24 +30,24 @@ class TextBeautifier {
         return lineTransformer.transform(newLine, ::transformWord)
     }
 
-    fun transformParagraph(name: String, paragraph: String): String {
+    fun transformParagraph(paragraph: String): String {
         val result = StringBuilder()
         Utils().splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
-            result.append(transformLine(name, line))
+            result.append(transformLine(line))
         }
         return result.toString()
     }
 
-    fun transform(name: String, text: String): String {
+    fun transform(text: String): String {
         val result = StringBuilder()
         Utils().splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }
-            result.append(transformParagraph(name, paragraph))
+            result.append(transformParagraph(paragraph))
         }
         return result.toString()
     }

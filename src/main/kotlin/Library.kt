@@ -157,9 +157,6 @@ class Library {
             postfix = ".",
             transform = { it[0].names[0].name }))
 
-        result.append("\n\n* * *")
-        result.append("\n\nMore: https://dmitryratty.gitlab.io/librarylibrary")
-
         Utils().pagesDir.resolve("library.txt").toFile().writeText(result.toString())
     }
 }

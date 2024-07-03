@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow"/>
+    <title>TODO</title>
+    <link rel="stylesheet" media="screen" href="/css/main.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❖</text></svg>">
+</head>
+<body><main>
+<article>
+    <p>Library "database" splitting into authors and books.</p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/28256852<wbr>/what<wbr>-is<wbr>-the<wbr>-simplest<wbr>-way<wbr>-to<wbr>-configure<wbr>-the<wbr>-indentation<wbr>-spacing<wbr>-on<wbr>-a<wbr>-jackson<wbr>-objec</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/76726117<wbr>/pretty<wbr>-print<wbr>-a<wbr>-kotlin<wbr>-json<wbr>-serializable</a></p>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;YAML, HOCON?</p>
+
+    <p>"language": "en"
+        <br>"language": "ru"</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "", "language": "?", "link": "" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "", "language": "?" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 900
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Eight Billion People", "language": "en", "link": <span class="nowrap">"https://www.oranlooney.com/post/eight-billion/"</span> }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Oran Looney", "language": "en", "link": "https://www.oranlooney.com/" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 9000
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "The Shirky Principle: Institutions Try to Preserve the Problem to Which They Are the Solution", "language": "en", "link": <span class="nowrap">"https://effectiviology.com/shirky-principle/"</span> }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Itamar Shatz", "language": "en" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 900
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "The Best Essay", "language": "en", "link": "https://paulgraham.com/best.h<wbr>tml" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Paul Graham", "language": "en" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 900
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Deceptively Aligned <span class="nowrap">Mesa-Optimizers:</span> It's Not Funny If I Have To Explain It", "language": "en", "link": <span class="nowrap">"https://www.astralcodexten.com/p/deceptively-aligned-mesa-optimizers"</span> }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Scott Alexander", "language": "en" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 900
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"language": "?"
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "Emily Nagoski",
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"language": "?"
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"recommendation",
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"novel"
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 620
+        <br>},</p>
+
+    <p>{
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Условия присутствия личности", "language": "ru", "link": "http://www.ruthenia.ru/logos/<wbr>number/37/07.pdf" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"authors": [ {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"names": [
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ "name": "Даниель Деннетт", "language": "ru" }
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;} ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"tags": [ "blogging", "essay", "entertaining" ],
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;"rating": 900
+        <br>},</p>
+
+    <p><a href="https://ciechanow.ski/airfoil/">https:<wbr>//<wbr>ciechanow<wbr>.ski<wbr>/airfoil<wbr>/</a></p>
+    <p class="dinkus">* * *</p><p><a href="https://dmitryratty.gitlab.io">В начало</a>.</p>
+</article>
+</main></body>
+</html>

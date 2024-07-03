@@ -6,16 +6,16 @@ class TextFormatter {
     }
 
     fun main() {
-        Utils().textPagesPaths().forEach {
-            val file = it.toFile()
-            file.writeText(transform(file.name, file.readText()))
+        Utils().textPagesInput().forEach {
+            val file = it.value
+            file.writeText(transform(file.readText()))
         }
     }
 
-    fun transformLine(name: String, line: String): String {
+    fun transformLine(line: String): String {
         if (line.trim().contains("  ")) {
             // Detect multiple spaces in the middle of the line, it's usually a typos.
-            throw IllegalStateException("Double space in [$name], line: [$line]")
+            throw IllegalStateException("Double space in line: [$line]")
         }
         return line.trimEnd()
             .replace("…", "...")
@@ -25,24 +25,24 @@ class TextFormatter {
             .replace("”", "\"")
     }
 
-    fun transformParagraph(name: String, paragraph: String): String {
+    fun transformParagraph(paragraph: String): String {
         val result = StringBuilder()
         Utils().splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
-            result.append(transformLine(name, line))
+            result.append(transformLine(line))
         }
         return result.toString()
     }
 
-    fun transform(name: String, text: String): String {
+    fun transform(text: String): String {
         val result = StringBuilder()
         Utils().splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }
-            result.append(transformParagraph(name, paragraph))
+            result.append(transformParagraph(paragraph))
         }
         return result.toString()
     }

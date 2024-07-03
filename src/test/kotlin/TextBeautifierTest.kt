@@ -8,7 +8,7 @@ class TextBeautifierTest {
     fun beautifyLine() {
         val lineIn = " - Start space-dash. And - dash in middle... And - another dash..."
         val lineOut = " — Start space-dash. And — dash in middle… And — another dash…"
-        assertEquals(lineOut, TextBeautifier().transformLine("test", lineIn))
+        assertEquals(lineOut, TextBeautifier().transformLine(lineIn))
     }
 
     @Test
@@ -19,7 +19,7 @@ class TextBeautifierTest {
         val textOut = " — Start space-dash. And — dash in middle… And — another dash…\n" +
                 "— Start dash. Hello!\n\n" +
                 "— Another start dash. And — dash…"
-        assertEquals(textOut, TextBeautifier().transform("test", textIn))
+        assertEquals(textOut, TextBeautifier().transform(textIn))
     }
 
     @Test

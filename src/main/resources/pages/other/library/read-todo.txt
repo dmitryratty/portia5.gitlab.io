@@ -1,16 +1,10 @@
-Well, well... Library!
+TODO
 
-Позже сделаю тут развёрнутый список прочитанного и просмотренного.
-
-* * *
-
-Возможно прочитаю.
-
-https://ciechanow.ski/airfoil/
-
-https://en.wikipedia.org/wiki/Existentialism
+https://blog.frost.kiwi/WebGL-LUTS-made-simple/
 
 https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
+
+https://en.wikipedia.org/wiki/Existentialism
 
 https://en.wikipedia.org/wiki/Ethics
 
@@ -24,11 +18,21 @@ https://en.wikipedia.org/wiki/Descriptive_ethics
 
 https://en.wikipedia.org/wiki/Normative_ethics
 
-https://blog.frost.kiwi/WebGL-LUTS-made-simple/
+https://en.wikipedia.org/wiki/Regression_toward_the_mean
 
 https://en.wikipedia.org/wiki/No_free_lunch_theorem
 
 https://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
+
+https://en.wikipedia.org/wiki/Kolmogorov_complexity
+
+https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
+
+https://en.wikipedia.org/wiki/Problem_of_induction
+
+https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+
+* * *
 
 https://www.alignmentforum.org/tag/instrumental-convergence
 
@@ -36,16 +40,9 @@ https://www.lesswrong.com/tag/acausal-trade
 
 https://www.lesswrong.com/tag/moloch
 
-https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+"AI Safety 101": https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
 
-AI Safety 101.
-- https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
-
-https://en.wikipedia.org/wiki/Kolmogorov_complexity
-
-https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
-
-https://en.wikipedia.org/wiki/Problem_of_induction
+* * *
 
 "Structure and Interpretation of Computer Programs" - Gerald Jay Sussman, Hal Abelson, Julie Sussman.
 
