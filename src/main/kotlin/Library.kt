@@ -90,10 +90,10 @@ class Library {
         val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
 
-        val result = StringBuilder("Ну… Библиотека!")
+        val result = StringBuilder()
         val builder = StringBuilder()
 
-        result.append("\n\nШтуки, которые могу порекомендовать.\n\n")
+        result.append("Штуки, которые могу порекомендовать.\n\n")
         val recommendations = writingsIn
             .filter { it.tags.contains("recommendation") }
             .sortedBy { it.rating }

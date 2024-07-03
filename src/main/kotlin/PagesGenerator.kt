@@ -1,3 +1,4 @@
+import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.io.path.pathString
 import kotlin.text.StringBuilder
@@ -27,7 +28,7 @@ class PagesGenerator(
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val bottomNavigationHtml = "\n\n    <p class=\"dinkus\">* * *</p>" +
+    private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
             "\n\n    <p>🏠 <a href=\"$hostName\">$hostName</a></p>"
     private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
@@ -38,7 +39,7 @@ class PagesGenerator(
         TextFormatter().main()
         Utils().textPagesInput().forEach {
             val beautyfiedText = TextBeautifier().transform(it.value.readText())
-            val titleAndBody = titleAndBody(beautyfiedText)
+            val titleAndBody = titleAndBody(it.key.pathString, beautyfiedText)
             val bodyHtml = textToHtml(titleAndBody.second)
             val htmlFile = Utils().textPageInputToHtmlOutputFile(it.key)
             htmlFile.parentFile.mkdirs()
@@ -87,9 +88,23 @@ class PagesGenerator(
             .replace("<!-- DATA FOOTER -->", if (bottomNavigation) bottomNavigationHtml else "")
     }
 
-    fun titleAndBody(beautyfiedText: String): Pair<String, String> {
-        val titleAndBody = beautyfiedText.split("\n\n", limit = 2)
-        return Pair(titleAndBody[0], titleAndBody[1])
+    fun titleAndBody(path: String, beautyfiedText: String): Pair<String, String> {
+        if (path == "index.txt") {
+            // Ну… Да! Ну… Видеоигры!
+            return Pair("Well… Yes!", beautyfiedText)
+        } else if (path == "other/index.txt") {
+            return Pair("Well… Other!", beautyfiedText)
+        } else {
+            var name = path.substring(0, path.length - ".txt".length)
+            if (name.contains('/')) {
+                return Pair("Well… \"$name\"!", beautyfiedText)
+            } else {
+                name = name.replaceFirstChar {
+                    if (it.isLowerCase()) it.titlecase(Locale.ENGLISH) else it.toString()
+                }
+                return Pair("Well… $name!", beautyfiedText)
+            }
+        }
     }
 
     private fun makeNoWrap(word: String): String {
