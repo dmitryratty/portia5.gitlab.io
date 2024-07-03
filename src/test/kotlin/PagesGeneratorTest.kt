@@ -1,6 +1,5 @@
 import java.nio.file.Paths
 import kotlin.io.path.exists
-import kotlin.io.path.pathString
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -70,7 +69,7 @@ class PagesGeneratorTest {
         val expectedHtmlString = resourcesDir.resolve("test1.html").toFile().readText()
 
         val beautyfiedText = TextBeautifier().transform(textString)
-        val titleAndBody = pagesGenerator.titleAndBody(beautyfiedText)
+        val titleAndBody = pagesGenerator.titleAndBody("test1.txt", beautyfiedText)
         val bodyHtml = pagesGenerator.textToHtml(titleAndBody.second)
         val htmlPage = pagesGenerator.htmlPage(titleAndBody.first, bodyHtml, true)
         assertEquals(expectedHtmlString, htmlPage)

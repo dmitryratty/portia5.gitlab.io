@@ -85,9 +85,9 @@ class PagesGenerator(
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
         return htmlTemplate
-            .replace("<!-- TITLE -->", title)
-            .replace("<!-- DATA -->", body)
-            .replace("<!-- DATA FOOTER -->", if (bottomNavigation) bottomNavigationHtml else "")
+            .replace("<!--TITLE-->", title)
+            .replace("<!--DATA-->", "    $body")
+            .replace("<!--DATA-FOOTER-->", if (bottomNavigation) bottomNavigationHtml else "")
     }
 
     fun titleAndBody(path: String, beautyfiedText: String): Pair<String, String> {
