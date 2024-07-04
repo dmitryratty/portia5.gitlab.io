@@ -1,11 +1,3 @@
-Library "database" splitting into authors and books.
-
-    https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
-
-    https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
-
-    YAML, HOCON?
-
 "language": "en"
 "language": "ru"
 
@@ -122,3 +114,9 @@ Library "database" splitting into authors and books.
 },
 
 https://ciechanow.ski/airfoil/
+
+https://blog.frost.kiwi/WebGL-LUTS-made-simple/
+
+https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
+
+https://en.wikipedia.org/wiki/Accelerationism
