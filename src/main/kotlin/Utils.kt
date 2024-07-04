@@ -16,11 +16,11 @@ class Utils {
             return current.resolve("ratty-public")
         }
 
-    val resourcesDir get() = projectDir.resolve("src/main/resources")
+    val resourcesDir: Path get() = projectDir.resolve("src/main/resources")
 
-    val pagesTextSrcDir get() = resourcesDir.resolve("pages")
+    val pagesTextSrcDir: Path get() = resourcesDir.resolve("pages")
 
-    val buildOutDir get() = projectDir.resolve("public")
+    val buildOutDir: Path get() = projectDir.resolve("public")
 
     fun textPagesInput(): Map<Path, File> {
         return pagesTextSrcDir.toFile().walk().filter { it.name.endsWith(".txt") }
