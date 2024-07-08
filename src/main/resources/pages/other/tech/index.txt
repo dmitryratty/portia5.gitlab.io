@@ -84,3 +84,50 @@ During the block of Wikipedia in Turkey, IPFS was used to create a mirror of Wik
 Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser.
 
 Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
+
+* * *
+
+Beaty. Emoji.
+
+html make border around emoji
+
+https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+
+<!-- &#x1F921; - Clown Face Emoji. -->
+<!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+<!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+<!-- &#x1F3AE; - Video Game Emoji. -->
+<!-- &#x1F3B2; - Game Die Emoji. -->
+🎒 &#x1F392; - School Satchel.
+<!-- &#x3C0; - Greek Small Letter Pi. -->
+<!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+✉ 📨 📩 💌
+➗ 🦉 🖤 ⚫ ❄ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑
+
+Other.
+
+https://en.wikipedia.org/wiki/Fleuron_(typography)
+
+https://en.wikipedia.org/wiki/Dingbat
+
+https://en.wikipedia.org/wiki/Box-drawing_character
+
+https://en.wikipedia.org/wiki/Bullet_(typography)
+
+https://en.wikipedia.org/wiki/Ellipsis
+
+⁂ ❦ ❖《》⟨⟩
+<///////////////////////////>
+<///><///><///>
+<•>
+╰┈➤ ❝ [?] ❞
+°｡°｡°｡°｡°
+໒໒໒
+₊₊₊₊
+♡♡♡
+⋆⋆⋆
+‧‧‧
+⸜⸜⸜
+₊₊₊
+˚˚˚
+༺♡༻
