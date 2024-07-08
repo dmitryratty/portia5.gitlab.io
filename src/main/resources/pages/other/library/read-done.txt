@@ -120,3 +120,9 @@ https://blog.frost.kiwi/WebGL-LUTS-made-simple/
 https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
 
 https://en.wikipedia.org/wiki/Accelerationism
+
+https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
+
+Прочитанное. Эндрю Таненбаум: "Современные операционные системы". Scott Chacon, Ben Straub: "Pro Git". The Java Tutorial: A Short Course on the Basics (The Java Series) 6th Edition by Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour.
+
+Прочитанное. Satoshi Nakamoto: "Bitcoin: A Peer-to-Peer Electronic Cash System". "Grandmaster level in StarCraft II using multi-agent reinforcement learning". "AlphaStar: Mastering the real-time strategy game StarCraft II", "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning".

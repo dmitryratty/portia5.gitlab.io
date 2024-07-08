@@ -236,10 +236,33 @@
             }
         ],
         "tags": [
-            "archive",
+            "recommendation",
             "novel"
         ],
-        "rating": 400
+        "rating": 550
+    },
+    {
+        "names": [
+            {
+                "name": "Заводной апельсин",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Энтони Бёрджесс",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 800
     },
     {
         "names": [
@@ -792,7 +815,7 @@
             "recommendation",
             "novel"
         ],
-        "rating": 620
+        "rating": 500
     },
     {
         "names": [
