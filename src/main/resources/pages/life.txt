@@ -4,8 +4,6 @@
 
 Плохую метафору можно уподобить котёнку с дверцей.
 
-Когда Сидзуо Какутани шел по холлу в Йельском университете, к нему подошел студент. Он спросил: "Профессор Какутани, можно ли мне прийти в ваш офис в 4 часа дня сегодня?". Какутани быстро ответил: "Да", и пошел дальше по коридору. "Значит, вы придете?" — спросил студент со спины. "Нет", ответил Какутани. "Mathematical Apocrypha" by "Steven Krantz". #Mathematicians
-
 Приносит экспериментатор теоретику опытный график. Теоретик смотрит:
 - А! Ну тут всё ясно. Так и должно быть потому-то и потому-то.
 В этот момент экспериментатор обнаруживает, что случайно положил на стол график вверх ногами, и переворачивает его. Теоретик снова смотрит:
@@ -34,34 +32,23 @@
 
 * * *
 
-#Ethics
-https://en.wikipedia.org/wiki/Is-ought_problem
-https://en.wikipedia.org/wiki/Fact-value_distinction
-https://en.wikipedia.org/wiki/Inductive_bias
-https://en.wikipedia.org/wiki/Prisoner's_dilemma
-https://en.wikipedia.org/wiki/Utility_monster
-https://en.wikipedia.org/wiki/Lawrence_Kohlberg's_stages_of_moral_development
-https://en.wikipedia.org/wiki/Heinz_dilemma
-https://en.wikipedia.org/wiki/Existentialism
-https://en.wikipedia.org/wiki/Ethics
-https://en.wikipedia.org/wiki/Metaethics
-https://en.wikipedia.org/wiki/Descriptive_ethics
-https://en.wikipedia.org/wiki/Normative_ethics
-
-* * *
-
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
  - https://en.wikipedia.org/wiki/Idiot_plot
 
 * * *
 
-В один жаркий вечер семья отдыхала на крыльце до тех пор, пока тесть не предложил съездить в Абилин отобедать. Жена сказала: «Звучит неплохо». Муж, несмотря на то, что поездка обещала быть долгой и утомительной, подумал, что надо подстроиться под других, и произнёс: «По-моему, неплохо; надеюсь, что и твоя мама не откажется». Тёща же ответила: «Конечно, поехали! Я не была в Абилине уже давно». Дорога была жаркой, пыльной и долгой. Еда оказалась невкусной. Спустя 4 часа они, измученные, вернулись домой. </> Один из них произнёс неискренне: «Верно, неплохая была поездка?». Тёща на это сказала, что, на самом деле, она бы лучше осталась дома, но поехала, раз уж остальные трое были полны энтузиазма. Муж сказал: «Я был бы рад никуда не ездить, поехал лишь чтобы доставить остальным удовольствие». Жена произнесла: «А я поехала, рассчитывая на радость остальных. Надо было быть сумасшедшим, чтобы добровольно отправиться в эту поездку». Тесть ответил, что он предложил это лишь потому, что ему показалось, что остальным скучно. И они сидели, ошеломлённые тем, что поехали в поездку, которой никто из них не хотел.
-- https://en.wikipedia.org/wiki/Abilene_paradox
-"Guess/Ask/Tell Culture".
-- https://www.lesswrong.com/tag/guess-ask-tell-culture
-- https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
-"The Platinum Rule: Treat Others the Way They Want to Be Treated" by "Itamar Shatz".
-- https://effectiviology.com/platinum-rule
+#Ethics
+https://en.wikipedia.org/wiki/Is-ought_problem
+https://en.wikipedia.org/wiki/Inductive_bias
+https://en.wikipedia.org/wiki/Prisoner's_dilemma
+https://en.wikipedia.org/wiki/Utility_monster
+https://en.wikipedia.org/wiki/Existentialism
+https://en.wikipedia.org/wiki/Lawrence_Kohlberg's_stages_of_moral_development
+https://en.wikipedia.org/wiki/Heinz_dilemma
+https://en.wikipedia.org/wiki/Ethics
+https://en.wikipedia.org/wiki/Metaethics
+https://en.wikipedia.org/wiki/Descriptive_ethics
+https://en.wikipedia.org/wiki/Normative_ethics
 
 * * *
 
@@ -71,11 +58,11 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 
 * * *
 
-Один из самым трудных томов трактата Бурбаки – том, посвящённый интегрированию (мере Хаара). Жану Дьёдонне, самому рьяному критику очередной рукописи этого тома, в конце сороковых годов было поручено написание очередной версии. Дьёдонне, в то время находившийся в расцвете своих творческих сил, забросив на целый год всю свою собственную математическую работу, полностью отдался этому нелегкому труду. </> Через год, к назначенному сроку, он привез на бурбаковскую виллу на Средиземном море 12 (по числу членов группы) экземпляров своего труда. Первое обсуждение произошло на следующий вечер. Сидели в удобных креслах в большой гостиной, потягивая (в то время ещё не самое лучшее) красное вино и глядя на уютно разгоревшийся камин. Выступали поочередно, причем тон выступлений, неожиданно для гордившегося своим детищем Дьёдонне, был резко критическим. Первое же выступление завершилось такой оценкой: «Место этому уроду – здесь!», после чего помятые машинописные листки рукописи, с тщательно вставленными от руки формулами, были отправлены в камин. И так завершились все одиннадцать выступлений. Обиженный Дьёдонне удалился в свою комнату, где на письменном столе к счастью оставался последний, его собственный, экземпляр рукописи. </> Можно представить себе его ужас, когда вместо рукописи он обнаружил там лишь маленькую кучку пепла и записку: «Здесь покоится прах последнего урода Дьёдонне».
-- "А.Б. Сосинский", "Умер ли Никола Бурбаки?".
-- https://www.mathnet.ru/rus/mp18
-- https://t.me/mathmemories/33
-#Mathematicians
+Abilene paradox. Ask, guess, tell culture. Platinum rule.
+https://en.wikipedia.org/wiki/Abilene_paradox
+https://www.lesswrong.com/tag/guess-ask-tell-culture
+https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
+https://effectiviology.com/platinum-rule
 
 * * *
 
