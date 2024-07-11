@@ -1,4 +1,3 @@
-import java.nio.file.Path
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.io.path.*
@@ -37,6 +36,7 @@ class PagesGenerator(
 
     fun main() {
         Library().main()
+        generateMap()
         TextFormatter().main()
         Utils().cleanupBuildDir()
         Utils().textPagesInput().forEach {
@@ -48,39 +48,41 @@ class PagesGenerator(
             val bottomNavigation = it.key.pathString != "index.txt"
             htmlFile.writeText(htmlPage(titleAndBody.first, bodyHtml, bottomNavigation))
         }
-        printMap()
     }
 
-    private fun printMap() {
+    private fun stripEnding(path: String): String {
+        return if (path == "index.txt") {
+            ""
+        } else if (path.endsWith("/index.txt")) {
+            path.substring(0, path.length - "/index.txt".length)
+        } else {
+            path.substring(0, path.length - ".txt".length)
+        }
+    }
+
+    private fun generateMap() {
         val pagesListLayerOne = ArrayList<String>()
         val pagesListLayerTwo = ArrayList<String>()
-        val prefix = " - $hostName"
+        val prefix = hostName
         Utils().textPagesInput().forEach {
-            val path = it.key.pathString
+            val path = stripEnding(it.key.pathString)
             if (path.startsWith("other/")) {
-                if (path.endsWith("/index.txt")) {
-                    val endIndex = path.length - "/index.txt".length
-                    pagesListLayerTwo.add(prefix + "/" + path.substring(0, endIndex))
-                } else {
-                    pagesListLayerTwo.add(prefix + "/" + path.substring(0, path.length - ".txt".length))
-                }
+                pagesListLayerTwo.add("$prefix/$path")
             } else {
-                if (path == "index.txt") {
+                if (path == "") {
                     pagesListLayerOne.add(prefix)
                 } else {
-                    pagesListLayerOne.add(prefix + "/" + path.substring(0, path.length - ".txt".length))
+                    pagesListLayerOne.add("$prefix/$path")
                 }
             }
-
         }
+        val map = StringBuilder()
+        map.append("Map.")
         pagesListLayerOne.sort()
-        pagesListLayerOne.forEach {
-            println(it)
-        }
+        pagesListLayerOne.forEach { map.append('\n').append(it) }
         pagesListLayerTwo.sort()
-        pagesListLayerTwo.forEach {
-            println(it)
-        }
+        pagesListLayerTwo.forEach { map.append('\n').append(it) }
+        Utils().pagesTextSrcDir.resolve("other/map.txt").toFile().writeText(map.toString())
     }
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
