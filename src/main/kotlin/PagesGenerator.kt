@@ -40,7 +40,17 @@ class PagesGenerator(
         TextFormatter().main()
         Utils().cleanupBuildDir()
         Utils().textPagesInput().forEach {
-            val beautyfiedText = TextBeautifier().transform(it.value.readText())
+            val includeResolved = StringBuilder()
+            it.value.readText().split('\n').forEach { line ->
+                if (line.startsWith("#include")) {
+                    val path = line.substring("#include ".length, line.length)
+                    val file = Utils().pagesTextSrcDir.resolve(path).toFile()
+                    includeResolved.append('\n').append(file.readText())
+                } else {
+                    includeResolved.append('\n').append(line)
+                }
+            }
+            val beautyfiedText = TextBeautifier().transform(includeResolved.toString())
             val titleAndBody = titleAndBody(it.key.pathString, beautyfiedText)
             val bodyHtml = textToHtml(titleAndBody.second)
             val htmlFile = Utils().textPageInputToHtmlOutputFile(it.key)
