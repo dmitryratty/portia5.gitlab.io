@@ -36,6 +36,8 @@ https://www.lesswrong.com/tag/moloch
 
 "AI Safety 101": https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
 
+https://arbital.com/p/bayes_rule/
+
 * * *
 
 "Structure and Interpretation of Computer Programs" - Gerald Jay Sussman, Hal Abelson, Julie Sussman.
