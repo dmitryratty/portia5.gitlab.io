@@ -3,9 +3,13 @@ https://dmitryratty.gitlab.io
 https://dmitryratty.gitlab.io/flesh
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/life
+https://dmitryratty.gitlab.io/life/alexander-grothendieck
+https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/ethics-data
-https://dmitryratty.gitlab.io/life/jokes
+https://dmitryratty.gitlab.io/life/humour
+https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/slice-mine
+https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/tech

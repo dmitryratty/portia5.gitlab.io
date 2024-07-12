@@ -28,11 +28,10 @@ class PagesGenerator(
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
-            "\n\n    <p>🏠 <a href=\"$hostName\">$hostName</a></p>"
     private val resourcesDir = Utils().resourcesDir
     private val htmlTemplate get() = resourcesDir.resolve("page-template.html").toFile().readText()
     private val lineTransformer = LineTransformer(true, LineTransformer().simpleSpacesTransformer)
+    private val includeDirective = "#include "
 
     fun main() {
         Library().main()
@@ -42,10 +41,13 @@ class PagesGenerator(
         Utils().textPagesInput().forEach {
             val includeResolved = StringBuilder()
             it.value.readText().split('\n').forEach { line ->
-                if (line.startsWith("#include")) {
-                    val path = line.substring("#include ".length, line.length)
-                    val file = Utils().pagesTextSrcDir.resolve(path).toFile()
-                    includeResolved.append('\n').append(file.readText())
+                if (line.startsWith(includeDirective)) {
+                    val path = line.substring(includeDirective.length, line.length)
+                    val include = Utils().pagesTextSrcDir.resolve(path).toFile().readText()
+                    if (include.contains(includeDirective)) {
+                        throw IllegalStateException("#include in #include, ${it.key.pathString}")
+                    }
+                    includeResolved.append('\n').append(include)
                 } else {
                     includeResolved.append('\n').append(line)
                 }
@@ -86,14 +88,21 @@ class PagesGenerator(
                 }
             }
         }
+        val mapPath = "other/map"
+        if (!pagesListLayerTwo.contains("$prefix/$mapPath")) {
+            pagesListLayerTwo.add("$prefix/$mapPath")
+        }
         val map = StringBuilder()
         map.append("Map.")
         pagesListLayerOne.sort()
         pagesListLayerOne.forEach { map.append('\n').append(it) }
         pagesListLayerTwo.sort()
         pagesListLayerTwo.forEach { map.append('\n').append(it) }
-        Utils().pagesTextSrcDir.resolve("other/map.txt").toFile().writeText(map.toString())
+        Utils().pagesTextSrcDir.resolve("$mapPath.txt").toFile().writeText(map.toString())
     }
+
+    private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
+            "\n\n    <p>🏠 <a href=\"$hostName\">$hostName</a></p>"
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
         return htmlTemplate
@@ -164,6 +173,7 @@ class PagesGenerator(
             // we make "world![2]" no wrap.
             newWord = makeNoWrap(newWord)
         } else if (newWord.length > maxUnwrappedWordLenght) {
+            println("Long word: $newWord")
             newWord = longWordLineBreaks(newWord)
         }
         return newWord

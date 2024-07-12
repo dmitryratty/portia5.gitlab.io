@@ -65,15 +65,7 @@ https://effectiviology.com/platinum-rule
 
 * * *
 
-Demon core - название, данное подкритичному объёму плутония массой 6,2 кг, который участвовал в двух несчастных случаях в лаборатории Лос-Аламоса в 1945 и 1946 годах. В обоих случаях радиоактивное облучение в результате незапланированного перехода в надкритическое состояние приводило к гибели учёных, после чего сборка и получила своё название. Конструкция состояла из двух половин шаров плутония в дельта-фазе, покрытых слоем никеля.
-
-Первый инцидент. </> 21 августа 1945 года молодой учёный Гарри Даглян в одиночку проводил эксперимент по изучению отражения нейтронов. При попытке установки очередного блока Даглян уронил его прямо на плутоний, что перевело сборку в надкритическое состояние. Несмотря на то, что блок был немедленно убран, Даглян получил смертельную дозу излучения и умер от лучевой болезни через 25 дней.
-
-Второй инцидент. </> 21 мая 1946 года физик Луи Злотин проводил в лаборатории Лос-Аламоса эксперимент по изучению свойств деления ядер с помощью установки отражателя нейтронов в подкритическую сборку, при этом он проводил демонстрацию опыта семи другим учёным. За свою чрезвычайную опасность эксперимент носил название «дёргание дракона за хвост». Экспериментатор помещал ядро между двумя бериллиевыми полусферами, играющими роль отражателя, и вручную опускал верхнюю полусферу на ядро, придерживая её большим пальцем за отверстие в верхней части. При перемещении полусферы вверх и вниз датчики регистрировали изменение активности сборки. Единственным предметом, препятствовавшим смыканию полусфер, являлось жало плоской отвёртки, которую учёный держал в правой руке.
-
-Злотин проводил данный эксперимент уже более десяти раз, ранее Энрико Ферми говорил ему и другим сотрудникам, участвовавшим в экспериментах, что если они не прекратят свои опасные опыты, то «погибнут в течение года». Во время опускания верхней полусферы отвёртка Злотина соскользнула, и полусферы сомкнулись, полностью окружив плутоний. Злотин получил большую дозу облучения - порядка 1000 рад и умер через 9 дней от острой лучевой болезни в кишечной форме.
-
-https://en.wikipedia.org/wiki/Demon_core
+#include life/demon-core.txt
 
 * * *
 
@@ -90,19 +82,7 @@ The point: there is knowledge for which money cannot substitute. Even if Louis X
 
 * * *
 
-Во время «Парижской весны» 1968 года Гротендик заметил, что его коллеги-математики в основном поддерживают не студентов, а «буржуазное» правительство, и возмутился. В 1969 году он узнал, что Институт высших научных исследований, где он работал много лет, частично финансируется министерством обороны, и ушёл из него. Далее он обратил внимание на то, что среди математиков тоже встречаются «аристократы» и «крепостные», и что иной раз влиятельный учёный отклоняет под благовидным предлогом работу молодого математика, особенно не своего ученика, «это не актуально», «тупиковый путь», а затем использует идеи отклонённой работы. Ещё чаще труды молодых просто игнорируют научные «клики» и «мафии». Гротендик удалился в Монпелье, где он когда-то самостоятельно открыл теорию меры, и оставил занятия математикой.
-
-</> In 1957 he was invited to visit Harvard by Oscar Zariski, but the offer fell through when he refused to sign a pledge promising not to work to overthrow the United States government—a refusal which, he was warned, threatened to land him in prison.
-
-</> To protest against the Vietnam War, he gave lectures on category theory in the forests surrounding Hanoi while the city was being bombed. In 1966, he had declined to attend the International Congress of Mathematicians in Moscow, where he was to receive the Fields Medal. He retired from scientific life around 1970 after he had found out that IHÉS was partly funded by the military.
-
-</> La Clef des Songes, a 315-page manuscript written in 1987, is Grothendieck's account of how his consideration of the source of dreams led him to conclude that a deity exists. As part of the notes to this manuscript, Grothendieck described the life and the work of 18 "mutants", people whom he admired as visionaries far ahead of their time and heralding a new age. The only mathematician on his list was Bernhard Riemann. Influenced by the Catholic mystic Marthe Robin who was claimed to have survived on the Holy Eucharist alone, Grothendieck almost starved himself to death in 1988. His growing preoccupation with spiritual matters was also evident in a letter entitled Lettre de la Bonne Nouvelle sent to 250 friends in January 1990. In it, he described his encounters with a deity and announced that a "New Age" would commence on 14 October 1996.
-
-</> Thus, he became a stateless person for at least the majority of his working life and he traveled on a Nansen passport. </> Local villagers helped sustain him with a more varied diet after he tried to live on a staple of dandelion soup.
-
-https://en.wikipedia.org/wiki/Alexander_Grothendieck
-
-#Mathematicians #Ethics
+#include life/alexander-grothendieck.txt
 
 * * *
 
@@ -133,6 +113,8 @@ https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
 - https://lesswrong.ru/454
 
 * * *
+
+https://en.wikipedia.org/wiki/Egocentric_bias
 
 "Is Success Luck or Hard Work?" by "Veritasium".
 - https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
@@ -178,13 +160,11 @@ Only I will remain.
 
 * * *
 
-He credited his acumen to his family goddess, Namagiri Thayar of Namakkal. He looked to her for inspiration in his work and said he dreamed of blood drops that symbolised her consort, Narasimha. Later he had visions of scrolls of complex mathematical content unfolding before his eyes. He often said, "An equation for me has no meaning unless it expresses a thought of God.". </> ...in 1920 he died at the age of 32. </> A 1994 analysis of Ramanujan's medical records and symptoms by D. A. B. Young concluded that his medical symptoms—including his past relapses, fevers, and hepatic conditions—were much closer to those resulting from hepatic amoebiasis, an illness then widespread in Madras, than tuberculosis. He had two episodes of dysentery before he left India. When not properly treated, amoebic dysentery can lie dormant for years and lead to hepatic amoebiasis, whose diagnosis was not then well established. At the time, if properly diagnosed, amoebiasis was a treatable and often curable disease; British soldiers who contracted it during the First World War were being successfully cured of amoebiasis around the time Ramanujan left England.
-- https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
-#Mathematicians
+#include life/srinivasa-ramanujan.txt
 
 * * *
 
-Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.
+Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.
 
 * * *
 
