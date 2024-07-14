@@ -157,6 +157,7 @@ class Library {
             postfix = ".",
             transform = { it[0].names[0].name }))
 
-        Utils().pagesTextSrcDir.resolve("library.txt").toFile().writeText(result.toString())
+        Utils().pagesSrcDir.resolve("library/index.txt").toFile()
+            .writeText(result.toString())
     }
 }

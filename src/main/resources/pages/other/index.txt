@@ -9,4 +9,6 @@
  - https://gitlab.com/dmitryratty
  - https://github.com/dmitryratty
 
+* * *
+
 #include other/map.txt

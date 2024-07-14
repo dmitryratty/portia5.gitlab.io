@@ -2,6 +2,8 @@ Map.
 https://dmitryratty.gitlab.io
 https://dmitryratty.gitlab.io/flesh
 https://dmitryratty.gitlab.io/library
+https://dmitryratty.gitlab.io/library/maybe-will-read
+https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
 https://dmitryratty.gitlab.io/life/demon-core
@@ -16,8 +18,6 @@ https://dmitryratty.gitlab.io/tech
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/other/biology
 https://dmitryratty.gitlab.io/other/flesh
-https://dmitryratty.gitlab.io/other/library/read-done
-https://dmitryratty.gitlab.io/other/library/read-todo
 https://dmitryratty.gitlab.io/other/life
 https://dmitryratty.gitlab.io/other/map
 https://dmitryratty.gitlab.io/other/tech

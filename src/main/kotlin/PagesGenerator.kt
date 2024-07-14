@@ -43,7 +43,7 @@ class PagesGenerator(
             it.value.readText().split('\n').forEach { line ->
                 if (line.startsWith(includeDirective)) {
                     val path = line.substring(includeDirective.length, line.length)
-                    val include = Utils().pagesTextSrcDir.resolve(path).toFile().readText()
+                    val include = Utils().pagesSrcDir.resolve(path).toFile().readText()
                     if (include.contains(includeDirective)) {
                         throw IllegalStateException("#include in #include, ${it.key.pathString}")
                     }
@@ -98,7 +98,7 @@ class PagesGenerator(
         pagesListLayerOne.forEach { map.append('\n').append(it) }
         pagesListLayerTwo.sort()
         pagesListLayerTwo.forEach { map.append('\n').append(it) }
-        Utils().pagesTextSrcDir.resolve("$mapPath.txt").toFile().writeText(map.toString())
+        Utils().pagesSrcDir.resolve("$mapPath.txt").toFile().writeText(map.toString())
     }
 
     private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
@@ -113,10 +113,17 @@ class PagesGenerator(
 
     fun titleAndBody(path: String, beautyfiedText: String): Pair<String, String> {
         if (path == "index.txt") {
-            // Ну… Да! Ну… Видеоигры!
             return Pair("Well… Yes!", beautyfiedText)
-        } else if (path == "other/index.txt") {
-            return Pair("Well… Other!", beautyfiedText)
+        } else if (path.endsWith("/index.txt")) {
+            var name = path.substring(0, path.length - "/index.txt".length)
+            if (name.contains('/')) {
+                return Pair("Well… \"$name\"!", beautyfiedText)
+            } else {
+                name = name.replaceFirstChar {
+                    if (it.isLowerCase()) it.titlecase(Locale.ENGLISH) else it.toString()
+                }
+                return Pair("Well… $name!", beautyfiedText)
+            }
         } else {
             var name = path.substring(0, path.length - ".txt".length)
             if (name.contains('/')) {

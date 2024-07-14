@@ -18,13 +18,13 @@ class Utils {
 
     val resourcesDir: Path get() = projectDir.resolve("src/main/resources")
 
-    val pagesTextSrcDir: Path get() = resourcesDir.resolve("pages")
+    val pagesSrcDir: Path get() = resourcesDir.resolve("pages")
 
     val buildOutDir: Path get() = projectDir.resolve("public")
 
     fun textPagesInput(): Map<Path, File> {
-        return pagesTextSrcDir.toFile().walk().filter { it.name.endsWith(".txt") }
-            .map { it.toPath().relativeTo(pagesTextSrcDir) to it }.toMap()
+        return pagesSrcDir.toFile().walk().filter { it.name.endsWith(".txt") }
+            .map { it.toPath().relativeTo(pagesSrcDir) to it }.toMap()
     }
 
     fun splitToParagraphs(text: String): List<String> {

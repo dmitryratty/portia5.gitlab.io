@@ -1,3 +1,5 @@
+\#include - add standalone links.
+
 #reference и #title
 
 Проверять все ссылки на то, живые ли они.
@@ -5,6 +7,8 @@
 Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
 
 Переделать "master" в "main". Переделать автора коммитов на Ratty.
+
+Ссылку на maybe-will-read в конец library.
 
 no wrap для финализаторов слов и предложений, вроде сносок.
 
@@ -14,7 +18,7 @@ no wrap для финализаторов слов и предложений, в
 
 Сделать внутренние ссылки относительными.
 
-Английский.
+Английский. Ну... Да! Ну... Видеоигры!
 
 THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -36,30 +40,31 @@ https://t.me/durov/284
 
 Gallery
 
-    Flexbox
+Flexbox
+- https://yoksel.github.io/flex-cheatsheet/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-        https://yoksel.github.io/flex-cheatsheet/
+image gallery html library like google photos
+- https://nanogallery2.nanostudio.org/
 
-        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+simple image lightbox html
 
-    image gallery html library like google photos
-
-        https://nanogallery2.nanostudio.org/
-
-    simple image lightbox html
+* * *
 
 https://en.wikipedia.org/wiki/Sitemaps
 
 https://css-tricks.com/emoji-as-a-favicon/
 
+* * *
+
 CSS
 
-    MAGICK.CSS https://css.winterveil.net/
+MAGICK.CSS https://css.winterveil.net/
 
-    Tufte CSS https://edwardtufte.github.io/tufte-css/
+Tufte CSS https://edwardtufte.github.io/tufte-css/
 
-Footnotes:
+* * *
 
-    https://css-tricks.com/footnote-characters
+Footnotes: https://css-tricks.com/footnote-characters
 
 В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
