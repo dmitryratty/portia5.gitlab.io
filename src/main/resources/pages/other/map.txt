@@ -17,12 +17,14 @@ https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/tech
+https://dmitryratty.gitlab.io/tech/hardware
+https://dmitryratty.gitlab.io/tech/other
+https://dmitryratty.gitlab.io/tech/software
+https://dmitryratty.gitlab.io/tech/web-fonts
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/other/life
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria
 https://dmitryratty.gitlab.io/other/map
-https://dmitryratty.gitlab.io/other/tech
-https://dmitryratty.gitlab.io/other/tech/software
-https://dmitryratty.gitlab.io/other/tech/web-fonts
+https://dmitryratty.gitlab.io/other/other
 https://dmitryratty.gitlab.io/other/todo
