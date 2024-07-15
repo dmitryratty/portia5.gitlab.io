@@ -102,7 +102,7 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 <!-- &#x3C0; - Greek Small Letter Pi. -->
 <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
 ✉ 📨 📩 💌
-➗ 🦉 🖤 ⚫ ❄ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑
+➗ 🦉 🖤 ⚫ ❄ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 🤡 ⚖ ✨
 
 Other.
 

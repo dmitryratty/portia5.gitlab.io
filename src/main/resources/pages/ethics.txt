@@ -1,14 +1,28 @@
+Ethics.
+
+* * *
+
+https://en.wikipedia.org/wiki/Is-ought_problem
+https://en.wikipedia.org/wiki/Inductive_bias
+https://en.wikipedia.org/wiki/Prisoner's_dilemma
+https://en.wikipedia.org/wiki/Utility_monster
+https://en.wikipedia.org/wiki/Existentialism
+https://en.wikipedia.org/wiki/Lawrence_Kohlberg's_stages_of_moral_development
+https://en.wikipedia.org/wiki/Heinz_dilemma
+https://en.wikipedia.org/wiki/Ethics
+https://en.wikipedia.org/wiki/Metaethics
+https://en.wikipedia.org/wiki/Descriptive_ethics
+https://en.wikipedia.org/wiki/Normative_ethics
+
+* * *
+
 https://ourworldindata.org/causes-of-death
 
 * * *
 
 In addition to LSD, Cameron also experimented with various paralytic drugs as well as electroconvulsive therapy at thirty to forty times the normal power. His "driving" experiments consisted of putting subjects into drug-induced comas for weeks at a time (up to three months in one case) while playing tape loops of noise or simple repetitive statements. His experiments were often carried out on patients who entered the institute for common problems such as anxiety disorders and postpartum depression, many of whom suffered permanent effects from his actions. His treatments resulted in victims' urinary incontinence, amnesia, forgetting how to talk, forgetting their parents and thinking their interrogators were their parents. </> During this era, Cameron became known worldwide as the first chairman of the World Psychiatric Association as well as president of both the American Psychiatric Association and the Canadian Psychiatric Association. Cameron was also a member of the Nuremberg medical tribunal in 1946–1947.
 - https://en.wikipedia.org/wiki/MKUltra
-#Ethics
 
-* * *
-
-#Ethics
 https://en.wikipedia.org/wiki/Slavery_in_the_21st_century
 https://en.wikipedia.org/wiki/Rwandan_genocide
 https://en.wikipedia.org/wiki/Edward_Snowden
@@ -18,10 +32,13 @@ https://ru.wikipedia.org/wiki/Савельев,_Сергей_Владимиро�
 https://en.wikipedia.org/wiki/Jeffrey_Epstein
 https://en.wikipedia.org/wiki/Human_rights_violations_by_the_CIA
 https://en.wikipedia.org/wiki/CIA_assassination_attempts_on_Fidel_Castro
-https://en.wikipedia.org/wiki/Patrice_Lumumba
-https://en.wikipedia.org/wiki/Godefroid_Munongo
 https://en.wikipedia.org/wiki/Nayirah_testimony
-...At the Conference Nationale Souveraine shortly before his death, Mabika Kalanda asked him, "Godefroid, you are one of the survivors who participated in the end of Patrice Émery Lumumba. Why would you not take advantage of the CNS to tell us your truth?" Munongo emotionally replied, "My dear Mabika, you put an important issue before me. What I can say at this stage is that I was not alone. We were numerous. We'll have to get all these people together. But anyway, I can say at that time, we were working, without realizing it, for the interests that were not ours. We were young". </> The family website records that Munongo was going to break his silence on the death of Lumumba, but on the day of the announcement, he suffered a heart attack and died on 28 May 1992.
+https://en.wikipedia.org/wiki/Patrice_Lumumba
+
+At the Conference Nationale Souveraine shortly before his death, Mabika Kalanda asked him, "Godefroid, you are one of the survivors who participated in the end of Patrice Émery Lumumba. Why would you not take advantage of the CNS to tell us your truth?" Munongo emotionally replied, "My dear Mabika, you put an important issue before me. What I can say at this stage is that I was not alone. We were numerous. We'll have to get all these people together. But anyway, I can say at that time, we were working, without realizing it, for the interests that were not ours. We were young". </> The family website records that Munongo was going to break his silence on the death of Lumumba, but on the day of the announcement, he suffered a heart attack and died on 28 May 1992.
+- https://en.wikipedia.org/wiki/Godefroid_Munongo
+
+#Ethics
 
 * * *
 
@@ -77,9 +94,13 @@ https://ru.wikipedia.org/wiki/Массовое_убийство_в_станиц�
 
 * * *
 
-#Life #Flash https://en.wikipedia.org/wiki/Tetraethyllead
+#Life #Biology https://en.wikipedia.org/wiki/Tetraethyllead
 
 * * *
 
 Хиро Онода, — младший лейтенант войсковой разведки японских вооружённых сил, который воевал против союзных войск на небольшом филиппинском острове Лубанг во время Второй мировой войны и продолжал вооружённое сопротивление до 1974 года.
 - https://en.wikipedia.org/wiki/Hiroo_Onoda
+
+* * *
+
+#include life/judas-goat.txt

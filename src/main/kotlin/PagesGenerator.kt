@@ -94,10 +94,16 @@ class PagesGenerator(
         }
         val map = StringBuilder()
         map.append("Map.")
-        pagesListLayerOne.sort()
-        pagesListLayerOne.forEach { map.append('\n').append(it) }
-        pagesListLayerTwo.sort()
-        pagesListLayerTwo.forEach { map.append('\n').append(it) }
+        if (true) {
+            pagesListLayerOne.addAll(pagesListLayerTwo)
+            pagesListLayerOne.sort()
+            pagesListLayerOne.forEach { map.append('\n').append(it) }
+        } else {
+            pagesListLayerOne.sort()
+            pagesListLayerOne.forEach { map.append('\n').append(it) }
+            pagesListLayerTwo.sort()
+            pagesListLayerTwo.forEach { map.append('\n').append(it) }
+        }
         Utils().pagesSrcDir.resolve("$mapPath.txt").toFile().writeText(map.toString())
     }
 

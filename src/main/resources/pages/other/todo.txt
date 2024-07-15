@@ -1,26 +1,22 @@
+Проверять все ссылки на то, живые ли они.
+
+Сделать внутренние ссылки относительными.
+
+Переделать "master" в "main". Переделать автора коммитов на Ratty.
+
+2 TODO в slice of life.
+
 \#include - add standalone links.
 
 #reference и #title
 
-Проверять все ссылки на то, живые ли они.
-
 Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
-
-Переделать "master" в "main". Переделать автора коммитов на Ratty.
 
 Ссылку на maybe-will-read в конец library.
 
 no wrap для финализаторов слов и предложений, вроде сносок.
 
 Почему в Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
-
-Тёмная тема.
-
-Сделать внутренние ссылки относительными.
-
-Английский. Ну... Да! Ну... Видеоигры!
-
-THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 * * *
 
@@ -31,10 +27,6 @@ https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configu
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
 YAML, HOCON?
-
-* * *
-
-https://t.me/durov/284
 
 * * *
 
@@ -68,3 +60,9 @@ Tufte CSS https://edwardtufte.github.io/tufte-css/
 Footnotes: https://css-tricks.com/footnote-characters
 
 В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
+
+* * *
+
+Английский. Ну... Да! Ну... Видеоигры!
+
+Тёмная тема.

@@ -1,34 +1,18 @@
-Юмор. Сперва я ничего не понял. Впрочем, потом тоже.
-- https://dmitryratty.gitlab.io/life/humour
+🤡 Humour.
+- https://dmitryratty.gitlab.io/humour
 
-* * *
+⚖ Ethics.
+- https://dmitryratty.gitlab.io/ethics
 
-#Ethics
-https://en.wikipedia.org/wiki/Is-ought_problem
-https://en.wikipedia.org/wiki/Inductive_bias
-https://en.wikipedia.org/wiki/Prisoner's_dilemma
-https://en.wikipedia.org/wiki/Utility_monster
-https://en.wikipedia.org/wiki/Existentialism
-https://en.wikipedia.org/wiki/Lawrence_Kohlberg's_stages_of_moral_development
-https://en.wikipedia.org/wiki/Heinz_dilemma
-https://en.wikipedia.org/wiki/Ethics
-https://en.wikipedia.org/wiki/Metaethics
-https://en.wikipedia.org/wiki/Descriptive_ethics
-https://en.wikipedia.org/wiki/Normative_ethics
-</> Data: https://dmitryratty.gitlab.io/life/ethics-data
-
-* * *
+❄ Slice of life of mine.
+- https://dmitryratty.gitlab.io/life/slice-of-life-of-mine
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
 - https://en.wikipedia.org/wiki/Idiot_plot
 
-* * *
-
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину и-или стыд за то, что не ощущаю того, что согласно социальным нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
-
-* * *
 
 Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц. Максимум статистических фактов, минимум эмоциональных оценок.
 - https://en.wikipedia.org/wiki/2023
@@ -36,32 +20,21 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 - https://en.wikipedia.org/wiki/2024
 - https://en.wikipedia.org/wiki/Portal:Current_events/January_2024
 
-* * *
-
-A Judas goat is a trained goat used in general animal herding. The Judas goat is trained to associate with sheep or cattle, leading them to a specific destination. In stockyards, a Judas goat will lead sheep to slaughter, while its own life is spared.
-- https://en.wikipedia.org/wiki/Judas_goat
-#Trickery
-
-* * *
+#include life/judas-goat.txt
 
 Abilene paradox. Ask, guess, tell culture. Platinum rule.
-https://en.wikipedia.org/wiki/Abilene_paradox
-https://lesswrong.com/tag/guess-ask-tell-culture
-https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
-https://effectiviology.com/platinum-rule
-
-* * *
-
-В 1956 А. Вейлю, одному из основателей и бесспорных лидеров группы Бурбаки, должно было исполниться 50 лет; это означало, что близился срок его автоматического исключения из группы. Однако до него стали доходить слухи о том, что «молодые волки», недавно пополнившие группу, настроены его изгнать и раньше: это можно было сделать в полном соответствии с уставом, предусматривающим исключение за «профессиональную некомпетентность». Трудно было Вейлю держаться в курсе всех работ молодежи, среди которых уже царил А. Гротендик; но Вейль очень старался: уж очень хотелось ему избежать подобного позора. Поэтому за выступлением (очень интересным, но путаным) одного из молодых на семинаре Бурбаки он следил с неотступным вниманием, часто прерывая докладчика умными вопросами, радуясь, что он, пятидесятилетний старик Вейль, не теряет нить доклада, в то время как более молодые уже совсем запутались и даже перестали слушать. </> Бедный Вейль! Когда доклад закончился, он узнал, что оказался жертвой тщательно отрежиссированного розыгрыша: последние 15 минут докладчик (с ведома всех слушателей, кроме Вейля) нес бессмысленную ахинею! Таким образом, за два месяца до своего пятидесятилетия один из отцов-основателей группы Бурбаки был изгнан из её рядов за профнепригодность. Следует отметить, что здесь вовсе не произошло сведения счётов, связанного с внутренними распрями (распри стали появляться лишь несколько позже) – Андре Вейля любили (в том числе и молодежь) – просто такое уж чувство юмора было у Никола Бурбаки.
-- "А.Б. Сосинский", "Умер ли Никола Бурбаки?".
-- https://www.mathnet.ru/rus/mp18
-- https://t.me/mathmemories/44
-#Mathematicians
-
-* * *
+- https://en.wikipedia.org/wiki/Abilene_paradox
+- https://lesswrong.com/tag/guess-ask-tell-culture
+- https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
+- https://effectiviology.com/platinum-rule
+#TheoryOfMind
 
 Сейчас на Земле примерно 8 000 000 000 человек. Если каждому уделить по секунде времени, то это 254 года.
 - https://www.worldometers.info
+
+* * *
+
+#include life/bourbaki-weil.txt
 
 * * *
 
@@ -69,10 +42,7 @@ https://effectiviology.com/platinum-rule
 
 * * *
 
-"What Money Cannot Buy" by "johnswentworth".
-- https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg
-
-But to really drive home the point, we need to go back to 1774. </> As the American Revolution was heating up, a wave of smallpox was raging on the other side of the Atlantic. An English dairy farmer named Benjamin Jesty was concerned for his wife and children. He was not concerned for himself, though - he had previously contracted cowpox. Cowpox was contracted by milking infected cows, and was well known among dairy farmers to convey immunity against smallpox.
+"What Money Cannot Buy". </> But to really drive home the point, we need to go back to 1774. </> As the American Revolution was heating up, a wave of smallpox was raging on the other side of the Atlantic. An English dairy farmer named Benjamin Jesty was concerned for his wife and children. He was not concerned for himself, though - he had previously contracted cowpox. Cowpox was contracted by milking infected cows, and was well known among dairy farmers to convey immunity against smallpox.
 
 Unfortunately, neither Jesty's wife nor his two children had any such advantage. When smallpox began to pop up in Dorset, Jesty decided to take drastic action. He took his family to a nearby farm with a cowpox-infected cow, scratched their arms, and wiped pus from the infected cow on the scratches. Over the next few days, their arms grew somewhat inflamed and they suffered the mild symptoms of cowpox - but it quickly passed. As the wave of smallpox passed through the town, none of the three were infected. Throughout the rest of their lives, through multiple waves of smallpox, they were immune.
 
@@ -80,15 +50,15 @@ The same technique would be popularized twenty years later by Edward Jenner, mar
 
 The point: there is knowledge for which money cannot substitute. Even if Louis XV had offered a large monetary bounty for ways to immunize himself against the pox, he would have had no way to distinguish Benjamin Jesty from the endless crowd of snake-oil sellers and faith healers and humoral balancers. Indeed, top medical "experts" of the time would likely have warned him away from Jesty.
 
+<< "What Money Cannot Buy" by "johnswentworth" https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg >>
+
 * * *
 
 #include life/alexander-grothendieck.txt
 
 * * *
 
-"Why Everything is Becoming a Game" by "GURWINDER" at "APR 20, 2024".
-
-Skinner's goal was to make his pigeons peck the button as many times as possible. From his experiments, he made three discoveries. First, the pigeons pecked most when doing so yielded immediate, rather than delayed, rewards. Second, the pigeons pecked most when it rewarded them randomly, rather than every time. Skinner's third discovery occurred when he noticed the pigeons continued to peck the button long after the food dispenser was empty, provided they could hear it click. He realized the pigeons had become conditioned to associate the click with the food, and now valued the click as a reward in itself. </> Skinner's three key insights — immediate rewards work better than delayed, unpredictable rewards work better than fixed, and conditioned rewards work better than primary...
+"Why Everything is Becoming a Game". </> Skinner's goal was to make his pigeons peck the button as many times as possible. From his experiments, he made three discoveries. First, the pigeons pecked most when doing so yielded immediate, rather than delayed, rewards. Second, the pigeons pecked most when it rewarded them randomly, rather than every time. Skinner's third discovery occurred when he noticed the pigeons continued to peck the button long after the food dispenser was empty, provided they could hear it click. He realized the pigeons had become conditioned to associate the click with the food, and now valued the click as a reward in itself. </> Skinner's three key insights — immediate rewards work better than delayed, unpredictable rewards work better than fixed, and conditioned rewards work better than primary...
 
 </> Kaczynski was an awkward but gifted student, in a school IQ test he'd scored 167. </> In a lab not far from where Skinner had once experimented with pigeons, psychologists linked to US intelligence were now experimenting with humans — one of whom was Kaczynski. Under the glare of blinding lights, he was methodically humiliated to see how he reacted. He claimed the experience didn't affect him, and yet, within just a few years, he'd developed an intense paranoia about psychological conditioning.
 
@@ -98,9 +68,7 @@ Skinner's goal was to make his pigeons peck the button as many times as possible
 
 </> So how do you decide which games to play? </> Even in a world where everything is a game, you don't have to play by other people's rules; you have a wide open world to create your own.
 
-https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
-
-#GameTheory #Trickery #Ethics
+<< "Why Everything is Becoming a Game" by "GURWINDER" at "APR 20, 2024" https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game #Life #GameTheory #Trickery #Ethics >>
 
 * * *
 
@@ -111,13 +79,6 @@ https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
 Быть тысячью желаний и стремлений не всегда весело, но, по крайней мере, уж точно не скучно. За время эволюции мы начали ценить новизну, сложность, элегантность и преодоление трудностей. И теперь мы оценили маниакальную одержимость слепого безумного бога и пришли к выводу, что она неэстетична. </> Конечно, такие вкусы породил в нас тот самый слепой безумный бог. Ну и что?
 
 - https://lesswrong.ru/454
-
-* * *
-
-https://en.wikipedia.org/wiki/Egocentric_bias
-
-"Is Success Luck or Hard Work?" by "Veritasium".
-- https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 
 * * *
 
@@ -132,8 +93,6 @@ Only I will remain.
 - https://en.wikiquote.org/wiki/Frank_Herbert
 
 * * *
-
-«Добро», Дмитрий Багрецов.
 
 Добро, должно быть, с кулаками,
 С хвостом и острыми рогами,
@@ -156,7 +115,7 @@ Only I will remain.
 Прорежет жуткий крик: «На помощь!»
 А дальше - чавканье и хруст...
 
-- https://stihi.ru/2002/10/10-463
+<< "Добро" by "Дмитрий Багрецов" https://stihi.ru/2002/10/10-463 >>
 
 * * *
 
@@ -164,7 +123,9 @@ Only I will remain.
 
 * * *
 
-Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.
+"Is Success Luck or Hard Work?" by "Veritasium".
+- https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
+- https://en.wikipedia.org/wiki/Egocentric_bias
 
 * * *
 
@@ -178,5 +139,4 @@ Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimi
 
 * * *
 
-Slice of life of mine.
-- https://dmitryratty.gitlab.io/life/slice-mine
+Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.
