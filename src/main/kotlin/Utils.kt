@@ -9,7 +9,7 @@ class Utils {
 
     val projectDir: Path
         get() {
-            val current = Paths.get("").toAbsolutePath()
+            val current = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
             if (current.endsWith("ratty-public")) {
                 return current
             }

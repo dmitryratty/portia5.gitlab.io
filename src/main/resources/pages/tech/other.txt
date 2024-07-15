@@ -97,14 +97,19 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 <!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
 <!-- &#x1F642; - Slightly Smiling Face Emoji. -->
 <!-- &#x1F3AE; - Video Game Emoji. -->
-<!-- &#x1F3B2; - Game Die Emoji. -->
-🎒 &#x1F392; - School Satchel.
 <!-- &#x3C0; - Greek Small Letter Pi. -->
 <!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
-✉ 📨 📩 💌
-➗ 🦉 🖤 ⚫ ❄ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 🤡 ⚖ ✨
 
-Other.
+🎲 &#x1F3B2; Game Die.
+🎒 &#x1F392; School Satchel.
+🤡 Clown Face
+⚖ Scales
+❄ Snowflake
+
+✉ 📨 📩 💌
+➗ 🦉 🖤 ⚫ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 ✨
+
+Beaty. Other.
 
 https://en.wikipedia.org/wiki/Fleuron_(typography)
 
