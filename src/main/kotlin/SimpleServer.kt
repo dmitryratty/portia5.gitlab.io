@@ -1,3 +1,4 @@
+import com.sun.net.httpserver.HttpExchange
 import com.sun.net.httpserver.HttpServer
 import com.sun.net.httpserver.HttpsServer
 import java.io.File
@@ -5,33 +6,30 @@ import java.io.FileInputStream
 import java.net.InetSocketAddress
 import java.nio.file.Path
 
+/**
+ * TODO.
+ * - Read-write on redirectMap and serveMap may create race condition errors
+ * if requests serving is multithreaded.
+ */
 class SimpleServer {
     companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val port = if (args.isNotEmpty()) args[0].toInt() else SimpleServer().defaultPort
-            val home = if (args.size > 1) Path.of(args[1])
-                .toRealPath() else Utils().projectDir.resolve("public")
-            SimpleServer().start(port, home, false)
+        @JvmStatic fun main(args: Array<String>) {
+            SimpleServer().main()
         }
     }
 
-    val defaultPort = 8080
+    private val defaultPort = 8080
+    private val defaultHome: Path = Utils().projectDir.resolve("public")
+    private var redirectMap = mapOf<String, String>()
+    private var serveMap = mapOf<String, File>()
 
-    fun start() {
-        start(8080, Utils().projectDir.resolve("public"), false)
+    fun main() {
+        start(defaultPort, defaultHome, false)
     }
 
-    fun start(port: Int, home: Path, https: Boolean) {
-        println("Home: $home")
-        val server = if (https) {
-            HttpsServer.create(InetSocketAddress(port), 0)
-        } else {
-            HttpServer.create(InetSocketAddress(port), 0)
-        }
-        val context = server.createContext("/")
+    private fun updateMaps(home: Path) {
         val redirect = HashMap<String, String>()
-        val map = HashMap<String, File>()
+        val serve = HashMap<String, File>()
         val homeFile = home.toFile()
         homeFile.walk().forEach {
             if (homeFile == it) {
@@ -41,30 +39,47 @@ class SimpleServer {
             if (name.startsWith(".")) throw IllegalStateException(it.toString())
             var relativePath = it.relativeTo(home.toFile()).path
             if (relativePath == "index.html") {
-                map["/"] = it
+                serve["/"] = it
                 return@forEach
             }
             relativePath = "/$relativePath"
             if (relativePath.endsWith("/index.html")) {
                 val stripped = relativePath.removeSuffix("/index.html")
-                map[stripped] = it
+                serve[stripped] = it
                 redirect["$stripped/"] = stripped
             } else if (name.endsWith(".html")) {
-                map[relativePath] = it
-                map[relativePath.removeSuffix(".html")] = it
+                serve[relativePath] = it
+                serve[relativePath.removeSuffix(".html")] = it
             } else if (name.endsWith(".css") || name.endsWith(".png") || name.endsWith(".svg")) {
-                map[relativePath] = it
+                serve[relativePath] = it
             }
         }
+        redirectMap = redirect
+        serveMap = serve
+    }
+
+    fun start(port: Int, home: Path, https: Boolean) {
+        println("Home: $home")
+        val server = if (https) {
+            HttpsServer.create(InetSocketAddress(port), 0)
+        } else {
+            HttpServer.create(InetSocketAddress(port), 0)
+        }
+        updateMaps(home)
+        val context = server.createContext("/")
         context.setHandler { exchange ->
             println("Request: ${exchange.requestURI.path}")
-            val redirectLocation = redirect[exchange.requestURI.path]
+            val redirectLocation = redirectMap[exchange.requestURI.path]
             if (redirectLocation != null) {
                 exchange.responseHeaders["Location"] = redirectLocation
                 exchange.sendResponseHeaders(302, 0)
             } else {
-                val file = map[exchange.requestURI.path]
-                if (file != null) {
+                var file = serveMap[exchange.requestURI.path]
+                if (file == null) {
+                    updateMaps(home)
+                    file = serveMap[exchange.requestURI.path]
+                }
+                if (file != null && file.exists()) {
                     if (file.name.endsWith(".svg")) {
                         // Chrome don't displays SVGs without proper Content-Type. PNGs without
                         // specified Content-Type displayed normally.
