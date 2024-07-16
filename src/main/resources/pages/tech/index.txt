@@ -10,8 +10,6 @@
 
 Больше всего я писал на Java, нормально понимаю C, иногда что-то делал на C++, сейчас переползаю на Kotlin. Пару раз в жизни тыкал в реверс-инжиниринг с машинным кодом и ассемблерами. Иногда играюсь с высокоуровневыми штуками. Рекомендую: Эндрю Таненбаум, "Современные операционные системы". Однажды я перейду с Ubuntu на NixOS, начну использовать Fediverse, Matrix и другое хорошее.
 
-...
-
 Выучил программирование где-то в 2011, потому что мне не нравился стандартный интерфейс World of Warcraft и я написал свой. Примерно тогда же я получил все интересовавшие меня достижения в игре, забрался наверх соревновательных рейтингов, мне стали скучны некоторые игровые механики и захотелось их автоматизировать.
 
 Для автоматизации я сделал бота, состоящего из двух частей. Первая часть это мой внутриигровой интерфейс, который отображал в определённом месте экрана внутриигровую информацию, закодированную цветом пикселей. Вторая часть это отдельная программа, которая постоянно следила за содержимым экрана, формально никак не влезая в процесс World of Warcraft, считывала ту закодированную цветом пикселей внутриигровую информацию и исходя из неё генерировала нажатия клавиатуры, которые получала запущенная игра. Эта идея не оригинальна, видел статьи на Хабре с подобными ботами.
@@ -33,7 +31,7 @@
 В идеале видится что-то подобное сервисам изучения программирования и языков, CodinGame, HackerRank, Duolingo, LinguaLeo. Есть задачи прогресса по темам, если задача непонятна можно перейти на обучающие материалы к ней, есть автоматическая проверка решений задач, есть эмоциональное подкрепление визуализацией прогресса, достижениями и прочим. И хотелось бы добавление к этому какой-то системы spaced repetition, часто слышал об Anki, но сам не пробовал.
 
 Сейчас прохожу курсы математики на Khan Academy, начав с детского сада:
- - http://khanacademy.org/profile/dmitryratty
+- https://khanacademy.org/profile/dmitryratty
 
 [1]. https://en.wikipedia.org/wiki/Spaced_repetition
 
@@ -64,13 +62,13 @@ Algorithmic Mathematical Art:
 * * *
 
 Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum...
- - https://en.wikipedia.org/wiki/Game_theory
+- https://en.wikipedia.org/wiki/Game_theory
 
 Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.
- - https://en.wikipedia.org/wiki/Prisoner's_dilemma
+- https://en.wikipedia.org/wiki/Prisoner's_dilemma
 
 A tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Noise presence, revenge cycles - forgiveness.
- - https://en.wikipedia.org/wiki/Tit_for_tat
+- https://en.wikipedia.org/wiki/Tit_for_tat
 
 - https://www.lesswrong.com/tag/acausal-trade
 - https://www.lesswrong.com/tag/parfits-hitchhiker
@@ -78,10 +76,10 @@ A tit-for-tat population is penetrable by non-retaliating nice strategies, which
 - https://en.wikipedia.org/wiki/Precommitment
 
 Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
- - https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+- https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 
 Nicky Case, curious shtuff you can play:
- - https://ncase.me
+- https://ncase.me
 
 https://en.wikipedia.org/wiki/Minimax
 https://en.wikipedia.org/wiki/Hawk-dove
@@ -119,4 +117,4 @@ https://gcemetery.co
 
 Парень сумел вытащить из себя нож и смертельно ранил девушку, которая истекла кровью до приезда скорой. Через несколько дней, находясь в тюрьме, парень совершил самоубийство.
 
-[??.03.2018] </> https://en.wikipedia.org/w/index.php?title=Dotted_and_dotless_I&direction=prev&oldid=1050027008 </> https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026 </> https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch
+<< [??.03.2018] </> https://en.wikipedia.org/w/index.php?title=Dotted_and_dotless_I&direction=prev&oldid=1050027008 </> https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026 </> https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch >>

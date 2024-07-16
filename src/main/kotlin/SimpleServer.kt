@@ -52,7 +52,7 @@ class SimpleServer {
             } else if (name.endsWith(".html")) {
                 map[relativePath] = it
                 map[relativePath.removeSuffix(".html")] = it
-            } else if (name.endsWith(".css") || name.endsWith(".png")) {
+            } else if (name.endsWith(".css") || name.endsWith(".png") || name.endsWith(".svg")) {
                 map[relativePath] = it
             }
         }

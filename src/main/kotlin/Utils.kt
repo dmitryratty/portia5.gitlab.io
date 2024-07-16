@@ -33,7 +33,7 @@ class Utils {
     }
 
     fun cleanupBuildDir() {
-        val persistentFiles = listOf(buildOutDir.resolve("css"), buildOutDir.resolve("test"))
+        val persistentFiles = listOf(buildOutDir.resolve("a"), buildOutDir.resolve("css"))
         buildOutDir.listDirectoryEntries().forEach {
             if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
         }
