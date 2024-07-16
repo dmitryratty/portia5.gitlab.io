@@ -114,7 +114,7 @@ class PagesGenerator(
     }
 
     private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
-            "\n\n    <p>🏠 <a href=\"$hostName\">$hostName</a></p>"
+            "\n\n    <p>🏠 <a href=\"/\">$hostName</a></p>"
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
         return htmlTemplate

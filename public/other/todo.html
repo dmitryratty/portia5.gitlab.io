@@ -16,7 +16,12 @@
 
     <p>&lt;&lt; и &gt;&gt;</p>
 
-    <p>val linkDisplay = if (word.length &gt; maxUnwrappedWordLenght) longUrlLineBreaks(word) else word</p>
+    <p>linkDisplay
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;val linkDisplay = if (word.length &gt; maxUnwrappedWordLenght) {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;longUrlLineBreaks(word)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;} else {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;word
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;}</p>
 
     <p>Обновить favicon.</p>
 
@@ -89,7 +94,7 @@
 
     <p class="dinkus">* * *</p>
 
-    <p>🏠 <a href="https://dmitryratty.gitlab.io">https://dmitryratty.gitlab.io</a></p>
+    <p>🏠 <a href="/">https://dmitryratty.gitlab.io</a></p>
 </article>
 </main></body>
 </html>

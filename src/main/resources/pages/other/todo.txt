@@ -1,10 +1,13 @@
-Сделать внутренние ссылки относительными.
-
 Во время генерации составлять и сохранять список всех ссылок. Отдельный класс, проверяющий живость ссылок из этого списка. Можно ещё делать бекапы контента ссылок.
 
 << и >>
 
-val linkDisplay = if (word.length > maxUnwrappedWordLenght) longUrlLineBreaks(word) else word
+linkDisplay
+    val linkDisplay = if (word.length > maxUnwrappedWordLenght) {
+        longUrlLineBreaks(word)
+    } else {
+        word
+    }
 
 Обновить favicon.
 
