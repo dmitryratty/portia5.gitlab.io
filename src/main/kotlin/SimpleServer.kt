@@ -65,6 +65,11 @@ class SimpleServer {
             } else {
                 val file = map[exchange.requestURI.path]
                 if (file != null) {
+                    if (file.name.endsWith(".svg")) {
+                        // Chrome don't displays SVGs without proper Content-Type. PNGs without
+                        // specified Content-Type displayed normally.
+                        exchange.responseHeaders["Content-Type"] = listOf("image/svg+xml")
+                    }
                     exchange.sendResponseHeaders(200, file.length())
                     FileInputStream(file).use {
                         it.copyTo(exchange.responseBody)
