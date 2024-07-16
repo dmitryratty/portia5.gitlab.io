@@ -1,6 +1,6 @@
-<< и >>
+Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве. </> no wrap для финализаторов слов и предложений, вроде сносок.
 
-Обновить favicon.
+<< и >>
 
 Инициализация полей в Котлине.
 
@@ -10,29 +10,20 @@
 
 2 TODO в slice of life.
 
+Emoji favicon.
+- https://css-tricks.com/emoji-as-a-favicon/
+- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+- https://caniuse.com/link-icon-svg
+
 \#include - add standalone links.
 
 #reference и #title
 
-Улучшить функцию переноса длинных слов, разбивать по началу слов определяемых по заглавной букве.
+Library "database" splitting into authors and books. YAML, HOCON?
+- https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
+- https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
-Ссылку на maybe-will-read в конец library.
-
-no wrap для финализаторов слов и предложений, вроде сносок.
-
-Почему в Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
-
-* * *
-
-Library "database" splitting into authors and books.
-
-https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
-
-https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
-
-YAML, HOCON?
-
-Бекапы контента внешних ссылок?
+https://developer.chrome.com/docs/lighthouse/overview/
 
 * * *
 
@@ -51,23 +42,19 @@ simple image lightbox html
 
 https://en.wikipedia.org/wiki/Sitemaps
 
-https://css-tricks.com/emoji-as-a-favicon/
-
-* * *
-
-CSS
-
 MAGICK.CSS https://css.winterveil.net/
 
 Tufte CSS https://edwardtufte.github.io/tufte-css/
-
-* * *
 
 Footnotes: https://css-tricks.com/footnote-characters
 
 В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки, это всё, чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
 
-* * *
+Ссылку на maybe-will-read в конец library.
+
+Бекапы контента внешних ссылок?
+
+В Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
 
 Английский. Ну... Да! Ну... Видеоигры!
 
