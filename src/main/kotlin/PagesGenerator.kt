@@ -18,7 +18,7 @@ class PagesGenerator(
     val hostName = "https://dmitryratty.gitlab.io"
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
-    private val maxUnwrappedWordLenght = 30
+    private val maxUnwrappedWordLenght = 25
     // "<span class=\"nowrap\">$1</span>"
     private val dashNoWrap = "(\\S+-\\S+)".toRegex()
     // "<a href=\"$1\">\$1</a>"
@@ -178,15 +178,24 @@ class PagesGenerator(
         return longWordLineBreaks.findAll(word).map { it.value }.joinToString(wbrElement)
     }
 
+    fun transformLink(link: String): String {
+        setOfLinks.add(link)
+        val linkDisplay = if (link.length > maxUnwrappedWordLenght) {
+            longUrlLineBreaks(link)
+        } else {
+            link
+        }
+        if (link.startsWith(hostName)) {
+            val relativeLink = if (link == hostName) "/" else link.removePrefix(hostName)
+            return "<a href=\"$relativeLink\">$linkDisplay</a>"
+        } else {
+            return "<a href=\"$link\">$linkDisplay</a>"
+        }
+    }
+
     fun transformWord(word: String): String {
         if (Utils().isHyperlink(word)) {
-            setOfLinks.add(word)
-            if (word.startsWith(hostName)) {
-                val relativeLink = if (word == hostName) "/" else word.removePrefix(hostName)
-                return "<a href=\"$relativeLink\">${longUrlLineBreaks(word)}</a>"
-            } else {
-                return "<a href=\"$word\">${longUrlLineBreaks(word)}</a>"
-            }
+            return transformLink(word)
         }
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")

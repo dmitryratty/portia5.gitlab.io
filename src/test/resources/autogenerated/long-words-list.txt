@@ -1,5 +1,6 @@
 "http://www.ruthenia.ru/logos/number/37/07.pdf"
 "https://paulgraham.com/best.html"
+"https://www.oranlooney.com/"
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
 &lt;///////////////////////////&gt;
 Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())

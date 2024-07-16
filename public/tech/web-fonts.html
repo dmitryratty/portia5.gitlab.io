@@ -14,10 +14,10 @@
         <br>&nbsp;&nbsp;&nbsp;&nbsp;:root { <span class="nowrap">font-size:</span> calc(1rem + 0.25vw); }</p>
 
     <p>fun font(projectDir: Path) {
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;val font = Base64.getEncoder().encodeToSt<wbr>ring(projectDir.resolve("src/p<wbr>lex.woff").toFile().readBytes(<wbr>))
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;val font = Base64.getEncoder().encod<wbr>eToString(projectDir.reso<wbr>lve("src/plex.woff").toFi<wbr>le().readBytes())
         <br>&nbsp;&nbsp;&nbsp;&nbsp;val fontSrc = <span class="nowrap">"src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"</span>
         <br>&nbsp;&nbsp;&nbsp;&nbsp;val fontCss = <span class="nowrap">"@font-face{font-family:Plex;${fontSrc};font-weight:400;font-style:normal;}"</span>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;projectDir.resolve("public/fon<wbr>t.css").toFile().writeText(fon<wbr>tCss)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;projectDir.resolve("publi<wbr>c/font.css").toFile().wri<wbr>teText(fontCss)
         <br>}</p>
 
     <p><a href="https://www.figma.com/blog/line-height-changes/">https:<wbr>//<wbr>www<wbr>.figma<wbr>.com<wbr>/blog<wbr>/line<wbr>-height<wbr>-changes<wbr>/</a></p>
@@ -50,7 +50,7 @@
 
     <p>The <span class="nowrap">"font-size-adjust"</span> is Firefox only.</p>
 
-    <p>&lt;link rel="stylesheet" href="https://fonts.googleapis<wbr>.com/css?family=Tinos|Noto+Ser<wbr>if"&gt;</p>
+    <p>&lt;link rel="stylesheet" href="https://fonts.googl<wbr>eapis.com/css?family=Tino<wbr>s|Noto+Serif"&gt;</p>
 
     <p class="dinkus">* * *</p>
 

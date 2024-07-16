@@ -1,17 +1,10 @@
-Во время генерации составлять и сохранять список всех ссылок. Отдельный класс, проверяющий живость ссылок из этого списка. Можно ещё делать бекапы контента ссылок.
-
 << и >>
-
-linkDisplay
-    val linkDisplay = if (word.length > maxUnwrappedWordLenght) {
-        longUrlLineBreaks(word)
-    } else {
-        word
-    }
 
 Обновить favicon.
 
 Инициализация полей в Котлине.
+
+Проверять живость всех ссылок.
 
 Переделать "master" в "main". Переделать автора коммитов на Ratty.
 
@@ -38,6 +31,8 @@ https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configu
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
 YAML, HOCON?
+
+Бекапы контента внешних ссылок?
 
 * * *
 
