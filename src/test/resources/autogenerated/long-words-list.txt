@@ -1,6 +1,12 @@
+"@font-face{font-family:Plex;${fontSrc};font-weight:400;font-style:normal;}"
 "http://www.ruthenia.ru/logos/number/37/07.pdf"
+"https://effectiviology.com/shirky-principle/"
 "https://paulgraham.com/best.html"
+"https://www.astralcodexten.com/p/deceptively-aligned-mesa-optimizers"
 "https://www.oranlooney.com/"
+"https://www.oranlooney.com/post/eight-billion/"
+"src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"
+"Длинное&lt;wbr&gt;Длинное&lt;wbr&gt;Слово".
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
 &lt;///////////////////////////&gt;
 Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())

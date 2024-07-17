@@ -1,5 +1,3 @@
-Улучшить функцию переноса длинных слов, разбивать по дефису, разбивать по началу слов определяемых по заглавной букве.
-
 "http" and "https" should not be considered links
 
 Move CSS to "a", в page-template.html убрать лишний "/>", переместить вниз title.
@@ -14,8 +12,6 @@ http to https в списке ссылок.
 
 Переделать "master" в "main". Переделать автора коммитов на Ratty.
 
-Запрещать перенос коротких префиксов-суффиксов. Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. ". И чтобы в "Фраза в которой[1] есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".
-
 Favicon.
 - https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
 - https://caniuse.com/link-icon-svg
@@ -24,26 +20,21 @@ Library "database" splitting into authors and books. YAML, HOCON?
 - https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
 - https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
+Gallery.
+Flexbox
+- https://yoksel.github.io/flex-cheatsheet/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+image gallery html library like google photos
+- https://nanogallery2.nanostudio.org/
+simple image lightbox html
+
 2 TODO в slice of life.
 
 \#include - add standalone links.
 
+Запрещать перенос коротких префиксов-суффиксов. Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. 》". И чтобы в "Фраза в которой[1] есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".
+
 #reference и #title
-
-* * *
-
-Gallery
-
-Flexbox
-- https://yoksel.github.io/flex-cheatsheet/
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-image gallery html library like google photos
-- https://nanogallery2.nanostudio.org/
-
-simple image lightbox html
-
-* * *
 
 https://developer.chrome.com/docs/lighthouse/overview/
 
@@ -62,6 +53,9 @@ Footnotes: https://css-tricks.com/footnote-characters
 Бекапы контента внешних ссылок?
 
 В Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
+
+Улучшить функцию переноса длинных слов разбивая в духе "ДлинноеДлинноеСлово" - "Длинное<wbr>Длинное<wbr>Слово". Разобраться с <wbr> и &shy; и что ещё есть в CSS по hyphenation. Может поискать готовую открытую библиотеку для hyphenation? Ещё возможно после <wbr> можно добавлять дефисы через "wbr:after content: "-";". C &shy; есть проблема с тем, что он остаётся в тексте при копировании текста со страницы и потом виден в текстовых редакторах.
+- https://caniuse.com/css-hyphens
 
 Английский. Ну... Да! Ну... Видеоигры!
 

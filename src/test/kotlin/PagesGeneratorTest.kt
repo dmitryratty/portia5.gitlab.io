@@ -30,9 +30,39 @@ class PagesGeneratorTest {
 
         lineIn = "    — https://youtu.be/OJ4B"
         lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4B\">" +
-                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OJ4B</a>"
+                "https://youtu.be/OJ4B</a>"
         assertEquals(lineOut, pagesGenerator.transformLine(lineIn))
 
+        lineIn = "    — https://youtu.be/OJ4BLKJIRGKSHDKFSHAG"
+        lineOut = "&nbsp;&nbsp;&nbsp;&nbsp;— <a href=\"https://youtu.be/OJ4BLKJIRGKSHDKFSHAG\">" +
+                "https:<wbr>//<wbr>youtu<wbr>.be<wbr>/OJ4BLKJIRGKSHDKFSHAG</a>"
+        assertEquals(lineOut, pagesGenerator.transformLine(lineIn))
+    }
+
+    @Test
+    fun isFootnote() {
+        var input = "world![1]"
+        assertEquals(true, pagesGenerator.footnote.matches(input))
+        input = "world![1][2][3]"
+        assertEquals(true, pagesGenerator.footnote.matches(input))
+        input = "world![132122][3][111]"
+        assertEquals(true, pagesGenerator.footnote.matches(input))
+        input = "world![132122][3][111]"
+        assertEquals(true, pagesGenerator.footnote.matches(input))
+        input = "world!"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "wo[rl]d!"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "world[1]!"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "world[1]."
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "[1]"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "[1]word!"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
+        input = "world![.]"
+        assertEquals(false, pagesGenerator.footnote.matches(input))
     }
 
     @Test

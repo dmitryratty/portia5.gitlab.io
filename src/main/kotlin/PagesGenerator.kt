@@ -23,8 +23,7 @@ class PagesGenerator(
     private val dashNoWrap = "(\\S+-\\S+)".toRegex()
     // "<a href=\"$1\">\$1</a>"
     private val hyperlink = "(http\\S+)".toRegex()
-    // "<span class=\"nowrap\">$1</span>"
-    private val footnote = "(\\S+\\[\\d+])".toRegex()
+    val footnote = "(\\S+\\[\\d+])".toRegex()
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
@@ -176,8 +175,23 @@ class PagesGenerator(
     @Suppress("RegExpSimplifiable")
     private val longWordLineBreaks = "((.{$maxUnwrappedWordLenght})|(.+))".toRegex()
 
-    fun longWordLineBreaks(word: String): String {
+    fun longWordLineBreaksTwo(word: String): String {
+        // TODO "&shy;" vs wbrElement
         return longWordLineBreaks.findAll(word).map { it.value }.joinToString(wbrElement)
+    }
+
+    fun longWordLineBreaks(word: String): String {
+        val result = StringBuilder()
+        word.split('-').forEach {
+            if (result.isNotEmpty()) result.append('-')
+            if (it.length > maxUnwrappedWordLenght) {
+                setOfLongWords.add(word)
+                result.append(longWordLineBreaksTwo(it))
+            } else {
+                result.append(it)
+            }
+        }
+        return result.toString()
     }
 
     fun transformLink(link: String): String {
@@ -202,15 +216,17 @@ class PagesGenerator(
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             //.replace("\"", "&quot;").replace("'", "&apos;")
-        if (newWord.contains('-')) {
-            newWord = makeNoWrap(newWord)
-        } else if (newWord.contains('[') && footnote.matches(newWord)) {
-            // Footnote inside text, like "Hello, world![2]" and
-            // we make "world![2]" no wrap.
-            newWord = makeNoWrap(newWord)
-        } else if (newWord.length > maxUnwrappedWordLenght) {
-            setOfLongWords.add(newWord)
+        if (newWord.length > maxUnwrappedWordLenght) {
             newWord = longWordLineBreaks(newWord)
+        } else {
+            if (newWord.contains('-')) {
+                newWord = makeNoWrap(newWord)
+            } else if (footnote.matches(newWord)) {
+                // Footnote inside text, like "world![2]". We make "world![2]"
+                // no wrap, because by default "[2]" can be wrapped to the next line
+                // from "world!".
+                newWord = makeNoWrap(newWord)
+            }
         }
         return newWord
     }

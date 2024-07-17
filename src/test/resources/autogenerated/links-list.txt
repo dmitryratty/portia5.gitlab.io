@@ -15,6 +15,7 @@ https://arxiv.org/abs/2209.11737
 https://attwoodandgarnettevents.com/can-autism-be-confused-with-schizophrenia
 https://blog.frost.kiwi/WebGL-LUTS-made-simple/
 https://brilliant.org
+https://caniuse.com/css-hyphens
 https://caniuse.com/link-icon-svg
 https://charstar.ai
 https://ciechanow.ski/airfoil/
@@ -156,6 +157,7 @@ https://gcemetery.co
 https://github.com/AceLewis/fontcrusher
 https://github.com/Genymobile/scrcpy
 https://github.com/dmitryratty
+https://github.com/gskinner/regexr/
 https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
 https://instagram.com/dmitryratty

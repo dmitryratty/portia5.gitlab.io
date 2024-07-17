@@ -10,8 +10,6 @@
 </head>
 <body><main>
 <article>
-    <p>Улучшить функцию переноса длинных слов, разбивать по дефису, разбивать по началу слов определяемых по заглавной букве.</p>
-
     <p>"http" and "https" should not be considered links</p>
 
     <p>Move CSS to "a", в <span class="nowrap">page-template.html</span> убрать лишний "/&gt;", переместить вниз title.</p>
@@ -26,8 +24,6 @@
 
     <p>Переделать "master" в "main". Переделать автора коммитов на Ratty.</p>
 
-    <p>Запрещать перенос коротких <span class="nowrap">префиксов-суффиксов.</span> Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. ". И чтобы в "Фраза в <span class="nowrap">которой[1]</span> есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".</p>
-
     <p>Favicon.
         <br>— <a href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs">https:<wbr>//<wbr>evilmartians<wbr>.com<wbr>/chronicles<wbr>/how<wbr>-to<wbr>-favicon<wbr>-in<wbr>-2021<wbr>-six<wbr>-files<wbr>-that<wbr>-fit<wbr>-most<wbr>-needs</a>
         <br>— <a href="https://caniuse.com/link-icon-svg">https:<wbr>//<wbr>caniuse<wbr>.com<wbr>/link<wbr>-icon<wbr>-svg</a></p>
@@ -36,26 +32,21 @@
         <br>— <a href="https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/28256852<wbr>/what<wbr>-is<wbr>-the<wbr>-simplest<wbr>-way<wbr>-to<wbr>-configure<wbr>-the<wbr>-indentation<wbr>-spacing<wbr>-on<wbr>-a<wbr>-jackson<wbr>-objec</a>
         <br>— <a href="https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable">https:<wbr>//<wbr>stackoverflow<wbr>.com<wbr>/questions<wbr>/76726117<wbr>/pretty<wbr>-print<wbr>-a<wbr>-kotlin<wbr>-json<wbr>-serializable</a></p>
 
+    <p>Gallery.
+        <br>Flexbox
+        <br>— <a href="https://yoksel.github.io/flex-cheatsheet/">https:<wbr>//<wbr>yoksel<wbr>.github<wbr>.io<wbr>/flex<wbr>-cheatsheet<wbr>/</a>
+        <br>— <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https:<wbr>//<wbr>css<wbr>-tricks<wbr>.com<wbr>/snippets<wbr>/css<wbr>/a<wbr>-guide<wbr>-to<wbr>-flexbox<wbr>/</a>
+        <br>image gallery html library like google photos
+        <br>— <a href="https://nanogallery2.nanostudio.org/">https:<wbr>//<wbr>nanogallery2<wbr>.nanostudio<wbr>.org<wbr>/</a>
+        <br>simple image lightbox html</p>
+
     <p>2 TODO в slice of life.</p>
 
     <p>\#include — add standalone links.</p>
 
+    <p>Запрещать перенос коротких <span class="nowrap">префиксов-суффиксов.</span> Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. 》". И чтобы в "Фраза в <span class="nowrap">которой[1]</span> есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".</p>
+
     <p>#reference и #title</p>
-
-    <p class="dinkus">* * *</p>
-
-    <p>Gallery</p>
-
-    <p>Flexbox
-        <br>— <a href="https://yoksel.github.io/flex-cheatsheet/">https:<wbr>//<wbr>yoksel<wbr>.github<wbr>.io<wbr>/flex<wbr>-cheatsheet<wbr>/</a>
-        <br>— <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https:<wbr>//<wbr>css<wbr>-tricks<wbr>.com<wbr>/snippets<wbr>/css<wbr>/a<wbr>-guide<wbr>-to<wbr>-flexbox<wbr>/</a></p>
-
-    <p>image gallery html library like google photos
-        <br>— <a href="https://nanogallery2.nanostudio.org/">https:<wbr>//<wbr>nanogallery2<wbr>.nanostudio<wbr>.org<wbr>/</a></p>
-
-    <p>simple image lightbox html</p>
-
-    <p class="dinkus">* * *</p>
 
     <p><a href="https://developer.chrome.com/docs/lighthouse/overview/">https:<wbr>//<wbr>developer<wbr>.chrome<wbr>.com<wbr>/docs<wbr>/lighthouse<wbr>/overview<wbr>/</a></p>
 
@@ -74,6 +65,9 @@
     <p>Бекапы контента внешних ссылок?</p>
 
     <p>В Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна — нормальные.</p>
+
+    <p>Улучшить функцию переноса длинных слов разбивая в духе "ДлинноеДлинноеСлово" — "Длинное&lt;wbr&gt;Длинно<wbr>е&lt;wbr&gt;Слово". Разобраться с &lt;wbr&gt; и &amp;shy; и что ещё есть в CSS по hyphenation. Может поискать готовую открытую библиотеку для hyphenation? Ещё возможно после &lt;wbr&gt; можно добавлять дефисы через "wbr:after content: <span class="nowrap">"-";".</span> C &amp;shy; есть проблема с тем, что он остаётся в тексте при копировании текста со страницы и потом виден в текстовых редакторах.
+        <br>— <a href="https://caniuse.com/css-hyphens">https:<wbr>//<wbr>caniuse<wbr>.com<wbr>/css<wbr>-hyphens</a></p>
 
     <p>Английский. Ну… Да! Ну… Видеоигры!</p>
 

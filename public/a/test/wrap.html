@@ -13,7 +13,24 @@
     </style>
     <title>Well…</title>
 </head>
-<body><main><article>
+<body><main>
+
+    <!-- Here style for "p" inside "article" don't works, but works in header.
+     Style for "wbr" doesn't work not inlined in elements, not in head. -->
+    <article style="p:after { content: '-'; }">
+    <p>Tag "wbr".</p>
+    <p style="font-size: 300%; wbr:after content: '-';">
+        Long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>word.</p>
+    <p style="font-size: 300%;">
+        Long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>long<wbr>word.</p>
+    <p>Entity "shy".</p>
+    <p style="font-size: 300%; wbr:after content: '-';">
+        Long&shy;long&shy;long&shy;long&shy;long&shy;long&shy;long&shy;word.</p>
+    <p style="font-size: 300%;">
+        Long&shy;long&shy;long&shy;long&shy;long&shy;long&shy;long&shy;word.</p>
+    </article>
+
+    <article>
     <p id="p1">Test.[1][1][1][1][1][1][1][1][1][1][1][1][1]</p>
     <p id="p9">Teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest.[1]</p>
     <p id="p2">Aaaaa1111111111111111111111111111111111111a.</p>
@@ -46,5 +63,7 @@
 			e.innerText = s
         }
     </script>
-</article></main></body>
+    </article>
+
+</main></body>
 </html>
