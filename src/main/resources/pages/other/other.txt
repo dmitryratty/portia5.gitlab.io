@@ -40,6 +40,10 @@ It is therefore a fact of the world that virtually all the popular synthetic swe
 
 * * *
 
+#Fun https://charstar.ai
+
+* * *
+
 #Art #Fun PUPARIA: https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
 
 * * *
@@ -56,17 +60,22 @@ When I stopped trying to self-optimize, I got better. << Link: https://readhacke
 
 * * *
 
-#English
-Each of these four phrases (listed in Steven Pinker's The Language Instinct) has a distinct meaning:
-- My sister's friend's investment (the investment belonging to a friend of my sister)
-- My sister's friends' investment (the investment belonging to several friends of my sister)
-- My sisters' friend's investment (the investment belonging to a friend of several of my sisters)
-- My sisters' friends' investment (the investment belonging to several friends of several of my sisters)
+Each of these four phrases, listed in Steven Pinker's The Language Instinct, has a distinct meaning:
+- My sister's friend's investment.
+ -> The investment belonging to a friend of my sister.
+- My sister's friends' investment.
+ -> The investment belonging to several friends of my sister.
+- My sisters' friend's investment.
+ -> The investment belonging to a friend of several of my sisters.
+- My sisters' friends' investment.
+ -> The investment belonging to several friends of several of my sisters.
+
 Kingsley Amis, on being challenged to produce a sentence whose meaning depended on a possessive apostrophe, came up with:
-- Those things over there are my husband's. (Those things over there belong to my husband.)
-- Those things over there are my husbands'. (Those things over there belong to several husbands of mine.)
-- Those things over there are my husbands. (I'm married to those men over there.)
+- Those things over there are my husband's.
+ -> Those things over there belong to my husband.
+- Those things over there are my husbands'.
+ -> Those things over there belong to several husbands of mine.
+- Those things over there are my husbands.
+ -> I'm married to those men over there.
 
-* * *
-
-THIS INFORMATION IS PROVIDED `'AS IS″ AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ #English
