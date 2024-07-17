@@ -3,12 +3,15 @@ class TextBeautifier {
     private val typewriterApostrophes = true
     private val breakLevelOne = "</>"
     private val breakLevelOneBeautified = "<•>"
+    private val dataStart = "<<"
+    private val dataEnd = ">>"
     private val lineTransformer = LineTransformer()
 
     fun transformWord(word: String): String {
-        if (word == breakLevelOne) {
-            return breakLevelOneBeautified
-        }
+        if (word == breakLevelOne) return breakLevelOneBeautified
+        // 《》 ⟨⟩ ❝❞
+        if (word == dataStart) return "❝"
+        if (word == dataEnd) return "❞"
         if (!typewriterApostrophes) {
             if (!Utils().isHyperlink(word)) {
                 // ''''' - Wikipedia typewriter apostrophe.
