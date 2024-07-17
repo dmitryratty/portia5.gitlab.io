@@ -16,21 +16,19 @@ http to https в списке ссылок.
 
 Запрещать перенос коротких префиксов-суффиксов. Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. ". И чтобы в "Фраза в которой[1] есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".
 
-2 TODO в slice of life.
-
 Favicon.
 - https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
 - https://caniuse.com/link-icon-svg
-
-\#include - add standalone links.
-
-#reference и #title
 
 Library "database" splitting into authors and books. YAML, HOCON?
 - https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
 - https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
-https://developer.chrome.com/docs/lighthouse/overview/
+2 TODO в slice of life.
+
+\#include - add standalone links.
+
+#reference и #title
 
 * * *
 
@@ -46,6 +44,8 @@ image gallery html library like google photos
 simple image lightbox html
 
 * * *
+
+https://developer.chrome.com/docs/lighthouse/overview/
 
 https://en.wikipedia.org/wiki/Sitemaps
 
