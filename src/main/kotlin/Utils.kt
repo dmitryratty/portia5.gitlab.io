@@ -45,7 +45,7 @@ class Utils {
 
     fun isHyperlink(word: String): Boolean {
         // if (word.contains(" ")) throw IllegalStateException()
-        return word.startsWith("http")
+        return word.startsWith("http://") || word.startsWith("https://")
     }
 
     fun textPageInputToHtmlOutputFile(path: Path): File {

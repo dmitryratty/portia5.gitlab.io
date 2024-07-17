@@ -22,6 +22,16 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 
 #include life/judas-goat.txt
 
+I must not fear.
+Fear is the mind-killer.
+Fear is the little-death that brings total obliteration.
+I will face my fear.
+I will permit it to pass over me and through me.
+And when it has gone past I will turn the inner eye to see its path.
+Where the fear has gone there will be nothing.
+Only I will remain.
+- https://en.wikiquote.org/wiki/Frank_Herbert
+
 Abilene paradox. Ask, guess, tell culture. Platinum rule.
 - https://en.wikipedia.org/wiki/Abilene_paradox
 - https://lesswrong.com/tag/guess-ask-tell-culture
@@ -79,18 +89,6 @@ The point: there is knowledge for which money cannot substitute. Even if Louis X
 Быть тысячью желаний и стремлений не всегда весело, но, по крайней мере, уж точно не скучно. За время эволюции мы начали ценить новизну, сложность, элегантность и преодоление трудностей. И теперь мы оценили маниакальную одержимость слепого безумного бога и пришли к выводу, что она неэстетична. </> Конечно, такие вкусы породил в нас тот самый слепой безумный бог. Ну и что?
 
 - https://lesswrong.ru/454
-
-* * *
-
-I must not fear.
-Fear is the mind-killer.
-Fear is the little-death that brings total obliteration.
-I will face my fear.
-I will permit it to pass over me and through me.
-And when it has gone past I will turn the inner eye to see its path.
-Where the fear has gone there will be nothing.
-Only I will remain.
-- https://en.wikiquote.org/wiki/Frank_Herbert
 
 * * *
 
