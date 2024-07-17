@@ -1,7 +1,4 @@
-http://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
 http://dx.doi.org/10.2139/ssrn.3440802
-http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
-http://spacemath.xyz
 http://xahlee.info/math/algorithmic_math_art.html
 https://alt-f4.blog/ALTF4-39/
 https://alt-f4.blog/ALTF4-61/
@@ -14,6 +11,7 @@ https://arxiv.org/abs/2011.00412
 https://arxiv.org/abs/2209.11737
 https://attwoodandgarnettevents.com/can-autism-be-confused-with-schizophrenia
 https://blog.frost.kiwi/WebGL-LUTS-made-simple/
+https://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
 https://brilliant.org
 https://caniuse.com/css-hyphens
 https://caniuse.com/link-icon-svg
@@ -160,6 +158,7 @@ https://github.com/dmitryratty
 https://github.com/gskinner/regexr/
 https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
+https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
 https://instagram.com/dmitryratty
 https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/
 https://khanacademy.org/profile/dmitryratty
@@ -199,6 +198,7 @@ https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющи�
 https://ru.wikipedia.org/wiki/Савельев,_Сергей_Владимирович
 https://school-assistant.ru/?class=5_matematika
 https://softwarefoundations.cis.upenn.edu/lf-current/index.html
+https://spacemath.xyz
 https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file
 https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs
 https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html

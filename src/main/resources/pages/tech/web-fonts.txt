@@ -20,7 +20,7 @@ https://github.com/AceLewis/fontcrusher
 
 https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
 
-http://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
+https://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
 
 https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
 
@@ -32,7 +32,7 @@ https://developers.google.com/fonts/docs/getting_started
 
 https://www.w3.org/TR/css-fonts-4/#font-display-desc
 
-http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
 
 https://www.zachleat.com/web/web-font-data-uris/
 
