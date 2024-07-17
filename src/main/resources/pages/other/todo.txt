@@ -1,6 +1,6 @@
-"http" and "https" should not be considered links
-
 Улучшить функцию переноса длинных слов, разбивать по дефису, разбивать по началу слов определяемых по заглавной букве.
+
+"http" and "https" should not be considered links
 
 Move CSS to "a", в page-template.html убрать лишний "/>", переместить вниз title.
 
@@ -66,3 +66,7 @@ Footnotes: https://css-tricks.com/footnote-characters
 Английский. Ну... Да! Ну... Видеоигры!
 
 Тёмная тема.
+
+* * *
+
+Можно попробовать что-то ботать тут: https://brilliant.org

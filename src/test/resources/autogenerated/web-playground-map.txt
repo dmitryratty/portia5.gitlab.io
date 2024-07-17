@@ -1,0 +1,43 @@
+/ -> /index.html
+/biology -> /biology/index.html <<- [/biology/]
+/biology/other-human -> /biology/other-human.html
+/biology/other-other -> /biology/other-other.html
+/ethics -> /ethics.html
+/humour -> /humour.html
+/library -> /library/index.html <<- [/library/]
+/library/maybe-will-read -> /library/maybe-will-read.html
+/library/read-done -> /library/read-done.html
+/life -> /life/index.html <<- [/life/]
+/life/alexander-grothendieck -> /life/alexander-grothendieck.html
+/life/bourbaki-weil -> /life/bourbaki-weil.html
+/life/demon-core -> /life/demon-core.html
+/life/judas-goat -> /life/judas-goat.html
+/life/sakalauskas-case -> /life/sakalauskas-case.html
+/life/slice-of-life-of-mine -> /life/slice-of-life-of-mine.html
+/life/srinivasa-ramanujan -> /life/srinivasa-ramanujan.html
+/money -> /money/index.html <<- [/money/]
+/other -> /other/index.html <<- [/other/]
+/other/map -> /other/map.html
+/other/other -> /other/other.html
+/other/todo -> /other/todo.html
+/tech -> /tech/index.html <<- [/tech/]
+/tech/hardware -> /tech/hardware.html
+/tech/other -> /tech/other.html
+/tech/software -> /tech/software.html
+/tech/web-fonts -> /tech/web-fonts.html
+/test/bullet -> /a/test/bullet.html <<- [/a/test/bullet]
+/test/favicon-oneliner -> /a/test/favicon-oneliner.html <<- [/a/test/favicon-oneliner]
+/test/gallery -> /a/test/gallery.html <<- [/a/test/gallery]
+/test/ta1 -> /a/test/ta1.html <<- [/a/test/ta1]
+/test/tf1 -> /a/test/tf1.html <<- [/a/test/tf1]
+/test/tf2 -> /a/test/tf2.html <<- [/a/test/tf2]
+/test/tf3 -> /a/test/tf3.html <<- [/a/test/tf3]
+/test/wrap -> /a/test/wrap.html <<- [/a/test/wrap]
+/vidya -> /vidya/index.html <<- [/vidya/]
+/vidya/factorio -> /vidya/factorio.html
+/vidya/terraria -> /vidya/terraria.html
+/a/test/favicon-16x16.png -> /a/test/favicon-16x16.png
+/a/test/favicon-32x32.png -> /a/test/favicon-32x32.png
+/a/test/game-die.svg -> /a/test/game-die.svg
+/css/main.css -> /css/main.css
+/css/normalize.css -> /css/normalize.css
