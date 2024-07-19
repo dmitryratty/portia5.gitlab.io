@@ -21,10 +21,13 @@ https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/map
 https://dmitryratty.gitlab.io/other/other
 https://dmitryratty.gitlab.io/other/todo
+https://dmitryratty.gitlab.io/other/wandering
 https://dmitryratty.gitlab.io/tech
 https://dmitryratty.gitlab.io/tech/hardware
+https://dmitryratty.gitlab.io/tech/neural-network
 https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software
+https://dmitryratty.gitlab.io/tech/unicode
 https://dmitryratty.gitlab.io/tech/web-fonts
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio

@@ -7,8 +7,7 @@
 ❄ Slice of life of mine.
 - https://dmitryratty.gitlab.io/life/slice-of-life-of-mine
 
-In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
-- https://en.wikipedia.org/wiki/Idiot_plot
+In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case. << https://en.wikipedia.org/wiki/Idiot_plot >>
 
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
@@ -32,22 +31,7 @@ Where the fear has gone there will be nothing.
 Only I will remain.
 - https://en.wikiquote.org/wiki/Frank_Herbert
 
-Abilene paradox. Ask, guess, tell culture. Platinum rule. #TheoryOfMind
-- https://en.wikipedia.org/wiki/Abilene_paradox
-- https://lesswrong.com/tag/guess-ask-tell-culture
-- https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
-- https://effectiviology.com/platinum-rule
-
-Сейчас на Земле примерно 8 000 000 000 человек. Если каждому уделить по секунде времени, то это 254 года.
-- https://www.worldometers.info
-
-* * *
-
-#include life/bourbaki-weil.txt
-
-* * *
-
-#include life/demon-core.txt
+Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
 
 * * *
 
@@ -60,6 +44,14 @@ The same technique would be popularized twenty years later by Edward Jenner, mar
 The point: there is knowledge for which money cannot substitute. Even if Louis XV had offered a large monetary bounty for ways to immunize himself against the pox, he would have had no way to distinguish Benjamin Jesty from the endless crowd of snake-oil sellers and faith healers and humoral balancers. Indeed, top medical "experts" of the time would likely have warned him away from Jesty.
 
 << "What Money Cannot Buy" by "johnswentworth" https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg >>
+
+* * *
+
+#include life/demon-core.txt
+
+* * *
+
+#include life/bourbaki-weil.txt
 
 * * *
 

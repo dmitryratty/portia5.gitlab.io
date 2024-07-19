@@ -1,4 +1,4 @@
-Move CSS to "a", в page-template.html убрать лишний "/>", переместить вниз title.
+Move CSS to "a", в page-template.html убрать лишний "/>", переместить вниз title, SVG иконка в виде кружка.
 
 Инициализация полей в Котлине.
 
@@ -55,6 +55,14 @@ Footnotes: https://css-tricks.com/footnote-characters
 
 Тёмная тема.
 
+Отправить основную часть моих завалов закладок в браузере в Wandering.
+
 * * *
 
 Можно попробовать что-то ботать тут: https://brilliant.org
+
+Переход на NixOS.
+- https://www.mxkrsv.dev/posts/nixos-migration
+
+Селфхостинг Гит.
+Radicle: Open-Source, Peer-to-Peer, GitHub Alternative /// Link: https://readhacker.news/s/63vPk /// Comments: https://readhacker.news/c/63vPk

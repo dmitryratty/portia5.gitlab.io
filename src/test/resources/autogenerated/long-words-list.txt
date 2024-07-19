@@ -8,7 +8,7 @@
 "src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"
 "Длинное&lt;wbr&gt;Длинное&lt;wbr&gt;Слово".
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
-&lt;///////////////////////////&gt;
 Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())
 href="https://fonts.googleapis.com/css?family=Tinos|Noto+Serif"&gt;
 projectDir.resolve("public/font.css").toFile().writeText(fontCss)
+°°°/｡｡｡/໒໒໒/₊₊₊/♡♡♡/⋆⋆⋆/‧‧‧/⸜⸜⸜/₊₊₊/˚˚˚

@@ -20,10 +20,13 @@
 /other/map -> /other/map.html
 /other/other -> /other/other.html
 /other/todo -> /other/todo.html
+/other/wandering -> /other/wandering.html
 /tech -> /tech/index.html <<- [/tech/]
 /tech/hardware -> /tech/hardware.html
+/tech/neural-network -> /tech/neural-network.html
 /tech/other -> /tech/other.html
 /tech/software -> /tech/software.html
+/tech/unicode -> /tech/unicode.html
 /tech/web-fonts -> /tech/web-fonts.html
 /test/bullet -> /a/test/bullet.html <<- [/a/test/bullet]
 /test/favicon-oneliner -> /a/test/favicon-oneliner.html <<- [/a/test/favicon-oneliner]

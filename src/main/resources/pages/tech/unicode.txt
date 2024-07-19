@@ -1,0 +1,42 @@
+Emoji.
+
+html make border around emoji
+
+https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
+
+<!-- &#x1F921; - Clown Face Emoji. -->
+<!-- &#x1F92A; - Grinning Face with One Large and One Small Eye Emoji. -->
+<!-- &#x1F642; - Slightly Smiling Face Emoji. -->
+<!-- &#x1F3AE; - Video Game Emoji. -->
+<!-- &#x3C0; - Greek Small Letter Pi. -->
+<!-- &#x1D6D1; - Mathematical Bold Small Pi. -->
+
+🎲 &#x1F3B2; Game Die.
+🎒 &#x1F392; School Satchel.
+🤡 Clown Face
+⚖ Scales
+❄ Snowflake
+
+✉ 📨 📩 💌 ➗ 🦉 🖤 ⚫ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 ✨
+
+Other.
+
+https://en.wikipedia.org/wiki/Fleuron_(typography)
+
+https://en.wikipedia.org/wiki/Dingbat
+
+https://en.wikipedia.org/wiki/Box-drawing_character
+
+https://en.wikipedia.org/wiki/Bullet_(typography)
+
+https://en.wikipedia.org/wiki/Ellipsis
+
+<•>
+《》 ⟨⟩ ❝❞「」
+⁂ ❦ ❖
+���
+￼￼￼
+</////////////>
+<///><///><///>
+╰┈➤ ༺♡༻
+°°°/｡｡｡/໒໒໒/₊₊₊/♡♡♡/⋆⋆⋆/‧‧‧/⸜⸜⸜/₊₊₊/˚˚˚
