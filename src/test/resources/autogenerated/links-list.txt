@@ -1,4 +1,5 @@
 http://dx.doi.org/10.2139/ssrn.3440802
+http://www.nonograms.org/nonograms2/i/11173
 http://xahlee.info/math/algorithmic_math_art.html
 https://alt-f4.blog/ALTF4-39/
 https://alt-f4.blog/ALTF4-61/
@@ -21,6 +22,9 @@ https://caniuse.com/link-icon-svg
 https://charstar.ai
 https://ciechanow.ski/airfoil/
 https://colab.research.google.com/drive/1yLplnDxUhfOSatH46jg1r-Cb2KK4Z4BW?usp=sharing
+https://commons.wikimedia.org/wiki/Category:Glitch_art
+https://commons.wikimedia.org/wiki/File:GNU_-_glitch.jpg
+https://commons.wikimedia.org/wiki/File:Kodak_Moment_(2013)_sample_animation.gif
 https://css-tricks.com/footnote-characters
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css.winterveil.net/
@@ -86,6 +90,7 @@ https://en.wikipedia.org/wiki/Abilene_paradox
 https://en.wikipedia.org/wiki/Accelerationism
 https://en.wikipedia.org/wiki/Alexander_Grothendieck
 https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+https://en.wikipedia.org/wiki/Biomega_(manga)
 https://en.wikipedia.org/wiki/Box-drawing_character
 https://en.wikipedia.org/wiki/Bullet_(typography)
 https://en.wikipedia.org/wiki/CIA_assassination_attempts_on_Fidel_Castro
@@ -106,6 +111,7 @@ https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
 https://en.wikipedia.org/wiki/Fact-value_distinction
 https://en.wikipedia.org/wiki/Fleuron_(typography)
 https://en.wikipedia.org/wiki/Game_theory
+https://en.wikipedia.org/wiki/Glitch_art
 https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Min-Maxing
 https://en.wikipedia.org/wiki/Glycerophosphorylcholine
 https://en.wikipedia.org/wiki/Godefroid_Munongo
@@ -182,6 +188,8 @@ https://infinigen.org/
 https://instagram.com/dmitryratty
 https://intelligence.org
 https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/
+https://katerinabogus.com
+https://katerinabogus.com/page31159801.html
 https://khanacademy.org/profile/dmitryratty
 https://killedbygoogle.com
 https://lesswrong.com/tag/guess-ask-tell-culture
@@ -189,6 +197,8 @@ https://lesswrong.ru/454
 https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
 https://linkedin.com/in/dmitryratty
 https://littlesis.org/
+https://lnkfi.re/voxelplayyard
+https://lutris.net/
 https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fortnite-she-wet-herself-7619324/
 https://mjg59.dreamwidth.org/48429.html
 https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains
