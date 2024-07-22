@@ -55,7 +55,7 @@ class PagesGenerator(
             }
             val beautyfiedText = TextBeautifier().transform(includeResolved.toString())
             val titleAndBody = titleAndBody(it.key.pathString, beautyfiedText)
-            val bodyHtml = textToHtml(titleAndBody.second)
+            val bodyHtml = textToHtml(titleAndBody.first, titleAndBody.second)
             val htmlFile = Utils().textPageInputToHtmlOutputFile(it.key)
             htmlFile.parentFile.mkdirs()
             val bottomNavigation = it.key.pathString != "index.txt"
@@ -209,6 +209,11 @@ class PagesGenerator(
         }
     }
 
+    fun isIdeographic(word: String): Boolean {
+        // TODO Character.isIdeographic(int codepoint)
+        return word.contains("東亜重工")
+    }
+
     fun transformWord(word: String): String {
         if (Utils().isHyperlink(word)) {
             return transformLink(word)
@@ -220,6 +225,8 @@ class PagesGenerator(
             newWord = longWordLineBreaks(newWord)
         } else {
             if (newWord.contains('-')) {
+                newWord = makeNoWrap(newWord)
+            } else if (isIdeographic(newWord)) {
                 newWord = makeNoWrap(newWord)
             } else if (footnote.matches(newWord)) {
                 // Footnote inside text, like "world![2]". We make "world![2]"
@@ -239,7 +246,7 @@ class PagesGenerator(
         val result = StringBuilder()
         if (paragraph.contains("* * *")) {
             if (paragraph != "* * *") {
-                throw IllegalStateException()
+                throw IllegalStateException(paragraph)
             }
             result.append("<p class=\"dinkus\">* * *</p>")
             return result.toString()
@@ -251,13 +258,17 @@ class PagesGenerator(
         return result.toString()
     }
 
-    fun textToHtml(text: String): String {
+    fun textToHtml(tag: String, text: String): String {
         val article = StringBuilder()
         Utils().splitToParagraphs(text).forEach { paragraph ->
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }
-            article.append(transformParagraph(paragraph))
+            try {
+                article.append(transformParagraph(paragraph))
+            } catch (e: Exception) {
+                throw IllegalStateException(tag, e)
+            }
         }
         return article.toString()
     }

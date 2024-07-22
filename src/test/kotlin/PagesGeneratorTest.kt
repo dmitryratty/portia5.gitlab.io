@@ -100,7 +100,7 @@ class PagesGeneratorTest {
 
         val beautyfiedText = TextBeautifier().transform(textString)
         val titleAndBody = pagesGenerator.titleAndBody("test1.txt", beautyfiedText)
-        val bodyHtml = pagesGenerator.textToHtml(titleAndBody.second)
+        val bodyHtml = pagesGenerator.textToHtml(titleAndBody.first, titleAndBody.second)
         val htmlPage = pagesGenerator.htmlPage(titleAndBody.first, bodyHtml, true)
         assertEquals(expectedHtmlString, htmlPage)
     }
