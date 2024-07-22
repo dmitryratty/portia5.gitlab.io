@@ -9,6 +9,8 @@
 "Длинное&lt;wbr&gt;Длинное&lt;wbr&gt;Слово".
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
 Base64.getEncoder().encodeToString(projectDir.resolve("src/plex.woff").toFile().readBytes())
+F̴̟͕̐̔̔o̴̼̠̟̿͊̕r̴̢̘̦̀͆͝g̴̢̦̫͌́͐o̸̢͚͒̿͜͝t̸̘̝̪̒͘̚t̴͖̦͎̿̿̽e̴̪͉̝͒̀͑n̴͖͔͖̔̚͝
+F̀o͢r̨g͘o͜t́t̢e͟n҉O̫͗͟lͩ͏̙d̴͖̪ͣ̀̓O̢͙͌ṋ̨́ĕ̶ͅs̴̓
 href="https://fonts.googleapis.com/css?family=Tinos|Noto+Serif"&gt;
 projectDir.resolve("public/font.css").toFile().writeText(fontCss)
 °°°/｡｡｡/໒໒໒/₊₊₊/♡♡♡/⋆⋆⋆/‧‧‧/⸜⸜⸜/₊₊₊/˚˚˚
