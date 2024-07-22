@@ -22,6 +22,11 @@
 /other/todo -> /other/todo.html
 /other/wandering -> /other/wandering.html
 /slice-of-life-of-mine -> /slice-of-life-of-mine/index.html <<- [/slice-of-life-of-mine/]
+/slice-of-life-of-mine/blood-filled-mouth -> /slice-of-life-of-mine/blood-filled-mouth.html
+/slice-of-life-of-mine/caught-masturbating -> /slice-of-life-of-mine/caught-masturbating.html
+/slice-of-life-of-mine/holiday-is-coming -> /slice-of-life-of-mine/holiday-is-coming.html
+/slice-of-life-of-mine/parents -> /slice-of-life-of-mine/parents.html
+/slice-of-life-of-mine/winter-sunny-day -> /slice-of-life-of-mine/winter-sunny-day.html
 /tech -> /tech/index.html <<- [/tech/]
 /tech/hardware -> /tech/hardware.html
 /tech/neural-network -> /tech/neural-network.html

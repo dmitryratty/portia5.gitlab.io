@@ -22,8 +22,6 @@ image gallery html library like google photos
 - https://nanogallery2.nanostudio.org/
 simple image lightbox html
 
-2 TODO в slice of life.
-
 \#include - add standalone links.
 
 Запрещать перенос коротких префиксов-суффиксов. Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. 》". И чтобы в "Фраза в которой[1] есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".
