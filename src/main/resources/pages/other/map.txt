@@ -18,6 +18,7 @@ https://dmitryratty.gitlab.io/life/slice-of-life-of-mine
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
 https://dmitryratty.gitlab.io/other
+https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/map
 https://dmitryratty.gitlab.io/other/other
 https://dmitryratty.gitlab.io/other/todo

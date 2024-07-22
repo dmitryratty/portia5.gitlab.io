@@ -17,6 +17,7 @@
 /life/srinivasa-ramanujan -> /life/srinivasa-ramanujan.html
 /money -> /money/index.html <<- [/money/]
 /other -> /other/index.html <<- [/other/]
+/other/languages -> /other/languages.html
 /other/map -> /other/map.html
 /other/other -> /other/other.html
 /other/todo -> /other/todo.html
