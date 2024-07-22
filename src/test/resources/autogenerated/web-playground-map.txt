@@ -13,7 +13,6 @@
 /life/demon-core -> /life/demon-core.html
 /life/judas-goat -> /life/judas-goat.html
 /life/sakalauskas-case -> /life/sakalauskas-case.html
-/life/slice-of-life-of-mine -> /life/slice-of-life-of-mine.html
 /life/srinivasa-ramanujan -> /life/srinivasa-ramanujan.html
 /money -> /money/index.html <<- [/money/]
 /other -> /other/index.html <<- [/other/]
@@ -22,6 +21,7 @@
 /other/other -> /other/other.html
 /other/todo -> /other/todo.html
 /other/wandering -> /other/wandering.html
+/slice-of-life-of-mine -> /slice-of-life-of-mine/index.html <<- [/slice-of-life-of-mine/]
 /tech -> /tech/index.html <<- [/tech/]
 /tech/hardware -> /tech/hardware.html
 /tech/neural-network -> /tech/neural-network.html
