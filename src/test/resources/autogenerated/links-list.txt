@@ -11,6 +11,7 @@ https://arbital.com/p/bayes_rule
 https://arbital.com/p/bayes_rule/
 https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE
 https://archivenakao.blogspot.com/2017/03/blameweirdkango.html
+https://arena.lmsys.org/
 https://arxiv.org/abs/2011.00412
 https://arxiv.org/abs/2209.11737
 https://arxiv.org/abs/2401.05566
@@ -179,12 +180,14 @@ https://en.wikiquote.org/wiki/Frank_Herbert
 https://esquire.ru/articles/5869-neil-harbisson/
 https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
 https://factorio.com/blog/post/fff-416
+https://frame.work/
 https://fsymbols.com/generators/zalgo/
 https://future.com
 https://gcemetery.co
 https://github.com/AceLewis/fontcrusher
 https://github.com/CompVis/stable-diffusion
 https://github.com/Genymobile/scrcpy
+https://github.com/Y2Z/monolith
 https://github.com/dmitryratty
 https://github.com/gskinner/regexr/
 https://gitlab.com/dmitryratty
@@ -206,6 +209,7 @@ https://lesswrong.ru/454
 https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture
 https://linkedin.com/in/dmitryratty
 https://littlesis.org/
+https://livebench.ai/
 https://lnkfi.re/voxelplayyard
 https://lutris.net/
 https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fortnite-she-wet-herself-7619324/
@@ -231,6 +235,7 @@ https://pl.kotobank.ch/notice/Ah94DyY4JnE7Sau1Pk
 https://rb.ru/story/videoigry-i-mozg/
 https://readhacker.news/c/5QkjM
 https://readhacker.news/c/63vPk
+https://readhacker.news/c/64GDC
 https://readhacker.news/c/64ysi
 https://readhacker.news/c/69tic
 https://readhacker.news/s/5QkjM
@@ -314,6 +319,7 @@ https://t.me/dmitryratty
 https://t.me/dollcoremem
 https://t.me/durov
 https://t.me/dustories
+https://t.me/epsiloncorrect/182
 https://t.me/fmusbot
 https://t.me/foxes_in_loveRU
 https://t.me/full_brains/45

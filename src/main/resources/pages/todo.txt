@@ -43,7 +43,9 @@ https://en.wikipedia.org/wiki/Sitemaps
 
 Ссылку на maybe-will-read в конец library.
 
-Бекапы контента внешних ссылок?
+Бекапы контента внешних ссылок. Monolith – CLI tool for saving complete web pages as a single HTML file.
+- https://github.com/Y2Z/monolith
+- https://readhacker.news/c/64GDC
 
 В Файрфоксе при максимальном размере окна жирные подчёркивания ссылок, а при уменьшении размера окна - нормальные.
 

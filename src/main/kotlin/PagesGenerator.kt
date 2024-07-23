@@ -38,7 +38,6 @@ class PagesGenerator(
         Library().main()
         generateMap()
         TextFormatter().main()
-        Utils().cleanupBuildDir()
         Utils().textPagesInput().forEach {
             val includeResolved = StringBuilder()
             it.value.readText().split('\n').forEach { line ->
