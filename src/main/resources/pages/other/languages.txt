@@ -22,3 +22,8 @@ Kingsley Amis, on being challenged to produce a sentence whose meaning depended 
 
 "concise" - giving a lot of information clearly and in a few words; brief but comprehensive.
  - Example: https://discuss.kotlinlang.org/t/ternary-operator/2116/171
+
+* * *
+
+"Реактор и гравимельница: лингвистический кошмар сложных канго".
+- https://archivenakao.blogspot.com/2017/03/blameweirdkango.html

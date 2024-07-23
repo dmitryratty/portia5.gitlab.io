@@ -17,14 +17,14 @@ https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
 https://dmitryratty.gitlab.io/other
+https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/map
-https://dmitryratty.gitlab.io/other/other
-https://dmitryratty.gitlab.io/other/todo
 https://dmitryratty.gitlab.io/other/wandering
 https://dmitryratty.gitlab.io/slice-of-life-of-mine
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/blood-filled-mouth
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/caught-masturbating
+https://dmitryratty.gitlab.io/slice-of-life-of-mine/chaos
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/holiday-is-coming
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/parents
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/winter-sunny-day
@@ -35,6 +35,7 @@ https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software
 https://dmitryratty.gitlab.io/tech/unicode
 https://dmitryratty.gitlab.io/tech/web-fonts
+https://dmitryratty.gitlab.io/todo
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria

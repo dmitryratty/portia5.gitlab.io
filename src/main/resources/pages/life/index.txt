@@ -4,7 +4,7 @@
 ⚖ Ethics.
 - https://dmitryratty.gitlab.io/ethics
 
-❄ Slice of life of mine.
+❄ Slice of life of mine. May contain adult content.
 - https://dmitryratty.gitlab.io/slice-of-life-of-mine
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case. << https://en.wikipedia.org/wiki/Idiot_plot >>
@@ -126,8 +126,11 @@ The point: there is knowledge for which money cannot substitute. Even if Louis X
 
 Таким образом превращаем дилеммы заключённого в повторяющиеся благодаря возможности отслеживать историю игр всех игроков. Изменится ли уровень кооперации между людьми, изменится ли эффективность координации, станет ли мир более или менее приятным местом?
 
+Можно попробовать демонстрировать 24/7 свою собственную жизнь, вот парень делал такой эксперимент длительностью в год:
+- https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
+
 #GameTheory #Madness
 
 * * *
 
-Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.
+Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. If you stuck try move reflection one level up. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.

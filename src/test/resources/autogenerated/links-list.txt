@@ -1,4 +1,5 @@
 http://dx.doi.org/10.2139/ssrn.3440802
+http://sila.media/game
 http://www.nonograms.org/nonograms2/i/11173
 http://xahlee.info/math/algorithmic_math_art.html
 https://alt-f4.blog/ALTF4-39/
@@ -53,14 +54,14 @@ https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
 https://dmitryratty.gitlab.io/other
+https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/map
-https://dmitryratty.gitlab.io/other/other
-https://dmitryratty.gitlab.io/other/todo
 https://dmitryratty.gitlab.io/other/wandering
 https://dmitryratty.gitlab.io/slice-of-life-of-mine
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/blood-filled-mouth
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/caught-masturbating
+https://dmitryratty.gitlab.io/slice-of-life-of-mine/chaos
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/holiday-is-coming
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/parents
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/winter-sunny-day
@@ -71,6 +72,7 @@ https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software
 https://dmitryratty.gitlab.io/tech/unicode
 https://dmitryratty.gitlab.io/tech/web-fonts
+https://dmitryratty.gitlab.io/todo
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria
@@ -155,6 +157,7 @@ https://en.wikipedia.org/wiki/Prisoner's_dilemma
 https://en.wikipedia.org/wiki/Problem_of_induction
 https://en.wikipedia.org/wiki/Recurrent_laryngeal_nerve
 https://en.wikipedia.org/wiki/Regression_toward_the_mean
+https://en.wikipedia.org/wiki/Rule_of_least_power
 https://en.wikipedia.org/wiki/Rwandan_genocide
 https://en.wikipedia.org/wiki/Semaglutide
 https://en.wikipedia.org/wiki/Sitemaps
@@ -212,7 +215,11 @@ https://mods.factorio.com/mod/flipfloptrainmode
 https://multiverse.com
 https://nanogallery2.nanostudio.org/
 https://ncase.me
+https://ncase.me/crowds/ru.html
+https://ncase.me/polygons
+https://ncase.me/trust/
 https://newochem.ru/nauka/naskolko-razumny-zhivotnye
+https://notdotteam.github.io/trust
 https://nplus1.ru/material/2020/12/18/consider-the-octopus
 https://open.substack.com/pub/aella/p/bdsm-subtypes-and-their-prevalence?r=3fi1m4&utm_campaign=post&utm_medium=email
 https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
@@ -441,6 +448,8 @@ https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
 https://www.atvbt.com/the-carrot-problem
 https://www.bitsofwonder.co/p/a-revolution-in-biology
 https://www.britannica.com/topic/2023-The-Year-in-Review
+https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
+https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
 https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 https://www.dailymail.co.uk/health/article-13214693/bryan-johnson-biohacker-anti-aging-nation.html
 https://www.figma.com/blog/line-height-changes/

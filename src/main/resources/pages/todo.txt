@@ -1,14 +1,21 @@
-Move CSS to "a", в page-template.html убрать лишний "/>", переместить вниз title, SVG иконка в виде кружка.
+Ресурсы в "/resources/other", отсюда копировать их в "public" при сборке, при этом чтобы мой SimpleServer отдавал ресурсы из "/resources/other", отображая их в корень.
 
-Переделать "master" в "main". Переделать автора коммитов на Ratty. Одна ветка.
-
-Инициализация полей в Котлине.
-
-Проверять живость всех ссылок.
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" media="screen" href="/css/main.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title><!--TITLE--></title>
 
 Favicon.
 - https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
 - https://caniuse.com/link-icon-svg
+
+Одна ветка "main".
+
+Инициализация полей в Котлине.
+
+Проверять живость всех ссылок.
 
 Library "database" splitting into authors and books. YAML, HOCON?
 - https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
@@ -31,12 +38,6 @@ simple image lightbox html
 https://developer.chrome.com/docs/lighthouse/overview/
 
 https://en.wikipedia.org/wiki/Sitemaps
-
-MAGICK.CSS https://css.winterveil.net/
-
-Tufte CSS https://edwardtufte.github.io/tufte-css/
-
-Footnotes: https://css-tricks.com/footnote-characters
 
 В борьбе с почтовым спамом часто пишут адреса почты в духе "dmitryratty [at] gmail [dot] com" или делают их в виде картинки. Это чтобы адреса было труднее парсить ботами. Это мне не очень нравится, но если действительно буду получать много спама можно рядом с адресом указать, что "В тему вашего первого письма вставте слово 'Лампа', иначе его не пропустит мой спам-фильтр".
 

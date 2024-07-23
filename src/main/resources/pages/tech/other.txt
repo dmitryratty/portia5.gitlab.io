@@ -94,3 +94,20 @@ RegExr is a HTML/JS based tool for creating, testing, and learning about Regular
 * * *
 
 #ProceduralGeneration #OpenSource https://infinigen.org/
+
+* * *
+
+Уход MetaMask с BSD-like лицензии на "Платите нам деньги если вы используете наш код в бизнесе с более 10 тысяч пользователей ежемесячно". #OpenSource
+- https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
+
+* * *
+
+https://en.wikipedia.org/wiki/Rule_of_least_power
+
+* * *
+
+MAGICK.CSS https://css.winterveil.net/
+
+Tufte CSS https://edwardtufte.github.io/tufte-css/
+
+Footnotes: https://css-tricks.com/footnote-characters
