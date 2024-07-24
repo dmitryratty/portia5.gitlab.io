@@ -147,3 +147,9 @@ Satoshi Nakamoto: "Bitcoin: A Peer-to-Peer Electronic Cash System".
 
 23.07.2024 https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
 23.07.2024 https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
+
+23.07.2024 https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+
+24.07.2024 https://drewdevault.com/2021/12/28/Dont-use-Discord-for-FOSS.html
+
+24.07.2024 https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do

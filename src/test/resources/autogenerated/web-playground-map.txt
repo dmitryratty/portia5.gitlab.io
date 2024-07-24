@@ -26,6 +26,7 @@
 /slice-of-life-of-mine/chaos -> /slice-of-life-of-mine/chaos.html
 /slice-of-life-of-mine/holiday-is-coming -> /slice-of-life-of-mine/holiday-is-coming.html
 /slice-of-life-of-mine/parents -> /slice-of-life-of-mine/parents.html
+/slice-of-life-of-mine/smell-of-fist -> /slice-of-life-of-mine/smell-of-fist.html
 /slice-of-life-of-mine/winter-sunny-day -> /slice-of-life-of-mine/winter-sunny-day.html
 /tech -> /tech/index.html <<- [/tech/]
 /tech/hardware -> /tech/hardware.html

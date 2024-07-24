@@ -111,3 +111,10 @@ MAGICK.CSS https://css.winterveil.net/
 Tufte CSS https://edwardtufte.github.io/tufte-css/
 
 Footnotes: https://css-tricks.com/footnote-characters
+
+* * *
+
+Apple curl security incident
+https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
+https://github.com/curl/curl/issues/12604
+Comments: https://readhacker.news/c/63MEC

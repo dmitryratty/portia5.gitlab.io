@@ -30,6 +30,7 @@ https://commons.wikimedia.org/wiki/File:Kodak_Moment_(2013)_sample_animation.gif
 https://css-tricks.com/footnote-characters
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css.winterveil.net/
+https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
 https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning
 https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii
 https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
@@ -65,6 +66,7 @@ https://dmitryratty.gitlab.io/slice-of-life-of-mine/caught-masturbating
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/chaos
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/holiday-is-coming
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/parents
+https://dmitryratty.gitlab.io/slice-of-life-of-mine/smell-of-fist
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/winter-sunny-day
 https://dmitryratty.gitlab.io/tech
 https://dmitryratty.gitlab.io/tech/hardware
@@ -83,6 +85,7 @@ https://doi.org/10.1073/pnas.1601135113
 https://doi.org/10.1093/brain/awt364
 https://doi.org/10.1136/bmj.327.7429.1459
 https://doi.org/10.1136/bmj.k5094
+https://drewdevault.com/2021/12/28/Dont-use-Discord-for-FOSS.html
 https://drinkordiecdn.lol/sd-v1-3-full-ema.ckpt
 https://edwardtufte.github.io/tufte-css/
 https://effectiviology.com/egocentric-bias
@@ -188,6 +191,7 @@ https://github.com/AceLewis/fontcrusher
 https://github.com/CompVis/stable-diffusion
 https://github.com/Genymobile/scrcpy
 https://github.com/Y2Z/monolith
+https://github.com/curl/curl/issues/12604
 https://github.com/dmitryratty
 https://github.com/gskinner/regexr/
 https://gitlab.com/dmitryratty
@@ -213,6 +217,7 @@ https://livebench.ai/
 https://lnkfi.re/voxelplayyard
 https://lutris.net/
 https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fortnite-she-wet-herself-7619324/
+https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do
 https://mjg59.dreamwidth.org/48429.html
 https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains
 https://mods.factorio.com/mod/flipfloptrainmode
@@ -234,6 +239,7 @@ https://pimbook.org/
 https://pl.kotobank.ch/notice/Ah94DyY4JnE7Sau1Pk
 https://rb.ru/story/videoigry-i-mozg/
 https://readhacker.news/c/5QkjM
+https://readhacker.news/c/63MEC
 https://readhacker.news/c/63vPk
 https://readhacker.news/c/64GDC
 https://readhacker.news/c/64ysi
@@ -459,6 +465,7 @@ https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straig
 https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 https://www.dailymail.co.uk/health/article-13214693/bryan-johnson-biohacker-anti-aging-nation.html
 https://www.figma.com/blog/line-height-changes/
+https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
 https://www.lesswrong.com/posts/Wh8HAK6LR5CAoPCCC
 https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg
 https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
