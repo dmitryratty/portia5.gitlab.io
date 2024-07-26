@@ -2,6 +2,7 @@ http://dx.doi.org/10.2139/ssrn.3440802
 http://sila.media/game
 http://www.nonograms.org/nonograms2/i/11173
 http://xahlee.info/math/algorithmic_math_art.html
+https://adam.math.hhu.de/#/g/leanprover-community/nng4
 https://alt-f4.blog/ALTF4-39/
 https://alt-f4.blog/ALTF4-61/
 https://apteka.ru/product/gaba-500-mg-60-sht-kapsuly-massoj-062-g-63515d266910ac77b626287f/
@@ -70,6 +71,7 @@ https://dmitryratty.gitlab.io/slice-of-life-of-mine/smell-of-fist
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/winter-sunny-day
 https://dmitryratty.gitlab.io/tech
 https://dmitryratty.gitlab.io/tech/hardware
+https://dmitryratty.gitlab.io/tech/kindergarten-math
 https://dmitryratty.gitlab.io/tech/neural-network
 https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software
@@ -237,15 +239,20 @@ https://ourworldindata.org/causes-of-death
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pimbook.org/
 https://pl.kotobank.ch/notice/Ah94DyY4JnE7Sau1Pk
+https://playground.tensorflow.org/
+https://polymarket.com
+https://rationalanswer.club
 https://rb.ru/story/videoigry-i-mozg/
 https://readhacker.news/c/5QkjM
 https://readhacker.news/c/63MEC
 https://readhacker.news/c/63vPk
+https://readhacker.news/c/64BZQ
 https://readhacker.news/c/64GDC
 https://readhacker.news/c/64ysi
 https://readhacker.news/c/69tic
 https://readhacker.news/s/5QkjM
 https://readhacker.news/s/63vPk
+https://readhacker.news/s/64BZQ
 https://readhacker.news/s/69tic
 https://redpillnootrop.ru/alpha-gpc/
 https://redpillnootrop.ru/fenylpiracetam/
@@ -281,6 +288,7 @@ https://t.me/MainPlayCh
 https://t.me/MainPlay_TG
 https://t.me/MythInformation/1989
 https://t.me/PsychologiesRussia
+https://t.me/RationalAnswer
 https://t.me/Skermajenie
 https://t.me/Social_engineering
 https://t.me/TGvzaim
@@ -289,6 +297,7 @@ https://t.me/aetherspace
 https://t.me/ai_newz/2727
 https://t.me/ai_newz/2796
 https://t.me/ai_newz/2813
+https://t.me/ai_newz/3056
 https://t.me/altersystem
 https://t.me/aquaticancer
 https://t.me/aquaticancer/85
@@ -361,12 +370,14 @@ https://t.me/literallly_us
 https://t.me/lwreading
 https://t.me/macabreDDM
 https://t.me/mapamagrus/5593
+https://t.me/mashkka_ds
 https://t.me/mathmemories/33
 https://t.me/mathmemories/44
 https://t.me/miniclippy
 https://t.me/mirf_ru
 https://t.me/mmaryasova
 https://t.me/mmaryasova/718
+https://t.me/moonburnt_abyss
 https://t.me/morozovaeva000
 https://t.me/mtamtamtamtamta
 https://t.me/mtsai
@@ -442,6 +453,7 @@ https://t.me/veronikastepanova20011
 https://t.me/vodocanalplus
 https://t.me/vodochannel
 https://t.me/vvzvlad
+https://t.me/yanlyutnev
 https://t.me/zhopyimeduzy
 https://techcrunch.com/2024/06/13/former-nsa-head-joins-openai-board-and-safety-committee/
 https://time.com

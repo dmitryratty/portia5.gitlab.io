@@ -31,6 +31,7 @@ https://dmitryratty.gitlab.io/slice-of-life-of-mine/smell-of-fist
 https://dmitryratty.gitlab.io/slice-of-life-of-mine/winter-sunny-day
 https://dmitryratty.gitlab.io/tech
 https://dmitryratty.gitlab.io/tech/hardware
+https://dmitryratty.gitlab.io/tech/kindergarten-math
 https://dmitryratty.gitlab.io/tech/neural-network
 https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software

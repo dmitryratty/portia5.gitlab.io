@@ -57,3 +57,8 @@ https://t.me/kcs_stuff/8212
 #NeuralNetwork https://t.me/denissexy/7013
 
 #NeuralNetwork Актуальные LLM бенчмарки: https://t.me/epsiloncorrect/182 -> https://livebench.ai/ https://arena.lmsys.org/
+
+#NeuralNetwork https://playground.tensorflow.org/
+
+#NeuralNetwork https://t.me/mashkka_ds
+

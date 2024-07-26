@@ -20,73 +20,8 @@
 
 * * *
 
-В последние годы интересно общаться с людьми, разбирающимися в математике, нравятся точные и краткие формулировки. Также попытки разбираться во многих интересующих меня вопросах упираются в низкий уровень моих математических знаний. Одно из моих предположений, это что математические абстракции обладают высокой точностью и эффективностью сжатия информации о мире, поэтому хотелось бы иметь эти абстракции в своей голове. Ещё возникало ощущение, что занятия математикой "дисциплинируют" мышление.
-
-1. Изучая математику я хотел бы иметь постоянную обратную связь о том, действительно ли я понимаю текущий материал. Для этого подходит решение задач.
-
-2. Исходя из моего предположения о пользе удержания в голове некоторых абстракций хотелось бы механизм их удержания. Думаю может сработать spaced repetition.[1]
-
-3. Для эмоционального подкрепления изучения можно использовать игровые механизмы с прогрессом по темам, достижениями и прочим.
-
-В идеале видится что-то подобное сервисам изучения программирования и языков, CodinGame, HackerRank, Duolingo, LinguaLeo. Есть задачи прогресса по темам, если задача непонятна можно перейти на обучающие материалы к ней, есть автоматическая проверка решений задач, есть эмоциональное подкрепление визуализацией прогресса, достижениями и прочим. И хотелось бы добавление к этому какой-то системы spaced repetition, часто слышал об Anki, но сам не пробовал.
-
-Сейчас прохожу курсы математики на Khan Academy, начав с детского сада:
-- https://khanacademy.org/profile/dmitryratty
-
-[1]. https://en.wikipedia.org/wiki/Spaced_repetition
-
-#Math
-
-* * *
-
-"The Map of Mathematics" by "Domain of Science".
- - https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
-
-A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best:
- - https://en.wikipedia.org/wiki/Inductive_bias
-
-https://arbital.com/p/bayes_rule
-
-"A visual guide to Bayesian thinking" by "Julia Galef".
- - https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
-
-Algorithmic Mathematical Art:
- - http://xahlee.info/math/algorithmic_math_art.html
- - https://readhacker.news/c/64ysi
-
-"Painting a Character with Maths" by "Inigo Quilez".
- - https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
-
-#Math
-
-* * *
-
-Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum...
-- https://en.wikipedia.org/wiki/Game_theory
-
-Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.
-- https://en.wikipedia.org/wiki/Prisoner's_dilemma
-
-A tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Noise presence, revenge cycles - forgiveness.
-- https://en.wikipedia.org/wiki/Tit_for_tat
-
-- https://www.lesswrong.com/tag/acausal-trade
-- https://www.lesswrong.com/tag/parfits-hitchhiker
-- https://effectiviology.com/precommitment
-- https://en.wikipedia.org/wiki/Precommitment
-
-Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
-- https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
-
-Nicky Case, curious shtuff you can play:
-- https://ncase.me
-
-https://en.wikipedia.org/wiki/Minimax
-https://en.wikipedia.org/wiki/Hawk-dove
-https://en.wikipedia.org/wiki/Tragedy_of_the_commons
-https://en.wikipedia.org/wiki/The_Market_for_Lemons
-
-#Math #GameTheory
+Учу математику на Khan Academy, начав с детского сада:
+- https://dmitryratty.gitlab.io/tech/kindergarten-math
 
 * * *
 
@@ -100,8 +35,7 @@ Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has
 
 * * *
 
-https://killedbygoogle.com
-https://gcemetery.co
+#Trickery #Moloch https://killedbygoogle.com https://gcemetery.co
 
 * * *
 
