@@ -36,6 +36,7 @@ https://dmitryratty.gitlab.io/tech/neural-network
 https://dmitryratty.gitlab.io/tech/other
 https://dmitryratty.gitlab.io/tech/software
 https://dmitryratty.gitlab.io/tech/unicode
+https://dmitryratty.gitlab.io/tech/web
 https://dmitryratty.gitlab.io/tech/web-fonts
 https://dmitryratty.gitlab.io/todo
 https://dmitryratty.gitlab.io/vidya

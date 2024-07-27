@@ -52,8 +52,8 @@ class SimpleServer {
             val toServe = serve.mapValues { "/" + it.value.relativeTo(dirFile).path }.toSortedMap()
             val toRedirect = redirect.toList()
                 .groupBy { pair -> pair.second }
-                .mapValues { entry ->
-                    entry.value.map { it.first }
+                .mapValues { entry: Map.Entry<String, List<Pair<String, String>>> ->
+                    entry.value.map { e: Pair<String, String> -> e.first }
                 }.toSortedMap()
             if (!toServe.keys.containsAll(toRedirect.keys)) throw IllegalStateException()
             val htmlList = StringBuilder()

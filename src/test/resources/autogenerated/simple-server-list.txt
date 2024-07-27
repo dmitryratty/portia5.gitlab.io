@@ -35,6 +35,7 @@
 /tech/other -> /tech/other.html
 /tech/software -> /tech/software.html
 /tech/unicode -> /tech/unicode.html
+/tech/web -> /tech/web.html
 /tech/web-fonts -> /tech/web-fonts.html
 /test/bullet -> /test/bullet.html
 /test/favicon-oneliner -> /test/favicon-oneliner.html
