@@ -14,6 +14,7 @@ class Generator {
     private fun main() {
         Utils().cleanupBuildDir()
         PagesGenerator().main()
+        Favicon().main()
         val srcDir = Utils().resourcesDir.resolve("other")
         val dstDir = Utils().buildOutDir
         Files.walk(srcDir).forEach { src: Path ->

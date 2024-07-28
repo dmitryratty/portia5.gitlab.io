@@ -7,9 +7,12 @@
 [2] /slice-of-life-of-mine[/][/index.html]
 [2] /tech[/][/index.html]
 [2] /vidya[/][/index.html]
+[3] /apple-touch-icon.png
 [3] /css/main.css
 [3] /css/normalize.css
 [3] /favicon.svg
+[3] /icon-192.png
+[3] /icon-512.png
 [3] /test/image/game-die.svg
 [3] /test/image/square-black-16x16.png
 [3] /test/image/square-black-32x32.png

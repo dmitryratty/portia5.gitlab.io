@@ -39,3 +39,9 @@ Footnotes: https://css-tricks.com/footnote-characters
 
 Web fonts.
 - https://dmitryratty.gitlab.io/tech/web-fonts
+
+* * *
+
+Favicon.
+- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+- https://caniuse.com/link-icon-svg

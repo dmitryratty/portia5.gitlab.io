@@ -1,13 +1,4 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" media="screen" href="/css/main.css">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<title><!--TITLE--></title>
-
-Favicon.
-- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
-- https://caniuse.com/link-icon-svg
+Вырезать комментарии из HTML.
 
 Одна ветка "main".
 
@@ -33,6 +24,8 @@ simple image lightbox html
 \#include - add standalone links.
 
 Запрещать перенос коротких префиксов-суффиксов. Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. 》". И чтобы в "Фраза в которой[1] есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".
+
+Красивая SVG иконка.
 
 #reference и #title
 

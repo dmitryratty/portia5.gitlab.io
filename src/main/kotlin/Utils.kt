@@ -6,13 +6,14 @@ import kotlin.io.path.relativeTo
 
 class Utils {
 
+    val currentPath: Path = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
+
     val projectDir: Path
         get() {
-            val current = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
-            if (current.endsWith("ratty-public")) {
-                return current
+            if (currentPath.endsWith("ratty-public")) {
+                return currentPath
             }
-            return current.resolve("ratty-public")
+            return currentPath.resolve("ratty-public")
         }
 
     val resourcesDir: Path get() = projectDir.resolve("src/main/resources")
