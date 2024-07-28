@@ -21,17 +21,19 @@ Only I will remain.
 ❄ Slice of life of mine. May contain adult content.
 - https://dmitryratty.gitlab.io/slice-of-life-of-mine
 
-In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case. << https://en.wikipedia.org/wiki/Idiot_plot >>
-
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину и-или стыд за то, что не ощущаю того, что согласно социальным нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
 
-Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц. Максимум статистических фактов, минимум эмоциональных оценок. << https://en.wikipedia.org/wiki/Portal:Current_events https://en.wikipedia.org/wiki/2024 https://en.wikipedia.org/wiki/2023 >>
-
-#include life/judas-goat.txt
+Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц. Максимум статистических фактов, минимум эмоциональных оценок.
+- https://dmitryratty.gitlab.io/news
 
 Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
+
+In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
+- https://en.wikipedia.org/wiki/Idiot_plot
+
+#include life/judas-goat.txt
 
 * * *
 

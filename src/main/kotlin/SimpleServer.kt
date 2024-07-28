@@ -15,8 +15,8 @@ class SimpleServer {
 
     data class DirMap(val dirPath: Path) {
         private val dirFile: File = dirPath.toFile()
-        val redirect = mutableMapOf<String, String>()
-        val serve = mutableMapOf<String, File>()
+        private val redirect = mutableMapOf<String, String>()
+        private val serve = mutableMapOf<String, File>()
         init {
             dirFile.walk().forEach {
                 if (dirFile == it || it.name.startsWith(".")) {
@@ -49,40 +49,48 @@ class SimpleServer {
         }
 
         override fun toString(): String {
-            val toServe = serve.mapValues { "/" + it.value.relativeTo(dirFile).path }.toSortedMap()
+            return toList().sorted().joinToString("\n")
+        }
+
+        fun toList(): List<String> {
+            val toServe = serve.mapValues { "/" + it.value.relativeTo(dirFile).path }
             val toRedirect = redirect.toList()
                 .groupBy { pair -> pair.second }
                 .mapValues { entry: Map.Entry<String, List<Pair<String, String>>> ->
                     entry.value.map { e: Pair<String, String> -> e.first }
-                }.toSortedMap()
+                }
             if (!toServe.keys.containsAll(toRedirect.keys)) throw IllegalStateException()
-            val htmlList = StringBuilder()
-            val otherList = StringBuilder()
+            val result = mutableListOf<String>()
             toServe.forEach {
                 if (it.value.endsWith(".html")) {
                     val r = toRedirect[it.key].orEmpty().toMutableList()
-                    if (!r.remove(it.value)) {
-                        throw IllegalStateException("$it $r")
+                    if (r.isEmpty()) throw IllegalStateException()
+                    if (r.remove("${it.key}.html")) {
+                        if (r.isNotEmpty()) throw IllegalStateException()
+                        if ("${it.key}.html" != it.value) throw IllegalStateException()
+                        result.add("[4] ${it.key}[.html]")
+                        return@forEach
                     }
-                    if (htmlList.isNotEmpty()) {
-                        htmlList.append('\n')
+                    var display = it.key
+                    if (r.remove("${it.key}/")) {
+                        display = "$display[/]"
+                    }
+                    if (r.remove("${it.key}/index.html")) {
+                        display = "$display[/index.html]"
                     }
                     if (r.isEmpty()) {
-                        htmlList.append("${it.key} -> ${it.value}")
+                        if ("${it.key}/index.html" != it.value) throw IllegalStateException()
+                        result.add("[2] $display")
                     } else {
-                        htmlList.append("${it.key} -> ${it.value} <<- $r")
+                        result.add("[1] $display -> ${it.value} R: $r")
                     }
                 } else {
-                    if (toRedirect[it.key] != null) {
-                        throw IllegalStateException()
-                    }
-                    if (otherList.isNotEmpty()) {
-                        otherList.append('\n')
-                    }
-                    otherList.append("${it.key} -> ${it.value}")
+                    if (toRedirect[it.key] != null) throw IllegalStateException()
+                    if (it.key != it.value) throw IllegalStateException()
+                    result.add("[3] ${it.key}")
                 }
             }
-            return "$htmlList\n$otherList"
+            return result
         }
 
         fun handle(exchange: HttpExchange): Boolean {
@@ -150,6 +158,11 @@ class SimpleServer {
     }
 
     fun generateMap(): String {
-        return mainDirMap.toString() + "\n" + develDirMap.toString()
+        val mainMap = mainDirMap.toList()
+        val develMap = develDirMap.toList()
+        if (!mainMap.containsAll(develMap)) {
+            throw IllegalStateException("$mainDirMap\n\n$develDirMap")
+        }
+        return mainMap.sorted().joinToString("\n")
     }
 }

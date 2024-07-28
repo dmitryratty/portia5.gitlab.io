@@ -56,6 +56,7 @@ https://dmitryratty.gitlab.io/life/judas-goat
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
+https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/languages
@@ -196,6 +197,7 @@ https://github.com/Y2Z/monolith
 https://github.com/curl/curl/issues/12604
 https://github.com/dmitryratty
 https://github.com/gskinner/regexr/
+https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css
 https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
 https://habr.com/ru/articles/774844/
@@ -321,6 +323,7 @@ https://t.me/cabiastuff/1008
 https://t.me/catch_a_shank
 https://t.me/chatgptmachine
 https://t.me/cognitae
+https://t.me/community_bot
 https://t.me/cuprumchannel
 https://t.me/danilamir
 https://t.me/denissexy
@@ -335,6 +338,7 @@ https://t.me/dmitryratty
 https://t.me/dollcoremem
 https://t.me/durov
 https://t.me/dustories
+https://t.me/early_adopters
 https://t.me/epsiloncorrect/182
 https://t.me/fmusbot
 https://t.me/foxes_in_loveRU
@@ -360,6 +364,7 @@ https://t.me/intelligencepotion/92
 https://t.me/intelligencepotion/93
 https://t.me/intelligencepoylo
 https://t.me/irrationalist_a
+https://t.me/join_community
 https://t.me/julimin9foto
 https://t.me/kamenschiki
 https://t.me/kate_and_secrets/992

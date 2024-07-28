@@ -16,6 +16,7 @@ https://dmitryratty.gitlab.io/life/judas-goat
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/money
+https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/languages

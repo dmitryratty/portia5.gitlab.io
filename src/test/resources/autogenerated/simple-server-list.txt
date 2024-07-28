@@ -1,71 +1,59 @@
-/ -> /index.html
-/biology -> /biology/index.html <<- [/biology/]
-/biology/other-human -> /biology/other-human.html
-/biology/other-other -> /biology/other-other.html
-/ethics -> /ethics.html
-/humour -> /humour.html
-/library -> /library/index.html <<- [/library/]
-/library/maybe-will-read -> /library/maybe-will-read.html
-/library/read-done -> /library/read-done.html
-/life -> /life/index.html <<- [/life/]
-/life/alexander-grothendieck -> /life/alexander-grothendieck.html
-/life/bourbaki-weil -> /life/bourbaki-weil.html
-/life/demon-core -> /life/demon-core.html
-/life/judas-goat -> /life/judas-goat.html
-/life/sakalauskas-case -> /life/sakalauskas-case.html
-/life/srinivasa-ramanujan -> /life/srinivasa-ramanujan.html
-/money -> /money/index.html <<- [/money/]
-/other -> /other/index.html <<- [/other/]
-/other/chaos -> /other/chaos.html
-/other/languages -> /other/languages.html
-/other/map -> /other/map.html
-/other/wandering -> /other/wandering.html
-/slice-of-life-of-mine -> /slice-of-life-of-mine/index.html <<- [/slice-of-life-of-mine/]
-/slice-of-life-of-mine/blood-filled-mouth -> /slice-of-life-of-mine/blood-filled-mouth.html
-/slice-of-life-of-mine/caught-masturbating -> /slice-of-life-of-mine/caught-masturbating.html
-/slice-of-life-of-mine/chaos -> /slice-of-life-of-mine/chaos.html
-/slice-of-life-of-mine/holiday-is-coming -> /slice-of-life-of-mine/holiday-is-coming.html
-/slice-of-life-of-mine/parents -> /slice-of-life-of-mine/parents.html
-/slice-of-life-of-mine/smell-of-fist -> /slice-of-life-of-mine/smell-of-fist.html
-/slice-of-life-of-mine/winter-sunny-day -> /slice-of-life-of-mine/winter-sunny-day.html
-/tech -> /tech/index.html <<- [/tech/]
-/tech/hardware -> /tech/hardware.html
-/tech/kindergarten-math -> /tech/kindergarten-math.html
-/tech/neural-network -> /tech/neural-network.html
-/tech/other -> /tech/other.html
-/tech/software -> /tech/software.html
-/tech/unicode -> /tech/unicode.html
-/tech/web -> /tech/web.html
-/tech/web-fonts -> /tech/web-fonts.html
-/test/bullet -> /test/bullet.html
-/test/favicon-oneliner -> /test/favicon-oneliner.html
-/test/gallery -> /test/gallery.html
-/test/ta1 -> /test/ta1.html
-/test/tf1 -> /test/tf1.html
-/test/tf2 -> /test/tf2.html
-/test/tf3 -> /test/tf3.html
-/test/wrap -> /test/wrap.html
-/todo -> /todo.html
-/vidya -> /vidya/index.html <<- [/vidya/]
-/vidya/factorio -> /vidya/factorio.html
-/vidya/terraria -> /vidya/terraria.html
-/css/main.css -> /css/main.css
-/css/normalize.css -> /css/normalize.css
-/favicon.svg -> /favicon.svg
-/test/image/game-die.svg -> /test/image/game-die.svg
-/test/image/square-black-16x16.png -> /test/image/square-black-16x16.png
-/test/image/square-black-32x32.png -> /test/image/square-black-32x32.png
-/test/bullet -> /test/bullet.html
-/test/favicon-oneliner -> /test/favicon-oneliner.html
-/test/gallery -> /test/gallery.html
-/test/ta1 -> /test/ta1.html
-/test/tf1 -> /test/tf1.html
-/test/tf2 -> /test/tf2.html
-/test/tf3 -> /test/tf3.html
-/test/wrap -> /test/wrap.html
-/css/main.css -> /css/main.css
-/css/normalize.css -> /css/normalize.css
-/favicon.svg -> /favicon.svg
-/test/image/game-die.svg -> /test/image/game-die.svg
-/test/image/square-black-16x16.png -> /test/image/square-black-16x16.png
-/test/image/square-black-32x32.png -> /test/image/square-black-32x32.png
+[1] / -> /index.html R: [/index.html]
+[2] /biology[/][/index.html]
+[2] /library[/][/index.html]
+[2] /life[/][/index.html]
+[2] /money[/][/index.html]
+[2] /other[/][/index.html]
+[2] /slice-of-life-of-mine[/][/index.html]
+[2] /tech[/][/index.html]
+[2] /vidya[/][/index.html]
+[3] /css/main.css
+[3] /css/normalize.css
+[3] /favicon.svg
+[3] /test/image/game-die.svg
+[3] /test/image/square-black-16x16.png
+[3] /test/image/square-black-32x32.png
+[4] /biology/other-human[.html]
+[4] /biology/other-other[.html]
+[4] /ethics[.html]
+[4] /humour[.html]
+[4] /library/maybe-will-read[.html]
+[4] /library/read-done[.html]
+[4] /life/alexander-grothendieck[.html]
+[4] /life/bourbaki-weil[.html]
+[4] /life/demon-core[.html]
+[4] /life/judas-goat[.html]
+[4] /life/sakalauskas-case[.html]
+[4] /life/srinivasa-ramanujan[.html]
+[4] /news[.html]
+[4] /other/chaos[.html]
+[4] /other/languages[.html]
+[4] /other/map[.html]
+[4] /other/wandering[.html]
+[4] /slice-of-life-of-mine/blood-filled-mouth[.html]
+[4] /slice-of-life-of-mine/caught-masturbating[.html]
+[4] /slice-of-life-of-mine/chaos[.html]
+[4] /slice-of-life-of-mine/holiday-is-coming[.html]
+[4] /slice-of-life-of-mine/parents[.html]
+[4] /slice-of-life-of-mine/smell-of-fist[.html]
+[4] /slice-of-life-of-mine/winter-sunny-day[.html]
+[4] /tech/hardware[.html]
+[4] /tech/kindergarten-math[.html]
+[4] /tech/neural-network[.html]
+[4] /tech/other[.html]
+[4] /tech/software[.html]
+[4] /tech/unicode[.html]
+[4] /tech/web-fonts[.html]
+[4] /tech/web[.html]
+[4] /test/bullet[.html]
+[4] /test/favicon-oneliner[.html]
+[4] /test/gallery[.html]
+[4] /test/ta1[.html]
+[4] /test/tf1[.html]
+[4] /test/tf2[.html]
+[4] /test/tf3[.html]
+[4] /test/wrap[.html]
+[4] /test/zalgo[.html]
+[4] /todo[.html]
+[4] /vidya/factorio[.html]
+[4] /vidya/terraria[.html]
