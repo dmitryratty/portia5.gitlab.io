@@ -1,7 +1,7 @@
 I can.
 If I dislike living I can kill myself.
 If I have a goal I can pursue it.
-If something is in my way I can annihilate it.
+If I have something in my way I can shatter it.
 
 I must not fear.
 Fear is the mind-killer.
@@ -25,7 +25,7 @@ Only I will remain.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину и-или стыд за то, что не ощущаю того, что согласно социальным нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
 
-Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц. Максимум статистических фактов, минимум эмоциональных оценок.
+Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц, год. Максимум статистики и фактов, минимум эмоций и оценок.
 - https://dmitryratty.gitlab.io/news
 
 Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
@@ -33,7 +33,8 @@ Only I will remain.
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
 - https://en.wikipedia.org/wiki/Idiot_plot
 
-#include life/judas-goat.txt
+A Judas goat is a trained goat used in general animal herding. The Judas goat is trained to associate with sheep or cattle, leading them to a specific destination. In stockyards, a Judas goat will lead sheep to slaughter, while its own life is spared.
+- https://dmitryratty.gitlab.io/life/judas-goat
 
 * * *
 
