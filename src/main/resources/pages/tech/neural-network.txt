@@ -60,5 +60,9 @@ https://t.me/kcs_stuff/8212
 
 #NeuralNetwork https://playground.tensorflow.org/
 
-#NeuralNetwork https://t.me/mashkka_ds
+#NeuralNetwork https://t.me/mashkka_ds https://t.me/seeallochnaya https://t.me/rybolos_channel https://t.me/arc_phoenix https://t.me/zip_log
 
+* * *
+
+https://t.me/arc_phoenix/42
+- https://replicate.com/meta/meta-llama-3-70b-instruct

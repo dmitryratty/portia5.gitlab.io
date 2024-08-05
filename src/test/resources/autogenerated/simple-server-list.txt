@@ -2,11 +2,11 @@
 [2] /biology[/][/index.html]
 [2] /library[/][/index.html]
 [2] /life[/][/index.html]
-[2] /money[/][/index.html]
 [2] /other[/][/index.html]
 [2] /slice-of-life-of-mine[/][/index.html]
 [2] /tech[/][/index.html]
 [2] /vidya[/][/index.html]
+[2] /wealth[/][/index.html]
 [3] /apple-touch-icon.png
 [3] /css/main.css
 [3] /css/normalize.css
@@ -60,3 +60,4 @@
 [4] /todo[.html]
 [4] /vidya/factorio[.html]
 [4] /vidya/terraria[.html]
+[4] /wealth/chaos[.html]

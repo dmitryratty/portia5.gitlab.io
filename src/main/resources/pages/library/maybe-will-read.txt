@@ -2,6 +2,8 @@
 The FBI spent decades tracking mathematician Paul Erdős, only to conclude that the guy was just really into math.
 - https://www.muckrock.com/news/archives/2015/jul/21/nothing-indicate-nothing-indicate-subject-had-any-/
 
+https://tomblog.rip/the-myth-of-the-good-listener/
+
 What grades and achievement tests measure: https://doi.org/10.1073/pnas.1601135113
 
 https://en.wikipedia.org/wiki/Is-ought_problem
@@ -9,6 +11,12 @@ https://en.wikipedia.org/wiki/Is-ought_problem
 https://en.wikipedia.org/wiki/Fact-value_distinction
 
 https://en.wikipedia.org/wiki/Existentialism
+
+https://en.wikipedia.org/wiki/Just-world_fallacy
+
+https://en.wikipedia.org/wiki/Gini_coefficient
+
+https://en.wikipedia.org/wiki/Hawala
 
 https://en.wikipedia.org/wiki/Ethics
 
@@ -31,6 +39,14 @@ https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
 https://en.wikipedia.org/wiki/Problem_of_induction
 
 https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+
+https://en.wikipedia.org/wiki/Central_limit_theorem
+
+https://en.wikipedia.org/wiki/Busy_beaver
+
+https://en.wikipedia.org/wiki/Identifier
+
+https://en.wikipedia.org/wiki/Universally_unique_identifier
 
 * * *
 

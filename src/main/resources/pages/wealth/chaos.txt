@@ -1,0 +1,4 @@
+Hummingbot is an open source framework that helps you build automated trading strategies, or bots that run on cryptocurrency exchanges. This code is free and publicly available under the Apache 2.0 open source license! #Money #Cryptocurrency
+- https://hummingbot.org/
+
+https://en.wikipedia.org/wiki/List_of_online_marketplaces
