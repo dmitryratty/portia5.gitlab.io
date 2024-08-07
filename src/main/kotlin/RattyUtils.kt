@@ -24,7 +24,7 @@ fun rattyExec(vararg cmd: String): String {
 }
 
 fun rattyExec(workingDir: File, vararg command: String, enableQuotes: Boolean = false): String? {
-    if (command.joinToString(" ").contains("\"")) {
+    if (command.joinToString(" ").contains("\"") && !enableQuotes) {
         // Quotes in arguments is a common source of errors that produce disorienting
         // execution output, like no output at all, and its hard to pinpoint cause
         // of such errors by looking at such output. Quotes in arguments may have

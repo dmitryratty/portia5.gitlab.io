@@ -32,3 +32,9 @@ https://vas3k.club/post/20695/
 
 Чтение смысла мыслей по fMRI. </> Figure 3. Whole brain fMRI brain reading. A simple linear nearest neighbour decoding approach achieves good reconstruction of full sentences, based on whole brain data. A. Decoding method. Step 1: A linear mapping from whole brain activity to GUSE embedding space is learned through cross-validated ridge regression on a train set. Step 2: This decoder is applied to held-out fMRI activities, to predict the corresponding GUSE embedding of the scene description. Step 3: A nearest neighbour approach is used on 3.1 million image captions to find the sentence in GUSE embedding space closest to the predicted GUSE embedding. This nearest neighbour sentence is used as a human-interpretable output of our decoder.
 - https://arxiv.org/abs/2209.11737
+
+* * *
+
+#Food
+
+Птитим.
