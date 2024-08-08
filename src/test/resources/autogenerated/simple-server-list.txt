@@ -41,6 +41,7 @@
 [4] /slice-of-life-of-mine/holiday-is-coming[.html]
 [4] /slice-of-life-of-mine/parents[.html]
 [4] /slice-of-life-of-mine/smell-of-fist[.html]
+[4] /slice-of-life-of-mine/sweet-school-time[.html]
 [4] /slice-of-life-of-mine/winter-sunny-day[.html]
 [4] /tech/hardware[.html]
 [4] /tech/kindergarten-math[.html]
