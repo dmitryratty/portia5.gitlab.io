@@ -5,6 +5,7 @@ http://xahlee.info/math/algorithmic_math_art.html
 https://adam.math.hhu.de/#/g/leanprover-community/nng4
 https://alt-f4.blog/ALTF4-39/
 https://alt-f4.blog/ALTF4-61/
+https://app.santiment.net
 https://apteka.ru/product/gaba-500-mg-60-sht-kapsuly-massoj-062-g-63515d266910ac77b626287f/
 https://apteka.ru/product/nooteria-labs-mind-booster-maind-buster-40-sht-kapsuly-massoj-520-mg-633419191e5bbd55ea24dde2/
 https://apteka.ru/product/teanin-30-sht-kapsuly-5e327198ca7bdc0001931596/
@@ -26,6 +27,7 @@ https://charstar.ai
 https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/
 https://ciechanow.ski/airfoil/
 https://codepen.io/kathykato/pen/KRQOKY
+https://coinmarketcap.com,
 https://colab.research.google.com/drive/1yLplnDxUhfOSatH46jg1r-Cb2KK4Z4BW?usp=sharing
 https://commons.wikimedia.org/wiki/Category:Glitch_art
 https://commons.wikimedia.org/wiki/File:GNU_-_glitch.jpg
@@ -40,6 +42,7 @@ https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
 https://developer.chrome.com/docs/lighthouse/overview/
 https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
 https://developers.google.com/fonts/docs/getting_started
+https://dexscreener.com
 https://discuss.kotlinlang.org/t/ternary-operator/2116/171
 https://dmitryratty.gitlab.io
 https://dmitryratty.gitlab.io/biology
@@ -52,6 +55,7 @@ https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
+https://dmitryratty.gitlab.io/life/benjamin-jesty
 https://dmitryratty.gitlab.io/life/bourbaki-weil
 https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/judas-goat
@@ -95,6 +99,8 @@ https://doi.org/10.1136/bmj.327.7429.1459
 https://doi.org/10.1136/bmj.k5094
 https://drewdevault.com/2021/12/28/Dont-use-Discord-for-FOSS.html
 https://drinkordiecdn.lol/sd-v1-3-full-ema.ckpt
+https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
+https://dune.com
 https://edwardtufte.github.io/tufte-css/
 https://effectiviology.com/egocentric-bias
 https://effectiviology.com/platinum-rule
@@ -323,7 +329,10 @@ https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 https://stihi.ru/2002/10/10-463
 https://t.me/Alembic
+https://t.me/BlumCryptoBot
+https://t.me/Catizen_Mntbot
 https://t.me/CopilotOfficialBot
+https://t.me/DegenTonBot
 https://t.me/GPT4_MegaFon_bot
 https://t.me/Hollowafterdark
 https://t.me/KladovkaPavlu
@@ -339,6 +348,7 @@ https://t.me/ShirlyCash_news
 https://t.me/Skermajenie
 https://t.me/Social_engineering
 https://t.me/TGvzaim
+https://t.me/TLSOTDI/3
 https://t.me/VibeDatingBot
 https://t.me/VoiceLogBot
 https://t.me/aetherspace
@@ -371,6 +381,7 @@ https://t.me/bogoedbotaet
 https://t.me/brenoritvrezorkre_channel
 https://t.me/cabiastuff/1008
 https://t.me/catch_a_shank
+https://t.me/catizenbot
 https://t.me/chatgptmachine
 https://t.me/cognitae
 https://t.me/cognitae/176
@@ -388,6 +399,7 @@ https://t.me/denissexy/8333
 https://t.me/designer_news
 https://t.me/dl_stories/756
 https://t.me/dmitryratty
+https://t.me/dogshouse_bot
 https://t.me/dollcoremem
 https://t.me/durov
 https://t.me/dustories
@@ -408,6 +420,7 @@ https://t.me/hacker_news_feed/107622
 https://t.me/hacker_news_feed/107655
 https://t.me/hacker_news_feed/109114
 https://t.me/hammers_of_time
+https://t.me/hamster_kombat_bot
 https://t.me/heresy_hub
 https://t.me/heuristics_ai
 https://t.me/hn_best_comments
@@ -431,10 +444,12 @@ https://t.me/kcs_stuff/8212
 https://t.me/kcs_stuff/8451
 https://t.me/kenoma30
 https://t.me/literallly_us
+https://t.me/lost_dogs_bot
 https://t.me/lwreading
 https://t.me/macabreDDM
 https://t.me/mapamagrus/5593
 https://t.me/mashkka_ds
+https://t.me/math_channels
 https://t.me/mathmemories/33
 https://t.me/mathmemories/44
 https://t.me/mf699
@@ -453,6 +468,8 @@ https://t.me/natural_origin
 https://t.me/news24love
 https://t.me/nft_ton_concept
 https://t.me/nommy_maid/594
+https://t.me/notcoin_bot
+https://t.me/notguide/37
 https://t.me/notsoshallow
 https://t.me/novibeshere
 https://t.me/nyudsy_boys
@@ -502,6 +519,8 @@ https://t.me/socoolmuchstory
 https://t.me/startupcactus
 https://t.me/station_feelgood/1434
 https://t.me/tanyamiropolskaya
+https://t.me/tapswap_bot
+https://t.me/tech_priestess/1584
 https://t.me/tech_priestess/562
 https://t.me/tech_priestess/85
 https://t.me/tech_priestess/86
@@ -530,7 +549,10 @@ https://t.me/zhopyimeduzy
 https://t.me/zip_log
 https://techcrunch.com/2024/06/13/former-nsa-head-joins-openai-board-and-safety-committee/
 https://time.com
+https://token.unlocks.app
+https://tokensniffer.com
 https://tomblog.rip/the-myth-of-the-good-listener/
+https://twitter.com/bubblemaps
 https://twitter.com/dmitryratty
 https://tylervigen.com/spurious-correlations
 https://upload.wikimedia.org/wikipedia/commons/6/6b/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_%D0%A8%D0%B0%D0%B4%D0%B0%D0%BD%D0%B0%D0%BA%D0%B0%D1%80%D0%B0.jpg
@@ -549,6 +571,8 @@ https://www.bitsofwonder.co/p/a-revolution-in-biology
 https://www.britannica.com/topic/2023-The-Year-in-Review
 https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
 https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
+https://www.coingecko.com
+https://www.coinglass.com
 https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 https://www.dailymail.co.uk/health/article-13214693/bryan-johnson-biohacker-anti-aging-nation.html
 https://www.figma.com/blog/line-height-changes/
@@ -591,6 +615,7 @@ https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
 https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Udz7ZkIZJco?si=0TUE-6xmWeyDWQ7g
+https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc
 https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA

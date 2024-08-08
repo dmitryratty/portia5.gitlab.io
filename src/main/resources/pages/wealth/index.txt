@@ -34,7 +34,17 @@ https://getgems.io/collection/EQDPcfRFZ9EhPFT0l3K-EdlE_s7kSXboJ2GzNPLD2IJ2rZdq/E
 - https://t.me/RBCCrypto/11963
 - https://t.me/crypto_stukach/25
 
-[[[ @notcoin_bot - TON/NOT ///@catizenbot /// @tapswap_bot /// https://t.me/the_pixels_bot /// @BlumCryptoBot /// @hamster_kombat_bot /// @dogshouse_bot /// @Catizen_Mntbot - ETH/MNT /// @DegenTonBot - натапанное пропадает если не тапать постоянно ]]]
+https://t.me/notguide/37
+· https://coinmarketcap.com, https://www.coingecko.com - important market data - market capitalization, price, trading volumes, trends.
+· https://app.santiment.net - social context analysis.
+· https://twitter.com/bubblemaps - data visualization of token movements.
+· https://dexscreener.com - tracking new trading pairs, trading.
+· https://token.unlocks.app - dashboard for token unlock data.
+· https://tokensniffer.com - checking new tokens for scams.
+· https://dune.com - creating analytical dashboards.
+· https://www.coinglass.com - derivatives exchange aggregator.
+
+[[[ https://t.me/notcoin_bot - TON/NOT /// https://t.me/catizenbot /// https://t.me/tapswap_bot /// https://t.me/BlumCryptoBot /// https://t.me/hamster_kombat_bot /// https://t.me/dogshouse_bot /// https://t.me/Catizen_Mntbot - ETH/MNT /// https://t.me/lost_dogs_bot /// https://t.me/the_pixels_bot /// https://t.me/DegenTonBot - натапанное пропадает если не тапать постоянно ]]]
 
 #Cryptocurrency
 
@@ -45,3 +55,18 @@ https://getgems.io/collection/EQDPcfRFZ9EhPFT0l3K-EdlE_s7kSXboJ2GzNPLD2IJ2rZdq/E
 * * *
 
 Металлоискатели и пляжи.
+
+* * *
+
+"Иисус-креветка" - ботнеты раскручивают в соцсетях страницы используя сгенерированный контент. Как они с этого зарабатывают? Продают рекламные репосты? Продают целиком страницы с подписчиками, а покупатели переделывают их во что-то другое, при этом сразу имеющее кучу подписчиков?
+- https://t.me/tech_priestess/1584
+
+* * *
+
+Фальшивые форумы из комментариев скопированных из Тг. Как на этом зарабатывают? Реклама, влияние на поисковую выдачу?
+- https://t.me/TLSOTDI/3
+
+* * *
+
+Треш-игры в Стиме. 2 миллиона рублей чистой прибыли с 8 проектов за год.
+- https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam

@@ -23,6 +23,7 @@
 [4] /library/maybe-will-read[.html]
 [4] /library/read-done[.html]
 [4] /life/alexander-grothendieck[.html]
+[4] /life/benjamin-jesty[.html]
 [4] /life/bourbaki-weil[.html]
 [4] /life/demon-core[.html]
 [4] /life/judas-goat[.html]
