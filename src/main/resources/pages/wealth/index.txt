@@ -10,7 +10,7 @@
 
 * * *
 
-https://rationalanswer.club - тут про деньги и возможно полезно, но эстетика вызывает невыносимую скуку, пока избегаю читать.
+https://rationalanswer.club - тут про деньги и возможно полезно, но эстетика вызывает невыносимую скуку, избегаю читать.
 
 * * *
 
@@ -46,11 +46,15 @@ https://t.me/notguide/37
 
 [[[ https://t.me/notcoin_bot - TON/NOT /// https://t.me/catizenbot /// https://t.me/tapswap_bot /// https://t.me/BlumCryptoBot /// https://t.me/hamster_kombat_bot /// https://t.me/dogshouse_bot /// https://t.me/Catizen_Mntbot - ETH/MNT /// https://t.me/lost_dogs_bot /// https://t.me/the_pixels_bot /// https://t.me/DegenTonBot - натапанное пропадает если не тапать постоянно ]]]
 
+Hummingbot is an open source framework that helps you build automated trading strategies, or bots that run on cryptocurrency exchanges. This code is free and publicly available under the Apache 2.0 open source license! #Money #Cryptocurrency
+- https://hummingbot.org/
+
 #Cryptocurrency
 
 * * *
 
 Электронные торговые площадки и штуки чья стоимость формируется подобно коллекционным предметам вроде марок или подобно стоимости произведений искусства.
+- https://en.wikipedia.org/wiki/List_of_online_marketplaces
 
 * * *
 
@@ -58,15 +62,18 @@ https://t.me/notguide/37
 
 * * *
 
-"Иисус-креветка" - ботнеты раскручивают в соцсетях страницы используя сгенерированный контент. Как они с этого зарабатывают? Продают рекламные репосты? Продают целиком страницы с подписчиками, а покупатели переделывают их во что-то другое, при этом сразу имеющее кучу подписчиков?
-- https://t.me/tech_priestess/1584
+"Иисус-креветка" - ботнеты раскручивают в соцсетях страницы используя сгенерированный контент. Как они зарабатывают? Продают рекламные репосты? Продают целиком страницы с подписчиками, а покупатели переделывают их во что-то другое, при этом сразу имеющее кучу подписчиков? << https://t.me/tech_priestess/1584 https://t.me/olya_tashit/3015 https://www.404media.co/where-facebooks-ai-slop-comes-from/ >>
 
 * * *
 
-Фальшивые форумы из комментариев скопированных из Тг. Как на этом зарабатывают? Реклама, влияние на поисковую выдачу?
+Фальшивые форумы из комментариев скопированных из Тг. Как они зарабатывают? Реклама, влияние на поисковую выдачу?
 - https://t.me/TLSOTDI/3
 
 * * *
 
 Треш-игры в Стиме. 2 миллиона рублей чистой прибыли с 8 проектов за год.
 - https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
+
+* * *
+
+https://t.me/prostoecon

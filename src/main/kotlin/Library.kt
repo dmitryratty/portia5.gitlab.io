@@ -157,6 +157,11 @@ class Library {
             postfix = ".",
             transform = { it[0].names[0].name }))
 
+        result.append("\n\n* * *")
+        result.append("\n\nOther. \"Juuni Taisen\", \"Bokurano\", \"Psycho-Pass\"," +
+                " \"Ghost in the Shell\", \"The Saga of Tanya the Evil\", \"Blame!\"," +
+                " \"Akame ga Kill!\".")
+
         Utils().pagesSrcDir.resolve("library/index.txt").toFile()
             .writeText(result.toString())
     }

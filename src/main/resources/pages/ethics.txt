@@ -105,3 +105,8 @@ https://ru.wikipedia.org/wiki/Массовое_убийство_в_станиц�
 * * *
 
 #include life/judas-goat.txt
+
+* * *
+
+"Moral behavior in animals" by "Frans de Waal".
+- https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals

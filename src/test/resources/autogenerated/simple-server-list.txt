@@ -63,4 +63,3 @@
 [4] /todo[.html]
 [4] /vidya/factorio[.html]
 [4] /vidya/terraria[.html]
-[4] /wealth/chaos[.html]

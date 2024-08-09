@@ -46,4 +46,3 @@ https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria
 https://dmitryratty.gitlab.io/wealth
-https://dmitryratty.gitlab.io/wealth/chaos
