@@ -1,68 +1,68 @@
 https://hplhs.org/freebies/audiosamples/caroloftheoldones.mp3
 
-#NeuralNetwork https://t.me/denissexy https://t.me/heuristics_ai
+* * *
 
-#NeuralNetwork https://t.me/oulenspiegel_channel/3233
+https://t.me/denissexy https://t.me/heuristics_ai
+
+https://t.me/oulenspiegel_channel/3233
 
 #NeuralNetworkOpenSource https://t.me/black_triangle_tg/5228
 
-#NeuralNetwork https://t.me/dl_stories/756
+https://t.me/dl_stories/756
 
-#NeuralNetwork https://t.me/denissexy/8333
+https://t.me/denissexy/8333
 
-#NeuralNetwork https://arxiv.org/abs/2401.05566
+https://arxiv.org/abs/2401.05566
 
-#NeuralNetwork https://t.me/ai_newz/2813
+https://t.me/ai_newz/2813
 
-#NeuralNetwork Карпатый, туториал о тренировке LLM с нуля.
+Карпатый, туториал о тренировке LLM с нуля.
 - https://t.me/ai_newz/2796
 - https://www.youtube.com/watch?v=l8pRSuU81PU
 
-#NeuralNetwork https://huggingface.co/blog/mlabonne/abliteration
+https://huggingface.co/blog/mlabonne/abliteration
 
-#NeuralNetwork https://t.me/denissexy/8278
+https://t.me/denissexy/8278
 
-#NeuralNetwork https://t.me/rybolos_channel/1156
+https://t.me/rybolos_channel/1156
 
-#NeuralNetwork
 Веса. https://drinkordiecdn.lol/sd-v1-3-full-ema.ckpt
 Колаб. https://colab.research.google.com/drive/1yLplnDxUhfOSatH46jg1r-Cb2KK4Z4BW?usp=sharing
 Исходники для локального запуска: https://github.com/CompVis/stable-diffusion
 
-#NeuralNetwork
 https://t.me/denissexy/8061
 https://t.me/denissexy/8063
 https://t.me/kcs_stuff/8212
 
-#NeuralNetwork https://t.me/intelligencepotion/93
+https://t.me/intelligencepotion/93
 
-#NeuralNetwork https://t.me/intelligencepotion/92
+https://t.me/intelligencepotion/92
 
-#NeuralNetwork https://t.me/hacker_news_feed/107655
+https://t.me/hacker_news_feed/107655
 
-#NeuralNetwork https://t.me/hacker_news_feed/107622
+https://t.me/hacker_news_feed/107622
 
-#NeuralNetwork https://t.me/hacker_news_feed/107400
+https://t.me/hacker_news_feed/107400
 
-#NeuralNetwork https://t.me/intelligencepotion/22
+https://t.me/intelligencepotion/22
 
-#NeuralNetwork https://habr.com/ru/articles/774844/
+https://habr.com/ru/articles/774844/
 
-#NeuralNetworkOpenSource #NeuralNetwork https://t.me/ai_newz/2727
+#NeuralNetworkOpenSource https://t.me/ai_newz/2727
 
-#NeuralNetwork https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE
+https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE
 
 #NeuralNetworkOpenSource https://t.me/hacker_news_feed/109114
 
-#NeuralNetwork https://t.me/tech_priestess/562
+https://t.me/tech_priestess/562
 
-#NeuralNetwork https://t.me/denissexy/7013
+https://t.me/denissexy/7013
 
-#NeuralNetwork Актуальные LLM бенчмарки: https://t.me/epsiloncorrect/182 -> https://livebench.ai/ https://arena.lmsys.org/
+Актуальные LLM бенчмарки: https://t.me/epsiloncorrect/182 -> https://livebench.ai/ https://arena.lmsys.org/
 
-#NeuralNetwork https://playground.tensorflow.org/
+https://playground.tensorflow.org/
 
-#NeuralNetwork https://t.me/mashkka_ds https://t.me/seeallochnaya https://t.me/rybolos_channel https://t.me/arc_phoenix https://t.me/zip_log
+https://t.me/ai_newz https://t.me/mashkka_ds https://t.me/seeallochnaya https://t.me/rybolos_channel https://t.me/arc_phoenix https://t.me/zip_log
 
 * * *
 

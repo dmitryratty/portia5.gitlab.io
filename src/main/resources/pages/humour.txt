@@ -2,6 +2,11 @@
 
 При грамотном планировании времени и адекватной оценке собственных возможностей можно запланировать на выходные ничего не делать и всё успеть.
 
+Вероятность того, что в самолете окажутся сразу две бомбы, ничтожно мала. Поэтому в каждый полет одну бомбу я беру с собой.
+
+— У тебя шесть конфеток, сколько останется, если я одну попрошу?
+— Шесть.
+
 Плохую метафору можно уподобить котёнку с дверцей.
 
 Приносит экспериментатор теоретику опытный график. Теоретик смотрит:
@@ -17,6 +22,12 @@
 - Да пить я хочу.
 - Так пей, что ты ко мне пристал-то?!
 
+Профессор идёт по коридору, к нему обращается студент:
+- Здравствуйте, можно ли мне прийти в ваш офис в 4 часа дня сегодня?
+- Да.
+- Значит, вы придёте?
+- Нет.
+
 "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials".
 - https://doi.org/10.1136/bmj.327.7429.1459
 "Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".
@@ -25,12 +36,6 @@
 ...a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger." "Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
 
-https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
-
 * * *
 
 #include life/bourbaki-weil.txt
-
-* * *
-
-Когда Сидзуо Какутани шел по холлу в Йельском университете, к нему подошел студент. Он спросил: "Профессор Какутани, можно ли мне прийти в ваш офис в 4 часа дня сегодня?". Какутани быстро ответил: "Да", и пошел дальше по коридору. "Значит, вы придете?" — спросил студент со спины. "Нет", ответил Какутани. << "Mathematical Apocrypha" by "Steven Krantz". #Life #Mathematicians >>
