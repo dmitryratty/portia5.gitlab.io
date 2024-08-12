@@ -1,6 +1,7 @@
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import java.nio.file.Path
 import kotlin.io.path.listDirectoryEntries
 import kotlin.text.StringBuilder
 
@@ -9,7 +10,8 @@ import kotlin.text.StringBuilder
  */
 class Library {
     companion object {
-        @JvmStatic fun main(args: Array<String>) {
+        @JvmStatic
+        fun main(args: Array<String>) {
             Library().main()
         }
     }
@@ -21,10 +23,12 @@ class Library {
     data class Author(val names: List<Name>)
 
     @Serializable
-    data class Writing(val names: List<Name>,
+    data class Writing(
+        val names: List<Name>,
         val authors: List<Author>,
         val tags: Set<String>,
-        val rating: Int)
+        val rating: Int
+    )
 
     fun main() {
         generatePublic()
@@ -32,14 +36,22 @@ class Library {
 
     private fun printCount(inputWritings: List<Writing>) {
         val novelCount = inputWritings.count { it.tags.contains("novel") }
-        val recommendation = inputWritings.count { it.tags.contains("novel")
-                && it.tags.contains("recommendation") }
-        val entertaining = inputWritings.count { it.tags.contains("novel")
-                && it.tags.contains("entertaining") }
-        val archive = inputWritings.count { it.tags.contains("novel")
-                && it.tags.contains("archive") }
-        val hidden = inputWritings.count { it.tags.contains("novel")
-                && it.tags.contains("hidden") }
+        val recommendation = inputWritings.count {
+            it.tags.contains("novel")
+                    && it.tags.contains("recommendation")
+        }
+        val entertaining = inputWritings.count {
+            it.tags.contains("novel")
+                    && it.tags.contains("entertaining")
+        }
+        val archive = inputWritings.count {
+            it.tags.contains("novel")
+                    && it.tags.contains("archive")
+        }
+        val hidden = inputWritings.count {
+            it.tags.contains("novel")
+                    && it.tags.contains("hidden")
+        }
         if ((recommendation + entertaining + archive + hidden) != novelCount) {
             throw IllegalStateException()
         }
@@ -96,63 +108,57 @@ class Library {
 
     private fun generatePublic() {
         val writingsIn = loadWritings()
+        val libraryOut = Utils().pagesSrcDir.resolve("library")
 
-        val result = StringBuilder("\uD83D\uDCDA Library." +
-                " Элиезер Юдковский, Грег Иган, Тед Чан, Питер Уоттс, Эмили Нагоски." +
-                " Несколько сотен прочитанной художки.\n\n")
-        val builder = StringBuilder()
-
-        result.append("Штуки, которые могу порекомендовать.\n\n")
+        val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn
             .filter { it.tags.contains("recommendation") }
             .sortedBy { it.rating }
             .groupBy { it.authors }
-        builder.clear()
         recommendations.forEach { (authors, writings) ->
-            if (builder.isNotEmpty()) {
-                builder.append(" ")
+            if (favoritesBuilder.isNotEmpty()) {
+                favoritesBuilder.append(" ")
             }
-            builder.append(formatAuthors(authors, "ru"))
-            builder.append(formatWritings(writings, "ru"))
+            favoritesBuilder.append(formatAuthors(authors, "ru"))
+            favoritesBuilder.append(formatWritings(writings, "ru"))
         }
-        result.append(builder)
+        libraryOut.resolve("favorites.txt").toFile().writeText(favoritesBuilder.toString())
 
+        val listsBuilder = StringBuilder()
         val entertaining = writingsIn
             .filter { it.tags.contains("entertaining") && !it.tags.contains("blogging") }
             .sortedBy { it.rating }
             .groupBy { it.authors }
         if (entertaining.isNotEmpty()) {
-            result.append("\n\n* * *")
-            result.append("\n\nПросто забавные штуки.\n\n")
-            builder.clear()
+            listsBuilder.append("\n\nПросто забавные штуки.\n\n")
             entertaining.forEach { (authors, writings) ->
-                if (builder.isNotEmpty()) {
-                    builder.append(" ")
+                if (listsBuilder.isNotEmpty()) {
+                    listsBuilder.append(" ")
                 }
-                builder.append(formatAuthors(authors, "ru"))
-                builder.append(formatWritings(writings, "ru"))
+                listsBuilder.append(formatAuthors(authors, "ru"))
+                listsBuilder.append(formatWritings(writings, "ru"))
             }
-            result.append(builder)
+            listsBuilder.append("\n\n* * *\n\n")
         }
 
-        result.append("\n\n* * *")
-        result.append("\n\nИнтересные тексты в Интернетах.\n\n")
+        listsBuilder.append("Интересные штуки размером со статью. </> ")
         val posts = writingsIn
             .filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
             .sortedBy { it.rating }
             .groupBy { it.authors }
-        builder.clear()
+        val postsBuilder = StringBuilder()
         posts.forEach { (authors, writings) ->
-            if (builder.isNotEmpty()) {
-                builder.append(" ")
+            if (postsBuilder.isNotEmpty()) {
+                postsBuilder.append(" ")
             }
-            builder.append(formatAuthors(authors, "en"))
-            builder.append(formatWritings(writings, "en"))
+            postsBuilder.append(formatAuthors(authors, "en"))
+            postsBuilder.append(formatWritings(writings, "en"))
         }
-        result.append(builder)
+        listsBuilder.append(postsBuilder)
 
-        result.append("\n\n* * *")
-        result.append("\n\nЕщё я читал этих авторов.\n\n")
+        listsBuilder.append("\n\n* * *\n\n")
+
+        listsBuilder.append("Ещё я читал этих авторов. </> ")
         val authors = writingsIn
             .filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
             .sortedBy { it.rating }
@@ -160,18 +166,13 @@ class Library {
             .keys.toMutableList()
         authors.removeAll(recommendations.keys)
         authors.removeAll(entertaining.keys)
-        result.append(authors.joinToString(
-            separator = ", ",
-            prefix = "",
-            postfix = ".",
-            transform = { it[0].names[0].name }))
-
-        result.append("\n\n* * *")
-        result.append("\n\nOther. \"Juuni Taisen\", \"Bokurano\", \"Psycho-Pass\"," +
-                " \"Ghost in the Shell\", \"The Saga of Tanya the Evil\", \"Blame!\"," +
-                " \"Akame ga Kill!\".")
-
-        Utils().pagesSrcDir.resolve("library/index.txt").toFile()
-            .writeText(result.toString())
+        listsBuilder.append(
+            authors.joinToString(
+                separator = ", ",
+                prefix = "",
+                postfix = ".",
+                transform = { it[0].names[0].name })
+        )
+        libraryOut.resolve("interesting.txt").toFile().writeText(listsBuilder.toString())
     }
 }
