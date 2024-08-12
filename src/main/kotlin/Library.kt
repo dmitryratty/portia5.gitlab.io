@@ -70,9 +70,9 @@ class Library {
         return author
     }
 
-    private fun generatePublic() {
+    private fun loadWritings(): MutableList<Writing> {
         val resourcesDir = Utils().resourcesDir
-        val writingsIn : MutableList<Writing> = arrayListOf()
+        val writingsIn: MutableList<Writing> = arrayListOf()
         resourcesDir.listDirectoryEntries("library*.json").forEach {
             writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
         }
@@ -82,13 +82,20 @@ class Library {
 
         val articlesToSave = writingsIn
             .filter { it.tags.contains("essay") || it.tags.contains("blogging") }
+            .sortedBy { it.rating }
         val outArticleFile = resourcesDir.resolve("library-article.json").toFile()
         outArticleFile.writeText(format.encodeToString(articlesToSave))
 
         val othersToSave = writingsIn
             .filter { !it.tags.contains("essay") && !it.tags.contains("blogging") }
+            .sortedBy { it.rating }
         val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
+        return writingsIn
+    }
+
+    private fun generatePublic() {
+        val writingsIn = loadWritings()
 
         val result = StringBuilder("\uD83D\uDCDA Library." +
                 " Элиезер Юдковский, Грег Иган, Тед Чан, Питер Уоттс, Эмили Нагоски." +

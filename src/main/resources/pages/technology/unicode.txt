@@ -14,15 +14,21 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 🎲 &#x1F3B2; Game Die.
 🎒 &#x1F392; School Satchel.
 🤡 Clown Face
-⚖ Scales
-⚖️
-⚙
-⚙️
+
+⚖️ Scales - 2 symbols.
+⚖ Scales - 1 symbol, simplified display on Android/Brave.
+⚙️ Gear - 2 symbols.
+⚙ Gear - 1 symbol, simplified display on Android/Brave.
+✉️ Envelope - 2 symbols.
+✉ Envelope - 1 symbol, simplified display on Android/Brave.
+📨
+📩
+💌
 ❄ Snowflake
 🥩
 🐀
 🐭
-✉ 📨 📩 💌 ➗ 🦉 🖤 ⚫ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 ✨
+➗ 🦉 🖤 ⚫ 💠 🪐 💬 📝 📜 📮 📯 📦 🚧 🏠 💡 🕶 🌙 🌞 🌑 ✨
 
 * * *
 

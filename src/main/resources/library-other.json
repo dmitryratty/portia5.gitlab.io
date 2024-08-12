@@ -29,6 +29,75 @@
     {
         "names": [
             {
+                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Карл Саган",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Manacled",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "…And I Show You How Deep the Rabbit Hole Goes",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "nouvelle"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
                 "name": "Тройной контакт",
                 "language": "?"
             }
@@ -49,6 +118,29 @@
         ],
         "tags": [
             "recommendation",
+            "novel"
+        ],
+        "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "Роза Мира",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Даниил Андреев",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
             "novel"
         ],
         "rating": 200
@@ -83,6 +175,121 @@
     {
         "names": [
             {
+                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Тайная доктрина",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Елена Блаватская",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Носитель инфекции",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Плохая терапия",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
+                "name": "Билет на планету Транай",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
                 "name": "Диаспора",
                 "language": "?"
             }
@@ -102,75 +309,6 @@
             "novel"
         ],
         "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "Ложная слепота",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Питер Уоттс",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 500
-    },
-    {
-        "names": [
-            {
-                "name": "Эхопраксия",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Питер Уоттс",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
-                "name": "Тебе нравится, что ты видишь?",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Тед Чан",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 420
     },
     {
         "names": [
@@ -198,7 +336,7 @@
     {
         "names": [
             {
-                "name": "Пикник на обочине",
+                "name": "Алхимик",
                 "language": "?"
             }
         ],
@@ -206,7 +344,30 @@
             {
                 "names": [
                     {
-                        "name": "Братья Стругацкие",
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Травмированный",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
                         "language": "?"
                     }
                 ]
@@ -214,14 +375,14 @@
         ],
         "tags": [
             "archive",
-            "novel"
+            "nouvelle"
         ],
-        "rating": 700
+        "rating": 400
     },
     {
         "names": [
             {
-                "name": "S.N.U.F.F.",
+                "name": "The Metamorphosis",
                 "language": "?"
             }
         ],
@@ -229,7 +390,30 @@
             {
                 "names": [
                     {
-                        "name": "Виктор Пелевин",
+                        "name": "Franz Kafka",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Тебе нравится, что ты видишь?",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Тед Чан",
                         "language": "?"
                     }
                 ]
@@ -239,21 +423,21 @@
             "recommendation",
             "novel"
         ],
-        "rating": 550
+        "rating": 420
     },
     {
         "names": [
             {
-                "name": "Заводной апельсин",
-                "language": "ru"
+                "name": "Ложная слепота",
+                "language": "?"
             }
         ],
         "authors": [
             {
                 "names": [
                     {
-                        "name": "Энтони Бёрджесс",
-                        "language": "ru"
+                        "name": "Питер Уоттс",
+                        "language": "?"
                     }
                 ]
             }
@@ -262,7 +446,7 @@
             "recommendation",
             "novel"
         ],
-        "rating": 800
+        "rating": 500
     },
     {
         "names": [
@@ -290,6 +474,98 @@
     {
         "names": [
             {
+                "name": "Как хочет женщина. Мастер-класс по науке секса",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эмили Нагоски",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "Пятая гора",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "S.N.U.F.F.",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Виктор Пелевин",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 550
+    },
+    {
+        "names": [
+            {
+                "name": "Эхопраксия",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Питер Уоттс",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
                 "name": "Омон Ра",
                 "language": "?"
             }
@@ -309,6 +585,167 @@
             "novel"
         ],
         "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Книга воина света",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "The Star-Child",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Oscar Wilde",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Пикник на обочине",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Братья Стругацкие",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Significant Digits",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Alexander Davis",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Одиннадцать минут",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "The Curse of The Toad",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gustav Meyrink",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Заводной апельсин",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Энтони Бёрджесс",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 800
     },
     {
         "names": [
@@ -337,29 +774,6 @@
     {
         "names": [
             {
-                "name": "Significant Digits",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Alexander Davis",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
                 "name": "Mother of Learning",
                 "language": "?"
             }
@@ -377,6 +791,52 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "Вынос мозга",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Андрей Ломачинский",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "Любовь к жизни",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Джек Лондон",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 800
     },
@@ -406,6 +866,75 @@
     {
         "names": [
             {
+                "name": "Анна Каренина",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Трактат о любви как ее понимает жуткий зануда",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Анатолий Протопопов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Рождение знаменитости",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Андрэ Моруа",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
                 "name": "Театр",
                 "language": "?"
             }
@@ -423,6 +952,75 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Война и Мир",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Преступление и наказание",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Фёдор Достоевский",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Золотой жук",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эдгар По",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 1000
     },
@@ -452,558 +1050,6 @@
     {
         "names": [
             {
-                "name": "Кола Брюньон",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ромен Роллан",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1200
-    },
-    {
-        "names": [
-            {
-                "name": "Смерть героя",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ричард Олдингтон",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Камера обскура",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1400
-    },
-    {
-        "names": [
-            {
-                "name": "451 градус по Фаренгейту",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1500
-    },
-    {
-        "names": [
-            {
-                "name": "Марсианские хроники",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1600
-    },
-    {
-        "names": [
-            {
-                "name": "Вино из одуванчиков",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1700
-    },
-    {
-        "names": [
-            {
-                "name": "Маленький принц",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антуан де Сент-Экзюпери",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1800
-    },
-    {
-        "names": [
-            {
-                "name": "Белая гвардия",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1900
-    },
-    {
-        "names": [
-            {
-                "name": "Записки на манжетах",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2000
-    },
-    {
-        "names": [
-            {
-                "name": "Мастер и Маргарита",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2100
-    },
-    {
-        "names": [
-            {
-                "name": "Гойя, или Тяжкий путь познания",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лион Фейхтвангер",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2200
-    },
-    {
-        "names": [
-            {
-                "name": "Двенадцать стульев",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ильф и Петров",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2300
-    },
-    {
-        "names": [
-            {
-                "name": "Золотой телёнок",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ильф и Петров",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2400
-    },
-    {
-        "names": [
-            {
-                "name": "Норвежский лес",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Харуки Мураками",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 2500
-    },
-    {
-        "names": [
-            {
-                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Карл Саган",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 100
-    },
-    {
-        "names": [
-            {
-                "name": "Как хочет женщина. Мастер-класс по науке секса",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "recommendation",
-            "novel"
-        ],
-        "rating": 500
-    },
-    {
-        "names": [
-            {
-                "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Война и Мир",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
-    },
-    {
-        "names": [
-            {
-                "name": "Анна Каренина",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 900
-    },
-    {
-        "names": [
-            {
-                "name": "Детство, Отрочество и Юность",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1600
-    },
-    {
-        "names": [
-            {
-                "name": "Казаки",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1500
-    },
-    {
-        "names": [
-            {
-                "name": "Поликушка",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1800
-    },
-    {
-        "names": [
-            {
-                "name": "Холстомер",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1900
-    },
-    {
-        "names": [
-            {
-                "name": "Преступление и наказание",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Фёдор Достоевский",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
-    },
-    {
-        "names": [
-            {
                 "name": "Бесы",
                 "language": "?"
             }
@@ -1027,6 +1073,52 @@
     {
         "names": [
             {
+                "name": "Цирюльник",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Святослав Логинов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
+                "name": "Кола Брюньон",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ромен Роллан",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
                 "name": "Путешествия Гулливера",
                 "language": "?"
             }
@@ -1044,6 +1136,29 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "Много ли человеку земли нужно",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 1200
     },
@@ -1096,6 +1211,29 @@
     {
         "names": [
             {
+                "name": "Смерть героя",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ричард Олдингтон",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
                 "name": "Мартин Иден",
                 "language": "?"
             }
@@ -1115,6 +1253,52 @@
             "novel"
         ],
         "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "Seventh Victim",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "Камера обскура",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Владимир Набоков",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1400
     },
     {
         "names": [
@@ -1142,6 +1326,75 @@
     {
         "names": [
             {
+                "name": "Watchbird",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роберт Шекли",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "451 градус по Фаренгейту",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1500
+    },
+    {
+        "names": [
+            {
+                "name": "Казаки",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1500
+    },
+    {
+        "names": [
+            {
                 "name": "Alice's Adventures in Wonderland",
                 "language": "?"
             }
@@ -1161,6 +1414,75 @@
             "novel"
         ],
         "rating": 1500
+    },
+    {
+        "names": [
+            {
+                "name": "Смерть чиновника",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1500
+    },
+    {
+        "names": [
+            {
+                "name": "Марсианские хроники",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1600
+    },
+    {
+        "names": [
+            {
+                "name": "Детство, Отрочество и Юность",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1600
     },
     {
         "names": [
@@ -1188,6 +1510,52 @@
     {
         "names": [
             {
+                "name": "Капитанский мундир",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1600
+    },
+    {
+        "names": [
+            {
+                "name": "Вино из одуванчиков",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1700
+    },
+    {
+        "names": [
+            {
                 "name": "Мертвая зона",
                 "language": "?"
             }
@@ -1207,6 +1575,75 @@
             "novel"
         ],
         "rating": 1700
+    },
+    {
+        "names": [
+            {
+                "name": "Крыжовник",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1700
+    },
+    {
+        "names": [
+            {
+                "name": "Маленький принц",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антуан де Сент-Экзюпери",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1800
+    },
+    {
+        "names": [
+            {
+                "name": "Поликушка",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1800
     },
     {
         "names": [
@@ -1234,6 +1671,75 @@
     {
         "names": [
             {
+                "name": "Человек в футляре",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Антон Чехов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1800
+    },
+    {
+        "names": [
+            {
+                "name": "Белая гвардия",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Михаил Булгаков",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1900
+    },
+    {
+        "names": [
+            {
+                "name": "Холстомер",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1900
+    },
+    {
+        "names": [
+            {
                 "name": "Сто лет одиночества",
                 "language": "?"
             }
@@ -1253,6 +1759,52 @@
             "novel"
         ],
         "rating": 1900
+    },
+    {
+        "names": [
+            {
+                "name": "Непокоренная",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Сомерсет Моэм",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1900
+    },
+    {
+        "names": [
+            {
+                "name": "Записки на манжетах",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Михаил Булгаков",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2000
     },
     {
         "names": [
@@ -1280,6 +1832,52 @@
     {
         "names": [
             {
+                "name": "Little Muck",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Wilhelm Hauff",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2000
+    },
+    {
+        "names": [
+            {
+                "name": "Мастер и Маргарита",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Михаил Булгаков",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2100
+    },
+    {
+        "names": [
+            {
                 "name": "Луна и грош",
                 "language": "?"
             }
@@ -1299,6 +1897,52 @@
             "novel"
         ],
         "rating": 2100
+    },
+    {
+        "names": [
+            {
+                "name": "Caliph Stork",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Wilhelm Hauff",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2100
+    },
+    {
+        "names": [
+            {
+                "name": "Гойя, или Тяжкий путь познания",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лион Фейхтвангер",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2200
     },
     {
         "names": [
@@ -1326,6 +1970,52 @@
     {
         "names": [
             {
+                "name": "Посещение И. Г. Оберейтом пиявок уничтожающих время",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gustav Meyrink",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2200
+    },
+    {
+        "names": [
+            {
+                "name": "Двенадцать стульев",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ильф и Петров",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2300
+    },
+    {
+        "names": [
+            {
                 "name": "Случай Чарльза Декстера Варда",
                 "language": "?"
             }
@@ -1345,6 +2035,52 @@
             "novel"
         ],
         "rating": 2300
+    },
+    {
+        "names": [
+            {
+                "name": "Овцеглобин",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Gustav Meyrink",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2300
+    },
+    {
+        "names": [
+            {
+                "name": "Золотой телёнок",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Ильф и Петров",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2400
     },
     {
         "names": [
@@ -1372,6 +2108,52 @@
     {
         "names": [
             {
+                "name": "Рассказы о пилоте Пирксе",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Станислав Лем",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2400
+    },
+    {
+        "names": [
+            {
+                "name": "Норвежский лес",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Харуки Мураками",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 2500
+    },
+    {
+        "names": [
+            {
                 "name": "Малахитовая шкатулка",
                 "language": "?"
             }
@@ -1389,6 +2171,29 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 2500
+    },
+    {
+        "names": [
+            {
+                "name": "Рассказы о варваре Конане, вожде пиктов Бране Мак Морне и ирландце Чёрном Турлофе",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Robert E. Howard",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 2500
     },
@@ -1418,6 +2223,29 @@
     {
         "names": [
             {
+                "name": "Пышка",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Guy de Maupassant",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2600
+    },
+    {
+        "names": [
+            {
                 "name": "Приключения Гекльберри Финна",
                 "language": "?"
             }
@@ -1435,6 +2263,29 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 2700
+    },
+    {
+        "names": [
+            {
+                "name": "The Colour Out of Space",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "H. P. Lovecraft",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 2700
     },
@@ -1464,6 +2315,29 @@
     {
         "names": [
             {
+                "name": "Ребятки! Выращивайте гигантские грибы у себя в подвалах!",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Рэй Брэдбери",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2800
+    },
+    {
+        "names": [
+            {
                 "name": "В овраге",
                 "language": "?"
             }
@@ -1481,6 +2355,29 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 2900
+    },
+    {
+        "names": [
+            {
+                "name": "Маттео Фальконе",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Prosper Merimee",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 2900
     },
@@ -1510,6 +2407,29 @@
     {
         "names": [
             {
+                "name": "Таманго",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Prosper Merimee",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 3000
+    },
+    {
+        "names": [
+            {
                 "name": "Князь Серебряный. Повесть времён Ивана Грозного",
                 "language": "?"
             }
@@ -1527,6 +2447,33 @@
         "tags": [
             "archive",
             "novel"
+        ],
+        "rating": 3100
+    },
+    {
+        "names": [
+            {
+                "name": "A Girl Corrupted by the Internet is the Summoned Hero?!",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 3100
     },
@@ -2771,952 +3718,5 @@
             "novel"
         ],
         "rating": 8500
-    },
-    {
-        "names": [
-            {
-                "name": "Manacled",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "SenLinYu",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 100
-    },
-    {
-        "names": [
-            {
-                "name": "Роза Мира",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Даниил Андреев",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
-                "name": "Тайная доктрина",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Елена Блаватская",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Алхимик",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "Пятая гора",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 500
-    },
-    {
-        "names": [
-            {
-                "name": "Книга воина света",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
-                "name": "Одиннадцать минут",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
-                "name": "Вынос мозга",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Андрей Ломачинский",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 800
-    },
-    {
-        "names": [
-            {
-                "name": "Трактат о любви как ее понимает жуткий зануда",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Анатолий Протопопов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 900
-    },
-    {
-        "names": [
-            {
-                "name": "Носитель инфекции",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Плохая терапия",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Билет на планету Транай",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Травмированный",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "The Metamorphosis",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Franz Kafka",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "The Star-Child",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Oscar Wilde",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
-                "name": "The Curse of The Toad",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
-                "name": "Любовь к жизни",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 800
-    },
-    {
-        "names": [
-            {
-                "name": "Рождение знаменитости",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Андрэ Моруа",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 900
-    },
-    {
-        "names": [
-            {
-                "name": "Золотой жук",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эдгар По",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1000
-    },
-    {
-        "names": [
-            {
-                "name": "Цирюльник",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Святослав Логинов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1100
-    },
-    {
-        "names": [
-            {
-                "name": "Много ли человеку земли нужно",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1200
-    },
-    {
-        "names": [
-            {
-                "name": "Seventh Victim",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Watchbird",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1400
-    },
-    {
-        "names": [
-            {
-                "name": "Смерть чиновника",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1500
-    },
-    {
-        "names": [
-            {
-                "name": "Капитанский мундир",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1600
-    },
-    {
-        "names": [
-            {
-                "name": "Крыжовник",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1700
-    },
-    {
-        "names": [
-            {
-                "name": "Человек в футляре",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1800
-    },
-    {
-        "names": [
-            {
-                "name": "Непокоренная",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Сомерсет Моэм",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 1900
-    },
-    {
-        "names": [
-            {
-                "name": "Little Muck",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Wilhelm Hauff",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2000
-    },
-    {
-        "names": [
-            {
-                "name": "Caliph Stork",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Wilhelm Hauff",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2100
-    },
-    {
-        "names": [
-            {
-                "name": "Посещение И. Г. Оберейтом пиявок уничтожающих время",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2200
-    },
-    {
-        "names": [
-            {
-                "name": "Овцеглобин",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2300
-    },
-    {
-        "names": [
-            {
-                "name": "Рассказы о пилоте Пирксе",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Станислав Лем",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2400
-    },
-    {
-        "names": [
-            {
-                "name": "Рассказы о варваре Конане, вожде пиктов Бране Мак Морне и ирландце Чёрном Турлофе",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert E. Howard",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2500
-    },
-    {
-        "names": [
-            {
-                "name": "Пышка",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Guy de Maupassant",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2600
-    },
-    {
-        "names": [
-            {
-                "name": "The Colour Out of Space",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. P. Lovecraft",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2700
-    },
-    {
-        "names": [
-            {
-                "name": "Ребятки! Выращивайте гигантские грибы у себя в подвалах!",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2800
-    },
-    {
-        "names": [
-            {
-                "name": "Маттео Фальконе",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 2900
-    },
-    {
-        "names": [
-            {
-                "name": "Таманго",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 3000
-    },
-    {
-        "names": [
-            {
-                "name": "A Girl Corrupted by the Internet is the Summoned Hero?!",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 3100
-    },
-    {
-        "names": [
-            {
-                "name": "…And I Show You How Deep the Rabbit Hole Goes",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "nouvelle"
-        ],
-        "rating": 100
     }
 ]
