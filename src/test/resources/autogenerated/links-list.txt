@@ -58,6 +58,7 @@ https://dmitryratty.gitlab.io/diary/smell-of-fist
 https://dmitryratty.gitlab.io/diary/sweet-school-time
 https://dmitryratty.gitlab.io/diary/winter-sunny-day
 https://dmitryratty.gitlab.io/ethics
+https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/maybe-will-read
@@ -79,15 +80,15 @@ https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/map
 https://dmitryratty.gitlab.io/random
-https://dmitryratty.gitlab.io/tech
-https://dmitryratty.gitlab.io/tech/hardware
-https://dmitryratty.gitlab.io/tech/kindergarten-math
-https://dmitryratty.gitlab.io/tech/neural-network
-https://dmitryratty.gitlab.io/tech/other
-https://dmitryratty.gitlab.io/tech/software
-https://dmitryratty.gitlab.io/tech/unicode
-https://dmitryratty.gitlab.io/tech/web
-https://dmitryratty.gitlab.io/tech/web-fonts
+https://dmitryratty.gitlab.io/technology
+https://dmitryratty.gitlab.io/technology/hardware
+https://dmitryratty.gitlab.io/technology/kindergarten-math
+https://dmitryratty.gitlab.io/technology/neural-network
+https://dmitryratty.gitlab.io/technology/other
+https://dmitryratty.gitlab.io/technology/software
+https://dmitryratty.gitlab.io/technology/unicode
+https://dmitryratty.gitlab.io/technology/web
+https://dmitryratty.gitlab.io/technology/web-fonts
 https://dmitryratty.gitlab.io/todo
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
@@ -179,6 +180,7 @@ https://en.wikipedia.org/wiki/Minimax
 https://en.wikipedia.org/wiki/Multiverse
 https://en.wikipedia.org/wiki/Mummy_brown
 https://en.wikipedia.org/wiki/Mystery_meat_navigation
+https://en.wikipedia.org/wiki/Na%C3%AFve_realism
 https://en.wikipedia.org/wiki/Nayirah_testimony
 https://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
 https://en.wikipedia.org/wiki/No_free_lunch_theorem
@@ -355,6 +357,7 @@ https://t.me/KladovkaPavlu
 https://t.me/MainPlayCh
 https://t.me/MainPlay_TG
 https://t.me/MythInformation/1989
+https://t.me/PremiumBot
 https://t.me/PsychologiesRussia
 https://t.me/RBCCrypto/11963
 https://t.me/RationalAnswer
@@ -450,7 +453,7 @@ https://t.me/intelligencepotion/89
 https://t.me/intelligencepotion/92
 https://t.me/intelligencepotion/93
 https://t.me/intelligencepotion/98
-https://t.me/intelligencepoylo
+https://t.me/intelligencepoylo/127
 https://t.me/irrationalist_a
 https://t.me/join_community
 https://t.me/join_community/220
@@ -484,6 +487,7 @@ https://t.me/mtsai
 https://t.me/mustreads
 https://t.me/myrathole/278
 https://t.me/nDailyRandom
+https://t.me/naive_realist/34
 https://t.me/natural_origin
 https://t.me/news24love
 https://t.me/nft_ton_concept
@@ -555,6 +559,7 @@ https://t.me/tech_priestess/91
 https://t.me/tech_priestess/93
 https://t.me/teispam
 https://t.me/the_pixels_bot
+https://t.me/therapyreal
 https://t.me/theworldisnoteasy
 https://t.me/tolerancecenter
 https://t.me/tolerancecenter/221
@@ -697,6 +702,7 @@ https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Udz7ZkIZJco?si=0TUE-6xmWeyDWQ7g
 https://youtu.be/V3Soe3g9i6s?si=ujrgxpeQsuUQglWX
 https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc
+https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD

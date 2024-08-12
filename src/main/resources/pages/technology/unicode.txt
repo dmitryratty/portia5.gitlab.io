@@ -15,6 +15,9 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 🎒 &#x1F392; School Satchel.
 🤡 Clown Face
 ⚖ Scales
+⚖️
+⚙
+⚙️
 ❄ Snowflake
 🥩
 🐀

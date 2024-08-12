@@ -90,7 +90,9 @@ class Library {
         val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
 
-        val result = StringBuilder()
+        val result = StringBuilder("\uD83D\uDCDA Library." +
+                " Элиезер Юдковский, Грег Иган, Тед Чан, Питер Уоттс, Эмили Нагоски." +
+                " Несколько сотен прочитанной художки.\n\n")
         val builder = StringBuilder()
 
         result.append("Штуки, которые могу порекомендовать.\n\n")
