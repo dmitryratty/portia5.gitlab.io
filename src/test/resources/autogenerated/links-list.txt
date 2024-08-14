@@ -26,6 +26,7 @@ https://caniuse.com/link-icon-svg
 https://charstar.ai
 https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/
 https://ciechanow.ski/airfoil/
+https://cleanarctic.ru/
 https://codepen.io/kathykato/pen/KRQOKY
 https://coinmarketcap.com,
 https://colab.research.google.com/drive/1yLplnDxUhfOSatH46jg1r-Cb2KK4Z4BW?usp=sharing
@@ -288,6 +289,7 @@ https://novayagazeta.eu/articles/2024/08/07/iz-za-nekhvatki-zhivoi-sily-na-front
 https://nplus1.ru/material/2020/12/18/consider-the-octopus
 https://open.substack.com/pub/aella/p/bdsm-subtypes-and-their-prevalence?r=3fi1m4&utm_campaign=post&utm_medium=email
 https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
+https://open.substack.com/pub/jonathanhaidt/p/what-happened-to-fomo
 https://open.substack.com/pub/malmesbury/p/there-is-way-too-much-serendipity
 https://openalternative.co/
 https://ourworldindata.org/causes-of-death
@@ -606,6 +608,7 @@ https://woem.men/notes/9ufj0mb9nuwg05bm
 https://wormhole.com
 https://www.30secondsofcode.org/css/s/root-vs-html/
 https://www.404media.co/where-facebooks-ai-slop-comes-from/
+https://www.afterbabel.com/
 https://www.alignmentforum.org/tag/instrumental-convergence
 https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
 https://www.atvbt.com/the-carrot-problem
@@ -718,6 +721,7 @@ https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
+https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtube.com/@katherineofsky?si=vvU62TJi7SyPNbeP
 https://youtube.com/c/3blue1brown
 https://youtube.com/c/MichaelPennMath
