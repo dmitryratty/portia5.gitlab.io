@@ -50,9 +50,8 @@ class Utils {
         return word.startsWith("http://") || word.startsWith("https://")
     }
 
-    fun textPageInputToHtmlOutputFile(path: Path): File {
-        val pathString = path.pathString
-        val pathWithoutExtension = pathString.substring(0, pathString.length - "txt".length)
+    fun textPageInputToHtmlOutputFile(path: String): File {
+        val pathWithoutExtension = path.substring(0, path.length - "txt".length)
         return buildOutDir.resolve("${pathWithoutExtension}html").toFile()
     }
 }
