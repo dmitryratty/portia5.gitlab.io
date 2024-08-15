@@ -1,4 +1,5 @@
 В 1774 английский фермер Benjamin Jesty делает своей семье прививку дающую иммунитет от натуральной оспы. В 1774 король Франции Louis XV умирает от натуральной оспы.
+- #include-short-link
 
 "What Money Cannot Buy". </> But to really drive home the point, we need to go back to 1774. </> As the American Revolution was heating up, a wave of smallpox was raging on the other side of the Atlantic. An English dairy farmer named Benjamin Jesty was concerned for his wife and children. He was not concerned for himself, though - he had previously contracted cowpox. Cowpox was contracted by milking infected cows, and was well known among dairy farmers to convey immunity against smallpox.
 

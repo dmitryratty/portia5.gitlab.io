@@ -13,24 +13,20 @@ Fear is the mind-killer.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступление. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину за то, что не ощущаю того, что согласно текущим нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
 
-Хочу источники новостей выпускающие краткие сводки главного за день, неделю, месяц, год. Максимум статистики и фактов, минимум эмоций и оценок. Читая новости можно удерживать в сознании вопрос "Как получение этой информации помогает мне в достижении моих целей".
-- https://dmitryratty.gitlab.io/news
+#include-short news
 
 Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
 - https://en.wikipedia.org/wiki/Idiot_plot
 
-A Judas goat is a trained goat used in general animal herding. The Judas goat is trained to associate with sheep or cattle, leading them to a specific destination. In stockyards, a Judas goat will lead sheep to slaughter, while its own life is spared.
-- https://dmitryratty.gitlab.io/life/judas-goat
+#include-short life/judas-goat
 
-В 1774 английский фермер Benjamin Jesty делает своей семье прививку дающую иммунитет от натуральной оспы. В 1774 король Франции Louis XV умирает от натуральной оспы.
-- https://dmitryratty.gitlab.io/life/benjamin-jesty
+#include-short life/benjamin-jesty
+
+#include-short life/horned-goodness
 
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
-
-Добро с хвостом и острыми рогами.
-- https://dmitryratty.gitlab.io/life/horned-goodness
 
 * * *
 
