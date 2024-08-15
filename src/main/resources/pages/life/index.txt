@@ -1,4 +1,5 @@
 🙂 Life. Любопытство, игры, смерть, свобода, абсурд. Hume's guillotine, inductive bias, prisoner's dilemma, utility monster.
+- #include-short-link
 
 I can.
 If I dislike living I can kill myself.

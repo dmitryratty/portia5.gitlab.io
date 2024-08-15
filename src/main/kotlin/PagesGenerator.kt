@@ -108,8 +108,10 @@ class PagesGenerator(
             if (line == includeShortLink) {
                 page.includedShortText = includesResolved.toString()
                 var path = page.path
-                if (path.endsWith("/index.txt")) {
-                    path = path.removeSuffix("/index.txt")
+                path = if (path.endsWith("/index.txt")) {
+                    path.removeSuffix("/index.txt")
+                } else {
+                    path.removeSuffix(".txt")
                 }
                 page.includedShortText += "\n - ${hostName}/${path}"
                 return@forEach
@@ -123,14 +125,16 @@ class PagesGenerator(
             } else if (line.startsWith(includeShortTag)) {
                 var path = line.substring(includeShortTag.length, line.length)
                 val include = Utils().pagesSrcDir.resolve(path)
-                if (include.isDirectory()) {
-                    path += "/index.txt"
+                path += if (include.isDirectory()) {
+                    "/index.txt"
+                } else {
+                    ".txt"
                 }
                 val includedPage = pages[path]
-                println("$line $path")
                 if (!includedPage!!.includedReady) {
                     includesResolver(pages, includedPage)
                 }
+                if (includedPage.includedShortText == null) throw IllegalStateException(path)
                 includesResolved.append('\n').append(includedPage.includedShortText)
             } else {
                 includesResolved.append('\n').append(line)
