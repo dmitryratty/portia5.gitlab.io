@@ -1,6 +1,5 @@
 ⚖️ Ethics. Мир удивителен и прекрасен и с каждым из нас в нём могут произойти удивительные и прекрасные вещи. MKUltra.
-
-<short/>
+- #include-short-link
 
 * * *
 
@@ -104,3 +103,7 @@ https://ru.wikipedia.org/wiki/Массовое_убийство_в_станиц�
 
 "Moral behavior in animals" by "Frans de Waal".
 - https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
+
+* * *
+
+Секта бога Кузи. https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BA%D1%82%D0%B0_%D0%B1%D0%BE%D0%B3%D0%B0_%D0%9A%D1%83%D0%B7%D0%B8

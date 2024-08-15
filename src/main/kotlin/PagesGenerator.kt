@@ -34,8 +34,11 @@ class PagesGenerator(
     private val setOfLongWords = sortedSetOf<String>()
 
     data class Page(val path: String, val raw: String) {
+        var includedReady = false
+        var includedShortText: String? = null
         lateinit var includedText: String
         lateinit var beautyfiedText: String
+        val bottomNavigation = path != "index.txt"
         var _title: String? = null
         val title: String
             get() {
@@ -71,9 +74,6 @@ class PagesGenerator(
                 }
             }
         }
-
-        lateinit var body: String
-        val bottomNavigation = path != "index.txt"
     }
 
     fun main() {
@@ -85,7 +85,7 @@ class PagesGenerator(
         }
         pages.forEach {
             val page = it.value
-            page.includedText = includesResolver(pages, page)
+            includesResolver(pages, page)
             page.beautyfiedText = TextBeautifier().transform(page.includedText)
             val bodyHtml = textToHtml(page.path, page.beautyfiedText)
             val htmlFile = Utils().textPageInputToHtmlOutputFile(page.path)
@@ -98,26 +98,46 @@ class PagesGenerator(
             .writeText(setOfLongWords.joinToString("\n"))
     }
 
-    private val includeDirective = "#include "
-    private val shortTag = "<short/>"
+    private val includeTag = "#include "
+    private val includeShortTag = "#include-short "
+    private val includeShortLink = "- #include-short-link"
 
-    private fun includesResolver(pages: Map<String, Page>, page: Page): String {
-        val includeResolved = StringBuilder()
+    private fun includesResolver(pages: Map<String, Page>, page: Page) {
+        val includesResolved = StringBuilder()
         page.raw.split('\n').forEach { line ->
-            if (line == shortTag) {
-                return@forEach
-            } else if (line.startsWith(includeDirective)) {
-                val path = line.substring(includeDirective.length, line.length)
-                val include = Utils().pagesSrcDir.resolve(path).toFile().readText()
-                if (include.contains(includeDirective)) {
-                    throw IllegalStateException("#include in #include, ${page.path}")
+            if (line == includeShortLink) {
+                page.includedShortText = includesResolved.toString()
+                var path = page.path
+                if (path.endsWith("/index.txt")) {
+                    path = path.removeSuffix("/index.txt")
                 }
-                includeResolved.append('\n').append(include)
+                page.includedShortText += "\n - ${hostName}/${path}"
+                return@forEach
+            } else if (line.startsWith(includeTag)) {
+                val path = line.substring(includeTag.length, line.length)
+                val includedPage = pages[path]
+                if (!includedPage!!.includedReady) {
+                    includesResolver(pages, includedPage)
+                }
+                includesResolved.append('\n').append(includedPage.includedText)
+            } else if (line.startsWith(includeShortTag)) {
+                var path = line.substring(includeShortTag.length, line.length)
+                val include = Utils().pagesSrcDir.resolve(path)
+                if (include.isDirectory()) {
+                    path += "/index.txt"
+                }
+                val includedPage = pages[path]
+                println("$line $path")
+                if (!includedPage!!.includedReady) {
+                    includesResolver(pages, includedPage)
+                }
+                includesResolved.append('\n').append(includedPage.includedShortText)
             } else {
-                includeResolved.append('\n').append(line)
+                includesResolved.append('\n').append(line)
             }
         }
-        return includeResolved.toString()
+        page.includedText = includesResolved.toString()
+        page.includedReady = true
     }
 
     private fun stripEnding(path: String): String {
