@@ -16,18 +16,21 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 🤡 Clown Face
 
 ⚖️ Scales - 2 symbols.
-⚖ Scales - 1 symbol, simplified display on Android/Brave.
+⚖ Scales - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
 ⚙️ Gear - 2 symbols.
-⚙ Gear - 1 symbol, simplified display on Android/Brave.
+⚙ Gear - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
 ✉️ Envelope - 2 symbols.
-✉ Envelope - 1 symbol, simplified display on Android/Brave.
+✉ Envelope - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
 ☠️ Scales - 2 symbols.
-☠ Skull and Crossbones - 1 symbol, simplified display on Android/Brave.
+☠ Skull and Crossbones - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
+❄️ Snowflake - 2 symbols.
+❄ Snowflake - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
+🖼️ Frame with Picture - 2 symbols.
+🖼 Frame with Picture - 1 symbol, simplified display on Android/Brave and Linux/Firefox.
 
 📨
 📩
 💌
-❄ Snowflake
 🥩
 🐀
 🐭

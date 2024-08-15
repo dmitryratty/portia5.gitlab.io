@@ -68,7 +68,6 @@ https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/favorites
 https://dmitryratty.gitlab.io/library/interesting
-https://dmitryratty.gitlab.io/library/lists
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life
@@ -360,6 +359,7 @@ https://t.me/Catizen_Mntbot
 https://t.me/CopilotOfficialBot
 https://t.me/DegenTonBot
 https://t.me/GPT4_MegaFon_bot
+https://t.me/HaskellSpaceProgram
 https://t.me/Hollowafterdark
 https://t.me/KladovkaPavlu
 https://t.me/MainPlayCh
@@ -644,6 +644,7 @@ https://www.coinglass.com
 https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 https://www.dailymail.co.uk/health/article-13214693/bryan-johnson-biohacker-anti-aging-nation.html
 https://www.dailymail.co.uk/news/article-13736603/CIA-agent-Al-Qaeda-President-Bush-Malaysian-hotel.html
+https://www.davidchauvin.fr/galerie/
 https://www.figma.com/blog/line-height-changes/
 https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
 https://www.lesswrong.com/posts/Wh8HAK6LR5CAoPCCC
