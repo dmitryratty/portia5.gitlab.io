@@ -43,6 +43,7 @@
 [4] /life/judas-goat[.html]
 [4] /life/sakalauskas-case[.html]
 [4] /life/srinivasa-ramanujan[.html]
+[4] /location[.html]
 [4] /music[.html]
 [4] /news[.html]
 [4] /other/languages[.html]

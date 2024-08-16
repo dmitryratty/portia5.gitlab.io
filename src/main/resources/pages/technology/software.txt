@@ -10,3 +10,26 @@ Lists of open source software. #OpenSource
 Ente: Open-Source, E2E Encrypted, Google Photos Alternative.
 Link: https://readhacker.news/s/63kdw
 Comments: https://readhacker.news/c/63kdw
+
+* * *
+
+Восстановление файлов. "Hetman Partition Recovery" умеет работать с линуксовыми файловыми системами, но имеет версию только для Винды. Поэтому если нужно работать с диском, зашифрованным LUKS, то либо нужны отдельные средства работы с LUKS под Виндой, либо нужно сначала сделать копию содержимого LUKS под Линем и потом уже эту копию обрабатывать на Винде.
+
+Hetman Partition Recovery
+- https://hetmanrecovery.com/hetman_partition_recovery_download.htm
+- https://habr.com/en/companies/hetmansoftware/articles/553866/
+
+R-Studio
+- https://www.r-studio.com/ru/free-linux-recovery/
+
+ext4magic
+- https://gist.github.com/ebautistabar/cca12863e6335d08a019f015f53fac4a
+
+extundelete
+- https://askubuntu.com/questions/217606/undelete-files-on-ext4
+
+Other
+
+EaseUs Data Recovery Wizard
+
+Disk Drill

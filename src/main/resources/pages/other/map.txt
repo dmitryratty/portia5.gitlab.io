@@ -31,6 +31,7 @@ https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
+https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/music
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other

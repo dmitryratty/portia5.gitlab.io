@@ -13,14 +13,19 @@
 </head>
 <body><main>
 <article>
-    <p>Код установки шрифта эмодзи, возможно он исправит то, что на Винде показывает некрасивые эмодзи.
-        <br>— <a href="https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css">https:<wbr>//<wbr>github<wbr>.com<wbr>/manifoldmarkets<wbr>/manifold<wbr>/blob<wbr>/main<wbr>/web<wbr>/styles<wbr>/globals<wbr>.css</a></p>
-
-    <p>Проверить действительно ли есть "мигание" текста и если да, то проверить предположение, что это <span class="nowrap">из-за</span> подгрузки CSS, и если да, исправить это инлайном нужного.</p>
-
     <p>Одна ветка "main".</p>
 
     <p>В карту сайта добавить страницы из "test".</p>
+
+    <p>Проверить действительно ли есть "мигание" текста и если да, то проверить предположение, что это <span class="nowrap">из-за</span> подгрузки CSS, и если да, исправить это инлайном нужного.</p>
+
+    <p>Уточнить как считается размер шрифта. Если его размер зависит от ширины экрана, то это не совсем то, что мы хотели бы. Максимальный размер шрифта должен устанавливаться при максимальной ширине колонки текста, а ширина полей по сторонам от колонки текста на размер шрифта влиять не должна. Ещё можно скопировать настройки шрифта с Википедии.
+        <br>— :root { <span class="nowrap">font-size:</span> calc(0.85rem + min(5rem, 0.1vw)) }</p>
+
+    <p>Emoji. Код установки шрифта эмодзи, возможно он исправит то, что на Винде показывает некрасивые эмодзи.
+        <br>— <a href="https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css">https:<wbr>//<wbr>github<wbr>.com<wbr>/manifoldmarkets<wbr>/manifold<wbr>/blob<wbr>/main<wbr>/web<wbr>/styles<wbr>/globals<wbr>.css</a>
+        <br>— <a href="https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/">https:<wbr>//<wbr>nolanlawson<wbr>.com<wbr>/2022<wbr>/04<wbr>/08<wbr>/the<wbr>-struggle<wbr>-of<wbr>-using<wbr>-native<wbr>-emoji<wbr>-on<wbr>-the<wbr>-web<wbr>/</a>
+        <br>— <a href="https://fullystacked.net/using-emoji-on-the-web/">https:<wbr>//<wbr>fullystacked<wbr>.net<wbr>/using<wbr>-emoji<wbr>-on<wbr>-the<wbr>-web<wbr>/</a></p>
 
     <p>Вырезать комментарии из HTML.</p>
 
@@ -40,6 +45,10 @@
         <br><a href="https://codepen.io/kathykato/pen/KRQOKY">https:<wbr>//<wbr>codepen<wbr>.io<wbr>/kathykato<wbr>/pen<wbr>/KRQOKY</a></p>
 
     <p>\#include — add standalone links.</p>
+
+    <p>Emoji. Есть ли разница?
+        <br>✨️ — 2 symbols.
+        <br>✨ — 1 symbol.</p>
 
     <p>Запрещать перенос коротких <span class="nowrap">префиксов-суффиксов.</span> Чтобы в "《 Это начало фразы а это конец. 》" были едиными и непереносимыми на другую строку по отдельности наборы символов "《 Это" и "конец. 》". И чтобы в "Фраза в <span class="nowrap">которой[1]</span> есть сноски.[2]" сделать переносимыми только целиком выражения "которой[1]" и "сноски.[2]".</p>
 
