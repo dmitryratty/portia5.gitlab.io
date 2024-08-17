@@ -4,6 +4,7 @@ import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.relativeTo
 
 class Utils {
+    val hostName = "https://dmitryratty.gitlab.io"
 
     val currentPath: Path = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
 

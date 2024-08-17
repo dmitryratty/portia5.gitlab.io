@@ -1,5 +1,11 @@
 #include-short life
 
+#include-short humour
+
+#include-short diary
+
+#include-short ethics
+
 #include-short technology
 
 #include-short biology
@@ -11,11 +17,5 @@
 #include-short gallery
 
 #include-short vidya
-
-#include-short humour
-
-#include-short ethics
-
-#include-short diary
 
 #include-short other

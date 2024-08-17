@@ -1,6 +1,8 @@
 A Judas goat is a trained goat used in general animal herding. The Judas goat is trained to associate with sheep or cattle, leading them to a specific destination. In stockyards, a Judas goat will lead sheep to slaughter, while its own life is spared.
-- #include-short-link
-- https://en.wikipedia.org/wiki/Judas_goat
+
+<< * * * >>
+
+https://en.wikipedia.org/wiki/Judas_goat
 
 "Carrot problem" - people may lie about the causes of their success.
 - https://www.atvbt.com/the-carrot-problem

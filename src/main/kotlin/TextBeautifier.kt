@@ -33,7 +33,12 @@ class TextBeautifier {
         return lineTransformer.transform(newLine, ::transformWord)
     }
 
+    val shortSeparator = IncludeTransformer().shortSeparator
+
     fun transformParagraph(paragraph: String): String {
+        if (paragraph == shortSeparator) {
+            return "⁂ ⁂ ⁂"
+        }
         val result = StringBuilder()
         Utils().splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
