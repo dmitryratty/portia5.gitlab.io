@@ -48,6 +48,7 @@
 [4] /news[.html]
 [4] /other/languages[.html]
 [4] /other/map[.html]
+[4] /other/math-methods[.html]
 [4] /technology/hardware[.html]
 [4] /technology/kindergarten-math[.html]
 [4] /technology/neural-network[.html]

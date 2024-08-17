@@ -11,4 +11,4 @@ https://en.wikipedia.org/wiki/Judas_goat
 - https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 - https://en.wikipedia.org/wiki/Egocentric_bias
 
-#Trickery #Ethics
+#include other/math-methods.txt

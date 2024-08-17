@@ -88,6 +88,7 @@ https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/map
+https://dmitryratty.gitlab.io/other/math-methods
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -159,6 +160,7 @@ https://en.wikipedia.org/wiki/Glitch_art
 https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Min-Maxing
 https://en.wikipedia.org/wiki/Glycerophosphorylcholine
 https://en.wikipedia.org/wiki/Godefroid_Munongo
+https://en.wikipedia.org/wiki/Good_cop,_bad_cop
 https://en.wikipedia.org/wiki/Hawala
 https://en.wikipedia.org/wiki/Hawk-dove
 https://en.wikipedia.org/wiki/Heinz_dilemma

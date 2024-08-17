@@ -40,4 +40,8 @@
 
 * * *
 
+#include other/math-methods.txt
+
+* * *
+
 #include life/bourbaki-weil.txt
