@@ -72,7 +72,6 @@ https://dmitryratty.gitlab.io/library/favorites
 https://dmitryratty.gitlab.io/library/interesting
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
-https://dmitryratty.gitlab.io/life
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
 https://dmitryratty.gitlab.io/life/benjamin-jesty
 https://dmitryratty.gitlab.io/life/bourbaki-weil

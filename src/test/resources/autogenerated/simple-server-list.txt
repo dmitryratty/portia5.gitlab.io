@@ -4,7 +4,6 @@
 [2] /ethics[/][/index.html]
 [2] /gallery[/][/index.html]
 [2] /library[/][/index.html]
-[2] /life[/][/index.html]
 [2] /other[/][/index.html]
 [2] /technology[/][/index.html]
 [2] /vidya[/][/index.html]
