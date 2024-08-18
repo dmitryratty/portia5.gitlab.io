@@ -17,7 +17,7 @@ class Generator {
         Utils().generatedPagesDir.toFile().deleteRecursively()
         Utils().generatedPagesDir.toFile().mkdir()
         PagesGenerator().main()
-        Favicon().main()
+        //Favicon().main()
         val srcDir = Utils().resourcesDir.resolve("other")
         val dstDir = Utils().buildOutDir
         Files.walk(srcDir).forEach { src: Path ->

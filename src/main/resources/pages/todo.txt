@@ -7,6 +7,8 @@
 
 Одна ветка "main".
 
+Генерировать Favicon только при изменении исходного SVG.
+
 Emoji. Код установки шрифта эмодзи, возможно он исправит то, что на Винде показывает некрасивые эмодзи.
 - https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css
 - https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/

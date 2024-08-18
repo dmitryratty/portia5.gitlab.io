@@ -47,7 +47,7 @@ class PagesGenerator(
             includeTransformer.transform(pages, page)
             page.beautyfiedText = TextBeautifier().transform(page.includeText)
             val bodyHtml = textToHtml(page.path, page.beautyfiedText)
-            val htmlFile = Utils().textPageInputToHtmlOutputFile(page.path)
+            val htmlFile = page.htmlOutFile()
             htmlFile.parentFile.mkdirs()
             htmlFile.writeText(htmlPage(page.title, bodyHtml, page.bottomNavigation))
         }

@@ -45,8 +45,4 @@ class Utils {
         // if (word.contains(" ")) throw IllegalStateException()
         return word.startsWith("http://") || word.startsWith("https://")
     }
-
-    fun textPageInputToHtmlOutputFile(path: String): File {
-        return buildOutDir.resolve("${path.removeSuffix("txt")}html").toFile()
-    }
 }

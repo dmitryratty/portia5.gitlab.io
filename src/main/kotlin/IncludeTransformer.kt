@@ -10,18 +10,23 @@ class IncludeTransformer {
     fun transform(pages: Map<String, Page>, page: Page) {
         if (page.includeText.isNotEmpty()) return
         val resultBuilder = StringBuilder()
-        page.raw.split('\n').forEachIndexed { i, line ->
+        Utils().splitToParagraphs(page.raw).forEachIndexed { i, line ->
+            if (resultBuilder.isNotEmpty()) resultBuilder.append("\n\n")
             if (line == shortSeparator) {
-                if (i != 2) throw IllegalStateException("$page $i")
-                page.includeShortText = resultBuilder.toString()
+                if (i != 1) throw IllegalStateException("$page $i")
+                page.summaryText = resultBuilder.toString().trim()
                 var path = page.path
-                path = if (path.endsWith("/index.txt")) {
-                    path.removeSuffix("/index.txt")
+                if (path == "index.txt") {
+                    page.summaryText += "\n - $hostName"
                 } else {
-                    path.removeSuffix(".txt")
+                    path = if (path.endsWith("/index.txt")) {
+                        path.removeSuffix("/index.txt")
+                    } else {
+                        path.removeSuffix(".txt")
+                    }
+                    page.summaryText += "\n - ${hostName}/${path}"
                 }
-                page.includeShortText += " - ${hostName}/${path}"
-                resultBuilder.append('\n').append(line)
+                resultBuilder.append(line)
             } else if (line.startsWith(includeTag)) {
                 val path = line.substring(includeTag.length, line.length)
                 val includedPage = pages[path]
@@ -29,9 +34,9 @@ class IncludeTransformer {
                     transform(pages, includedPage)
                 }
                 if (includedPage.includeFullText != null) {
-                    resultBuilder.append('\n').append(includedPage.includeFullText)
+                    resultBuilder.append(includedPage.includeFullText)
                 } else {
-                    resultBuilder.append('\n').append(includedPage.includeText)
+                    resultBuilder.append(includedPage.includeText)
                 }
             } else if (line.startsWith(includeShortTag)) {
                 var path = line.substring(includeShortTag.length, line.length)
@@ -45,14 +50,14 @@ class IncludeTransformer {
                 if (includedPage!!.includeText.isEmpty()) {
                     transform(pages, includedPage)
                 }
-                if (includedPage.includeShortText == null) throw IllegalStateException(path)
-                resultBuilder.append('\n').append(includedPage.includeShortText)
+                if (includedPage.summaryText == null) throw IllegalStateException(path)
+                resultBuilder.append(includedPage.summaryText)
             } else {
-                resultBuilder.append('\n').append(line)
+                resultBuilder.append(line)
             }
         }
         page.includeText = resultBuilder.toString()
-        if (page.includeShortText != null) {
+        if (page.summaryText != null) {
             page.includeFullText = page.includeText.replaceFirst("$shortSeparator\n", "")
         }
     }

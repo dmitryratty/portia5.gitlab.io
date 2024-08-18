@@ -1,7 +1,8 @@
+import java.io.File
 import java.util.*
 
 data class Page(val path: String, val raw: String) {
-    var includeShortText: String? = null
+    var summaryText: String? = null
     var includeFullText: String? = null
     var includeText: String = ""
     lateinit var beautyfiedText: String
@@ -34,5 +35,9 @@ data class Page(val path: String, val raw: String) {
             }
             _title = "Well… $name!"
         }
+    }
+
+    fun htmlOutFile(): File {
+        return Utils().buildOutDir.resolve("${path.removeSuffix("txt")}html").toFile()
     }
 }
