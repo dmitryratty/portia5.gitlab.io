@@ -2,6 +2,7 @@
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
+import kotlin.io.path.deleteRecursively
 
 class Generator {
     companion object {
@@ -13,6 +14,8 @@ class Generator {
 
     private fun main() {
         Utils().cleanupBuildDir()
+        Utils().generatedPagesDir.toFile().deleteRecursively()
+        Utils().generatedPagesDir.toFile().mkdir()
         PagesGenerator().main()
         Favicon().main()
         val srcDir = Utils().resourcesDir.resolve("other")

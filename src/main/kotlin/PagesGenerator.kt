@@ -34,49 +34,6 @@ class PagesGenerator(
     private val setOfLinks = sortedSetOf<String>()
     private val setOfLongWords = sortedSetOf<String>()
 
-    data class Page(val path: String, val raw: String) {
-        var includeShortText: String? = null
-        var includeFullText: String? = null
-        var includeText: String = ""
-        lateinit var beautyfiedText: String
-        val bottomNavigation = path != "index.txt"
-
-        private var _title: String? = null
-        val title: String
-            get() {
-                initializeTitle()
-                return _title ?: throw IllegalStateException()
-            }
-        private fun initializeTitle() {
-            if (_title != null) {
-                return
-            }
-            if (path == "index.txt") {
-                _title = "Well… Yes!"
-            } else if (path.endsWith("/index.txt")) {
-                var name = path.substring(0, path.length - "/index.txt".length)
-                if (name.contains('/')) {
-                    _title = "Well… \"$name\"!"
-                } else {
-                    name = name.replaceFirstChar {
-                        if (it.isLowerCase()) it.titlecase(Locale.ENGLISH) else it.toString()
-                    }
-                    _title = "Well… $name!"
-                }
-            } else {
-                var name = path.substring(0, path.length - ".txt".length)
-                if (name.contains('/')) {
-                    _title = "Well… \"$name\"!"
-                } else {
-                    name = name.replaceFirstChar {
-                        if (it.isLowerCase()) it.titlecase(Locale.ENGLISH) else it.toString()
-                    }
-                    _title = "Well… $name!"
-                }
-            }
-        }
-    }
-
     fun main() {
         Library().main()
         generateMap()
@@ -126,7 +83,7 @@ class PagesGenerator(
                 }
             }
         }
-        val mapPath = "generated/map"
+        val mapPath = "${Utils().generatedPagesDir.name}/map"
         if (!pagesListLayerTwo.contains("$prefix/$mapPath")) {
             pagesListLayerTwo.add("$prefix/$mapPath")
         }

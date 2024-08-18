@@ -17,7 +17,6 @@ https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/generated/library-favorites
 https://dmitryratty.gitlab.io/generated/library-interesting
 https://dmitryratty.gitlab.io/generated/map
-https://dmitryratty.gitlab.io/generated/map
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/maybe-will-read

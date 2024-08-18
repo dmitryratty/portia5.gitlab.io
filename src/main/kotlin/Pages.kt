@@ -1,3 +1,3 @@
-class Pages : HashMap<MutableSet<String>, PagesGenerator.Page>() {
+class Pages : HashMap<MutableSet<String>, Page>() {
 
 }

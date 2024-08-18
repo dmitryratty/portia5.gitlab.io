@@ -129,6 +129,7 @@ https://en.wikipedia.org/wiki/Ad%C3%A8le_Hugo
 https://en.wikipedia.org/wiki/Alexander_Grothendieck
 https://en.wikipedia.org/wiki/Apophenia
 https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
+https://en.wikipedia.org/wiki/Aumann%27s_agreement_theorem
 https://en.wikipedia.org/wiki/Biomega_(manga)
 https://en.wikipedia.org/wiki/Box-drawing_character
 https://en.wikipedia.org/wiki/Bullet_(typography)
@@ -174,6 +175,7 @@ https://en.wikipedia.org/wiki/Inductive_bias
 https://en.wikipedia.org/wiki/Intel_Management_Engine
 https://en.wikipedia.org/wiki/InterPlanetary_File_System
 https://en.wikipedia.org/wiki/Is-ought_problem
+https://en.wikipedia.org/wiki/Jack_of_all_trades
 https://en.wikipedia.org/wiki/Jeffrey_Epstein
 https://en.wikipedia.org/wiki/Josef_Mengele
 https://en.wikipedia.org/wiki/Judas_goat

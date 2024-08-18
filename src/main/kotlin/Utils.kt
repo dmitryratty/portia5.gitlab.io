@@ -19,6 +19,7 @@ class Utils {
     val pagesSrcDir: Path = resourcesDir.resolve("pages")
 
     val buildOutDir: Path = projectDir.resolve("public")
+    val generatedPagesDir = pagesSrcDir.resolve("generated")
 
     fun textPagesInput(): Map<Path, File> {
         return pagesSrcDir.toFile().walk().filter { it.name.endsWith(".txt") }
