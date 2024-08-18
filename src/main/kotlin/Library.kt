@@ -108,7 +108,7 @@ class Library {
 
     private fun generatePublic() {
         val writingsIn = loadWritings()
-        val libraryOut = Utils().pagesSrcDir.resolve("library")
+        val libraryOut = Utils().pagesSrcDir.resolve("generated")
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn
@@ -122,7 +122,7 @@ class Library {
             favoritesBuilder.append(formatAuthors(authors, "ru"))
             favoritesBuilder.append(formatWritings(writings, "ru"))
         }
-        libraryOut.resolve("favorites.txt").toFile().writeText(favoritesBuilder.toString())
+        libraryOut.resolve("library-favorites.txt").toFile().writeText(favoritesBuilder.toString())
 
         val listsBuilder = StringBuilder()
         val entertaining = writingsIn
@@ -173,6 +173,6 @@ class Library {
                 postfix = ".",
                 transform = { it[0].names[0].name })
         )
-        libraryOut.resolve("interesting.txt").toFile().writeText(listsBuilder.toString())
+        libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }
 }

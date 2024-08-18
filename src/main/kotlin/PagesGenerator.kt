@@ -126,21 +126,29 @@ class PagesGenerator(
                 }
             }
         }
-        val mapPath = "other/map"
+        val mapPath = "generated/map"
         if (!pagesListLayerTwo.contains("$prefix/$mapPath")) {
             pagesListLayerTwo.add("$prefix/$mapPath")
         }
         val map = StringBuilder()
-        map.append("Map.")
         if (true) {
             pagesListLayerOne.addAll(pagesListLayerTwo)
             pagesListLayerOne.sort()
-            pagesListLayerOne.forEach { map.append('\n').append(it) }
+            pagesListLayerOne.forEach {
+                if (map.isNotEmpty()) map.append('\n')
+                map.append(it)
+            }
         } else {
             pagesListLayerOne.sort()
-            pagesListLayerOne.forEach { map.append('\n').append(it) }
+            pagesListLayerOne.forEach {
+                if (map.isNotEmpty()) map.append('\n')
+                map.append(it)
+            }
             pagesListLayerTwo.sort()
-            pagesListLayerTwo.forEach { map.append('\n').append(it) }
+            pagesListLayerTwo.forEach {
+                if (map.isNotEmpty()) map.append('\n')
+                map.append(it)
+            }
         }
         Utils().pagesSrcDir.resolve("$mapPath.txt").toFile().writeText(map.toString())
     }
@@ -247,6 +255,8 @@ class PagesGenerator(
         return lineTransformer.transform(line, ::transformWord)
     }
 
+    val beautifiedShortSeparator = TextBeautifier().beautifiedShortSeparator
+
     fun transformParagraph(paragraph: String): String {
         val result = StringBuilder()
         if (paragraph.contains("* * *")) {
@@ -254,6 +264,10 @@ class PagesGenerator(
                 throw IllegalStateException(paragraph)
             }
             result.append("<p class=\"dinkus\">* * *</p>")
+            return result.toString()
+        }
+        if (paragraph == beautifiedShortSeparator) {
+            result.append("<p class=\"dinkus\">$beautifiedShortSeparator</p>")
             return result.toString()
         }
         result.append("<p>")

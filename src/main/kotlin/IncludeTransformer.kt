@@ -9,11 +9,12 @@ class IncludeTransformer {
     val shortSeparator = "<< * * * >>"
 
     fun transform(pages: Map<String, Page>, page: Page) {
-        val includesResolved = StringBuilder()
+        if (page.includeText.isNotEmpty()) return
+        val resultBuilder = StringBuilder()
         page.raw.split('\n').forEachIndexed { i, line ->
             if (line == shortSeparator) {
                 if (i != 2) throw IllegalStateException("$page $i")
-                page.includeShortText = includesResolved.toString()
+                page.includeShortText = resultBuilder.toString()
                 var path = page.path
                 path = if (path.endsWith("/index.txt")) {
                     path.removeSuffix("/index.txt")
@@ -21,7 +22,7 @@ class IncludeTransformer {
                     path.removeSuffix(".txt")
                 }
                 page.includeShortText += " - ${hostName}/${path}"
-                includesResolved.append('\n').append(line)
+                resultBuilder.append('\n').append(line)
             } else if (line.startsWith(includeTag)) {
                 val path = line.substring(includeTag.length, line.length)
                 val includedPage = pages[path]
@@ -29,9 +30,9 @@ class IncludeTransformer {
                     transform(pages, includedPage)
                 }
                 if (includedPage.includeFullText != null) {
-                    includesResolved.append('\n').append(includedPage.includeFullText)
+                    resultBuilder.append('\n').append(includedPage.includeFullText)
                 } else {
-                    includesResolved.append('\n').append(includedPage.includeText)
+                    resultBuilder.append('\n').append(includedPage.includeText)
                 }
             } else if (line.startsWith(includeShortTag)) {
                 var path = line.substring(includeShortTag.length, line.length)
@@ -46,12 +47,12 @@ class IncludeTransformer {
                     transform(pages, includedPage)
                 }
                 if (includedPage.includeShortText == null) throw IllegalStateException(path)
-                includesResolved.append('\n').append(includedPage.includeShortText)
+                resultBuilder.append('\n').append(includedPage.includeShortText)
             } else {
-                includesResolved.append('\n').append(line)
+                resultBuilder.append('\n').append(line)
             }
         }
-        page.includeText = includesResolved.toString()
+        page.includeText = resultBuilder.toString()
         if (page.includeShortText != null) {
             page.includeFullText = page.includeText.replaceFirst("$shortSeparator\n", "")
         }

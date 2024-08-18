@@ -17,9 +17,7 @@ THIS INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES
  - https://linkedin.com/in/dmitryratty
  - https://github.com/dmitryratty
 
-#include other/map.txt
-
-* * *
+#include-short other/map
 
 If I dislike living I can kill myself.
 If I have a goal I can pursue it.

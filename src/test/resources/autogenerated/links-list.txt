@@ -66,10 +66,11 @@ https://dmitryratty.gitlab.io/diary/sweet-school-time
 https://dmitryratty.gitlab.io/diary/winter-sunny-day
 https://dmitryratty.gitlab.io/ethics
 https://dmitryratty.gitlab.io/gallery
+https://dmitryratty.gitlab.io/generated/library-favorites
+https://dmitryratty.gitlab.io/generated/library-interesting
+https://dmitryratty.gitlab.io/generated/map
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/library
-https://dmitryratty.gitlab.io/library/favorites
-https://dmitryratty.gitlab.io/library/interesting
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
@@ -368,6 +369,7 @@ https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 https://stihi.ru/2002/10/10-463
+https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/
 https://t.me/Alembic
 https://t.me/BlumCryptoBot
 https://t.me/Catizen_Mntbot

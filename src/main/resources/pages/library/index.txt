@@ -2,11 +2,11 @@
 
 << * * * >>
 
-#include library/favorites.txt
+#include generated/library-favorites.txt
 
 * * *
 
-#include library/interesting.txt
+#include generated/library-interesting.txt
 
 * * *
 
