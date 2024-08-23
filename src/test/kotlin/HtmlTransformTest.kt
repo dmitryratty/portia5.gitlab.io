@@ -1,3 +1,4 @@
+import java.nio.file.Path
 import java.nio.file.Paths
 import kotlin.io.path.exists
 import kotlin.test.Test
@@ -85,17 +86,22 @@ class HtmlTransformTest {
 
     @Test
     fun textToHtml() {
-        /*
+
         val resourcesDir = Paths.get("src/test/resources")
         assert(resourcesDir.exists())
-        val textString = resourcesDir.resolve("test1.txt").toFile().readText()
+        val srcRelPath = Path.of("test1.txt")
+        val srcAbsPath = resourcesDir.resolve(srcRelPath)
+        val textString = srcAbsPath.toFile().readText()
         val expectedHtmlString = resourcesDir.resolve("test1.html").toFile().readText()
 
-        val beautyfiedText = TextBeautifier().transform(textString)
-        val titleAndBody = htmlTransform.titleAndBody("test1.txt", beautyfiedText)
-        val bodyHtml = htmlTransform.textToHtml(titleAndBody.first, titleAndBody.second)
-        val htmlPage = htmlTransform.htmlPage(titleAndBody.first, bodyHtml, true)
+        val page = Page(RatUrl(srcAbsPath, srcRelPath, resourcesDir))
+        val pages = mapOf(page.url.relativeUrl to page)
+        val includeTransform = IncludeTransform()
+        includeTransform.transform(pages, page)
+        page.beautyText = TextBeautifier().transform(page.includeText)
+        val bodyHtml = htmlTransform.textToHtml(page.url.srcRelativePathString, page.beautyText)
+        val htmlPage = htmlTransform.htmlPage(page.title, bodyHtml, page.navigation)
         assertEquals(expectedHtmlString, htmlPage)
-        */
+
     }
 }

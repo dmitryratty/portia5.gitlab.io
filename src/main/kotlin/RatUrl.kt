@@ -2,7 +2,7 @@ import Utils.hostName
 import java.nio.file.Path
 import kotlin.io.path.pathString
 
-data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path) {
+data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path, val dstDirPath: Path) {
     val srcAbsolutePathString = srcAbsolutePath.pathString
     val srcRelativePathString = srcRelativePath.pathString
     val relativeUrl: String
@@ -13,7 +13,7 @@ data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path) {
         srcRelativePath
     }
     val dstRelativePathString = dstRelativePath.pathString
-    val dstAbsolutePath: Path = Utils.buildOutDir.resolve(dstRelativePath)
+    val dstAbsolutePath: Path = dstDirPath.resolve(dstRelativePath)
     val redirects: Set<String>
     val isPage: Boolean
     val isDirectory: Boolean

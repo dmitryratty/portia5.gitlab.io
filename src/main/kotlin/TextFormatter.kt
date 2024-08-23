@@ -1,17 +1,4 @@
-class TextFormatter {
-    companion object {
-        @JvmStatic fun main(args: Array<String>) {
-            TextFormatter().main()
-        }
-    }
-
-    fun main() {
-        Utils.textPagesInput().forEach {
-            val file = it.value
-            file.writeText(transform(file.readText()))
-        }
-    }
-
+object TextFormatter {
     fun transformLine(line: String): String {
         if (line.trim().contains("  ")) {
             // Detect multiple spaces in the middle of the line, it's usually a typos.

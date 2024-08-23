@@ -1,7 +1,5 @@
-import java.io.File
+
 import java.nio.file.Path
-import kotlin.io.path.listDirectoryEntries
-import kotlin.io.path.relativeTo
 
 object Utils {
     val hostName = "https://dmitryratty.gitlab.io"
@@ -21,22 +19,10 @@ object Utils {
 
     val srcOtherDir: Path = resourcesDir.resolve("other")
 
-    val buildOutDir: Path = projectDir.resolve("public")
-
-    fun textPagesInput(): Map<Path, File> {
-        return srcPagesDir.toFile().walk().filter { it.name.endsWith(".txt") }
-            .map { it.toPath().relativeTo(srcPagesDir) to it }.toMap()
-    }
+    val dstDir: Path = projectDir.resolve("public")
 
     fun splitToParagraphs(text: String): MutableList<String> {
         return text.split("\n\n").toMutableList()
-    }
-
-    fun cleanupBuildDir() {
-        val persistentFiles = emptyList<Path>()
-        buildOutDir.listDirectoryEntries().forEach {
-            if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
-        }
     }
 
     fun splitParagraphToLines(paragraph: String): List<String> {

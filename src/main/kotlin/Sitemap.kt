@@ -1,24 +1,25 @@
-import java.nio.file.Files
 
-class Sitemap {
+import java.nio.file.Files
+import java.nio.file.Path
+
+class Sitemap(srcDirsPaths: Set<Path>, dstDirPath: Path) {
 
     val urls: List<RatUrl>
     val mapSrcAbsolutePath = Utils.srcPagesGeneratedDir.resolve("sitemap.txt")
 
     init {
         val urlsList = ArrayList<RatUrl>()
-        Utils.textPagesInput().forEach {
-            urlsList.add(RatUrl(it.value.toPath(), it.key))
+        srcDirsPaths.forEach { srcDirPath ->
+            Files.walk(srcDirPath).use { stream ->
+                stream.filter(Files::isRegularFile).forEach {
+                    urlsList.add(RatUrl(it, srcDirPath.relativize(it), dstDirPath))
+                }
+            }
         }
         val mapSrcRelativePath = Utils.srcPagesDir.relativize(mapSrcAbsolutePath)
-        val mapUri = RatUrl(mapSrcAbsolutePath, mapSrcRelativePath)
+        val mapUri = RatUrl(mapSrcAbsolutePath, mapSrcRelativePath, Utils.dstDir)
         if (!urlsList.contains(mapUri)) {
             urlsList.add(mapUri)
-        }
-        Files.walk(Utils.srcOtherDir).use { stream ->
-            stream.filter(Files::isRegularFile).forEach {
-                urlsList.add(RatUrl(it, Utils.srcOtherDir.relativize(it)))
-            }
         }
         urls = urlsList.sortedBy { it.absoluteUrl }
     }

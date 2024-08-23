@@ -25,7 +25,7 @@ class IncludeTransform {
 
     fun transform(pages: Map<String, Page>, page: Page) {
         if (page.supsecs.isNotEmpty()) return
-        page.supsecs.addAll(page.raw.split(supsecSeparator).map { supersection ->
+        page.supsecs.addAll(page.formatted.split(supsecSeparator).map { supersection ->
             supersection.split(sectionSeparator).map { section ->
                 section.split(paragSeparator).map { it }.toMutableList()
             }.toMutableList()

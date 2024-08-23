@@ -25,11 +25,11 @@ class HtmlTransform(
     private val setOfLinks = sortedSetOf<String>()
     private val setOfLongWords = sortedSetOf<String>()
 
-    fun main(urls: List<RatUrl>) {
-        val pages = urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) }
+    fun main(pages: Map<String, Page>) {
         val includeTransform = IncludeTransform()
         pages.forEach {
             val page = it.value
+            page.url.srcAbsolutePath.toFile().writeText(page.formatted)
             includeTransform.transform(pages, page)
             page.beautyText = TextBeautifier().transform(page.includeText)
             val bodyHtml = textToHtml(page.url.srcRelativePathString, page.beautyText)

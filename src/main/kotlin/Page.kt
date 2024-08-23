@@ -3,6 +3,7 @@ import kotlin.io.path.readText
 
 data class Page(val url: RatUrl) {
     val raw: String = url.srcAbsolutePath.readText()
+    val formatted: String = TextFormatter.transform(raw)
     val supsecs = mutableListOf<MutableList<MutableList<String>>>()
 
     var summaryParag: String? = null
