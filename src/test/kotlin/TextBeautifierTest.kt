@@ -40,7 +40,7 @@ class TextBeautifierTest {
 
     @Test
     fun lineTransformer() {
-        var transformer = LineTransformer(false)
+        var transformer = LineTransform(false)
         var lineIn = "0 spaces."
         var lineOu = "0 spaces."
         assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
@@ -55,19 +55,19 @@ class TextBeautifierTest {
         lineOu = "    4 spaces."
         assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
 
-        transformer = LineTransformer(false, LineTransformer().simpleSpacesTransformer)
+        transformer = LineTransform(false, LineTransform().simpleSpacesTransformer)
         lineIn = "   3 spaces,  2 spaces."
         lineOu = "&nbsp;&nbsp;&nbsp;3 spaces,&nbsp;&nbsp;2 spaces."
         assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
 
-        transformer = LineTransformer(true, LineTransformer().simpleSpacesTransformer)
+        transformer = LineTransform(true, LineTransform().simpleSpacesTransformer)
         lineIn = " 1 space."
         lineOu = "&nbsp;1 space."
         assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
 
-        transformer = LineTransformer()
+        transformer = LineTransform()
         lineIn = "   3 spaces,  2 spaces."
-        assertFailsWith(LineTransformer.MultispacesOnlyAtStart::class) {
+        assertFailsWith(LineTransform.MultispacesOnlyAtStart::class) {
             transformer.transform(
                 lineIn
             ) { word: String -> word }

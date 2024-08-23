@@ -17,7 +17,7 @@ THIS INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES
  - https://linkedin.com/in/dmitryratty
  - https://github.com/dmitryratty
 
-#include-short other/map
+#include-short /sitemap
 
 If I dislike living I can kill myself.
 If I have a goal I can pursue it.
@@ -37,25 +37,25 @@ Fear is the mind-killer.
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
 - https://en.wikipedia.org/wiki/Idiot_plot
 
-#include-short life/judas-goat
+#include-short /life/judas-goat
 
-#include-short life/benjamin-jesty
+#include-short /life/benjamin-jesty
 
-#include-short life/horned-goodness
+#include-short /life/horned-goodness
 
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
 
 * * *
 
-#include life/demon-core.txt
+#include /life/demon-core
 
 * * *
 
-#include life/bourbaki-weil.txt
+#include /life/bourbaki-weil
 
 * * *
 
-#include life/alexander-grothendieck.txt
+#include /life/alexander-grothendieck
 
 * * *
 
@@ -83,7 +83,7 @@ https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющи�
 
 * * *
 
-#include life/srinivasa-ramanujan.txt
+#include /life/srinivasa-ramanujan
 
 * * *
 

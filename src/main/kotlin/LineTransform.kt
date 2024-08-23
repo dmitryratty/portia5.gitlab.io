@@ -1,4 +1,4 @@
-class LineTransformer(
+class LineTransform(
     private val multispacesOnlyAtStart: Boolean = true,
     private val spacesTransformer: (spaces: String) -> String = { spaces: String -> spaces }
 ) {

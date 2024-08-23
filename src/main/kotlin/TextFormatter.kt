@@ -6,7 +6,7 @@ class TextFormatter {
     }
 
     fun main() {
-        Utils().textPagesInput().forEach {
+        Utils.textPagesInput().forEach {
             val file = it.value
             file.writeText(transform(file.readText()))
         }
@@ -27,7 +27,7 @@ class TextFormatter {
 
     fun transformParagraph(paragraph: String): String {
         val result = StringBuilder()
-        Utils().splitParagraphToLines(paragraph).forEach { line ->
+        Utils.splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
@@ -38,7 +38,7 @@ class TextFormatter {
 
     fun transform(text: String): String {
         val result = StringBuilder()
-        Utils().splitToParagraphs(text).forEach { paragraph ->
+        Utils.splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }

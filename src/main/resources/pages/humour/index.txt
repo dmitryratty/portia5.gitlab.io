@@ -22,12 +22,6 @@
 - Да пить я хочу.
 - Так пей, что ты ко мне пристал-то?!
 
-Профессор идёт по коридору, к нему обращается студент:
-- Здравствуйте, можно ли мне прийти в ваш офис в 4 часа дня сегодня?
-- Да.
-- Значит, вы придёте?
-- Нет.
-
 "Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials".
 - https://doi.org/10.1136/bmj.327.7429.1459
 "Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".
@@ -38,8 +32,8 @@
 
 * * *
 
-#include other/math-methods.txt
+#include /humour/math-methods
 
 * * *
 
-#include life/bourbaki-weil.txt
+#include-section /life/bourbaki-weil

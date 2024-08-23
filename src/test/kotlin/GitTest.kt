@@ -11,7 +11,7 @@ import kotlin.test.Test
  */
 class GitTest {
 
-    val repo = Utils().testResourcesDir.resolve("gitrepo").toFile()
+    val repo = Utils.testResourcesDir.resolve("gitrepo").toFile()
 
     @Test
     fun main1() {

@@ -5,7 +5,7 @@ class TextBeautifier {
     private val breakLevelOneBeautified = "<•>"
     private val dataStart = "<<"
     private val dataEnd = ">>"
-    private val lineTransformer = LineTransformer()
+    private val lineTransform = LineTransform()
 
     fun transformWord(word: String): String {
         if (word == breakLevelOne) return breakLevelOneBeautified
@@ -13,7 +13,7 @@ class TextBeautifier {
         if (word == dataStart) return "❝"
         if (word == dataEnd) return "❞"
         if (!typewriterApostrophes) {
-            if (!Utils().isHyperlink(word)) {
+            if (!Utils.isHyperlink(word)) {
                 // ''''' - Wikipedia typewriter apostrophe.
                 // ’’’’’ - Substack curly apostrophe.
                 // ’’’’’ (U+2019 RIGHT SINGLE QUOTATION MARK)
@@ -30,10 +30,10 @@ class TextBeautifier {
             newLine = newLine.replaceFirst("- ", "— ")
         }
         newLine = newLine.replace("...", "…").replace(" - ", " — ")
-        return lineTransformer.transform(newLine, ::transformWord)
+        return lineTransform.transform(newLine, ::transformWord)
     }
 
-    val shortSeparator = IncludeTransformer().shortSeparator
+    val shortSeparator = IncludeTransform().supersectionSeparator
     val beautifiedShortSeparator = "⁂ ⁂ ⁂"
 
     fun transformParagraph(paragraph: String): String {
@@ -41,7 +41,7 @@ class TextBeautifier {
             return beautifiedShortSeparator
         }
         val result = StringBuilder()
-        Utils().splitParagraphToLines(paragraph).forEach { line ->
+        Utils.splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
@@ -52,7 +52,7 @@ class TextBeautifier {
 
     fun transform(text: String): String {
         val result = StringBuilder()
-        Utils().splitToParagraphs(text).forEach { paragraph ->
+        Utils.splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }

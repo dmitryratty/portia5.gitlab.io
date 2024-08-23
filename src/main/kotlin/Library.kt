@@ -1,7 +1,6 @@
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import java.nio.file.Path
 import kotlin.io.path.listDirectoryEntries
 import kotlin.text.StringBuilder
 
@@ -55,8 +54,8 @@ class Library {
         if ((recommendation + entertaining + archive + hidden) != novelCount) {
             throw IllegalStateException()
         }
-        // Total novels 162, listed 127, unlisted 35.
-        // Recommendation 7, entertaining 0, archive 111, hidden 9.
+        // Total novels 163, listed 128, unlisted 35.
+        // Recommendation 10, entertaining 0, archive 109, hidden 9.
         val unlisted = 35
         print("Total novels ${novelCount + unlisted}, listed $novelCount, unlisted $unlisted.")
         print(" ")
@@ -83,12 +82,12 @@ class Library {
     }
 
     private fun loadWritings(): MutableList<Writing> {
-        val resourcesDir = Utils().resourcesDir
+        val resourcesDir = Utils.resourcesDir
         val writingsIn: MutableList<Writing> = arrayListOf()
         resourcesDir.listDirectoryEntries("library*.json").forEach {
             writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
         }
-        printCount(writingsIn)
+        //printCount(writingsIn)
 
         val format = Json { prettyPrint = true }
 
@@ -108,7 +107,7 @@ class Library {
 
     private fun generatePublic() {
         val writingsIn = loadWritings()
-        val libraryOut = Utils().generatedPagesDir
+        val libraryOut = Utils.srcPagesGeneratedDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn
