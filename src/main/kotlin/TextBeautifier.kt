@@ -33,7 +33,7 @@ class TextBeautifier {
         return lineTransform.transform(newLine, ::transformWord)
     }
 
-    val shortSeparator = IncludeTransform().supersectionSeparator
+    val shortSeparator = IncludeTransform().supsecSeparatorTemp
     val beautifiedShortSeparator = "⁂ ⁂ ⁂"
 
     fun transformParagraph(paragraph: String): String {

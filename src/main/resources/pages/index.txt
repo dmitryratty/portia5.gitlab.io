@@ -2,22 +2,22 @@
 
 << * * * >>
 
-#include-short humour
+#include-paragraph /humour
 
-#include-short diary
+#include-paragraph /diary
 
-#include-short ethics
+#include-paragraph /ethics
 
-#include-short technology
+#include-paragraph /technology
 
-#include-short biology
+#include-paragraph /biology
 
-#include-short wealth
+#include-paragraph /wealth
 
-#include-short library
+#include-paragraph /library
 
-#include-short gallery
+#include-paragraph /gallery
 
-#include-short vidya
+#include-paragraph /vidya
 
-#include-short other
+#include-paragraph /other

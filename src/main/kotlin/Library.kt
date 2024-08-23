@@ -1,8 +1,8 @@
+
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlin.io.path.listDirectoryEntries
-import kotlin.text.StringBuilder
 
 /**
  * Novel - роман.
@@ -155,7 +155,7 @@ class Library {
         }
         listsBuilder.append(postsBuilder)
 
-        listsBuilder.append("\n\n* * *\n\n")
+        listsBuilder.append("\n\n")
 
         listsBuilder.append("Ещё я читал этих авторов. </> ")
         val authors = writingsIn

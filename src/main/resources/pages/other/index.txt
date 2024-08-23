@@ -17,7 +17,7 @@ THIS INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES
  - https://linkedin.com/in/dmitryratty
  - https://github.com/dmitryratty
 
-#include-short /sitemap
+#include-paragraph /sitemap
 
 If I dislike living I can kill myself.
 If I have a goal I can pursue it.
@@ -30,18 +30,18 @@ Fear is the mind-killer.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступления. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину за то, что не ощущаю того, что согласно текущим нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
 
-#include-short news
+#include-paragraph /news
 
 Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
 - https://en.wikipedia.org/wiki/Idiot_plot
 
-#include-short /life/judas-goat
+#include-paragraph /life/judas-goat
 
-#include-short /life/benjamin-jesty
+#include-paragraph /life/benjamin-jesty
 
-#include-short /life/horned-goodness
+#include-paragraph /life/horned-goodness
 
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
 
@@ -51,7 +51,7 @@ https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющи�
 
 * * *
 
-#include /life/bourbaki-weil
+#include-section /life/bourbaki-weil
 
 * * *
 

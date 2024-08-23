@@ -7,11 +7,11 @@
 
 * * *
 
-#include diary/parents.txt
+#include /diary/parents
 
 * * *
 
-#include diary/smell-of-fist.txt
+#include /diary/smell-of-fist
 
 * * *
 
@@ -29,7 +29,7 @@ TODO. Как мы прожили лето в России в гостях у А�
 
 * * *
 
-#include diary/winter-sunny-day.txt
+#include /diary/winter-sunny-day
 
 * * *
 
@@ -41,7 +41,7 @@ TODO. Как мы прожили лето в России в гостях у А�
 
 * * *
 
-#include diary/caught-masturbating.txt
+#include /diary/caught-masturbating
 
 * * *
 
@@ -49,7 +49,7 @@ TODO. Воспоминания о том, как во дворе слабых з
 
 * * *
 
-#include diary/sweet-school-time.txt
+#include /diary/sweet-school-time
 
 * * *
 
@@ -75,7 +75,7 @@ TODO. Подработка Дед Морозом на корпоративах. 
 
 * * *
 
-#include diary/holiday-is-coming.txt
+#include /diary/holiday-is-coming
 
 * * *
 
@@ -95,4 +95,4 @@ TODO. Подработка Дед Морозом на корпоративах. 
 
 * * *
 
-#include diary/blood-filled-mouth.txt
+#include /diary/blood-filled-mouth

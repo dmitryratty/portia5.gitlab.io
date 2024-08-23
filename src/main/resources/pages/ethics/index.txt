@@ -46,7 +46,7 @@ I was thinking the Three Kingdoms war numbers must be inflated, so I did some di
 
 * * *
 
-#include life/sakalauskas-case.txt
+#include /life/sakalauskas-case
 
 * * *
 

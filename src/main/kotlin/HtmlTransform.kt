@@ -1,7 +1,6 @@
+
 import Utils.hostName
 import Utils.resourcesDir
-import kotlin.io.path.*
-import kotlin.text.StringBuilder
 
 class HtmlTransform(
     /**
@@ -9,12 +8,6 @@ class HtmlTransform(
      */
     val xhmtlCompatibleVoidElements: Boolean = false
 ) {
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            HtmlTransform().main()
-        }
-    }
 
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
@@ -32,17 +25,15 @@ class HtmlTransform(
     private val setOfLinks = sortedSetOf<String>()
     private val setOfLongWords = sortedSetOf<String>()
 
-    fun main() {
-        val pages = Utils.textPagesInput().entries.associate {
-            it.key.pathString to Page(it.key, it.value)
-        }
+    fun main(urls: List<RatUrl>) {
+        val pages = urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) }
         val includeTransform = IncludeTransform()
         pages.forEach {
             val page = it.value
             includeTransform.transform(pages, page)
             page.beautyText = TextBeautifier().transform(page.includeText)
-            val bodyHtml = textToHtml(page.pathString, page.beautyText)
-            val htmlFile = page.htmlOutFile
+            val bodyHtml = textToHtml(page.url.srcRelativePathString, page.beautyText)
+            val htmlFile = page.htmlOutFile.toFile()
             htmlFile.parentFile.mkdirs()
             htmlFile.writeText(htmlPage(page.title, bodyHtml, page.navigation))
         }

@@ -1,12 +1,19 @@
-import java.io.File
 import java.util.*
+import kotlin.io.path.readText
 
-data class Page(val path: String, val raw: String) {
-    var summaryText: String? = null
-    var includeFullText: String? = null
+data class Page(val url: RatUrl) {
+    val raw: String = url.srcAbsolutePath.readText()
+    val supsecs = mutableListOf<MutableList<MutableList<String>>>()
+
+    var summaryParag: String? = null
+    var summarySection: MutableList<String>? = null
+    var summaryMax: MutableList<String>? = null
+
     var includeText: String = ""
-    lateinit var beautyfiedText: String
-    val bottomNavigation = path != "index.txt"
+    var beautyText: String = ""
+
+    val navigation = !url.isRoot
+    val htmlOutFile = url.dstAbsolutePath
 
     private var _title: String? = null
     val title: String
@@ -14,19 +21,16 @@ data class Page(val path: String, val raw: String) {
             initializeTitle()
             return _title ?: throw IllegalStateException()
         }
+
     private fun initializeTitle() {
         if (_title != null) {
             return
         }
-        if (path == "index.txt") {
+        if (url.isRoot) {
             _title = "Well… Yes!"
             return
         }
-        var name = if (path.endsWith("/index.txt")) {
-            path.removeSuffix("/index.txt")
-        } else {
-            path.removeSuffix(".txt")
-        }
+        var name = url.relativeUrl.removePrefix("/")
         if (name.contains('/')) {
             _title = "Well… \"$name\"!"
         } else {
@@ -35,9 +39,5 @@ data class Page(val path: String, val raw: String) {
             }
             _title = "Well… $name!"
         }
-    }
-
-    fun htmlOutFile(): File {
-        return Utils().buildOutDir.resolve("${path.removeSuffix("txt")}html").toFile()
     }
 }
