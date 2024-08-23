@@ -51,7 +51,7 @@ https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющи�
 
 * * *
 
-#include-section /life/bourbaki-weil
+#include-paragraph /life/bourbaki
 
 * * *
 

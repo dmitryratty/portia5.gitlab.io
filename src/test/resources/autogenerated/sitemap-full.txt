@@ -39,7 +39,7 @@
 [3] /library/read-done[.html]
 [3] /life/alexander-grothendieck[.html]
 [3] /life/benjamin-jesty[.html]
-[3] /life/bourbaki-weil[.html]
+[3] /life/bourbaki[.html]
 [3] /life/demon-core[.html]
 [3] /life/fear-killed-mind[.html]
 [3] /life/horned-goodness[.html]

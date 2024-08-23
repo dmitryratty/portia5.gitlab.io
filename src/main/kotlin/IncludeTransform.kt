@@ -86,17 +86,30 @@ class IncludeTransform {
             }
             val section = firstSupsec[0]
             if (section.size == 1) {
-                page.summaryParag = "${section[0]}\n - ${page.url.absoluteUrl}"
+                page.summaryParag = summaryParag(section[0], page.url.absoluteUrl)
             } else {
-                page.summarySection = mutableListOf()
-                page.summarySection!!.addAll(section)
-                page.summarySection!!.add(page.url.absoluteUrl)
+                page.summarySection = summarySection(section, page.url.absoluteUrl)
             }
         } else if (page.supsecs.size == 3) {
-            throw IllegalStateException("TODO")
+            val firstSection = page.supsecs[0][0]
+            if (firstSection.size != 1) throw IllegalStateException()
+            page.summaryParag = summaryParag(firstSection[0], page.url.absoluteUrl)
+            if (page.supsecs[1].size != 1) throw IllegalStateException()
+            page.summarySection = summarySection(page.supsecs[1][0], page.url.absoluteUrl)
         } else {
             throw IllegalStateException()
         }
         page.includeText = flatten(page)
     }
-}
+
+    fun summaryParag(parag: String, url: String): String {
+        return "${parag}\n - $url"
+    }
+
+    fun summarySection(section: MutableList<String>, url: String): MutableList<String> {
+        val newSection = mutableListOf<String>()
+        newSection.addAll(section)
+        newSection.add(url)
+        return newSection
+    }
+ }

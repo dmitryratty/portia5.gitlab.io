@@ -78,7 +78,7 @@ https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
 https://dmitryratty.gitlab.io/life/benjamin-jesty
-https://dmitryratty.gitlab.io/life/bourbaki-weil
+https://dmitryratty.gitlab.io/life/bourbaki
 https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/fear-killed-mind
 https://dmitryratty.gitlab.io/life/horned-goodness
