@@ -1,4 +1,5 @@
 http://dx.doi.org/10.2139/ssrn.3440802
+http://ladykosha.ru
 http://sila.media/game
 http://www.nonograms.org/nonograms2/i/11173
 http://xahlee.info/math/algorithmic_math_art.html
@@ -57,7 +58,6 @@ https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
-https://dmitryratty.gitlab.io/chaos
 https://dmitryratty.gitlab.io/diary
 https://dmitryratty.gitlab.io/diary/blood-filled-mouth
 https://dmitryratty.gitlab.io/diary/caught-masturbating
@@ -74,6 +74,7 @@ https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
 https://dmitryratty.gitlab.io/library
+https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
@@ -89,10 +90,14 @@ https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/music
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
+https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/generated/library-favorites
 https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
 https://dmitryratty.gitlab.io/other/languages
+https://dmitryratty.gitlab.io/other/wandering/telegram
+https://dmitryratty.gitlab.io/other/wandering/wikipedia
+https://dmitryratty.gitlab.io/other/wandering/youtube
 https://dmitryratty.gitlab.io/sitemap
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
@@ -426,6 +431,7 @@ https://t.me/ai_newz/2727
 https://t.me/ai_newz/2796
 https://t.me/ai_newz/2813
 https://t.me/ai_newz/3056
+https://t.me/alicepsycho
 https://t.me/alphynarium/561
 https://t.me/altersystem
 https://t.me/android_broadcast
@@ -484,6 +490,7 @@ https://t.me/fmusbot
 https://t.me/foxes_in_loveRU
 https://t.me/ftladvisers/2534
 https://t.me/full_brains/45
+https://t.me/furyu
 https://t.me/gigachat_bot
 https://t.me/gubernatorik
 https://t.me/guruschannel
@@ -501,6 +508,7 @@ https://t.me/heuristics_ai
 https://t.me/hi_anon
 https://t.me/hn_best_comments
 https://t.me/holarhia
+https://t.me/infosecmemes
 https://t.me/intelligencepotion/22
 https://t.me/intelligencepotion/84
 https://t.me/intelligencepotion/89
@@ -519,6 +527,7 @@ https://t.me/kcs_stuff
 https://t.me/kcs_stuff/8212
 https://t.me/kcs_stuff/8451
 https://t.me/kenoma30
+https://t.me/liminach
 https://t.me/literallly_us
 https://t.me/lost_dogs_bot
 https://t.me/lwreading
@@ -528,6 +537,7 @@ https://t.me/mashkka_ds
 https://t.me/math_channels
 https://t.me/mathmemories/33
 https://t.me/mathmemories/44
+https://t.me/mehraban112
 https://t.me/mf699
 https://t.me/mind_rise
 https://t.me/miniclippy
@@ -564,6 +574,7 @@ https://t.me/paragnomen
 https://t.me/pepega_gnezdo
 https://t.me/pepega_podval
 https://t.me/peremoyemk0stochki
+https://t.me/photographysen
 https://t.me/porcelainmeat/5610
 https://t.me/porcelainmeat/5662
 https://t.me/porcelainmeat/5723
@@ -648,13 +659,16 @@ https://t.me/veronikastepanova20011
 https://t.me/vodocanalplus
 https://t.me/vodochannel
 https://t.me/vvzvlad
+https://t.me/whale
 https://t.me/yanlyutnev
 https://t.me/yashernet/4768
 https://t.me/youcannotadvancere/71
+https://t.me/zelybaby/247
 https://t.me/zhopyimeduzy
 https://t.me/zip_log
 https://t.me/zyulindenis/93
 https://techcrunch.com/2024/06/13/former-nsa-head-joins-openai-board-and-safety-committee/
+https://thought.is/the-myth-of-the-good-listener/
 https://time.com
 https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms
 https://token.unlocks.app
@@ -691,6 +705,7 @@ https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
 https://www.dailymail.co.uk/health/article-13214693/bryan-johnson-biohacker-anti-aging-nation.html
 https://www.dailymail.co.uk/news/article-13736603/CIA-agent-Al-Qaeda-President-Bush-Malaysian-hotel.html
 https://www.davidchauvin.fr/galerie/
+https://www.fiatmarketcap.com
 https://www.figma.com/blog/line-height-changes/
 https://www.inpearls.ru/2006987
 https://www.inpearls.ru/477869
@@ -790,6 +805,7 @@ https://youtu.be/AgQjHe0PCho?si=DXDprP1N8aVcSTk-
 https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
 https://youtu.be/C2Yx90pytqs?si=MqiSAW98m3L2AZub
 https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
+https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz

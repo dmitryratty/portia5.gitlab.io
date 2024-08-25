@@ -3,7 +3,6 @@ https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
-https://dmitryratty.gitlab.io/chaos
 https://dmitryratty.gitlab.io/diary
 https://dmitryratty.gitlab.io/diary/blood-filled-mouth
 https://dmitryratty.gitlab.io/diary/caught-masturbating
@@ -20,6 +19,7 @@ https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
 https://dmitryratty.gitlab.io/library
+https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
@@ -35,10 +35,14 @@ https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/music
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
+https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/generated/library-favorites
 https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
 https://dmitryratty.gitlab.io/other/languages
+https://dmitryratty.gitlab.io/other/wandering/telegram
+https://dmitryratty.gitlab.io/other/wandering/wikipedia
+https://dmitryratty.gitlab.io/other/wandering/youtube
 https://dmitryratty.gitlab.io/sitemap
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
