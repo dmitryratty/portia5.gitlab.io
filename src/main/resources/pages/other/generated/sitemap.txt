@@ -22,7 +22,13 @@ https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
 https://dmitryratty.gitlab.io/library
+https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
+https://dmitryratty.gitlab.io/library/lesswrong/chaos
+https://dmitryratty.gitlab.io/library/lesswrong/sequences
+https://dmitryratty.gitlab.io/library/lesswrong/sequences/thou-art-godshatter
+https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
+https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
 https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
@@ -71,3 +77,5 @@ https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria
 https://dmitryratty.gitlab.io/wealth
+https://dmitryratty.gitlab.io/wealth/ask-llm
+https://dmitryratty.gitlab.io/wealth/chaos

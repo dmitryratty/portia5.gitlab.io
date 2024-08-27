@@ -9,11 +9,16 @@ https://en.wikipedia.org/wiki/Distribution_of_wealth
 "Палки, которые выстрелили":
 - https://vc.ru/639216
 
+Люди могут создавать криптовалюты и брать на себя разные обязательства связанные с токенами этих криптовалют. Например можно взять на себя обязательство ежемесячно выплачивать владельцам токенов твоей криптовалюты процент от полученных тобой доходов. Или можно взять на себя обязательство обменивать токены своей криптовалюты на секунды своего внимания.
+
 https://rationalanswer.club - тут про деньги и возможно полезно, но эстетика вызывает невыносимую скуку, избегаю читать.
 
 https://en.wikipedia.org/wiki/Hawala
 
 https://www.fiatmarketcap.com
+
+Треш-игры в Стиме. 2 миллиона рублей чистой прибыли с 8 проектов за год.
+- https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
 
 * * *
 
@@ -67,12 +72,3 @@ Hummingbot is an open source framework that helps you build automated trading st
 
 Фальшивые форумы из комментариев скопированных из Тг. Как они зарабатывают? Реклама, влияние на поисковую выдачу?
 - https://t.me/TLSOTDI/3
-
-* * *
-
-Треш-игры в Стиме. 2 миллиона рублей чистой прибыли с 8 проектов за год.
-- https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
-
-* * *
-
-https://t.me/prostoecon
