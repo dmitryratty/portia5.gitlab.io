@@ -89,11 +89,13 @@ https://dmitryratty.gitlab.io/library/maybe-will-read
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
 https://dmitryratty.gitlab.io/life/benjamin-jesty
-https://dmitryratty.gitlab.io/life/bourbaki
+https://dmitryratty.gitlab.io/life/bourbaki-dieudonne
+https://dmitryratty.gitlab.io/life/bourbaki-weil
 https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/fear-killed-mind
 https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
+https://dmitryratty.gitlab.io/life/mathematicians
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/location
@@ -232,6 +234,7 @@ https://en.wikipedia.org/wiki/No_free_lunch_in_search_and_optimization
 https://en.wikipedia.org/wiki/No_free_lunch_theorem
 https://en.wikipedia.org/wiki/Normative_ethics
 https://en.wikipedia.org/wiki/Olfactory_reference_syndrome
+https://en.wikipedia.org/wiki/Pale_Blue_Dot
 https://en.wikipedia.org/wiki/Patrice_Lumumba
 https://en.wikipedia.org/wiki/Persecutory_delusion
 https://en.wikipedia.org/wiki/Phenylpiracetam
@@ -257,6 +260,7 @@ https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
 https://en.wikipedia.org/wiki/Three_Kingdoms
 https://en.wikipedia.org/wiki/Tit_for_tat
 https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)
 https://en.wikipedia.org/wiki/Tukhchar_massacre
 https://en.wikipedia.org/wiki/Uncontacted_peoples
 https://en.wikipedia.org/wiki/Universally_unique_identifier
@@ -367,6 +371,8 @@ https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pikabu.ru/story/likhie_90e_s_yelementami_krepostnogo_prava_v_kurske_11677345
+https://pikabu.ru/story/otvet_na_post_pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11748342
+https://pikabu.ru/story/pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11745537
 https://pimbook.org/
 https://pl.kotobank.ch/notice/Ah94DyY4JnE7Sau1Pk
 https://playground.tensorflow.org/
@@ -724,6 +730,7 @@ https://www.astralcodexten.com/p/the-compounding-loophole
 https://www.astralcodexten.com/p/why-does-ozempic-cure-all-diseases
 https://www.atvbt.com/the-carrot-problem
 https://www.bitsofwonder.co/p/a-revolution-in-biology
+https://www.britannica.com/story/7-banned-books-through-time
 https://www.britannica.com/topic/2023-The-Year-in-Review
 https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
 https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
@@ -850,6 +857,7 @@ https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/asr6_eNCuoU?si=x97cVDWULexvaGOc
 https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
+https://youtu.be/ixQfL9LWt8k?si=n-MPhygHJvCPtF-E
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv

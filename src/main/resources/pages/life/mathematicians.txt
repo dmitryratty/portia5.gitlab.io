@@ -1,0 +1,9 @@
+Математики это спартанцы.
+
+<< * * * >>
+
+#include-section /life/bourbaki-weil
+
+* * *
+
+#include-section /life/bourbaki-dieudonne

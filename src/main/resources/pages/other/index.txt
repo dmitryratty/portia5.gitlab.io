@@ -43,25 +43,21 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 
 #include-paragraph /life/benjamin-jesty
 
-#include-paragraph /life/bourbaki
+#include-paragraph /life/mathematicians
 
-#include-paragraph /life/horned-goodness
+#include-paragraph /life/srinivasa-ramanujan
+
+#include-paragraph /life/alexander-grothendieck
 
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
+
+https://en.wikipedia.org/wiki/Pale_Blue_Dot
 
 #include-paragraph /sitemap
 
 * * *
 
 #include /life/demon-core
-
-* * *
-
-#include /life/alexander-grothendieck
-
-* * *
-
-#include /life/srinivasa-ramanujan
 
 * * *
 
