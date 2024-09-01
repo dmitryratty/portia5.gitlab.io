@@ -2,42 +2,28 @@
 
 << * * * >>
 
-THIS INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-Средства связи. Ко мне можно на «ты» и без приветствий-прощаний.
- - dmitryratty@gmail.com
- - Jabber: dmitryratty@creep.im
- - https://gitlab.com/dmitryratty
+#include-paragraph /other/transparent-society
 
-Пасти чудовищ.
- - https://t.me/dmitryratty
- - https://vk.com/dmitryratty
- - https://twitter.com/dmitryratty
- - https://instagram.com/dmitryratty
- - https://linkedin.com/in/dmitryratty
- - https://github.com/dmitryratty
+#include-paragraph /other/incantations
 
-If I dislike living I can kill myself.
-If I have a goal I can pursue it.
-If I have something in my way I can shatter it.
+#include-paragraph /life/fear-is-death
 
-Fear is the mind-killer.
-- https://dmitryratty.gitlab.io/life/fear-killed-mind
+#include-paragraph /life/thou-art-godshatter
 
-#include-paragraph /library/lesswrong/sequences/thou-art-godshatter
+#include-paragraph /life/games-to-play
 
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
 Отказ от негативной оценки своих первичных эмоций может позволить избавиться от негативных вторичных эмоций. Я ощущаю страх перед началом публичного выступления. Я ощущаю стыд за то, что мне страшно перед началом публичного выступления. Потому что в детстве я выучил, что бояться чего-либо - стыдно. Можно попробовать выучить, что испытывать страх это нормально и перестать испытывать сопутствующий стыд. </> Ещё: "Я ощущаю вину за то, что не ощущаю того, что согласно текущим нормам ощущать в данной ситуации считается хорошо...", "Плохо быть эгоистичным, холодным, слабым...".
-
-https://galaxy.opensyllabus.org
 
 #include-paragraph /news
 
 Сейчас на Земле 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно 254 года.
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
-- https://en.wikipedia.org/wiki/Idiot_plot
+ - https://en.wikipedia.org/wiki/Idiot_plot
 
 #include-paragraph /life/judas-goat
 
@@ -49,43 +35,10 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 
 #include-paragraph /life/alexander-grothendieck
 
-https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
+#include-paragraph /life/demon-core
 
-https://en.wikipedia.org/wiki/Pale_Blue_Dot
+https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит https://en.wikipedia.org/wiki/Pale_Blue_Dot https://galaxy.opensyllabus.org
+
+#include-paragraph /other/contacts
 
 #include-paragraph /sitemap
-
-* * *
-
-#include /life/demon-core
-
-* * *
-
-"Why Everything is Becoming a Game". </> Skinner's goal was to make his pigeons peck the button as many times as possible. From his experiments, he made three discoveries. First, the pigeons pecked most when doing so yielded immediate, rather than delayed, rewards. Second, the pigeons pecked most when it rewarded them randomly, rather than every time. Skinner's third discovery occurred when he noticed the pigeons continued to peck the button long after the food dispenser was empty, provided they could hear it click. He realized the pigeons had become conditioned to associate the click with the food, and now valued the click as a reward in itself. </> Skinner's three key insights — immediate rewards work better than delayed, unpredictable rewards work better than fixed, and conditioned rewards work better than primary...
-
-</> Kaczynski was an awkward but gifted student, in a school IQ test he'd scored 167. </> In a lab not far from where Skinner had once experimented with pigeons, psychologists linked to US intelligence were now experimenting with humans — one of whom was Kaczynski. Under the glare of blinding lights, he was methodically humiliated to see how he reacted. He claimed the experience didn't affect him, and yet, within just a few years, he'd developed an intense paranoia about psychological conditioning.
-
-</> Of what value is adding a few years to your life if the cost is a life worth living?
-
-</> Casinos keep their customers happily losing money by distracting them with minor side games they're likely to win. The small victories convince them they're winning overall even as they lose the only games that actually matter. </> This strange quirk of human behavior can even cost lives. In South Korea, a young couple became so addicted to raising a virtual baby that they let their real baby starve to death. The parents prioritized what they could quantify — levelling up their virtual baby — over that which they couldn't — the life of their real one.
-
-</> So how do you decide which games to play? </> Even in a world where everything is a game, you don't have to play by other people's rules; you have a wide open world to create your own.
-
-<< "Why Everything is Becoming a Game" by "GURWINDER" at "APR 20, 2024" https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game #Life #GameTheory #Trickery #Ethics >>
-
-* * *
-
-Как увеличивать кооперативность? Акаузальный обмен, если есть способ хорошо предсказывать поведение игроков. Превращение дилемм заключённого в повторяющиеся, если есть возможность отслеживать историю игр игроков.
-
-Фантастический вариант с отслеживанием истории игр. Покрываем всю Землю камерами наблюдения, включая даже туалеты и комнаты управления ядерными ракетами. Любой человек в любой момент может подключиться к любой камере, смотреть и записывать. Все цифровые потоки информации тоже полностью открытые включая денежные переводы и личную переписку. Всё это работает одинаково для президентов и нищих. Всё записывается и записи по умолчанию хранятся какое-то время.
-
-Таким образом превращаем дилеммы заключённого в повторяющиеся благодаря возможности отслеживать историю игр всех игроков. Изменится ли уровень кооперации между людьми, изменится ли эффективность координации, станет ли мир более или менее приятным местом?
-
-Можно попробовать демонстрировать 24/7 свою собственную жизнь, вот такой эксперимент длительностью в год:
-- https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
-
-#GameTheory #Madness
-
-* * *
-
-Precommitment. Acausal trade. Exploration-exploitation dilemma. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. Лаконичность. </> Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. If you stuck try move reflection one level up. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Virtue of silence.

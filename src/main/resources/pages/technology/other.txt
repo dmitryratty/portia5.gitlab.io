@@ -1,30 +1,50 @@
-#Tech https://en.wikipedia.org/wiki/Mystery_meat_navigation
+https://en.wikipedia.org/wiki/Mystery_meat_navigation
 
-* * *
+RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.
+- https://regexr.com
+- https://github.com/gskinner/regexr/
 
-#Tech
-https://en.wikipedia.org/wiki/Regression_toward_the_mean
-...
-"How We're Fooled By Statistics" by "Veritasium" at "Nov 23, 2013".
-...
-Is punishment or reward more effective as feedback? Do new medical treatments really work? What about streaks in sport? Without considering regression to the mean, we are prone to making significant errors. </> Is punishment or reward more effective for helping people learn. A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This fining has been verified not just with humans, but also with other species. </> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
-...
-https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+#ProceduralGeneration #OpenSource https://infinigen.org/
 
-* * *
+Уход MetaMask с BSD-like лицензии на "Платите нам деньги если вы используете наш код в бизнесе с более 10 тысяч пользователей ежемесячно". #OpenSource
+- https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
 
-#Tech
+https://en.wikipedia.org/wiki/Rule_of_least_power
+
+Apple curl security incident
+https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
+https://github.com/curl/curl/issues/12604
+Comments: https://readhacker.news/c/63MEC
+
+VCard and RSS as an alternative to social media
+Link: https://readhacker.news/s/64BZQ
+Comments: https://readhacker.news/c/64BZQ
+
+https://t.me/android_broadcast - постит сториз.
+
+https://privacyspreadsheet.com/messaging-apps https://github.com/du82/privacyspreadsheet.com
+
+https://puzzles.mit.edu/2013/coinheist.com/rubik/a_regular_crossword/grid.pdf https://jimbly.github.io/regex-crossword/ https://t.me/cabiastuff/1101
+
+`imageSmoothingQuality` property doesn't provide expected quality https://issues.chromium.org/issues/40044062
+
 - https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
 - https://effectiviology.com/premature-optimization
 
-* * *
-
-#Tech Intel Management Engine vulnerablity.
+Intel Management Engine vulnerablity.
 - https://mjg59.dreamwidth.org/48429.html
 
 * * *
 
-#Tech
+https://en.wikipedia.org/wiki/Regression_toward_the_mean
+
+"How We're Fooled By Statistics" by "Veritasium" at "Nov 23, 2013".
+
+Is punishment or reward more effective as feedback? Do new medical treatments really work? What about streaks in sport? Without considering regression to the mean, we are prone to making significant errors. </> Is punishment or reward more effective for helping people learn. A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This fining has been verified not just with humans, but also with other species. </> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
+
+https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+
+* * *
 
 https://en.wikipedia.org/wiki/InterPlanetary_File_System
 
@@ -37,43 +57,3 @@ During the block of Wikipedia in Turkey, IPFS was used to create a mirror of Wik
 Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser.
 
 Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
-
-* * *
-
-RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.
-- https://regexr.com
-- https://github.com/gskinner/regexr/
-
-* * *
-
-#ProceduralGeneration #OpenSource https://infinigen.org/
-
-* * *
-
-Уход MetaMask с BSD-like лицензии на "Платите нам деньги если вы используете наш код в бизнесе с более 10 тысяч пользователей ежемесячно". #OpenSource
-- https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
-
-* * *
-
-https://en.wikipedia.org/wiki/Rule_of_least_power
-
-* * *
-
-Apple curl security incident
-https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
-https://github.com/curl/curl/issues/12604
-Comments: https://readhacker.news/c/63MEC
-
-* * *
-
-VCard and RSS as an alternative to social media
-Link: https://readhacker.news/s/64BZQ
-Comments: https://readhacker.news/c/64BZQ
-
-* * *
-
-https://t.me/android_broadcast - постит сториз.
-
-* * *
-
-https://privacyspreadsheet.com/messaging-apps https://github.com/du82/privacyspreadsheet.com
