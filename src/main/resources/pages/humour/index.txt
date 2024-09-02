@@ -30,7 +30,7 @@
 ...a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger." "Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
 
-#include-paragraph /life/mathematicians
+#include-paragraph /life/mathematicians-sparta
 
 * * *
 

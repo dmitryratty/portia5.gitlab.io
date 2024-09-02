@@ -98,7 +98,7 @@ https://dmitryratty.gitlab.io/life/fear-is-death
 https://dmitryratty.gitlab.io/life/games-to-play
 https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
-https://dmitryratty.gitlab.io/life/mathematicians
+https://dmitryratty.gitlab.io/life/mathematicians-sparta
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/life/thou-art-godshatter
@@ -124,6 +124,7 @@ https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
 https://dmitryratty.gitlab.io/technology/neural-network
 https://dmitryratty.gitlab.io/technology/other
+https://dmitryratty.gitlab.io/technology/puzzles
 https://dmitryratty.gitlab.io/technology/software
 https://dmitryratty.gitlab.io/technology/unicode
 https://dmitryratty.gitlab.io/technology/web
@@ -734,6 +735,7 @@ https://time.com
 https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms
 https://token.unlocks.app
 https://tokensniffer.com
+https://tproger.ru/problems/logic-problem-for-weights/
 https://twitter.com/bubblemaps
 https://twitter.com/dmitryratty
 https://tylervigen.com/spurious-correlations
@@ -867,6 +869,7 @@ https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/AMla4-Gsxuc?si=un0zVPOqkLlabROp
+https://youtu.be/AcQPMvYw2yQ?si=zKoUGVk2KQWIdXvn
 https://youtu.be/AgQjHe0PCho?si=DXDprP1N8aVcSTk-
 https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
 https://youtu.be/C2Yx90pytqs?si=MqiSAW98m3L2AZub
@@ -893,6 +896,7 @@ https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
+https://youtu.be/zcRUj8H3rc4?si=OayM-TFHkxsBKlZ1
 https://youtube.com/@katherineofsky?si=vvU62TJi7SyPNbeP
 https://youtube.com/c/3blue1brown
 https://youtube.com/c/MichaelPennMath

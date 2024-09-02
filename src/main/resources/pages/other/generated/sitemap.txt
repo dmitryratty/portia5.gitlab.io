@@ -41,7 +41,7 @@ https://dmitryratty.gitlab.io/life/fear-is-death
 https://dmitryratty.gitlab.io/life/games-to-play
 https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
-https://dmitryratty.gitlab.io/life/mathematicians
+https://dmitryratty.gitlab.io/life/mathematicians-sparta
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/life/thou-art-godshatter
@@ -67,6 +67,7 @@ https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
 https://dmitryratty.gitlab.io/technology/neural-network
 https://dmitryratty.gitlab.io/technology/other
+https://dmitryratty.gitlab.io/technology/puzzles
 https://dmitryratty.gitlab.io/technology/software
 https://dmitryratty.gitlab.io/technology/unicode
 https://dmitryratty.gitlab.io/technology/web
