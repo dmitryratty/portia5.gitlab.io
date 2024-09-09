@@ -8,11 +8,7 @@ INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, I
 
 #include-paragraph /other/incantations
 
-#include-paragraph /life/fear-is-death
-
 #include-paragraph /life/thou-art-godshatter
-
-#include-paragraph /life/games-to-play
 
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
@@ -37,6 +33,6 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 
 #include-paragraph /life/demon-core
 
-#include-paragraph /other/contacts
+#include-paragraph /map
 
-#include-paragraph /sitemap
+#include-paragraph /contacts

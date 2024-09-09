@@ -77,6 +77,7 @@ https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
+https://dmitryratty.gitlab.io/contacts
 https://dmitryratty.gitlab.io/diary
 https://dmitryratty.gitlab.io/diary/1988-2018
 https://dmitryratty.gitlab.io/diary/blood-filled-mouth
@@ -122,12 +123,12 @@ https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/life/thou-art-godshatter
 https://dmitryratty.gitlab.io/location
+https://dmitryratty.gitlab.io/map
 https://dmitryratty.gitlab.io/music
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/chaos
 https://dmitryratty.gitlab.io/other/coincidence-think
-https://dmitryratty.gitlab.io/other/contacts
 https://dmitryratty.gitlab.io/other/generated/library-favorites
 https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
@@ -137,7 +138,6 @@ https://dmitryratty.gitlab.io/other/transparent-society
 https://dmitryratty.gitlab.io/other/wandering/telegram
 https://dmitryratty.gitlab.io/other/wandering/wikipedia
 https://dmitryratty.gitlab.io/other/wandering/youtube
-https://dmitryratty.gitlab.io/sitemap
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -209,6 +209,7 @@ https://en.wikipedia.org/wiki/Descriptive_ethics
 https://en.wikipedia.org/wiki/Dingbat
 https://en.wikipedia.org/wiki/Distribution_of_wealth
 https://en.wikipedia.org/wiki/Donald_Ewen_Cameron
+https://en.wikipedia.org/wiki/Dune_(franchise)
 https://en.wikipedia.org/wiki/Edward_Snowden
 https://en.wikipedia.org/wiki/Egocentric_bias
 https://en.wikipedia.org/wiki/Electroreception_and_electrogenesis
@@ -221,6 +222,7 @@ https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma
 https://en.wikipedia.org/wiki/Fact-value_distinction
 https://en.wikipedia.org/wiki/False_memory
 https://en.wikipedia.org/wiki/Fleuron_(typography)
+https://en.wikipedia.org/wiki/Foundation_(book_series)
 https://en.wikipedia.org/wiki/Game_theory
 https://en.wikipedia.org/wiki/Gini_coefficient
 https://en.wikipedia.org/wiki/Glitch_art
@@ -302,6 +304,7 @@ https://en.wikiquote.org/wiki/Frank_Herbert
 https://esquire.ru/articles/5869-neil-harbisson/
 https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
 https://factorio.com/blog/post/fff-416
+https://ficbook.net/readfic/01903f6d-d14a-7e9c-84cb-507ea574b812
 https://foundation.app/
 https://foundation.app/@RatBelly
 https://foundation.app/mint/eth/0x4d7F3A8dA763aa0C812bFb3244e681E6F1EC15e4/3
@@ -397,9 +400,12 @@ https://ololo.city/coliving
 https://open.substack.com/pub/aella/p/bdsm-subtypes-and-their-prevalence
 https://open.substack.com/pub/astralcodexten/p/lukianoff-and-defining-cancel-culture
 https://open.substack.com/pub/cintra
+https://open.substack.com/pub/cognitivewonderland/p/an-ode-to-curiosity
+https://open.substack.com/pub/gurwinder/p/the-outrageous-rise-of-neotoddlerism
 https://open.substack.com/pub/gurwinder/p/why-everything-is-becoming-a-game
 https://open.substack.com/pub/jeffgiesea/p/mailbag-job-stacking
 https://open.substack.com/pub/jonathanhaidt/p/what-happened-to-fomo
+https://open.substack.com/pub/kingdomofculture/p/discourse-on-digital-colonialism
 https://open.substack.com/pub/malmesbury/p/there-is-way-too-much-serendipity
 https://open.substack.com/pub/newaltright
 https://open.substack.com/pub/thepsmiths/p/review-sick-societies-by-robert-b
@@ -409,6 +415,7 @@ https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pikabu.ru/story/likhie_90e_s_yelementami_krepostnogo_prava_v_kurske_11677345
+https://pikabu.ru/story/muzhskie_razgovoryi_11783422
 https://pikabu.ru/story/otvet_na_post_pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11748342
 https://pikabu.ru/story/pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11745537
 https://pimbook.org/
@@ -533,6 +540,7 @@ https://t.me/bayesian_little_list
 https://t.me/bioberushi
 https://t.me/black_triangle_tg
 https://t.me/black_triangle_tg/5228
+https://t.me/blockchain_job
 https://t.me/bogoedbotaet
 https://t.me/brenoritvrezorkre_channel
 https://t.me/cabiastuff/1008
@@ -544,6 +552,7 @@ https://t.me/cme_channel
 https://t.me/cognitae
 https://t.me/cognitae/176
 https://t.me/community_bot
+https://t.me/coven_community
 https://t.me/crypto_stukach/25
 https://t.me/cuprumchannel
 https://t.me/cuprumchannel/1709
@@ -573,6 +582,7 @@ https://t.me/ftladvisers/2534
 https://t.me/full_brains/45
 https://t.me/furyu
 https://t.me/gigachat_bot
+https://t.me/gonzogirl
 https://t.me/gubernatorik
 https://t.me/guruschannel
 https://t.me/habr_com
@@ -608,6 +618,7 @@ https://t.me/kcs_stuff
 https://t.me/kcs_stuff/8212
 https://t.me/kcs_stuff/8451
 https://t.me/kenoma30
+https://t.me/kissbarclub
 https://t.me/liminach
 https://t.me/literallly_us
 https://t.me/lost_dogs_bot
@@ -626,6 +637,7 @@ https://t.me/miniclippy
 https://t.me/mirf_ru
 https://t.me/mmaryasova
 https://t.me/mmaryasova/718
+https://t.me/monobogdann
 https://t.me/moonburnt_abyss
 https://t.me/morozovaeva000
 https://t.me/mtamtamtamtamta
@@ -717,6 +729,8 @@ https://t.me/station_feelgood/1434
 https://t.me/tanyamiropolskaya
 https://t.me/tapswap_bot
 https://t.me/tatiwonderland
+https://t.me/tech_priestess
+https://t.me/tech_priestess/1380
 https://t.me/tech_priestess/1584
 https://t.me/tech_priestess/562
 https://t.me/tech_priestess/85
@@ -821,6 +835,8 @@ https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_worki
 https://www.rollingstone.com/politics/politics-features/cia-agent-deep-undercover-spy-islamic-radicals-war-on-terror-1235075156/
 https://www.scottaaronson.com/papers/bb.pdf
 https://www.scribd.com/document/474097628/Classification-of-the-anatomical-variation-in-female-external-genitalia
+https://www.substack.com/@gurwinder
+https://www.substack.com/@janinedenovais
 https://www.substack.com/@waltbismarck
 https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
 https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/
@@ -886,6 +902,7 @@ https://www.zotero.org/
 https://x.com/karpathy/status/1811097021539045582
 https://yanips.com/
 https://yoksel.github.io/flex-cheatsheet/
+https://youtu.be/0VFpX6W--44?si=quwEuU2duUEqXFNK
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
