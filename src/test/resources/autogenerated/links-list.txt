@@ -100,6 +100,7 @@ https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
+https://dmitryratty.gitlab.io/incantations
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
@@ -132,12 +133,12 @@ https://dmitryratty.gitlab.io/other/coincidence-think
 https://dmitryratty.gitlab.io/other/generated/library-favorites
 https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
-https://dmitryratty.gitlab.io/other/incantations
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
 https://dmitryratty.gitlab.io/other/wandering/telegram
 https://dmitryratty.gitlab.io/other/wandering/wikipedia
 https://dmitryratty.gitlab.io/other/wandering/youtube
+https://dmitryratty.gitlab.io/other/watched
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -148,6 +149,7 @@ https://dmitryratty.gitlab.io/technology/software
 https://dmitryratty.gitlab.io/technology/unicode
 https://dmitryratty.gitlab.io/technology/web
 https://dmitryratty.gitlab.io/technology/web-fonts
+https://dmitryratty.gitlab.io/test
 https://dmitryratty.gitlab.io/test/bullet
 https://dmitryratty.gitlab.io/test/emoji-font
 https://dmitryratty.gitlab.io/test/favicon-oneliner
@@ -783,6 +785,7 @@ https://vitalik.eth.limo/general/2024/03/29/memecoins.html
 https://vk.com/comfortnayazona
 https://vk.com/dmitryratty
 https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch
+https://web.dev/articles/add-manifest
 https://woem.men/notes/9ufj0mb9nuwg05bm
 https://wormhole.com
 https://www.30secondsofcode.org/css/s/root-vs-html/
@@ -918,6 +921,7 @@ https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/RGrAFUFOcAY?si=BbE4XsN85XU0A_nD
+https://youtu.be/RjS5FYpLC9U?si=AyXQxtw-iw6x2X3L
 https://youtu.be/U9jQ8CwgefQ?si=3NJze75qotvvel-b
 https://youtu.be/Udz7ZkIZJco?si=0TUE-6xmWeyDWQ7g
 https://youtu.be/V3Soe3g9i6s?si=ujrgxpeQsuUQglWX
@@ -932,6 +936,7 @@ https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
+https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo

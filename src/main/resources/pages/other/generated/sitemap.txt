@@ -26,6 +26,7 @@ https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
+https://dmitryratty.gitlab.io/incantations
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
@@ -58,12 +59,12 @@ https://dmitryratty.gitlab.io/other/coincidence-think
 https://dmitryratty.gitlab.io/other/generated/library-favorites
 https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
-https://dmitryratty.gitlab.io/other/incantations
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
 https://dmitryratty.gitlab.io/other/wandering/telegram
 https://dmitryratty.gitlab.io/other/wandering/wikipedia
 https://dmitryratty.gitlab.io/other/wandering/youtube
+https://dmitryratty.gitlab.io/other/watched
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -74,6 +75,7 @@ https://dmitryratty.gitlab.io/technology/software
 https://dmitryratty.gitlab.io/technology/unicode
 https://dmitryratty.gitlab.io/technology/web
 https://dmitryratty.gitlab.io/technology/web-fonts
+https://dmitryratty.gitlab.io/test
 https://dmitryratty.gitlab.io/test/bullet
 https://dmitryratty.gitlab.io/test/emoji-font
 https://dmitryratty.gitlab.io/test/favicon-oneliner
