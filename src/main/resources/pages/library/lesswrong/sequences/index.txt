@@ -30,12 +30,12 @@ lesswrong.ru/69
 
 * * *
 
-#include-paragraph /life/thou-art-godshatter
+#include link /life/thou-art-godshatter
 
 * * *
 
-#include-paragraph /library/lesswrong/sequences/translation-todo
+#include link /library/lesswrong/sequences/translation-todo
 
 * * *
 
-#include-paragraph /library/lesswrong/sequences/translation-done
+#include link /library/lesswrong/sequences/translation-done

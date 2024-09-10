@@ -2,22 +2,22 @@
 
 << * * * >>
 
-#include-paragraph /humour
+#include link /humour
 
-#include-paragraph /diary
+#include link /diary
 
-#include-paragraph /ethics
+#include link /ethics
 
-#include-paragraph /technology
+#include link /technology
 
-#include-paragraph /biology
+#include link /biology
 
-#include-paragraph /wealth
+#include link /wealth
 
-#include-paragraph /library
+#include link /library
 
-#include-paragraph /gallery
+#include link /gallery
 
-#include-paragraph /vidya
+#include link /vidya
 
-#include-paragraph /other
+#include link /other

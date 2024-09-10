@@ -1,115 +1,73 @@
 class IncludeTransform {
 
-    private val includeParag = "#include-paragraph "
-    private val includeSection = "#include-section "
-    private val includeFull = "#include "
-    val supsecSeparatorTemp = "<< * * * >>"
-    val supsecSeparator = "\n\n$supsecSeparatorTemp\n\n"
+    private val includeShort = "short"
+    private val includeLink = "link"
+    private val includeParag = "paragraph"
+    private val includeSection = "section"
+    private val includeTag = "#include "
+    val abstractSeparatorTemp = "<< * * * >>"
+    val abstractSeparator = "\n\n$abstractSeparatorTemp\n\n"
     val sectionSeparator = "\n\n* * *\n\n"
     val paragSeparator = "\n\n"
 
-    fun includedPage(pages: Map<String, Page>, pref: String, parag: String): Page {
-        val path = parag.substring(pref.length, parag.length)
+    private fun onInclude(pages: Map<String, Page>, page: Page,
+                          parag: String,
+                          paragIterator: MutableListIterator<String>,
+                          section: MutableList<String>,
+                          sectionsIterator: MutableListIterator<MutableList<String>>) {
+        val commands = parag.split(" ").toMutableList()
+        if (!commands.remove("#include")) throw IllegalStateException()
+        val withLink = commands.remove(includeLink)
+        val asSection = commands.remove(includeSection)
+        val path = commands.removeLast()
         val includedPage = pages[path] ?: throw IllegalStateException("[$path]")
         transform(pages, includedPage)
-        return includedPage
-    }
-
-    fun flatten(page: Page): String {
-        return page.supsecs.joinToString(separator = supsecSeparator) { supersection ->
-            supersection.joinToString(separator = sectionSeparator) { section ->
-                section.joinToString(separator = paragSeparator) { it }
+        if (commands.isEmpty()) {
+            if (!asSection && includedPage.summaryParag.isNotEmpty()) {
+                paragIterator.remove()
+                paragIterator.add(includedPage.summaryParag(withLink))
+            } else if (includedPage.summarySection.isNotEmpty()) {
+                paragIterator.remove()
+                includedPage.summarySection(withLink).forEach {
+                    paragIterator.add(it)
+                }
+            } else {
+                throw IllegalStateException()
+                /*
+                val summarySection = includedPage.summaryFull
+                paragIterator.remove()
+                summarySection.forEach {
+                    paragIterator.add(it)
+                }
+                */
             }
+        } else {
+            throw IllegalStateException("${page.url.relativeUrl} $parag")
         }
     }
 
     fun transform(pages: Map<String, Page>, page: Page) {
-        if (page.supsecs.isNotEmpty()) return
-        page.supsecs.addAll(page.formatted.split(supsecSeparator).map { supersection ->
+        if (page.abstracts.isNotEmpty()) return
+        page.abstracts.addAll(page.formatted.split(abstractSeparator).map { supersection ->
             supersection.split(sectionSeparator).map { section ->
                 section.split(paragSeparator).map { it }.toMutableList()
             }.toMutableList()
         })
-        if (page.url.isRoot && false) {
-            page.supsecs.forEach { supersection ->
-                println("supsec GO")
-                supersection.forEach { section ->
-                    println("section GO")
-                    section.forEach { paragraph ->
-                        println("[$paragraph]")
-                    }
-                    println("section OK")
-                }
-                println("supsec OK")
-            }
-        }
-        page.supsecs.forEach { supsec ->
-            val sectionsIterator = supsec.listIterator()
+        page.abstracts.forEach { abstract ->
+            val sectionsIterator = abstract.listIterator()
             for (section in sectionsIterator) {
                 val paragIterator = section.listIterator()
                 for (parag in paragIterator) {
-                    if (parag.startsWith(includeParag)) {
-                        val includedPage = includedPage(pages, includeParag, parag)
-                        val summaryParagraph = includedPage.summaryParag
-                            ?: throw IllegalStateException("${page.url.relativeUrl}, $parag")
-                        paragIterator.remove()
-                        paragIterator.add(summaryParagraph)
-                    } else if (parag.startsWith(includeSection)) {
-                        val includedPage = includedPage(pages, includeSection, parag)
-                        val summarySection = includedPage.summarySection
-                            ?: throw IllegalStateException("${page.url.relativeUrl}, $parag")
-                        paragIterator.remove()
-                        summarySection.forEach {
-                            paragIterator.add(it)
-                        }
-                    } else if (parag.startsWith(includeFull)) {
-                        val includedPage = includedPage(pages, includeFull, parag)
-                        val summarySection = includedPage.summaryMax
-                        paragIterator.remove()
-                        summarySection!!.forEach {
-                            paragIterator.add(it)
-                        }
+                    if (parag.startsWith(includeTag)) {
+                        onInclude(pages, page, parag, paragIterator, section, sectionsIterator)
                     }
                 }
             }
         }
-        if (page.supsecs.size == 1) {
-            val supsec = page.supsecs[0]
-            if (supsec.size == 1) {
-                val section = supsec[0]
-                page.summaryMax = section
+        page.includeText = page.abstracts.joinToString(separator = abstractSeparator) { abstract ->
+            abstract.joinToString(separator = sectionSeparator) { section ->
+                section.joinToString(separator = paragSeparator) { it }
             }
-        } else if (page.supsecs.size == 2) {
-            val firstSupsec = page.supsecs[0]
-            if (firstSupsec.size != 1) {
-                throw IllegalStateException("${page.url.relativeUrl} ${firstSupsec[0]}")
-            }
-            val section = firstSupsec[0]
-            if (section.size == 1) {
-                page.summaryParag = summaryParag(section[0], page.url.absoluteUrl)
-            } else {
-                page.summarySection = summarySection(section, page.url.absoluteUrl)
-            }
-        } else if (page.supsecs.size == 3) {
-            val firstSection = page.supsecs[0][0]
-            if (firstSection.size != 1) throw IllegalStateException()
-            page.summaryParag = summaryParag(firstSection[0], page.url.absoluteUrl)
-            if (page.supsecs[1].size != 1) throw IllegalStateException()
-            page.summarySection = summarySection(page.supsecs[1][0], page.url.absoluteUrl)
-        } else {
-            throw IllegalStateException()
         }
-        page.includeText = flatten(page)
-    }
-
-    fun summaryParag(parag: String, url: String): String {
-        return "${parag}\n - $url"
-    }
-
-    fun summarySection(section: MutableList<String>, url: String): MutableList<String> {
-        val newSection = mutableListOf<String>()
-        newSection.addAll(section)
-        newSection.add(url)
-        return newSection
     }
  }

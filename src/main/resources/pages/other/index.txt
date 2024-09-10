@@ -4,11 +4,11 @@
 
 INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLICIT WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-#include-paragraph /other/transparent-society
+#include link /other/transparent-society
 
-#include-paragraph /other/incantations
+#include link /other/incantations
 
-#include-paragraph /life/thou-art-godshatter
+#include link /life/thou-art-godshatter
 
 Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. </> Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
@@ -16,23 +16,23 @@ INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, I
 
 Сейчас на Земле около 8 миллиардов человек, чтобы каждому уделить по секунде времени нужно около 254 лет.
 
-#include-paragraph /news
+#include link /news
 
 In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
  - https://en.wikipedia.org/wiki/Idiot_plot
 
-#include-paragraph /life/judas-goat
+#include link /life/judas-goat
 
-#include-paragraph /life/benjamin-jesty
+#include link /life/benjamin-jesty
 
-#include-paragraph /life/mathematicians-sparta
+#include link /life/mathematicians-sparta
 
-#include-paragraph /life/srinivasa-ramanujan
+#include link /life/srinivasa-ramanujan
 
-#include-paragraph /life/alexander-grothendieck
+#include link /life/alexander-grothendieck
 
-#include-paragraph /life/demon-core
+#include link /life/demon-core
 
-#include-paragraph /map
+#include link /map
 
-#include-paragraph /contacts
+#include link /contacts

@@ -2,8 +2,8 @@
 
 << * * * >>
 
-#include-section /life/bourbaki-weil
+#include section link /life/bourbaki-weil
 
 * * *
 
-#include-section /life/bourbaki-dieudonne
+#include section link /life/bourbaki-dieudonne

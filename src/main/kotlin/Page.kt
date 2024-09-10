@@ -4,11 +4,118 @@ import kotlin.io.path.readText
 data class Page(val url: RatUrl) {
     val raw: String = url.srcAbsolutePath.readText()
     val formatted: String = TextFormatter.transform(raw)
-    val supsecs = mutableListOf<MutableList<MutableList<String>>>()
+    // Also lenses.
+    val abstracts = mutableListOf<MutableList<MutableList<String>>>()
 
-    var summaryParag: String? = null
-    var summarySection: MutableList<String>? = null
-    var summaryMax: MutableList<String>? = null
+    private var _summaryParag: String? = null
+    val summaryParag: String
+        get() {
+            initSummaryParag()
+            return _summaryParag ?: throw IllegalStateException()
+        }
+    private fun initSummaryParag() {
+        if (_summaryParag != null) {
+            return
+        }
+        _summaryParag = ""
+        when (abstracts.size) {
+            1, 2 -> {
+                if (abstracts[0].size == 1 && abstracts[0][0].size == 1) {
+                    _summaryParag = abstracts[0][0][0]
+                }
+            }
+            3 -> {
+                if (abstracts[0].size != 1 || abstracts[0][0].size != 1) {
+                    throw IllegalStateException()
+                }
+                _summaryParag = abstracts[0][0][0]
+            }
+            else -> {
+                throw IllegalStateException()
+            }
+        }
+    }
+    fun summaryParag(link: Boolean): String {
+        return if (summaryParag.isNotEmpty() && link) {
+            "${summaryParag}\n - ${url.absoluteUrl}"
+        } else {
+            summaryParag
+        }
+    }
+    
+    private var _summarySection: MutableList<String>? = null
+    val summarySection: MutableList<String>
+        get() {
+            initSummarySection()
+            return _summarySection ?: throw IllegalStateException()
+        }
+    private fun initSummarySection() {
+        if (_summarySection != null) {
+            return
+        }
+        _summarySection = mutableListOf()
+        when (abstracts.size) {
+            1 -> {
+                if (abstracts[0].size == 1 && abstracts[0][0].size > 1) {
+                    _summarySection = abstracts[0][0].toMutableList()
+                }
+            }
+            2 -> {
+                if (abstracts[0].size == 1 && abstracts[0][0].size > 1) {
+                    _summarySection = abstracts[0][0].toMutableList()
+                } else if (abstracts[1].size == 1) {
+                    _summarySection = abstracts[1][0].toMutableList()
+                }
+            }
+            3 -> {
+                if (abstracts[1].size != 1) throw IllegalStateException()
+                _summarySection = abstracts[1][0].toMutableList()
+            }
+            else -> {
+                throw IllegalStateException()
+            }
+        }
+    }
+    fun summarySection(link: Boolean): MutableList<String> {
+        return if (summarySection.isNotEmpty() && link) {
+            val result = summarySection.toMutableList()
+            result.add(url.absoluteUrl)
+            result
+        } else {
+            summarySection
+        }
+    }
+
+    private var _summaryFull: MutableList<MutableList<String>>? = null
+    val summaryFull: MutableList<MutableList<String>>
+        get() {
+            initSummaryFull()
+            return _summaryFull ?: throw IllegalStateException()
+        }
+    private fun initSummaryFull() {
+        if (_summaryFull != null) {
+            return
+        }
+        _summaryFull = mutableListOf()
+        when (abstracts.size) {
+            1 -> {
+                if (abstracts[0].size > 1) {
+                    _summaryFull = abstracts[0].map { it.toMutableList() }.toMutableList()
+                }
+            }
+            2 -> {
+                if (abstracts[1].size > 1) {
+                    _summaryFull = abstracts[1].map { it.toMutableList() }.toMutableList()
+                }
+            }
+            3 -> {
+                _summaryFull = abstracts[2].map { it.toMutableList() }.toMutableList()
+            }
+            else -> {
+                throw IllegalStateException()
+            }
+        }
+    }
 
     var includeText: String = ""
     var beautyText: String = ""
@@ -19,11 +126,10 @@ data class Page(val url: RatUrl) {
     private var _title: String? = null
     val title: String
         get() {
-            initializeTitle()
+            initTitle()
             return _title ?: throw IllegalStateException()
         }
-
-    private fun initializeTitle() {
+    private fun initTitle() {
         if (_title != null) {
             return
         }

@@ -29,8 +29,6 @@ image gallery html library like google photos
 simple image lightbox html
 https://codepen.io/kathykato/pen/KRQOKY
 
-\#include - add standalone links.
-
 Emoji. Есть ли разница?
 ✨️ - 2 symbols.
 ✨ - 1 symbol.
