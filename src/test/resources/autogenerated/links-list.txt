@@ -135,10 +135,10 @@ https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
+https://dmitryratty.gitlab.io/other/wandering
 https://dmitryratty.gitlab.io/other/wandering/telegram
 https://dmitryratty.gitlab.io/other/wandering/wikipedia
 https://dmitryratty.gitlab.io/other/wandering/youtube
-https://dmitryratty.gitlab.io/other/watched
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -333,6 +333,7 @@ https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
 https://habr.com/en/companies/hetmansoftware/articles/553866/
 https://habr.com/ru/articles/774844/
+https://habr.com/ru/articles/840676/
 https://habr.com/ru/companies/airi/articles/833866/
 https://hetmanrecovery.com/hetman_partition_recovery_download.htm
 https://history.com
@@ -416,8 +417,13 @@ https://openalternative.co/
 https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
+https://pikabu.ru/reply-stories/11797244
+https://pikabu.ru/story/k_voprosu_demografii_11799648
 https://pikabu.ru/story/likhie_90e_s_yelementami_krepostnogo_prava_v_kurske_11677345
 https://pikabu.ru/story/muzhskie_razgovoryi_11783422
+https://pikabu.ru/story/otvet_na_ne_sluzhil__ne_muzhik_11797244
+https://pikabu.ru/story/otvet_na_post_otvet_na_ne_sluzhil__ne_muzhik_11797529
+https://pikabu.ru/story/otvet_na_post_otvet_na_ne_sluzhil__ne_muzhik_11798409
 https://pikabu.ru/story/otvet_na_post_pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11748342
 https://pikabu.ru/story/pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11745537
 https://pimbook.org/
@@ -511,6 +517,7 @@ https://t.me/TLSOTDI/3
 https://t.me/TuckerCarlsonNetwork
 https://t.me/VibeDatingBot
 https://t.me/VoiceLogBot
+https://t.me/Wylsared
 https://t.me/aetherspace
 https://t.me/ai_newz
 https://t.me/ai_newz/2727
@@ -767,6 +774,7 @@ https://t.me/zelybaby/247
 https://t.me/zhopyimeduzy
 https://t.me/zip_log
 https://t.me/zyulindenis/93
+https://takiedela.ru/2020/10/nenasheva
 https://techcrunch.com/2024/06/13/former-nsa-head-joins-openai-board-and-safety-committee/
 https://thought.is/the-myth-of-the-good-listener/
 https://time.com
@@ -812,6 +820,7 @@ https://www.figma.com/blog/line-height-changes/
 https://www.inpearls.ru/2006987
 https://www.inpearls.ru/477869
 https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+https://www.jpost.com/middle-east/article-746394
 https://www.lesswrong.com/posts/Wh8HAK6LR5CAoPCCC
 https://www.lesswrong.com/posts/YABJKJ3v97k9sbxwg
 https://www.lesswrong.com/posts/yDfxTj9TKYsYiWH5o/the-virtue-of-narrowness
@@ -845,6 +854,7 @@ https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
 https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/
 https://www.theguardian.com/world/2010/mar/05/korean-girl-starved-online-game
 https://www.w3.org/TR/css-fonts-4/#font-display-desc
+https://www.washingtonpost.com/world/middle_east/palestinian-prisoners-are-smuggling-sperm-out-of-israeli-jails-so-wives-can-have-babies/2014/05/02/f2b7f29e-cc8a-11e3-95f7-7ecdde72d2ea_story.html
 https://www.wired.com/story/how-pentagon-learned-targeted-ads-to-find-targets-and-vladimir-putin/
 https://www.worldometers.info
 https://www.youtube.com/@-engineer
@@ -908,6 +918,7 @@ https://yoksel.github.io/flex-cheatsheet/
 https://youtu.be/0VFpX6W--44?si=quwEuU2duUEqXFNK
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
+https://youtu.be/4s9u-wqtyls?si=JNqgp22eCiIY7zR_
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/AMla4-Gsxuc?si=un0zVPOqkLlabROp
@@ -936,10 +947,13 @@ https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
+https://youtu.be/ou9THu2g3I4?si=UoUCe2UlmQTOvQSd
 https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
+https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
+https://youtu.be/y9pTbMoufp4?si=9lufGkhU2Zyljjam
 https://youtu.be/zcRUj8H3rc4?si=OayM-TFHkxsBKlZ1
 https://youtube.com/@katherineofsky?si=vvU62TJi7SyPNbeP
 https://youtube.com/c/3blue1brown

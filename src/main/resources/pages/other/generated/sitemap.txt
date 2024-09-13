@@ -61,10 +61,10 @@ https://dmitryratty.gitlab.io/other/generated/library-interesting
 https://dmitryratty.gitlab.io/other/generated/sitemap
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
+https://dmitryratty.gitlab.io/other/wandering
 https://dmitryratty.gitlab.io/other/wandering/telegram
 https://dmitryratty.gitlab.io/other/wandering/wikipedia
 https://dmitryratty.gitlab.io/other/wandering/youtube
-https://dmitryratty.gitlab.io/other/watched
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math

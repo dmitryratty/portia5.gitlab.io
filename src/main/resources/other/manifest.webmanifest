@@ -1,6 +1,26 @@
 {
+  "short_name": "Well…",
+  "name": "Well… Yes!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#3040ff",
+  "splash_pages": null,
   "icons": [
     { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
     { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Well… One!",
+      "short_name": "One!",
+      "url": "/test",
+    },
+    {
+      "name": "Well… Two!",
+      "short_name": "Two!",
+      "url": "/test/issue3/index3",
+    }
   ]
 }
