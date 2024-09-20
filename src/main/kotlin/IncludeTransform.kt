@@ -10,17 +10,21 @@ class IncludeTransform {
     val sectionSeparator = "\n\n* * *\n\n"
     val paragSeparator = "\n\n"
 
-    private fun onInclude(pages: Map<String, Page>, page: Page,
-                          parag: String,
-                          paragIterator: MutableListIterator<String>,
-                          section: MutableList<String>,
-                          sectionsIterator: MutableListIterator<MutableList<String>>) {
+    private fun onInclude(
+        pages: Map<String, Page>,
+        page: Page,
+        parag: String,
+        paragIterator: MutableListIterator<String>,
+        section: MutableList<String>,
+        sectionsIterator: MutableListIterator<MutableList<String>>
+    ) {
         val commands = parag.split(" ").toMutableList()
         if (!commands.remove("#include")) throw IllegalStateException()
         val withLink = commands.remove(includeLink)
         val asSection = commands.remove(includeSection)
         val path = commands.removeLast()
-        val includedPage = pages[path] ?: throw IllegalStateException("[$path]")
+        val includedPage =
+            pages[path] ?: throw IllegalStateException("$path in ${page.url.relativeUrl}")
         transform(pages, includedPage)
         if (commands.isEmpty()) {
             if (!asSection && includedPage.summaryParag.isNotEmpty()) {
@@ -32,8 +36,7 @@ class IncludeTransform {
                     paragIterator.add(it)
                 }
             } else {
-                throw IllegalStateException()
-                /*
+                throw IllegalStateException("$path in ${page.url.relativeUrl}")/*
                 val summarySection = includedPage.summaryFull
                 paragIterator.remove()
                 summarySection.forEach {
@@ -70,4 +73,4 @@ class IncludeTransform {
             }
         }
     }
- }
+}

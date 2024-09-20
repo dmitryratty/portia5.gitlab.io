@@ -105,13 +105,22 @@ class Library {
         return writingsIn
     }
 
+    fun booksFilter(writing: Writing): Boolean {
+        return writing.tags.contains("recommendation")
+    }
+
+    fun articlesFilter(writing: Writing): Boolean {
+        return writing.tags.contains("entertaining")
+                && (writing.tags.contains("blogging") || writing.tags.contains("short story"))
+    }
+
     private fun generatePublic() {
         val writingsIn = loadWritings()
         val libraryOut = Utils.srcPagesGeneratedDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn
-            .filter { it.tags.contains("recommendation") }
+            .filter { booksFilter(it) }
             .sortedBy { it.rating }
             .groupBy { it.authors }
         recommendations.forEach { (authors, writings) ->
@@ -124,25 +133,10 @@ class Library {
         libraryOut.resolve("library-favorites.txt").toFile().writeText(favoritesBuilder.toString())
 
         val listsBuilder = StringBuilder()
-        val entertaining = writingsIn
-            .filter { it.tags.contains("entertaining") && !it.tags.contains("blogging") }
-            .sortedBy { it.rating }
-            .groupBy { it.authors }
-        if (entertaining.isNotEmpty()) {
-            listsBuilder.append("\n\nПросто забавные штуки.\n\n")
-            entertaining.forEach { (authors, writings) ->
-                if (listsBuilder.isNotEmpty()) {
-                    listsBuilder.append(" ")
-                }
-                listsBuilder.append(formatAuthors(authors, "ru"))
-                listsBuilder.append(formatWritings(writings, "ru"))
-            }
-            listsBuilder.append("\n\n* * *\n\n")
-        }
 
         listsBuilder.append("Интересные штуки размером со статью. </> ")
         val posts = writingsIn
-            .filter { it.tags.contains("entertaining") && it.tags.contains("blogging") }
+            .filter { articlesFilter(it) }
             .sortedBy { it.rating }
             .groupBy { it.authors }
         val postsBuilder = StringBuilder()
@@ -159,12 +153,11 @@ class Library {
 
         listsBuilder.append("Ещё я читал этих авторов. </> ")
         val authors = writingsIn
-            .filter { !it.tags.contains("hidden") && !it.tags.contains("blogging") }
+            .filter { !recommendations.keys.contains(it.authors)
+                    && !posts.keys.contains(it.authors) }
             .sortedBy { it.rating }
             .groupBy { it.authors }
             .keys.toMutableList()
-        authors.removeAll(recommendations.keys)
-        authors.removeAll(entertaining.keys)
         listsBuilder.append(
             authors.joinToString(
                 separator = ", ",

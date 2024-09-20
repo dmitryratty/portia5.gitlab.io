@@ -1,6 +1,8 @@
-#GameTheory https://ncase.me/crowds/ru.html http://sila.media/game https://ncase.me/polygons https://ncase.me/trust/ https://notdotteam.github.io/trust
+Chaos.
 
-#Trickery https://en.wikipedia.org/wiki/Good_cop,_bad_cop https://en.wikipedia.org/wiki/Judas_goat https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish
+<< * * * >>
+
+#GameTheory https://ncase.me/crowds/ru.html http://sila.media/game https://ncase.me/polygons https://ncase.me/trust/ https://notdotteam.github.io/trust
 
 #TheoryOfMind Abilene paradox. Ask, guess, tell culture. Platinum rule. << https://en.wikipedia.org/wiki/Abilene_paradox https://lesswrong.com/tag/guess-ask-tell-culture https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture https://effectiviology.com/platinum-rule >>
 
@@ -13,6 +15,17 @@
 #Statistic #News Каждую секунду рождается 4.5 человека. </> Each year, 500,000 to 1 million new books come out. Including self-published authors, the count reaches close to 4 million new book titles each year.
 
 #Humour Когда Сидзуо Какутани шел по холлу в Йельском университете, к нему подошел студент. Он спросил: "Профессор Какутани, можно ли мне прийти в ваш офис в 4 часа дня сегодня?". Какутани быстро ответил: "Да", и пошел дальше по коридору. "Значит, вы придете?" — спросил студент со спины. "Нет", ответил Какутани. </> Сокращаем-обобщаем: "Профессор идёт по коридору, к нему обращается студент: - Здравствуйте, можно ли мне прийти в ваш офис в 4 часа дня сегодня? - Да. - Значит, вы придёте? - Нет.". Смешная штука, но нужно как-то переформулировать, с "Значит, вы придёте?" кажется что-то не так, люди так не говорят, ощущается надуманным. << "Mathematical Apocrypha" by "Steven Krantz". >>
+
+#include link /music
+
+In literary criticism, an idiot plot is one which is "kept in motion solely by virtue of the fact that everybody involved is an idiot", and where the story would quickly end, or possibly not even happen, if this were not the case.
+ - https://en.wikipedia.org/wiki/Idiot_plot
+
+"Но что будет если страх смерти превратить в любопытство?"
+- https://t.me/mf699/2027
+
+list of semiconductor litography equipment manufacturers
+- ASML Holding N.V. is a Dutch multinational corporation specialized in the development and manufacturing of photolithography machines which are used to produce computer chips. As of 2023 it is the largest supplier for the semiconductor industry and the sole supplier in the world of extreme ultraviolet lithography (EUV) photolithography machines that are required to manufacture the most advanced chips.
 
 #include link /other/coincidence-think
 
@@ -28,6 +41,9 @@ https://galaxy.opensyllabus.org
 2023: "Palestinian terrorist's wife has quadruplets with semen smuggled from prison"[2].
 [1]. https://www.washingtonpost.com/world/middle_east/palestinian-prisoners-are-smuggling-sperm-out-of-israeli-jails-so-wives-can-have-babies/2014/05/02/f2b7f29e-cc8a-11e3-95f7-7ecdde72d2ea_story.html
 [2]. https://www.jpost.com/middle-east/article-746394
+
+Особенно громкой была история доктора Дональда Клайна из США. Он подменял своей спермой донорскую и даже сперму мужей пациенток. В 2022 году сообщалось о 94 его биологических детях.
+- https://meduza.io/feature/2024/06/01/u-lyudey-zachatyh-s-pomoschyu-donorskoy-spermy-mogut-byt-sotni-bratiev-i-sester-a-ih-biologicheskim-ottsam-vse-slozhnee-sohranyat-anonimnost
 
 A desert traveller is searching for water. He sees, in the valley ahead, a shimmering blue expanse. Unfortunately, it's a mirage. But fortunately, when he reaches the spot where there appeared to be water, there actually is water, hidden under a rock. Did the traveller know, as he stood on the hilltop hallucinating, that there was water ahead?
 

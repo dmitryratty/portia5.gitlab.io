@@ -2,6 +2,30 @@
     {
         "names": [
             {
+                "name": "They're Made Out of Meat",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Bisson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "short story",
+            "entertaining"
+        ],
+        "rating": 90
+    },
+    {
+        "names": [
+            {
                 "name": "Рациональность: от ИИ до зомби",
                 "language": "?"
             }
@@ -45,29 +69,6 @@
         ],
         "tags": [
             "archive",
-            "novel"
-        ],
-        "rating": 100
-    },
-    {
-        "names": [
-            {
-                "name": "Manacled",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "SenLinYu",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
             "novel"
         ],
         "rating": 100
@@ -125,29 +126,6 @@
     {
         "names": [
             {
-                "name": "Роза Мира",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Даниил Андреев",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
                 "name": "Гарри Поттер и методы рационального мышления",
                 "language": "?"
             }
@@ -191,29 +169,6 @@
         ],
         "tags": [
             "archive",
-            "novel"
-        ],
-        "rating": 300
-    },
-    {
-        "names": [
-            {
-                "name": "Тайная доктрина",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Елена Блаватская",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
             "novel"
         ],
         "rating": 300
@@ -329,29 +284,6 @@
         ],
         "tags": [
             "archive",
-            "novel"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
-                "name": "Алхимик",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
             "novel"
         ],
         "rating": 400
@@ -497,29 +429,6 @@
     {
         "names": [
             {
-                "name": "Пятая гора",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 500
-    },
-    {
-        "names": [
-            {
                 "name": "S.N.U.F.F.",
                 "language": "?"
             }
@@ -589,29 +498,6 @@
     {
         "names": [
             {
-                "name": "Книга воина света",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 600
-    },
-    {
-        "names": [
-            {
                 "name": "The Star-Child",
                 "language": "?"
             }
@@ -674,29 +560,6 @@
         ],
         "tags": [
             "archive",
-            "novel"
-        ],
-        "rating": 700
-    },
-    {
-        "names": [
-            {
-                "name": "Одиннадцать минут",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Пауло Коэльо",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
             "novel"
         ],
         "rating": 700
@@ -797,29 +660,6 @@
     {
         "names": [
             {
-                "name": "Вынос мозга",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Андрей Ломачинский",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
-            "novel"
-        ],
-        "rating": 800
-    },
-    {
-        "names": [
-            {
                 "name": "Любовь к жизни",
                 "language": "?"
             }
@@ -882,29 +722,6 @@
         ],
         "tags": [
             "archive",
-            "novel"
-        ],
-        "rating": 900
-    },
-    {
-        "names": [
-            {
-                "name": "Трактат о любви как ее понимает жуткий зануда",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Анатолий Протопопов",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "hidden",
             "novel"
         ],
         "rating": 900
@@ -1396,7 +1213,7 @@
         "names": [
             {
                 "name": "Alice's Adventures in Wonderland",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -1404,7 +1221,7 @@
                 "names": [
                     {
                         "name": "Lewis Carroll",
-                        "language": "?"
+                        "language": "en"
                     }
                 ]
             }
@@ -3718,5 +3535,212 @@
             "novel"
         ],
         "rating": 8500
+    },
+    {
+        "names": [
+            {
+                "name": "Manacled",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "SenLinYu",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 8900
+    },
+    {
+        "names": [
+            {
+                "name": "Пятая гора",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Книга воина света",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Одиннадцать минут",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Роза Мира",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Даниил Андреев",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Тайная доктрина",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Елена Блаватская",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Алхимик",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Пауло Коэльо",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Вынос мозга",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Андрей Ломачинский",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Трактат о любви как ее понимает жуткий зануда",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Анатолий Протопопов",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "novel"
+        ],
+        "rating": 9000
     }
 ]

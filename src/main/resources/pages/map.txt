@@ -2,4 +2,4 @@ Map.
 
 << * * * >>
 
-#include /other/generated/sitemap
+#include /generated/sitemap

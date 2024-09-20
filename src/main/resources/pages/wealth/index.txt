@@ -11,7 +11,7 @@ https://en.wikipedia.org/wiki/Distribution_of_wealth
 
 Люди могут создавать криптовалюты и брать на себя разные обязательства связанные с токенами этих криптовалют. Например можно взять на себя обязательство ежемесячно выплачивать владельцам токенов твоей криптовалюты процент от полученных тобой доходов. Или можно взять на себя обязательство обменивать токены своей криптовалюты на секунды своего внимания.
 
-https://rationalanswer.club - тут про деньги и возможно полезно, но эстетика вызывает невыносимую скуку, избегаю читать.
+https://rationalanswer.club - тут про деньги и возможно полезно, но эстетика вызывает скуку, избегаю читать.
 
 "Невероятная история Эда Торпа: как один математик смог обыграть сначала казино, а потом и весь Уолл-стрит".
 - https://habr.com/ru/articles/840676/
@@ -23,55 +23,31 @@ https://www.fiatmarketcap.com
 Треш-игры в Стиме. 2 миллиона рублей чистой прибыли с 8 проектов за год.
 - https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
 
-* * *
-
-Можно сделать каких-то NFT, посмотреть как это работает. Что именно записывается в блокчейн при создании NFT? Например при создании NFT какого-то изображения, в блокчейн записывается целиком файл изображения или ссылка на это изображение на каком-то хостинге, или хеш файла этого изображения?
-- https://t.me/nft_ton_concept
-
-https://foundation.app/ https://t.me/join_community/220 - случайно попавшиеся ссылки, возможно однажды посмотрю.
-
-https://getgems.io/collection/EQDPcfRFZ9EhPFT0l3K-EdlE_s7kSXboJ2GzNPLD2IJ2rZdq/EQB40k2l9ohuzB6rUGx16o5tSgYwM9ifiWK2f0MZyNDnEOKY
-
-#NFT #Cryptocurrency
-
-* * *
+Можно сделать каких-то NFT. Что именно записывается в блокчейн при создании NFT? Например при создании NFT какого-то изображения, в блокчейн записывается целиком файл изображения или ссылка на это изображение на каком-то хостинге, или хеш файла этого изображения?
+<< https://t.me/nft_ton_concept https://foundation.app/ https://t.me/join_community/220 https://t.me/fart_beetle_bot https://t.me/the_pixels_bot https://getgems.io/collection/EQDPcfRFZ9EhPFT0l3K-EdlE_s7kSXboJ2GzNPLD2IJ2rZdq/EQB40k2l9ohuzB6rUGx16o5tSgYwM9ifiWK2f0MZyNDnEOKY #NFT #Cryptocurrency >>
 
 Можно сделать свой мемкойн.
 - https://vitalik.eth.limo/general/2024/03/29/memecoins.html
 - https://t.me/RBCCrypto/11963
 - https://t.me/crypto_stukach/25
-
-https://t.me/notguide/37
-· https://coinmarketcap.com, https://www.coingecko.com - important market data - market capitalization, price, trading volumes, trends.
-· https://app.santiment.net - social context analysis.
-· https://twitter.com/bubblemaps - data visualization of token movements.
-· https://dexscreener.com - tracking new trading pairs, trading.
-· https://token.unlocks.app - dashboard for token unlock data.
-· https://tokensniffer.com - checking new tokens for scams.
-· https://dune.com - creating analytical dashboards.
-· https://www.coinglass.com - derivatives exchange aggregator.
-
-[[[ https://t.me/notcoin_bot - TON/NOT /// https://t.me/catizenbot /// https://t.me/tapswap_bot /// https://t.me/BlumCryptoBot /// https://t.me/hamster_kombat_bot /// https://t.me/dogshouse_bot /// https://t.me/Catizen_Mntbot - ETH/MNT /// https://t.me/lost_dogs_bot /// https://t.me/the_pixels_bot /// https://t.me/DegenTonBot - натапанное пропадает если не тапать постоянно ]]]
-
-Hummingbot is an open source framework that helps you build automated trading strategies, or bots that run on cryptocurrency exchanges. This code is free and publicly available under the Apache 2.0 open source license! #Money #Cryptocurrency
-- https://hummingbot.org/
-
-#Cryptocurrency
-
-* * *
+- https://t.me/notguide/37
+- https://coinmarketcap.com, https://www.coingecko.com - important market data - market capitalization, price, trading volumes, trends.
+- https://app.santiment.net - social context analysis.
+- https://twitter.com/bubblemaps - data visualization of token movements.
+- https://dexscreener.com - tracking new trading pairs, trading.
+- https://token.unlocks.app - dashboard for token unlock data.
+- https://tokensniffer.com - checking new tokens for scams.
+- https://dune.com - creating analytical dashboards.
+- https://www.coinglass.com - derivatives exchange aggregator.
+- https://hummingbot.org - open source framework that helps you build automated trading strategies, or bots that run on cryptocurrency exchanges.
+<< https://t.me/notcoin_bot - TON/NOT https://t.me/catizenbot https://t.me/tapswap_bot https://t.me/BlumCryptoBot https://t.me/hamster_kombat_bot https://t.me/dogshouse_bot https://t.me/Catizen_Mntbot - ETH/MNT https://t.me/lost_dogs_bot https://t.me/DegenTonBot - натапанное пропадает если не тапать постоянно https://t.me/drophunt_community #Cryptocurrency >>
 
 Электронные торговые площадки и штуки чья стоимость формируется подобно коллекционным предметам вроде марок или подобно стоимости произведений искусства.
 - https://en.wikipedia.org/wiki/List_of_online_marketplaces
 
-* * *
-
-Металлоискатели и пляжи.
-
-* * *
-
 "Иисус-креветка" - ботнеты раскручивают в соцсетях страницы используя сгенерированный контент. Как они зарабатывают? Продают рекламные репосты? Продают целиком страницы с подписчиками, а покупатели переделывают их во что-то другое, при этом сразу имеющее кучу подписчиков? << https://t.me/tech_priestess/1584 https://t.me/olya_tashit/3015 https://www.404media.co/where-facebooks-ai-slop-comes-from/ >>
-
-* * *
 
 Фальшивые форумы из комментариев скопированных из Тг. Как они зарабатывают? Реклама, влияние на поисковую выдачу?
 - https://t.me/TLSOTDI/3
+
+Металлоискатели и пляжи.
