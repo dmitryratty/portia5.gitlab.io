@@ -1,0 +1,86 @@
+[
+    {
+        "names": [
+            {
+                "name": "Well-Kept Gardens Die By Pacifism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "In Praise of Boredom",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 200
+    }
+]

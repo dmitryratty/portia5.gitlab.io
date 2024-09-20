@@ -1,0 +1,99 @@
+[
+    {
+        "names": [
+            {
+                "name": "They're Made Out of Meat",
+                "language": "en",
+                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Terry Bisson",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "short story",
+            "entertaining"
+        ],
+        "rating": 90
+    },
+    {
+        "names": [
+            {
+                "name": "Рациональность: от ИИ до зомби",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
+                    },
+                    {
+                        "name": "Eliezer Yudkowsky",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Карл Саган",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "…And I Show You How Deep the Rabbit Hole Goes",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Scott Alexander",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "hidden",
+            "nouvelle"
+        ],
+        "rating": 100
+    }
+]

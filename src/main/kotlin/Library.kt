@@ -2,6 +2,7 @@
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import java.nio.file.Path
 import kotlin.io.path.listDirectoryEntries
 
 /**
@@ -81,28 +82,35 @@ class Library {
         return author
     }
 
-    private fun loadWritings(): MutableList<Writing> {
-        val resourcesDir = Utils.resourcesDir
+    fun loadWritings(srcDir: Path): MutableList<Writing> {
         val writingsIn: MutableList<Writing> = arrayListOf()
-        resourcesDir.listDirectoryEntries("library*.json").forEach {
+        srcDir.listDirectoryEntries("library*.json").forEach {
             writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
         }
         //printCount(writingsIn)
+        return writingsIn
+    }
 
+    fun writeWritings(dst: Path, writings: List<Writing>) {
         val format = Json { prettyPrint = true }
 
-        val articlesToSave = writingsIn
+        val articlesToSave = writings
             .filter { it.tags.contains("essay") || it.tags.contains("blogging") }
             .sortedBy { it.rating }
-        val outArticleFile = resourcesDir.resolve("library-article.json").toFile()
+        val outArticleFile = dst.resolve("library-article.json").toFile()
         outArticleFile.writeText(format.encodeToString(articlesToSave))
 
-        val othersToSave = writingsIn
+        val othersToSave = writings
             .filter { !it.tags.contains("essay") && !it.tags.contains("blogging") }
             .sortedBy { it.rating }
-        val outOtherFile = resourcesDir.resolve("library-other.json").toFile()
+        val outOtherFile = dst.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
-        return writingsIn
+    }
+
+    private fun loadWritings(): MutableList<Writing> {
+        val writings = loadWritings(Utils.resourcesDir)
+        writeWritings(Utils.resourcesDir, writings)
+        return writings
     }
 
     fun booksFilter(writing: Writing): Boolean {
