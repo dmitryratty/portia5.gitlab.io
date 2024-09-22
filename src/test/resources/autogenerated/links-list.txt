@@ -74,6 +74,7 @@ https://digital.gov.kg/chavo-grazhdanstvo/esli-rodilsya-na-territorii-ukrainskoj
 https://digital.gov.kg/grazhdanstvo-kr/perechen-dokumentov-dlya-priema-v-grazhdanstvo-kr-v-uproshhennom-poryadke/
 https://discuss.kotlinlang.org/t/ternary-operator/2116/171
 https://dmitryratty.gitlab.io
+https://dmitryratty.gitlab.io/being
 https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
@@ -112,7 +113,6 @@ https://dmitryratty.gitlab.io/generated/library-interesting
 https://dmitryratty.gitlab.io/generated/sitemap
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
-https://dmitryratty.gitlab.io/incantations
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
@@ -169,6 +169,7 @@ https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo
+https://dmitryratty.gitlab.io/todo/being
 https://dmitryratty.gitlab.io/todo/read
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
@@ -223,6 +224,7 @@ https://en.wikipedia.org/wiki/Egocentric_bias
 https://en.wikipedia.org/wiki/Electroreception_and_electrogenesis
 https://en.wikipedia.org/wiki/Ellipsis
 https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish
+https://en.wikipedia.org/wiki/Entropy_(information_theory)
 https://en.wikipedia.org/wiki/Erotomania
 https://en.wikipedia.org/wiki/Ethics
 https://en.wikipedia.org/wiki/Existentialism
@@ -305,6 +307,7 @@ https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
 https://en.wikipedia.org/wiki/Three_Kingdoms
 https://en.wikipedia.org/wiki/Tit_for_tat
 https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+https://en.wikipedia.org/wiki/Trojan_Horse
 https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)
 https://en.wikipedia.org/wiki/Tukhchar_massacre
 https://en.wikipedia.org/wiki/Uncontacted_peoples
@@ -392,6 +395,7 @@ https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fort
 https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do
 https://mineconom.gov.kg/ru/direct/385/395
 https://mjg59.dreamwidth.org/48429.html
+https://mjjir.alphyna.org/
 https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains
 https://mods.factorio.com/mod/flipfloptrainmode
 https://mor.yasher.net/2017/02/08/issledovaniya-seksa-mastersa-dzhonson/
@@ -474,6 +478,8 @@ https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%B3%D0%B5%D0%BB%D1%8C,_%D0%93%D0%B5
 https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%85%D0%BE%D0%B2,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
 https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D0%BA%D1%83%D1%89%D0%B8%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F
 https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BA%D1%82%D0%B0_%D0%B1%D0%BE%D0%B3%D0%B0_%D0%9A%D1%83%D0%B7%D0%B8
+https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA_(%D0%BC%D0%B5%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%82)
+https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%C2%AB%D0%B1%D1%83%D0%B1%D0%B0_%E2%80%94_%D0%BA%D0%B8%D0%BA%D0%B8%C2%BB
 https://ru.wikipedia.org/wiki/2023_%D0%B3%D0%BE%D0%B4
 https://ru.wikipedia.org/wiki/2024_%D0%B3%D0%BE%D0%B4
 https://ru.wikipedia.org/wiki/Marmite
@@ -537,6 +543,7 @@ https://t.me/ai_newz/2796
 https://t.me/ai_newz/2813
 https://t.me/ai_newz/3056
 https://t.me/alicepsycho
+https://t.me/alphynarium
 https://t.me/alphynarium/561
 https://t.me/altersystem
 https://t.me/android_broadcast
@@ -569,6 +576,7 @@ https://t.me/cabiastuff/1008
 https://t.me/cabiastuff/1101
 https://t.me/catch_a_shank
 https://t.me/catizenbot
+https://t.me/chaoticisgood
 https://t.me/chatgptmachine
 https://t.me/cme_channel
 https://t.me/cognitae
@@ -662,6 +670,7 @@ https://t.me/mf699/2027
 https://t.me/mind_rise
 https://t.me/miniclippy
 https://t.me/mirf_ru
+https://t.me/mjjir
 https://t.me/mmaryasova
 https://t.me/mmaryasova/718
 https://t.me/monobogdann
@@ -679,6 +688,7 @@ https://t.me/news24love
 https://t.me/nft_ton_concept
 https://t.me/nommy_maid/594
 https://t.me/notcoin_bot
+https://t.me/notguide
 https://t.me/notguide/37
 https://t.me/notsoshallow
 https://t.me/novibeshere
@@ -719,6 +729,7 @@ https://t.me/rationalnumbers
 https://t.me/ratioreadnwatch
 https://t.me/readthesequences
 https://t.me/realducktales
+https://t.me/redpillnootrop
 https://t.me/reptilememe
 https://t.me/retra
 https://t.me/rlabrats/4656
@@ -787,6 +798,7 @@ https://t.me/veronikastepanova20011
 https://t.me/vodocanalplus
 https://t.me/vodochannel
 https://t.me/vvzvlad
+https://t.me/wallet_news
 https://t.me/whale
 https://t.me/yanlyutnev
 https://t.me/yashernet/4768
@@ -812,8 +824,13 @@ https://vc.ru/639216
 https://vc.ru/s/getmatch/670748-neozhidannaya-strana-dlya-relokeyta-kak-kirgiziya-ocharovyvaet-gostepriimstvom-komfortom-i-klimatom
 https://vitalik.eth.limo/general/2024/03/29/memecoins.html
 https://vk.com/balisangre
+https://vk.com/bravedraenei
 https://vk.com/comfortnayazona
 https://vk.com/dmitryratty
+https://vk.com/ginger.diary
+https://vk.com/kde_ru
+https://vk.com/odonata_live
+https://vk.com/songoffireandice
 https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch
 https://web.dev/articles/add-manifest
 https://woem.men/notes/9ufj0mb9nuwg05bm
@@ -851,6 +868,7 @@ https://www.lesswrong.com/s/3ni2P2GZzBvNebWYZ
 https://www.lesswrong.com/tag/acausal-trade
 https://www.lesswrong.com/tag/moloch
 https://www.lesswrong.com/tag/parfits-hitchhiker
+https://www.lesswrong.com/tag/virtue-of-silence
 https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/
 https://www.luminaprobiotic.com
 https://www.mathnet.ru/rus/mp18
@@ -872,8 +890,13 @@ https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_worki
 https://www.rollingstone.com/politics/politics-features/cia-agent-deep-undercover-spy-islamic-radicals-war-on-terror-1235075156/
 https://www.scottaaronson.com/papers/bb.pdf
 https://www.scribd.com/document/474097628/Classification-of-the-anatomical-variation-in-female-external-genitalia
+https://www.substack.com/@axisofordinary
+https://www.substack.com/@coryallen
 https://www.substack.com/@gurwinder
 https://www.substack.com/@janinedenovais
+https://www.substack.com/@manifoldmarkets
+https://www.substack.com/@nateliason
+https://www.substack.com/@thezvi
 https://www.substack.com/@tommyblanchard
 https://www.substack.com/@waltbismarck
 https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
@@ -917,6 +940,7 @@ https://www.youtube.com/@SebastianLague
 https://www.youtube.com/@VertDiderTV
 https://www.youtube.com/@ViewEscape
 https://www.youtube.com/@Vsekakuzverei-channel
+https://www.youtube.com/@agathakazar
 https://www.youtube.com/@aztttttttt
 https://www.youtube.com/@birchpunk
 https://www.youtube.com/@crystal_castles
@@ -937,6 +961,7 @@ https://www.youtube.com/@sdu_diii
 https://www.youtube.com/@stonelabstudio226
 https://www.youtube.com/@thethoughtemporium
 https://www.youtube.com/@trutv
+https://www.youtube.com/@underdogs.musicnc
 https://www.youtube.com/@user-rp7jd1mk8b
 https://www.youtube.com/@yan_lyutnev
 https://www.youtube.com/watch?v=4AuV93LOPcE
@@ -979,15 +1004,18 @@ https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/asr6_eNCuoU?si=x97cVDWULexvaGOc
+https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
 https://youtu.be/gBMEwunuEUI?si=c70hsmMjnlsDqcXE
 https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
 https://youtu.be/ixQfL9LWt8k?si=n-MPhygHJvCPtF-E
+https://youtu.be/jSa-ngVZdXY?si=w0iImZef35gFv4mY
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/ou9THu2g3I4?si=UoUCe2UlmQTOvQSd
 https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
+https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN

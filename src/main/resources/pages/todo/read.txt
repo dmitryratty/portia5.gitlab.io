@@ -53,6 +53,8 @@ https://en.wikipedia.org/wiki/Attention_Is_All_You_Need
 
 https://en.wikipedia.org/wiki/Central_limit_theorem
 
+https://en.wikipedia.org/wiki/Entropy_(information_theory)
+
 https://en.wikipedia.org/wiki/Busy_beaver
 
 https://en.wikipedia.org/wiki/Identifier

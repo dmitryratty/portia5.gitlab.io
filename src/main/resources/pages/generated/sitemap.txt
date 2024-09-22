@@ -1,4 +1,5 @@
 https://dmitryratty.gitlab.io
+https://dmitryratty.gitlab.io/being
 https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
@@ -37,7 +38,6 @@ https://dmitryratty.gitlab.io/generated/library-interesting
 https://dmitryratty.gitlab.io/generated/sitemap
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
-https://dmitryratty.gitlab.io/incantations
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
@@ -94,6 +94,7 @@ https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo
+https://dmitryratty.gitlab.io/todo/being
 https://dmitryratty.gitlab.io/todo/read
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio

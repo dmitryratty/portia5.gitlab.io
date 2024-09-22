@@ -24,6 +24,8 @@ In literary criticism, an idiot plot is one which is "kept in motion solely by v
 "Но что будет если страх смерти превратить в любопытство?"
 - https://t.me/mf699/2027
 
+#include link /other/games-to-play
+
 list of semiconductor litography equipment manufacturers
 - ASML Holding N.V. is a Dutch multinational corporation specialized in the development and manufacturing of photolithography machines which are used to produce computer chips. As of 2023 it is the largest supplier for the semiconductor industry and the sole supplier in the world of extreme ultraviolet lithography (EUV) photolithography machines that are required to manufacture the most advanced chips.
 
