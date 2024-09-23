@@ -24,6 +24,7 @@ https://adam.math.hhu.de/#/g/leanprover-community/nng4
 https://aleksklepnev.com/works
 https://alt-f4.blog/ALTF4-39/
 https://alt-f4.blog/ALTF4-61/
+https://amnezia.org/en
 https://app.santiment.net
 https://apteka.ru/product/gaba-500-mg-60-sht-kapsuly-massoj-062-g-63515d266910ac77b626287f/
 https://apteka.ru/product/nooteria-labs-mind-booster-maind-buster-40-sht-kapsuly-massoj-520-mg-633419191e5bbd55ea24dde2/
@@ -345,6 +346,8 @@ https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
 https://habr.com/en/companies/hetmansoftware/articles/553866/
 https://habr.com/ru/articles/774844/
+https://habr.com/ru/articles/785186/
+https://habr.com/ru/articles/791724/
 https://habr.com/ru/articles/840676/
 https://habr.com/ru/companies/airi/articles/833866/
 https://hetmanrecovery.com/hetman_partition_recovery_download.htm
@@ -832,6 +835,8 @@ https://vk.com/kde_ru
 https://vk.com/odonata_live
 https://vk.com/songoffireandice
 https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/news/1017243/cellphone-localisation-glitch
+https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
+https://web.archive.org/web/20240402093517/https://habr.com/ru/articles/799751/
 https://web.dev/articles/add-manifest
 https://woem.men/notes/9ufj0mb9nuwg05bm
 https://wormhole.com

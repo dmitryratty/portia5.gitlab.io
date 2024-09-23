@@ -1,3 +1,10 @@
+VPS VPN.
+https://amnezia.org/en
+https://web.archive.org/web/20240402093517/https://habr.com/ru/articles/799751/
+https://habr.com/ru/articles/785186/
+https://habr.com/ru/articles/791724/
+https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
+
 https://en.wikipedia.org/wiki/Mystery_meat_navigation
 
 RegExr is a HTML/JS based tool for creating, testing, and learning about Regular Expressions.

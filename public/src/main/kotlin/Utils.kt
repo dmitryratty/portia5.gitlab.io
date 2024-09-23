@@ -19,7 +19,7 @@ object Utils {
 
     val srcOtherDir: Path = resourcesDir.resolve("other")
 
-    val dstDir: Path = projectDir.resolve("public")
+    val dstDir: Path = projectDir.resolve("site")
 
     fun splitToParagraphs(text: String): MutableList<String> {
         return text.split("\n\n").toMutableList()
