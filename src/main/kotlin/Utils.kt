@@ -6,8 +6,8 @@ object Utils {
 
     val currentPath: Path = Path.of(System.getProperty("user.dir")).normalize().toRealPath()
 
-    val projectDir: Path = if (currentPath.endsWith("ratty-public"))
-        currentPath else currentPath.resolve("ratty-public")
+    val projectDir: Path = if (currentPath.endsWith("public"))
+        currentPath else currentPath.resolve("public")
 
     val resourcesDir: Path = projectDir.resolve("src/main/resources")
 

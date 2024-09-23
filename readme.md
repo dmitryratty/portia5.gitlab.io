@@ -1,6 +1,5 @@
 ### About
 
-This is a simple static personal website using GitLab Pages, live here:
- [https://dmitryratty.gitlab.io](https://dmitryratty.gitlab.io)
-
-* GitLab address: https://gitlab.com/dmitryratty/dmitryratty.gitlab.io
+This is a static personal website using GitLab Pages.
+* Live: https://dmitryratty.gitlab.io
+* Repository: https://gitlab.com/dmitryratty/dmitryratty.gitlab.io
