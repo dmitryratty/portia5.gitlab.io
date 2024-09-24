@@ -11,6 +11,22 @@ repositories {
     mavenCentral()
 }
 
+sourceSets["main"].kotlin {
+    srcDir("src-main-kotlin")
+}
+sourceSets["main"].resources {
+    srcDir("src-main-pages")
+}
+sourceSets["main"].resources {
+    srcDir("src-main-res")
+}
+sourceSets["test"].kotlin {
+    srcDir("src-test-kotlin")
+}
+sourceSets["test"].resources {
+    srcDir("src-test-res")
+}
+
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
