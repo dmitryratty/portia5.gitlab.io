@@ -12,11 +12,7 @@
 
 #include link /life/benjamin-jesty
 
-#include link /life/mathematicians-sparta
-
-#include link /life/srinivasa-ramanujan
-
-#include link /life/alexander-grothendieck
+#include link /life/mathematicians
 
 #include link /life/demon-core
 

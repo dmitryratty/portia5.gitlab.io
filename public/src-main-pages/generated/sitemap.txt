@@ -53,7 +53,7 @@ https://dmitryratty.gitlab.io/life/bourbaki-weil
 https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
-https://dmitryratty.gitlab.io/life/mathematicians-sparta
+https://dmitryratty.gitlab.io/life/mathematicians
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/life/thou-art-godshatter

@@ -1,0 +1,13 @@
+Как поживают математики.
+
+<< * * * >>
+
+#include link /life/alexander-grothendieck
+
+#include link /life/srinivasa-ramanujan
+
+#include section link /life/bourbaki-weil
+
+* * *
+
+#include section link /life/bourbaki-dieudonne
