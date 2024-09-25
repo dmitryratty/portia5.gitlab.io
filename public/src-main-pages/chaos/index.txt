@@ -31,7 +31,7 @@ list of semiconductor litography equipment manufacturers
 
 #include link /other/coincidence-think
 
-#include link /life/horned-goodness
+#include link /chaos/horned-goodness
 
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
 

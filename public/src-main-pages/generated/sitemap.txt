@@ -5,6 +5,7 @@ https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
 https://dmitryratty.gitlab.io/chaos
+https://dmitryratty.gitlab.io/chaos/horned-goodness
 https://dmitryratty.gitlab.io/chaos/telegram
 https://dmitryratty.gitlab.io/chaos/wikipedia
 https://dmitryratty.gitlab.io/chaos/youtube
@@ -51,7 +52,6 @@ https://dmitryratty.gitlab.io/life/benjamin-jesty
 https://dmitryratty.gitlab.io/life/bourbaki-dieudonne
 https://dmitryratty.gitlab.io/life/bourbaki-weil
 https://dmitryratty.gitlab.io/life/demon-core
-https://dmitryratty.gitlab.io/life/horned-goodness
 https://dmitryratty.gitlab.io/life/judas-goat
 https://dmitryratty.gitlab.io/life/mathematicians
 https://dmitryratty.gitlab.io/life/sakalauskas-case
