@@ -16,6 +16,8 @@
 
 #include link /life/demon-core
 
+Стиль коммуникации как демонстрация способности к самоконтролю.
+
 #include link /todo
 
 #include link /chaos
