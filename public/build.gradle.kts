@@ -15,14 +15,12 @@ sourceSets["main"].kotlin {
     srcDir("src-main-kotlin")
 }
 sourceSets["main"].resources {
-    srcDir("src-main-other")
-}
-sourceSets["main"].resources {
     srcDir("src-main-pages")
-}
-sourceSets["main"].resources {
+    srcDir("src-main-gen")
+    srcDir("src-main-other")
     srcDir("src-main-res")
 }
+
 sourceSets["test"].kotlin {
     srcDir("src-test-kotlin")
 }

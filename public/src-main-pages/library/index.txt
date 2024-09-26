@@ -2,8 +2,8 @@
 
 << * * * >>
 
-#include /generated/library-favorites
+#include /library-favorites
 
-#include /generated/library-interesting
+#include /library-interesting
 
 Other. </> "Juuni Taisen", "Bokurano", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!".

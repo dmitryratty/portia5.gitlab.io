@@ -16,8 +16,8 @@ class Generator {
         Utils.dstDir.listDirectoryEntries().forEach {
             if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
         }
-        Utils.srcGeneratedDir.toFile().deleteRecursively()
-        Utils.srcGeneratedDir.toFile().mkdir()
+        Utils.srcGenDir.toFile().deleteRecursively()
+        Utils.srcGenDir.toFile().mkdir()
     }
 
     private fun copyRawRes() {
@@ -32,7 +32,8 @@ class Generator {
         cleanBuildDirs()
         Favicon().main()
         Library().main()
-        val sitemap = Sitemap(setOf(Utils.srcPagesDir, Utils.srcOtherDir), Utils.dstDir)
+        val srcDirsPaths = setOf(Utils.srcPagesDir, Utils.srcOtherDir, Utils.srcGenDir)
+        val sitemap = Sitemap(srcDirsPaths, Utils.dstDir)
         sitemap.main()
         val pages = sitemap.urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) }
         HtmlTransform().main(pages)

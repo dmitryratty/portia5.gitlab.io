@@ -110,12 +110,11 @@ https://dmitryratty.gitlab.io/ethics
 https://dmitryratty.gitlab.io/ethics/chaos
 https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/gallery
-https://dmitryratty.gitlab.io/generated/library-favorites
-https://dmitryratty.gitlab.io/generated/library-interesting
-https://dmitryratty.gitlab.io/generated/sitemap
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
 https://dmitryratty.gitlab.io/library
+https://dmitryratty.gitlab.io/library-favorites
+https://dmitryratty.gitlab.io/library-interesting
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/lesswrong/chaos
@@ -144,6 +143,7 @@ https://dmitryratty.gitlab.io/other/fear-shame-guilt
 https://dmitryratty.gitlab.io/other/games-to-play
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
+https://dmitryratty.gitlab.io/sitemap
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math
@@ -980,6 +980,7 @@ https://www.zotero.org/
 https://x.com/karpathy/status/1811097021539045582
 https://yanips.com/
 https://yoksel.github.io/flex-cheatsheet/
+https://youtu.be/-TZYu9-jCbQ?si=AHkUdmgscaJYp8b9
 https://youtu.be/-lsYJrLrEAM?si=AYggDt9n39_Q8Gu5
 https://youtu.be/0VFpX6W--44?si=quwEuU2duUEqXFNK
 https://youtu.be/0nz0iaNvVpE?si=QlyDg2HzW6y-vd3D

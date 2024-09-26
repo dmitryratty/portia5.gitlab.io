@@ -1,4 +1,4 @@
-import Utils.hostName
+import Utils.HOST_NAME
 import java.nio.file.Path
 import kotlin.io.path.pathString
 
@@ -19,6 +19,7 @@ data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path, val dstD
     val isDirectory: Boolean
     val isRoot: Boolean
     val isRaw = !srcRelativePathString.endsWith(".txt")
+    val isGen: Boolean
 
     init {
         if (dstRelativePathString == "index.html") {
@@ -49,6 +50,7 @@ data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path, val dstD
             throw IllegalStateException(srcAbsolutePathString)
         }
         isRoot = relativeUrl == "/"
-        absoluteUrl = if (isRoot) hostName else "$hostName$relativeUrl"
+        absoluteUrl = if (isRoot) HOST_NAME else "$HOST_NAME$relativeUrl"
+        isGen = srcAbsolutePathString.startsWith(Utils.srcGenDir.pathString)
     }
 }
