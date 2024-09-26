@@ -6,21 +6,15 @@
 
 #include link /news
 
-#include link /other/transparent-society
-
-#include link /life/thou-art-godshatter
-
 #include link /life/benjamin-jesty
 
 #include link /life/mathematicians
 
 #include link /life/demon-core
 
-Стиль коммуникации как демонстрация способности к самоконтролю.
-
 #include link /todo
 
-#include link /chaos
+#include link /music
 
 #include link /map
 

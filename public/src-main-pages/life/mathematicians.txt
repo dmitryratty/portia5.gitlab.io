@@ -6,6 +6,8 @@
 
 #include link /life/srinivasa-ramanujan
 
+* * *
+
 #include section link /life/bourbaki-weil
 
 * * *

@@ -16,8 +16,8 @@ class Generator {
         Utils.dstDir.listDirectoryEntries().forEach {
             if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
         }
-        Utils.srcPagesGeneratedDir.toFile().deleteRecursively()
-        Utils.srcPagesGeneratedDir.toFile().mkdir()
+        Utils.srcGeneratedDir.toFile().deleteRecursively()
+        Utils.srcGeneratedDir.toFile().mkdir()
     }
 
     private fun copyRawRes() {

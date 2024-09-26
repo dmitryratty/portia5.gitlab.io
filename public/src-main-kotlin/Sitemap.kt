@@ -5,7 +5,7 @@ import java.nio.file.Path
 class Sitemap(srcDirsPaths: Set<Path>, dstDirPath: Path) {
 
     val urls: List<RatUrl>
-    val mapSrcAbsolutePath = Utils.srcPagesGeneratedDir.resolve("sitemap.txt")
+    val mapSrcAbsolutePath = Utils.srcGeneratedDir.resolve("sitemap.txt")
 
     init {
         val urlsList = ArrayList<RatUrl>()

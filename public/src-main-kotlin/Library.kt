@@ -124,7 +124,7 @@ class Library {
 
     private fun generatePublic() {
         val writingsIn = loadWritings()
-        val libraryOut = Utils.srcPagesGeneratedDir
+        val libraryOut = Utils.srcGeneratedDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn

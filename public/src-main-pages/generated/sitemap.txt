@@ -6,6 +6,7 @@ https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
 https://dmitryratty.gitlab.io/chaos
 https://dmitryratty.gitlab.io/chaos/horned-goodness
+https://dmitryratty.gitlab.io/chaos/more-one
 https://dmitryratty.gitlab.io/chaos/telegram
 https://dmitryratty.gitlab.io/chaos/wikipedia
 https://dmitryratty.gitlab.io/chaos/youtube
@@ -94,6 +95,7 @@ https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo
 https://dmitryratty.gitlab.io/todo/being
+https://dmitryratty.gitlab.io/todo/humour
 https://dmitryratty.gitlab.io/todo/read
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
