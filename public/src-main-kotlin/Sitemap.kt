@@ -1,10 +1,9 @@
-
 import java.nio.file.Files
 import java.nio.file.Path
 import java.util.*
 
 class Sitemap(c: Context) : Context by c {
-    val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
+    private val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
     val urls: MutableList<RatUrl> = mutableListOf()
     val pages: MutableMap<String, Page> = mutableMapOf()
     private var _map: Page? = null
@@ -13,6 +12,7 @@ class Sitemap(c: Context) : Context by c {
     fun getMapOrder(): Page { return _mapOrder!! }
     private var _mapChaos: Page? = null
     fun getMapChaos(): Page { return _mapChaos!! }
+    private var parsedMap = sortedMapOf<String, TreeSet<String>>()
 
     fun updateUrls() {
         urls.clear()
@@ -28,8 +28,7 @@ class Sitemap(c: Context) : Context by c {
         pages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
     }
 
-    fun genStep(map: SortedMap<String, TreeSet<String>>,
-                url: String, suburls: TreeSet<String>?, level: Int): String {
+    private fun genStep(url: String, suburls: Set<String>?, level: Int): String {
         val builder = StringBuilder()
         if (level > 0) builder.append('\n')
         for (i in 1..level) {
@@ -37,32 +36,22 @@ class Sitemap(c: Context) : Context by c {
         }
         if (level > 0) builder.append("$level ")
         builder.append(url)
-        suburls?.forEach { builder.append(genStep(map, it, map[it], level + 1)) }
-        map.remove(url)
+        suburls?.forEach { builder.append(genStep(it, parsedMap[it], level + 1)) }
+        parsedMap.remove(url)
         return builder.toString()
     }
 
-    fun genOrder(map: SortedMap<String, TreeSet<String>>): String {
-        val roots = setOf(urls.find { it.isRoot }!!.absoluteUrl)
+    private fun generate(roots: Set<String>): String {
         val builder = StringBuilder()
         roots.forEach {
             if (builder.isNotEmpty()) builder.append("\n")
-            builder.append(genStep(map, it, map[it], 0))
-        }
-        return builder.toString()
-    }
-
-    fun genChaos(map: SortedMap<String, TreeSet<String>>): String {
-        val roots = map.keys.toSet()
-        val builder = StringBuilder()
-        roots.forEach {
-            if (builder.isNotEmpty()) builder.append("\n")
-            builder.append(genStep(map, it, map[it], 0))
+            builder.append(genStep(it, parsedMap[it], 0))
         }
         return builder.toString()
     }
 
     fun updateMaps(mapOfLinks: SortedMap<String, TreeSet<String>>) {
+        parsedMap = mapOfLinks
         // Recreate map page to allow it regeneration in reflective phase.
         val mapUrl = urls.find { it.relativeUrl == RelativeUtils.MAP_RELATIVE_URL }!!
         _map = Page(mapUrl)
@@ -81,19 +70,19 @@ class Sitemap(c: Context) : Context by c {
         urls.sortBy { it.relativeUrl }
         urls.forEach {
             if (it.isRaw && it.dstRelativePathString.endsWith(".html")) {
-                mapOfLinks[it.absoluteUrl] = null
+                parsedMap[it.absoluteUrl] = null
             }
-            if (!it.isRaw && !mapOfLinks.contains(it.absoluteUrl)) {
-                mapOfLinks[it.absoluteUrl] = null
+            if (!it.isRaw && !parsedMap.contains(it.absoluteUrl)) {
+                parsedMap[it.absoluteUrl] = null
             }
         }
 
-
-
-        mapOrderSrcAbsolutePath.toFile().writeText(genOrder(mapOfLinks))
+        mapOrderSrcAbsolutePath.toFile()
+            .writeText(generate(setOf(urls.find { it.isRoot }!!.absoluteUrl)))
         _mapOrder = Page(mapOrderUri)
         pages[mapOrderUri.relativeUrl] = getMapOrder()
-        mapChaosSrcAbsolutePath.toFile().writeText(genChaos(mapOfLinks))
+        mapChaosSrcAbsolutePath.toFile()
+            .writeText(generate(parsedMap.keys.toSet()))
         _mapChaos = Page(mapChaosUri)
         pages[mapChaosUri.relativeUrl] = getMapChaos()
         testMap()
