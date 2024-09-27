@@ -1,9 +1,10 @@
+
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption.REPLACE_EXISTING
-import kotlin.io.path.listDirectoryEntries
 
-class Generator {
+class Generator(c: Context = ContextImpl()) : Context by c {
+
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
@@ -11,32 +12,50 @@ class Generator {
         }
     }
 
-    private fun cleanBuildDirs() {
-        val persistentFiles = emptyList<Path>()
-        Utils.dstDir.listDirectoryEntries().forEach {
-            if (!persistentFiles.contains(it)) it.toFile().deleteRecursively()
-        }
-        Utils.srcGenDir.toFile().deleteRecursively()
-        Utils.srcGenDir.toFile().mkdir()
+    val includeTransform = IncludeTransform()
+    val htmlTransform = HtmlTransform()
+    val sitemap = Sitemap(c)
+    var firstRun = true
+
+    private fun cleanDstDirs() {
+        dstMainDir.toFile().deleteRecursively()
+        dstMainDir.toFile().mkdir()
+        srcGenDir.toFile().deleteRecursively()
+        srcGenDir.toFile().mkdir()
     }
 
     private fun copyRawRes() {
-        val srcDir = Utils.srcOtherDir
-        Files.walk(srcDir).forEach { src: Path ->
-            if (src == srcDir) return@forEach
-            Files.copy(src, Utils.dstDir.resolve(srcDir.relativize(src)), REPLACE_EXISTING)
+        Files.walk(srcRawDir).forEach { srcRaw: Path ->
+            if (srcRaw == srcRawDir) return@forEach
+            Files.copy(srcRaw, dstMainDir.resolve(srcRawDir.relativize(srcRaw)), REPLACE_EXISTING)
         }
     }
 
+    private fun processPage(page: Page) {
+        page.url.srcAbsolutePath.toFile().writeText(page.formatted)
+        includeTransform.transform(this, page)
+        page.beautyText = TextBeautifier().transform(page.includeText)
+        val bodyHtml = htmlTransform.textToHtml(page.url.srcRelativePathString, page.beautyText)
+        val htmlFile = page.htmlOutFile.toFile()
+        htmlFile.parentFile.mkdirs()
+        htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml, page.navigation))
+    }
+
     private fun main() {
-        cleanBuildDirs()
+        cleanDstDirs()
         Favicon().main()
         Library().main()
-        val srcDirsPaths = setOf(Utils.srcPagesDir, Utils.srcOtherDir, Utils.srcGenDir)
-        val sitemap = Sitemap(srcDirsPaths, Utils.dstDir)
-        sitemap.main()
-        val pages = sitemap.urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) }
-        HtmlTransform().main(pages)
+        sitemap.updateUrls()
+        sitemap.pages.forEach { processPage(it.value) }
+        firstRun = false
+        sitemap.updateMaps()
+        processPage(sitemap.getMapOrder())
+        processPage(sitemap.getMapChaos())
+        processPage(sitemap.getMap())
+        dstTestDir.resolve("links-list.txt").toFile()
+            .writeText(htmlTransform.setOfLinks.joinToString("\n"))
+        dstTestDir.resolve("long-words-list.txt").toFile()
+            .writeText(htmlTransform.setOfLongWords.joinToString("\n"))
         copyRawRes()
     }
 }

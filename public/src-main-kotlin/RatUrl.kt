@@ -19,6 +19,7 @@ data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path, val dstD
     val isDirectory: Boolean
     val isRoot: Boolean
     val isRaw = !srcRelativePathString.endsWith(".txt")
+    val isMap: Boolean
     val isGen: Boolean
 
     init {
@@ -49,8 +50,9 @@ data class RatUrl(val srcAbsolutePath: Path, val srcRelativePath: Path, val dstD
         } else {
             throw IllegalStateException(srcAbsolutePathString)
         }
-        isRoot = relativeUrl == "/"
+        isRoot = relativeUrl == RelativeUtils.ROOT_RELATIVE_URL
         absoluteUrl = if (isRoot) HOST_NAME else "$HOST_NAME$relativeUrl"
+        isMap = relativeUrl == RelativeUtils.MAP_RELATIVE_URL
         isGen = srcAbsolutePathString.startsWith(Utils.srcGenDir.pathString)
     }
 }

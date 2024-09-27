@@ -21,26 +21,8 @@ class HtmlTransform(
     private val wbrBeforeAfter = "([=&])".toRegex()
     private val htmlTemplate get() = Utils.srcResDir.resolve("page-template.html").toFile().readText()
     private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
-    private val setOfLinks = sortedSetOf<String>()
-    private val setOfLongWords = sortedSetOf<String>()
-
-    fun main(pages: Map<String, Page>) {
-        val includeTransform = IncludeTransform()
-        pages.forEach {
-            val page = it.value
-            page.url.srcAbsolutePath.toFile().writeText(page.formatted)
-            includeTransform.transform(pages, page)
-            page.beautyText = TextBeautifier().transform(page.includeText)
-            val bodyHtml = textToHtml(page.url.srcRelativePathString, page.beautyText)
-            val htmlFile = page.htmlOutFile.toFile()
-            htmlFile.parentFile.mkdirs()
-            htmlFile.writeText(htmlPage(page.title, bodyHtml, page.navigation))
-        }
-        Utils.testGenDir.resolve("links-list.txt").toFile()
-            .writeText(setOfLinks.joinToString("\n"))
-        Utils.testGenDir.resolve("long-words-list.txt").toFile()
-            .writeText(setOfLongWords.joinToString("\n"))
-    }
+    val setOfLinks = sortedSetOf<String>()
+    val setOfLongWords = sortedSetOf<String>()
 
     private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
             "\n\n    <p>🏠 <a href=\"/\">$HOST_NAME</a></p>"

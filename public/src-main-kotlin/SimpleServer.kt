@@ -16,7 +16,7 @@ class SimpleServer {
         private val serve: Map<String, RatUrl>
 
         init {
-            val sitemap = Sitemap(setOf(Utils.srcPagesDir, Utils.srcOtherDir), Utils.dstDir)
+            val sitemap = Sitemap(ContextImpl())
             serve = sitemap.urls.associateBy { it.relativeUrl }
             sitemap.urls.forEach { url ->
                 redirect.putAll(url.redirects.associateWith { url })
@@ -68,7 +68,7 @@ class SimpleServer {
             exchange.responseBody.close()
         }
         server.executor = null
-        println("Home is '${Utils.dstDir}'," +
+        println("Home is '${Utils.dstMainDir}'," +
                 " listening at http${if (secure) "s" else ""}://localhost:$port/")
         server.start()
     }

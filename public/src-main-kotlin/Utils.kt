@@ -9,15 +9,14 @@ object Utils {
     val projectDir: Path = if (currentPath.endsWith("public"))
         currentPath else currentPath.resolve("public")
 
-    val srcPagesDir: Path = projectDir.resolve("src-main-pages")
-    val srcGenDir: Path = projectDir.resolve("src-main-gen")
-    val srcOtherDir: Path = projectDir.resolve("src-main-other")
+    val srcTxtDir: Path = projectDir.resolve("src-main-txt")
+    val srcRawDir: Path = projectDir.resolve("src-main-raw")
     val srcResDir: Path = projectDir.resolve("src-main-res")
+    val srcGenDir: Path = projectDir.resolve("src-main-gen")
+    val dstMainDir: Path = projectDir.resolve("site")
 
     val testResDir: Path = projectDir.resolve("src-test-res")
-    val testGenDir: Path = projectDir.resolve("src-test-res/gen")
-
-    val dstDir: Path = projectDir.resolve("site")
+    val dstTestDir: Path = projectDir.resolve("src-test-res/gen")
 
     fun splitToParagraphs(text: String): MutableList<String> {
         return text.split("\n\n").toMutableList()

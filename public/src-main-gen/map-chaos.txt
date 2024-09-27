@@ -59,6 +59,7 @@ https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
 https://dmitryratty.gitlab.io/life/thou-art-godshatter
 https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/map
+https://dmitryratty.gitlab.io/map-order
 https://dmitryratty.gitlab.io/music
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
@@ -67,7 +68,6 @@ https://dmitryratty.gitlab.io/other/fear-shame-guilt
 https://dmitryratty.gitlab.io/other/games-to-play
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/other/transparent-society
-https://dmitryratty.gitlab.io/sitemap
 https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/kindergarten-math

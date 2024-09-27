@@ -2,36 +2,64 @@
 import java.nio.file.Files
 import java.nio.file.Path
 
-class Sitemap(srcDirsPaths: Set<Path>, dstDirPath: Path) {
+class Sitemap(c: Context) : Context by c {
+    val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
+    val urls: MutableList<RatUrl> = mutableListOf()
+    val pages: MutableMap<String, Page> = mutableMapOf()
+    private var _map: Page? = null
+    fun getMap(): Page { return _map!! }
+    private var _mapOrder: Page? = null
+    fun getMapOrder(): Page { return _mapOrder!! }
+    private var _mapChaos: Page? = null
+    fun getMapChaos(): Page { return _mapChaos!! }
 
-    val urls: List<RatUrl>
-    val mapSrcAbsolutePath = Utils.srcGenDir.resolve("sitemap.txt")
-
-    init {
-        val urlsList = ArrayList<RatUrl>()
+    fun updateUrls() {
+        urls.clear()
         srcDirsPaths.forEach { srcDirPath ->
             Files.walk(srcDirPath).use { stream ->
                 stream.filter(Files::isRegularFile).forEach {
-                    urlsList.add(RatUrl(it, srcDirPath.relativize(it), dstDirPath))
+                    urls.add(RatUrl(it, srcDirPath.relativize(it), dstMainDir))
                 }
             }
         }
-        val mapSrcRelativePath = Utils.srcGenDir.relativize(mapSrcAbsolutePath)
-        val mapUri = RatUrl(mapSrcAbsolutePath, mapSrcRelativePath, Utils.dstDir)
-        if (!urlsList.contains(mapUri)) {
-            urlsList.add(mapUri)
-        }
-        urls = urlsList.sortedBy { it.absoluteUrl }
+        urls.sortBy { it.relativeUrl }
+        pages.clear()
+        pages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
     }
 
-    fun main() {
-        val map = StringBuilder()
-        urls.filter { it.isPage }.forEach {
-            if (map.isNotEmpty()) map.append('\n')
-            map.append(it.absoluteUrl)
-        }
-        mapSrcAbsolutePath.toFile().writeText(map.toString())
+    fun updateMaps() {
+        // Recreate map page to allow it regeneration in reflective phase.
+        val mapUrl = urls.find { it.relativeUrl == RelativeUtils.MAP_RELATIVE_URL }!!
+        _map = Page(mapUrl)
+        pages[RelativeUtils.MAP_RELATIVE_URL] = getMap()
 
+        val mapOrderSrcRelativePath = Path.of(RelativeUtils.MAP_ORDER_RELATIVE_PATH)
+        val mapOrderSrcAbsolutePath: Path = srcGenDir.resolve(mapOrderSrcRelativePath)
+        val mapOrderUri = RatUrl(mapOrderSrcAbsolutePath, mapOrderSrcRelativePath, dstMainDir)
+        if (urls.contains(mapOrderUri)) throw IllegalStateException()
+        urls.add(mapOrderUri)
+        val mapChaosSrcRelativePath = Path.of(RelativeUtils.MAP_CHAOS_RELATIVE_PATH)
+        val mapChaosSrcAbsolutePath: Path = srcGenDir.resolve(mapChaosSrcRelativePath)
+        val mapChaosUri = RatUrl(mapChaosSrcAbsolutePath, mapChaosSrcRelativePath, dstMainDir)
+        if (urls.contains(mapChaosUri)) throw IllegalStateException()
+
+        urls.sortBy { it.relativeUrl }
+        val mapGenBuilder = StringBuilder()
+        urls.filter { it.isPage }.forEach {
+            if (mapGenBuilder.isNotEmpty()) mapGenBuilder.append('\n')
+            mapGenBuilder.append(it.absoluteUrl)
+        }
+        mapOrderSrcAbsolutePath.toFile().writeText(mapGenBuilder.toString())
+        _mapOrder = Page(mapOrderUri)
+        pages[mapOrderUri.relativeUrl] = getMapOrder()
+        mapChaosSrcAbsolutePath.toFile().writeText(mapGenBuilder.toString())
+        _mapChaos = Page(mapChaosUri)
+        pages[mapChaosUri.relativeUrl] = getMapChaos()
+
+        testMap()
+    }
+
+    private fun testMap() {
         val mapFull = StringBuilder()
         urls.filter { it.isDirectory }.forEach {
             if (mapFull.isNotEmpty()) mapFull.append('\n')
@@ -48,7 +76,7 @@ class Sitemap(srcDirsPaths: Set<Path>, dstDirPath: Path) {
             if (it.redirects.first() != "${it.relativeUrl}.html") throw IllegalStateException()
             mapFull.append("[3] ${it.relativeUrl}[.html]")
         }
-        Utils.testGenDir.resolve("sitemap-full.txt").toFile()
+        dstTestDir.resolve("sitemap-full.txt").toFile()
             .writeText(mapFull.toString())
     }
 }
