@@ -17,6 +17,7 @@ class SimpleServer {
 
         init {
             val sitemap = Sitemap(ContextImpl())
+            sitemap.updateUrls()
             serve = sitemap.urls.associateBy { it.relativeUrl }
             sitemap.urls.forEach { url ->
                 redirect.putAll(url.redirects.associateWith { url })

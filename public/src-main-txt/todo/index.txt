@@ -80,7 +80,7 @@ Radicle: Open-Source, Peer-to-Peer, GitHub Alternative /// Link: https://readhac
 
 Может быть интересно сформулировать мнение по этике "Немыслимое" и пойти пообсуждать в https://t.me/intelligencepotion/84
 
-Переписать /todo/being
+Переписать /todo/identity
 
 Расширения у браузеров это хорошо, стоило бы перейти на какой-то браузер, который поддерживает расширения и на смартах.
 

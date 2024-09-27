@@ -6,6 +6,8 @@
 
 #include link /news
 
+#include link /life/thou-art-godshatter
+
 #include link /life/benjamin-jesty
 
 #include link /life/mathematicians

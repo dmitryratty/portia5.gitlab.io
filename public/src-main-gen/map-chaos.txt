@@ -1,16 +1,18 @@
-https://dmitryratty.gitlab.io
-https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
 https://dmitryratty.gitlab.io/biology/psychology
 https://dmitryratty.gitlab.io/chaos
+    1 https://dmitryratty.gitlab.io/chaos/horned-goodness
+    1 https://dmitryratty.gitlab.io/other/coincidence-think
+    1 https://dmitryratty.gitlab.io/other/games-to-play
 https://dmitryratty.gitlab.io/chaos/horned-goodness
 https://dmitryratty.gitlab.io/chaos/more-one
+    1 https://dmitryratty.gitlab.io/chaos/telegram
+    1 https://dmitryratty.gitlab.io/chaos/wikipedia
+    1 https://dmitryratty.gitlab.io/chaos/youtube
 https://dmitryratty.gitlab.io/chaos/telegram
 https://dmitryratty.gitlab.io/chaos/wikipedia
 https://dmitryratty.gitlab.io/chaos/youtube
-https://dmitryratty.gitlab.io/contacts
-https://dmitryratty.gitlab.io/diary
 https://dmitryratty.gitlab.io/diary/blood-filled-mouth
 https://dmitryratty.gitlab.io/diary/caught-masturbating
 https://dmitryratty.gitlab.io/diary/chaos
@@ -29,54 +31,38 @@ https://dmitryratty.gitlab.io/diary/sweet-school-time
 https://dmitryratty.gitlab.io/diary/winter-sunny-day
 https://dmitryratty.gitlab.io/diary/wire-cutters-music
 https://dmitryratty.gitlab.io/diary/yard-stories
-https://dmitryratty.gitlab.io/ethics
 https://dmitryratty.gitlab.io/ethics/chaos
 https://dmitryratty.gitlab.io/food
-https://dmitryratty.gitlab.io/gallery
-https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
-https://dmitryratty.gitlab.io/identity
-https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library-favorites
 https://dmitryratty.gitlab.io/library-interesting
 https://dmitryratty.gitlab.io/library/blindsight
 https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/lesswrong/chaos
 https://dmitryratty.gitlab.io/library/lesswrong/sequences
+    1 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
+    1 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
+    1 https://dmitryratty.gitlab.io/life/thou-art-godshatter
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
 https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/library/reality-check
-https://dmitryratty.gitlab.io/life/alexander-grothendieck
-https://dmitryratty.gitlab.io/life/benjamin-jesty
-https://dmitryratty.gitlab.io/life/bourbaki-dieudonne
-https://dmitryratty.gitlab.io/life/bourbaki-weil
-https://dmitryratty.gitlab.io/life/demon-core
 https://dmitryratty.gitlab.io/life/judas-goat
-https://dmitryratty.gitlab.io/life/mathematicians
 https://dmitryratty.gitlab.io/life/sakalauskas-case
-https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
-https://dmitryratty.gitlab.io/life/thou-art-godshatter
 https://dmitryratty.gitlab.io/location
-https://dmitryratty.gitlab.io/map
 https://dmitryratty.gitlab.io/map-order
-https://dmitryratty.gitlab.io/music
-https://dmitryratty.gitlab.io/news
-https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/coincidence-think
 https://dmitryratty.gitlab.io/other/fear-shame-guilt
 https://dmitryratty.gitlab.io/other/games-to-play
 https://dmitryratty.gitlab.io/other/languages
-https://dmitryratty.gitlab.io/other/transparent-society
-https://dmitryratty.gitlab.io/technology
 https://dmitryratty.gitlab.io/technology/hardware
-https://dmitryratty.gitlab.io/technology/kindergarten-math
 https://dmitryratty.gitlab.io/technology/neural-network
 https://dmitryratty.gitlab.io/technology/other
 https://dmitryratty.gitlab.io/technology/puzzles
 https://dmitryratty.gitlab.io/technology/software
 https://dmitryratty.gitlab.io/technology/unicode
 https://dmitryratty.gitlab.io/technology/web
+    1 https://dmitryratty.gitlab.io/technology/web-fonts
 https://dmitryratty.gitlab.io/technology/web-fonts
 https://dmitryratty.gitlab.io/test
 https://dmitryratty.gitlab.io/test/bullet
@@ -93,13 +79,9 @@ https://dmitryratty.gitlab.io/test/tf2
 https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
-https://dmitryratty.gitlab.io/todo
-https://dmitryratty.gitlab.io/todo/being
-https://dmitryratty.gitlab.io/todo/humour
-https://dmitryratty.gitlab.io/todo/read
-https://dmitryratty.gitlab.io/vidya
-https://dmitryratty.gitlab.io/vidya/factorio
-https://dmitryratty.gitlab.io/vidya/terraria
-https://dmitryratty.gitlab.io/wealth
+https://dmitryratty.gitlab.io/todo/identity
+    1 https://dmitryratty.gitlab.io/life/judas-goat
+    1 https://dmitryratty.gitlab.io/other/fear-shame-guilt
 https://dmitryratty.gitlab.io/wealth/ask-llm
 https://dmitryratty.gitlab.io/wealth/chaos
+    1 https://dmitryratty.gitlab.io/wealth/ask-llm

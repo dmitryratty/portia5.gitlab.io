@@ -170,8 +170,8 @@ https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo
-https://dmitryratty.gitlab.io/todo/being
 https://dmitryratty.gitlab.io/todo/humour
+https://dmitryratty.gitlab.io/todo/identity
 https://dmitryratty.gitlab.io/todo/read
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
