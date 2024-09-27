@@ -7,7 +7,7 @@ class TextBeautifier {
     private val dataEnd = ">>"
     private val lineTransform = LineTransform()
 
-    fun transformWord(word: String): String {
+    fun transformWord(url: RatUrl, word: String): String {
         if (word == breakLevelOne) return breakLevelOneBeautified
         // 《》 ⟨⟩ ❝❞
         if (word == dataStart) return "❝"
@@ -24,19 +24,19 @@ class TextBeautifier {
         return word
     }
 
-    fun transformLine(line: String): String {
+    fun transformLine(url: RatUrl, line: String): String {
         var newLine = line
         if (line.startsWith("- ")) {
             newLine = newLine.replaceFirst("- ", "— ")
         }
         newLine = newLine.replace("...", "…").replace(" - ", " — ")
-        return lineTransform.transform(newLine, ::transformWord)
+        return lineTransform.transform(url, newLine, ::transformWord)
     }
 
     val shortSeparator = IncludeTransform().abstractSeparatorTemp
     val beautifiedShortSeparator = "⁂ ⁂ ⁂"
 
-    fun transformParagraph(paragraph: String): String {
+    fun transformParagraph(url: RatUrl, paragraph: String): String {
         if (paragraph == shortSeparator) return beautifiedShortSeparator
         if (paragraph == "...") return "•••"
         val result = StringBuilder()
@@ -44,18 +44,18 @@ class TextBeautifier {
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
-            result.append(transformLine(line))
+            result.append(transformLine(url, line))
         }
         return result.toString()
     }
 
-    fun transform(text: String): String {
+    fun transform(url: RatUrl, text: String): String {
         val result = StringBuilder()
         Utils.splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }
-            result.append(transformParagraph(paragraph))
+            result.append(transformParagraph(url, paragraph))
         }
         return result.toString()
     }

@@ -12,7 +12,7 @@ class LineTransform(
         spaces.replace(" ", "&nbsp;")
     }
 
-    fun transform(line: String, wordTransformer: (word: String) -> String): String {
+    fun transform(url: RatUrl, line: String, wordTransformer: (url: RatUrl, word: String) -> String): String {
         val builder = StringBuilder()
         val spaces = StringBuilder()
         var firstWord = true
@@ -20,7 +20,7 @@ class LineTransform(
         line.split(' ').forEach { word ->
             if (firstWord) {
                 firstWord = false
-                builder.append(wordTransformer(word))
+                builder.append(wordTransformer(url, word))
             } else {
                 if (word.isEmpty()) {
                     spaces.append(' ')
@@ -28,10 +28,10 @@ class LineTransform(
                     spaces.append(' ')
                     builder.append(spacesTransformer(spaces.toString()))
                     spaces.clear()
-                    builder.append(wordTransformer(word))
+                    builder.append(wordTransformer(url, word))
                 } else {
                     builder.append(' ')
-                    builder.append(wordTransformer(word))
+                    builder.append(wordTransformer(url, word))
                 }
                 if (multispacesOnlyAtStart) {
                     if (firstNonBlankWordTransformed) {

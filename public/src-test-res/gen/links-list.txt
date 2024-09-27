@@ -75,7 +75,6 @@ https://digital.gov.kg/chavo-grazhdanstvo/esli-rodilsya-na-territorii-ukrainskoj
 https://digital.gov.kg/grazhdanstvo-kr/perechen-dokumentov-dlya-priema-v-grazhdanstvo-kr-v-uproshhennom-poryadke/
 https://discuss.kotlinlang.org/t/ternary-operator/2116/171
 https://dmitryratty.gitlab.io
-https://dmitryratty.gitlab.io/being
 https://dmitryratty.gitlab.io/biology
 https://dmitryratty.gitlab.io/biology/chaos
 https://dmitryratty.gitlab.io/biology/human
@@ -112,6 +111,7 @@ https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
+https://dmitryratty.gitlab.io/identity
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library-favorites
 https://dmitryratty.gitlab.io/library-interesting
@@ -1032,8 +1032,10 @@ https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
 https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
+https://youtu.be/u82QLdkhKdo?si=8JZrpNwlQJrOpwmp
 https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN
 https://youtu.be/vwN-7mklDCM?si=FIzAo-Vt8PKlL8Ct
+https://youtu.be/vzWwUBeB1RM?si=c8jlJgqJBnR-ACTh
 https://youtu.be/wcUouLOmQuU?si=CicQ8pMERW4uj6BF
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
 https://youtu.be/y9pTbMoufp4?si=9lufGkhU2Zyljjam

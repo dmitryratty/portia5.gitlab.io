@@ -1,6 +1,7 @@
 
 import java.nio.file.Files
 import java.nio.file.Path
+import java.util.*
 
 class Sitemap(c: Context) : Context by c {
     val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
@@ -27,7 +28,7 @@ class Sitemap(c: Context) : Context by c {
         pages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
     }
 
-    fun updateMaps() {
+    fun updateMaps(mapOfLinks: SortedMap<String, TreeSet<String>>) {
         // Recreate map page to allow it regeneration in reflective phase.
         val mapUrl = urls.find { it.relativeUrl == RelativeUtils.MAP_RELATIVE_URL }!!
         _map = Page(mapUrl)

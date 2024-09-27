@@ -34,8 +34,8 @@ class Generator(c: Context = ContextImpl()) : Context by c {
     private fun processPage(page: Page) {
         page.url.srcAbsolutePath.toFile().writeText(page.formatted)
         includeTransform.transform(this, page)
-        page.beautyText = TextBeautifier().transform(page.includeText)
-        val bodyHtml = htmlTransform.textToHtml(page.url.srcRelativePathString, page.beautyText)
+        page.beautyText = TextBeautifier().transform(page.url, page.includeText)
+        val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
         val htmlFile = page.htmlOutFile.toFile()
         htmlFile.parentFile.mkdirs()
         htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml, page.navigation))
@@ -48,7 +48,7 @@ class Generator(c: Context = ContextImpl()) : Context by c {
         sitemap.updateUrls()
         sitemap.pages.forEach { processPage(it.value) }
         firstRun = false
-        sitemap.updateMaps()
+        sitemap.updateMaps(htmlTransform.mapOfLinks)
         processPage(sitemap.getMapOrder())
         processPage(sitemap.getMapChaos())
         processPage(sitemap.getMap())

@@ -2,7 +2,7 @@
 
 << * * * >>
 
-#include link /being
+#include link /identity
 
 #include link /news
 

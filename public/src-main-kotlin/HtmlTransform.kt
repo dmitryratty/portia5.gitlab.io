@@ -1,5 +1,6 @@
 
 import Utils.HOST_NAME
+import java.util.*
 
 class HtmlTransform(
     /**
@@ -23,6 +24,7 @@ class HtmlTransform(
     private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
+    val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
 
     private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
             "\n\n    <p>🏠 <a href=\"/\">$HOST_NAME</a></p>"
@@ -59,12 +61,12 @@ class HtmlTransform(
     @Suppress("RegExpSimplifiable")
     private val longWordLineBreaks = "((.{$maxUnwrappedWordLenght})|(.+))".toRegex()
 
-    fun longWordLineBreaksTwo(word: String): String {
+    private fun longWordLineBreaksTwo(word: String): String {
         // TODO "&shy;" vs wbrElement
         return longWordLineBreaks.findAll(word).map { it.value }.joinToString(wbrElement)
     }
 
-    fun longWordLineBreaks(word: String): String {
+    private fun longWordLineBreaks(word: String): String {
         val result = StringBuilder()
         word.split('-').forEach {
             if (result.isNotEmpty()) result.append('-')
@@ -78,8 +80,16 @@ class HtmlTransform(
         return result.toString()
     }
 
-    fun transformLink(link: String): String {
+    private fun transformLink(url: RatUrl, link: String): String {
         setOfLinks.add(link)
+        if (link.startsWith(HOST_NAME)) {
+            var links = mapOfLinks[url.absoluteUrl]
+            if (links == null) {
+                links = sortedSetOf()
+                mapOfLinks[url.absoluteUrl] = links
+            }
+            links.add(link)
+        }
         val linkDisplay = if (link.length > maxUnwrappedWordLenght) {
             longUrlLineBreaks(link)
         } else {
@@ -98,9 +108,9 @@ class HtmlTransform(
         return word.contains("東亜重工")
     }
 
-    fun transformWord(word: String): String {
+    fun transformWord(url: RatUrl, word: String): String {
         if (Utils.isHyperlink(word)) {
-            return transformLink(word)
+            return transformLink(url, word)
         }
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -122,13 +132,13 @@ class HtmlTransform(
         return newWord
     }
 
-    fun transformLine(line: String): String {
-        return lineTransform.transform(line, ::transformWord)
+    fun transformLine(url: RatUrl, line: String): String {
+        return lineTransform.transform(url, line, ::transformWord)
     }
 
     val beautifiedShortSeparator = TextBeautifier().beautifiedShortSeparator
 
-    fun transformParagraph(paragraph: String): String {
+    fun transformParagraph(url: RatUrl, paragraph: String): String {
         val result = StringBuilder()
         if (paragraph.contains("* * *")) {
             if (paragraph != "* * *") {
@@ -142,22 +152,22 @@ class HtmlTransform(
             return result.toString()
         }
         result.append("<p>")
-        val lines = Utils.splitParagraphToLines(paragraph)
-        result.append(lines.joinToString("\n        $brElement", transform = ::transformLine))
+        val lines = Utils.splitParagraphToLines(paragraph).map { transformLine(url, it) }
+        result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")
         return result.toString()
     }
 
-    fun textToHtml(tag: String, text: String): String {
+    fun textToHtml(url: RatUrl, text: String): String {
         val article = StringBuilder()
         Utils.splitToParagraphs(text).forEach { paragraph ->
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }
             try {
-                article.append(transformParagraph(paragraph))
+                article.append(transformParagraph(url, paragraph))
             } catch (e: Exception) {
-                throw IllegalStateException(tag, e)
+                throw IllegalStateException(url.srcRelativePathString, e)
             }
         }
         return article.toString()
