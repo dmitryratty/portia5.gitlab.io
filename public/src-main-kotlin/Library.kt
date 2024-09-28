@@ -1,4 +1,3 @@
-
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
@@ -24,10 +23,7 @@ class Library {
 
     @Serializable
     data class Writing(
-        val names: List<Name>,
-        val authors: List<Author>,
-        val tags: Set<String>,
-        val rating: Int
+        val names: List<Name>, val authors: List<Author>, val tags: Set<String>, val rating: Int
     )
 
     fun main() {
@@ -37,41 +33,34 @@ class Library {
     private fun printCount(inputWritings: List<Writing>) {
         val novelCount = inputWritings.count { it.tags.contains("novel") }
         val recommendation = inputWritings.count {
-            it.tags.contains("novel")
-                    && it.tags.contains("recommendation")
+            it.tags.contains("novel") && it.tags.contains("recommendation")
         }
         val entertaining = inputWritings.count {
-            it.tags.contains("novel")
-                    && it.tags.contains("entertaining")
+            it.tags.contains("novel") && it.tags.contains("entertaining")
         }
         val archive = inputWritings.count {
-            it.tags.contains("novel")
-                    && it.tags.contains("archive")
+            it.tags.contains("novel") && it.tags.contains("archive")
         }
-        val hidden = inputWritings.count {
-            it.tags.contains("novel")
-                    && it.tags.contains("hidden")
+        val chaos = inputWritings.count {
+            it.tags.contains("novel") && it.tags.contains("chaos")
         }
-        if ((recommendation + entertaining + archive + hidden) != novelCount) {
+        if ((recommendation + entertaining + archive + chaos) != novelCount) {
             throw IllegalStateException()
         }
         // Total novels 163, listed 128, unlisted 35.
-        // Recommendation 10, entertaining 0, archive 109, hidden 9.
+        // Recommendation 10, entertaining 0, archive 109, chaos 9.
         val unlisted = 35
         print("Total novels ${novelCount + unlisted}, listed $novelCount, unlisted $unlisted.")
         print(" ")
         print("Recommendation $recommendation, entertaining $entertaining,")
         print(" ")
-        print("archive $archive, hidden $hidden.")
+        print("archive $archive, chaos $chaos.")
         print("\n")
     }
 
     private fun formatWritings(writings: List<Writing>, language: String): String {
         return writings.joinToString(
-            separator = "», «",
-            prefix = ": «",
-            postfix = "».",
-            transform = { it.names[0].name })
+            separator = "», «", prefix = ": «", postfix = "».", transform = { it.names[0].name })
     }
 
     private fun formatAuthors(authors: List<Author>, language: String): String {
@@ -91,20 +80,36 @@ class Library {
         return writingsIn
     }
 
+    fun articlesFileFilter(w: Writing): Boolean {
+        return (w.tags.contains("essay") || w.tags.contains("blogging")) && !w.tags.contains("chaos")
+    }
+
+    fun otherFileFilter(w: Writing): Boolean {
+        return (!w.tags.contains("essay") && !w.tags.contains("blogging")) && !w.tags.contains("chaos")
+    }
+
+    fun chaosFileFilter(w: Writing): Boolean {
+        return w.tags.contains("chaos")
+    }
+
     fun writeWritings(dst: Path, writings: List<Writing>) {
         val format = Json { prettyPrint = true }
 
-        val articlesToSave = writings
-            .filter { it.tags.contains("essay") || it.tags.contains("blogging") }
-            .sortedBy { it.rating }
+        val articlesToSave = writings.filter { articlesFileFilter(it) }.sortedBy { it.rating }
         val outArticleFile = dst.resolve("library-article.json").toFile()
         outArticleFile.writeText(format.encodeToString(articlesToSave))
 
-        val othersToSave = writings
-            .filter { !it.tags.contains("essay") && !it.tags.contains("blogging") }
-            .sortedBy { it.rating }
+        val othersToSave = writings.filter { otherFileFilter(it) }.sortedBy { it.rating }
         val outOtherFile = dst.resolve("library-other.json").toFile()
         outOtherFile.writeText(format.encodeToString(othersToSave))
+
+        val chaosToSave = writings.filter { chaosFileFilter(it) }.sortedBy { it.rating }
+        val outChaosFile = dst.resolve("library-chaos.json").toFile()
+        outChaosFile.writeText(format.encodeToString(chaosToSave))
+
+        val rest =
+            writings.filter { !articlesFileFilter(it) && !otherFileFilter(it) && !chaosFileFilter(it) }
+        if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
     private fun loadWritings(): MutableList<Writing> {
@@ -118,8 +123,9 @@ class Library {
     }
 
     fun articlesFilter(writing: Writing): Boolean {
-        return writing.tags.contains("entertaining")
-                && (writing.tags.contains("blogging") || writing.tags.contains("short story"))
+        return writing.tags.contains("entertaining") && (writing.tags.contains("blogging") || writing.tags.contains(
+            "short story"
+        ))
     }
 
     private fun generatePublic() {
@@ -127,10 +133,8 @@ class Library {
         val libraryOut = UtilsAbsolute.srcGenDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
-        val recommendations = writingsIn
-            .filter { booksFilter(it) }
-            .sortedBy { it.rating }
-            .groupBy { it.authors }
+        val recommendations =
+            writingsIn.filter { booksFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         recommendations.forEach { (authors, writings) ->
             if (favoritesBuilder.isNotEmpty()) {
                 favoritesBuilder.append(" ")
@@ -143,10 +147,8 @@ class Library {
         val listsBuilder = StringBuilder()
 
         listsBuilder.append("Интересные штуки размером со статью. </> ")
-        val posts = writingsIn
-            .filter { articlesFilter(it) }
-            .sortedBy { it.rating }
-            .groupBy { it.authors }
+        val posts =
+            writingsIn.filter { articlesFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
         val postsBuilder = StringBuilder()
         posts.forEach { (authors, writings) ->
             if (postsBuilder.isNotEmpty()) {
@@ -160,18 +162,12 @@ class Library {
         listsBuilder.append("\n\n")
 
         listsBuilder.append("Ещё я читал этих авторов. </> ")
-        val authors = writingsIn
-            .filter { !recommendations.keys.contains(it.authors)
-                    && !posts.keys.contains(it.authors) }
-            .sortedBy { it.rating }
-            .groupBy { it.authors }
-            .keys.toMutableList()
+        val authors = writingsIn.filter {
+                !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
+            }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
         listsBuilder.append(
             authors.joinToString(
-                separator = ", ",
-                prefix = "",
-                postfix = ".",
-                transform = { it[0].names[0].name })
+                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names[0].name })
         )
         libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }

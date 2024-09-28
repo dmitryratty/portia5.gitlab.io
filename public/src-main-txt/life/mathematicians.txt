@@ -2,9 +2,11 @@
 
 << * * * >>
 
-#include link /life/alexander-grothendieck
-
 #include link /life/srinivasa-ramanujan
+
+* * *
+
+#include link /life/alexander-grothendieck
 
 * * *
 
