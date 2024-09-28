@@ -108,8 +108,8 @@ class Library {
     }
 
     private fun loadWritings(): MutableList<Writing> {
-        val writings = loadWritings(Utils.srcResDir)
-        writeWritings(Utils.srcResDir, writings)
+        val writings = loadWritings(UtilsAbsolute.srcResDir)
+        writeWritings(UtilsAbsolute.srcResDir, writings)
         return writings
     }
 
@@ -124,7 +124,7 @@ class Library {
 
     private fun generatePublic() {
         val writingsIn = loadWritings()
-        val libraryOut = Utils.srcGenDir
+        val libraryOut = UtilsAbsolute.srcGenDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
         val recommendations = writingsIn

@@ -9,7 +9,7 @@ import kotlin.test.Test
  */
 class GitTest {
 
-    val repo = Utils.testResDir.resolve("gitrepo").toFile()
+    val repo = UtilsAbsolute.testResDir.resolve("gitrepo").toFile()
 
     @Test
     fun main1() {

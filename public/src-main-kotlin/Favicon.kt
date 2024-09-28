@@ -20,9 +20,9 @@ class Favicon {
     @Serializable
     data class BuildInfo(val lastModifiedSvg: Long, val lastModifiedKt: Long)
 
-    val ktSrc = Utils.projectDir.resolve("src-main-kotlin/Favicon.kt")
-    val svgSrc = Utils.srcRawDir.resolve("favicon.svg")
-    val jsonFile = Utils.srcResDir.resolve("favicon.json").toFile()
+    val ktSrc = UtilsAbsolute.projectDir.resolve("src-main-kotlin/Favicon.kt")
+    val svgSrc = UtilsAbsolute.srcRawDir.resolve("favicon.svg")
+    val jsonFile = UtilsAbsolute.srcResDir.resolve("favicon.json").toFile()
 
     private fun svgToPng(src: Path, dst: Path, size: Int) {
         val output = rattyExec(
@@ -57,8 +57,8 @@ class Favicon {
     fun main() {
         if (!generationRequired()) return
         println("Generating favicon.")
-        val tmpPng = Utils.srcRawDir.resolve("favicon-temp.png")
-        val icoDst = Utils.srcRawDir.resolve("favicon.ico")
+        val tmpPng = UtilsAbsolute.srcRawDir.resolve("favicon-temp.png")
+        val icoDst = UtilsAbsolute.srcRawDir.resolve("favicon.ico")
         svgToPng(svgSrc, tmpPng, 32)
         val output = rattyExec(
             "convert", tmpPng.absolutePathString(), icoDst.absolutePathString()
@@ -67,9 +67,9 @@ class Favicon {
             println(output)
         }
         tmpPng.toFile().delete()
-        svgToPng(svgSrc, Utils.srcRawDir.resolve("icon-512.png"), 512)
-        svgToPng(svgSrc, Utils.srcRawDir.resolve("icon-192.png"), 192)
-        svgToPng(svgSrc, Utils.srcRawDir.resolve("apple-touch-icon.png"), 180)
+        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("icon-512.png"), 512)
+        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("icon-192.png"), 192)
+        svgToPng(svgSrc, UtilsAbsolute.srcRawDir.resolve("apple-touch-icon.png"), 180)
         generationCompleted()
     }
 }

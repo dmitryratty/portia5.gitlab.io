@@ -2,7 +2,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.util.*
 
-class Sitemap(c: Context) : Context by c {
+class Sitemap(c: ContextInterface) : ContextInterface by c {
     private val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
     val urls: MutableList<RatUrl> = mutableListOf()
     val pages: MutableMap<String, Page> = mutableMapOf()
@@ -53,16 +53,16 @@ class Sitemap(c: Context) : Context by c {
     fun updateMaps(mapOfLinks: SortedMap<String, TreeSet<String>>) {
         parsedMap = mapOfLinks
         // Recreate map page to allow it regeneration in reflective phase.
-        val mapUrl = urls.find { it.relativeUrl == RelativeUtils.MAP_RELATIVE_URL }!!
+        val mapUrl = urls.find { it.relativeUrl == UtilsRelative.MAP_RELATIVE_URL }!!
         _map = Page(mapUrl)
-        pages[RelativeUtils.MAP_RELATIVE_URL] = getMap()
+        pages[UtilsRelative.MAP_RELATIVE_URL] = getMap()
 
-        val mapOrderSrcRelativePath = Path.of(RelativeUtils.MAP_ORDER_RELATIVE_PATH)
+        val mapOrderSrcRelativePath = Path.of(UtilsRelative.MAP_ORDER_RELATIVE_PATH)
         val mapOrderSrcAbsolutePath: Path = srcGenDir.resolve(mapOrderSrcRelativePath)
         val mapOrderUri = RatUrl(mapOrderSrcAbsolutePath, mapOrderSrcRelativePath, dstMainDir)
         if (urls.contains(mapOrderUri)) throw IllegalStateException()
         urls.add(mapOrderUri)
-        val mapChaosSrcRelativePath = Path.of(RelativeUtils.MAP_CHAOS_RELATIVE_PATH)
+        val mapChaosSrcRelativePath = Path.of(UtilsRelative.MAP_CHAOS_RELATIVE_PATH)
         val mapChaosSrcAbsolutePath: Path = srcGenDir.resolve(mapChaosSrcRelativePath)
         val mapChaosUri = RatUrl(mapChaosSrcAbsolutePath, mapChaosSrcRelativePath, dstMainDir)
         if (urls.contains(mapChaosUri)) throw IllegalStateException()

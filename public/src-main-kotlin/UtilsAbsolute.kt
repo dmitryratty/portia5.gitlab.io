@@ -1,7 +1,7 @@
 
 import java.nio.file.Path
 
-object Utils {
+object UtilsAbsolute {
     const val HOST_NAME = "https://dmitryratty.gitlab.io"
 
     val currentPath: Path = Path.of(System.getProperty("user.dir")).normalize().toRealPath()

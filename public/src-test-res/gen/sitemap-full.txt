@@ -81,6 +81,7 @@
 [3] /map[.html]
 [3] /map-order[.html]
 [3] /music[.html]
+[3] /music-archive[.html]
 [3] /news[.html]
 [3] /other/coincidence-think[.html]
 [3] /other/fear-shame-guilt[.html]

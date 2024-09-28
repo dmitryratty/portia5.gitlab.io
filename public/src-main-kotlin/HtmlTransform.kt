@@ -1,5 +1,5 @@
 
-import Utils.HOST_NAME
+import UtilsAbsolute.HOST_NAME
 import java.util.*
 
 class HtmlTransform(
@@ -20,7 +20,7 @@ class HtmlTransform(
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val htmlTemplate get() = Utils.srcResDir.resolve("page-template.html").toFile().readText()
+    private val htmlTemplate get() = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile().readText()
     private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
@@ -109,7 +109,7 @@ class HtmlTransform(
     }
 
     fun transformWord(url: RatUrl, word: String): String {
-        if (Utils.isHyperlink(word)) {
+        if (UtilsAbsolute.isHyperlink(word)) {
             return transformLink(url, word)
         }
         // Replace "…" with html entity?
@@ -152,7 +152,7 @@ class HtmlTransform(
             return result.toString()
         }
         result.append("<p>")
-        val lines = Utils.splitParagraphToLines(paragraph).map { transformLine(url, it) }
+        val lines = UtilsAbsolute.splitParagraphToLines(paragraph).map { transformLine(url, it) }
         result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")
         return result.toString()
@@ -160,7 +160,7 @@ class HtmlTransform(
 
     fun textToHtml(url: RatUrl, text: String): String {
         val article = StringBuilder()
-        Utils.splitToParagraphs(text).forEach { paragraph ->
+        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
             if (article.isNotEmpty()) {
                 article.append("\n\n    ")
             }

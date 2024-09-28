@@ -3,7 +3,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption.REPLACE_EXISTING
 
-class Generator(c: Context = ContextImpl()) : Context by c {
+class Generator(c: ContextInterface = Context()) : ContextInterface by c {
 
     companion object {
         @JvmStatic
@@ -12,8 +12,8 @@ class Generator(c: Context = ContextImpl()) : Context by c {
         }
     }
 
-    val includeTransform = IncludeTransform()
-    val htmlTransform = HtmlTransform()
+    private val includeTransform = IncludeTransform(this)
+    private val htmlTransform = HtmlTransform()
     val sitemap = Sitemap(c)
     var firstRun = true
 
@@ -32,8 +32,8 @@ class Generator(c: Context = ContextImpl()) : Context by c {
     }
 
     private fun processPage(page: Page) {
-        page.url.srcAbsolutePath.toFile().writeText(page.formatted)
-        includeTransform.transform(this, page)
+        page.srcAbsolutePath.toFile().writeText(page.formatted)
+        includeTransform.transform(page)
         page.beautyText = TextBeautifier().transform(page.url, page.includeText)
         val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
         val htmlFile = page.htmlOutFile.toFile()

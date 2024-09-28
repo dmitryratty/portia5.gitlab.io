@@ -18,6 +18,7 @@ https://dmitryratty.gitlab.io
         2 https://dmitryratty.gitlab.io/life/thou-art-godshatter
         2 https://dmitryratty.gitlab.io/map
         2 https://dmitryratty.gitlab.io/music
+            3 https://dmitryratty.gitlab.io/music-archive
         2 https://dmitryratty.gitlab.io/news
             3 https://dmitryratty.gitlab.io/other/transparent-society
         2 https://dmitryratty.gitlab.io/todo

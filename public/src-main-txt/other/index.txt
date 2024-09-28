@@ -6,6 +6,14 @@
 
 #include link /news
 
+#include link /contacts
+
+#include link /map
+
+#include link /music
+
+#include link /todo
+
 #include link /life/thou-art-godshatter
 
 #include link /life/benjamin-jesty
@@ -13,13 +21,5 @@
 #include link /life/mathematicians
 
 #include link /life/demon-core
-
-#include link /todo
-
-#include link /music
-
-#include link /map
-
-#include link /contacts
 
 INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLICIT WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.

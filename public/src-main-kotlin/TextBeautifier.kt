@@ -13,7 +13,7 @@ class TextBeautifier {
         if (word == dataStart) return "❝"
         if (word == dataEnd) return "❞"
         if (!typewriterApostrophes) {
-            if (!Utils.isHyperlink(word)) {
+            if (!UtilsAbsolute.isHyperlink(word)) {
                 // ''''' - Wikipedia typewriter apostrophe.
                 // ’’’’’ - Substack curly apostrophe.
                 // ’’’’’ (U+2019 RIGHT SINGLE QUOTATION MARK)
@@ -33,14 +33,14 @@ class TextBeautifier {
         return lineTransform.transform(url, newLine, ::transformWord)
     }
 
-    val shortSeparator = IncludeTransform().abstractSeparatorTemp
+    val shortSeparator = Constants.abstractSeparatorTemp
     val beautifiedShortSeparator = "⁂ ⁂ ⁂"
 
     fun transformParagraph(url: RatUrl, paragraph: String): String {
         if (paragraph == shortSeparator) return beautifiedShortSeparator
         if (paragraph == "...") return "•••"
         val result = StringBuilder()
-        Utils.splitParagraphToLines(paragraph).forEach { line ->
+        UtilsAbsolute.splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
@@ -51,7 +51,7 @@ class TextBeautifier {
 
     fun transform(url: RatUrl, text: String): String {
         val result = StringBuilder()
-        Utils.splitToParagraphs(text).forEach { paragraph ->
+        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }

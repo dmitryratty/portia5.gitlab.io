@@ -8,7 +8,7 @@ class TextBeautifierTest {
     fun beautifyLine() {
         val lineIn = " - Start space-dash. And - dash in middle... And - another dash..."
         val lineOut = " — Start space-dash. And — dash in middle… And — another dash…"
-        assertEquals(lineOut, TextBeautifier().transformLine(lineIn))
+        assertEquals(lineOut, TextBeautifier().transformLine(TestUtils.url, lineIn))
     }
 
     @Test
@@ -19,7 +19,7 @@ class TextBeautifierTest {
         val textOut = " — Start space-dash. And — dash in middle… And — another dash…\n" +
                 "— Start dash. Hello!\n\n" +
                 "— Another start dash. And — dash…"
-        assertEquals(textOut, TextBeautifier().transform(textIn))
+        assertEquals(textOut, TextBeautifier().transform(TestUtils.url, textIn))
     }
 
     @Test
@@ -43,34 +43,46 @@ class TextBeautifierTest {
         var transformer = LineTransform(false)
         var lineIn = "0 spaces."
         var lineOu = "0 spaces."
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+            url: RatUrl, word: String -> word
+        })
         lineIn = " 1 space."
         lineOu = " 1 space."
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+        })
         lineIn = "   3 spaces,  2 spaces."
         lineOu = "   3 spaces,  2 spaces."
         assertEquals(lineOu, lineIn.split(' ').joinToString(" "))
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+        })
         lineIn = "    4 spaces."
         lineOu = "    4 spaces."
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+        })
 
         transformer = LineTransform(false, LineTransform().simpleSpacesTransformer)
         lineIn = "   3 spaces,  2 spaces."
         lineOu = "&nbsp;&nbsp;&nbsp;3 spaces,&nbsp;&nbsp;2 spaces."
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+        })
 
         transformer = LineTransform(true, LineTransform().simpleSpacesTransformer)
         lineIn = " 1 space."
         lineOu = "&nbsp;1 space."
-        assertEquals(lineOu, transformer.transform(lineIn) { word: String -> word })
+        assertEquals(lineOu, transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+        })
 
         transformer = LineTransform()
         lineIn = "   3 spaces,  2 spaces."
         assertFailsWith(LineTransform.MultispacesOnlyAtStart::class) {
-            transformer.transform(
-                lineIn
-            ) { word: String -> word }
+            transformer.transform(TestUtils.url, lineIn) {
+                url: RatUrl, word: String -> word
+            }
         }
     }
 }

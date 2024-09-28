@@ -14,7 +14,7 @@ object TextFormatter {
 
     fun transformParagraph(paragraph: String): String {
         val result = StringBuilder()
-        Utils.splitParagraphToLines(paragraph).forEach { line ->
+        UtilsAbsolute.splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {
                 result.append("\n")
             }
@@ -25,7 +25,7 @@ object TextFormatter {
 
     fun transform(text: String): String {
         val result = StringBuilder()
-        Utils.splitToParagraphs(text).forEach { paragraph ->
+        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
             if (result.isNotEmpty()) {
                 result.append("\n\n")
             }

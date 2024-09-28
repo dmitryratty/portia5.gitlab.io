@@ -137,6 +137,7 @@ https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/map
 https://dmitryratty.gitlab.io/map-order
 https://dmitryratty.gitlab.io/music
+https://dmitryratty.gitlab.io/music-archive
 https://dmitryratty.gitlab.io/news
 https://dmitryratty.gitlab.io/other
 https://dmitryratty.gitlab.io/other/coincidence-think
@@ -832,7 +833,6 @@ https://vitalik.eth.limo/general/2024/03/29/memecoins.html
 https://vk.com/balisangre
 https://vk.com/bravedraenei
 https://vk.com/comfortnayazona
-https://vk.com/dmitryratty
 https://vk.com/ginger.diary
 https://vk.com/kde_ru
 https://vk.com/odonata_live

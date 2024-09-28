@@ -1,8 +1,8 @@
 import java.util.*
 import kotlin.io.path.readText
 
-data class Page(val url: RatUrl) {
-    val raw: String = url.srcAbsolutePath.readText()
+data class Page(val url: RatUrl) : RatUrlInterface by url {
+    val raw: String = srcAbsolutePath.readText()
     val formatted: String = TextFormatter.transform(raw)
     // Also lenses.
     val abstracts = mutableListOf<MutableList<MutableList<String>>>()
@@ -37,7 +37,7 @@ data class Page(val url: RatUrl) {
     }
     fun summaryParag(link: Boolean): String {
         return if (summaryParag.isNotEmpty() && link) {
-            "${summaryParag}\n - ${url.absoluteUrl}"
+            "${summaryParag}\n - ${absoluteUrl}"
         } else {
             summaryParag
         }
@@ -79,7 +79,7 @@ data class Page(val url: RatUrl) {
     fun summarySection(link: Boolean): MutableList<String> {
         return if (summarySection.isNotEmpty() && link) {
             val result = summarySection.toMutableList()
-            result.add(url.absoluteUrl)
+            result.add(absoluteUrl)
             result
         } else {
             summarySection
@@ -120,8 +120,8 @@ data class Page(val url: RatUrl) {
     var includeText: String = ""
     var beautyText: String = ""
 
-    val navigation = !url.isRoot
-    val htmlOutFile = url.dstAbsolutePath
+    val navigation = !isRoot
+    val htmlOutFile = dstAbsolutePath
 
     private var _title: String? = null
     val title: String
@@ -133,11 +133,11 @@ data class Page(val url: RatUrl) {
         if (_title != null) {
             return
         }
-        if (url.isRoot) {
+        if (isRoot) {
             _title = "Well… Yes!"
             return
         }
-        var name = url.relativeUrl.removePrefix("/")
+        var name = relativeUrl.removePrefix("/")
         if (name.contains('/')) {
             _title = "Well… \"$name\"!"
         } else {
