@@ -38,6 +38,7 @@ https://dmitryratty.gitlab.io/humour/the-dragonfly-and-the-ant
 https://dmitryratty.gitlab.io/library-favorites
 https://dmitryratty.gitlab.io/library-interesting
 https://dmitryratty.gitlab.io/library/blindsight
+https://dmitryratty.gitlab.io/library/conditions-of-personhood
 https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/lesswrong/chaos
 https://dmitryratty.gitlab.io/library/lesswrong/sequences

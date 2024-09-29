@@ -32,6 +32,7 @@ https://apteka.ru/product/teanin-30-sht-kapsuly-5e327198ca7bdc0001931596/
 https://arbital.com/p/bayes_rule
 https://arbital.com/p/bayes_rule/
 https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE
+https://archive.is/2024.04.11-041114/https://www.bloomberg.com/news/features/2024-04-10/anti-aging-tips-from-blackjack-and-finance-guru-ed-thorp
 https://archivenakao.blogspot.com/2017/03/blameweirdkango.html
 https://arena.lmsys.org/
 https://arxiv.org/abs/2011.00412
@@ -117,6 +118,7 @@ https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library-favorites
 https://dmitryratty.gitlab.io/library-interesting
 https://dmitryratty.gitlab.io/library/blindsight
+https://dmitryratty.gitlab.io/library/conditions-of-personhood
 https://dmitryratty.gitlab.io/library/echopraxia
 https://dmitryratty.gitlab.io/library/lesswrong/chaos
 https://dmitryratty.gitlab.io/library/lesswrong/sequences
@@ -182,11 +184,13 @@ https://dmitryratty.gitlab.io/wealth
 https://dmitryratty.gitlab.io/wealth/ask-llm
 https://dmitryratty.gitlab.io/wealth/chaos
 https://docs.oracle.com/javase/tutorial/
+https://doi.org/10.1007/978-1-4612-3950-5_7
 https://doi.org/10.1038/s41586-019-1724-z
 https://doi.org/10.1073/pnas.1601135113
 https://doi.org/10.1093/brain/awt364
 https://doi.org/10.1136/bmj.327.7429.1459
 https://doi.org/10.1136/bmj.k5094
+https://doi.org/10.2337/diacare.17.2.152
 https://drewdevault.com/2021/12/28/Dont-use-Discord-for-FOSS.html
 https://drinkordiecdn.lol/sd-v1-3-full-ema.ckpt
 https://dtf.ru/gamedev/1771542-zakulise-razrabotchikov-tresh-igr-skolko-mozhno-zarabatyvat-na-musornyh-igrah-v-steam
@@ -311,6 +315,7 @@ https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
 https://en.wikipedia.org/wiki/Three_Kingdoms
 https://en.wikipedia.org/wiki/Tit_for_tat
 https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+https://en.wikipedia.org/wiki/Trapezoidal_rule
 https://en.wikipedia.org/wiki/Trojan_Horse
 https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)
 https://en.wikipedia.org/wiki/Tukhchar_massacre
@@ -482,6 +487,7 @@ https://redpillnootrop.ru/gaba/
 https://regexr.com
 https://replicate.com/meta/meta-llama-3-70b-instruct
 https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%B3%D0%B5%D0%BB%D1%8C,_%D0%93%D0%B5%D0%BE%D1%80%D0%B3_%D0%92%D0%B8%D0%BB%D1%8C%D0%B3%D0%B5%D0%BB%D1%8C%D0%BC_%D0%A4%D1%80%D0%B8%D0%B4%D1%80%D0%B8%D1%85
+https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B4%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2
 https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%85%D0%BE%D0%B2,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
 https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D0%BA%D1%83%D1%89%D0%B8%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F
 https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BA%D1%82%D0%B0_%D0%B1%D0%BE%D0%B3%D0%B0_%D0%9A%D1%83%D0%B7%D0%B8
@@ -823,6 +829,7 @@ https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-loc
 https://token.unlocks.app
 https://tokensniffer.com
 https://tproger.ru/problems/logic-problem-for-weights/
+https://tumbalele.livejournal.com/29633.html
 https://twitter.com/bubblemaps
 https://twitter.com/dmitryratty
 https://tylervigen.com/spurious-correlations

@@ -62,6 +62,7 @@
 [3] /library-favorites[.html]
 [3] /library-interesting[.html]
 [3] /library/blindsight[.html]
+[3] /library/conditions-of-personhood[.html]
 [3] /library/echopraxia[.html]
 [3] /library/lesswrong/chaos[.html]
 [3] /library/lesswrong/sequences/translation-done[.html]
