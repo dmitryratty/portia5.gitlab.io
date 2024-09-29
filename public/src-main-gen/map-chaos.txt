@@ -34,6 +34,7 @@ https://dmitryratty.gitlab.io/diary/yard-stories
 https://dmitryratty.gitlab.io/ethics/chaos
 https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/humour/math-methods
+https://dmitryratty.gitlab.io/humour/the-dragonfly-and-the-ant
 https://dmitryratty.gitlab.io/library-favorites
 https://dmitryratty.gitlab.io/library-interesting
 https://dmitryratty.gitlab.io/library/blindsight

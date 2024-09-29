@@ -111,6 +111,7 @@ https://dmitryratty.gitlab.io/food
 https://dmitryratty.gitlab.io/gallery
 https://dmitryratty.gitlab.io/humour
 https://dmitryratty.gitlab.io/humour/math-methods
+https://dmitryratty.gitlab.io/humour/the-dragonfly-and-the-ant
 https://dmitryratty.gitlab.io/identity
 https://dmitryratty.gitlab.io/library
 https://dmitryratty.gitlab.io/library-favorites

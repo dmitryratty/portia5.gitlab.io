@@ -57,6 +57,7 @@
 [3] /ethics/chaos[.html]
 [3] /food[.html]
 [3] /humour/math-methods[.html]
+[3] /humour/the-dragonfly-and-the-ant[.html]
 [3] /identity[.html]
 [3] /library-favorites[.html]
 [3] /library-interesting[.html]
