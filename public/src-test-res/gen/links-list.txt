@@ -527,6 +527,7 @@ https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 https://stihi.ru/2002/10/10-463
 https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/
+https://substack.com/@ellerarenata/note/c-70314774?r=3fi1m4
 https://sundaystack.substack.com
 https://t.me/Alembic
 https://t.me/BlumCryptoBot

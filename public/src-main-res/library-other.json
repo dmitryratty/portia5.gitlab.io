@@ -683,29 +683,6 @@
     {
         "names": [
             {
-                "name": "Анна Каренина",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 900
-    },
-    {
-        "names": [
-            {
                 "name": "Рождение знаменитости",
                 "language": "?"
             }
@@ -775,29 +752,6 @@
     {
         "names": [
             {
-                "name": "Война и Мир",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1000
-    },
-    {
-        "names": [
-            {
                 "name": "Преступление и наказание",
                 "language": "?"
             }
@@ -821,7 +775,7 @@
     {
         "names": [
             {
-                "name": "Золотой жук",
+                "name": "Камера обскура",
                 "language": "?"
             }
         ],
@@ -829,7 +783,7 @@
             {
                 "names": [
                     {
-                        "name": "Эдгар По",
+                        "name": "Владимир Набоков",
                         "language": "?"
                     }
                 ]
@@ -837,9 +791,32 @@
         ],
         "tags": [
             "archive",
-            "nouvelle"
+            "novel"
         ],
         "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Война и Мир",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1100
     },
     {
         "names": [
@@ -913,7 +890,7 @@
     {
         "names": [
             {
-                "name": "Кола Брюньон",
+                "name": "Путешествия Гулливера",
                 "language": "?"
             }
         ],
@@ -921,7 +898,53 @@
             {
                 "names": [
                     {
-                        "name": "Ромен Роллан",
+                        "name": "Оливер Свифт",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
+                "name": "Золотой жук",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Эдгар По",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "Анна Каренина",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Лев Толстой",
                         "language": "?"
                     }
                 ]
@@ -936,7 +959,7 @@
     {
         "names": [
             {
-                "name": "Путешествия Гулливера",
+                "name": "Кола Брюньон",
                 "language": "?"
             }
         ],
@@ -944,7 +967,7 @@
             {
                 "names": [
                     {
-                        "name": "Оливер Свифт",
+                        "name": "Ромен Роллан",
                         "language": "?"
                     }
                 ]
@@ -1093,29 +1116,6 @@
             "nouvelle"
         ],
         "rating": 1300
-    },
-    {
-        "names": [
-            {
-                "name": "Камера обскура",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 1400
     },
     {
         "names": [
