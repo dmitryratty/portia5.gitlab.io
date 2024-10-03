@@ -729,6 +729,29 @@
     {
         "names": [
             {
+                "name": "Проверка на реальность",
+                "language": "ru",
+                "link": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Роксана Миллер",
+                        "language": "ru"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "novel"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
                 "name": "Театр",
                 "language": "?"
             }
@@ -2482,6 +2505,29 @@
     {
         "names": [
             {
+                "name": "The Birth of a Master",
+                "language": "en",
+                "link": ""
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "André Maurois",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 4000
+    },
+    {
+        "names": [
+            {
                 "name": "Чайка по имени Джонатан Ливингстон",
                 "language": "?"
             }
@@ -3172,6 +3218,29 @@
     {
         "names": [
             {
+                "name": "The Gift of the Magi",
+                "language": "en",
+                "link": ""
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "O. Henry",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "short story"
+        ],
+        "rating": 7000
+    },
+    {
+        "names": [
+            {
                 "name": "Любовь к трём цукербринам",
                 "language": "?"
             }
@@ -3490,28 +3559,5 @@
             "novel"
         ],
         "rating": 8400
-    },
-    {
-        "names": [
-            {
-                "name": "Carmen",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "?"
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            "archive",
-            "novel"
-        ],
-        "rating": 8500
     }
 ]

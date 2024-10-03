@@ -395,6 +395,30 @@
     {
         "names": [
             {
+                "name": "Carmen",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Prosper Merimee",
+                        "language": "?"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "archive",
+            "novel",
+            "chaos"
+        ],
+        "rating": 8500
+    },
+    {
+        "names": [
+            {
                 "name": "Manacled",
                 "language": "?"
             }
@@ -414,6 +438,30 @@
             "novel"
         ],
         "rating": 8900
+    },
+    {
+        "names": [
+            {
+                "name": "The Tinderbox",
+                "language": "en",
+                "link": ""
+            }
+        ],
+        "authors": [
+            {
+                "names": [
+                    {
+                        "name": "Hans Christian Andersen",
+                        "language": "en"
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            "short story",
+            "chaos"
+        ],
+        "rating": 9000
     },
     {
         "names": [

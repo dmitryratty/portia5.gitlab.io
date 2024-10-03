@@ -27,6 +27,7 @@ https://dmitryratty.gitlab.io/diary/parents
 https://dmitryratty.gitlab.io/diary/pigeons-as-food
 https://dmitryratty.gitlab.io/diary/scream-and-dance
 https://dmitryratty.gitlab.io/diary/smell-of-fist
+https://dmitryratty.gitlab.io/diary/stinksy-breath
 https://dmitryratty.gitlab.io/diary/sweet-school-time
 https://dmitryratty.gitlab.io/diary/winter-sunny-day
 https://dmitryratty.gitlab.io/diary/wire-cutters-music
@@ -47,7 +48,6 @@ https://dmitryratty.gitlab.io/library/lesswrong/sequences
     1 https://dmitryratty.gitlab.io/life/thou-art-godshatter
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
-https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/library/reality-check
 https://dmitryratty.gitlab.io/life/judas-goat
 https://dmitryratty.gitlab.io/life/sakalauskas-case
@@ -81,9 +81,11 @@ https://dmitryratty.gitlab.io/test/tf2
 https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
+https://dmitryratty.gitlab.io/todo/archive
 https://dmitryratty.gitlab.io/todo/identity
     1 https://dmitryratty.gitlab.io/life/judas-goat
     1 https://dmitryratty.gitlab.io/other/fear-shame-guilt
+https://dmitryratty.gitlab.io/todo/read-done
 https://dmitryratty.gitlab.io/wealth/ask-llm
 https://dmitryratty.gitlab.io/wealth/chaos
     1 https://dmitryratty.gitlab.io/wealth/ask-llm

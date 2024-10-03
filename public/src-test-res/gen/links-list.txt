@@ -102,6 +102,7 @@ https://dmitryratty.gitlab.io/diary/parents
 https://dmitryratty.gitlab.io/diary/pigeons-as-food
 https://dmitryratty.gitlab.io/diary/scream-and-dance
 https://dmitryratty.gitlab.io/diary/smell-of-fist
+https://dmitryratty.gitlab.io/diary/stinksy-breath
 https://dmitryratty.gitlab.io/diary/sweet-school-time
 https://dmitryratty.gitlab.io/diary/winter-sunny-day
 https://dmitryratty.gitlab.io/diary/wire-cutters-music
@@ -124,7 +125,6 @@ https://dmitryratty.gitlab.io/library/lesswrong/chaos
 https://dmitryratty.gitlab.io/library/lesswrong/sequences
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
-https://dmitryratty.gitlab.io/library/read-done
 https://dmitryratty.gitlab.io/library/reality-check
 https://dmitryratty.gitlab.io/life/alexander-grothendieck
 https://dmitryratty.gitlab.io/life/benjamin-jesty
@@ -174,9 +174,11 @@ https://dmitryratty.gitlab.io/test/tf3
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo
+https://dmitryratty.gitlab.io/todo/archive
 https://dmitryratty.gitlab.io/todo/humour
 https://dmitryratty.gitlab.io/todo/identity
 https://dmitryratty.gitlab.io/todo/read
+https://dmitryratty.gitlab.io/todo/read-done
 https://dmitryratty.gitlab.io/vidya
 https://dmitryratty.gitlab.io/vidya/factorio
 https://dmitryratty.gitlab.io/vidya/terraria
@@ -307,6 +309,7 @@ https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
 https://en.wikipedia.org/wiki/Spaced_repetition
 https://en.wikipedia.org/wiki/Spacetime
 https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
+https://en.wikipedia.org/wiki/Starvation
 https://en.wikipedia.org/wiki/Terry_Bisson
 https://en.wikipedia.org/wiki/Tetraethyllead
 https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Rainbow
@@ -350,6 +353,7 @@ https://github.com/dmitryratty
 https://github.com/du82/privacyspreadsheet.com
 https://github.com/gskinner/regexr/
 https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css
+https://github.com/mjg59/mei-amt-check
 https://github.com/sfermigier/awesome-foss-alternatives
 https://gitlab.com/dmitryratty
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
@@ -403,6 +407,7 @@ https://locusmag.com/2024/07/cory-doctorow-unpersoned/
 https://lutris.net/
 https://mayacpopa.substack.com
 https://meduza.io/feature/2024/06/01/u-lyudey-zachatyh-s-pomoschyu-donorskoy-spermy-mogut-byt-sotni-bratiev-i-sester-a-ih-biologicheskim-ottsam-vse-slozhnee-sohranyat-anonimnost
+https://meduza.io/feature/2024/09/29/gramotno-sobrannaya-domashnyaya-aptechka-garantiya-togo-chto-mnogie-bolezni-ne-smogut-zastat-vas-vrasploh-vot-chto-vazhno-ne-zabyt-v-nee-polozhit
 https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fortnite-she-wet-herself-7619324/
 https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do
 https://mineconom.gov.kg/ru/direct/385/395
@@ -443,12 +448,14 @@ https://open.substack.com/pub/thezvi/p/danger-ai-scientist-danger
 https://openalternative.co/
 https://opennet.ru
 https://ourworldindata.org/causes-of-death
+https://ourworldindata.org/obesity
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pikabu.ru/reply-stories/11797244
 https://pikabu.ru/story/k_voprosu_demografii_11799648
 https://pikabu.ru/story/likhie_90e_s_yelementami_krepostnogo_prava_v_kurske_11677345
 https://pikabu.ru/story/muzhskie_razgovoryi_11783422
 https://pikabu.ru/story/otvet_na_ne_sluzhil__ne_muzhik_11797244
+https://pikabu.ru/story/otvet_na_post_mne_36_i_ya_nichego_ne_dostig_v_zhizni_11863467
 https://pikabu.ru/story/otvet_na_post_otvet_na_ne_sluzhil__ne_muzhik_11797529
 https://pikabu.ru/story/otvet_na_post_otvet_na_ne_sluzhil__ne_muzhik_11798409
 https://pikabu.ru/story/otvet_na_post_pomogite_sovetom_ya_zhertva_bullinga_v_shkole_cherez_nedelyu_shkola_kak_mne_byit_ya_v_adu_tam_11748342
@@ -538,6 +545,7 @@ https://t.me/PsychologiesRussia
 https://t.me/RBCCrypto/11963
 https://t.me/RationalAnswer
 https://t.me/RationalAnswer/1081
+https://t.me/RationalAnswer/1090
 https://t.me/ShirlyCash
 https://t.me/ShirlyCash_news
 https://t.me/Skermajenie
@@ -679,6 +687,7 @@ https://t.me/mehraban112
 https://t.me/mf699
 https://t.me/mf699/13606
 https://t.me/mf699/13610
+https://t.me/mf699/13872
 https://t.me/mf699/2027
 https://t.me/mind_rise
 https://t.me/miniclippy
@@ -759,6 +768,7 @@ https://t.me/sitnikfriday
 https://t.me/smbcchannel
 https://t.me/socoolmuchstory
 https://t.me/son_na_makovom_pole
+https://t.me/son_na_makovom_pole/1041
 https://t.me/son_na_makovom_pole/19
 https://t.me/son_na_makovom_pole/23
 https://t.me/son_na_makovom_pole/25
@@ -768,6 +778,7 @@ https://t.me/son_na_makovom_pole/31
 https://t.me/son_na_makovom_pole/35
 https://t.me/son_na_makovom_pole/38
 https://t.me/son_na_makovom_pole/39
+https://t.me/son_na_makovom_pole/395
 https://t.me/son_na_makovom_pole/42
 https://t.me/son_na_makovom_pole/44
 https://t.me/son_na_makovom_pole/47
@@ -991,11 +1002,14 @@ https://yoksel.github.io/flex-cheatsheet/
 https://youtu.be/-TZYu9-jCbQ?si=AHkUdmgscaJYp8b9
 https://youtu.be/-lsYJrLrEAM?si=AYggDt9n39_Q8Gu5
 https://youtu.be/0VFpX6W--44?si=quwEuU2duUEqXFNK
+https://youtu.be/0k0JZ5yveow?si=wkbuZ1BVJT8Zzk8w
 https://youtu.be/0nz0iaNvVpE?si=QlyDg2HzW6y-vd3D
+https://youtu.be/1FSnAMe5WXE?si=HHHgCe5gC07tekyG
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/3Y81L_CUV3M?si=2tcWHXwdtVJgECnt
 https://youtu.be/4s9u-wqtyls?si=JNqgp22eCiIY7zR_
+https://youtu.be/5UXxqnF-WkM?si=ScaufcEpX9tqFza2
 https://youtu.be/6cU8JRBp920?si=m5jljBynoDu9gMbL
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
@@ -1033,6 +1047,7 @@ https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/l4GQ2fNxibs?si=nAr-lMG2bKd5VYfD
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+https://youtu.be/nSA3h6PoPrE?si=7oSVAZnnEHN1jjm9
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/oq-SDnabu0o?si=936Dml0ra5d9VLGJ
 https://youtu.be/ou9THu2g3I4?si=UoUCe2UlmQTOvQSd
@@ -1041,6 +1056,7 @@ https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/u82QLdkhKdo?si=8JZrpNwlQJrOpwmp
+https://youtu.be/uUrWJZ_brBU?si=MMTj9mDz4DKdtGpA
 https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN
 https://youtu.be/vwN-7mklDCM?si=FIzAo-Vt8PKlL8Ct
 https://youtu.be/vzWwUBeB1RM?si=c8jlJgqJBnR-ACTh
