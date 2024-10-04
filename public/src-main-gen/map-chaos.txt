@@ -84,6 +84,8 @@ https://dmitryratty.gitlab.io/test/ta1
 https://dmitryratty.gitlab.io/test/tf1
 https://dmitryratty.gitlab.io/test/tf2
 https://dmitryratty.gitlab.io/test/tf3
+https://dmitryratty.gitlab.io/test/urlmapping/a
+https://dmitryratty.gitlab.io/test/urlmapping/a/b
 https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo-chaos

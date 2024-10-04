@@ -1,3 +1,4 @@
+
 import UtilsAbsolute.HOST_NAME
 import java.nio.file.Path
 import kotlin.io.path.exists
@@ -7,6 +8,7 @@ data class RatUrl(
     override val srcAbsolutePath: Path,
     override val srcRelativePath: Path,
     override val dstDirPath: Path) : RatUrlInterface {
+
     override val srcAbsolutePathString = srcAbsolutePath.pathString
     override val srcRelativePathString = srcRelativePath.pathString
     override val relativeUrl: String
@@ -22,17 +24,18 @@ data class RatUrl(
     }
     override val dstRelativePathString = dstRelativePath.pathString
     override val dstAbsolutePath: Path = dstDirPath.resolve(dstRelativePath)
+    override val isRoot = dstRelativePathString == "index.html"
+    override val isRaw = !srcRelativePathString.endsWith(".txt")
+    override val isGen = srcAbsolutePathString.startsWith(UtilsAbsolute.srcGenDir.pathString)
+
     override val redirects: Set<String>
     override val isPage: Boolean
     override val isDirectory: Boolean
-    override val isRoot: Boolean
-    override val isRaw = !srcRelativePathString.endsWith(".txt")
     override val isMap: Boolean
-    override val isGen: Boolean
 
     init {
-        if (dstRelativePathString == "index.html") {
-            relativeUrl = "/"
+        if (isRoot) {
+            relativeUrl = UtilsRelative.ROOT_RELATIVE_URL
             redirects = setOf("/index.html")
             isPage = true
             isDirectory = true
@@ -50,7 +53,8 @@ data class RatUrl(
             || dstRelativePathString.endsWith(".png")
             || dstRelativePathString.endsWith(".svg")
             || dstRelativePathString.endsWith(".ico")
-            || dstRelativePathString.endsWith(".webmanifest")) {
+            || dstRelativePathString.endsWith(".webmanifest")
+            || dstRelativePathString == "_redirects") {
             relativeUrl = "/$dstRelativePathString"
             redirects = emptySet()
             isPage = false
@@ -58,9 +62,7 @@ data class RatUrl(
         } else {
             throw IllegalStateException(srcAbsolutePathString)
         }
-        isRoot = relativeUrl == UtilsRelative.ROOT_RELATIVE_URL
         absoluteUrl = if (isRoot) HOST_NAME else "$HOST_NAME$relativeUrl"
         isMap = relativeUrl == UtilsRelative.MAP_RELATIVE_URL
-        isGen = srcAbsolutePathString.startsWith(UtilsAbsolute.srcGenDir.pathString)
     }
 }

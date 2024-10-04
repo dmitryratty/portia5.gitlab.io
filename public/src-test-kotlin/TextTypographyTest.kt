@@ -2,13 +2,13 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 
-class TextBeautifierTest {
+class TextTypographyTest {
 
     @Test
     fun beautifyLine() {
         val lineIn = " - Start space-dash. And - dash in middle... And - another dash..."
         val lineOut = " — Start space-dash. And — dash in middle… And — another dash…"
-        assertEquals(lineOut, TextBeautifier().transformLine(TestUtils.url, lineIn))
+        assertEquals(lineOut, TextTypography().transformLine(TestUtils.url, lineIn))
     }
 
     @Test
@@ -19,7 +19,7 @@ class TextBeautifierTest {
         val textOut = " — Start space-dash. And — dash in middle… And — another dash…\n" +
                 "— Start dash. Hello!\n\n" +
                 "— Another start dash. And — dash…"
-        assertEquals(textOut, TextBeautifier().transform(TestUtils.url, textIn))
+        assertEquals(textOut, TextTypography().transform(TestUtils.url, textIn))
     }
 
     @Test

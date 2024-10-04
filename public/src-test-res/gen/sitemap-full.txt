@@ -10,6 +10,7 @@
 [1] /test [/test/index.html, /test/]
 [1] /todo [/todo/index.html, /todo/]
 [1] /vidya [/vidya/index.html, /vidya/]
+[2] /_redirects
 [2] /apple-touch-icon.png
 [2] /css/main.css
 [2] /css/normalize.css
@@ -113,6 +114,8 @@
 [3] /test/tf1[.html]
 [3] /test/tf2[.html]
 [3] /test/tf3[.html]
+[3] /test/urlmapping/a[.html]
+[3] /test/urlmapping/a/b[.html]
 [3] /test/wrap[.html]
 [3] /test/zalgo[.html]
 [3] /todo-chaos[.html]

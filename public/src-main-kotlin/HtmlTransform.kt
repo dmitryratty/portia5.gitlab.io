@@ -136,7 +136,7 @@ class HtmlTransform(
         return lineTransform.transform(url, line, ::transformWord)
     }
 
-    val beautifiedShortSeparator = TextBeautifier().beautifiedShortSeparator
+    val beautifiedShortSeparator = TextTypography().beautifiedShortSeparator
 
     fun transformParagraph(url: RatUrl, paragraph: String): String {
         val result = StringBuilder()

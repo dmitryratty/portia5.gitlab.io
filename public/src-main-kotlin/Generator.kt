@@ -34,7 +34,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
     private fun processPage(page: Page) {
         page.srcAbsolutePath.toFile().writeText(page.formatted)
         includeTransform.transform(page)
-        page.beautyText = TextBeautifier().transform(page.url, page.includeText)
+        page.beautyText = TextTypography().transform(page.url, page.includeText)
         val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
         val htmlFile = page.dstAbsolutePath.toFile()
         htmlFile.parentFile.mkdirs()

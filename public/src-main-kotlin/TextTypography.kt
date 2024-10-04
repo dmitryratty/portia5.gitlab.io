@@ -1,4 +1,4 @@
-class TextBeautifier {
+class TextTypography {
 
     private val typewriterApostrophes = true
     private val breakLevelOne = "</>"
