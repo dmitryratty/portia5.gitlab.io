@@ -6,7 +6,7 @@ If I dislike living I can kill myself. Acausal trade. No fear, no shame, no guil
 
 Желания разных порядков. Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
-#include link /life/judas-goat
+#include link /other/judas-goat
 
 Троянский конь. Embrace, extend, extinguish. TODO: добавить сюда штуки из Technology.
 - https://en.wikipedia.org/wiki/Trojan_Horse

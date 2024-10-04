@@ -14,7 +14,7 @@
 
 #include link /todo
 
-#include link /life/thou-art-godshatter
+#include link /other/thou-art-godshatter
 
 #include link /life/benjamin-jesty
 

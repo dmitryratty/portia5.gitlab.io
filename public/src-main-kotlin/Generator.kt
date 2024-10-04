@@ -36,7 +36,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         includeTransform.transform(page)
         page.beautyText = TextBeautifier().transform(page.url, page.includeText)
         val bodyHtml = htmlTransform.textToHtml(page.url, page.beautyText)
-        val htmlFile = page.htmlOutFile.toFile()
+        val htmlFile = page.dstAbsolutePath.toFile()
         htmlFile.parentFile.mkdirs()
         htmlFile.writeText(htmlTransform.htmlPage(page.title, bodyHtml, page.navigation))
     }

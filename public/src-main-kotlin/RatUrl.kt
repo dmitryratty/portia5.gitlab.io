@@ -1,5 +1,6 @@
 import UtilsAbsolute.HOST_NAME
 import java.nio.file.Path
+import kotlin.io.path.exists
 import kotlin.io.path.pathString
 
 data class RatUrl(
@@ -11,7 +12,11 @@ data class RatUrl(
     override val relativeUrl: String
     override val absoluteUrl: String
     override val dstRelativePath: Path = if (srcRelativePathString.endsWith(".txt")) {
-        Path.of("${srcRelativePathString.removeSuffix("txt")}html")
+        if (Path.of(srcAbsolutePath.pathString.removeSuffix(".txt")).exists()) {
+            Path.of("${srcRelativePathString.removeSuffix(".txt")}/index.html")
+        } else {
+            Path.of("${srcRelativePathString.removeSuffix("txt")}html")
+        }
     } else {
         srcRelativePath
     }

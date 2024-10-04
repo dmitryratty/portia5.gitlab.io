@@ -121,7 +121,6 @@ data class Page(val url: RatUrl) : RatUrlInterface by url {
     var beautyText: String = ""
 
     val navigation = !isRoot
-    val htmlOutFile = dstAbsolutePath
 
     private var _title: String? = null
     val title: String

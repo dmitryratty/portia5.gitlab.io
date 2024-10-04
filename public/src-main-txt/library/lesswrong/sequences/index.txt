@@ -30,7 +30,7 @@ lesswrong.ru/69
 
 * * *
 
-#include link /life/thou-art-godshatter
+#include link /other/thou-art-godshatter
 
 * * *
 
