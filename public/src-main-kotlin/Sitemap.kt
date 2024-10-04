@@ -5,7 +5,7 @@ import java.util.*
 class Sitemap(c: ContextInterface) : ContextInterface by c {
     private val srcDirsPaths: Set<Path> = setOf(srcTxtDir, srcRawDir, srcGenDir)
     val urls: MutableList<RatUrl> = mutableListOf()
-    val pages: MutableMap<String, Page> = mutableMapOf()
+    val srcPages: MutableMap<String, Page> = mutableMapOf()
     private var _map: Page? = null
     fun getMap(): Page { return _map!! }
     private var _mapOrder: Page? = null
@@ -24,8 +24,8 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
             }
         }
         urls.sortBy { it.relativeUrl }
-        pages.clear()
-        pages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
+        srcPages.clear()
+        srcPages.putAll(urls.filter { !it.isRaw }.associate { it.relativeUrl to Page(it) })
     }
 
     private fun genStep(url: String, suburls: Set<String>?, level: Int): String {
@@ -55,7 +55,7 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
         // Recreate map page to allow it regeneration in reflective phase.
         val mapUrl = urls.find { it.relativeUrl == UtilsRelative.MAP_RELATIVE_URL }!!
         _map = Page(mapUrl)
-        pages[UtilsRelative.MAP_RELATIVE_URL] = getMap()
+        srcPages[UtilsRelative.MAP_RELATIVE_URL] = getMap()
 
         val mapOrderSrcRelativePath = Path.of(UtilsRelative.MAP_ORDER_RELATIVE_PATH)
         val mapOrderSrcAbsolutePath: Path = srcGenDir.resolve(mapOrderSrcRelativePath)
@@ -80,11 +80,11 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
         mapOrderSrcAbsolutePath.toFile()
             .writeText(generate(setOf(urls.find { it.isRoot }!!.absoluteUrl)))
         _mapOrder = Page(mapOrderUri)
-        pages[mapOrderUri.relativeUrl] = getMapOrder()
+        srcPages[mapOrderUri.relativeUrl] = getMapOrder()
         mapChaosSrcAbsolutePath.toFile()
             .writeText(generate(parsedMap.keys.toSet()))
         _mapChaos = Page(mapChaosUri)
-        pages[mapChaosUri.relativeUrl] = getMapChaos()
+        srcPages[mapChaosUri.relativeUrl] = getMapChaos()
         testMap()
     }
 

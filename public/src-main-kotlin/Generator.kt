@@ -14,6 +14,7 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
 
     private val includeTransform = IncludeTransform(this)
     private val htmlTransform = HtmlTransform()
+    private val redirects = mutableSetOf<String>()
     val sitemap = Sitemap(c)
     var firstRun = true
 
@@ -31,6 +32,15 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         }
     }
 
+    private fun genRedirects() {
+        sitemap.urls.forEach {
+            if (it.isIndexOfDirectory) {
+                redirects.add("${it.relativeUrl} ${it.relativeUrl}.html 200")
+            }
+        }
+        dstMainDir.resolve("_redirects").toFile().writeText(redirects.joinToString("\n"))
+    }
+
     private fun processPage(page: Page) {
         page.srcAbsolutePath.toFile().writeText(page.formatted)
         includeTransform.transform(page)
@@ -46,12 +56,13 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         Favicon().main()
         Library().main()
         sitemap.updateUrls()
-        sitemap.pages.forEach { processPage(it.value) }
+        sitemap.srcPages.forEach { processPage(it.value) }
         firstRun = false
         sitemap.updateMaps(htmlTransform.mapOfLinks)
         processPage(sitemap.getMapOrder())
         processPage(sitemap.getMapChaos())
         processPage(sitemap.getMap())
+        genRedirects()
         dstTestDir.resolve("links-list.txt").toFile()
             .writeText(htmlTransform.setOfLinks.joinToString("\n"))
         dstTestDir.resolve("long-words-list.txt").toFile()

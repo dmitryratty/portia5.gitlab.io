@@ -18,4 +18,5 @@ interface RatUrlInterface {
     val isRaw: Boolean
     val isMap: Boolean
     val isGen: Boolean
+    val isIndexOfDirectory: Boolean
 }

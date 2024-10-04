@@ -5,7 +5,7 @@ https://dmitryratty.gitlab.io/chaos
     1 https://dmitryratty.gitlab.io/chaos/horned-goodness
     1 https://dmitryratty.gitlab.io/other/coincidence-think
     1 https://dmitryratty.gitlab.io/other/games-to-play
-https://dmitryratty.gitlab.io/chaos/chaos-chaos
+https://dmitryratty.gitlab.io/chaos-chaos
     1 https://dmitryratty.gitlab.io/chaos/telegram
     1 https://dmitryratty.gitlab.io/chaos/wikipedia
     1 https://dmitryratty.gitlab.io/chaos/youtube
@@ -63,6 +63,7 @@ https://dmitryratty.gitlab.io/other/games-to-play
 https://dmitryratty.gitlab.io/other/judas-goat
 https://dmitryratty.gitlab.io/other/languages
 https://dmitryratty.gitlab.io/technology-chaos
+https://dmitryratty.gitlab.io/technology/gitlab
 https://dmitryratty.gitlab.io/technology/hardware
 https://dmitryratty.gitlab.io/technology/neural-network
 https://dmitryratty.gitlab.io/technology/puzzles
