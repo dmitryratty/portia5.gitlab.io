@@ -6,4 +6,4 @@
 
 #include /library-interesting
 
-Other. </> "Juuni Taisen", "Bokurano", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!".
+Other. </> "Juuni Taisen", "Bokurano", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!", "Made in Abyss".

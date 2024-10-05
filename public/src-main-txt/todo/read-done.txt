@@ -16,6 +16,8 @@
     "rating": 900
 },
 
+* * *
+
 {
     "names": [
         { "name": "Eight Billion People", "language": "en", "link": "https://www.oranlooney.com/post/eight-billion/" }
@@ -119,12 +121,6 @@
 
 André Maurois: Рождение знаменитости, Thanatos Palace Hotel / Отель "Танатос", Myrrhine / Миррина.
 
-"Атлант заправляет штаны" http://d-sanin.livejournal.com/111478.html http://d-sanin.livejournal.com/134228.html http://d-sanin.livejournal.com/134624.html http://d-sanin.livejournal.com/134881.html http://d-sanin.livejournal.com/135074.html http://d-sanin.livejournal.com/135650.html http://d-sanin.livejournal.com/135746.html http://d-sanin.livejournal.com/136034.html http://d-sanin.livejournal.com/137122.html http://d-sanin.livejournal.com/137413.html http://d-sanin.livejournal.com/138158.html http://d-sanin.livejournal.com/145296.html http://d-sanin.livejournal.com/145735.html http://d-sanin.livejournal.com/146070.html http://d-sanin.livejournal.com/148292.html http://d-sanin.livejournal.com/148692.html http://d-sanin.livejournal.com/148754.html
-
-https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
-
-short story scholar task world simulation stars aligned into phrase
-
 Эндрю Таненбаум: "Современные операционные системы".
 
 "Pro Git" by "Scott Chacon, Ben Straub".
@@ -132,6 +128,12 @@ short story scholar task world simulation stars aligned into phrase
 "The Java Tutorial: A Short Course on the Basics 6th Edition" by Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour.
 - https://docs.oracle.com/javase/tutorial/
 - https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
+
+short story scholar task world simulation stars aligned into phrase
+
+"Атлант заправляет штаны" http://d-sanin.livejournal.com/111478.html http://d-sanin.livejournal.com/134228.html http://d-sanin.livejournal.com/134624.html http://d-sanin.livejournal.com/134881.html http://d-sanin.livejournal.com/135074.html http://d-sanin.livejournal.com/135650.html http://d-sanin.livejournal.com/135746.html http://d-sanin.livejournal.com/136034.html http://d-sanin.livejournal.com/137122.html http://d-sanin.livejournal.com/137413.html http://d-sanin.livejournal.com/138158.html http://d-sanin.livejournal.com/145296.html http://d-sanin.livejournal.com/145735.html http://d-sanin.livejournal.com/146070.html http://d-sanin.livejournal.com/148292.html http://d-sanin.livejournal.com/148692.html http://d-sanin.livejournal.com/148754.html
+
+https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
 
 Satoshi Nakamoto: "Bitcoin: A Peer-to-Peer Electronic Cash System".
 - http://dx.doi.org/10.2139/ssrn.3440802
@@ -223,3 +225,5 @@ Satoshi Nakamoto: "Bitcoin: A Peer-to-Peer Electronic Cash System".
 - https://archive.is/2024.04.11-041114/https://www.bloomberg.com/news/features/2024-04-10/anti-aging-tips-from-blackjack-and-finance-guru-ed-thorp
 
 2024.10.03 "Проверка на реальность".
+
+2024.10.06 https://www.astralcodexten.com/p/matt-yglesias-considered-as-the-nietzschean
