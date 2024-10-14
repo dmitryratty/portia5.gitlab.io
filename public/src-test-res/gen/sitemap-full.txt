@@ -122,6 +122,7 @@
 [3] /todo/read[.html]
 [3] /todo/read-done[.html]
 [3] /vidya[.html]
+[3] /vidya-chaos[.html]
 [3] /vidya/factorio[.html]
 [3] /vidya/terraria[.html]
 [3] /wealth[.html]

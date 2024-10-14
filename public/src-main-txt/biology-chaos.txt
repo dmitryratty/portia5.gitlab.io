@@ -1,4 +1,4 @@
-#Life #Biology Giraffe: https://en.wikipedia.org/wiki/Recurrent_laryngeal_nerve
+#Biology Giraffe: https://en.wikipedia.org/wiki/Recurrent_laryngeal_nerve
 
 У рыб бывает электролокация.
 - https://en.wikipedia.org/wiki/Electroreception_and_electrogenesis
@@ -12,6 +12,9 @@
 Интеллект животных.
 - https://newochem.ru/nauka/naskolko-razumny-zhivotnye
 
+"Moral behavior in animals" by "Frans de Waal". #Ethics
+- https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
+
 * * *
 
 Развлекательная заметка о биологических работах Michael Levin. Есть черви планарии, их можно разрезать на 250 кусочков каждый из которых регенерирует в новую цельную планарию. Здесь эксперименты где делают так, что разрезанная планария регенерирует две головы или наоборот два хвоста вместо нормального тела. Две головы передаются дальше по наследству.
@@ -24,5 +27,31 @@ https://www.bitsofwonder.co/p/a-revolution-in-biology
 
 * * *
 
-"Moral behavior in animals" by "Frans de Waal".
-- https://www.ted.com/talks/frans_de_waal_moral_behavior_in_animals
+Дмитрий Жулин и Анна Коляда делали капельницы с «Лаеннеком» с января этого года. Для того, чтобы Жулин перестал часто болеть ангиной. По данным источников, в конце прошлого года девушка записалась на курсы превентивной медицины в Preventage. Там она узнала о «Лаеннеке» и убедила Жулина, основателя «СберМаркета», что капельницы с этим препаратом помогут ему чувствовать себя лучше. Пара делала капельницы каждые 2–3 дня, Анна покупала препарат в обычных аптеках. Всё шло хорошо до этой недели. 10 марта Коляда, студентка 5-го курса «Сеченовки», приготовила раствор, но прокапать его пара не успела, так как молодые люди уехали по своим делам. Капельницу они сделали лишь 13 числа и сразу после этого отправились в аэропорт: у них был рейс в Дубай. Однако уже в такси паре стало плохо, сильно поднялась температура, появился озноб и боль в мышцах. Дмитрий и Анна решили отправиться в больницу. Сразу после обследования врачи поместили пару в токсикологическую реанимацию. Несколько дней Дмитрий и Анна провели в реанимации, но 25 марта девушка умерла. По предварительным данным, основной причиной произошедшего стало то, что готовый препарат несколько дней находился в физрастворе в пластиковом контейнере. За это время в нём образовалась инфекция из-за свернувшегося белка.
+- https://t.me/bazabazon/16571
+
+* * *
+
+"WHEN YOUR CHILD IS A PSYCHOPATH" by "Barbara Bradley Hagerty" at "JUNE 2017".
+
+She seems poised and cheerful, a normal preteen. But when we steer into uncomfortable territory—the events that led her to this juvenile-treatment facility nearly 2,000 miles from her family—Samantha hesitates and looks down at her hands. "I wanted the whole world to myself," she says. "So I made a whole entire book about how to hurt people."
+
+Starting at age 6, Samantha began drawing pictures of murder weapons: a knife, a bow and arrow, chemicals for poisoning, a plastic bag for suffocating. She tells me that she pretended to kill her stuffed animals.
+
+"You were practicing on your stuffed animals?," I ask her.
+She nods.
+"How did you feel when you were doing that to your stuffed animals?"
+"Happy."
+"Why did it make you feel happy?"
+"Because I thought that someday I was going to end up doing it on somebody."
+"Did you ever try?"
+Silence.
+"I choked my little brother."
+
+Samantha's parents, Jen and Danny, adopted Samantha when she was 2...
+
+</> "I don't know what you call this emotion," one psychopathic prisoner said, looking at a photo of a fearful face, "but it's what people look like just before you stab them."
+
+https://www.theatlantic.com/magazine/archive/2017/06/when-your-child-is-a-psychopath/524502/
+
+#Biology #Brain #Ethics

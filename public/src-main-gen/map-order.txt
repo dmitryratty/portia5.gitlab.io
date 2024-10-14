@@ -17,7 +17,6 @@ https://dmitryratty.gitlab.io
             3 https://dmitryratty.gitlab.io/life/srinivasa-ramanujan
         2 https://dmitryratty.gitlab.io/map
         2 https://dmitryratty.gitlab.io/music
-            3 https://dmitryratty.gitlab.io/music-chaos
         2 https://dmitryratty.gitlab.io/news
             3 https://dmitryratty.gitlab.io/other/transparent-society
         2 https://dmitryratty.gitlab.io/other/thou-art-godshatter

@@ -57,6 +57,7 @@ https://dmitryratty.gitlab.io/library/reality-check
 https://dmitryratty.gitlab.io/life/sakalauskas-case
 https://dmitryratty.gitlab.io/location
 https://dmitryratty.gitlab.io/map-order
+https://dmitryratty.gitlab.io/music-chaos
 https://dmitryratty.gitlab.io/other/coincidence-think
 https://dmitryratty.gitlab.io/other/fear-shame-guilt
 https://dmitryratty.gitlab.io/other/games-to-play
@@ -91,4 +92,5 @@ https://dmitryratty.gitlab.io/test/wrap
 https://dmitryratty.gitlab.io/test/zalgo
 https://dmitryratty.gitlab.io/todo-chaos
 https://dmitryratty.gitlab.io/todo/read-done
+https://dmitryratty.gitlab.io/vidya-chaos
 https://dmitryratty.gitlab.io/wealth-chaos
