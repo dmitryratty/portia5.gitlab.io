@@ -11,6 +11,7 @@ https://dmitryratty.gitlab.io/chaos-chaos
     1 https://dmitryratty.gitlab.io/chaos/wikipedia
     1 https://dmitryratty.gitlab.io/chaos/youtube
 https://dmitryratty.gitlab.io/chaos/horned-goodness
+https://dmitryratty.gitlab.io/chaos/llm-ale
 https://dmitryratty.gitlab.io/chaos/telegram
 https://dmitryratty.gitlab.io/chaos/web
 https://dmitryratty.gitlab.io/chaos/wikipedia

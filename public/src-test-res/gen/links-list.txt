@@ -91,6 +91,7 @@ https://dmitryratty.gitlab.io/biology/psychology
 https://dmitryratty.gitlab.io/chaos
 https://dmitryratty.gitlab.io/chaos-chaos
 https://dmitryratty.gitlab.io/chaos/horned-goodness
+https://dmitryratty.gitlab.io/chaos/llm-ale
 https://dmitryratty.gitlab.io/chaos/telegram
 https://dmitryratty.gitlab.io/chaos/web
 https://dmitryratty.gitlab.io/chaos/wikipedia
@@ -999,6 +1000,7 @@ https://www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think
 https://www.reddit.com/r/dataisbeautiful/comments/wlxx9j/oc_for_each_war_the_percentage_of_the_world
 https://www.redgifs.com/watch/gorgeousfrightenedcarpenterant
 https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
+https://www.rmg.co.uk/whats-on/astronomy-photographer-year/galleries/overall-winners-2024
 https://www.rollingstone.com/politics/politics-features/cia-agent-deep-undercover-spy-islamic-radicals-war-on-terror-1235075156/
 https://www.scottaaronson.com/papers/bb.pdf
 https://www.scribd.com/document/474097628/Classification-of-the-anatomical-variation-in-female-external-genitalia
