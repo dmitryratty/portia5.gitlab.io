@@ -39,9 +39,11 @@ https://arxiv.org/abs/2011.00412
 https://arxiv.org/abs/2209.11737
 https://arxiv.org/abs/2401.05566
 https://askubuntu.com/questions/217606/undelete-files-on-ext4
+https://atproto.com/guides/faq
 https://attwoodandgarnettevents.com/can-autism-be-confused-with-schizophrenia
 https://bastyon.com
 https://bishkek.etagi.com/realty_rent/9694591/
+https://blog.cloudflare.com/harnessing-office-chaos
 https://blog.frost.kiwi/WebGL-LUTS-made-simple/
 https://bootandpencil.com/articles/%D1%81%D0%B5%D0%BA%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%83-%D1%82%D1%80%D0%B0%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%BE%D0%B2/
 https://bootandpencil.com/articles/%D1%81%D0%B5%D0%BA%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%82%D1%80%D0%B0%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%BE%D0%B2/
@@ -50,6 +52,7 @@ https://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts
 https://brilliant.org
 https://caniuse.com/css-hyphens
 https://caniuse.com/link-icon-svg
+https://carapace-sh.github.io/carapace-bin/carapace-bin.html
 https://cbd.minjust.gov.kg/17111/edition/1277444/ru
 https://cbd.minjust.gov.kg/17469/edition/297510/ru
 https://cbd.minjust.gov.kg/33993/edition/374078/ru
@@ -69,8 +72,10 @@ https://css.winterveil.net/
 https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
 https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning
 https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii
+https://defold.com/assets/warbattlesassetpack/
 https://dev.to/benjaminblack/save-your-users-data-by-subsetting-web-fonts-5eo9
 https://developer.android.com/build/shrink-code
+https://developer.android.com/games/engines/engines-overview
 https://developer.chrome.com/docs/lighthouse/overview/
 https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
 https://developers.google.com/fonts/docs/getting_started
@@ -87,6 +92,7 @@ https://dmitryratty.gitlab.io/chaos
 https://dmitryratty.gitlab.io/chaos-chaos
 https://dmitryratty.gitlab.io/chaos/horned-goodness
 https://dmitryratty.gitlab.io/chaos/telegram
+https://dmitryratty.gitlab.io/chaos/web
 https://dmitryratty.gitlab.io/chaos/wikipedia
 https://dmitryratty.gitlab.io/chaos/youtube
 https://dmitryratty.gitlab.io/contacts
@@ -95,6 +101,7 @@ https://dmitryratty.gitlab.io/diary-chaos
 https://dmitryratty.gitlab.io/diary/blood-filled-mouth
 https://dmitryratty.gitlab.io/diary/caught-masturbating
 https://dmitryratty.gitlab.io/diary/death-of-grandfather
+https://dmitryratty.gitlab.io/diary/diary-start
 https://dmitryratty.gitlab.io/diary/do-not-drown
 https://dmitryratty.gitlab.io/diary/first-grade
 https://dmitryratty.gitlab.io/diary/heat-and-apricots
@@ -307,6 +314,7 @@ https://en.wikipedia.org/wiki/Normative_ethics
 https://en.wikipedia.org/wiki/Olfactory_reference_syndrome
 https://en.wikipedia.org/wiki/Pale_Blue_Dot
 https://en.wikipedia.org/wiki/Patrice_Lumumba
+https://en.wikipedia.org/wiki/Peer-to-peer_(disambiguation)
 https://en.wikipedia.org/wiki/Persecutory_delusion
 https://en.wikipedia.org/wiki/Phenylpiracetam
 https://en.wikipedia.org/wiki/Portal:Current_events
@@ -360,6 +368,7 @@ https://gist.github.com/ebautistabar/cca12863e6335d08a019f015f53fac4a
 https://github.com/AceLewis/fontcrusher
 https://github.com/CompVis/stable-diffusion
 https://github.com/Genymobile/scrcpy
+https://github.com/OpenDevin/OpenDevin
 https://github.com/ValdikSS/GoodbyeDPI
 https://github.com/Y2Z/monolith
 https://github.com/awesome-selfhosted/awesome-selfhosted
@@ -369,14 +378,20 @@ https://github.com/du82/privacyspreadsheet.com
 https://github.com/gskinner/regexr/
 https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css
 https://github.com/mjg59/mei-amt-check
+https://github.com/oduwsdl/ipwb
 https://github.com/sfermigier/awesome-foss-alternatives
+https://github.com/skiff-org/skiff-apps
+https://github.com/wabarc/wayback
 https://gitlab.com/dmitryratty
 https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
+https://grugbrain.dev
 https://habr.com/en/companies/hetmansoftware/articles/553866/
+https://habr.com/ru/articles/548154/
 https://habr.com/ru/articles/774844/
 https://habr.com/ru/articles/785186/
 https://habr.com/ru/articles/791724/
+https://habr.com/ru/articles/807415/
 https://habr.com/ru/articles/840676/
 https://habr.com/ru/companies/airi/articles/833866/
 https://hetmanrecovery.com/hetman_partition_recovery_download.htm
@@ -385,6 +400,7 @@ https://hplhs.org/freebies/audiosamples/caroloftheoldones.mp3
 https://huggingface.co/blog/mlabonne/abliteration
 https://hummingbot.org
 https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+https://ibis.wiki/
 https://infinigen.org/
 https://instagram.com/dmitryratty
 https://intelligence.org
@@ -422,10 +438,12 @@ https://lnkfi.re/voxelplayyard
 https://locusmag.com/2024/07/cory-doctorow-unpersoned/
 https://lutris.net/
 https://mayacpopa.substack.com
+https://medium.com/@nifrigel/%D0%BE%D1%81%D1%86%D0%B8%D0%BB%D0%B8%D1%80%D1%83%D1%8E%D1%89%D0%B0%D1%8F-%D0%B2%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B3%D0%BE%D1%80%D1%8C%D0%BA%D0%B0%D0%B2%D0%BE%D0%B3%D0%BE-89b83dd23de9
 https://meduza.io/feature/2024/06/01/u-lyudey-zachatyh-s-pomoschyu-donorskoy-spermy-mogut-byt-sotni-bratiev-i-sester-a-ih-biologicheskim-ottsam-vse-slozhnee-sohranyat-anonimnost
 https://meduza.io/feature/2024/09/29/gramotno-sobrannaya-domashnyaya-aptechka-garantiya-togo-chto-mnogie-bolezni-ne-smogut-zastat-vas-vrasploh-vot-chto-vazhno-ne-zabyt-v-nee-polozhit
 https://meduza.io/feature/2024/10/11/nablyudat-za-stareniem-blizkih-bolno-a-pomogat-im-byvaet-tyazhelo-osobenno-na-rasstoyanii
 https://meduza.io/news/2024/10/01/sud-otmenil-prigovor-polkovniku-fsb-dmitriyu-frolovu-on-prohodil-po-delu-v-ramkah-kotorogo-iz-yali-tonnu-deneg
+https://meshtastic.org/
 https://metro.co.uk/2018/06/10/girl-9-in-rehab-after-getting-so-addicted-to-fortnite-she-wet-herself-7619324/
 https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do
 https://mineconom.gov.kg/ru/direct/385/395
@@ -433,6 +451,7 @@ https://mjg59.dreamwidth.org/48429.html
 https://mjjir.alphyna.org/
 https://mods.factorio.com/mod/Companion_Drones
 https://mods.factorio.com/mod/Companion_Drones-flux
+https://mods.factorio.com/mod/Dectorio
 https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains
 https://mods.factorio.com/mod/MouseOverConstruction
 https://mods.factorio.com/mod/companion-drones-limit
@@ -453,6 +472,7 @@ https://ncase.me/trust/
 https://newochem.ru/nauka/naskolko-razumny-zhivotnye
 https://news.ycombinator.com
 https://news.ycombinator.com/item?id=39639386
+https://nextdns.io/
 https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/
 https://notdotteam.github.io/trust
 https://novayagazeta.eu/articles/2024/08/07/iz-za-nekhvatki-zhivoi-sily-na-fronte-rossiia-raskinula-verbovochnye-seti-v-samykh-nishchikh-regionakh-planety
@@ -477,6 +497,7 @@ https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://ourworldindata.org/obesity
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
+https://pi-hole.net/
 https://pikabu.ru/reply-stories/11797244
 https://pikabu.ru/story/chto_tyi_takoe_top5_samyikh_paradoksalnyikh_form_zhizni_planetyi_zemlya_vyipusk_1_11897405
 https://pikabu.ru/story/k_voprosu_demografii_11799648
@@ -486,6 +507,7 @@ https://pikabu.ru/story/muzhskie_razgovoryi_11783422
 https://pikabu.ru/story/nekhoroshee_11875553
 https://pikabu.ru/story/nekhoroshee_11889752
 https://pikabu.ru/story/otvet_aliskisskis_v_dementsiya_11907059
+https://pikabu.ru/story/otvet_glavconstructor_v_menya_v_detstve_lupili_i_nichego_normalnyim_vyiros_11919536
 https://pikabu.ru/story/otvet_na_ne_sluzhil__ne_muzhik_11797244
 https://pikabu.ru/story/otvet_na_post_mne_36_i_ya_nichego_ne_dostig_v_zhizni_11863467
 https://pikabu.ru/story/otvet_na_post_nekhoroshee_11876197
@@ -515,6 +537,7 @@ https://rb.ru/story/videoigry-i-mozg/
 https://read.substack.com
 https://readhacker.news/c/63JCS
 https://readhacker.news/c/63MEC
+https://readhacker.news/c/63RaL
 https://readhacker.news/c/63aEC
 https://readhacker.news/c/63bud
 https://readhacker.news/c/63kdw
@@ -525,6 +548,7 @@ https://readhacker.news/c/64ysi
 https://readhacker.news/c/69tic
 https://readhacker.news/s/5QkjM
 https://readhacker.news/s/63JCS
+https://readhacker.news/s/63RaL
 https://readhacker.news/s/63aEC
 https://readhacker.news/s/63bud
 https://readhacker.news/s/63kdw
@@ -590,6 +614,8 @@ https://t.me/RBCCrypto/11963
 https://t.me/RationalAnswer
 https://t.me/RationalAnswer/1081
 https://t.me/RationalAnswer/1090
+https://t.me/RationalAnswer/1099
+https://t.me/RationalAnswer/1103
 https://t.me/ShirlyCash
 https://t.me/ShirlyCash_news
 https://t.me/Skermajenie
@@ -678,9 +704,12 @@ https://t.me/fmusbot
 https://t.me/foxes_in_loveRU
 https://t.me/ftladvisers/2534
 https://t.me/full_brains/45
+https://t.me/full_brains/74
 https://t.me/furyu
 https://t.me/gigachat_bot
 https://t.me/gonzogirl
+https://t.me/grouplinux
+https://t.me/grouplinux/886068
 https://t.me/gubernatorik
 https://t.me/guruschannel
 https://t.me/habr_com
@@ -699,6 +728,10 @@ https://t.me/hn_best_comments
 https://t.me/holarhia
 https://t.me/infosecmemes
 https://t.me/intelligencepotion/22
+https://t.me/intelligencepotion/25
+https://t.me/intelligencepotion/26
+https://t.me/intelligencepotion/27
+https://t.me/intelligencepotion/28
 https://t.me/intelligencepotion/84
 https://t.me/intelligencepotion/89
 https://t.me/intelligencepotion/92
@@ -708,6 +741,7 @@ https://t.me/intelligencepoylo/127
 https://t.me/irrationalist_a
 https://t.me/join_community
 https://t.me/join_community/220
+https://t.me/joinchat/B7td8lHisaV9g4zOsBukaw
 https://t.me/julimin9foto
 https://t.me/kamenschiki
 https://t.me/kate_and_secrets/992
@@ -808,12 +842,14 @@ https://t.me/seeallochnaya
 https://t.me/seeallochnaya/738
 https://t.me/sergieshilov
 https://t.me/shafrow
+https://t.me/shieldmaiden/3464
 https://t.me/shizoeye
 https://t.me/sitnikfriday
 https://t.me/smbcchannel
 https://t.me/socoolmuchstory
 https://t.me/son_na_makovom_pole
 https://t.me/son_na_makovom_pole/1041
+https://t.me/son_na_makovom_pole/1696
 https://t.me/son_na_makovom_pole/19
 https://t.me/son_na_makovom_pole/23
 https://t.me/son_na_makovom_pole/25
@@ -865,6 +901,7 @@ https://t.me/tribute
 https://t.me/vas3k_channel
 https://t.me/vas3k_club
 https://t.me/veronikastepanova20011
+https://t.me/vfiolinux
 https://t.me/vodocanalplus
 https://t.me/vodochannel
 https://t.me/vvzvlad
@@ -890,6 +927,7 @@ https://twitter.com/bubblemaps
 https://twitter.com/dmitryratty
 https://tylervigen.com/spurious-correlations
 https://upload.wikimedia.org/wikipedia/commons/6/6b/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_%D0%A8%D0%B0%D0%B4%D0%B0%D0%BD%D0%B0%D0%BA%D0%B0%D1%80%D0%B0.jpg
+https://vas3k.blog/blog/unstoppable_web/
 https://vas3k.club/post/20695/
 https://vc.ru/639216
 https://vc.ru/s/getmatch/670748-neozhidannaya-strana-dlya-relokeyta-kak-kirgiziya-ocharovyvaet-gostepriimstvom-komfortom-i-klimatom
@@ -1045,6 +1083,7 @@ https://www.zachleat.com/web/web-font-data-uris/
 https://www.zotero.org/
 https://x.com/karpathy/status/1811097021539045582
 https://yanips.com/
+https://yggdrasil-network.github.io/
 https://yoksel.github.io/flex-cheatsheet/
 https://youtu.be/-TZYu9-jCbQ?si=AHkUdmgscaJYp8b9
 https://youtu.be/-lsYJrLrEAM?si=AYggDt9n39_Q8Gu5
@@ -1079,6 +1118,7 @@ https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/FDjeRloNgx0?si=eXBoHefnQZApfcII
 https://youtu.be/HzNZdQEvvVQ?si=2teaVFwfGfNVnQL1
 https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
+https://youtu.be/K-UWjKec43k?si=nzy71HxoMuR4qFH6
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
@@ -1094,15 +1134,19 @@ https://youtu.be/Udz7ZkIZJco?si=oo0feroNw5eBVSMm
 https://youtu.be/V1V68qgiLIo?si=daJzjzw0mOv73U1L
 https://youtu.be/V3Soe3g9i6s?si=ujrgxpeQsuUQglWX
 https://youtu.be/WUohpgTVFi8?si=U7ls-ce6jhy1LoPa
+https://youtu.be/X21eehfy2wI?si=otVOIM0neDSk7c6Q
 https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc
+https://youtu.be/ZeDQtOfiZIY?si=7tPzifwbhk0QDAej
 https://youtu.be/Zo6UnKr6Bwg?si=RIjm30KZXUyzMKRJ
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/a7wAwYiWhAo?si=LxmokSCPWoTYFwga
 https://youtu.be/aBcqQsL9dsU?si=vN25zfWJwXfvEerz
+https://youtu.be/aR-KAldshAE?si=bE__h6wUZXqKvf_q
 https://youtu.be/aYCuEONIIDM?si=kgkJBUE83EdPXlIT
 https://youtu.be/asr6_eNCuoU?si=x97cVDWULexvaGOc
 https://youtu.be/cNfFhtic__4?si=1Z9q0KAKaOBGpZZH
+https://youtu.be/ci2XPOvoE_M?si=vEwGYhf_3UCJu-7L
 https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
 https://youtu.be/fHBUQI2lilc?si=R4wn6ipnEpT0R0PX
 https://youtu.be/gBMEwunuEUI?si=c70hsmMjnlsDqcXE
@@ -1125,6 +1169,7 @@ https://youtu.be/nSA3h6PoPrE?si=7oSVAZnnEHN1jjm9
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/oq-SDnabu0o?si=936Dml0ra5d9VLGJ
 https://youtu.be/ou9THu2g3I4?si=UoUCe2UlmQTOvQSd
+https://youtu.be/plFe27sXXVY?si=AJ3MYcpYlHz_qYSl
 https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
 https://youtu.be/qeAG4aoEjcw?si=HbhmESPEpkf_zfTv
 https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
@@ -1137,6 +1182,7 @@ https://youtu.be/vwN-7mklDCM?si=FIzAo-Vt8PKlL8Ct
 https://youtu.be/vzWwUBeB1RM?si=c8jlJgqJBnR-ACTh
 https://youtu.be/waylMzCaznE?si=YCMuoCvPM7MmU5Hm
 https://youtu.be/wcUouLOmQuU?si=CicQ8pMERW4uj6BF
+https://youtu.be/xkNiMuBhkbE?si=voz050JFeL-LOdqz
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
 https://youtu.be/y9pTbMoufp4?si=9lufGkhU2Zyljjam
 https://youtu.be/zH1AXMUwxrg?si=TvNjRQoJW0M6TNvh

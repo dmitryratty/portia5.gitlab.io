@@ -24,6 +24,10 @@ https://mods.factorio.com/mod/companion-drones-limit
 
 * * *
 
+https://mods.factorio.com/mod/Dectorio - добавляет слишком много всего, что мне не нужно, но можно отсюда вынести в отдельный модуль гравий и дополнительный вид бетона.
+
+* * *
+
 "Mouse-over Construction" by "raiguard". MIT.
 - https://mods.factorio.com/mod/MouseOverConstruction
 

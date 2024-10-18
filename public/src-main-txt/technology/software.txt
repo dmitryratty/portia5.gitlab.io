@@ -33,3 +33,12 @@ Other
 EaseUs Data Recovery Wizard
 
 Disk Drill
+
+Интерфейс для запуска нейронок в качестве агента выполняющего задачи в каком-то проекте.
+https://github.com/OpenDevin/OpenDevin
+
+Zettelkasten и Obsidian — лучшие друзья вашей памяти и креативности
+- https://habr.com/ru/articles/548154/
+
+carapace-bin is a multi-shell multi-command argument completer based on carapace-sh/carapace.
+- https://carapace-sh.github.io/carapace-bin/carapace-bin.html

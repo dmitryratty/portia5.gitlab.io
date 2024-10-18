@@ -1,3 +1,7 @@
+Defold is an open-source engine that uses the Lua programming language as its scripting language. </> Godot is an open-source engine suitable for both 2D and 3D games. </> Cocos Creator is both an efficient, lightweight, free and open source cross-platform 2D and 3D graphics engine and a real-time interactive 2D and 3D digital content creation platform.
+- https://developer.android.com/games/engines/engines-overview
+- https://defold.com/assets/warbattlesassetpack/
+
 #Math Люди в научных публикациях переизобретают базовую математику.
 https://doi.org/10.2337/diacare.17.2.152
 https://en.wikipedia.org/wiki/Trapezoidal_rule
@@ -80,3 +84,46 @@ Opera for Android has default support for IPFS, allowing mobile users to browse 
 * * *
 
 https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
+
+* * *
+
+Show HN: Timelock.dev – Send a secret into the future using timelock encryption (Score: 150+ in 9 hours)
+Link: https://readhacker.news/s/63RaL
+Comments: https://readhacker.news/c/63RaL
+This is simply a web interface built on top of the timelock encryption system posted by Cloudflare last week. https://blog.cloudflare.com/harnessing-office-chaos
+
+https://en.wikipedia.org/wiki/Peer-to-peer_(disambiguation)
+
+https://atproto.com/guides/faq -> Возможно более федиверсный федиверс.
+
+HackerNews -> https://ibis.wiki/ - федиверсная Википедия.
+
+Linux Help
+Правила: https://t.me/grouplinux/886068
+Linux Flood: https://t.me/joinchat/B7td8lHisaV9g4zOsBukaw
+VFIO: https://t.me/vfiolinux
+https://t.me/grouplinux
+
+https://grugbrain.dev
+
+https://github.com/wabarc/wayback
+
+Психология в UX/UI дизайне: 10 принципов, повышающих вовлеченность и удержание: https://habr.com/ru/articles/807415/
+
+https://vas3k.blog/blog/unstoppable_web/
+
+https://nextdns.io/
+
+IME.
+https://mjg59.dreamwidth.org/48429.html
+https://github.com/mjg59/mei-amt-check
+
+https://en.wikipedia.org/wiki/InterPlanetary_File_System
+https://github.com/skiff-org/skiff-apps
+https://github.com/oduwsdl/ipwb
+
+https://yggdrasil-network.github.io/
+
+https://meshtastic.org/
+
+https://pi-hole.net/
