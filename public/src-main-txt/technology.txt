@@ -24,8 +24,7 @@
 
 * * *
 
-Учу математику на Khan Academy, начав с детского сада:
-- https://dmitryratty.gitlab.io/technology/kindergarten-math
+#include link /technology/kindergarten-math
 
 * * *
 

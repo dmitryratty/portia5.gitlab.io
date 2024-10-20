@@ -24,5 +24,8 @@ https://portia3.gitlab.io
             3 https://portia3.gitlab.io/todo/humour
             3 https://portia3.gitlab.io/todo/read
     1 https://portia3.gitlab.io/technology
+        2 https://portia3.gitlab.io/technology/kindergarten-math
     1 https://portia3.gitlab.io/vidya
+        2 https://portia3.gitlab.io/vidya/factorio
+        2 https://portia3.gitlab.io/vidya/other
     1 https://portia3.gitlab.io/wealth

@@ -1,3 +1,7 @@
+Web fonts.
+
+<< * * * >>
+
 A formula for responsive font-size:
 :root { font-size: calc(1rem + 0.25vw); }
 - https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/

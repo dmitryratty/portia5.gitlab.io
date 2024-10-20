@@ -37,8 +37,7 @@ Footnotes: https://css-tricks.com/footnote-characters
 
 * * *
 
-Web fonts.
-- https://dmitryratty.gitlab.io/technology/web-fonts
+#include link /technology/web-fonts
 
 * * *
 

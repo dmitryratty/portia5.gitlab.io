@@ -70,12 +70,12 @@ https://portia3.gitlab.io/other/languages
 https://portia3.gitlab.io/technology-chaos
 https://portia3.gitlab.io/technology/gitlab
 https://portia3.gitlab.io/technology/hardware
-https://portia3.gitlab.io/technology/kindergarten-math
 https://portia3.gitlab.io/technology/neural-network
 https://portia3.gitlab.io/technology/puzzles
 https://portia3.gitlab.io/technology/software
 https://portia3.gitlab.io/technology/unicode
 https://portia3.gitlab.io/technology/web
+    1 https://portia3.gitlab.io/technology/web-fonts
 https://portia3.gitlab.io/technology/web-fonts
 https://portia3.gitlab.io/test
 https://portia3.gitlab.io/test/bullet
@@ -97,6 +97,4 @@ https://portia3.gitlab.io/test/zalgo
 https://portia3.gitlab.io/todo-chaos
 https://portia3.gitlab.io/todo/read-done
 https://portia3.gitlab.io/vidya-chaos
-https://portia3.gitlab.io/vidya/factorio
-https://portia3.gitlab.io/vidya/terraria
 https://portia3.gitlab.io/wealth-chaos

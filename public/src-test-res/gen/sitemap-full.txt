@@ -127,6 +127,6 @@
 [3] /vidya[.html]
 [3] /vidya-chaos[.html]
 [3] /vidya/factorio[.html]
-[3] /vidya/terraria[.html]
+[3] /vidya/other[.html]
 [3] /wealth[.html]
 [3] /wealth-chaos[.html]
