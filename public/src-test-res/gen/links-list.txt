@@ -203,6 +203,7 @@ https://dmitryratty.gitlab.io/wealth
 https://dmitryratty.gitlab.io/wealth-chaos
 https://docs.gitlab.com/ee/user/project/pages/introduction.html#resolving-ambiguous-urls
 https://docs.gitlab.com/ee/user/project/pages/redirects.html
+https://docs.gradle.org/current/userguide/migrating_from_groovy_to_kotlin_dsl.html
 https://docs.netlify.com/routing/redirects/rewrites-proxies/
 https://docs.oracle.com/javase/tutorial/
 https://doi.org/10.1007/978-1-4612-3950-5_7
@@ -581,6 +582,7 @@ https://science.org
 https://shakko.ru/1980385.html
 https://skillbox.ru/media/code/andrey-sitnik-o-sekspozitivizme-bdsm-i-pyatnichnykh-nyudsakh/
 https://softwarefoundations.cis.upenn.edu/lf-current/index.html
+https://source.android.com/docs/security/features/apksigning/v2
 https://space.com
 https://space.org
 https://spacemath.xyz
@@ -745,6 +747,7 @@ https://t.me/join_community/220
 https://t.me/joinchat/B7td8lHisaV9g4zOsBukaw
 https://t.me/julimin9foto
 https://t.me/kamenschiki
+https://t.me/karripsy
 https://t.me/kate_and_secrets/992
 https://t.me/kate_coli
 https://t.me/kcs_stuff
@@ -955,6 +958,7 @@ https://www.astralcodexten.com/p/matt-yglesias-considered-as-the-nietzschean
 https://www.astralcodexten.com/p/the-compounding-loophole
 https://www.astralcodexten.com/p/why-does-ozempic-cure-all-diseases
 https://www.atvbt.com/the-carrot-problem
+https://www.baeldung.com/java-filechannel
 https://www.bitsofwonder.co/p/a-revolution-in-biology
 https://www.britannica.com/story/7-banned-books-through-time
 https://www.britannica.com/topic/2023-The-Year-in-Review
@@ -1135,6 +1139,7 @@ https://youtu.be/UBKlEMZoykc?si=GVz5oZD95y7-xYM-
 https://youtu.be/Udz7ZkIZJco?si=oo0feroNw5eBVSMm
 https://youtu.be/V1V68qgiLIo?si=daJzjzw0mOv73U1L
 https://youtu.be/V3Soe3g9i6s?si=ujrgxpeQsuUQglWX
+https://youtu.be/WE5-IZQt-mg?si=gqTSICMHXgcTLmPu
 https://youtu.be/WUohpgTVFi8?si=U7ls-ce6jhy1LoPa
 https://youtu.be/X21eehfy2wI?si=otVOIM0neDSk7c6Q
 https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc

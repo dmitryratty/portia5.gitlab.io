@@ -6,8 +6,6 @@ Defold is an open-source engine that uses the Lua programming language as its sc
 https://doi.org/10.2337/diacare.17.2.152
 https://en.wikipedia.org/wiki/Trapezoidal_rule
 
-https://pikabu.ru/story/kogda_obmanuli_vo_vsem_izuchaem_feykovyiy_planshet_kotoryim_zabityi_marketpleysyi_11885254
-
 VPS VPN.
 https://amnezia.org/en
 https://web.archive.org/web/20240402093517/https://habr.com/ru/articles/799751/
@@ -15,6 +13,14 @@ https://habr.com/ru/articles/785186/
 https://habr.com/ru/articles/791724/
 https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
 https://github.com/ValdikSS/GoodbyeDPI
+
+https://pikabu.ru/story/kogda_obmanuli_vo_vsem_izuchaem_feykovyiy_planshet_kotoryim_zabityi_marketpleysyi_11885254
+
+https://www.baeldung.com/java-filechannel
+
+https://source.android.com/docs/security/features/apksigning/v2
+
+https://docs.gradle.org/current/userguide/migrating_from_groovy_to_kotlin_dsl.html
 
 https://en.wikipedia.org/wiki/Mystery_meat_navigation
 
