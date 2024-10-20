@@ -1,100 +1,102 @@
-https://dmitryratty.gitlab.io/biology-chaos
-https://dmitryratty.gitlab.io/biology/human
-https://dmitryratty.gitlab.io/biology/psychology
-https://dmitryratty.gitlab.io/chaos
-    1 https://dmitryratty.gitlab.io/chaos/horned-goodness
-    1 https://dmitryratty.gitlab.io/other/coincidence-think
-    1 https://dmitryratty.gitlab.io/other/games-to-play
-https://dmitryratty.gitlab.io/chaos-chaos
-    1 https://dmitryratty.gitlab.io/chaos/telegram
-    1 https://dmitryratty.gitlab.io/chaos/web
-    1 https://dmitryratty.gitlab.io/chaos/wikipedia
-    1 https://dmitryratty.gitlab.io/chaos/youtube
-https://dmitryratty.gitlab.io/chaos/horned-goodness
-https://dmitryratty.gitlab.io/chaos/llm-ale
-https://dmitryratty.gitlab.io/chaos/telegram
-https://dmitryratty.gitlab.io/chaos/web
-https://dmitryratty.gitlab.io/chaos/wikipedia
-https://dmitryratty.gitlab.io/chaos/youtube
-https://dmitryratty.gitlab.io/diary-chaos
-https://dmitryratty.gitlab.io/diary/blood-filled-mouth
-https://dmitryratty.gitlab.io/diary/caught-masturbating
-https://dmitryratty.gitlab.io/diary/death-of-grandfather
-https://dmitryratty.gitlab.io/diary/diary-start
-https://dmitryratty.gitlab.io/diary/do-not-drown
-https://dmitryratty.gitlab.io/diary/first-grade
-https://dmitryratty.gitlab.io/diary/heat-and-apricots
-https://dmitryratty.gitlab.io/diary/holiday-is-coming
-https://dmitryratty.gitlab.io/diary/is-his-pants-clean
-https://dmitryratty.gitlab.io/diary/like-vodka
-https://dmitryratty.gitlab.io/diary/mug-of-blood
-https://dmitryratty.gitlab.io/diary/nature-versus-nurture
-https://dmitryratty.gitlab.io/diary/pigeons-as-food
-https://dmitryratty.gitlab.io/diary/scream-and-dance
-https://dmitryratty.gitlab.io/diary/smell-of-fist
-https://dmitryratty.gitlab.io/diary/stinksy-breath
-https://dmitryratty.gitlab.io/diary/sweet-school-time
-https://dmitryratty.gitlab.io/diary/warnings-triggers
-https://dmitryratty.gitlab.io/diary/winter-sunny-day
-https://dmitryratty.gitlab.io/diary/wire-cutters-music
-https://dmitryratty.gitlab.io/diary/yard-stories
-https://dmitryratty.gitlab.io/ethics-chaos
-https://dmitryratty.gitlab.io/food
-https://dmitryratty.gitlab.io/humour/math-methods
-https://dmitryratty.gitlab.io/humour/the-dragonfly-and-the-ant
-https://dmitryratty.gitlab.io/identity-chaos
-    1 https://dmitryratty.gitlab.io/other/fear-shame-guilt
-    1 https://dmitryratty.gitlab.io/other/judas-goat
-https://dmitryratty.gitlab.io/library-favorites
-https://dmitryratty.gitlab.io/library-interesting
-https://dmitryratty.gitlab.io/library/blindsight
-https://dmitryratty.gitlab.io/library/conditions-of-personhood
-https://dmitryratty.gitlab.io/library/echopraxia
-https://dmitryratty.gitlab.io/library/lesswrong/chaos
-https://dmitryratty.gitlab.io/library/lesswrong/sequences
-    1 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
-    1 https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
-    1 https://dmitryratty.gitlab.io/other/thou-art-godshatter
-https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-done
-https://dmitryratty.gitlab.io/library/lesswrong/sequences/translation-todo
-https://dmitryratty.gitlab.io/library/reality-check
-https://dmitryratty.gitlab.io/life/sakalauskas-case
-https://dmitryratty.gitlab.io/location
-https://dmitryratty.gitlab.io/map-order
-https://dmitryratty.gitlab.io/music-chaos
-https://dmitryratty.gitlab.io/other/coincidence-think
-https://dmitryratty.gitlab.io/other/fear-shame-guilt
-https://dmitryratty.gitlab.io/other/games-to-play
-https://dmitryratty.gitlab.io/other/judas-goat
-https://dmitryratty.gitlab.io/other/languages
-https://dmitryratty.gitlab.io/technology-chaos
-https://dmitryratty.gitlab.io/technology/gitlab
-https://dmitryratty.gitlab.io/technology/hardware
-https://dmitryratty.gitlab.io/technology/neural-network
-https://dmitryratty.gitlab.io/technology/puzzles
-https://dmitryratty.gitlab.io/technology/software
-https://dmitryratty.gitlab.io/technology/unicode
-https://dmitryratty.gitlab.io/technology/web
-    1 https://dmitryratty.gitlab.io/technology/web-fonts
-https://dmitryratty.gitlab.io/technology/web-fonts
-https://dmitryratty.gitlab.io/test
-https://dmitryratty.gitlab.io/test/bullet
-https://dmitryratty.gitlab.io/test/emoji-font
-https://dmitryratty.gitlab.io/test/favicon-oneliner
-https://dmitryratty.gitlab.io/test/gallery
-https://dmitryratty.gitlab.io/test/issue3/index1
-https://dmitryratty.gitlab.io/test/issue3/index2
-https://dmitryratty.gitlab.io/test/issue3/index3
-https://dmitryratty.gitlab.io/test/issue3/index4
-https://dmitryratty.gitlab.io/test/ta1
-https://dmitryratty.gitlab.io/test/tf1
-https://dmitryratty.gitlab.io/test/tf2
-https://dmitryratty.gitlab.io/test/tf3
-https://dmitryratty.gitlab.io/test/urlmapping/a
-https://dmitryratty.gitlab.io/test/urlmapping/a/b
-https://dmitryratty.gitlab.io/test/wrap
-https://dmitryratty.gitlab.io/test/zalgo
-https://dmitryratty.gitlab.io/todo-chaos
-https://dmitryratty.gitlab.io/todo/read-done
-https://dmitryratty.gitlab.io/vidya-chaos
-https://dmitryratty.gitlab.io/wealth-chaos
+https://portia3.gitlab.io/biology-chaos
+https://portia3.gitlab.io/biology/human
+https://portia3.gitlab.io/biology/psychology
+https://portia3.gitlab.io/chaos
+    1 https://portia3.gitlab.io/chaos/horned-goodness
+    1 https://portia3.gitlab.io/other/coincidence-think
+    1 https://portia3.gitlab.io/other/games-to-play
+https://portia3.gitlab.io/chaos-chaos
+    1 https://portia3.gitlab.io/chaos/telegram
+    1 https://portia3.gitlab.io/chaos/web
+    1 https://portia3.gitlab.io/chaos/wikipedia
+    1 https://portia3.gitlab.io/chaos/youtube
+https://portia3.gitlab.io/chaos/horned-goodness
+https://portia3.gitlab.io/chaos/llm-ale
+https://portia3.gitlab.io/chaos/telegram
+https://portia3.gitlab.io/chaos/web
+https://portia3.gitlab.io/chaos/wikipedia
+https://portia3.gitlab.io/chaos/youtube
+https://portia3.gitlab.io/diary-chaos
+https://portia3.gitlab.io/diary/blood-filled-mouth
+https://portia3.gitlab.io/diary/caught-masturbating
+https://portia3.gitlab.io/diary/death-of-grandfather
+https://portia3.gitlab.io/diary/diary-start
+https://portia3.gitlab.io/diary/do-not-drown
+https://portia3.gitlab.io/diary/first-grade
+https://portia3.gitlab.io/diary/heat-and-apricots
+https://portia3.gitlab.io/diary/holiday-is-coming
+https://portia3.gitlab.io/diary/is-his-pants-clean
+https://portia3.gitlab.io/diary/like-vodka
+https://portia3.gitlab.io/diary/mug-of-blood
+https://portia3.gitlab.io/diary/nature-versus-nurture
+https://portia3.gitlab.io/diary/pigeons-as-food
+https://portia3.gitlab.io/diary/scream-and-dance
+https://portia3.gitlab.io/diary/smell-of-fist
+https://portia3.gitlab.io/diary/stinksy-breath
+https://portia3.gitlab.io/diary/sweet-school-time
+https://portia3.gitlab.io/diary/warnings-triggers
+https://portia3.gitlab.io/diary/winter-sunny-day
+https://portia3.gitlab.io/diary/wire-cutters-music
+https://portia3.gitlab.io/diary/yard-stories
+https://portia3.gitlab.io/ethics-chaos
+https://portia3.gitlab.io/food
+https://portia3.gitlab.io/humour/math-methods
+https://portia3.gitlab.io/humour/the-dragonfly-and-the-ant
+https://portia3.gitlab.io/identity-chaos
+    1 https://portia3.gitlab.io/other/fear-shame-guilt
+    1 https://portia3.gitlab.io/other/judas-goat
+https://portia3.gitlab.io/library-favorites
+https://portia3.gitlab.io/library-interesting
+https://portia3.gitlab.io/library/blindsight
+https://portia3.gitlab.io/library/conditions-of-personhood
+https://portia3.gitlab.io/library/echopraxia
+https://portia3.gitlab.io/library/lesswrong/chaos
+https://portia3.gitlab.io/library/lesswrong/sequences
+    1 https://portia3.gitlab.io/library/lesswrong/sequences/translation-done
+    1 https://portia3.gitlab.io/library/lesswrong/sequences/translation-todo
+    1 https://portia3.gitlab.io/other/thou-art-godshatter
+https://portia3.gitlab.io/library/lesswrong/sequences/translation-done
+https://portia3.gitlab.io/library/lesswrong/sequences/translation-todo
+https://portia3.gitlab.io/library/reality-check
+https://portia3.gitlab.io/life/sakalauskas-case
+https://portia3.gitlab.io/location
+https://portia3.gitlab.io/map-order
+https://portia3.gitlab.io/music-chaos
+https://portia3.gitlab.io/other/coincidence-think
+https://portia3.gitlab.io/other/fear-shame-guilt
+https://portia3.gitlab.io/other/games-to-play
+https://portia3.gitlab.io/other/judas-goat
+https://portia3.gitlab.io/other/languages
+https://portia3.gitlab.io/technology-chaos
+https://portia3.gitlab.io/technology/gitlab
+https://portia3.gitlab.io/technology/hardware
+https://portia3.gitlab.io/technology/kindergarten-math
+https://portia3.gitlab.io/technology/neural-network
+https://portia3.gitlab.io/technology/puzzles
+https://portia3.gitlab.io/technology/software
+https://portia3.gitlab.io/technology/unicode
+https://portia3.gitlab.io/technology/web
+https://portia3.gitlab.io/technology/web-fonts
+https://portia3.gitlab.io/test
+https://portia3.gitlab.io/test/bullet
+https://portia3.gitlab.io/test/emoji-font
+https://portia3.gitlab.io/test/favicon-oneliner
+https://portia3.gitlab.io/test/gallery
+https://portia3.gitlab.io/test/issue3/index1
+https://portia3.gitlab.io/test/issue3/index2
+https://portia3.gitlab.io/test/issue3/index3
+https://portia3.gitlab.io/test/issue3/index4
+https://portia3.gitlab.io/test/ta1
+https://portia3.gitlab.io/test/tf1
+https://portia3.gitlab.io/test/tf2
+https://portia3.gitlab.io/test/tf3
+https://portia3.gitlab.io/test/urlmapping/a
+https://portia3.gitlab.io/test/urlmapping/a/b
+https://portia3.gitlab.io/test/wrap
+https://portia3.gitlab.io/test/zalgo
+https://portia3.gitlab.io/todo-chaos
+https://portia3.gitlab.io/todo/read-done
+https://portia3.gitlab.io/vidya-chaos
+https://portia3.gitlab.io/vidya/factorio
+https://portia3.gitlab.io/vidya/terraria
+https://portia3.gitlab.io/wealth-chaos
