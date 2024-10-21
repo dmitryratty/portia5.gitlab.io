@@ -37,6 +37,7 @@ https://portia3.gitlab.io/diary/sweet-school-time
 https://portia3.gitlab.io/diary/warnings-triggers
 https://portia3.gitlab.io/diary/winter-sunny-day
 https://portia3.gitlab.io/diary/wire-cutters-music
+https://portia3.gitlab.io/diary/work-unconsciousness
 https://portia3.gitlab.io/diary/yard-stories
 https://portia3.gitlab.io/ethics-chaos
 https://portia3.gitlab.io/food
@@ -81,6 +82,8 @@ https://portia3.gitlab.io/test
 https://portia3.gitlab.io/test/bullet
 https://portia3.gitlab.io/test/emoji-font
 https://portia3.gitlab.io/test/favicon-oneliner
+https://portia3.gitlab.io/test/font-size/1
+https://portia3.gitlab.io/test/font-size/2
 https://portia3.gitlab.io/test/gallery
 https://portia3.gitlab.io/test/issue3/index1
 https://portia3.gitlab.io/test/issue3/index2

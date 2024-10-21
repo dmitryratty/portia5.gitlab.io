@@ -9,6 +9,7 @@
 [2] /icon-192.png
 [2] /icon-512.png
 [2] /manifest.webmanifest
+[2] /test/font-size/main.css
 [2] /test/image/game-die.svg
 [2] /test/image/square-black-16x16.png
 [2] /test/image/square-black-32x32.png
@@ -50,6 +51,7 @@
 [3] /diary/warnings-triggers[.html]
 [3] /diary/winter-sunny-day[.html]
 [3] /diary/wire-cutters-music[.html]
+[3] /diary/work-unconsciousness[.html]
 [3] /diary/yard-stories[.html]
 [3] /ethics[.html]
 [3] /ethics-chaos[.html]
@@ -106,6 +108,8 @@
 [3] /test/bullet[.html]
 [3] /test/emoji-font[.html]
 [3] /test/favicon-oneliner[.html]
+[3] /test/font-size/1[.html]
+[3] /test/font-size/2[.html]
 [3] /test/gallery[.html]
 [3] /test/issue3/index1[.html]
 [3] /test/issue3/index2[.html]
