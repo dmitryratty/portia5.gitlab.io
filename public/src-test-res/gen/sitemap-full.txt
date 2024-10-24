@@ -36,6 +36,7 @@
 [3] /diary/death-of-grandfather[.html]
 [3] /diary/diary-start[.html]
 [3] /diary/do-not-drown[.html]
+[3] /diary/dotted-dotless[.html]
 [3] /diary/first-grade[.html]
 [3] /diary/heat-and-apricots[.html]
 [3] /diary/holiday-is-coming[.html]
