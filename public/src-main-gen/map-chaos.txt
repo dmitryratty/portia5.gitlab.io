@@ -69,6 +69,7 @@ https://portia3.gitlab.io/other/fear-shame-guilt
 https://portia3.gitlab.io/other/games-to-play
 https://portia3.gitlab.io/other/judas-goat
 https://portia3.gitlab.io/other/languages
+https://portia3.gitlab.io/other/transparent-society
 https://portia3.gitlab.io/technology-chaos
 https://portia3.gitlab.io/technology/gitlab
 https://portia3.gitlab.io/technology/hardware
