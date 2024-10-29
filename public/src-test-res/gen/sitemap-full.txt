@@ -41,6 +41,7 @@
 [3] /diary/heat-and-apricots[.html]
 [3] /diary/holiday-is-coming[.html]
 [3] /diary/is-his-pants-clean[.html]
+[3] /diary/left-and-right[.html]
 [3] /diary/like-vodka[.html]
 [3] /diary/mug-of-blood[.html]
 [3] /diary/nature-versus-nurture[.html]

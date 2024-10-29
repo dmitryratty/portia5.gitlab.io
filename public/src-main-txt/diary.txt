@@ -22,6 +22,10 @@
 
 * * *
 
+#include /diary/left-and-right
+
+* * *
+
 #include /diary/pigeons-as-food
 
 * * *
