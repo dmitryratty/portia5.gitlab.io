@@ -1,13 +1,13 @@
 https://portia3.gitlab.io
     1 https://portia3.gitlab.io/biology
-    1 https://portia3.gitlab.io/diary
-    1 https://portia3.gitlab.io/ethics
-        2 https://portia3.gitlab.io/life/demon-core
     1 https://portia3.gitlab.io/gallery
     1 https://portia3.gitlab.io/humour
     1 https://portia3.gitlab.io/library
     1 https://portia3.gitlab.io/other
         2 https://portia3.gitlab.io/contacts
+        2 https://portia3.gitlab.io/diary
+        2 https://portia3.gitlab.io/ethics
+            3 https://portia3.gitlab.io/life/demon-core
         2 https://portia3.gitlab.io/identity
         2 https://portia3.gitlab.io/life/benjamin-jesty
         2 https://portia3.gitlab.io/life/demon-core

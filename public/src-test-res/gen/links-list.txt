@@ -466,6 +466,7 @@ https://portia3.gitlab.io/ethics-chaos
 https://portia3.gitlab.io/food
 https://portia3.gitlab.io/gallery
 https://portia3.gitlab.io/humour
+https://portia3.gitlab.io/humour-chaos
 https://portia3.gitlab.io/humour/math-methods
 https://portia3.gitlab.io/humour/the-dragonfly-and-the-ant
 https://portia3.gitlab.io/identity
@@ -585,6 +586,7 @@ https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%C2%AB%D0%B1%
 https://ru.wikipedia.org/wiki/2023_%D0%B3%D0%BE%D0%B4
 https://ru.wikipedia.org/wiki/2024_%D0%B3%D0%BE%D0%B4
 https://ru.wikipedia.org/wiki/Marmite
+https://ru.wikipedia.org/wiki/Битва_у_острова_Мэй
 https://ru.wikipedia.org/wiki/Дело_Сакалаускаса
 https://ru.wikipedia.org/wiki/Массовое_убийство_в_станице_Кущёвской
 https://ru.wikipedia.org/wiki/Плачущий_Гераклит_и_смеющийся_Демокрит
@@ -660,6 +662,7 @@ https://t.me/aquaticancer
 https://t.me/aquaticancer/85
 https://t.me/arc_phoenix
 https://t.me/arc_phoenix/42
+https://t.me/ari_zone
 https://t.me/asoqc/1100
 https://t.me/astras_thots
 https://t.me/astras_thots/7291
@@ -1145,6 +1148,7 @@ https://youtu.be/K-UWjKec43k?si=nzy71HxoMuR4qFH6
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
+https://youtu.be/MYRR77DWofc?si=PY-zSDVrDUSJTLQA
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
@@ -1164,6 +1168,7 @@ https://youtu.be/X21eehfy2wI?si=otVOIM0neDSk7c6Q
 https://youtu.be/X2l9Gs-ehqw?si=WFu26UnLQjL-6xHr
 https://youtu.be/YmfUJpiJ1kM?si=rg9mzLA5RE2Wg4tc
 https://youtu.be/ZOvyn72x6kQ?si=V834-IiHtB_Qa7Wv
+https://youtu.be/ZdLdp2lKpsw?si=Vlmx8MwIZuP3ihDQ
 https://youtu.be/ZeDQtOfiZIY?si=7tPzifwbhk0QDAej
 https://youtu.be/Zo6UnKr6Bwg?si=RIjm30KZXUyzMKRJ
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-

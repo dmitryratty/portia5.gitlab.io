@@ -4,6 +4,10 @@
 
 #include link /identity
 
+#include link /diary
+
+#include link /ethics
+
 #include link /news
 
 #include link /contacts

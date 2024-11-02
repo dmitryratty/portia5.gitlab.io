@@ -44,6 +44,7 @@ https://portia3.gitlab.io/diary/work-unconsciousness
 https://portia3.gitlab.io/diary/yard-stories
 https://portia3.gitlab.io/ethics-chaos
 https://portia3.gitlab.io/food
+https://portia3.gitlab.io/humour-chaos
 https://portia3.gitlab.io/humour/math-methods
 https://portia3.gitlab.io/humour/the-dragonfly-and-the-ant
 https://portia3.gitlab.io/identity-chaos

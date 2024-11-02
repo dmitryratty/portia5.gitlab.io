@@ -4,10 +4,6 @@
 
 #include link /humour
 
-#include link /diary
-
-#include link /ethics
-
 #include link /technology
 
 #include link /biology

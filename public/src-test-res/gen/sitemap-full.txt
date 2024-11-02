@@ -61,6 +61,7 @@
 [3] /food[.html]
 [3] /gallery[.html]
 [3] /humour[.html]
+[3] /humour-chaos[.html]
 [3] /humour/math-methods[.html]
 [3] /humour/the-dragonfly-and-the-ant[.html]
 [3] /identity[.html]
