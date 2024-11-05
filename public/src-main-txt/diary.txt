@@ -78,10 +78,6 @@
 
 * * *
 
-#include /diary/first-experience
-
-* * *
-
 #include /diary/stinksy-breath
 
 * * *
