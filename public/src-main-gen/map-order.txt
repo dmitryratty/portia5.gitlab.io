@@ -1,9 +1,9 @@
 https://portia3.gitlab.io
-    1 https://portia3.gitlab.io/biology
     1 https://portia3.gitlab.io/gallery
     1 https://portia3.gitlab.io/humour
     1 https://portia3.gitlab.io/library
     1 https://portia3.gitlab.io/other
+        2 https://portia3.gitlab.io/biology
         2 https://portia3.gitlab.io/contacts
         2 https://portia3.gitlab.io/diary
         2 https://portia3.gitlab.io/ethics

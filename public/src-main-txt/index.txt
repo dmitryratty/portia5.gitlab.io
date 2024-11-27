@@ -12,6 +12,4 @@
 
 #include link /vidya
 
-#include link /biology
-
 #include link /other
