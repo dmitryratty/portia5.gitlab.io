@@ -4,8 +4,6 @@
 
 #include link /todo/read
 
-yard-stories.txt
-
 Gallery.
 Flexbox
 - https://yoksel.github.io/flex-cheatsheet/

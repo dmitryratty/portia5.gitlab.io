@@ -10,7 +10,7 @@
 
 #include link /news
 
-#include link /contacts
+#include link /wealth
 
 #include link /map
 
@@ -29,3 +29,5 @@
 #include /other/transparent-society
 
 INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLICIT WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+#include link /contacts
