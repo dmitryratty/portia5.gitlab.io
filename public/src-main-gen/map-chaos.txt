@@ -1,4 +1,5 @@
 https://portia3.gitlab.io/biology-chaos
+https://portia3.gitlab.io/biology/haloperidol-chatgpt-4o
 https://portia3.gitlab.io/biology/human
 https://portia3.gitlab.io/biology/psychology
 https://portia3.gitlab.io/chaos
