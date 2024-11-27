@@ -6,7 +6,7 @@ pluginManagement {
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
-rootProject.name = "portia"
+rootProject.name = "We"
 if (file("local.properties").exists()) {
     include("public", "private")
 } else {
