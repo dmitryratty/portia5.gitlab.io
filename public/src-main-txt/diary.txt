@@ -114,6 +114,10 @@
 
 * * *
 
+#include /diary/public-start
+
+* * *
+
 #include /diary/work-unconsciousness
 
 * * *

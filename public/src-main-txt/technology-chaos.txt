@@ -14,6 +14,8 @@ https://habr.com/ru/articles/791724/
 https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
 https://github.com/ValdikSS/GoodbyeDPI
 
+Мне не нравится, что если я ставлю бету "Brave" то к названию приложения добавляется слово "Beta", короткие названия красивее. В этом плане хорошо сделано у "Сбер", название приложения не меняется если ставишь бету.
+
 https://pikabu.ru/story/kogda_obmanuli_vo_vsem_izuchaem_feykovyiy_planshet_kotoryim_zabityi_marketpleysyi_11885254
 
 https://www.baeldung.com/java-filechannel

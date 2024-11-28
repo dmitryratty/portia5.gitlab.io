@@ -454,6 +454,7 @@ https://portia5.gitlab.io/diary/like-vodka
 https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/nature-versus-nurture
 https://portia5.gitlab.io/diary/pigeons-as-food
+https://portia5.gitlab.io/diary/public-start
 https://portia5.gitlab.io/diary/scream-and-dance
 https://portia5.gitlab.io/diary/smell-of-fist
 https://portia5.gitlab.io/diary/stinksy-breath
@@ -1122,6 +1123,7 @@ https://youtu.be/0nz0iaNvVpE?si=QlyDg2HzW6y-vd3D
 https://youtu.be/1FSnAMe5WXE?si=HHHgCe5gC07tekyG
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 https://youtu.be/37eEUsd1ASA?si=qa9dDzt9aazq61xA
+https://youtu.be/3Br100WHC_U?si=Gpn1f27fFIgcz9dJ
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/3Y81L_CUV3M?si=2tcWHXwdtVJgECnt
 https://youtu.be/4s9u-wqtyls?si=JNqgp22eCiIY7zR_
@@ -1153,8 +1155,10 @@ https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
 https://youtu.be/K-UWjKec43k?si=nzy71HxoMuR4qFH6
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
+https://youtu.be/KTOeQpcYVFw?si=GU5teiAVVWtuB--r
 https://youtu.be/KqkASxt6hG0?si=U7iFfkxTvR5TYWcG
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
+https://youtu.be/MYRR77DWofc?si=aIS4JIs5CQDE6DyH
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
@@ -1220,6 +1224,7 @@ https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
 https://youtu.be/qeAG4aoEjcw?si=HbhmESPEpkf_zfTv
 https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
+https://youtu.be/roCUxbSkYJk?si=dI607hQi_A0jTAu-
 https://youtu.be/rxaTAFXgykU?si=DwY0vSabMnZhWf2K
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/u82QLdkhKdo?si=8JZrpNwlQJrOpwmp

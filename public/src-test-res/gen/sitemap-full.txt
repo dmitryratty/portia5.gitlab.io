@@ -48,6 +48,7 @@
 [3] /diary/mug-of-blood[.html]
 [3] /diary/nature-versus-nurture[.html]
 [3] /diary/pigeons-as-food[.html]
+[3] /diary/public-start[.html]
 [3] /diary/scream-and-dance[.html]
 [3] /diary/smell-of-fist[.html]
 [3] /diary/stinksy-breath[.html]
