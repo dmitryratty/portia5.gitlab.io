@@ -1,5 +1,0 @@
-Why, why, why, why, why?
-- https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
-- https://docs.netlify.com/routing/redirects/rewrites-proxies/
-- https://docs.gitlab.com/ee/user/project/pages/redirects.html
-- https://docs.gitlab.com/ee/user/project/pages/introduction.html#resolving-ambiguous-urls

@@ -206,6 +206,7 @@ https://en.wikipedia.org/wiki/Portal:Current_events
 https://en.wikipedia.org/wiki/Precommitment
 https://en.wikipedia.org/wiki/Prisoner's_dilemma
 https://en.wikipedia.org/wiki/Problem_of_induction
+https://en.wikipedia.org/wiki/Proprioception
 https://en.wikipedia.org/wiki/Recurrent_laryngeal_nerve
 https://en.wikipedia.org/wiki/Regression_toward_the_mean
 https://en.wikipedia.org/wiki/Rule_of_least_power
@@ -453,6 +454,7 @@ https://portia5.gitlab.io/diary/heat-and-apricots
 https://portia5.gitlab.io/diary/hitting-not
 https://portia5.gitlab.io/diary/holiday-is-coming
 https://portia5.gitlab.io/diary/is-his-pants-clean
+https://portia5.gitlab.io/diary/language-of-machines
 https://portia5.gitlab.io/diary/left-and-right
 https://portia5.gitlab.io/diary/like-vodka
 https://portia5.gitlab.io/diary/mind-your-words
@@ -516,7 +518,6 @@ https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/routine
 https://portia5.gitlab.io/technology
 https://portia5.gitlab.io/technology-chaos
-https://portia5.gitlab.io/technology/gitlab
 https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network
 https://portia5.gitlab.io/technology/puzzles
@@ -1172,6 +1173,7 @@ https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
+https://youtu.be/Q8yUlKyYkaU?si=SdLW5f9nzfzx9Evt
 https://youtu.be/RGrAFUFOcAY?si=BbE4XsN85XU0A_nD
 https://youtu.be/R_uS0aT0bG8?si=7tLLI05ROYa-yA0m
 https://youtu.be/RjS5FYpLC9U?si=AyXQxtw-iw6x2X3L

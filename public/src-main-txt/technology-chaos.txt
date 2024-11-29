@@ -1,3 +1,6 @@
+Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
+- https://en.wikipedia.org/wiki/Intel_Management_Engine
+
 Computer Things: https://www.hillelwayne.com
 
 Defold is an open-source engine that uses the Lua programming language as its scripting language. </> Godot is an open-source engine suitable for both 2D and 3D games. </> Cocos Creator is both an efficient, lightweight, free and open source cross-platform 2D and 3D graphics engine and a real-time interactive 2D and 3D digital content creation platform.

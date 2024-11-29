@@ -31,6 +31,7 @@ https://portia5.gitlab.io/diary/heat-and-apricots
 https://portia5.gitlab.io/diary/hitting-not
 https://portia5.gitlab.io/diary/holiday-is-coming
 https://portia5.gitlab.io/diary/is-his-pants-clean
+https://portia5.gitlab.io/diary/language-of-machines
 https://portia5.gitlab.io/diary/left-and-right
 https://portia5.gitlab.io/diary/like-vodka
 https://portia5.gitlab.io/diary/mind-your-words
@@ -80,7 +81,6 @@ https://portia5.gitlab.io/other/languages
 https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/routine
 https://portia5.gitlab.io/technology-chaos
-https://portia5.gitlab.io/technology/gitlab
 https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network
 https://portia5.gitlab.io/technology/puzzles
