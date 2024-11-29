@@ -221,6 +221,7 @@ https://en.wikipedia.org/wiki/Starvation
 https://en.wikipedia.org/wiki/Terry_Bisson
 https://en.wikipedia.org/wiki/Tetraethyllead
 https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Rainbow
+https://en.wikipedia.org/wiki/The_Library_of_Babel
 https://en.wikipedia.org/wiki/The_Market_for_Lemons
 https://en.wikipedia.org/wiki/The_Ones_Who_Walk_Away_from_Omelas
 https://en.wikipedia.org/wiki/Three_Kingdoms
@@ -298,6 +299,7 @@ https://journal.tinkoff.ru/news/kirgizia-entry-rules/
 https://journal.tinkoff.ru/travel-diary-kyrgyzstan/
 https://katerinabogus.com
 https://katerinabogus.com/page31159801.html
+https://keeper.ai
 https://khanacademy.org/profile/dmitryratty
 https://killedbygoogle.com
 https://knife.media/tired/
@@ -438,6 +440,7 @@ https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary
 https://portia5.gitlab.io/diary-chaos
+https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
 https://portia5.gitlab.io/diary/caught-masturbating
 https://portia5.gitlab.io/diary/death-of-grandfather
@@ -447,10 +450,12 @@ https://portia5.gitlab.io/diary/dotted-dotless
 https://portia5.gitlab.io/diary/first-experience
 https://portia5.gitlab.io/diary/first-grade
 https://portia5.gitlab.io/diary/heat-and-apricots
+https://portia5.gitlab.io/diary/hitting-not
 https://portia5.gitlab.io/diary/holiday-is-coming
 https://portia5.gitlab.io/diary/is-his-pants-clean
 https://portia5.gitlab.io/diary/left-and-right
 https://portia5.gitlab.io/diary/like-vodka
+https://portia5.gitlab.io/diary/mind-your-words
 https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/nature-versus-nurture
 https://portia5.gitlab.io/diary/pigeons-as-food
@@ -496,6 +501,7 @@ https://portia5.gitlab.io/life/srinivasa-ramanujan
 https://portia5.gitlab.io/location
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
+https://portia5.gitlab.io/mathematics/kindergarten
 https://portia5.gitlab.io/music
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/news
@@ -507,11 +513,11 @@ https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
 https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
+https://portia5.gitlab.io/routine
 https://portia5.gitlab.io/technology
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/gitlab
 https://portia5.gitlab.io/technology/hardware
-https://portia5.gitlab.io/technology/kindergarten-math
 https://portia5.gitlab.io/technology/neural-network
 https://portia5.gitlab.io/technology/puzzles
 https://portia5.gitlab.io/technology/software
@@ -994,6 +1000,7 @@ https://www.davidchauvin.fr/galerie/
 https://www.fiatmarketcap.com
 https://www.figma.com/blog/line-height-changes/
 https://www.forbes.ru/forbeslife/521029-bolen-den-gami-kak-svazany-finansy-i-psihologiceskoe-zdorov-e
+https://www.hillelwayne.com
 https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
 https://www.inpearls.ru/2006987
 https://www.inpearls.ru/477869
@@ -1019,11 +1026,13 @@ https://www.numberempire.com/primenumbers.php
 https://www.ozon.ru/product/fenotropil-tabletki-100-mg-30-sht-672864398
 https://www.pixiv.net/en/users/25915682
 https://www.psypost.org/children-deny-that-god-can-change-fundamental-moral-principles-study-finds
+https://www.quora.com/Why-is-it-that-lately-when-I-look-someone-in-the-eyes-my-head-starts-to-shake-to-avoid-the-look-It-feels-like-a-dry-fear
 https://www.r-studio.com/ru/free-linux-recovery/
 https://www.readthesequences.com
 https://www.readthesequences.com/The-Virtue-Of-Narrowness
 https://www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think
 https://www.reddit.com/r/dataisbeautiful/comments/wlxx9j/oc_for_each_war_the_percentage_of_the_world
+https://www.reddit.com/r/socialanxiety/comments/xqpqz/eye_contact_head_shakingneck_twitch_any_tips_or/
 https://www.redgifs.com/watch/gorgeousfrightenedcarpenterant
 https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
 https://www.rmg.co.uk/whats-on/astronomy-photographer-year/galleries/overall-winners-2024
@@ -1126,6 +1135,7 @@ https://youtu.be/37eEUsd1ASA?si=qa9dDzt9aazq61xA
 https://youtu.be/3Br100WHC_U?si=Gpn1f27fFIgcz9dJ
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/3Y81L_CUV3M?si=2tcWHXwdtVJgECnt
+https://youtu.be/3pLusGRkYrg?si=Ck-nAUqUwNvqIi12
 https://youtu.be/4s9u-wqtyls?si=JNqgp22eCiIY7zR_
 https://youtu.be/56W5d4VeUTk?si=Eix9Uzau9AQIZzPb
 https://youtu.be/5UXxqnF-WkM?si=ScaufcEpX9tqFza2
@@ -1135,6 +1145,7 @@ https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/8JXiXt0D6tw?si=q9qT7o-fT6gVzKr8
 https://youtu.be/9yRRV8HfG68?si=5KdeLIHS6fCypZnF
+https://youtu.be/AAOuSq59Xpw?si=j_mxMGA0l2jTgCp2
 https://youtu.be/AMla4-Gsxuc?si=un0zVPOqkLlabROp
 https://youtu.be/AcQPMvYw2yQ?si=zKoUGVk2KQWIdXvn
 https://youtu.be/AgQjHe0PCho?si=DXDprP1N8aVcSTk-
@@ -1158,7 +1169,6 @@ https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
 https://youtu.be/KTOeQpcYVFw?si=GU5teiAVVWtuB--r
 https://youtu.be/KqkASxt6hG0?si=U7iFfkxTvR5TYWcG
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
-https://youtu.be/MYRR77DWofc?si=aIS4JIs5CQDE6DyH
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
@@ -1213,7 +1223,9 @@ https://youtu.be/m0P2Y--Gwo0?si=PY4BFXwBne3go3MI
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
 https://youtu.be/n-x4ttQioNw?si=ify1VxBp-zXgqz_t
+https://youtu.be/nQgjQX2dl0E?si=oi5_KybkTd8kAjbN
 https://youtu.be/nSA3h6PoPrE?si=7oSVAZnnEHN1jjm9
+https://youtu.be/nf-d420x_XA?si=ILTIEaOhq3Z2Snjj
 https://youtu.be/oGfVHdvLApI?si=I-F8hrte8QEIiVUV
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/oq-SDnabu0o?si=936Dml0ra5d9VLGJ

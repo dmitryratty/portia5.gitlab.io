@@ -18,6 +18,7 @@ https://portia5.gitlab.io/chaos/web
 https://portia5.gitlab.io/chaos/wikipedia
 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/diary-chaos
+https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
 https://portia5.gitlab.io/diary/caught-masturbating
 https://portia5.gitlab.io/diary/death-of-grandfather
@@ -27,10 +28,12 @@ https://portia5.gitlab.io/diary/dotted-dotless
 https://portia5.gitlab.io/diary/first-experience
 https://portia5.gitlab.io/diary/first-grade
 https://portia5.gitlab.io/diary/heat-and-apricots
+https://portia5.gitlab.io/diary/hitting-not
 https://portia5.gitlab.io/diary/holiday-is-coming
 https://portia5.gitlab.io/diary/is-his-pants-clean
 https://portia5.gitlab.io/diary/left-and-right
 https://portia5.gitlab.io/diary/like-vodka
+https://portia5.gitlab.io/diary/mind-your-words
 https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/nature-versus-nurture
 https://portia5.gitlab.io/diary/pigeons-as-food
@@ -75,6 +78,7 @@ https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
 https://portia5.gitlab.io/other/transparent-society
+https://portia5.gitlab.io/routine
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/gitlab
 https://portia5.gitlab.io/technology/hardware

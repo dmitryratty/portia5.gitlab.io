@@ -123,8 +123,6 @@ André Maurois: Рождение знаменитости, Thanatos Palace Hotel
 
 Эндрю Таненбаум: "Современные операционные системы".
 
-"Pro Git" by "Scott Chacon, Ben Straub".
-
 "The Java Tutorial: A Short Course on the Basics 6th Edition" by Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour.
 - https://docs.oracle.com/javase/tutorial/
 - https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
