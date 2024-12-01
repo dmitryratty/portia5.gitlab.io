@@ -2,9 +2,9 @@
 
 << * * * >>
 
-Знакомые последовательности букв: Kotlin, Git, Ubuntu, Android, Fediverse, Matrix, Java, C, C++, SQLite, OpenGL, HTML, CSS, Lua, NixOS, reverse engineering, assembly language, machine code, IDA Pro, regression toward the mean, IPFS.
+Знакомые последовательности букв: Kotlin, Git, Ubuntu, Android, Fediverse, Matrix, Java, C, C++, SQLite, OpenGL, HTML, CSS, Lua, NixOS, reverse engineering, assembly language, machine code, Ghidra, IDA Pro, regression toward the mean, IPFS, blockchain.
 
-Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems". </> Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition".
+Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems". </> Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition". Nakamoto, Satoshi, Bitcoin: A Peer-to-Peer Electronic Cash System (August 21, 2008). Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019).
 
 #include link /mathematics/kindergarten
 

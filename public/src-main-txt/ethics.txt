@@ -49,3 +49,7 @@ https://ru.wikipedia.org/wiki/Массовое_убийство_в_станиц�
 * * *
 
 #include link /life/demon-core
+
+* * *
+
+#include /diary/canister-of-gasoline

@@ -62,6 +62,10 @@
 
 * * *
 
+#include /diary/canister-of-gasoline
+
+* * *
+
 #include /diary/sweet-school-time
 
 * * *
