@@ -1,50 +1,39 @@
-⚙️ Technology. Программирую больше 10 лет. Опыт человека-оркестра в проекте с нуля до миллиона ежедневных пользователей. Учу детскую математику. By the way I use Linux.
+⚙️ Technology. Программирую больше 10 лет. Опыт человека-оркестра в проекте с нуля до миллиона ежедневных пользователей. Учу детскую математику. By the way, I use Linux.
 
 << * * * >>
 
-Больше всего я писал на Java, нормально понимаю C, сейчас играю с Kotlin, иногда что-то делаю на C++, пару раз делал reverse engineering с ассемблерами и машинным кодом. Основной опыт - Android приложения. Git, SQLite, OpenGL, HTML, CSS, Lua... Однажды я перейду с Ubuntu на NixOS, начну использовать Fediverse, Matrix и другое хорошее.
+Знакомые последовательности букв: Kotlin, Git, Ubuntu, Android, Fediverse, Matrix, Java, C, C++, SQLite, OpenGL, HTML, CSS, Lua, NixOS, reverse engineering, assembly language, machine code, IDA Pro, regression toward the mean, IPFS.
 
 Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems". </> Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition".
 
 #include link /mathematics/kindergarten
 
-* * *
+Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день. </> При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. </> При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала. </> Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
 
-#include /diary/language-of-machines
+Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
 
-* * *
-
-#include /diary/dotted-dotless
-
-* * *
-
-#include /diary/work-unconsciousness
-
-* * *
-
-Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день. </> При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. </> При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
-
-Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
-
-* * *
-
-Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях - тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
-
-* * *
-
-https://news.ycombinator.com https://opennet.ru
-
-* * *
-
-Why, why, why, why, why?
-
+2024-12-01. Мне не нравится "/" в конце URL в случае directory.
 - https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
 - https://docs.netlify.com/routing/redirects/rewrites-proxies/
 - https://docs.gitlab.com/ee/user/project/pages/redirects.html
 - https://docs.gitlab.com/ee/user/project/pages/introduction.html#resolving-ambiguous-urls
 
-Если поставить Bitwarden из Flatpak то когда редактируешь запись и нажимаешь кнопку "Сохранить", будет отображаться старая запись до редактирования пока не переключишься на какую-то другую запись, а затем вернёшься к отредактированной или ещё каким-то образом "перезагрузишь" отредактированную запись.
+2024-12-01. Ставим официальную версию Bitwarden из Flatpak, редактируем запись и нажимаем кнопку "Сохранить". Видим, что отображается старая запись какой она была до редактирования. Если переключиться на какую-то другую запись, а затем обратно на отредактированную, то увидим отредактированную запись корректно, с внесёнными изменениями.
+
+2024-12-01. Мне не нравится, что если я ставлю бету "Brave" на Android то к названию приложения добавляется слово "Beta", короткие названия красивее.
+
+Beware. https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish https://killedbygoogle.com https://gcemetery.co https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms https://locusmag.com/2024/07/cory-doctorow-unpersoned/ #Trickery #Moloch
+
+Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" at "Nov 23, 2013". Is punishment or reward more effective as feedback? Do new medical treatments really work? What about streaks in sport? Without considering regression to the mean, we are prone to making significant errors. </> Is punishment or reward more effective for helping people learn. A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This fining has been verified not just with humans, but also with other species. </> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
+- https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+
+IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> During the block of Wikipedia in Turkey, IPFS was used to create a mirror of Wikipedia, which allowed access to archived static Wikipedia content despite the ban. The mirror has now been expanded to more languages, such as English, Ukrainian, Russian, Arabic, and Chinese. A collection of the mirrors can be viewed by using its CID at an IPFS Gateway. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
+- https://en.wikipedia.org/wiki/InterPlanetary_File_System
 
 * * *
 
-#Trickery #Moloch https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish https://killedbygoogle.com https://gcemetery.co https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms https://locusmag.com/2024/07/cory-doctorow-unpersoned/
+2011. Изучил основы программирования потому, что мне не нравился стандартный интерфейс World of Warcraft и я написал свой. Позже мне стали скучны некоторые игровые механики и я написал пару ботов, автоматизирующих эту рутину.
+
+* * *
+
+#include /diary/dotted-dotless

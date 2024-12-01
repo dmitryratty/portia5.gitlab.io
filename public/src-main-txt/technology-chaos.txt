@@ -1,7 +1,11 @@
-Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
-- https://en.wikipedia.org/wiki/Intel_Management_Engine
+Inspiration.
+- https://news.ycombinator.com
+- https://opennet.ru
 
 Computer Things: https://www.hillelwayne.com
+
+Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
+- https://en.wikipedia.org/wiki/Intel_Management_Engine
 
 Defold is an open-source engine that uses the Lua programming language as its scripting language. </> Godot is an open-source engine suitable for both 2D and 3D games. </> Cocos Creator is both an efficient, lightweight, free and open source cross-platform 2D and 3D graphics engine and a real-time interactive 2D and 3D digital content creation platform.
 - https://developer.android.com/games/engines/engines-overview
@@ -18,8 +22,6 @@ https://habr.com/ru/articles/785186/
 https://habr.com/ru/articles/791724/
 https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
 https://github.com/ValdikSS/GoodbyeDPI
-
-Мне не нравится, что если я ставлю бету "Brave" то к названию приложения добавляется слово "Beta", короткие названия красивее. В этом плане хорошо сделано у "Сбер", название приложения не меняется если ставишь бету.
 
 https://pikabu.ru/story/kogda_obmanuli_vo_vsem_izuchaem_feykovyiy_planshet_kotoryim_zabityi_marketpleysyi_11885254
 
@@ -42,7 +44,7 @@ RegExr is a HTML/JS based tool for creating, testing, and learning about Regular
 
 https://en.wikipedia.org/wiki/Rule_of_least_power
 
-Apple curl security incident
+Apple curl security incident.
 https://daniel.haxx.se/blog/2024/03/08/the-apple-curl-security-incident-12604/
 https://github.com/curl/curl/issues/12604
 Comments: https://readhacker.news/c/63MEC
@@ -64,30 +66,6 @@ https://puzzles.mit.edu/2013/coinheist.com/rubik/a_regular_crossword/grid.pdf ht
 
 Intel Management Engine vulnerablity.
 - https://mjg59.dreamwidth.org/48429.html
-
-* * *
-
-https://en.wikipedia.org/wiki/Regression_toward_the_mean
-
-"How We're Fooled By Statistics" by "Veritasium" at "Nov 23, 2013".
-
-Is punishment or reward more effective as feedback? Do new medical treatments really work? What about streaks in sport? Without considering regression to the mean, we are prone to making significant errors. </> Is punishment or reward more effective for helping people learn. A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This fining has been verified not just with humans, but also with other species. </> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
-
-https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
-
-* * *
-
-https://en.wikipedia.org/wiki/InterPlanetary_File_System
-
-In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS.
-
-The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient.
-
-During the block of Wikipedia in Turkey, IPFS was used to create a mirror of Wikipedia, which allowed access to archived static Wikipedia content despite the ban. The mirror has now been expanded to more languages, such as English, Ukrainian, Russian, Arabic, and Chinese. A collection of the mirrors can be viewed by using its CID at an IPFS Gateway.
-
-Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser.
-
-Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
 
 * * *
 

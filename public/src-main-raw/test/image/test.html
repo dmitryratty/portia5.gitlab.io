@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Grid</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          background-color: #f4f4f4;
+        }
+
+        .photo-grid {
+          display: grid;
+          gap: 10px;
+          grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+          width: 90%;
+          max-width: 1200px;
+        }
+
+        .photo-grid img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="photo-grid">
+    <img src="https://via.placeholder.com/300" alt="Photo 1">
+    <img src="https://via.placeholder.com/300" alt="Photo 2">
+    <img src="https://via.placeholder.com/300" alt="Photo 3">
+    <img src="https://via.placeholder.com/300" alt="Photo 4">
+    <img src="https://via.placeholder.com/300" alt="Photo 5">
+    <img src="https://via.placeholder.com/300" alt="Photo 6">
+</div>
+</body>
+</html>
