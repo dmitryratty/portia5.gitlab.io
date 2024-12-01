@@ -4,6 +4,9 @@ Inspiration.
 
 Computer Things: https://www.hillelwayne.com
 
+Binwalk can identify, and optionally extract, files and data that have been embedded inside of other files. While its primary focus is firmware analysis, it supports a wide variety of file and data types. Through entropy analysis, it can even help to identify unknown compression or encryption!
+- https://github.com/ReFirmLabs/binwalk
+
 Intel Management Engine, AMD Secure Technology. "Zammit stresses that the ME has full access to memory, without the owner-controlled CPU cores having any knowledge, and has full access to the TCP/IP stack and can send and receive network packets independently of the operating system, thus bypassing its firewall".
 - https://en.wikipedia.org/wiki/Intel_Management_Engine
 
