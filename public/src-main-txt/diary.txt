@@ -127,3 +127,7 @@
 * * *
 
 #include /diary/blood-filled-mouth
+
+* * *
+
+#include /diary/press-the-gazelle

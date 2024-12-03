@@ -345,6 +345,7 @@ https://mods.factorio.com/mod/Companion_Drones-flux
 https://mods.factorio.com/mod/Dectorio
 https://mods.factorio.com/mod/DoRobotsBuildAutomaticTrains
 https://mods.factorio.com/mod/MouseOverConstruction
+https://mods.factorio.com/mod/SmoothWarnings/discussion/6722515a1729ac0ea41397ca
 https://mods.factorio.com/mod/companion-drones-limit
 https://mods.factorio.com/mod/companion-drones-rebalanced
 https://mods.factorio.com/mod/companions-use-k2-vehicle-fuel
@@ -463,6 +464,7 @@ https://portia5.gitlab.io/diary/mind-your-words
 https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/nature-versus-nurture
 https://portia5.gitlab.io/diary/pigeons-as-food
+https://portia5.gitlab.io/diary/press-the-gazelle
 https://portia5.gitlab.io/diary/public-start
 https://portia5.gitlab.io/diary/scream-and-dance
 https://portia5.gitlab.io/diary/smell-of-fist
@@ -554,6 +556,7 @@ https://portia5.gitlab.io/todo/read
 https://portia5.gitlab.io/todo/read-done
 https://portia5.gitlab.io/vidya
 https://portia5.gitlab.io/vidya-chaos
+https://portia5.gitlab.io/vidya/addiction
 https://portia5.gitlab.io/vidya/factorio
 https://portia5.gitlab.io/vidya/other
 https://portia5.gitlab.io/wealth
@@ -1155,6 +1158,7 @@ https://youtu.be/AMla4-Gsxuc?si=un0zVPOqkLlabROp
 https://youtu.be/AcQPMvYw2yQ?si=zKoUGVk2KQWIdXvn
 https://youtu.be/AgQjHe0PCho?si=DXDprP1N8aVcSTk-
 https://youtu.be/Ahaey-1g9oM?si=GYCvCJT1zVNsJOrE
+https://youtu.be/BmUZ2wp1lM8?si=3NP-mYcoeNoUsQga
 https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
 https://youtu.be/BwWzSyxNc9I?si=bm4f7D8ZRx6ja_gV
 https://youtu.be/C1fMOPfHDJ0?si=IFphvcE9iB1kaGpq
@@ -1162,6 +1166,7 @@ https://youtu.be/C2Yx90pytqs?si=MqiSAW98m3L2AZub
 https://youtu.be/CEF_AueCTpo?si=bb8iq56mgmcND44F
 https://youtu.be/CFVT5fOlFFc?si=fhYRknCmbkn1lFim
 https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
+https://youtu.be/Ed1gsyxxwM0?si=BJL2UGOBJdhOx63q
 https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/FDjeRloNgx0?si=eXBoHefnQZApfcII
 https://youtu.be/FVpG-RtZFE0?si=v3rVs6BLXzUTQHee
@@ -1175,6 +1180,7 @@ https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
 https://youtu.be/KTOeQpcYVFw?si=GU5teiAVVWtuB--r
 https://youtu.be/KqkASxt6hG0?si=U7iFfkxTvR5TYWcG
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
+https://youtu.be/MXBCMgq7_xY?si=51Yd6sYtephXdVAU
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
