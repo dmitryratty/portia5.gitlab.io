@@ -20,6 +20,7 @@
 [3] /biology-chaos[.html]
 [3] /biology/haloperidol-chatgpt-4o[.html]
 [3] /biology/human[.html]
+[3] /biology/liver-chatgpt-4o[.html]
 [3] /biology/psychology[.html]
 [3] /chaos[.html]
 [3] /chaos-chaos[.html]

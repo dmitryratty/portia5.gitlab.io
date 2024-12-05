@@ -89,6 +89,7 @@ https://docs.gradle.org/current/userguide/migrating_from_groovy_to_kotlin_dsl.ht
 https://docs.netlify.com/routing/redirects/rewrites-proxies/
 https://docs.oracle.com/javase/tutorial/
 https://doi.org/10.1007/978-1-4612-3950-5_7
+https://doi.org/10.1007/s00127-013-0783-y
 https://doi.org/10.1038/s41586-019-1724-z
 https://doi.org/10.1073/pnas.1601135113
 https://doi.org/10.1093/brain/awt364
@@ -431,6 +432,7 @@ https://portia5.gitlab.io/biology
 https://portia5.gitlab.io/biology-chaos
 https://portia5.gitlab.io/biology/haloperidol-chatgpt-4o
 https://portia5.gitlab.io/biology/human
+https://portia5.gitlab.io/biology/liver-chatgpt-4o
 https://portia5.gitlab.io/biology/psychology
 https://portia5.gitlab.io/chaos
 https://portia5.gitlab.io/chaos-chaos
@@ -1213,6 +1215,7 @@ https://youtu.be/aBcqQsL9dsU?si=vN25zfWJwXfvEerz
 https://youtu.be/aR-KAldshAE?si=bE__h6wUZXqKvf_q
 https://youtu.be/aYCuEONIIDM?si=kgkJBUE83EdPXlIT
 https://youtu.be/asr6_eNCuoU?si=x97cVDWULexvaGOc
+https://youtu.be/cHLMXlqZ3ls?si=IwrMDfXRghJa0tqI
 https://youtu.be/cNfFhtic__4?si=1Z9q0KAKaOBGpZZH
 https://youtu.be/ci2XPOvoE_M?si=vEwGYhf_3UCJu-7L
 https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
@@ -1233,6 +1236,7 @@ https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/jriKTbsxWyg?si=2UEDbvS2ySs43Qj5
 https://youtu.be/jyXvoBxPP8I?si=wiQcPg_rtmEnX71A
 https://youtu.be/l4GQ2fNxibs?si=nAr-lMG2bKd5VYfD
+https://youtu.be/lPVBrRd9wCo?si=86FieHH-X9kPBBbm
 https://youtu.be/lchZurZgsEM?si=uOzG4AL3Md9QIBHK
 https://youtu.be/m0P2Y--Gwo0?si=PY4BFXwBne3go3MI
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
