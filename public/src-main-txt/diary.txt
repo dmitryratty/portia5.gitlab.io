@@ -42,6 +42,10 @@
 
 * * *
 
+#include /diary/mowgli-assorted-pele
+
+* * *
+
 #include /diary/winter-sunny-day
 
 * * *

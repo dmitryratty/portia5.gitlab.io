@@ -40,6 +40,7 @@ fun rattyExec(workingDir: File, vararg command: String, enableQuotes: Boolean = 
     try {
         val proc = ProcessBuilder(*command)
             .directory(workingDir)
+            .redirectErrorStream(true)
             .redirectOutput(ProcessBuilder.Redirect.PIPE)
             .redirectError(ProcessBuilder.Redirect.PIPE)
             .start()
