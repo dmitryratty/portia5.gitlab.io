@@ -12,6 +12,8 @@
 
 Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
 
+Android. Lawnchair, launcher. Bitwarden, password manager. Brave, web browser. Amnezia, VPN. Amaze, file manager. Termux. Fossify Contacts. VLC, media player.
+
 2024-12-01. Мне не нравится "/" в конце URL в случае directory.
 - https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
 - https://docs.netlify.com/routing/redirects/rewrites-proxies/
