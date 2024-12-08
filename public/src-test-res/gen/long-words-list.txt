@@ -8,8 +8,16 @@
 "src:url(\"data:font/woff;charset=utf-8;base64,${font}\")format(\"woff\")"
 "Длинное&lt;wbr&gt;Длинное&lt;wbr&gt;Слово".
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
+'/usr/lib/x86_64-linux-gnu/libkColorPicker.so.0',
+(0.3.0-0+22.04+jammy+release+build1)
+(0.3.1-0xneon+22.04+jammy+release+build2)
 (https://lesswrong.ru/w/%D0%9F%D1%80%D0%B8%D1%82%D1%87%D0%B0_%D0%BE_%D0%B1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5)
 (https://lesswrong.ru/w/%D0%9F%D1%80%D0%B8%D1%82%D1%87%D0%B0_%D0%BE_%D0%B1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5):
+/home/unzen/.local/bin/adb
+/home/unzen/Droid/sdk/platform-tools/adb
+/var/cache/apt/archives/libkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+release+build2_amd64.deb
+0.3.0-0+22.04+jammy+release+build1
+0.3.1-0xneon+22.04+jammy+release+build2]
 1,20,crafting-speed,150*L,automation-science-pack,logistic-science-pack,175*L,chemical-science-pack,225*L,production-science-pack,300*L,space-science-pack,250*2^L,utility-science-pack,matter-tech-card,advanced-tech-card,singularity-tech-card,inventory-size,500*2^L,mining-speed,movement-speed,player-reach,5,1,7,5,20,0,0,2,10,1,1,3,5,10,3,1,4,5,15,2,1,3,1,4,5,5,3,1,6,7,20,3,1,3,1,4,1,6,5,5,3,1,8,9,25,4,1,3,1,4,1,6,1,8,5,5,5,1,10,11,30,4,1,12,1,8,1,10,1,13,10,5,5,1,10,11,30,5,1,12,1,8,1,10,1,13,1,14,0,5,5,1,10,11,30,6,1,12,1,8,1,10,1,13,1,14,1,15,16,7,2,5,0,0,2,10,1,1,3,2,5,1,1,4,5,15,2,1,3,1,4,4,5,1,1,6,7,20,3,1,3,1,4,1,6,4,5,2,1,12,9,25,4,1,3,1,4,1,6,1,12,4,5,4,1,10,17,30,4,1,12,1,8,1,10,1,13,8,5,4,1,10,17,30,5,1,12,1,8,1,10,1,13,1,14,0,5,4,1,10,17,30,6,1,12,1,8,1,10,1,13,1,14,1,15,18,7,5,30,0,0,2,10,1,1,3,5,20,3,1,4,5,15,2,1,3,1,4,5,10,3,1,6,7,20,3,1,3,1,4,1,6,5,10,3,1,8,9,25,4,1,3,1,4,1,6,1,8,5,10,5,1,10,11,30,4,1,12,1,8,1,10,1,13,10,10,5,1,10,11,30,5,1,12,1,8,1,10,1,13,1,14,0,10,5,1,10,11,30,6,1,12,1,8,1,10,1,13,1,14,1,15,19,7,4,5,0,0,2,10,1,1,3,4,5,2,1,4,5,15,2,1,3,1,4,4,5,2,1,6,7,20,3,1,3,1,4,1,6,4,5,2,1,12,9,25,4,1,3,1,4,1,6,1,12,4,5,4,1,10,11,30,4,1,12,1,8,1,10,1,13,10,5,4,1,10,11,30,5,1,12,1,8,1,10,1,13,1,14,0,5,4,1,10,11,30,6,1,12,1,8,1,10,1,13,1,14,1,15,20,7,3,1,0,0,2,10,1,1,3,3,1,2,1,4,5,15,2,1,3,1,4,3,1,2,1,6,7,20,3,1,3,1,4,1,6,3,1,2,1,8,9,25,4,1,3,1,4,1,6,1,8,3,1,3,1,10,11,30,4,1,12,1,8,1,10,1,13,3,1,3,1,10,11,30,5,1,12,1,8,1,10,1,13,1,14,3,1,3,1,10,11,30,6,1,12,1,8,1,10,1,13,1,14,1,15
 2017.09.16-05.33.24.origin.08_Shiva_Tandava_Stotram.file.mp3
 2017.09.16-05.38.43.origin.2014.05.06-23.59.04.origin.105_Jai_Mata_Kali_Jai_Mata_Durge.file.file.mp3
@@ -27,7 +35,9 @@ The_Prodigy_&amp;_Mikhail_Krug_&amp;_Kavinsky.mp3
 [описываются](/w/Ошибка_обобщения_на_основе_вымышленного_свидетельства)
 denis_leary_traditional_irish_folk_song_(NaitiMP3.ru).mp3
 href="https://fonts.googleapis.com/css?family=Tinos|Noto+Serif"&gt;
+libkcolorpicker0/jammy,now
 projectDir.resolve("public/font.css").toFile().writeText(fontCss)
+~/.var/app/com.valvesoftware.Steam/
 °°°/｡｡｡/໒໒໒/₊₊₊/♡♡♡/⋆⋆⋆/‧‧‧/⸜⸜⸜/₊₊₊/˚˚˚
 Мертвые_дельфины_–_Котики_нарко.mp3
 Мы_хотим_танцевать_Краснознаменная_дивизия_имени_моей_бабушки.mp3

@@ -26,6 +26,7 @@ https://portia5.gitlab.io
         2 https://portia5.gitlab.io/wealth
     1 https://portia5.gitlab.io/technology
         2 https://portia5.gitlab.io/mathematics/kindergarten
+        2 https://portia5.gitlab.io/technology/ubuntu
     1 https://portia5.gitlab.io/vidya
         2 https://portia5.gitlab.io/vidya/addiction
         2 https://portia5.gitlab.io/vidya/factorio

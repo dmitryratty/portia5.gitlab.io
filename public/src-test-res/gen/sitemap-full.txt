@@ -116,6 +116,7 @@
 [3] /technology/neural-network[.html]
 [3] /technology/puzzles[.html]
 [3] /technology/software[.html]
+[3] /technology/ubuntu[.html]
 [3] /technology/unicode[.html]
 [3] /technology/web[.html]
 [3] /technology/web-fonts[.html]

@@ -38,7 +38,9 @@ https://arena.lmsys.org/
 https://arxiv.org/abs/2011.00412
 https://arxiv.org/abs/2209.11737
 https://arxiv.org/abs/2401.05566
+https://askubuntu.com/questions/195950/trying-to-overwrite-usr-bin-opencv-haartraining-which-is-also-in-package-lib/430443#430443
 https://askubuntu.com/questions/217606/undelete-files-on-ext4
+https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition
 https://atproto.com/guides/faq
 https://attwoodandgarnettevents.com/can-autism-be-confused-with-schizophrenia
 https://bastyon.com
@@ -529,6 +531,7 @@ https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network
 https://portia5.gitlab.io/technology/puzzles
 https://portia5.gitlab.io/technology/software
+https://portia5.gitlab.io/technology/ubuntu
 https://portia5.gitlab.io/technology/unicode
 https://portia5.gitlab.io/technology/web
 https://portia5.gitlab.io/technology/web-fonts
@@ -1170,6 +1173,7 @@ https://youtu.be/C2Yx90pytqs?si=MqiSAW98m3L2AZub
 https://youtu.be/CEF_AueCTpo?si=bb8iq56mgmcND44F
 https://youtu.be/CFVT5fOlFFc?si=fhYRknCmbkn1lFim
 https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
+https://youtu.be/DWpX4We62dg?si=lzl8XQ5G2VB50bjP
 https://youtu.be/Ed1gsyxxwM0?si=BJL2UGOBJdhOx63q
 https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/FDjeRloNgx0?si=eXBoHefnQZApfcII
