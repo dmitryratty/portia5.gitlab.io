@@ -2,259 +2,183 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="index, follow" name="robots">
-    <link href="/css/main.css" media="screen" rel="stylesheet">
-    <link href="/favicon.ico" rel="icon" sizes="32x32">
-    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
-    <link href="/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="/manifest.webmanifest" rel="manifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" media="screen" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
     <title>Well… "technology/ubuntu"!</title>
 </head>
-<body>
-<main>
-    <article>
-        <p>Ubuntu setup.</p>
+<body><main>
+<article>
+    <p>Ubuntu setup.</p>
 
-        <p class="dinkus">⁂ ⁂ ⁂</p>
+    <p class="dinkus">⁂ ⁂ ⁂</p>
 
-        <p>System Settings
-            <br>&gt; Power Management
-            <br>❞ Suspend Session — After a period of inactivity — Do nothing
-            <br>❞ Other Settings — Switch to power profile — Power Save
-            <br>&gt; Wallpaper — Plain Color — #3c0649
-            <br>&gt; Colors &amp; Theme — Breeze Twilight
-            <br>❞ Splash Screen — None
-            <br>❞ Login Screen (SDDM) — Breeze, last one, set wallpaper
-            <br>❞ Boot Splash Screen — Details
-            <br>&gt; Accessibility — Shake Cursor — Uncheck checkbox</p>
+    <p>System Settings
+        <br>&gt; Power Management
+        <br>❞ Suspend Session — After a period of inactivity — Do nothing
+        <br>❞ Other Settings — Switch to power profile — Power Save
+        <br>&gt; Wallpaper — Plain Color — #3c0649
+        <br>&gt; Colors &amp; Theme — Breeze Twilight
+        <br>❞ Splash Screen — None
+        <br>❞ Login Screen (SDDM) — Breeze, last one, set wallpaper
+        <br>❞ Boot Splash Screen — Details
+        <br>&gt; Accessibility — Shake Cursor — Uncheck checkbox</p>
 
-        <p>Time format: <span class="nowrap">yyyy-MM-dd,</span> dddd, hh:mm</p>
+    <p>Time format: <span class="nowrap">yyyy-MM-dd,</span> dddd, hh:mm</p>
 
-        <p>Keyboard: <span class="nowrap">im-config</span> in terminal, disable Fcitx 5, setup
-            layouts and switch key via System Settings.</p>
+    <p>Keyboard: <span class="nowrap">im-config</span> in terminal, disable Fcitx 5, setup layouts and switch key via System Settings.</p>
 
-        <p>Disable Bluetooth.</p>
+    <p>Disable Bluetooth.</p>
 
-        <p>Discover, install updates.</p>
+    <p>Discover, install updates.</p>
 
-        <p>Configure <span class="nowrap">Icons-and-Text</span> Task Manager…</p>
+    <p>Configure <span class="nowrap">Icons-and-Text</span> Task Manager…</p>
 
-        <p>echo snap ❞ ~/.hidden</p>
+    <p>echo snap ❞ ~/.hidden</p>
 
-        <p>Install Flatpak. Inside Discover install plugin integration and add the Flathub
-            repository.</p>
+    <p>Install Flatpak. Inside Discover install plugin integration and add the Flathub repository.</p>
 
-        <p>Install Brave, Bitwarden, Amnezia, Telegram, Thunderbird, GIMP.</p>
+    <p>Install Brave, Bitwarden, Amnezia, Telegram, Thunderbird, GIMP.</p>
 
-        <p>git config <span class="nowrap">--global</span> user.email "dmitryratty@gmail.com" &amp;&amp;
-            git config <span class="nowrap">--global</span> user.name "Portia"
-            <br>git config <span class="nowrap">--global</span> init.defaultBranch main</p>
+    <p>git config <span class="nowrap">--global</span> user.email "dmitryratty@gmail.com" &amp;&amp; git config <span class="nowrap">--global</span> user.name "Portia"
+        <br>git config <span class="nowrap">--global</span> init.defaultBranch main</p>
 
-        <p>Java: sudo apt install <span class="nowrap">default-jre</span></p>
+    <p>Java: sudo apt install <span class="nowrap">default-jre</span></p>
 
-        <p>sudo apt install imagemagick</p>
+    <p>sudo apt install imagemagick</p>
 
-        <p>Make ADB from Android SDK installation available for global usage.
-            <br>mkdir /home/unzen/.local/bin
-            <br>ln <span class="nowrap">-s</span> /home/unzen/Droid/sdk/pla
-            <wbr>
-            tform-tools/adb /home/unzen/.local/bin/ad
-            <wbr>
-            b
-        </p>
+    <p>Make ADB from Android SDK installation available for global usage.
+        <br>mkdir /home/unzen/.local/bin
+        <br>ln <span class="nowrap">-s</span> /home/unzen/Droid/sdk/pla<wbr>tform-tools/adb /home/unzen/.local/bin/ad<wbr>b</p>
 
-        <p>Если Steam из Flatpak, то его файлы тут: ~/.var/app/com.valvesoftw
-            <wbr>
-            are.Steam/
-        </p>
+    <p>Если Steam из Flatpak, то его файлы тут: ~/.var/app/com.valvesoftw<wbr>are.Steam/</p>
 
-        <p>Thunderbird — всегда показывать скроллбары.</p>
+    <p>Thunderbird — всегда показывать скроллбары.</p>
 
-        <p class="dinkus">* * *</p>
+    <p class="dinkus">* * *</p>
 
-        <p>Reinstall GRUB.
-            <br>— <a
-                    href="https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition">https:
-                <wbr>
-                //
-                <wbr>
-                askubuntu
-                <wbr>
-                .com
-                <wbr>
-                /questions
-                <wbr>
-                /831216
-                <wbr>
-                /how
-                <wbr>
-                -can
-                <wbr>
-                -i
-                <wbr>
-                -reinstall
-                <wbr>
-                -grub
-                <wbr>
-                -to
-                <wbr>
-                -the
-                <wbr>
-                -efi
-                <wbr>
-                -partition</a></p>
+    <p>Reinstall GRUB.
+        <br>— <a href="https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition">https:<wbr>//<wbr>askubuntu<wbr>.com<wbr>/questions<wbr>/831216<wbr>/how<wbr>-can<wbr>-i<wbr>-reinstall<wbr>-grub<wbr>-to<wbr>-the<wbr>-efi<wbr>-partition</a></p>
 
-        <p>sudo mount /dev/nvme0n1p6 /mnt
-            <br>sudo mount /dev/nvme0n1p2 /mnt/boot/efi</p>
+    <p>sudo mount /dev/nvme0n1p6 /mnt
+        <br>sudo mount /dev/nvme0n1p2 /mnt/boot/efi</p>
 
-        <p>for i in /dev /dev/pts /proc /sys /run; do sudo mount <span class="nowrap">-B</span> $i
-            /mnt$i; done</p>
+    <p>for i in /dev /dev/pts /proc /sys /run; do sudo mount <span class="nowrap">-B</span> $i /mnt$i; done</p>
 
-        <p>sudo chroot /mnt</p>
+    <p>sudo chroot /mnt</p>
 
-        <p><span class="nowrap">grub-install</span> /dev/nvme0n1
-            <br><span class="nowrap">update-grub</span>
-            <br>exit</p>
+    <p><span class="nowrap">grub-install</span> /dev/nvme0n1
+        <br><span class="nowrap">update-grub</span>
+        <br>exit</p>
 
-        <p class="dinkus">* * *</p>
+    <p class="dinkus">* * *</p>
 
-        <p>Случай исправления конфликта пакетов при обновлении.</p>
+    <p>Случай исправления конфликта пакетов при обновлении.</p>
 
-        <p>sudo apt install <span class="nowrap">-f</span>
-            <br>&nbsp;— Fix broken dependencies</p>
+    <p>sudo apt install <span class="nowrap">-f</span>
+        <br>&nbsp;— Fix broken dependencies</p>
 
-        <p><span class="nowrap">apt-cache</span> rdepends packagename
-            <br>&nbsp;— Какие пакеты зависят от пакета "packagename"</p>
+    <p><span class="nowrap">apt-cache</span> rdepends packagename
+        <br>&nbsp;— Какие пакеты зависят от пакета "packagename"</p>
 
-        <p>sudo apt depends packagename
-            <br>&nbsp;— От каких пакетов зависит пакет "packagename"</p>
+    <p>sudo apt depends packagename
+        <br>&nbsp;— От каких пакетов зависит пакет "packagename"</p>
 
-        <p>sudo dpkg <span class="nowrap">-P</span> packagename
-            <br>&nbsp;— Удалить пакет "packagename"</p>
+    <p>sudo dpkg <span class="nowrap">-P</span> packagename
+        <br>&nbsp;— Удалить пакет "packagename"</p>
 
-        <p>
-            <a href="https://askubuntu.com/questions/195950/trying-to-overwrite-usr-bin-opencv-haartraining-which-is-also-in-package-lib/430443#430443">https:
-                <wbr>
-                //
-                <wbr>
-                askubuntu
-                <wbr>
-                .com
-                <wbr>
-                /questions
-                <wbr>
-                /195950
-                <wbr>
-                /trying
-                <wbr>
-                -to
-                <wbr>
-                -overwrite
-                <wbr>
-                -usr
-                <wbr>
-                -bin
-                <wbr>
-                -opencv
-                <wbr>
-                -haartraining
-                <wbr>
-                -which
-                <wbr>
-                -is
-                <wbr>
-                -also
-                <wbr>
-                -in
-                <wbr>
-                -package
-                <wbr>
-                -lib
-                <wbr>
-                /430443
-                <wbr>
-                #430443</a></p>
+    <p><a href="https://askubuntu.com/questions/195950/trying-to-overwrite-usr-bin-opencv-haartraining-which-is-also-in-package-lib/430443#430443">https:<wbr>//<wbr>askubuntu<wbr>.com<wbr>/questions<wbr>/195950<wbr>/trying<wbr>-to<wbr>-overwrite<wbr>-usr<wbr>-bin<wbr>-opencv<wbr>-haartraining<wbr>-which<wbr>-is<wbr>-also<wbr>-in<wbr>-package<wbr>-lib<wbr>/430443<wbr>#430443</a></p>
 
-        <p>unzen@playnuc:~$ sudo apt install <span class="nowrap">-f</span>
-            <br>Unpacking libkcolorpicker-qt6-0:amd64 (0.3.1-0xneon+22.04+jammy+releas
-            <wbr>
-            e+build2) over (0.3.0-0+22.04+jammy+release+bui
-            <wbr>
-            ld1) …
-            <br>dpkg: error processing archive /var/cache/apt/archives/l
-            <wbr>
-            ibkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+releas
-            <wbr>
-            e+build2_amd64.deb <span class="nowrap">(--unpack):</span>
-            <br>&nbsp;trying to overwrite '/usr/lib/x86_64-linux-gnu/libkColorPicker.so.0'
-            <wbr>
-            , which is also in package libkcolorpicker0:amd64 <span class="nowrap">0.1.6-2</span>
-            <br>Errors were encountered while processing:
-            <br>&nbsp;/var/cache/apt/archives/l
-            <wbr>
-            ibkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+releas
-            <wbr>
-            e+build2_amd64.deb
-            <br>E: <span class="nowrap">Sub-process</span> /usr/bin/dpkg returned an error code (1)
-        </p>
+    <p>unzen@playnuc:~$ sudo apt install <span class="nowrap">-f</span>
+        <br>Unpacking libkcolorpicker-qt6-0:amd64 (0.3.1-0xneon+22.04+jammy+releas<wbr>e+build2) over (0.3.0-0+22.04+jammy+release+bui<wbr>ld1) …
+        <br>dpkg: error processing archive /var/cache/apt/archives/l<wbr>ibkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+releas<wbr>e+build2_amd64.deb <span class="nowrap">(--unpack):</span>
+        <br>&nbsp;trying to overwrite '/usr/lib/x86_64-linux-gnu/libkColorPicker.so.0'<wbr>, which is also in package libkcolorpicker0:amd64 <span class="nowrap">0.1.6-2</span>
+        <br>Errors were encountered while processing:
+        <br>&nbsp;/var/cache/apt/archives/l<wbr>ibkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+releas<wbr>e+build2_amd64.deb
+        <br>E: <span class="nowrap">Sub-process</span> /usr/bin/dpkg returned an error code (1)</p>
 
-        <p>unzen@playnuc:~$ apt list <span class="nowrap">--installed</span> *libkcolorpicker*
-            <br>Listing… Done
-            <br>libkcolorpicker-qt6-0/jammy,now 0.3.0-0+22.04+jammy+release+bui
-            <wbr>
-            ld1 amd64 [installed,upgradable to: 0.3.1-0xneon+22.04+jammy+releas
-            <wbr>
-            e+build2]
-            <br>libkcolorpicker0/jammy,no
-            <wbr>
-            w <span class="nowrap">0.1.6-2</span> amd64 [installed]
-        </p>
+    <p>unzen@playnuc:~$ apt list <span class="nowrap">--installed</span> *libkcolorpicker*
+        <br>Listing… Done
+        <br>libkcolorpicker-qt6-0/jammy,now 0.3.0-0+22.04+jammy+release+bui<wbr>ld1 amd64 [installed,upgradable to: 0.3.1-0xneon+22.04+jammy+releas<wbr>e+build2]
+        <br>libkcolorpicker0/jammy,no<wbr>w <span class="nowrap">0.1.6-2</span> amd64 [installed]</p>
 
-        <p>unzen@playnuc:~$ <span class="nowrap">apt-cache</span> rdepends <span class="nowrap">--installed</span>
-            libkcolorpicker0
-            <br>libkcolorpicker0
-            <br>Reverse Depends:</p>
+    <p>unzen@playnuc:~$ <span class="nowrap">apt-cache</span> rdepends <span class="nowrap">--installed</span> libkcolorpicker0
+        <br>libkcolorpicker0
+        <br>Reverse Depends:</p>
 
-        <p>unzen@playnuc:~$ <span class="nowrap">apt-cache</span> rdepends <span class="nowrap">--installed</span>
-            <span class="nowrap">libkcolorpicker-qt6-0</span>
-            <br><span class="nowrap">libkcolorpicker-qt6-0</span>
-            <br>Reverse Depends:
-            <br>&nbsp;&nbsp;<span class="nowrap">libkimageannotator-qt6-0</span>
-            <br>&nbsp;&nbsp;<span class="nowrap">libkimageannotator-qt6-0</span></p>
+    <p>unzen@playnuc:~$ <span class="nowrap">apt-cache</span> rdepends <span class="nowrap">--installed</span> <span class="nowrap">libkcolorpicker-qt6-0</span>
+        <br><span class="nowrap">libkcolorpicker-qt6-0</span>
+        <br>Reverse Depends:
+        <br>&nbsp;&nbsp;<span class="nowrap">libkimageannotator-qt6-0</span>
+        <br>&nbsp;&nbsp;<span class="nowrap">libkimageannotator-qt6-0</span></p>
 
-        <p>unzen@playnuc:~$ sudo apt depends <span class="nowrap">libkimageannotator-qt6-0</span>
-            <br>[sudo] password for unzen:
-            <br><span class="nowrap">libkimageannotator-qt6-0</span>
-            <br>&nbsp;&nbsp;Depends: libc6 (&gt;= 2.14)
-            <br>&nbsp;&nbsp;Depends: <span class="nowrap">libgcc-s1</span> (&gt;= 3.3.1)
-            <br>&nbsp;&nbsp;Depends: <span class="nowrap">libkcolorpicker-qt6-0</span> (&gt;= 0.3.1)
-            <br>&nbsp;&nbsp;Depends: libstdc++6 (&gt;= 5)
-            <br>&nbsp;&nbsp;Depends: <span class="nowrap">libx11-6</span>
-            <br>&nbsp;&nbsp;Depends: <span class="nowrap">qt6-base</span> (&gt;= 6.6.3)
-            <br>&nbsp;&nbsp;Depends: <span class="nowrap">qt6-svg</span> (&gt;= 6.6.3)
-            <br>&nbsp;&nbsp;Conflicts: <span class="nowrap">libkimageannotator-common</span> (&lt;&lt;
-            0.7)
-            <br>&nbsp;&nbsp;Replaces: <span class="nowrap">libkimageannotator-common</span> (&lt;&lt;
-            0.7)</p>
+    <p>unzen@playnuc:~$ sudo apt depends <span class="nowrap">libkimageannotator-qt6-0</span>
+        <br>[sudo] password for unzen:
+        <br><span class="nowrap">libkimageannotator-qt6-0</span>
+        <br>&nbsp;&nbsp;Depends: libc6 (&gt;= 2.14)
+        <br>&nbsp;&nbsp;Depends: <span class="nowrap">libgcc-s1</span> (&gt;= 3.3.1)
+        <br>&nbsp;&nbsp;Depends: <span class="nowrap">libkcolorpicker-qt6-0</span> (&gt;= 0.3.1)
+        <br>&nbsp;&nbsp;Depends: libstdc++6 (&gt;= 5)
+        <br>&nbsp;&nbsp;Depends: <span class="nowrap">libx11-6</span>
+        <br>&nbsp;&nbsp;Depends: <span class="nowrap">qt6-base</span> (&gt;= 6.6.3)
+        <br>&nbsp;&nbsp;Depends: <span class="nowrap">qt6-svg</span> (&gt;= 6.6.3)
+        <br>&nbsp;&nbsp;Conflicts: <span class="nowrap">libkimageannotator-common</span> (&lt;&lt; 0.7)
+        <br>&nbsp;&nbsp;Replaces: <span class="nowrap">libkimageannotator-common</span> (&lt;&lt; 0.7)</p>
 
-        <p>unzen@playnuc:~$ sudo dpkg <span class="nowrap">-P</span> libkcolorpicker0
-            <br>(Reading database … 559817 files and directories currently installed.)
-            <br>Removing libkcolorpicker0:amd64 <span class="nowrap">(0.1.6-2)</span> …
-            <br>Processing triggers for <span class="nowrap">libc-bin</span> <span class="nowrap">(2.35-0ubuntu3.6)</span>
-            …</p>
+    <p>unzen@playnuc:~$ sudo dpkg <span class="nowrap">-P</span> libkcolorpicker0
+        <br>(Reading database … 559817 files and directories currently installed.)
+        <br>Removing libkcolorpicker0:amd64 <span class="nowrap">(0.1.6-2)</span> …
+        <br>Processing triggers for <span class="nowrap">libc-bin</span> <span class="nowrap">(2.35-0ubuntu3.6)</span> …</p>
 
-        <p>unzen@playnuc:~$ sudo <span class="nowrap">apt-get</span> install <span
-                class="nowrap">-f</span></p>
+    <p>unzen@playnuc:~$ sudo <span class="nowrap">apt-get</span> install <span class="nowrap">-f</span></p>
 
-        <p>Успех. Было два конфликтующих пакета, от одного из них никто не зависел, от другого <span
-                class="nowrap">кто-то</span> зависел. Тот, от которого никто не зависел, я удалил.
-        </p>
+    <p>Успех. Было два конфликтующих пакета, от одного из них никто не зависел, от другого <span class="nowrap">кто-то</span> зависел. Тот, от которого никто не зависел, я удалил.</p>
 
-        <p class="dinkus">* * *</p>
+    <p class="dinkus">* * *</p>
 
-        <p>🏠 <a href="/">https://portia5.gitlab.io</a></p>
-    </article>
-</main>
-</body>
+    <p>Ubuntu setup archive 2.</p>
+
+    <p>Plymouth disable splash.
+        <br>sudoedit /etc/default/grub
+        <br>Default: GRUB_CMDLINE_LINUX_DEFAUL<wbr>T="quiet splash"
+        <br>Custom, ничего не выводит, грузится намного быстрее: GRUB_CMDLINE_LINUX_DEFAUL<wbr>T="quiet"
+        <br>Custom, выводит текстовые логи: GRUB_CMDLINE_LINUX_DEFAUL<wbr>T=""
+        <br>Default: GRUB_TIMEOUT=10
+        <br>Custom: GRUB_TIMEOUT=3
+        <br>sudo <span class="nowrap">update-grub</span></p>
+
+    <p>LibreOffice, ранее ставили из PPA. Ранее требовалось использовать SAL_USE_VCLPLUGIN=gtk, с 18.04 его добавление ничего не меняет.</p>
+
+    <p>journald
+        <br>sudo nano /etc/systemd/journald.con<wbr>f
+        <br>Default: #Storage=auto
+        <br>Custom: Storage=persistent</p>
+
+    <p>Visual Studio Code.
+        <br>"editor.fontSize": 12,
+        <br>"editor.wordWrap": "on",
+        <br>"editor.dragAndDrop": true,
+        <br>"editor.renderWhitespace"<wbr>: "none",
+        <br>"editor.renderControlChar<wbr>acters": false,
+        <br>"workbench.editor.tabClos<wbr>eButton": "off",
+        <br>"window.menuBarVisibility<wbr>": "default",
+        <br>"workbench.sideBar.locati<wbr>on": "right",
+        <br>"workbench.statusBar.visi<wbr>ble": true,
+        <br>"workbench.activityBar.vi<wbr>sible": true</p>
+
+    <p>Java. Oracle JDK, скачать с официального сайта, set PATH by ~/.profile</p>
+
+    <p>VeraCrypt.
+        <br>sudo apt install xterm
+        <br>sudo bash veracrypt-1.19-setup-gui-x64</p>
+
+    <p class="dinkus">* * *</p>
+
+    <p>🏠 <a href="/">https://portia5.gitlab.io</a></p>
+</article>
+</main></body>
 </html>

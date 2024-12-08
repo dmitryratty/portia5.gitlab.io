@@ -19,8 +19,8 @@ class IncludeTransform(private val generator: Generator) {
         val withLink = commands.remove(includeLink)
         val asSection = commands.remove(includeSection)
         val path = commands.removeLast()
-        val includedPage =
-            generator.sitemap.srcPages[path] ?: throw IllegalStateException("$path in ${page.relativeUrl}")
+        val e = "Missing page for path \"$path\" in page \"${page.relativeUrl}\""
+        val includedPage = generator.sitemap.srcPages[path] ?: throw IllegalStateException(e)
         transform(includedPage)
         if (commands.isEmpty()) {
             if (!asSection && includedPage.summaryParag.isNotEmpty()) {

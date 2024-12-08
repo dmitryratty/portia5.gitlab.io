@@ -1,6 +1,7 @@
 [1] / [/index.html]
 [1] /library/lesswrong/sequences [/library/lesswrong/sequences/index.html, /library/lesswrong/sequences/]
 [1] /test [/test/index.html, /test/]
+[1] /vidya/factorio [/vidya/factorio/index.html, /vidya/factorio/]
 [2] /apple-touch-icon.png
 [2] /css/main.css
 [2] /css/normalize.css
@@ -147,7 +148,7 @@
 [3] /vidya[.html]
 [3] /vidya-chaos[.html]
 [3] /vidya/addiction[.html]
-[3] /vidya/factorio[.html]
+[3] /vidya/factorio/smooth-warnings[.html]
 [3] /vidya/other[.html]
 [3] /wealth[.html]
 [3] /wealth-chaos[.html]

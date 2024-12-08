@@ -122,3 +122,41 @@ Processing triggers for libc-bin (2.35-0ubuntu3.6) ...
 unzen@playnuc:~$ sudo apt-get install -f
 
 Успех. Было два конфликтующих пакета, от одного из них никто не зависел, от другого кто-то зависел. Тот, от которого никто не зависел, я удалил.
+
+* * *
+
+Ubuntu setup archive 2.
+
+Plymouth disable splash.
+sudoedit /etc/default/grub
+Default: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+Custom, ничего не выводит, грузится намного быстрее: GRUB_CMDLINE_LINUX_DEFAULT="quiet"
+Custom, выводит текстовые логи: GRUB_CMDLINE_LINUX_DEFAULT=""
+Default: GRUB_TIMEOUT=10
+Custom: GRUB_TIMEOUT=3
+sudo update-grub
+
+LibreOffice, ранее ставили из PPA. Ранее требовалось использовать SAL_USE_VCLPLUGIN=gtk, с 18.04 его добавление ничего не меняет.
+
+journald
+sudo nano /etc/systemd/journald.conf
+Default: #Storage=auto
+Custom: Storage=persistent
+
+Visual Studio Code.
+"editor.fontSize": 12,
+"editor.wordWrap": "on",
+"editor.dragAndDrop": true,
+"editor.renderWhitespace": "none",
+"editor.renderControlCharacters": false,
+"workbench.editor.tabCloseButton": "off",
+"window.menuBarVisibility": "default",
+"workbench.sideBar.location": "right",
+"workbench.statusBar.visible": true,
+"workbench.activityBar.visible": true
+
+Java. Oracle JDK, скачать с официального сайта, set PATH by ~/.profile
+
+VeraCrypt.
+sudo apt install xterm
+sudo bash veracrypt-1.19-setup-gui-x64

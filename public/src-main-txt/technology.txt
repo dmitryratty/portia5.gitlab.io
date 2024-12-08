@@ -44,6 +44,8 @@ Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 
 IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
 - https://en.wikipedia.org/wiki/InterPlanetary_File_System
 
+#include link /vidya/factorio/smooth-warnings
+
 * * *
 
 2011. Изучил основы программирования потому, что мне не нравился стандартный интерфейс World of Warcraft и я написал свой. Позже мне стали скучны некоторые игровые механики и я написал пару ботов, автоматизирующих эту рутину.
