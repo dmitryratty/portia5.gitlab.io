@@ -294,6 +294,7 @@ https://humanmindreader3.quora.com/10-Life-Lessons-Only-Time-Can-Teach
 https://hummingbot.org
 https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
 https://ibis.wiki/
+https://imagemagick.org/script/command-line-options.php#annotate
 https://infinigen.org/
 https://intelligence.org
 https://issues.chromium.org/issues/40044062
@@ -1185,6 +1186,7 @@ https://youtu.be/HLMhVawjKsA?si=0u5QMSA0hN2pcY7X
 https://youtu.be/HzNZdQEvvVQ?si=2teaVFwfGfNVnQL1
 https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
 https://youtu.be/JP-eE98FAYw?si=G9fyk6MPfZmoNu6K
+https://youtu.be/JRneiRumUDo?si=zbFddRRodjcmbXyG
 https://youtu.be/K-UWjKec43k?si=nzy71HxoMuR4qFH6
 https://youtu.be/KCR7ovEwtCA?si=mPv0XMYZrwIp5r3I
 https://youtu.be/KQ8g7g2KQCU?si=9E-qKoxmysRgsqup
@@ -1270,6 +1272,7 @@ https://youtu.be/roCUxbSkYJk?si=dI607hQi_A0jTAu-
 https://youtu.be/rxaTAFXgykU?si=DwY0vSabMnZhWf2K
 https://youtu.be/sVx1mJDeUjY?si=mavtxOh1AYErJH04
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
+https://youtu.be/tx2uV_GOB68?si=UmGn57lgG3fskfkW
 https://youtu.be/u82QLdkhKdo?si=8JZrpNwlQJrOpwmp
 https://youtu.be/uUrWJZ_brBU?si=MMTj9mDz4DKdtGpA
 https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN
