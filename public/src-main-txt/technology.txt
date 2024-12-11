@@ -38,6 +38,8 @@ Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web brow
 
 2024-12-06. В Bitwarden нет тегов для записей, только папки.
 
+2024-12-06. Brave Web Browser на Linux, далее Settings, далее Privacy and security, далее Site and Shields Settings, далее Block cookies, далее Sites allowed to use third-party cookies, далее если в этом списке сайтов жать напротив сайта кнопку удаления в виде корзины, то ничего не происходит, сайт не удаляется, кнопка не работает.
+
 Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 2013-11-23. Is punishment or reward more effective for helping people learn? A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This finding has been verified not just with humans, but also with other species. <•> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
 - https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 

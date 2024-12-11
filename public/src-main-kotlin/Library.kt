@@ -16,14 +16,28 @@ class Library {
     }
 
     @Serializable
-    data class Name(val name: String, val language: String, val link: String? = null)
+    data class Name(val name: String, val language: String,
+                    val link: String? = null, val comment: String? = null)
 
     @Serializable
-    data class Author(val names: List<Name>)
+    data class Author(val names: LinkedHashSet<Name>) {
+        fun id(): String {
+            val nameEn = names.filter { it.language == "en" }
+            require(nameEn.size < 2)
+            return if (nameEn.size == 1) {
+                nameEn.first().name
+            } else {
+                names.first().name
+            }
+        }
+        fun sort(): String {
+            return id() + names.size
+        }
+    }
 
     @Serializable
     data class Writing(
-        val names: List<Name>, val authors: List<Author>, val tags: Set<String>, val rating: Int
+        val names: List<Name>, val authors: MutableList<Author>, val tags: Set<String>, val rating: Int
     )
 
     fun main() {
@@ -64,7 +78,7 @@ class Library {
     }
 
     private fun formatAuthors(authors: List<Author>, language: String): String {
-        var author = authors[0].names[0].name
+        var author = authors[0].names.first().name
         if (authors[0].names.size > 1) {
             authors[0].names.forEach { if (it.language == language) author = it.name }
         }
@@ -167,7 +181,7 @@ class Library {
             }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
         listsBuilder.append(
             authors.joinToString(
-                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names[0].name })
+                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names.first().name })
         )
         libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }

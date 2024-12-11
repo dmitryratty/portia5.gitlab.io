@@ -10,12 +10,12 @@
             {
                 "names": [
                     {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
                         "name": "Eliezer Yudkowsky",
                         "language": "en"
+                    },
+                    {
+                        "name": "Элиезер Юдковский",
+                        "language": "ru"
                     }
                 ]
             }
@@ -37,10 +37,6 @@
         "authors": [
             {
                 "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
                     {
                         "name": "Eliezer Yudkowsky",
                         "language": "en"
@@ -72,6 +68,10 @@
                     {
                         "name": "Eliezer Yudkowsky",
                         "language": "en"
+                    },
+                    {
+                        "name": "Еліезер Юдковський",
+                        "language": "ua"
                     }
                 ]
             }
