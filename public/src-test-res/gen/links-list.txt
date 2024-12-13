@@ -631,7 +631,6 @@ https://spacetime.com
 https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file
 https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs
 https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
-https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
 https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
 https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
@@ -1147,6 +1146,7 @@ https://youtu.be/0k0JZ5yveow?si=wkbuZ1BVJT8Zzk8w
 https://youtu.be/0nz0iaNvVpE?si=QlyDg2HzW6y-vd3D
 https://youtu.be/1FSnAMe5WXE?si=HHHgCe5gC07tekyG
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+https://youtu.be/25g8IPXN2mY?si=gIDxSHazTFolVj0z
 https://youtu.be/37eEUsd1ASA?si=qa9dDzt9aazq61xA
 https://youtu.be/3Br100WHC_U?si=Gpn1f27fFIgcz9dJ
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
@@ -1160,6 +1160,7 @@ https://youtu.be/6cU8JRBp920?si=m5jljBynoDu9gMbL
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/8JXiXt0D6tw?si=q9qT7o-fT6gVzKr8
+https://youtu.be/8zZQwC31P7U?si=i-EYo_ruiGtPBjeu
 https://youtu.be/9ZzFZYQv90w?si=maWE6HOlbpDUb8F5
 https://youtu.be/9yRRV8HfG68?si=5KdeLIHS6fCypZnF
 https://youtu.be/AAOuSq59Xpw?si=j_mxMGA0l2jTgCp2

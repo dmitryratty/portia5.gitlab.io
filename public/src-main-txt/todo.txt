@@ -4,6 +4,9 @@
 
 #include link /todo/read
 
+Library "database" splitting into authors and books. YAML, HOCON?
+- https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
+
 Gallery.
 Flexbox
 - https://yoksel.github.io/flex-cheatsheet/
@@ -41,10 +44,6 @@ Emoji. Код установки шрифта эмодзи, возможно о�
 Вырезать комментарии из HTML.
 
 Проверять живость всех ссылок.
-
-Library "database" splitting into authors and books. YAML, HOCON?
-- https://stackoverflow.com/questions/28256852/what-is-the-simplest-way-to-configure-the-indentation-spacing-on-a-jackson-objec
-- https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 
 Сделать в Vidya страницу копий постов с трансмогрификациями: https://vk.com/bravedraenei
 
