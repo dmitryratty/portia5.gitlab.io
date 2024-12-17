@@ -15,6 +15,10 @@ class Library {
         }
     }
 
+    interface FiltrableWriting {
+        fun containTags(vararg tags: String): Boolean
+    }
+
     @Serializable
     data class Name(val name: String, val language: String,
                     val link: String? = null, val comment: String? = null)
@@ -38,7 +42,23 @@ class Library {
     @Serializable
     data class Writing(
         val names: List<Name>, val authors: MutableList<Author>, val tags: Set<String>, val rating: Int
-    )
+    ) : FiltrableWriting {
+        override fun containTags(vararg tags: String): Boolean {
+            for (tag in tags) if (this.tags.contains(tag)) return true
+            return false
+        }
+    }
+
+    @Serializable
+    data class WritingRecord(
+        val names: List<Name>, val authors: MutableList<String>, val tags: Set<String>,
+        val rating: Int
+    ) : FiltrableWriting {
+        override fun containTags(vararg tags: String): Boolean {
+            for (tag in tags) if (this.tags.contains(tag)) return true
+            return false
+        }
+    }
 
     fun main() {
         generatePublic()
@@ -85,29 +105,16 @@ class Library {
         return author
     }
 
-    fun loadWritings(srcDir: Path): MutableList<Writing> {
-        val writingsIn: MutableList<Writing> = arrayListOf()
-        srcDir.listDirectoryEntries("library*.json").forEach {
-            writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
-        }
-        //printCount(writingsIn)
-        return writingsIn
-    }
-
-    fun articlesFileFilter(w: Writing): Boolean {
-        return (w.tags.contains("essay") || w.tags.contains("blogging")) && !w.tags.contains("chaos")
-    }
-
-    fun otherFileFilter(w: Writing): Boolean {
-        return (!w.tags.contains("essay") && !w.tags.contains("blogging")) && !w.tags.contains("chaos")
-    }
-
-    fun chaosFileFilter(w: Writing): Boolean {
-        return w.tags.contains("chaos")
-    }
-
-    fun writeWritings(dst: Path, writings: List<Writing>) {
+    fun saveLibrary(dst: Path, authorsMap: MutableMap<String, Author>, writingsIn: MutableList<Writing>) {
         val format = Json { prettyPrint = true }
+        val outAuthorsFile = dst.resolve("authors.json").toFile()
+        outAuthorsFile.writeText(format.encodeToString(authorsMap.values.toList()))
+
+        val writings = mutableListOf<WritingRecord>()
+        writingsIn.forEach { w ->
+            val a = w.authors.map { it.id() }.toMutableList()
+            writings.add(WritingRecord(w.names, a, w.tags, w.rating))
+        }
 
         val articlesToSave = writings.filter { articlesFileFilter(it) }.sortedBy { it.rating }
         val outArticleFile = dst.resolve("library-article.json").toFile()
@@ -121,29 +128,80 @@ class Library {
         val outChaosFile = dst.resolve("library-chaos.json").toFile()
         outChaosFile.writeText(format.encodeToString(chaosToSave))
 
-        val rest =
-            writings.filter { !articlesFileFilter(it) && !otherFileFilter(it) && !chaosFileFilter(it) }
+        val rest = writings.filter { !articlesFileFilter(it)
+                && !otherFileFilter(it) && !chaosFileFilter(it) }
         if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
-    private fun loadWritings(): MutableList<Writing> {
-        val writings = loadWritings(UtilsAbsolute.srcResDir)
-        writeWritings(UtilsAbsolute.srcResDir, writings)
+    fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
+        val authorsIn: List<Author> = Json.decodeFromString<List<Author>>(
+            srcDir.resolve("authors.json").toFile().readText())
+        val authorsMap = mutableMapOf<String, Author>()
+        authorsIn.forEach {
+            authorsMap[it.id()] = it
+        }
+        return authorsMap
+    }
+
+    fun loadWritings(srcDir: Path, authorsMap: MutableMap<String, Author>): MutableList<Writing> {
+        val writingsIn: MutableList<WritingRecord> = arrayListOf()
+        srcDir.listDirectoryEntries("library*.json").forEach {
+            writingsIn.addAll(Json.decodeFromString<List<WritingRecord>>(it.toFile().readText()))
+        }
+        val writings = mutableListOf<Writing>()
+        writingsIn.forEach { writingIn ->
+            val authors = mutableListOf<Author>()
+            writingIn.authors.forEach {
+                authors.add(authorsMap[it]!!)
+            }
+            writings.add(Writing(writingIn.names, authors, writingIn.tags, writingIn.rating))
+        }
+        // Next is for case when author ID changed and to match writing with
+        // its author we perform search in authors using all ID variations
+        // of each author. Change of author ID may occur when we add author
+        // name in another language.
+        writings.forEach { writing ->
+            writing.authors.forEachIndexed { i, author ->
+                if (authorsMap[author.id()] == null) {
+                    var newAuthor: Author? = null
+                    authorsMap.values.forEach { authorFromMap ->
+                        author.names.forEach { an ->
+                            if (authorFromMap.names.contains(an)) {
+                                newAuthor = authorFromMap
+                            }
+                        }
+                    }
+                    if (newAuthor == null) throw IllegalStateException(author.toString())
+                    writing.authors[i] = newAuthor!!
+                }
+            }
+        }
         return writings
     }
 
-    fun booksFilter(writing: Writing): Boolean {
-        return writing.tags.contains("recommendation")
+    fun articlesFileFilter(w: FiltrableWriting): Boolean {
+        return w.containTags("essay", "blogging") && !w.containTags("chaos")
     }
 
-    fun articlesFilter(writing: Writing): Boolean {
-        return writing.tags.contains("entertaining") && (writing.tags.contains("blogging") || writing.tags.contains(
-            "short story"
-        ))
+    fun otherFileFilter(w: FiltrableWriting): Boolean {
+        return (!w.containTags("essay") && !w.containTags("blogging")) && !w.containTags("chaos")
+    }
+
+    fun chaosFileFilter(w: FiltrableWriting): Boolean {
+        return w.containTags("chaos")
+    }
+
+    fun booksFilter(writing: FiltrableWriting): Boolean {
+        return writing.containTags("recommendation")
+    }
+
+    fun articlesFilter(writing: FiltrableWriting): Boolean {
+        return writing.containTags("entertaining") && writing.containTags("blogging", "short story")
     }
 
     private fun generatePublic() {
-        val writingsIn = loadWritings()
+        val authors = loadAuthors(UtilsAbsolute.srcResDir)
+        val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
         val libraryOut = UtilsAbsolute.srcGenDir
 
         val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
@@ -176,11 +234,11 @@ class Library {
         listsBuilder.append("\n\n")
 
         listsBuilder.append("Ещё я читал этих авторов. </> ")
-        val authors = writingsIn.filter {
+        val authorsList = writingsIn.filter {
                 !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
             }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
         listsBuilder.append(
-            authors.joinToString(
+            authorsList.joinToString(
                 separator = ", ", prefix = "", postfix = ".", transform = { it[0].names.first().name })
         )
         libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())

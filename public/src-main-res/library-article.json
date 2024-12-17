@@ -7,18 +7,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "blogging",
@@ -35,18 +24,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "blogging",
@@ -63,14 +41,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Scott Alexander"
         ],
         "tags": [
             "blogging",
@@ -87,14 +58,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Scott Alexander"
         ],
         "tags": [
             "blogging",
@@ -111,14 +75,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Scott Alexander"
         ],
         "tags": [
             "blogging",
@@ -135,14 +92,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Scott Alexander"
         ],
         "tags": [
             "blogging",
@@ -159,14 +109,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Scott Alexander",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Scott Alexander"
         ],
         "tags": [
             "blogging",
@@ -183,14 +126,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
@@ -208,14 +144,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Daniel Dennett",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Daniel Dennett"
         ],
         "tags": [
             "blogging",
@@ -232,14 +161,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
@@ -256,14 +178,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
@@ -281,14 +196,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Paul Graham",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Paul Graham"
         ],
         "tags": [
             "blogging",
@@ -306,14 +214,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sam qntm Hughes",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Sam qntm Hughes"
         ],
         "tags": [
             "blogging",
@@ -331,14 +232,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Sam qntm Hughes",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Sam qntm Hughes"
         ],
         "tags": [
             "blogging",
@@ -355,14 +249,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Zvi Mowshowitz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Zvi Mowshowitz"
         ],
         "tags": [
             "blogging",
@@ -379,14 +266,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Itamar Shatz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Itamar Shatz"
         ],
         "tags": [
             "blogging",
@@ -402,14 +282,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Itamar Shatz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Itamar Shatz"
         ],
         "tags": [
             "blogging",
@@ -425,14 +298,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Itamar Shatz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Itamar Shatz"
         ],
         "tags": [
             "blogging",
@@ -449,14 +315,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Itamar Shatz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Itamar Shatz"
         ],
         "tags": [
             "blogging",
@@ -472,14 +331,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Itamar Shatz",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Itamar Shatz"
         ],
         "tags": [
             "blogging",
@@ -495,14 +347,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Duncan Sabien",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Duncan Sabien"
         ],
         "tags": [
             "blogging",
@@ -519,14 +364,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Chapman",
-                        "language": "?"
-                    }
-                ]
-            }
+            "David Chapman"
         ],
         "tags": [
             "blogging",
@@ -542,14 +380,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "David Chapman",
-                        "language": "?"
-                    }
-                ]
-            }
+            "David Chapman"
         ],
         "tags": [
             "blogging",
@@ -565,14 +396,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gwern Branwen",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Gwern Branwen"
         ],
         "tags": [
             "blogging",
@@ -590,14 +414,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "А. Б. Сосинский",
-                        "language": "ru"
-                    }
-                ]
-            }
+            "А. Б. Сосинский"
         ],
         "tags": [
             "blogging",

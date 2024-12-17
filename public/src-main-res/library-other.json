@@ -8,14 +8,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Terry Bisson",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Terry Bisson"
         ],
         "tags": [
             "short story",
@@ -31,18 +24,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "recommendation",
@@ -58,14 +40,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Карл Саган",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Карл Саган"
         ],
         "tags": [
             "archive",
@@ -81,18 +56,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "recommendation",
@@ -108,18 +72,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "archive",
@@ -135,14 +88,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эмили Нагоски"
         ],
         "tags": [
             "archive",
@@ -158,14 +104,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -181,14 +120,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -204,14 +136,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -227,14 +152,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Грег Иган",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Грег Иган"
         ],
         "tags": [
             "recommendation",
@@ -250,14 +168,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Станислав Лем",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Станислав Лем"
         ],
         "tags": [
             "archive",
@@ -273,14 +184,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -296,14 +200,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Franz Kafka",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Franz Kafka"
         ],
         "tags": [
             "archive",
@@ -319,14 +216,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Тед Чан",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Тед Чан"
         ],
         "tags": [
             "recommendation",
@@ -342,14 +232,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Питер Уоттс",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Питер Уоттс"
         ],
         "tags": [
             "recommendation",
@@ -365,14 +248,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -388,14 +264,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эмили Нагоски",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эмили Нагоски"
         ],
         "tags": [
             "recommendation",
@@ -411,14 +280,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "recommendation",
@@ -434,14 +296,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Питер Уоттс",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Питер Уоттс"
         ],
         "tags": [
             "recommendation",
@@ -457,14 +312,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "recommendation",
@@ -480,14 +328,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Oscar Wilde",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Oscar Wilde"
         ],
         "tags": [
             "archive",
@@ -503,14 +344,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Братья Стругацкие",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Братья Стругацкие"
         ],
         "tags": [
             "archive",
@@ -526,14 +360,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Alexander Davis",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Alexander Davis"
         ],
         "tags": [
             "archive",
@@ -549,14 +376,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Gustav Meyrink"
         ],
         "tags": [
             "archive",
@@ -572,14 +392,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Энтони Бёрджесс",
-                        "language": "ru"
-                    }
-                ]
-            }
+            "Энтони Бёрджесс"
         ],
         "tags": [
             "recommendation",
@@ -596,14 +409,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Сорокин",
-                        "language": "ru"
-                    }
-                ]
-            }
+            "Владимир Сорокин"
         ],
         "tags": [
             "archive",
@@ -619,14 +425,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Domagoj Kurmaic",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Domagoj Kurmaic"
         ],
         "tags": [
             "archive",
@@ -642,14 +441,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Джек Лондон"
         ],
         "tags": [
             "archive",
@@ -665,14 +457,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -688,14 +473,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Андрэ Моруа",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Андрэ Моруа"
         ],
         "tags": [
             "archive",
@@ -712,14 +490,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роксана Миллер",
-                        "language": "ru"
-                    }
-                ]
-            }
+            "Роксана Миллер"
         ],
         "tags": [
             "novel"
@@ -734,14 +505,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Сомерсет Моэм",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Сомерсет Моэм"
         ],
         "tags": [
             "archive",
@@ -757,14 +521,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Фёдор Достоевский",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Фёдор Достоевский"
         ],
         "tags": [
             "archive",
@@ -780,14 +537,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Владимир Набоков"
         ],
         "tags": [
             "archive",
@@ -803,14 +553,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -826,14 +569,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Теодор Драйзер",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Теодор Драйзер"
         ],
         "tags": [
             "archive",
@@ -849,14 +585,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Фёдор Достоевский",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Фёдор Достоевский"
         ],
         "tags": [
             "archive",
@@ -872,14 +601,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Святослав Логинов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Святослав Логинов"
         ],
         "tags": [
             "archive",
@@ -895,14 +617,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Оливер Свифт",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Оливер Свифт"
         ],
         "tags": [
             "archive",
@@ -918,14 +633,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эдгар По",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эдгар По"
         ],
         "tags": [
             "archive",
@@ -941,14 +649,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -964,14 +665,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ромен Роллан",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ромен Роллан"
         ],
         "tags": [
             "archive",
@@ -987,14 +681,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -1010,14 +697,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. G. Wells",
-                        "language": "?"
-                    }
-                ]
-            }
+            "H. G. Wells"
         ],
         "tags": [
             "archive",
@@ -1033,14 +713,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. G. Wells",
-                        "language": "?"
-                    }
-                ]
-            }
+            "H. G. Wells"
         ],
         "tags": [
             "archive",
@@ -1056,14 +729,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ричард Олдингтон",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ричард Олдингтон"
         ],
         "tags": [
             "archive",
@@ -1079,14 +745,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Джек Лондон"
         ],
         "tags": [
             "archive",
@@ -1102,14 +761,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -1125,14 +777,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Владимир Набоков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Владимир Набоков"
         ],
         "tags": [
             "archive",
@@ -1148,14 +793,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -1171,14 +809,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Рэй Брэдбери"
         ],
         "tags": [
             "archive",
@@ -1194,14 +825,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -1217,14 +841,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Lewis Carroll",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Lewis Carroll"
         ],
         "tags": [
             "archive",
@@ -1240,14 +857,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -1263,14 +873,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Рэй Брэдбери"
         ],
         "tags": [
             "archive",
@@ -1286,14 +889,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -1309,14 +905,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Стивен Кинг",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Стивен Кинг"
         ],
         "tags": [
             "archive",
@@ -1332,14 +921,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -1355,14 +937,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Рэй Брэдбери"
         ],
         "tags": [
             "archive",
@@ -1378,14 +953,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Стивен Кинг",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Стивен Кинг"
         ],
         "tags": [
             "archive",
@@ -1401,14 +969,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -1424,14 +985,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антуан де Сент-Экзюпери",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антуан де Сент-Экзюпери"
         ],
         "tags": [
             "archive",
@@ -1447,14 +1001,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -1470,14 +1017,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Стивен Кинг",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Стивен Кинг"
         ],
         "tags": [
             "archive",
@@ -1493,14 +1033,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -1516,14 +1049,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Михаил Булгаков"
         ],
         "tags": [
             "archive",
@@ -1539,14 +1065,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лев Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лев Толстой"
         ],
         "tags": [
             "archive",
@@ -1562,14 +1081,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Гарсиа Маркес",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Гарсиа Маркес"
         ],
         "tags": [
             "archive",
@@ -1585,14 +1097,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Сомерсет Моэм",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Сомерсет Моэм"
         ],
         "tags": [
             "archive",
@@ -1609,14 +1114,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Михаил Булгаков"
         ],
         "tags": [
             "archive",
@@ -1632,14 +1130,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Гарсиа Маркес",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Гарсиа Маркес"
         ],
         "tags": [
             "archive",
@@ -1655,14 +1146,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Wilhelm Hauff",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Wilhelm Hauff"
         ],
         "tags": [
             "archive",
@@ -1678,14 +1162,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Михаил Булгаков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Михаил Булгаков"
         ],
         "tags": [
             "archive",
@@ -1701,14 +1178,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Сомерсет Моэм",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Сомерсет Моэм"
         ],
         "tags": [
             "archive",
@@ -1724,14 +1194,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Wilhelm Hauff",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Wilhelm Hauff"
         ],
         "tags": [
             "archive",
@@ -1747,14 +1210,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Лион Фейхтвангер",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Лион Фейхтвангер"
         ],
         "tags": [
             "archive",
@@ -1770,14 +1226,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Фредерик Бегбедер",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Фредерик Бегбедер"
         ],
         "tags": [
             "archive",
@@ -1793,14 +1242,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Gustav Meyrink"
         ],
         "tags": [
             "archive",
@@ -1816,14 +1258,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ильф и Петров",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ильф и Петров"
         ],
         "tags": [
             "archive",
@@ -1839,14 +1274,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. P. Lovecraft",
-                        "language": "?"
-                    }
-                ]
-            }
+            "H. P. Lovecraft"
         ],
         "tags": [
             "archive",
@@ -1862,14 +1290,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Gustav Meyrink",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Gustav Meyrink"
         ],
         "tags": [
             "archive",
@@ -1885,14 +1306,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ильф и Петров",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ильф и Петров"
         ],
         "tags": [
             "archive",
@@ -1908,14 +1322,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Фредрик Бакман",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Фредрик Бакман"
         ],
         "tags": [
             "archive",
@@ -1931,14 +1338,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Станислав Лем",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Станислав Лем"
         ],
         "tags": [
             "archive",
@@ -1954,14 +1354,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Харуки Мураками",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Харуки Мураками"
         ],
         "tags": [
             "archive",
@@ -1977,14 +1370,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Павел Бажов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Павел Бажов"
         ],
         "tags": [
             "archive",
@@ -2000,14 +1386,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert E. Howard",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Robert E. Howard"
         ],
         "tags": [
             "archive",
@@ -2023,14 +1402,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Марк Твен",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Марк Твен"
         ],
         "tags": [
             "archive",
@@ -2046,14 +1418,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Guy de Maupassant",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Guy de Maupassant"
         ],
         "tags": [
             "archive",
@@ -2069,14 +1434,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Марк Твен",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Марк Твен"
         ],
         "tags": [
             "archive",
@@ -2092,14 +1450,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "H. P. Lovecraft",
-                        "language": "?"
-                    }
-                ]
-            }
+            "H. P. Lovecraft"
         ],
         "tags": [
             "archive",
@@ -2115,14 +1466,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -2138,14 +1482,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рэй Брэдбери",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Рэй Брэдбери"
         ],
         "tags": [
             "archive",
@@ -2161,14 +1498,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Антон Чехов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Антон Чехов"
         ],
         "tags": [
             "archive",
@@ -2184,14 +1514,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Prosper Merimee"
         ],
         "tags": [
             "archive",
@@ -2207,14 +1530,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Алексей Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Алексей Толстой"
         ],
         "tags": [
             "archive",
@@ -2230,14 +1546,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Prosper Merimee",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Prosper Merimee"
         ],
         "tags": [
             "archive",
@@ -2253,14 +1562,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Алексей Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Алексей Толстой"
         ],
         "tags": [
             "archive",
@@ -2276,18 +1578,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Элиезер Юдковский",
-                        "language": "ru"
-                    },
-                    {
-                        "name": "Eliezer Yudkowsky",
-                        "language": "en"
-                    }
-                ]
-            }
+            "Eliezer Yudkowsky"
         ],
         "tags": [
             "archive",
@@ -2303,14 +1594,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Алексей Толстой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Алексей Толстой"
         ],
         "tags": [
             "archive",
@@ -2326,14 +1610,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Дмитрий Мережковский",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Дмитрий Мережковский"
         ],
         "tags": [
             "archive",
@@ -2349,14 +1626,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Дмитрий Мережковский",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Дмитрий Мережковский"
         ],
         "tags": [
             "archive",
@@ -2372,14 +1642,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Носов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Носов"
         ],
         "tags": [
             "archive",
@@ -2395,14 +1658,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Носов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Носов"
         ],
         "tags": [
             "archive",
@@ -2418,14 +1674,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Носов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Носов"
         ],
         "tags": [
             "archive",
@@ -2441,14 +1690,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Борис Полевой",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Борис Полевой"
         ],
         "tags": [
             "archive",
@@ -2464,14 +1706,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Robert Bloch",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Robert Bloch"
         ],
         "tags": [
             "archive",
@@ -2487,14 +1722,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Александр Волков",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Александр Волков"
         ],
         "tags": [
             "archive",
@@ -2511,14 +1739,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "André Maurois",
-                        "language": "en"
-                    }
-                ]
-            }
+            "André Maurois"
         ],
         "tags": [
             "short story"
@@ -2533,14 +1754,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ричард Бах",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ричард Бах"
         ],
         "tags": [
             "archive",
@@ -2556,14 +1770,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "James S. A. Corey",
-                        "language": "?"
-                    }
-                ]
-            }
+            "James S. A. Corey"
         ],
         "tags": [
             "archive",
@@ -2579,14 +1786,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Конан Дойл",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Конан Дойл"
         ],
         "tags": [
             "archive",
@@ -2602,14 +1802,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эдгар Берроуз",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эдгар Берроуз"
         ],
         "tags": [
             "archive",
@@ -2625,14 +1818,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Гарри Гаррисон",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Гарри Гаррисон"
         ],
         "tags": [
             "archive",
@@ -2648,14 +1834,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Рафаэль Сабатини",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Рафаэль Сабатини"
         ],
         "tags": [
             "archive",
@@ -2671,14 +1850,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2694,14 +1866,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2717,14 +1882,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2740,14 +1898,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2763,14 +1914,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2786,14 +1930,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2809,14 +1946,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2832,14 +1962,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2855,14 +1978,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2878,14 +1994,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Эрих Мария Ремарк",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Эрих Мария Ремарк"
         ],
         "tags": [
             "archive",
@@ -2901,14 +2010,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Жюль Верн",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Жюль Верн"
         ],
         "tags": [
             "archive",
@@ -2924,14 +2026,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Жюль Верн",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Жюль Верн"
         ],
         "tags": [
             "archive",
@@ -2947,14 +2042,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Жюль Верн",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Жюль Верн"
         ],
         "tags": [
             "archive",
@@ -2970,14 +2058,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Гоголь",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Гоголь"
         ],
         "tags": [
             "archive",
@@ -2993,14 +2074,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Гоголь",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Гоголь"
         ],
         "tags": [
             "archive",
@@ -3016,14 +2090,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Гоголь",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Гоголь"
         ],
         "tags": [
             "archive",
@@ -3039,14 +2106,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Николай Гоголь",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Николай Гоголь"
         ],
         "tags": [
             "archive",
@@ -3062,14 +2122,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Иван Ефремов",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Иван Ефремов"
         ],
         "tags": [
             "archive",
@@ -3085,14 +2138,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Кхьенце Норбу",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Кхьенце Норбу"
         ],
         "tags": [
             "archive",
@@ -3108,14 +2154,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3131,14 +2170,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3154,14 +2186,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3177,14 +2202,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3200,14 +2218,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3224,14 +2235,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "O. Henry",
-                        "language": "en"
-                    }
-                ]
-            }
+            "O. Henry"
         ],
         "tags": [
             "short story"
@@ -3246,14 +2250,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3269,14 +2266,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3292,14 +2282,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3315,14 +2298,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3338,14 +2314,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3361,14 +2330,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3384,14 +2346,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Виктор Пелевин",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Виктор Пелевин"
         ],
         "tags": [
             "archive",
@@ -3407,14 +2362,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -3430,14 +2378,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Роберт Шекли",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Роберт Шекли"
         ],
         "tags": [
             "archive",
@@ -3453,14 +2394,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Француаза Саган",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Француаза Саган"
         ],
         "tags": [
             "archive",
@@ -3476,14 +2410,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "James Hadley Chase",
-                        "language": "?"
-                    }
-                ]
-            }
+            "James Hadley Chase"
         ],
         "tags": [
             "archive",
@@ -3499,14 +2426,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Ross Macdonald",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Ross Macdonald"
         ],
         "tags": [
             "archive",
@@ -3522,14 +2442,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Оксана Панкеева",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Оксана Панкеева"
         ],
         "tags": [
             "archive",
@@ -3545,14 +2458,7 @@
             }
         ],
         "authors": [
-            {
-                "names": [
-                    {
-                        "name": "Джек Лондон",
-                        "language": "?"
-                    }
-                ]
-            }
+            "Джек Лондон"
         ],
         "tags": [
             "archive",

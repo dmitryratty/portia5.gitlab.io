@@ -1,23 +1,3 @@
-"language": "en"
-"language": "ru"
-
-{
-    "names": [
-        { "name": "", "language": "?", "link": "" }
-    ],
-    "authors": [
-        {
-            "names": [
-                { "name": "", "language": "?" }
-            ]
-        }
-    ],
-    "tags": [ "blogging", "essay", "entertaining" ],
-    "rating": 900
-},
-
-* * *
-
 {
     "names": [
         { "name": "Eight Billion People", "language": "en", "link": "https://www.oranlooney.com/post/eight-billion/" }
