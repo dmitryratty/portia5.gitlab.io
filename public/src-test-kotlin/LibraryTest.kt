@@ -15,38 +15,60 @@ class LibraryTest {
     private val format = Json { prettyPrint = true }
 
     @Serializable
-    data class WritingFullRecord(
-        val name: String, val author: String, val tags: Set<String>, val rating: Int
+    data class Name(val name: String, val language: String,
+                    val link: String? = null, val comment: String? = null)
+
+    @Serializable
+    data class Author(val names: LinkedHashSet<Name>) {
+        fun id(): String {
+            val nameEn = names.filter { it.language == "en" }
+            require(nameEn.size < 2)
+            return if (nameEn.size == 1) {
+                nameEn.first().name
+            } else {
+                names.first().name
+            }
+        }
+        fun sort(): String {
+            return id() + names.size
+        }
+    }
+
+    @Serializable
+    data class Writing(
+        val names: List<Name>, val authors: MutableList<Author>, val tags: Set<String>,
+        val rating: Int
     )
 
     @Serializable
-    data class WritingMainRecord(
-        val name: String, val author: String, val tags: Set<String>, val rating: Int
+    data class WritingRecord(
+        val names: List<Name>, val authors: MutableList<String>, val tags: Set<String>,
+        val rating: Int
     )
 
-    fun articlesFileFilter1(w: Library.Writing): Boolean {
+    fun articlesFileFilter1(w: Writing): Boolean {
         return (w.tags.contains("essay") || w.tags.contains("blogging"))
                 && !w.tags.contains("chaos")
     }
 
-    fun otherFileFilter1(w: Library.Writing): Boolean {
+    fun otherFileFilter1(w: Writing): Boolean {
         return (!w.tags.contains("essay") && !w.tags.contains("blogging"))
                 && !w.tags.contains("chaos")
     }
 
-    fun chaosFileFilter1(w: Library.Writing): Boolean {
+    fun chaosFileFilter1(w: Writing): Boolean {
         return w.tags.contains("chaos")
     }
 
-    fun loadWritings1(srcDir: Path): MutableList<Library.Writing> {
-        val writingsIn: MutableList<Library.Writing> = arrayListOf()
+    fun loadWritings1(srcDir: Path): MutableList<Writing> {
+        val writingsIn: MutableList<Writing> = arrayListOf()
         srcDir.listDirectoryEntries("library*.json").forEach {
-            writingsIn.addAll(Json.decodeFromString<List<Library.Writing>>(it.toFile().readText()))
+            writingsIn.addAll(Json.decodeFromString<List<Writing>>(it.toFile().readText()))
         }
         return writingsIn
     }
 
-    fun writeWritings1(dst: Path, writings: List<Library.Writing>) {
+    fun writeWritings1(dst: Path, writings: List<Writing>) {
         val articlesToSave = writings.filter { articlesFileFilter1(it) }.sortedBy { it.rating }
         val outArticleFile = dst.resolve("library-article.json").toFile()
         outArticleFile.writeText(format.encodeToString(articlesToSave))
@@ -64,13 +86,38 @@ class LibraryTest {
         if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
+    fun updateWritingsAuthors(authorsMap: Map<String, Author>, writings: List<Writing>) {
+        // This is for case when author ID changed and to match writing with
+        // its author we perform search in authors using all ID variations
+        // of each author. Change of author ID may occur when we add author
+        // name in another language.
+        writings.forEach { w ->
+            w.authors.forEachIndexed { i, a ->
+                if (authorsMap[a.id()] == null) {
+                    var newAuthorRecord: Author? = null
+                    authorsMap.values.forEach { ar ->
+                        a.names.forEach { an ->
+                            if (ar.names.contains(an)) {
+                                newAuthorRecord = ar
+                            }
+                        }
+                    }
+                    if (newAuthorRecord == null) throw IllegalStateException(a.toString())
+                    w.authors[i] = newAuthorRecord!!
+                }
+            }
+        }
+    }
+
     @Test fun test1() {
         val writings = loadWritings1(resIn)
         writeWritings1(resIn, writings)
-        val authors = mutableListOf<Library.Author>()
+        // Extract authors.
+        val authors = mutableListOf<Author>()
         writings.forEach { authors.addAll(it.authors) }
+        // Normalize authors.
         authors.sortBy { it.id() + it.names.size }
-        val authorsRecords = mutableMapOf<String, Library.Author>()
+        val authorsRecords = mutableMapOf<String, Author>()
         authors.forEach {
             val key = it.id()
             val duplicate = authorsRecords[key]
@@ -91,43 +138,36 @@ class LibraryTest {
         outAuthorsFile.writeText(format.encodeToString(authorsRecords))
     }
 
+
     @Test fun test2() {
         val resInAuthors = resOut.resolve("authors-1.json").toFile()
-        val authorsRecordsIn = mutableMapOf<String, Library.Author>()
-        authorsRecordsIn.putAll(Json.decodeFromString<Map<String, Library.Author>>(resInAuthors.readText()))
-        val authors = authorsRecordsIn.values.toMutableList()
+        val authorsMapIn = mutableMapOf<String, Author>()
+        authorsMapIn.putAll(Json.decodeFromString<Map<String, Author>>(resInAuthors.readText()))
+        val authors = authorsMapIn.values.toMutableList()
         authors.sortBy { it.id() + it.names.size }
-        val authorsRecords = mutableMapOf<String, Library.Author>()
+        val authorsMap = mutableMapOf<String, Author>()
         authors.forEach {
             val key = it.id()
-            val duplicate = authorsRecords[key]
+            val duplicate = authorsMap[key]
             if (duplicate == null) {
-                authorsRecords[it.id()] = it
+                authorsMap[it.id()] = it
             } else {
                 duplicate.names.addAll(it.names)
             }
         }
         val resOutAuthors = resOut.resolve("authors-2.json").toFile()
-        resOutAuthors.writeText(format.encodeToString(authorsRecords))
+        resOutAuthors.writeText(format.encodeToString(authorsMap))
         val writings = loadWritings1(resIn)
+        updateWritingsAuthors(authorsMap, writings)
+        val writingRecords = mutableListOf<WritingRecord>()
         writings.forEach { w ->
-            w.authors.forEachIndexed { i, a ->
-                if (authorsRecords[a.id()] == null) {
-                    var newAuthorRecord: Library.Author? = null
-                    authorsRecords.values.forEach { ar ->
-                        a.names.forEach { an ->
-                            if (ar.names.contains(an)) {
-                                newAuthorRecord = ar
-                            }
-                        }
-                    }
-                    if (newAuthorRecord == null) throw IllegalStateException(a.toString())
-                    w.authors[i] = newAuthorRecord!!
-                }
-            }
+            val a = w.authors.map { it.id() }.toMutableList()
+            writingRecords.add(WritingRecord(w.names, a, w.tags, w.rating))
         }
-        val chaosToSave = writings.sortedBy { it.rating }
-        val outChaosFile = resOut.resolve("library-chaos.json").toFile()
-        outChaosFile.writeText(format.encodeToString(chaosToSave))
+        val writingsFullToSave = writings.sortedBy { it.rating }
+        val outWritingsFullFile = resOut.resolve("writings-full.json").toFile()
+        outWritingsFullFile.writeText(format.encodeToString(writingsFullToSave))
+        val recordsFile = resOut.resolve("writings-chaos.json").toFile()
+        recordsFile.writeText(format.encodeToString(writingRecords))
     }
 }

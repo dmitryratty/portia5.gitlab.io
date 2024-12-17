@@ -278,6 +278,7 @@ https://github.com/wabarc/wayback
 https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
 https://gitlab.com/portia5
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
+https://ground.news
 https://grugbrain.dev
 https://habr.com/en/companies/hetmansoftware/articles/553866/
 https://habr.com/ru/articles/548154/
@@ -1152,7 +1153,6 @@ https://youtu.be/3Br100WHC_U?si=Gpn1f27fFIgcz9dJ
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/3Y81L_CUV3M?si=2tcWHXwdtVJgECnt
 https://youtu.be/3pLusGRkYrg?si=Ck-nAUqUwNvqIi12
-https://youtu.be/4s9u-wqtyls?si=JNqgp22eCiIY7zR_
 https://youtu.be/56W5d4VeUTk?si=Eix9Uzau9AQIZzPb
 https://youtu.be/5UXxqnF-WkM?si=ScaufcEpX9tqFza2
 https://youtu.be/5VXuUZT3BPY?si=_Uun90AT5hE-vrzg
@@ -1209,6 +1209,7 @@ https://youtu.be/TEuj0sR2Qzo?si=PxK_LFzct5YWiXS9
 https://youtu.be/U9jQ8CwgefQ?si=3NJze75qotvvel-b
 https://youtu.be/UBKlEMZoykc?si=GVz5oZD95y7-xYM-
 https://youtu.be/Udz7ZkIZJco?si=oo0feroNw5eBVSMm
+https://youtu.be/UebSfjmQNvs?si=r6_cpTPkBCkz1D9k
 https://youtu.be/V1V68qgiLIo?si=daJzjzw0mOv73U1L
 https://youtu.be/V3Soe3g9i6s?si=ujrgxpeQsuUQglWX
 https://youtu.be/WE5-IZQt-mg?si=gqTSICMHXgcTLmPu
@@ -1234,6 +1235,8 @@ https://youtu.be/cHLMXlqZ3ls?si=IwrMDfXRghJa0tqI
 https://youtu.be/cNfFhtic__4?si=1Z9q0KAKaOBGpZZH
 https://youtu.be/ci2XPOvoE_M?si=vEwGYhf_3UCJu-7L
 https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
+https://youtu.be/f5liqUk0ZTw?si=iIUF4zNc1ILVhcXh
+https://youtu.be/f6QFfmwFT3k?si=7aTOqx6jN8qQ5gt3
 https://youtu.be/fHBUQI2lilc?si=R4wn6ipnEpT0R0PX
 https://youtu.be/fHOiOQfcREI?si=Eh0WhJdStPPFqgH-
 https://youtu.be/gBMEwunuEUI?si=c70hsmMjnlsDqcXE
@@ -1262,6 +1265,7 @@ https://youtu.be/n-x4ttQioNw?si=ify1VxBp-zXgqz_t
 https://youtu.be/nQgjQX2dl0E?si=oi5_KybkTd8kAjbN
 https://youtu.be/nSA3h6PoPrE?si=7oSVAZnnEHN1jjm9
 https://youtu.be/nf-d420x_XA?si=ILTIEaOhq3Z2Snjj
+https://youtu.be/nsgAsw4XGvU?si=RbPwm7SOZ7gV-hTT
 https://youtu.be/oGfVHdvLApI?si=I-F8hrte8QEIiVUV
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/oq-SDnabu0o?si=936Dml0ra5d9VLGJ
@@ -1291,6 +1295,7 @@ https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
 https://youtu.be/y9pTbMoufp4?si=9lufGkhU2Zyljjam
 https://youtu.be/ycfM6XGBE30?si=b30xise7gF1kaP1r
 https://youtu.be/zH1AXMUwxrg?si=TvNjRQoJW0M6TNvh
+https://youtu.be/zXX0Sa0Zn-k?si=nkP2NENOPW3OHKc-
 https://youtu.be/zcRUj8H3rc4?si=OayM-TFHkxsBKlZ1
 https://youtu.be/zo0xMZZzkp4?si=s8T9Vi7UQjTRlpDe
 https://youtube.com/c/3blue1brown
