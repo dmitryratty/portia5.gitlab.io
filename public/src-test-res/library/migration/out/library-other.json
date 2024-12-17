@@ -2,57 +2,6 @@
     {
         "names": [
             {
-                "name": "Well-Kept Gardens Die By Pacifism",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Eliezer Yudkowsky"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 100
-    },
-    {
-        "names": [
-            {
-                "name": "In Praise of Boredom",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Eliezer Yudkowsky"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "hidden"
-        ],
-        "rating": 100
-    },
-    {
-        "names": [
-            {
-                "name": "Hero Licensing",
-                "language": "?"
-            }
-        ],
-        "authors": [
-            "Eliezer Yudkowsky"
-        ],
-        "tags": [
-            "blogging",
-            "essay",
-            "entertaining"
-        ],
-        "rating": 200
-    },
-    {
-        "names": [
-            {
                 "name": "They're Made Out of Meat",
                 "language": "en",
                 "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
@@ -91,7 +40,7 @@
             }
         ],
         "authors": [
-            "Carl Sagan"
+            "Карл Саган"
         ],
         "tags": [
             "archive",

@@ -1,5 +1,5 @@
-{
-    "Eliezer Yudkowsky": {
+[
+    {
         "names": [
             {
                 "name": "Eliezer Yudkowsky",
@@ -15,7 +15,7 @@
             }
         ]
     },
-    "Scott Alexander": {
+    {
         "names": [
             {
                 "name": "Scott Alexander",
@@ -23,7 +23,7 @@
             }
         ]
     },
-    "Terry Bisson": {
+    {
         "names": [
             {
                 "name": "Terry Bisson",
@@ -31,7 +31,7 @@
             }
         ]
     },
-    "Карл Саган": {
+    {
         "names": [
             {
                 "name": "Карл Саган",
@@ -39,4 +39,4 @@
             }
         ]
     }
-}
+]

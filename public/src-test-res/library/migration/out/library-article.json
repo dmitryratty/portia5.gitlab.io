@@ -1,0 +1,53 @@
+[
+    {
+        "names": [
+            {
+                "name": "Well-Kept Gardens Die By Pacifism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "In Praise of Boredom",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "hidden"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 200
+    }
+]
