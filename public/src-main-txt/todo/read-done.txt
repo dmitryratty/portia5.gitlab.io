@@ -60,30 +60,6 @@
 
 {
     "names": [
-        {
-            "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
-            "language": "?"
-        }
-    ],
-    "authors": [
-        {
-            "names": [
-                {
-                    "name": "Emily Nagoski",
-                    "language": "?"
-                }
-            ]
-        }
-    ],
-    "tags": [
-        "recommendation",
-        "novel"
-    ],
-    "rating": 620
-},
-
-{
-    "names": [
         { "name": "Условия присутствия личности", "language": "ru", "link": "http://www.ruthenia.ru/logos/number/37/07.pdf" }
     ],
     "authors": [ {

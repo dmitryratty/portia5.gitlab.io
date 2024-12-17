@@ -152,7 +152,10 @@ class Library {
         writingsIn.forEach { writingIn ->
             val authors = mutableListOf<Author>()
             writingIn.authors.forEach {
-                authors.add(authorsMap[it]!!)
+                val toAdd = authorsMap[it]
+                if (toAdd != null) {
+                    authors.add(toAdd)
+                }
             }
             writings.add(Writing(writingIn.names, authors, writingIn.tags, writingIn.rating))
         }
@@ -176,6 +179,7 @@ class Library {
                 }
             }
         }
+        saveLibrary(srcDir, authorsMap, writings)
         return writings
     }
 
