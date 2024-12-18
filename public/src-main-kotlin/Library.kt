@@ -144,40 +144,34 @@ class Library {
     }
 
     fun loadWritings(srcDir: Path, authorsMap: MutableMap<String, Author>): MutableList<Writing> {
-        val writingsIn: MutableList<WritingRecord> = arrayListOf()
+        val writingsRecords: MutableList<WritingRecord> = arrayListOf()
         srcDir.listDirectoryEntries("library*.json").forEach {
-            writingsIn.addAll(Json.decodeFromString<List<WritingRecord>>(it.toFile().readText()))
+            writingsRecords.addAll(Json.decodeFromString<List<WritingRecord>>(it.toFile().readText()))
         }
         val writings = mutableListOf<Writing>()
-        writingsIn.forEach { writingIn ->
+        writingsRecords.forEach { writingRecord ->
             val authors = mutableListOf<Author>()
-            writingIn.authors.forEach {
-                val toAdd = authorsMap[it]
-                if (toAdd != null) {
-                    authors.add(toAdd)
-                }
-            }
-            writings.add(Writing(writingIn.names, authors, writingIn.tags, writingIn.rating))
-        }
-        // Next is for case when author ID changed and to match writing with
-        // its author we perform search in authors using all ID variations
-        // of each author. Change of author ID may occur when we add author
-        // name in another language.
-        writings.forEach { writing ->
-            writing.authors.forEachIndexed { i, author ->
-                if (authorsMap[author.id()] == null) {
-                    var newAuthor: Author? = null
+            writingRecord.authors.forEach { authorId ->
+                var authorById = authorsMap[authorId]
+                if (authorById == null) {
+                    // For case when author ID changed and to match writing with
+                    // its author we perform search in authors using all ID variations
+                    // of each author. Change of author ID may occur when we add author
+                    // name in another language.
                     authorsMap.values.forEach { authorFromMap ->
-                        author.names.forEach { an ->
-                            if (authorFromMap.names.contains(an)) {
-                                newAuthor = authorFromMap
-                            }
+                        if (authorFromMap.names.find { it.name == authorId } != null) {
+                            authorById = authorFromMap
+                            println("Author ID changed from $authorId to ${authorById!!.id()}")
                         }
                     }
-                    if (newAuthor == null) throw IllegalStateException(author.toString())
-                    writing.authors[i] = newAuthor!!
+                    if (authorById == null) {
+                        val e = "$writingRecord - $authorId"
+                        throw IllegalStateException(e)
+                    }
                 }
+                authors.add(authorById!!)
             }
+            writings.add(Writing(writingRecord.names, authors, writingRecord.tags, writingRecord.rating))
         }
         saveLibrary(srcDir, authorsMap, writings)
         return writings

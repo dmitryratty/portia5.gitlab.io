@@ -105,10 +105,12 @@ https://dune.com
 https://dzen.ru/a/ZuHlImOpGQxyYrey
 https://edwardtufte.github.io/tufte-css/
 https://effectiviology.com/egocentric-bias
+https://effectiviology.com/hubris/
 https://effectiviology.com/platinum-rule
 https://effectiviology.com/precommitment
 https://effectiviology.com/premature-optimization
 https://effectiviology.com/self-distancing-rational-decisions
+https://effectiviology.com/shirky-principle/
 https://elementy.ru/kartinka_dnya/1395/Sakkulina_krabiy_parazit
 https://en.wikipedia.org/w/index.php?title=Dotted_and_dotless_I&direction=prev&oldid=1050027008
 https://en.wikipedia.org/wiki/2023
@@ -395,6 +397,7 @@ https://openalternative.co/
 https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://ourworldindata.org/obesity
+https://paulgraham.com/best.html
 https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pi-hole.net/
 https://pikabu.ru/reply-stories/11797244
@@ -581,7 +584,6 @@ https://read.substack.com
 https://readhacker.news/c/63JCS
 https://readhacker.news/c/63MEC
 https://readhacker.news/c/63RaL
-https://readhacker.news/c/63aEC
 https://readhacker.news/c/63bud
 https://readhacker.news/c/63kdw
 https://readhacker.news/c/63vPk
@@ -592,7 +594,6 @@ https://readhacker.news/c/69tic
 https://readhacker.news/s/5QkjM
 https://readhacker.news/s/63JCS
 https://readhacker.news/s/63RaL
-https://readhacker.news/s/63aEC
 https://readhacker.news/s/63bud
 https://readhacker.news/s/63kdw
 https://readhacker.news/s/63vPk
@@ -634,7 +635,6 @@ https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-
 https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
 https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
 https://stackoverflow.com/questions/35555816/delete-all-unused-characters-from-a-ttf-font-with-fontforge
-https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
 https://steamcommunity.com/id/portia1
 https://stihi.ru/2002/10/10-463
 https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/
@@ -997,6 +997,7 @@ https://www.404media.co/where-facebooks-ai-slop-comes-from/
 https://www.afterbabel.com/
 https://www.alignmentforum.org/tag/instrumental-convergence
 https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
+https://www.astralcodexten.com/p/deceptively-aligned-mesa-optimizers
 https://www.astralcodexten.com/p/matt-yglesias-considered-as-the-nietzschean
 https://www.astralcodexten.com/p/the-compounding-loophole
 https://www.astralcodexten.com/p/why-does-ozempic-cure-all-diseases
@@ -1039,6 +1040,7 @@ https://www.mxkrsv.dev/posts/nixos-migration
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
 https://www.newyorker.com/magazine/2024/09/09/how-to-give-away-a-fortune
 https://www.numberempire.com/primenumbers.php
+https://www.oranlooney.com/post/eight-billion/
 https://www.ozon.ru/product/fenotropil-tabletki-100-mg-30-sht-672864398
 https://www.pixiv.net/en/users/25915682
 https://www.psypost.org/children-deny-that-god-can-change-fundamental-moral-principles-study-finds

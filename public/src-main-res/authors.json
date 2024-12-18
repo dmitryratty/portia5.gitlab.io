@@ -10,16 +10,12 @@
     {
         "names": [
             {
-                "name": "André Maurois",
-                "language": "en"
-            }
-        ]
-    },
-    {
-        "names": [
-            {
                 "name": "Daniel Dennett",
                 "language": "en"
+            },
+            {
+                "name": "Даниель Деннетт",
+                "language": "ru"
             }
         ]
     },
@@ -358,8 +354,12 @@
     {
         "names": [
             {
-                "name": "Андрэ Моруа",
-                "language": "?"
+                "name": "Андре Моруа",
+                "language": "ru"
+            },
+            {
+                "name": "André Maurois",
+                "language": "en"
             }
         ]
     },
@@ -631,7 +631,7 @@
         "names": [
             {
                 "name": "Ричард Бах",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -639,7 +639,7 @@
         "names": [
             {
                 "name": "Ричард Олдингтон",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -647,7 +647,11 @@
         "names": [
             {
                 "name": "Роберт Шекли",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Robert Sheckley",
+                "language": "en"
             }
         ]
     },
@@ -671,7 +675,11 @@
         "names": [
             {
                 "name": "Рэй Брэдбери",
-                "language": "?"
+                "language": "en"
+            },
+            {
+                "name": "Ray Bradbury",
+                "language": "ru"
             }
         ]
     },
@@ -679,7 +687,7 @@
         "names": [
             {
                 "name": "Святослав Логинов",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -687,7 +695,7 @@
         "names": [
             {
                 "name": "Сомерсет Моэм",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -695,7 +703,7 @@
         "names": [
             {
                 "name": "Станислав Лем",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -703,7 +711,7 @@
         "names": [
             {
                 "name": "Стивен Кинг",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -711,7 +719,7 @@
         "names": [
             {
                 "name": "Тед Чан",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -719,7 +727,7 @@
         "names": [
             {
                 "name": "Теодор Драйзер",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -727,7 +735,7 @@
         "names": [
             {
                 "name": "Француаза Саган",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },

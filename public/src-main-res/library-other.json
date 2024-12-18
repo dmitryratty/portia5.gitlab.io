@@ -88,7 +88,7 @@
             }
         ],
         "authors": [
-            "Эмили Нагоски"
+            "Emily Nagoski"
         ],
         "tags": [
             "archive",
@@ -104,7 +104,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -120,7 +120,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -136,7 +136,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -184,7 +184,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -268,7 +268,7 @@
             }
         ],
         "authors": [
-            "Эмили Нагоски"
+            "Emily Nagoski"
         ],
         "tags": [
             "recommendation",
@@ -461,7 +461,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -473,11 +473,35 @@
         "names": [
             {
                 "name": "Рождение знаменитости",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Naissance d'un maître",
+                "language": "fr"
             }
         ],
         "authors": [
-            "Андрэ Моруа"
+            "André Maurois"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Миррина",
+                "language": "ru"
+            },
+            {
+                "name": "Myrrhine",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "André Maurois"
         ],
         "tags": [
             "archive",
@@ -498,6 +522,42 @@
         ],
         "tags": [
             "novel"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "The Victim From Space",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Robert Sheckley"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Thanatos Palace Hotel",
+                "language": "en"
+            },
+            {
+                "name": "Отель „Танатос“",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "André Maurois"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
         ],
         "rating": 900
     },
@@ -765,7 +825,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -797,7 +857,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -1247,6 +1307,22 @@
         ],
         "authors": [
             "Gustav Meyrink"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 2200
+    },
+    {
+        "names": [
+            {
+                "name": "The Veldt",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Рэй Брэдбери"
         ],
         "tags": [
             "archive",
@@ -2366,7 +2442,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",
@@ -2382,7 +2458,7 @@
             }
         ],
         "authors": [
-            "Роберт Шекли"
+            "Robert Sheckley"
         ],
         "tags": [
             "archive",

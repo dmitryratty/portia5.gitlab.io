@@ -104,39 +104,12 @@ class LibraryTest {
                 duplicate.names.addAll(it.names)
             }
         }
-        saveLibrary(pathOut, authorsMap, writings)
+        //saveLibrary(pathOut, authorsMap, writings)
     }
 
     @Test fun migration() {
         //migration(resIn, resOut)
         //migration(UtilsAbsolute.srcResDir, UtilsAbsolute.srcResDir)
-    }
-
-    fun saveLibrary(dst: Path, authorsMap: MutableMap<String, Author>, writingsIn: MutableList<Writing>) {
-        val outAuthorsFile = resOut.resolve("authors.json").toFile()
-        outAuthorsFile.writeText(format.encodeToString(authorsMap.values.toList()))
-
-        val writings = mutableListOf<WritingRecord>()
-        writingsIn.forEach { w ->
-            val a = w.authors.map { it.id() }.toMutableList()
-            writings.add(WritingRecord(w.names, a, w.tags, w.rating))
-        }
-
-        val articlesToSave = writings.filter { articlesFileFilter(it) }.sortedBy { it.rating }
-        val outArticleFile = dst.resolve("library-article.json").toFile()
-        outArticleFile.writeText(format.encodeToString(articlesToSave))
-
-        val othersToSave = writings.filter { otherFileFilter(it) }.sortedBy { it.rating }
-        val outOtherFile = dst.resolve("library-other.json").toFile()
-        outOtherFile.writeText(format.encodeToString(othersToSave))
-
-        val chaosToSave = writings.filter { chaosFileFilter(it) }.sortedBy { it.rating }
-        val outChaosFile = dst.resolve("library-chaos.json").toFile()
-        outChaosFile.writeText(format.encodeToString(chaosToSave))
-
-        val rest = writings.filter { !articlesFileFilter(it)
-                && !otherFileFilter(it) && !chaosFileFilter(it) }
-        if (rest.isNotEmpty()) throw IllegalStateException()
     }
 
     fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
@@ -188,6 +161,6 @@ class LibraryTest {
     @Test fun migrationTest() {
         val authors = loadAuthors(resOut)
         val writings = loadWritings(resOut, authors)
-        saveLibrary(resOut, authors, writings)
+        //saveLibrary(resOut, authors, writings)
     }
 }

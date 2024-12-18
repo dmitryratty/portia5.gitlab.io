@@ -4,9 +4,6 @@
 
 #include link /todo/read
 
-Library "database" splitting into authors and books. YAML, HOCON?
-- https://stackoverflow.com/questions/76726117/pretty-print-a-kotlin-json-serializable
-
 Gallery.
 Flexbox
 - https://yoksel.github.io/flex-cheatsheet/
