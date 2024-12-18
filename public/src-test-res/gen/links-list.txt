@@ -449,7 +449,6 @@ https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
 https://portia5.gitlab.io/chaos/telegram
 https://portia5.gitlab.io/chaos/web
-https://portia5.gitlab.io/chaos/wikipedia
 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary
@@ -489,7 +488,6 @@ https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics
 https://portia5.gitlab.io/ethics-chaos
-https://portia5.gitlab.io/food
 https://portia5.gitlab.io/gallery
 https://portia5.gitlab.io/humour
 https://portia5.gitlab.io/humour-chaos
@@ -566,7 +564,6 @@ https://portia5.gitlab.io/todo
 https://portia5.gitlab.io/todo-chaos
 https://portia5.gitlab.io/todo/humour
 https://portia5.gitlab.io/todo/read
-https://portia5.gitlab.io/todo/read-done
 https://portia5.gitlab.io/vidya
 https://portia5.gitlab.io/vidya-chaos
 https://portia5.gitlab.io/vidya/addiction

@@ -20,8 +20,7 @@ class Library {
     }
 
     @Serializable
-    data class Name(val name: String, val language: String,
-                    val link: String? = null, val comment: String? = null)
+    data class Name(val name: String, val language: String, val comment: String? = null)
 
     @Serializable
     data class Author(val names: LinkedHashSet<Name>) {
@@ -61,7 +60,48 @@ class Library {
     }
 
     fun main() {
-        generatePublic()
+        val authors = loadAuthors(UtilsAbsolute.srcResDir)
+        val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
+        val libraryOut = UtilsAbsolute.srcGenDir
+
+        val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
+        val recommendations =
+            writingsIn.filter { booksFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
+        recommendations.forEach { (authors, writings) ->
+            if (favoritesBuilder.isNotEmpty()) {
+                favoritesBuilder.append(" ")
+            }
+            favoritesBuilder.append(formatAuthors(authors, "ru"))
+            favoritesBuilder.append(formatWritings(writings, "ru"))
+        }
+        libraryOut.resolve("library-favorites.txt").toFile().writeText(favoritesBuilder.toString())
+
+        val listsBuilder = StringBuilder()
+
+        listsBuilder.append("Интересные штуки размером со статью. </> ")
+        val posts =
+            writingsIn.filter { articlesFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
+        val postsBuilder = StringBuilder()
+        posts.forEach { (authors, writings) ->
+            if (postsBuilder.isNotEmpty()) {
+                postsBuilder.append(" ")
+            }
+            postsBuilder.append(formatAuthors(authors, "en"))
+            postsBuilder.append(formatWritings(writings, "en"))
+        }
+        listsBuilder.append(postsBuilder)
+
+        listsBuilder.append("\n\n")
+
+        listsBuilder.append("Ещё я читал этих авторов. </> ")
+        val authorsList = writingsIn.filter {
+            !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
+        }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
+        listsBuilder.append(
+            authorsList.joinToString(
+                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names.first().name })
+        )
+        libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }
 
     private fun printCount(inputWritings: List<Writing>) {
@@ -195,50 +235,5 @@ class Library {
 
     fun articlesFilter(writing: FiltrableWriting): Boolean {
         return writing.containTags("entertaining") && writing.containTags("blogging", "short story")
-    }
-
-    private fun generatePublic() {
-        val authors = loadAuthors(UtilsAbsolute.srcResDir)
-        val writingsIn = loadWritings(UtilsAbsolute.srcResDir, authors)
-        val libraryOut = UtilsAbsolute.srcGenDir
-
-        val favoritesBuilder = StringBuilder("Интересные штуки размером с книгу. </>")
-        val recommendations =
-            writingsIn.filter { booksFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
-        recommendations.forEach { (authors, writings) ->
-            if (favoritesBuilder.isNotEmpty()) {
-                favoritesBuilder.append(" ")
-            }
-            favoritesBuilder.append(formatAuthors(authors, "ru"))
-            favoritesBuilder.append(formatWritings(writings, "ru"))
-        }
-        libraryOut.resolve("library-favorites.txt").toFile().writeText(favoritesBuilder.toString())
-
-        val listsBuilder = StringBuilder()
-
-        listsBuilder.append("Интересные штуки размером со статью. </> ")
-        val posts =
-            writingsIn.filter { articlesFilter(it) }.sortedBy { it.rating }.groupBy { it.authors }
-        val postsBuilder = StringBuilder()
-        posts.forEach { (authors, writings) ->
-            if (postsBuilder.isNotEmpty()) {
-                postsBuilder.append(" ")
-            }
-            postsBuilder.append(formatAuthors(authors, "en"))
-            postsBuilder.append(formatWritings(writings, "en"))
-        }
-        listsBuilder.append(postsBuilder)
-
-        listsBuilder.append("\n\n")
-
-        listsBuilder.append("Ещё я читал этих авторов. </> ")
-        val authorsList = writingsIn.filter {
-                !recommendations.keys.contains(it.authors) && !posts.keys.contains(it.authors)
-            }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
-        listsBuilder.append(
-            authorsList.joinToString(
-                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names.first().name })
-        )
-        libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }
 }

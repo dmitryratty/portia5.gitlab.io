@@ -1,5 +1,3 @@
-#include link /chaos/wikipedia
-
 #include link /chaos/telegram
 
 #include link /chaos/youtube

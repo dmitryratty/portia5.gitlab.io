@@ -10,13 +10,11 @@ https://portia5.gitlab.io/chaos
 https://portia5.gitlab.io/chaos-chaos
     1 https://portia5.gitlab.io/chaos/telegram
     1 https://portia5.gitlab.io/chaos/web
-    1 https://portia5.gitlab.io/chaos/wikipedia
     1 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
 https://portia5.gitlab.io/chaos/telegram
 https://portia5.gitlab.io/chaos/web
-https://portia5.gitlab.io/chaos/wikipedia
 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/diary-chaos
 https://portia5.gitlab.io/diary/because
@@ -53,7 +51,6 @@ https://portia5.gitlab.io/diary/wire-cutters-music
 https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics-chaos
-https://portia5.gitlab.io/food
 https://portia5.gitlab.io/humour-chaos
 https://portia5.gitlab.io/humour/math-methods
 https://portia5.gitlab.io/humour/the-dragonfly-and-the-ant
@@ -114,6 +111,5 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap
 https://portia5.gitlab.io/test/zalgo
 https://portia5.gitlab.io/todo-chaos
-https://portia5.gitlab.io/todo/read-done
 https://portia5.gitlab.io/vidya-chaos
 https://portia5.gitlab.io/wealth-chaos

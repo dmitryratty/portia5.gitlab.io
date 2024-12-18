@@ -1,3 +1,31 @@
+Readed.
+
+Эндрю Таненбаум: "Современные операционные системы".
+
+"The Java Tutorial: A Short Course on the Basics 6th Edition" by Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour.
+- https://docs.oracle.com/javase/tutorial/
+- https://www.amazon.com/The-Java-Tutorial-Course-Edition/dp/0134034082
+
+Satoshi Nakamoto: "Bitcoin: A Peer-to-Peer Electronic Cash System".
+- http://dx.doi.org/10.2139/ssrn.3440802
+
+"Grandmaster level in StarCraft II using multi-agent reinforcement learning".
+- https://doi.org/10.1038/s41586-019-1724-z
+
+Dehnadi, Saeed & Bornat, Richard. (2008). The camel has two humps (working title).
+- https://www.researchgate.net/publication/250800680_The_camel_has_two_humps_working_title
+
+L. Borghans, B.H.H. Golsteyn, J.J. Heckman, J.E. Humphries, What grades and achievement tests measure, Proc. Natl. Acad. Sci. U.S.A.
+- https://doi.org/10.1073/pnas.1601135113
+
+"AlphaStar: Mastering the real-time strategy game StarCraft II".
+- https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii
+
+"AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning".
+- https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning
+
+* * *
+
 Inspiration.
 - https://news.ycombinator.com
 - https://opennet.ru

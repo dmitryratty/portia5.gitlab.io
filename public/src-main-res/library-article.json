@@ -140,12 +140,12 @@
             {
                 "name": "Conditions of Personhood",
                 "language": "en",
-                "link": "https://doi.org/10.1007/978-1-4612-3950-5_7"
+                "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
             },
             {
                 "name": "Условия присутствия личности",
                 "language": "ru",
-                "link": "http://www.ruthenia.ru/logos/number/37/07.pdf"
+                "comment": "http://www.ruthenia.ru/logos/number/37/07.pdf"
             }
         ],
         "authors": [
@@ -197,7 +197,7 @@
             {
                 "name": "Keep Your Identity Small",
                 "language": "en",
-                "link": "https://www.paulgraham.com/identity.html"
+                "comment": "https://www.paulgraham.com/identity.html"
             }
         ],
         "authors": [
@@ -215,7 +215,7 @@
             {
                 "name": "Introductory Antimemetics",
                 "language": "en",
-                "link": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+                "comment": "https://scp-wiki.wikidot.com/introductory-antimemetics"
             }
         ],
         "authors": [
@@ -233,7 +233,7 @@
             {
                 "name": "Lena",
                 "language": "?",
-                "link": "https://qntm.org/mmacevedo"
+                "comment": "https://qntm.org/mmacevedo"
             }
         ],
         "authors": [
@@ -415,7 +415,7 @@
             {
                 "name": "Умер ли Никола Бурбаки?",
                 "language": "ru",
-                "link": "https://www.mathnet.ru/rus/mp18"
+                "comment": "https://www.mathnet.ru/rus/mp18"
             }
         ],
         "authors": [

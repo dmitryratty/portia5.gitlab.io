@@ -4,7 +4,7 @@
             {
                 "name": "They're Made Out of Meat",
                 "language": "en",
-                "link": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
+                "comment": "https://en.wikipedia.org/wiki/They%27re_Made_Out_of_Meat"
             }
         ],
         "authors": [
@@ -409,7 +409,7 @@
             {
                 "name": "Настя",
                 "language": "ru",
-                "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7)"
+                "comment": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D1%8F_(%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7) Дочитано 2024-06-21."
             }
         ],
         "authors": [
@@ -514,7 +514,7 @@
             {
                 "name": "Проверка на реальность",
                 "language": "ru",
-                "link": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/"
+                "comment": "https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/ Дочитано 2024-10-03."
             }
         ],
         "authors": [
@@ -1814,8 +1814,11 @@
         "names": [
             {
                 "name": "The Birth of a Master",
-                "language": "en",
-                "link": ""
+                "language": "en"
+            },
+            {
+                "name": "Рождение знаменитости",
+                "language": "ru"
             }
         ],
         "authors": [
@@ -2310,8 +2313,11 @@
         "names": [
             {
                 "name": "The Gift of the Magi",
-                "language": "en",
-                "link": ""
+                "language": "en"
+            },
+            {
+                "name": "Дары волхвов",
+                "language": "ru"
             }
         ],
         "authors": [
