@@ -6,7 +6,7 @@ What level of simulation we may be at? If I have a weapon in my hands I have a f
 
 Itamar Shatz: «Precommitment: Intentionally Limiting Your Future Options», «Premature Optimization: Why It's the "Root of All Evil" and How to Avoid It».
 
-Желание стать живым межзвёздным кораблём и затеряться в бесконечном пространстве космоса.
+Желание быть живым межзвёздным кораблём потерянном в бесконечном пространстве космоса.
 
 #include link /other/judas-goat
 
