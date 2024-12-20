@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Grid</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 4px;
+          background-color: black;
+        }
+        section {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        div {
+          flex-grow: 1;
+          margin: 4px;
+          background-color: black;
+          height: 256px;
+        }
+        img {
+          height: 256px;
+          object-fit: cover;
+          max-width: 100%;
+          min-width: 100%;
+          vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+<section id="imgGrid">
+    <div><img src="/image/life/36.png" alt="Photo 4"></div>
+    <div><img src="/image/life/37.png" alt="Photo 5"></div>
+    <div><img src="/image/life/38.png" alt="Photo 4"></div>
+    <div><img src="/image/life/39.png" alt="Photo 5"></div>
+    <div><img src="/image/life/40.png" alt="Photo 6"></div>
+    <div><img src="/image/life/41.png" alt="Photo 6"></div>
+    <div><img src="/image/life/42.png" alt="Photo 6"></div>
+    <div><img src="/image/life/43.png" alt="Photo 6"></div>
+    <div><img src="/image/life/44.png" alt="Photo 6"></div>
+    <div><img src="/image/life/45.png" alt="Photo 4"></div>
+    <div><img src="/image/life/46.png" alt="Photo 5"></div>
+</section>
+</body>
+</html>

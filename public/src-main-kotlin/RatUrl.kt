@@ -51,6 +51,7 @@ data class RatUrl(
             || dstRelativePathString.endsWith(".png")
             || dstRelativePathString.endsWith(".svg")
             || dstRelativePathString.endsWith(".ico")
+            || dstRelativePathString.endsWith(".json")
             || dstRelativePathString.endsWith(".webmanifest")
             || dstRelativePathString == "_redirects") {
             relativeUrl = "/$dstRelativePathString"

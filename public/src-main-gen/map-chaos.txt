@@ -71,7 +71,6 @@ https://portia5.gitlab.io/library/lesswrong/sequences/translation-done
 https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/life/sakalauskas-case
-https://portia5.gitlab.io/location
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/other/coincidence-think
@@ -79,8 +78,9 @@ https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
+https://portia5.gitlab.io/other/location
+https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/transparent-society
-https://portia5.gitlab.io/routine
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network
@@ -97,7 +97,11 @@ https://portia5.gitlab.io/test/favicon-oneliner
 https://portia5.gitlab.io/test/font-size/1
 https://portia5.gitlab.io/test/font-size/2
 https://portia5.gitlab.io/test/gallery
-https://portia5.gitlab.io/test/image/test
+https://portia5.gitlab.io/test/image/gallery-template
+https://portia5.gitlab.io/test/image/test1
+https://portia5.gitlab.io/test/image/test2
+https://portia5.gitlab.io/test/image/test3
+https://portia5.gitlab.io/test/image/test4
 https://portia5.gitlab.io/test/issue3/index1
 https://portia5.gitlab.io/test/issue3/index2
 https://portia5.gitlab.io/test/issue3/index3

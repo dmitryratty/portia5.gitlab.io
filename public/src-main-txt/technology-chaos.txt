@@ -84,7 +84,7 @@ VCard and RSS as an alternative to social media
 Link: https://readhacker.news/s/64BZQ
 Comments: https://readhacker.news/c/64BZQ
 
-https://t.me/android_broadcast - постит сториз.
+https://t.me/android_broadcast
 
 https://privacyspreadsheet.com/messaging-apps https://github.com/du82/privacyspreadsheet.com
 
@@ -108,11 +108,6 @@ Intel Management Engine vulnerablity.
 https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
 
 * * *
-
-Show HN: Timelock.dev – Send a secret into the future using timelock encryption (Score: 150+ in 9 hours)
-Link: https://readhacker.news/s/63RaL
-Comments: https://readhacker.news/c/63RaL
-This is simply a web interface built on top of the timelock encryption system posted by Cloudflare last week. https://blog.cloudflare.com/harnessing-office-chaos
 
 https://en.wikipedia.org/wiki/Peer-to-peer_(disambiguation)
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" media="screen" href="/css/main.css">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>Responsive Photo Grid</title>
+    <style>
+        body {
+          margin: 0;
+          overflow-x: hidden;
+          background-color: black;
+        }
+        .fav-list {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 2px;
+        }
+        .fav-list > div {
+          margin: 2px;
+          background-color: black;
+          position: relative;
+        }
+        .fav-list > div > i {
+          display: block;
+          background-color: black;
+        }
+        .fav-list > div > img {
+          position: absolute;
+          vertical-align: bottom;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .fav-list > .placeholder {
+          flex-grow: 100;
+          flex-basis: 240px;
+          height: 0;
+          margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="fav-list">
+<!-- IMAGES -->
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+</div>
+</body>
+</html>

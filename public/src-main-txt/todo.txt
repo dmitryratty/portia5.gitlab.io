@@ -5,14 +5,15 @@
 #include link /todo/read
 
 Gallery.
-Flexbox
-- https://yoksel.github.io/flex-cheatsheet/
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-image gallery html library like google photos
-- https://nanogallery2.nanostudio.org/
-simple image lightbox html
-https://codepen.io/kathykato/pen/KRQOKY
-Сделать флексбокс с чёрным фоном и посмотреть как он располагает в себе серые прямоугольники.
+https://yoksel.github.io/flex-cheatsheet/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://doka.guide/css/flexbox-guide/
+html css gallery layout like google photos
+https://codepen.io/johandegrieck/pen/xpVdBG
+https://github.com/xieranmaya/blog/issues/6
+https://medium.com/@danrschlosser/building-the-image-grid-from-google-photos-6a09e193c74a
+https://stackoverflow.com/questions/56778833/can-css-scale-a-set-of-images-to-fit-together-like-google-photos
+
 https://imagemagick.org/script/command-line-options.php#annotate
 
 Среднего размера пластиковую коробку для документов, мне и маме. Среднего размера пластиковую коробку для медикаментов, мне и маме. Сумки для одежды.
@@ -108,10 +109,10 @@ https://web.dev/articles/add-manifest - можно несколько ярлык
 
 Один список в карте сайта можно алфавитный, другой по времени последней модификации.
 
-Проверить действительно ли есть "мигание" текста и если да, то проверить предположение, что это из-за подгрузки CSS, и если да, исправить это инлайном нужного.
-- Бывает ли это мигание в обычном браузере или это только в PWA?
-- С изменением конфигурации PWA сайт стал устанавливаться иначе и запускаться в общем окне браузера, а не как отдельное приложение, и в общем окне браузера миганий я не вижу, так что этот вопрос отправляется в архив, но возможно позже стоит разобраться с режимом PWA как отдельного приложения.
+Мигание текста при нажатии на ссылку.
+- Бывает ли это мигание в обычном браузере или это только в браузере прикреплённом к какому-то приложению?
 - Поймал мигание без PWA.
+- 2024, поймано мигание, при этом у нас сейчас только 1 CSS файл, так что это не из-за подгрузки инклюдов других файлов.
 
 Intel's remote Active Management Technology vulnerablity. https://mjg59.dreamwidth.org/48429.html https://github.com/mjg59/mei-amt-check
 

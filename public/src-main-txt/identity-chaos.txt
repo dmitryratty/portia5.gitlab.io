@@ -1,12 +1,10 @@
-"What level of simulation are we in?" "Deity loves freedom". "Violence is a restriction of freedom". "How instant creation of intelligence, including its memories, would be perceived from inside of it?" "What is time in four-dimensional space?" "If I have a weapon in my hands I have the freedom to direct it toward my head". "If I dislike living I can kill myself". "Happiness of intelligence as a goal vs using intelligence as means for something". "Attention and narratives, patterns, priming..." "Gender as social construct".
+"Deity loves freedom". "Violence is a restriction of freedom". "How instant creation of intelligence, including its memories, would be perceived from inside of it?" "What is time in four-dimensional space?" "Happiness of intelligence as a goal vs using intelligence as means for something". Acausal trade. Fear, shame and guilt may be used for control. "Attention and narratives, patterns, priming..." Exploration-exploitation dilemma. Concision. Precommitment. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. You don't have to play by other people's rules, you can create your own. Of what value is adding a few years to your life if the cost is a life worth living. Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. If you stuck try move reflection one level up. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Желания разных порядков. Judas goat. Троянский конь. Good cop, bad cop. #InformationOverload
 
-Acausal trade. No fear, no shame, no guilt. Exploration-exploitation dilemma. Concision. Precommitment. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. You don't have to play by other people's rules, you can create your own. Of what value is adding a few years to your life if the cost is a life worth living. Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. If you stuck try move reflection one level up. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Желания разных порядков. Judas goat. Троянский конь. Good cop, bad cop. #InformationOverload Virtue of silence.
+What level of simulation we may be at? If I have a weapon in my hands I have a freedom to direct it toward my head and if I dislike living I can stop doing it. Gender is a boring social construct.
 
 #include link /other/fear-shame-guilt
 
 Itamar Shatz: «Precommitment: Intentionally Limiting Your Future Options», «Premature Optimization: Why It's the "Root of All Evil" and How to Avoid It».
-
-Желания разных порядков. Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка.
 
 Желание стать живым межзвёздным кораблём и затеряться в бесконечном пространстве космоса.
 
@@ -19,9 +17,6 @@ Itamar Shatz: «Precommitment: Intentionally Limiting Your Future Options», «P
 - https://gcemetery.co
 - https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms
 - https://locusmag.com/2024/07/cory-doctorow-unpersoned/
-
-Good cop, bad cop.
-- https://en.wikipedia.org/wiki/Good_cop,_bad_cop
 
 Virtue of silence.
 - https://www.lesswrong.com/tag/virtue-of-silence
