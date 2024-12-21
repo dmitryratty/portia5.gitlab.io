@@ -50,6 +50,7 @@ data class RatUrl(
         } else if (dstRelativePathString.endsWith(".css")
             || dstRelativePathString.endsWith(".png")
             || dstRelativePathString.endsWith(".svg")
+            || dstRelativePathString.endsWith(".jpeg")
             || dstRelativePathString.endsWith(".ico")
             || dstRelativePathString.endsWith(".json")
             || dstRelativePathString.endsWith(".webmanifest")

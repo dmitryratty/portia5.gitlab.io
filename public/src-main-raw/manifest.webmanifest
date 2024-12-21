@@ -17,11 +17,11 @@
     "shortcuts": [
         {
             "name": "One!",
-            "url": "/test",
+            "url": "/test"
         },
         {
             "name": "Two!",
-            "url": "/test/issue3/index3",
+            "url": "/test/issue3/index3"
         }
     ]
 }

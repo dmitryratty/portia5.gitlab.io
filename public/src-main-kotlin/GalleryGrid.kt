@@ -17,13 +17,14 @@ class GalleryGrid {
         val imagesInfosFile = srcRawDir.resolve("image/gallery/infos.json").toFile()
         val imagesInfos = Json.decodeFromString<List<ImageInfo>>(imagesInfosFile.readText())
         val builder = StringBuilder()
+        val displaySize = 320
         imagesInfos.forEach {
             if (builder.isNotEmpty()) builder.appendLine()
             val imgElem = """<img src="/image/gallery/${it.name}" alt="${it.name}"/>"""
             val w = it.w.toDouble()
             val h = it.h.toDouble()
             val iElem = """<i style="padding-bottom:${h/w*100}%"></i>"""
-            val divElem = """<div style="flex-grow:${w*100/h};flex-basis:${w*240/h}px;">$iElem$imgElem</div>"""
+            val divElem = """<div style="flex-grow:${w*100/h};flex-basis:${w*displaySize/h}px;">$iElem$imgElem</div>"""
             builder.append(divElem)
         }
         val template = srcRawDir.resolve("test/image/gallery-template.html").toFile()
