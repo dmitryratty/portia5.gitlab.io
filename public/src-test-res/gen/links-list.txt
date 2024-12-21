@@ -61,7 +61,6 @@ https://charstar.ai
 https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/
 https://ciechanow.ski/airfoil/
 https://cleanarctic.ru/
-https://codepen.io/johandegrieck/pen/xpVdBG
 https://coinmarketcap.com,
 https://colab.research.google.com/drive/1yLplnDxUhfOSatH46jg1r-Cb2KK4Z4BW?usp=sharing
 https://commons.wikimedia.org/wiki/Category:Glitch_art
@@ -524,6 +523,7 @@ https://portia5.gitlab.io/other
 https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
+https://portia5.gitlab.io/other/isekai
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
 https://portia5.gitlab.io/other/location
@@ -1239,6 +1239,7 @@ https://youtu.be/cHLMXlqZ3ls?si=IwrMDfXRghJa0tqI
 https://youtu.be/cNfFhtic__4?si=1Z9q0KAKaOBGpZZH
 https://youtu.be/ci2XPOvoE_M?si=vEwGYhf_3UCJu-7L
 https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
+https://youtu.be/ebv_7p2UDtk?si=aVfB44t0mFOyA-S1
 https://youtu.be/f5liqUk0ZTw?si=iIUF4zNc1ILVhcXh
 https://youtu.be/f6QFfmwFT3k?si=7aTOqx6jN8qQ5gt3
 https://youtu.be/fHBUQI2lilc?si=R4wn6ipnEpT0R0PX

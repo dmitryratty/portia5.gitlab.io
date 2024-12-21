@@ -42,5 +42,10 @@ Footnotes: https://css-tricks.com/footnote-characters
 * * *
 
 Favicon.
-- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
-- https://caniuse.com/link-icon-svg
+https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+https://caniuse.com/link-icon-svg
+
+Flex.
+https://yoksel.github.io/flex-cheatsheet/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://doka.guide/css/flexbox-guide/

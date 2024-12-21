@@ -5,22 +5,16 @@
 #include link /todo/read
 
 Gallery.
-https://yoksel.github.io/flex-cheatsheet/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://doka.guide/css/flexbox-guide/
 html css gallery layout like google photos
-https://codepen.io/johandegrieck/pen/xpVdBG
 https://github.com/xieranmaya/blog/issues/6
 https://medium.com/@danrschlosser/building-the-image-grid-from-google-photos-6a09e193c74a
 https://stackoverflow.com/questions/56778833/can-css-scale-a-set-of-images-to-fit-together-like-google-photos
 
 https://imagemagick.org/script/command-line-options.php#annotate
 
-Среднего размера пластиковую коробку для документов, мне и маме. Среднего размера пластиковую коробку для медикаментов, мне и маме. Сумки для одежды.
+Среднего размера пластиковую коробку для документов маме. Среднего размера пластиковую коробку для медикаментов, мне и маме.
 
 Ортопедический пояс в Мармеладе.
-
-Шайба для дивана.
 
 Протереть трубы от котла с этанолом от клея от скотча.
 
@@ -103,7 +97,7 @@ https://web.dev/articles/add-manifest - можно несколько ярлык
 
 Делать Факторио, только ты строишь клетки многоклеточного организма, с как можно более реальной физикой, химией, биологией.
 
-[БЕКАП]. Основной 23.11.2024, зеркало 02.02.2024.
+[БЕКАП]. Основной 2024-12-21, зеркало 2024-02-02.
 
 В карте сайта указывать время последней модификации каждой из страниц используя для отслеживания модификаций Гит. Модификации отслеживать только для контента, технические модификации игнорировать.
 
