@@ -50,6 +50,10 @@
 
 * * *
 
+#include /diary/boxes
+
+* * *
+
 #include /diary/yard-stories
 
 * * *
