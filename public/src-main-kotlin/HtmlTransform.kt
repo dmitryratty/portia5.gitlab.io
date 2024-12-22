@@ -26,14 +26,47 @@ class HtmlTransform(
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
 
-    private val bottomNavigationHtml = "\n    <p class=\"dinkus\">* * *</p>" +
-            "\n\n    <p>🏠 <a href=\"/\">$HOST_NAME</a></p>"
+    private val articleTextDivStart = """<div class="article-text">"""
+    private val bottomNavigationDinkus = """<p class="dinkus">* * *</p>"""
+    private val bottomNavigationHome = """<p>🏠 <a href="/">$HOST_NAME</a></p>"""
+    private val bottomNavigationHtml = "    $articleTextDivStart" +
+            "\n    $bottomNavigationDinkus" +
+            "\n\n    $bottomNavigationHome\n    </div>"
 
     fun htmlPage(title: String, body: String, bottomNavigation: Boolean): String {
         return htmlTemplate
             .replace("<!--TITLE-->", title)
-            .replace("<!--DATA-->", "    $body")
+            .replace("<!--DATA-->", body)
             .replace("<!--DATA-FOOTER-->", if (bottomNavigation) bottomNavigationHtml else "")
+    }
+
+    var inText = false
+
+    fun textToHtml(url: RatUrl, text: String): String {
+        val article = StringBuilder()
+        article.append("    ")
+        article.append(articleTextDivStart)
+        article.appendLine()
+        inText = true
+        val paragraphs = StringBuilder()
+        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
+            if (paragraphs.isEmpty()) {
+                paragraphs.append("    ")
+            } else {
+                paragraphs.append("\n\n    ")
+            }
+            try {
+                paragraphs.append(transformParagraph(url, paragraph))
+            } catch (e: Exception) {
+                throw IllegalStateException(url.srcRelativePathString, e)
+            }
+        }
+        article.append(paragraphs)
+        if (inText) {
+            article.appendLine()
+            article.append("""    </div>""")
+        }
+        return article.toString()
     }
 
     private fun makeNoWrap(word: String): String {
@@ -133,7 +166,13 @@ class HtmlTransform(
     }
 
     fun transformLine(url: RatUrl, line: String): String {
-        return lineTransform.transform(url, line, ::transformWord)
+        if (line.startsWith("#gallery")) {
+            inText = false
+            val path = line.split(" ")[1]
+            return "\n    </div>\n" + GalleryGrid().resolve(path)
+        } else {
+            return lineTransform.transform(url, line, ::transformWord)
+        }
     }
 
     val beautifiedShortSeparator = TextTypography().beautifiedShortSeparator
@@ -156,20 +195,5 @@ class HtmlTransform(
         result.append(lines.joinToString("\n        $brElement"))
         result.append("</p>")
         return result.toString()
-    }
-
-    fun textToHtml(url: RatUrl, text: String): String {
-        val article = StringBuilder()
-        UtilsAbsolute.splitToParagraphs(text).forEach { paragraph ->
-            if (article.isNotEmpty()) {
-                article.append("\n\n    ")
-            }
-            try {
-                article.append(transformParagraph(url, paragraph))
-            } catch (e: Exception) {
-                throw IllegalStateException(url.srcRelativePathString, e)
-            }
-        }
-        return article.toString()
     }
 }

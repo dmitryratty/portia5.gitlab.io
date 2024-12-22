@@ -38,7 +38,7 @@ class TextTypography {
 
     fun transformParagraph(url: RatUrl, paragraph: String): String {
         if (paragraph == shortSeparator) return beautifiedShortSeparator
-        if (paragraph == "...") return "•••"
+        if (paragraph == "...") return "∙∙∙"
         val result = StringBuilder()
         UtilsAbsolute.splitParagraphToLines(paragraph).forEach { line ->
             if (result.isNotEmpty()) {

@@ -397,7 +397,6 @@ https://opennet.ru
 https://ourworldindata.org/causes-of-death
 https://ourworldindata.org/obesity
 https://paulgraham.com/best.html
-https://photos.app.goo.gl/cyMduFVEtaxDuT627
 https://pi-hole.net/
 https://pikabu.ru/reply-stories/11797244
 https://pikabu.ru/story/chto_tyi_takoe_top5_samyikh_paradoksalnyikh_form_zhizni_planetyi_zemlya_vyipusk_1_11897405
@@ -548,7 +547,6 @@ https://portia5.gitlab.io/test/favicon-oneliner
 https://portia5.gitlab.io/test/font-size/1
 https://portia5.gitlab.io/test/font-size/2
 https://portia5.gitlab.io/test/gallery
-https://portia5.gitlab.io/test/image/gallery-template
 https://portia5.gitlab.io/test/image/test1
 https://portia5.gitlab.io/test/image/test2
 https://portia5.gitlab.io/test/image/test3
@@ -1036,6 +1034,7 @@ https://www.lesswrong.com/tag/virtue-of-silence
 https://www.litres.ru/book/sana-miller/proverka-na-realnost-42672619/
 https://www.luminaprobiotic.com
 https://www.mathnet.ru/rus/mp18
+https://www.metaculus.com
 https://www.mirror.co.uk/news/uk-news/girl-9-rehab-after-becoming-12673590
 https://www.muckrock.com/news/archives/2015/jul/21/nothing-indicate-nothing-indicate-subject-had-any-/
 https://www.mxkrsv.dev/posts/nixos-migration
@@ -1248,6 +1247,7 @@ https://youtu.be/fHOiOQfcREI?si=Eh0WhJdStPPFqgH-
 https://youtu.be/gBMEwunuEUI?si=c70hsmMjnlsDqcXE
 https://youtu.be/geOXs84N2Ws?si=u50GtkRJJin0JQbb
 https://youtu.be/hF0v6yl5upQ?si=QW-F7Aq_lMF1tOB4
+https://youtu.be/hL_Uiq3obeI?si=Y5CT2bCiaJFoVRoC
 https://youtu.be/hN_r91wEBkw?si=oA_A5YJMtoOHR0_q
 https://youtu.be/iCgEVq51QCU?si=4WhkdkzPf3YpRrER
 https://youtu.be/iEZJmvstpo4?si=z3xh7U_kj5mbjH0p

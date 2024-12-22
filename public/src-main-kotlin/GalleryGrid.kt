@@ -2,6 +2,8 @@
 import UtilsAbsolute.srcRawDir
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import java.nio.file.Paths
+import kotlin.io.path.absolutePathString
 
 class GalleryGrid {
     companion object {
@@ -13,8 +15,9 @@ class GalleryGrid {
     @Serializable
     data class ImageInfo(val name: String, val w: Int, val h: Int)
 
-    fun main() {
-        val imagesInfosFile = srcRawDir.resolve("image/gallery/infos.json").toFile()
+    fun resolve(path: String): String {
+        val rawDirPath = srcRawDir.absolutePathString()
+        val imagesInfosFile = Paths.get("$rawDirPath$path/infos.json").toFile()
         val imagesInfos = Json.decodeFromString<List<ImageInfo>>(imagesInfosFile.readText())
         val displaySizeHorizontal = 300
         val displaySizeSquare = 340
@@ -36,8 +39,13 @@ class GalleryGrid {
         }
         builder.appendLine()
         builder.append("""</div>""")
-        val template = srcRawDir.resolve("test/image/gallery-template.html").toFile()
+        return builder.toString()
+    }
+
+    fun main() {
+        val html = resolve("/image/gallery")
+        val template = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile()
         srcRawDir.resolve("test/image/test4.html").toFile().writeText(
-            template.readText().replace("<!-- IMAGES -->", builder.toString()))
+            template.readText().replace("<!--DATA-->", html))
     }
 }

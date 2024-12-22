@@ -2,5 +2,4 @@
 
 << * * * >>
 
-Позже сделаю отображение фотографий тут, пока вот альбомом в другом месте.
-- https://photos.app.goo.gl/cyMduFVEtaxDuT627
+#gallery /image/gallery
