@@ -14,6 +14,7 @@ https://portia5.gitlab.io/chaos-chaos
 https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
 https://portia5.gitlab.io/chaos/telegram
+https://portia5.gitlab.io/chaos/visited
 https://portia5.gitlab.io/chaos/web
 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/diary-chaos

@@ -446,6 +446,7 @@ https://portia5.gitlab.io/chaos-chaos
 https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
 https://portia5.gitlab.io/chaos/telegram
+https://portia5.gitlab.io/chaos/visited
 https://portia5.gitlab.io/chaos/web
 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/contacts
@@ -577,6 +578,8 @@ https://portia5.gitlab.io/vidya/other
 https://portia5.gitlab.io/wealth
 https://portia5.gitlab.io/wealth-chaos
 https://privacyspreadsheet.com/messaging-apps
+https://proza.ru/2009/03/09/639
+https://proza.ru/2009/12/27/1308
 https://puzzles.mit.edu/2013/coinheist.com/rubik/a_regular_crossword/grid.pdf
 https://qol-research.aidiakapi.com/
 https://rationalanswer.club
@@ -622,6 +625,7 @@ https://rumble.com
 https://school-assistant.ru/?class=5_matematika
 https://science.org
 https://shakko.ru/1980385.html
+https://simulation-argument.com/simulation/
 https://skillbox.ru/media/code/andrey-sitnik-o-sekspozitivizme-bdsm-i-pyatnichnykh-nyudsakh/
 https://softwarefoundations.cis.upenn.edu/lf-current/index.html
 https://source.android.com/docs/security/features/apksigning/v2
@@ -814,6 +818,7 @@ https://t.me/mf699/13606
 https://t.me/mf699/13610
 https://t.me/mf699/13872
 https://t.me/mf699/2027
+https://t.me/mikka_kikkaa
 https://t.me/mind_rise
 https://t.me/miniclippy
 https://t.me/mirf_ru
@@ -1019,6 +1024,7 @@ https://www.figma.com/blog/line-height-changes/
 https://www.forbes.ru/forbeslife/521029-bolen-den-gami-kak-svazany-finansy-i-psihologiceskoe-zdorov-e
 https://www.hillelwayne.com
 https://www.howtogeek.com/192732/android-usb-connections-explained-mtp-ptp-and-usb-mass-storage/
+https://www.ibm.com/docs/ru/cognos-analytics/12.0.0?topic=terms-normal-distribution
 https://www.inpearls.ru/2006987
 https://www.inpearls.ru/477869
 https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
@@ -1173,7 +1179,9 @@ https://youtu.be/AcQPMvYw2yQ?si=zKoUGVk2KQWIdXvn
 https://youtu.be/AgQjHe0PCho?si=DXDprP1N8aVcSTk-
 https://youtu.be/Ahaey-1g9oM?si=GYCvCJT1zVNsJOrE
 https://youtu.be/BU2aL0WSWO8?si=UypxMCkvaG0X2uG2
+https://youtu.be/BceXEvgEs1I?si=C_NdnLdIZhYVPGQQ
 https://youtu.be/BmUZ2wp1lM8?si=3NP-mYcoeNoUsQga
+https://youtu.be/Bp3QQXM8P54?si=VMryz0p_T0aMrVcX
 https://youtu.be/BrK7X_XlGB8?si=7V7f7FIIuSOyVHF3
 https://youtu.be/BwWzSyxNc9I?si=bm4f7D8ZRx6ja_gV
 https://youtu.be/C1fMOPfHDJ0?si=IFphvcE9iB1kaGpq
@@ -1183,6 +1191,7 @@ https://youtu.be/CFVT5fOlFFc?si=fhYRknCmbkn1lFim
 https://youtu.be/CWnqX41JHuM?si=G5uHlw9nulKxcbV_
 https://youtu.be/D-Xrts4lIgI?si=iCXBtOpkBU6KLcxd
 https://youtu.be/DWpX4We62dg?si=lzl8XQ5G2VB50bjP
+https://youtu.be/EScLmWJs82I?si=TCMZLzKFnSzGQR5t
 https://youtu.be/Ed1gsyxxwM0?si=BJL2UGOBJdhOx63q
 https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/FDjeRloNgx0?si=eXBoHefnQZApfcII
@@ -1202,14 +1211,17 @@ https://youtu.be/KqkASxt6hG0?si=U7iFfkxTvR5TYWcG
 https://youtu.be/MBRqu0YOH14?si=LlNsg_1PRoxoy0RW
 https://youtu.be/MXBCMgq7_xY?si=51Yd6sYtephXdVAU
 https://youtu.be/MzubNgsQsog?si=eUw6hVbAWq31mJFa
+https://youtu.be/NocXEwsJGOQ?si=s804x7PBKEdFPtkS
 https://youtu.be/OmJ-4B-mS-Y?si=bBWOSbdlpQ7kV9Bz
 https://youtu.be/P3Xmw4xUN94?si=OVeAtcjTHds5igM2
 https://youtu.be/Pjn548697IQ?si=wxYGu6a7Z7rryvvw
 https://youtu.be/Q8yUlKyYkaU?si=SdLW5f9nzfzx9Evt
+https://youtu.be/QwdbFNGCkLw?si=05MFEPzk_D3EGHJX
 https://youtu.be/RGrAFUFOcAY?si=BbE4XsN85XU0A_nD
 https://youtu.be/R_uS0aT0bG8?si=7tLLI05ROYa-yA0m
 https://youtu.be/RjS5FYpLC9U?si=AyXQxtw-iw6x2X3L
 https://youtu.be/TEuj0sR2Qzo?si=PxK_LFzct5YWiXS9
+https://youtu.be/TU3CGNvYVTU?si=5WfUxCufzQaMInpn
 https://youtu.be/U9jQ8CwgefQ?si=3NJze75qotvvel-b
 https://youtu.be/UBKlEMZoykc?si=GVz5oZD95y7-xYM-
 https://youtu.be/Udz7ZkIZJco?si=oo0feroNw5eBVSMm
@@ -1229,6 +1241,7 @@ https://youtu.be/Zo6UnKr6Bwg?si=RIjm30KZXUyzMKRJ
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/_V17JN76uxc?si=TdlkbyFrfmrZ590l
+https://youtu.be/_mLdYlqQcg8?si=8HMWg64EtvbHQlcZ
 https://youtu.be/a7wAwYiWhAo?si=LxmokSCPWoTYFwga
 https://youtu.be/aBcqQsL9dsU?si=vN25zfWJwXfvEerz
 https://youtu.be/aR-KAldshAE?si=bE__h6wUZXqKvf_q
@@ -1260,10 +1273,13 @@ https://youtu.be/ixQfL9LWt8k?si=n-MPhygHJvCPtF-E
 https://youtu.be/jSa-ngVZdXY?si=w0iImZef35gFv4mY
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
 https://youtu.be/jriKTbsxWyg?si=2UEDbvS2ySs43Qj5
+https://youtu.be/jvEmoKgUVU0?si=eGRgQhBdtS91lQac
+https://youtu.be/jvEmoKgUVU0?si=rQfiebm-HT6_hN1C
 https://youtu.be/jyXvoBxPP8I?si=wiQcPg_rtmEnX71A
 https://youtu.be/kldWRbWcsw4?si=dwxxVbD-c1bXOmhT
 https://youtu.be/l4GQ2fNxibs?si=nAr-lMG2bKd5VYfD
 https://youtu.be/lPVBrRd9wCo?si=86FieHH-X9kPBBbm
+https://youtu.be/lXnw5hrc1bs?si=dcUyFnfyVmre2_qk
 https://youtu.be/lchZurZgsEM?si=uOzG4AL3Md9QIBHK
 https://youtu.be/m0P2Y--Gwo0?si=PY4BFXwBne3go3MI
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
@@ -1277,6 +1293,7 @@ https://youtu.be/oGfVHdvLApI?si=I-F8hrte8QEIiVUV
 https://youtu.be/oLUx_tAIrBk?si=X3RAFDoDmA9zq6Yv
 https://youtu.be/oq-SDnabu0o?si=936Dml0ra5d9VLGJ
 https://youtu.be/ou9THu2g3I4?si=UoUCe2UlmQTOvQSd
+https://youtu.be/pI4tDxRElWI?si=IPe7xOPzoHDgk9s1
 https://youtu.be/pR0HQUSnGTA?si=e42MG_8FlYaZPmyc
 https://youtu.be/plFe27sXXVY?si=AJ3MYcpYlHz_qYSl
 https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
@@ -1304,6 +1321,7 @@ https://youtu.be/ycfM6XGBE30?si=b30xise7gF1kaP1r
 https://youtu.be/zH1AXMUwxrg?si=TvNjRQoJW0M6TNvh
 https://youtu.be/zXX0Sa0Zn-k?si=nkP2NENOPW3OHKc-
 https://youtu.be/zcRUj8H3rc4?si=OayM-TFHkxsBKlZ1
+https://youtu.be/zg2yp9NHYEQ?si=8zUpQQHGRpBFNSUK
 https://youtu.be/zo0xMZZzkp4?si=s8T9Vi7UQjTRlpDe
 https://youtube.com/c/3blue1brown
 https://youtube.com/c/MichaelPennMath

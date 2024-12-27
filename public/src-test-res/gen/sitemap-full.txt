@@ -104,6 +104,7 @@
 [3] /chaos/horned-goodness[.html]
 [3] /chaos/llm-ale[.html]
 [3] /chaos/telegram[.html]
+[3] /chaos/visited[.html]
 [3] /chaos/web[.html]
 [3] /chaos/youtube[.html]
 [3] /contacts[.html]
