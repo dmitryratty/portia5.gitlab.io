@@ -25,7 +25,7 @@ class GalleryGrid {
         builder.append("""<div class="justified-image-grid">""")
         imagesInfos.forEach {
             if (builder.isNotEmpty()) builder.appendLine()
-            val imgElem = """<img src="/image/gallery/${it.name}" alt="${it.name}"/>"""
+            val imgElem = """<img src="$path/${it.name}" alt="${it.name}"/>"""
             val w = it.w.toDouble()
             val h = it.h.toDouble()
             val displaySize = if (w > h) displaySizeHorizontal else displaySizeSquare

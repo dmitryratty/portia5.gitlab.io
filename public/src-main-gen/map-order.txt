@@ -20,6 +20,7 @@ https://portia5.gitlab.io
         2 https://portia5.gitlab.io/music
         2 https://portia5.gitlab.io/news
         2 https://portia5.gitlab.io/other/thou-art-godshatter
+        2 https://portia5.gitlab.io/selfie
         2 https://portia5.gitlab.io/todo
             3 https://portia5.gitlab.io/todo/humour
             3 https://portia5.gitlab.io/todo/read

@@ -20,6 +20,8 @@ INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, I
 
 #include link /music
 
+#include link /selfie
+
 #include link /todo
 
 #include link /other/thou-art-godshatter

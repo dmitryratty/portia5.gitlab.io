@@ -85,6 +85,17 @@
 [2] /image/gallery/8.jpeg
 [2] /image/gallery/9.jpeg
 [2] /image/gallery/infos.json
+[2] /image/selfie/1.jpeg
+[2] /image/selfie/10.jpeg
+[2] /image/selfie/2.jpeg
+[2] /image/selfie/3.jpeg
+[2] /image/selfie/4.jpeg
+[2] /image/selfie/5.jpeg
+[2] /image/selfie/6.jpeg
+[2] /image/selfie/7.jpeg
+[2] /image/selfie/8.jpeg
+[2] /image/selfie/9.jpeg
+[2] /image/selfie/infos.json
 [2] /manifest.webmanifest
 [2] /test/font-size/main.css
 [2] /test/image/game-die.svg
@@ -188,6 +199,7 @@
 [3] /other/routine[.html]
 [3] /other/thou-art-godshatter[.html]
 [3] /other/transparent-society[.html]
+[3] /selfie[.html]
 [3] /technology[.html]
 [3] /technology-chaos[.html]
 [3] /technology/hardware[.html]
