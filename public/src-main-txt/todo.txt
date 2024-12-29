@@ -111,6 +111,10 @@ https://web.dev/articles/add-manifest - можно несколько ярлык
 - Бывает ли это мигание в обычном браузере или это только в браузере прикреплённом к какому-то приложению?
 - Поймал мигание без PWA.
 - 2024, поймано мигание, при этом у нас сейчас только 1 CSS файл, так что это не из-за подгрузки инклюдов других файлов.
+- Мигает весь текст, не только сама ссылка.
+css why text style changes after first click on link
+  - https://stackoverflow.com/questions/14114544/links-are-changing-font-on-click
+    - suspect: a, a:visited, a:hover, a:active { color: inherit; word-wrap: break-word; }
 
 Intel's remote Active Management Technology vulnerablity. https://mjg59.dreamwidth.org/48429.html https://github.com/mjg59/mei-amt-check
 

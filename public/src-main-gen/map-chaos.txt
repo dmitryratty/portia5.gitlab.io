@@ -8,15 +8,8 @@ https://portia5.gitlab.io/chaos
     1 https://portia5.gitlab.io/other/coincidence-think
     1 https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/chaos-chaos
-    1 https://portia5.gitlab.io/chaos/telegram
-    1 https://portia5.gitlab.io/chaos/web
-    1 https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
-https://portia5.gitlab.io/chaos/telegram
-https://portia5.gitlab.io/chaos/visited
-https://portia5.gitlab.io/chaos/web
-https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/diary-chaos
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
@@ -53,6 +46,14 @@ https://portia5.gitlab.io/diary/wire-cutters-music
 https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics-chaos
+https://portia5.gitlab.io/exploration
+    1 https://portia5.gitlab.io/exploration/telegram
+    1 https://portia5.gitlab.io/exploration/web
+    1 https://portia5.gitlab.io/exploration/youtube
+https://portia5.gitlab.io/exploration/telegram
+https://portia5.gitlab.io/exploration/visited
+https://portia5.gitlab.io/exploration/web
+https://portia5.gitlab.io/exploration/youtube
 https://portia5.gitlab.io/humour-chaos
 https://portia5.gitlab.io/humour/math-methods
 https://portia5.gitlab.io/humour/the-dragonfly-and-the-ant
@@ -74,7 +75,6 @@ https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/life/sakalauskas-case
 https://portia5.gitlab.io/map-order
-https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
@@ -115,7 +115,8 @@ https://portia5.gitlab.io/test/tf2
 https://portia5.gitlab.io/test/tf3
 https://portia5.gitlab.io/test/urlmapping/a
 https://portia5.gitlab.io/test/urlmapping/a/b
-https://portia5.gitlab.io/test/wrap
+https://portia5.gitlab.io/test/wrap1
+https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
 https://portia5.gitlab.io/todo-chaos
 https://portia5.gitlab.io/vidya-chaos

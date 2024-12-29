@@ -122,9 +122,6 @@ body {
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
-  /* Allowing link wrapping at any point to prevent appearance of horizontal
-   scroll due to long links. */
-  word-wrap: break-word;
 }
 .nowrap {
   white-space: nowrap;

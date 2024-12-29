@@ -445,10 +445,6 @@ https://portia5.gitlab.io/chaos
 https://portia5.gitlab.io/chaos-chaos
 https://portia5.gitlab.io/chaos/horned-goodness
 https://portia5.gitlab.io/chaos/llm-ale
-https://portia5.gitlab.io/chaos/telegram
-https://portia5.gitlab.io/chaos/visited
-https://portia5.gitlab.io/chaos/web
-https://portia5.gitlab.io/chaos/youtube
 https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary
 https://portia5.gitlab.io/diary-chaos
@@ -488,6 +484,11 @@ https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics
 https://portia5.gitlab.io/ethics-chaos
+https://portia5.gitlab.io/exploration
+https://portia5.gitlab.io/exploration/telegram
+https://portia5.gitlab.io/exploration/visited
+https://portia5.gitlab.io/exploration/web
+https://portia5.gitlab.io/exploration/youtube
 https://portia5.gitlab.io/gallery
 https://portia5.gitlab.io/humour
 https://portia5.gitlab.io/humour-chaos
@@ -519,6 +520,7 @@ https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/mathematics/kindergarten
 https://portia5.gitlab.io/music
 https://portia5.gitlab.io/music-chaos
+https://portia5.gitlab.io/music-chaos-chaos
 https://portia5.gitlab.io/news
 https://portia5.gitlab.io/other
 https://portia5.gitlab.io/other/coincidence-think
@@ -564,7 +566,8 @@ https://portia5.gitlab.io/test/tf2
 https://portia5.gitlab.io/test/tf3
 https://portia5.gitlab.io/test/urlmapping/a
 https://portia5.gitlab.io/test/urlmapping/a/b
-https://portia5.gitlab.io/test/wrap
+https://portia5.gitlab.io/test/wrap1
+https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
 https://portia5.gitlab.io/todo
 https://portia5.gitlab.io/todo-chaos
@@ -635,6 +638,7 @@ https://space.org
 https://spacemath.xyz
 https://spacetime.com
 https://stackoverflow.com/questions/12976424/how-to-remove-characters-from-a-font-file
+https://stackoverflow.com/questions/14114544/links-are-changing-font-on-click
 https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs
 https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html
 https://stackoverflow.com/questions/32413731/color-for-unicode-emoji
@@ -1158,6 +1162,7 @@ https://youtu.be/0VFpX6W--44?si=quwEuU2duUEqXFNK
 https://youtu.be/0k0JZ5yveow?si=wkbuZ1BVJT8Zzk8w
 https://youtu.be/0nz0iaNvVpE?si=QlyDg2HzW6y-vd3D
 https://youtu.be/1FSnAMe5WXE?si=HHHgCe5gC07tekyG
+https://youtu.be/1f0eSejlzLo?si=DledsrutYOD1lphE
 https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
 https://youtu.be/25g8IPXN2mY?si=gIDxSHazTFolVj0z
 https://youtu.be/37eEUsd1ASA?si=qa9dDzt9aazq61xA
@@ -1171,7 +1176,7 @@ https://youtu.be/5VXuUZT3BPY?si=_Uun90AT5hE-vrzg
 https://youtu.be/6cU8JRBp920?si=m5jljBynoDu9gMbL
 https://youtu.be/7m4I-BrbMqE?si=AcNER26lMzerEOWR
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
-https://youtu.be/8JXiXt0D6tw?si=q9qT7o-fT6gVzKr8
+https://youtu.be/8JXiXt0D6tw?si=xDO_3uJ9uHPdp26F
 https://youtu.be/8zZQwC31P7U?si=i-EYo_ruiGtPBjeu
 https://youtu.be/9ZzFZYQv90w?si=maWE6HOlbpDUb8F5
 https://youtu.be/9yRRV8HfG68?si=5KdeLIHS6fCypZnF
@@ -1249,7 +1254,9 @@ https://youtu.be/aBcqQsL9dsU?si=vN25zfWJwXfvEerz
 https://youtu.be/aR-KAldshAE?si=bE__h6wUZXqKvf_q
 https://youtu.be/aYCuEONIIDM?si=kgkJBUE83EdPXlIT
 https://youtu.be/ao2Jfm35XeE?si=rI285ckSdurDfOoE
+https://youtu.be/apqGmN01aaA?si=QCM2YFu5dsMvFlif
 https://youtu.be/asr6_eNCuoU?si=x97cVDWULexvaGOc
+https://youtu.be/bwM0gP1p0xw?si=qKhbO8a5PONoqcB-
 https://youtu.be/cHLMXlqZ3ls?si=IwrMDfXRghJa0tqI
 https://youtu.be/cNfFhtic__4?si=1Z9q0KAKaOBGpZZH
 https://youtu.be/ci2XPOvoE_M?si=vEwGYhf_3UCJu-7L
@@ -1300,11 +1307,13 @@ https://youtu.be/pR0HQUSnGTA?si=e42MG_8FlYaZPmyc
 https://youtu.be/pdenALKNA8w?si=mHsruXTMhrHF4nIW
 https://youtu.be/plFe27sXXVY?si=AJ3MYcpYlHz_qYSl
 https://youtu.be/qOZqGUCrje8?si=Isl2R0tucuagmDc5
+https://youtu.be/qaIbUAkSYEU?si=HCwvz4bpebJ8mGeG
 https://youtu.be/qeAG4aoEjcw?si=HbhmESPEpkf_zfTv
 https://youtu.be/qqRsB8t7DDE?si=7rc8np9OeEtaICOI
 https://youtu.be/rR8W-f9YhYA?si=yDArNMZRjUmlLpKK
 https://youtu.be/roCUxbSkYJk?si=dI607hQi_A0jTAu-
 https://youtu.be/rxaTAFXgykU?si=DwY0vSabMnZhWf2K
+https://youtu.be/s2z4oqebQso?si=ydidrGmH0rmLC9Cd
 https://youtu.be/sVx1mJDeUjY?si=mavtxOh1AYErJH04
 https://youtu.be/sZ1oH4MvBWM?si=UmA_QxqtYW7GTixA
 https://youtu.be/tx2uV_GOB68?si=UmGn57lgG3fskfkW
@@ -1318,9 +1327,11 @@ https://youtu.be/wcUouLOmQuU?si=CicQ8pMERW4uj6BF
 https://youtu.be/wfYbgdo8e-8?si=NJl55yp4Xk3wM4Sn
 https://youtu.be/xkNiMuBhkbE?si=FwAn3P2HrVDt01jZ
 https://youtu.be/xkNiMuBhkbE?si=voz050JFeL-LOdqz
+https://youtu.be/xyB1JiNa1bc?si=5ZskNp3nG4fJnyuo
 https://youtu.be/y10qkk6VqYo?si=7q5U5SmI41tgGOJo
 https://youtu.be/y9pTbMoufp4?si=9lufGkhU2Zyljjam
 https://youtu.be/ycfM6XGBE30?si=b30xise7gF1kaP1r
+https://youtu.be/ycft2j9dcz8?si=3_PGTjCuOqpTmMUW
 https://youtu.be/zH1AXMUwxrg?si=TvNjRQoJW0M6TNvh
 https://youtu.be/zXX0Sa0Zn-k?si=nkP2NENOPW3OHKc-
 https://youtu.be/zcRUj8H3rc4?si=OayM-TFHkxsBKlZ1
