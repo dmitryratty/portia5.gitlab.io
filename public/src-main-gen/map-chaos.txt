@@ -75,6 +75,7 @@ https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/life/sakalauskas-case
 https://portia5.gitlab.io/map-order
+https://portia5.gitlab.io/music-chaos-chaos
 https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
