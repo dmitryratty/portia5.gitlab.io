@@ -29,9 +29,5 @@ https://portia5.gitlab.io
     1 https://portia5.gitlab.io/technology
         2 https://portia5.gitlab.io/mathematics/kindergarten
         2 https://portia5.gitlab.io/technology/ubuntu
-        2 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
     1 https://portia5.gitlab.io/vidya
         2 https://portia5.gitlab.io/vidya/addiction
-        2 https://portia5.gitlab.io/vidya/factorio
-            3 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
-        2 https://portia5.gitlab.io/vidya/other

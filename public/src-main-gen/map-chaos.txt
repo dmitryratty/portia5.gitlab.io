@@ -46,14 +46,6 @@ https://portia5.gitlab.io/diary/wire-cutters-music
 https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics-chaos
-https://portia5.gitlab.io/exploration
-    1 https://portia5.gitlab.io/exploration/telegram
-    1 https://portia5.gitlab.io/exploration/web
-    1 https://portia5.gitlab.io/exploration/youtube
-https://portia5.gitlab.io/exploration/telegram
-https://portia5.gitlab.io/exploration/visited
-https://portia5.gitlab.io/exploration/web
-https://portia5.gitlab.io/exploration/youtube
 https://portia5.gitlab.io/humour-chaos
 https://portia5.gitlab.io/humour/math-methods
 https://portia5.gitlab.io/humour/the-dragonfly-and-the-ant
@@ -121,4 +113,9 @@ https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
 https://portia5.gitlab.io/todo-chaos
 https://portia5.gitlab.io/vidya-chaos
+https://portia5.gitlab.io/vidya/factorio
+    1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
+https://portia5.gitlab.io/vidya/factorio/smooth-warnings
+https://portia5.gitlab.io/vidya/other
+https://portia5.gitlab.io/viewed
 https://portia5.gitlab.io/wealth-chaos

@@ -4,12 +4,6 @@
 
 #include link /todo/read
 
-Gallery.
-html css gallery layout like google photos
-https://github.com/xieranmaya/blog/issues/6
-https://medium.com/@danrschlosser/building-the-image-grid-from-google-photos-6a09e193c74a
-https://stackoverflow.com/questions/56778833/can-css-scale-a-set-of-images-to-fit-together-like-google-photos
-
 https://imagemagick.org/script/command-line-options.php#annotate
 
 Среднего размера пластиковую коробку для документов маме. Среднего размера пластиковую коробку для медикаментов, мне и маме.
@@ -92,6 +86,8 @@ https://web.dev/articles/add-manifest - можно несколько ярлык
 Сайт, где можно публиковать свои идеи, которые вы считаете удачными, но на реализацию которых не хватает времени или желания, и вы хотите, чтобы кто-то другой за это взялся. Идеям можно плюсовать рейтинг. Рейтинг определяет позицию в выдаче.
 
 Способ заставить себя заниматься спортом для слабовольных людей. Человек оставляет в зале некоторую сумму денег, которую он может забрать, когда решает закончить занятия в этом зале. Но если он пропускает тренировку, то у него из этих оставленных средств вычитается штраф, который ему уже ни при каких обстоятельствах не вернут.
+
+https://developer.android.com/build/extend-agp
 
 Расширения у браузеров это хорошо, стоило бы перейти на какой-то браузер, который поддерживает расширения и на смартах.
 

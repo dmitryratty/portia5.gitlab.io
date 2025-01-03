@@ -12,9 +12,31 @@
 
 Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
 
+* * *
+
 Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web browser. Amnezia, VPN. Amaze, file manager. Termux. Fossify Contacts. VLC, media player.
 
 #include link /technology/ubuntu
+
+* * *
+
+Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 2013-11-23. Is punishment or reward more effective for helping people learn? A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This finding has been verified not just with humans, but also with other species. <•> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
+- https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+
+IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
+- https://en.wikipedia.org/wiki/InterPlanetary_File_System
+
+* * *
+
+https://google.github.io/styleguide/cppguide.html
+
+https://www.tutorialspoint.com/compile_cpp_online.php
+
+https://codepen.io
+
+https://console.firebase.google.com
+
+* * *
 
 2024-12-01. Мне не нравится "/" в конце URL в случае directory.
 - https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
@@ -39,14 +61,6 @@ Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web brow
 2024-12-06. В Bitwarden нет тегов для записей, только папки.
 
 2024-12-06. Brave Web Browser на Linux, далее Settings, далее Privacy and security, далее Site and Shields Settings, далее Block cookies, далее Sites allowed to use third-party cookies, далее если в этом списке сайтов жать напротив сайта кнопку удаления в виде корзины, то ничего не происходит, сайт не удаляется, кнопка не работает.
-
-Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 2013-11-23. Is punishment or reward more effective for helping people learn? A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This finding has been verified not just with humans, but also with other species. <•> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
-- https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
-
-IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
-- https://en.wikipedia.org/wiki/InterPlanetary_File_System
-
-#include link /vidya/factorio/smooth-warnings
 
 * * *
 
