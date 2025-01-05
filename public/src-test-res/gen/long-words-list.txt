@@ -15,6 +15,8 @@
 (https://lesswrong.ru/w/%D0%9F%D1%80%D0%B8%D1%82%D1%87%D0%B0_%D0%BE_%D0%B1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5)
 (https://lesswrong.ru/w/%D0%9F%D1%80%D0%B8%D1%82%D1%87%D0%B0_%D0%BE_%D0%B1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5):
 /etc/systemd/journald.conf
+/home/unzen/.config/Google/AndroidStudio2024.2/keymaps/
+/home/unzen/.config/JetBrains/IdeaIC2024.3/keymaps/
 /home/unzen/.local/bin/adb
 /home/unzen/Droid/sdk/platform-tools/adb
 /var/cache/apt/archives/libkcolorpicker-qt6-0_0.3.1-0xneon+22.04+jammy+release+build2_amd64.deb

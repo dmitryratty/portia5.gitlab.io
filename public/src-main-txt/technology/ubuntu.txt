@@ -44,6 +44,10 @@ ln -s /home/unzen/Droid/sdk/platform-tools/adb /home/unzen/.local/bin/adb
 
 Thunderbird - всегда показывать скроллбары.
 
+Idea. /home/unzen/.config/JetBrains/IdeaIC2024.3/keymaps/
+
+Android Studio. /home/unzen/.config/Google/AndroidStudio2024.2/keymaps/
+
 * * *
 
 Reinstall GRUB.

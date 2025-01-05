@@ -4,11 +4,15 @@
 
 #include link /todo/read
 
+#include link /todo/humour
+
+* * *
+
+Данные с второго ноутбука в диск бекапа и на первый ноутбук.
+
+Среднего размера пластиковую коробку для документов маме. Среднего размера пластиковую коробку для медикаментов, мне и маме. Футболки с вырезом. Бейсболка. Кроссовки. Ортопедический пояс в Мармеладе.
+
 https://imagemagick.org/script/command-line-options.php#annotate
-
-Среднего размера пластиковую коробку для документов маме. Среднего размера пластиковую коробку для медикаментов, мне и маме.
-
-Ортопедический пояс в Мармеладе.
 
 Протереть трубы от котла с этанолом от клея от скотча.
 
@@ -25,12 +29,18 @@ https://www.samoyedcoin.com
 Максимальный размер шрифта должен устанавливаться при максимальной ширине колонки текста, а ширина полей по сторонам от колонки текста на размер шрифта влиять не должна. Можно скопировать настройки шрифта с Википедии.
 - :root { font-size: calc(0.85rem + min(5rem, 0.1vw)) }
 
+Опенсорсная галерея, камера и может что-то ещё от https://github.com/FossifyOrg
+
 Emoji. Код установки шрифта эмодзи, возможно он исправит то, что на Винде показывает некрасивые эмодзи.
 - https://github.com/manifoldmarkets/manifold/blob/main/web/styles/globals.css
 - https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/
 - https://fullystacked.net/using-emoji-on-the-web/
 
 Вырезать комментарии из HTML.
+
+Селфхост облака типа OwnCloud/NextCloud.
+
+Отсканировать все документы, фотографии и рисунки. Сканы фотографий отправить родственникам.
 
 Проверять живость всех ссылок.
 
@@ -113,5 +123,3 @@ css why text style changes after first click on link
     - suspect: a, a:visited, a:hover, a:active { color: inherit; word-wrap: break-word; }
 
 Intel's remote Active Management Technology vulnerablity. https://mjg59.dreamwidth.org/48429.html https://github.com/mjg59/mei-amt-check
-
-#include link /todo/humour

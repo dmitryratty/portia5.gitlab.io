@@ -24,13 +24,58 @@
 
 https://mods.factorio.com/mod/Companion_Drones
 https://mods.factorio.com/mod/companion-drones-rebalanced
+
 https://mods.factorio.com/mod/Companion_Drones-flux
 https://mods.factorio.com/mod/companions-use-k2-vehicle-fuel
 https://mods.factorio.com/mod/companion-drones-limit
 
 * * *
 
+https://mods.factorio.com/mod/flipfloptrainmode - возможно удобно иметь горячую клавишу для переключения поездов между режимами наведением мышки. 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/GhostScanner - adds a combinator reading ghost requests from the logistic network it's placed in. 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/LogisticRequestManager - allows you to save and switch between custom logistic request presets, as well as request blueprints. 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/Long_Range_Delivery_Drones - 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/PersonalLogisticsShortcut - adds a quickbar shortcut for toggling the personal logistics so that the status can be seen without opening the inventory. 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/PickerDollies - 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/plethora-of-personal-logistics - 2025-01-04 - мод не обновлён под Space Age.
+
+* * *
+
+https://mods.factorio.com/mod/spidertron-extended https://mods.factorio.com/mod/Spidertron-Inventory-Sorter
+
+* * *
+
 https://mods.factorio.com/mod/Dectorio - добавляет слишком много всего, что мне не нужно, но можно отсюда вынести в отдельный модуль гравий и дополнительный вид бетона.
+
+* * *
+
+https://mods.factorio.com/mod/StableFoundations - интересная идея, но ощущается как слишком много ломающая в оригинальном балансе ради слишком небольшого усиления интереса.
+
+* * *
+
+https://mods.factorio.com/mod/RealisticOres - хотелось бы, чтобы это изменение приняли в оригинальную игру, но держать для этого изменения целый отдельный мод не хочется.
+
+* * *
+
+https://mods.factorio.com/mod/RealisticReactorGlow - хотелось бы, чтобы это изменение приняли в оригинальную игру, но держать для этого изменения целый отдельный мод не хочется.
 
 * * *
 
