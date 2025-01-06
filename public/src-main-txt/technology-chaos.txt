@@ -32,6 +32,14 @@ Inspiration.
 
 Computer Things: https://www.hillelwayne.com
 
+* * *
+
+Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 2013-11-23. Is punishment or reward more effective for helping people learn? A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This finding has been verified not just with humans, but also with other species. <•> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
+- https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
+
+IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
+- https://en.wikipedia.org/wiki/InterPlanetary_File_System
+
 Binwalk can identify, and optionally extract, files and data that have been embedded inside of other files. While its primary focus is firmware analysis, it supports a wide variety of file and data types. Through entropy analysis, it can even help to identify unknown compression or encryption!
 - https://github.com/ReFirmLabs/binwalk
 

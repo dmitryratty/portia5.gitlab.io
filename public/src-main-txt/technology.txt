@@ -4,11 +4,23 @@
 
 Знакомые последовательности букв. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish.
 
-Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems". </> Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition". Nakamoto, Satoshi, Bitcoin: A Peer-to-Peer Electronic Cash System (August 21, 2008). Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019).
+Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems".
+
+Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition". Nakamoto, Satoshi, Bitcoin: A Peer-to-Peer Electronic Cash System (August 21, 2008). Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019).
 
 #include link /mathematics/kindergarten
 
-Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день. </> При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. </> При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала. </> Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
+* * *
+
+Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день.
+
+При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу.
+
+При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
+
+Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
+
+* * *
 
 Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
 
@@ -18,23 +30,15 @@ Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web brow
 
 #include link /technology/ubuntu
 
-* * *
-
-Regression toward the mean. "How We're Fooled By Statistics" by "Veritasium" on 2013-11-23. Is punishment or reward more effective for helping people learn? A lot of people would say different incentives motivate different people, or in different circumstances, but in psychology there is a sizable body of evidence that in order to learn skills, positive feedback is more effective. This finding has been verified not just with humans, but also with other species. <•> It was strange then that after Daniel Kahneman discussed this research with Israeli fighter pilot instructors that he was met with resistance. They found the opposite was true: when they reprimanded a cadet for performing poorly, he invariably improved, but if they praised a cadet for an excellent performance, the next attempt was not as good. In order to solve this apparent contradiction we first need to understand regression to the mean.
-- https://youtu.be/1tSqSMOyNFE?si=SpMJ33dXia1gv4Qe
-
-IPFS. In 2018 the Internet Archive and Protocol Labs hosted a Decentralized Web summit, exploring applications of IPFS and other technologies to a fully decentralized internet. In 2022 the Archive explored putting the Wayback Machine data onto IPFS. </> The shadow libraries Anna's Archive and Library Genesis also deliver books via IPFS, enabling the largest human library of books to be more resilient. </> Brave uses Origin Protocol and IPFS to host its decentralized merchandise store and, in 2021, added support into their browser. Opera for Android has default support for IPFS, allowing mobile users to browse ipfs:// links to access data on the IPFS network.
-- https://en.wikipedia.org/wiki/InterPlanetary_File_System
+https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint.com/compile_cpp_online.php </> https://codepen.io </> https://console.firebase.google.com
 
 * * *
 
-https://google.github.io/styleguide/cppguide.html
+2011. Изучил основы программирования потому, что мне не нравился стандартный интерфейс World of Warcraft и я написал свой. Позже мне стали скучны некоторые игровые механики и я написал пару ботов, автоматизирующих эту рутину.
 
-https://www.tutorialspoint.com/compile_cpp_online.php
+* * *
 
-https://codepen.io
-
-https://console.firebase.google.com
+#include /diary/dotted-dotless
 
 * * *
 
@@ -44,9 +48,15 @@ https://console.firebase.google.com
 - https://docs.gitlab.com/ee/user/project/pages/redirects.html
 - https://docs.gitlab.com/ee/user/project/pages/introduction.html#resolving-ambiguous-urls
 
+* * *
+
 2024-12-01. Ставим официальную версию Bitwarden из Flatpak, редактируем запись и нажимаем кнопку "Сохранить". Видим, что отображается старая запись какой она была до редактирования. Если переключиться на какую-то другую запись, а затем обратно на отредактированную, то увидим отредактированную запись корректно, с внесёнными изменениями.
 
+* * *
+
 2024-12-01. Мне не нравится, что если я ставлю бету "Brave" на Android то к названию приложения добавляется слово "Beta", короткие названия красивее. Хорошо сделано в приложении СберБанк, изменение канала обновлений не меняет название приложения.
+
+* * *
 
 2024-12-02. Причины использовать Brave вместо Chrome и подобные решения. "Класть все яйца в одну корзину". Balance of power. Закон Гудхарта. Embrace, extend, and extinguish. Vendor lock-in.
 - https://killedbygoogle.com
@@ -54,18 +64,18 @@ https://console.firebase.google.com
 - https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms
 - https://locusmag.com/2024/07/cory-doctorow-unpersoned/
 
+* * *
+
 2024-12-06. В Bitwarden поиск игнорирует содержимое разделов Notes и Fields, это неудобно, проверено в приложении из Flatpak, приложении для Андроид и веб-приложении. Например я хочу сменить номер телефона, ввожу его в поиск, получаю список аккаунтов где телефон это основной идентификатор, но не получаю в этом списке остальные аккаунты где телефон это дополнительный идентификатор и поэтому он находится в разделе Notes. </> Обойти эту проблему можно вводя в основное поле логина все идентификаторы, а не только основной. Это будет мешать автоматическому заполнению поля логина и нельзя будет копировать логин из этого поля нажатием кнопки. Обойти проблему копирования можно делая дополнительное поле логина в разделе Fields.
+
+* * *
 
 2024-12-06. Ставим официальную версию Bitwarden из Flatpak, редактируем запись изменяя текст в поле логина, нажимаем кнопку "Сохранить". Вводим в поле поиска часть текста который добавили при редактировании в поле логина, поиск не находит эту запись. Перезапускаем приложение, повторяем поиск, запись находится.
 
+* * *
+
 2024-12-06. В Bitwarden нет тегов для записей, только папки.
 
+* * *
+
 2024-12-06. Brave Web Browser на Linux, далее Settings, далее Privacy and security, далее Site and Shields Settings, далее Block cookies, далее Sites allowed to use third-party cookies, далее если в этом списке сайтов жать напротив сайта кнопку удаления в виде корзины, то ничего не происходит, сайт не удаляется, кнопка не работает.
-
-* * *
-
-2011. Изучил основы программирования потому, что мне не нравился стандартный интерфейс World of Warcraft и я написал свой. Позже мне стали скучны некоторые игровые механики и я написал пару ботов, автоматизирующих эту рутину.
-
-* * *
-
-#include /diary/dotted-dotless
