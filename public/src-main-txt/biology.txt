@@ -25,16 +25,6 @@ C 2024-11-25 по 2024-11-25 принято.
 
 * * *
 
-Самый безопасный ноотроп Доказательная медицина
-- https://youtu.be/UBKlEMZoykc?si=GVz5oZD95y7-xYM-
-- TLDR: Никотиновая кислота.
-
-Кривая забывания или кривая Эббингауза.
-- https://en.wikipedia.org/wiki/Forgetting_curve
-
-You Are Two CGP Grey.
-- https://youtu.be/wfYbgdo8e-8?si=NJl55yp4Xk3wM4Sn
-
 "How a Pioneering Blackjack Master Beats the Odds of Aging". Legendary gambler and hedge fund manager Edward Thorp, 91, shares what he's learned about exercise, diet and managing risk in all areas of life.
 - https://archive.is/2024.04.11-041114/https://www.bloomberg.com/news/features/2024-04-10/anti-aging-tips-from-blackjack-and-finance-guru-ed-thorp
 
@@ -43,6 +33,10 @@ You Are Two CGP Grey.
 #include /diary/work-unconsciousness
 
 * * *
+
+Самый безопасный ноотроп Доказательная медицина
+- https://youtu.be/UBKlEMZoykc?si=GVz5oZD95y7-xYM-
+- TLDR: Никотиновая кислота.
 
 L-теанин.
 - https://apteka.ru/product/teanin-30-sht-kapsuly-5e327198ca7bdc0001931596/
