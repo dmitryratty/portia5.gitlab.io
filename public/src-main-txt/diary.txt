@@ -86,6 +86,10 @@
 
 * * *
 
+#include /diary/white-rat
+
+* * *
+
 #include /diary/sweet-school-time
 
 * * *
