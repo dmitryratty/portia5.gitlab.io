@@ -10,6 +10,14 @@
     {
         "names": [
             {
+                "name": "Иван Тургенев",
+                "language": "ru"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Daniel Dennett",
                 "language": "en"
             },

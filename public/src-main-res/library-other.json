@@ -147,6 +147,22 @@
     {
         "names": [
             {
+                "name": "Живые мощи",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Иван Тургенев"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
                 "name": "Диаспора",
                 "language": "?"
             }
