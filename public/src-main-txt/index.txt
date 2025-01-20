@@ -12,4 +12,8 @@
 
 #include link /vidya
 
+#include link /selfie
+
+#include link /diary
+
 #include link /other

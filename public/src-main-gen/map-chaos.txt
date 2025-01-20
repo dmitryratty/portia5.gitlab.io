@@ -35,7 +35,6 @@ https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/nature-versus-nurture
 https://portia5.gitlab.io/diary/pigeons-as-food
 https://portia5.gitlab.io/diary/press-the-gazelle
-https://portia5.gitlab.io/diary/public-start
 https://portia5.gitlab.io/diary/scream-and-dance
 https://portia5.gitlab.io/diary/smell-of-fist
 https://portia5.gitlab.io/diary/stinksy-breath
@@ -68,6 +67,7 @@ https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/life/sakalauskas-case
 https://portia5.gitlab.io/map-order
+https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/music-chaos-chaos
 https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt

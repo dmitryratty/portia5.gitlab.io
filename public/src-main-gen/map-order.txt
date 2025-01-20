@@ -1,11 +1,11 @@
 https://portia5.gitlab.io
+    1 https://portia5.gitlab.io/diary
     1 https://portia5.gitlab.io/gallery
     1 https://portia5.gitlab.io/humour
     1 https://portia5.gitlab.io/library
     1 https://portia5.gitlab.io/other
         2 https://portia5.gitlab.io/biology
         2 https://portia5.gitlab.io/contacts
-        2 https://portia5.gitlab.io/diary
         2 https://portia5.gitlab.io/ethics
             3 https://portia5.gitlab.io/life/demon-core
         2 https://portia5.gitlab.io/identity
@@ -18,14 +18,13 @@ https://portia5.gitlab.io
             3 https://portia5.gitlab.io/life/srinivasa-ramanujan
         2 https://portia5.gitlab.io/map
         2 https://portia5.gitlab.io/music
-            3 https://portia5.gitlab.io/music-chaos
         2 https://portia5.gitlab.io/news
         2 https://portia5.gitlab.io/other/thou-art-godshatter
-        2 https://portia5.gitlab.io/selfie
         2 https://portia5.gitlab.io/todo
             3 https://portia5.gitlab.io/todo/humour
             3 https://portia5.gitlab.io/todo/read
         2 https://portia5.gitlab.io/wealth
+    1 https://portia5.gitlab.io/selfie
     1 https://portia5.gitlab.io/technology
         2 https://portia5.gitlab.io/mathematics/kindergarten
         2 https://portia5.gitlab.io/technology/ubuntu

@@ -87,6 +87,7 @@
 [2] /image/gallery/infos.json
 [2] /image/selfie/1.jpeg
 [2] /image/selfie/10.jpeg
+[2] /image/selfie/11.jpeg
 [2] /image/selfie/2.jpeg
 [2] /image/selfie/3.jpeg
 [2] /image/selfie/4.jpeg
@@ -141,7 +142,6 @@
 [3] /diary/nature-versus-nurture[.html]
 [3] /diary/pigeons-as-food[.html]
 [3] /diary/press-the-gazelle[.html]
-[3] /diary/public-start[.html]
 [3] /diary/scream-and-dance[.html]
 [3] /diary/smell-of-fist[.html]
 [3] /diary/stinksy-breath[.html]

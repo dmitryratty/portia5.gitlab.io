@@ -1,12 +1,8 @@
-✨ Other. Контакты, карта, oversharing, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
+✨ Other. Identity, ethics, biology, news, wealth, map, music, todo, contacts, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
 
 << * * * >>
 
-INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLICIT WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
 #include link /identity
-
-#include link /diary
 
 #include link /ethics
 
@@ -20,9 +16,11 @@ INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, I
 
 #include link /music
 
-#include link /selfie
-
 #include link /todo
+
+#include link /contacts
+
+* * *
 
 #include link /other/thou-art-godshatter
 
@@ -33,5 +31,3 @@ INFORMATION IS PROVIDED AS IS AND WITHOUT ANY EXPLICIT OR IMPLICIT WARRANTIES, I
 #include link /life/demon-core
 
 #include /other/transparent-society
-
-#include link /contacts
