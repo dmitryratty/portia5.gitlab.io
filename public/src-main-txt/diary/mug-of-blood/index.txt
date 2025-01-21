@@ -1,0 +1,15 @@
+#include /diary/mug-of-blood/mug-of-blood
+
+#include /diary/mug-of-blood/traditional-medicine
+
+#include /diary/mug-of-blood/improvised-fertilizer
+
+#include /diary/mug-of-blood/smell-of-fist
+
+#include /diary/mug-of-blood/scream-and-dance
+
+#include /diary/mug-of-blood/pigeons-as-food
+
+#include /diary/mug-of-blood/death-of-grandfather
+
+#include /diary/mug-of-blood/heat-and-apricots

@@ -20,15 +20,7 @@
 
 * * *
 
-#include /diary/smell-of-fist
-
-* * *
-
-#include /diary/scream-and-dance
-
-* * *
-
-#include /diary/left-and-right
+#include /diary/mug-of-blood/left-and-right
 
 Столкновение велосипедами в Дебальцево и моя лож о том, якобы у меня заклинило руль.
 

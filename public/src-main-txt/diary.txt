@@ -18,11 +18,7 @@
 
 * * *
 
-#include /diary/first-grade
-
-* * *
-
-#include /diary/mowgli-assorted-pele
+#include /diary/school-start
 
 * * *
 
