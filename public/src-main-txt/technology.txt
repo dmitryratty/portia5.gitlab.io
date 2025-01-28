@@ -30,7 +30,7 @@ Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web brow
 
 #include link /technology/ubuntu
 
-https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint.com/compile_cpp_online.php </> https://codepen.io </> https://console.firebase.google.com
+https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint.com/compile_cpp_online.php </> https://codepen.io </> https://console.firebase.google.com </> https://wiki.rossmanngroup.com/wiki/Mission_statement
 
 * * *
 

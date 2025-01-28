@@ -468,6 +468,7 @@ https://portia5.gitlab.io/life/bourbaki-dieudonne
 https://portia5.gitlab.io/life/bourbaki-weil
 https://portia5.gitlab.io/life/demon-core
 https://portia5.gitlab.io/life/mathematicians
+https://portia5.gitlab.io/life/mathematicians-chaos
 https://portia5.gitlab.io/life/sakalauskas-case
 https://portia5.gitlab.io/life/srinivasa-ramanujan
 https://portia5.gitlab.io/map
@@ -724,6 +725,7 @@ https://t.me/wallet_news
 https://t.me/zip_log
 https://takiedela.ru/2020/10/nenasheva
 https://telegra.ph/Mertvoe-nutro-vlasti-12-27
+https://telegra.ph/O-probleme-narcissizma-v-sovremennom-mire-10-17
 https://thought.is/the-myth-of-the-good-listener/
 https://timesofindia.indiatimes.com/technology/tech-news/romance-writer-gets-locked-out-of-google-docs-heres-what-the-ban-message-said/articleshow/110054266.cms
 https://token.unlocks.app
@@ -743,6 +745,7 @@ https://web.archive.org/web/20100102064618/http://www.theinquirer.net/inquirer/n
 https://web.archive.org/web/20230608102227/https://www.ixbt.com/live/sw/samyy-prostoy-sposob-kak-podnyat-svoy-vpn-za-5-klikov.html
 https://web.archive.org/web/20240402093517/https://habr.com/ru/articles/799751/
 https://web.dev/articles/add-manifest
+https://wiki.rossmanngroup.com/wiki/Mission_statement
 https://www.30secondsofcode.org/css/s/root-vs-html/
 https://www.404media.co/where-facebooks-ai-slop-comes-from/
 https://www.alignmentforum.org/tag/instrumental-convergence
@@ -818,6 +821,7 @@ https://www.youtube.com/@nefrums4510
 https://www.youtube.com/watch?v=4AuV93LOPcE
 https://www.youtube.com/watch?v=l8pRSuU81PU
 https://www.zachleat.com/web/web-font-data-uris/
+https://www.zerohedge.com/technology/chinas-deepseek-bombshell-rocks-trumps-500bn-ai-boondoggle
 https://x.com/dmitryratty
 https://x.com/karpathy/status/1811097021539045582
 https://yggdrasil-network.github.io/
@@ -853,6 +857,7 @@ https://youtu.be/5eMAmRER0y8?si=Csw-YtWie4HaXBiw
 https://youtu.be/6StPC4atEVg?si=N3oWGOYDxD1jxcuR
 https://youtu.be/6cU8JRBp920?si=m5jljBynoDu9gMbL
 https://youtu.be/7EQTXtg695U?si=52tQreB0jLs5bSe5
+https://youtu.be/7G8weF4jsZw?si=4l45hf6UK_B6lf2J
 https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/8JXiXt0D6tw?si=xDO_3uJ9uHPdp26F
 https://youtu.be/8zZQwC31P7U?si=i-EYo_ruiGtPBjeu
@@ -893,6 +898,7 @@ https://youtu.be/HLMhVawjKsA?si=0u5QMSA0hN2pcY7X
 https://youtu.be/HfyS_OI_Ees?si=8Go-s_o9yKtL8OxU
 https://youtu.be/HzNZdQEvvVQ?si=2teaVFwfGfNVnQL1
 https://youtu.be/I4m4zbLnxHg?si=9nUjsZzS2xvzVtsl
+https://youtu.be/I7HVy6pbM10?si=7Laxp5i-LrcPMlds
 https://youtu.be/ICGEE0Te6wU?si=IQQ8XfaorFbzhCDB
 https://youtu.be/ICKfj9pMm7Q?si=Hz_GZa9pJmFAX-K4
 https://youtu.be/IDYxLj3bYds?si=eA3kZWNthna3Ice5
@@ -956,10 +962,10 @@ https://youtu.be/Z1v8iEuuvvM?si=KIlaJ3PAc7fKamyD
 https://youtu.be/ZOvyn72x6kQ?si=V834-IiHtB_Qa7Wv
 https://youtu.be/ZeDQtOfiZIY?si=7tPzifwbhk0QDAej
 https://youtu.be/Zo6UnKr6Bwg?si=RIjm30KZXUyzMKRJ
+https://youtu.be/ZzUbAv_Sh0c?si=n-QUBDXN-IQte0iN
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/_Ig9MOv54cg?si=Jz7aNWtyjROBbYMf
-https://youtu.be/_V17JN76uxc?si=TdlkbyFrfmrZ590l
 https://youtu.be/_V17JN76uxc?si=Yj0I0ovPmubAdGDS
 https://youtu.be/_mLdYlqQcg8?si=8HMWg64EtvbHQlcZ
 https://youtu.be/a7wAwYiWhAo?si=LxmokSCPWoTYFwga
@@ -980,6 +986,7 @@ https://youtu.be/cntb3wcZdTw?si=aX62Yc0aVY1BsOqz
 https://youtu.be/crAXLSZZzXw?si=DQa0hlNVNDPVa5RP
 https://youtu.be/dg0J2JcTpvs?si=W4tCx725pcZawL7P
 https://youtu.be/ebv_7p2UDtk?si=aVfB44t0mFOyA-S1
+https://youtu.be/f-C51Upy8SY?si=1aT_auilMfBOxNdi
 https://youtu.be/f5liqUk0ZTw?si=iIUF4zNc1ILVhcXh
 https://youtu.be/f6QFfmwFT3k?si=7aTOqx6jN8qQ5gt3
 https://youtu.be/fHBUQI2lilc?si=R4wn6ipnEpT0R0PX
@@ -1010,6 +1017,7 @@ https://youtu.be/jvEmoKgUVU0?si=eGRgQhBdtS91lQac
 https://youtu.be/jyXvoBxPP8I?si=wiQcPg_rtmEnX71A
 https://youtu.be/kldWRbWcsw4?si=dwxxVbD-c1bXOmhT
 https://youtu.be/l4GQ2fNxibs?si=nAr-lMG2bKd5VYfD
+https://youtu.be/lIES3ii-IOg?si=Wt6cq-WqsHGvH7KZ
 https://youtu.be/lPVBrRd9wCo?si=86FieHH-X9kPBBbm
 https://youtu.be/lXnw5hrc1bs?si=dcUyFnfyVmre2_qk
 https://youtu.be/lchZurZgsEM?si=uOzG4AL3Md9QIBHK
@@ -1017,6 +1025,7 @@ https://youtu.be/m0P2Y--Gwo0?si=PY4BFXwBne3go3MI
 https://youtu.be/m6vesqQmHXk?si=SgcJ33NwGu6GjYYD
 https://youtu.be/mFdom_1jmhQ?si=jHVfDcCPjolLc2yp
 https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+https://youtu.be/mb_ZxtVM8JQ?si=8aKrlU6FA3Sag2yo
 https://youtu.be/n-x4ttQioNw?si=ify1VxBp-zXgqz_t
 https://youtu.be/nQgjQX2dl0E?si=oi5_KybkTd8kAjbN
 https://youtu.be/nSA3h6PoPrE?si=7oSVAZnnEHN1jjm9
@@ -1050,12 +1059,14 @@ https://youtu.be/uH0W5AK4bwI?si=hmDkrNHHghIW9uCV
 https://youtu.be/uMYfWllEVf4?si=oa8kAepeozcG4tmE
 https://youtu.be/uUrWJZ_brBU?si=MMTj9mDz4DKdtGpA
 https://youtu.be/ugIuHWc6Nuc?si=wnxqoMSzIPXZ6CFN
+https://youtu.be/v_HrQJbrPic?si=w9Yzcpui6lc3BQCM
 https://youtu.be/vwN-7mklDCM?si=FIzAo-Vt8PKlL8Ct
 https://youtu.be/vzWwUBeB1RM?si=c8jlJgqJBnR-ACTh
 https://youtu.be/waylMzCaznE?si=YCMuoCvPM7MmU5Hm
 https://youtu.be/wcUouLOmQuU?si=CicQ8pMERW4uj6BF
 https://youtu.be/wfYbgdo8e-8?si=NJl55yp4Xk3wM4Sn
 https://youtu.be/xOnNk-8gSe8?si=YBmRrEHALVzcvsWT
+https://youtu.be/xPnq31zzSfo?si=A_K6YAa8jH-quWwF
 https://youtu.be/xYuE5ZkDkig?si=B1btotoaHzgh4HVp
 https://youtu.be/xfMQ7hzyFW4?si=Kk5cvZ-DBlOzHNoe
 https://youtu.be/xkNiMuBhkbE?si=FwAn3P2HrVDt01jZ
