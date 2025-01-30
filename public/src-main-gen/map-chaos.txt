@@ -1,15 +1,4 @@
 https://portia5.gitlab.io/biology-chaos
-https://portia5.gitlab.io/biology/haloperidol-chatgpt-4o
-https://portia5.gitlab.io/biology/human
-https://portia5.gitlab.io/biology/liver-chatgpt-4o
-https://portia5.gitlab.io/biology/psychology
-https://portia5.gitlab.io/chaos
-    1 https://portia5.gitlab.io/chaos/horned-goodness
-    1 https://portia5.gitlab.io/other/coincidence-think
-    1 https://portia5.gitlab.io/other/games-to-play
-https://portia5.gitlab.io/chaos-chaos
-https://portia5.gitlab.io/chaos/horned-goodness
-https://portia5.gitlab.io/chaos/llm-ale
 https://portia5.gitlab.io/diary-chaos
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
@@ -67,19 +56,24 @@ https://portia5.gitlab.io/library/lesswrong/sequences
 https://portia5.gitlab.io/library/lesswrong/sequences/translation-done
 https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
-https://portia5.gitlab.io/life/mathematicians-chaos
-https://portia5.gitlab.io/life/sakalauskas-case
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music-chaos
-https://portia5.gitlab.io/music-chaos-chaos
+https://portia5.gitlab.io/other-chaos
+    1 https://portia5.gitlab.io/other/coincidence-think
+    1 https://portia5.gitlab.io/other/games-to-play
+    1 https://portia5.gitlab.io/other/horned-goodness
 https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
+https://portia5.gitlab.io/other/horned-goodness
 https://portia5.gitlab.io/other/isekai
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
+https://portia5.gitlab.io/other/llm-ale
 https://portia5.gitlab.io/other/location
+https://portia5.gitlab.io/other/mathematicians-chaos
 https://portia5.gitlab.io/other/routine
+https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/hardware
@@ -121,5 +115,4 @@ https://portia5.gitlab.io/vidya/factorio
     1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
 https://portia5.gitlab.io/vidya/other
-https://portia5.gitlab.io/viewed
 https://portia5.gitlab.io/wealth-chaos

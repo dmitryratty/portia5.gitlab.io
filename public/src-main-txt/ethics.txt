@@ -12,7 +12,7 @@ https://en.wikipedia.org/wiki/MKUltra
 
 * * *
 
-#include /life/sakalauskas-case
+#include /other/sakalauskas-case
 
 * * *
 
@@ -44,4 +44,4 @@ https://ru.wikipedia.org/wiki/Массовое_убийство_в_станиц�
 
 * * *
 
-#include link /life/demon-core
+#include link /other/demon-core

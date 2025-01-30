@@ -24,10 +24,10 @@
 
 #include link /other/thou-art-godshatter
 
-#include link /life/benjamin-jesty
+#include link /other/benjamin-jesty
 
-#include link /life/mathematicians
+#include link /other/mathematicians
 
-#include link /life/demon-core
+#include link /other/demon-core
 
 #include /other/transparent-society
