@@ -45,7 +45,6 @@ https://attwoodandgarnettevents.com/can-autism-be-confused-with-schizophrenia
 https://bastyon.com
 https://bishkek.etagi.com/realty_rent/9694591/
 https://blog.frost.kiwi/WebGL-LUTS-made-simple/
-https://bootandpencil.com/articles/%D1%81%D0%B5%D0%BA%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%83-%D1%82%D1%80%D0%B0%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%BE%D0%B2/
 https://bootandpencil.com/articles/%D1%81%D0%B5%D0%BA%D1%81%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%82%D1%80%D0%B0%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%BE%D0%B2/
 https://bootandpencil.com/blog/%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BD%D0%B5%D0%B2%D1%80%D0%BE%D1%82%D0%B8%D0%BA%D0%B8-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D1%82%D0%B8%D0%BA%D0%B8/
 https://brettklamer.com/diversions/non-statistical/subset-and-self-host-webfonts/
@@ -394,7 +393,6 @@ https://ourworldindata.org/obesity
 https://paulgraham.com/best.html
 https://pi-hole.net/
 https://pikabu.ru/story/kogda_obmanuli_vo_vsem_izuchaem_feykovyiy_planshet_kotoryim_zabityi_marketpleysyi_11885254
-https://pikabu.ru/story/muzhskie_razgovoryi_11783422
 https://pikabu.ru/story/podvodnyiy_parokhod_ch2_11881427
 https://pimbook.org/
 https://playground.tensorflow.org/
@@ -490,6 +488,7 @@ https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/srinivasa-ramanujan
 https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
+https://portia5.gitlab.io/other/viewed/2025-01
 https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/technology
 https://portia5.gitlab.io/technology-chaos
@@ -848,6 +847,8 @@ https://youtu.be/3Br100WHC_U?si=Gpn1f27fFIgcz9dJ
 https://youtu.be/3LopI4YeC4I?si=pkJtq18-QBPfaTnX
 https://youtu.be/3Y81L_CUV3M?si=2tcWHXwdtVJgECnt
 https://youtu.be/3pLusGRkYrg?si=Ck-nAUqUwNvqIi12
+https://youtu.be/3xcwoWF5H1A?si=6O-DtEMsYFHKjZUw
+https://youtu.be/43BpioYNmY0?si=DzQTTkr2zYZzAOsx
 https://youtu.be/54zAsOOo8xU?si=uLfrhCs9kUXGg9Jq
 https://youtu.be/56W5d4VeUTk?si=Eix9Uzau9AQIZzPb
 https://youtu.be/5UXxqnF-WkM?si=ScaufcEpX9tqFza2
@@ -893,6 +894,7 @@ https://youtu.be/FCCCb7ZWXz4?si=qndU3eV6M5dIahnr
 https://youtu.be/FDjeRloNgx0?si=eXBoHefnQZApfcII
 https://youtu.be/FVpG-RtZFE0?si=v3rVs6BLXzUTQHee
 https://youtu.be/GKKKTZfUBYk?si=bFSy9xzfOEU2jnHZ
+https://youtu.be/GPcidLBluqM?si=rgBE4sSeRU25305j
 https://youtu.be/HLMhVawjKsA?si=0u5QMSA0hN2pcY7X
 https://youtu.be/HfyS_OI_Ees?si=8Go-s_o9yKtL8OxU
 https://youtu.be/HzNZdQEvvVQ?si=2teaVFwfGfNVnQL1
@@ -968,6 +970,7 @@ https://youtu.be/ZzUbAv_Sh0c?si=n-QUBDXN-IQte0iN
 https://youtu.be/_1mL_OydDvk?si=ZZClyuQDS5wlvJ2-
 https://youtu.be/_26VnMsLg9U?si=mqS3bFTj9J72Tjel
 https://youtu.be/_Ig9MOv54cg?si=Jz7aNWtyjROBbYMf
+https://youtu.be/_UuYTzFOE2Y?si=jy95oaI5joBsIdpR
 https://youtu.be/_V17JN76uxc?si=Yj0I0ovPmubAdGDS
 https://youtu.be/_mLdYlqQcg8?si=8HMWg64EtvbHQlcZ
 https://youtu.be/a7wAwYiWhAo?si=LxmokSCPWoTYFwga
@@ -1011,6 +1014,7 @@ https://youtu.be/iMZu6Z69iK8?si=BwfIYe7-3Qs2ukAT
 https://youtu.be/iNyUmbmQQZg?si=2Vr3IVdr7nyLHYU_
 https://youtu.be/iVVk5Jb_YVo?si=dfTcEEqh5m4HoCUl
 https://youtu.be/id_fH-MZ7qg?si=AqhR3akseuyb_PTx
+https://youtu.be/irLkbmiW0vo?si=dY0DqreJJqNpYok2
 https://youtu.be/ixQfL9LWt8k?si=n-MPhygHJvCPtF-E
 https://youtu.be/jSa-ngVZdXY?si=w0iImZef35gFv4mY
 https://youtu.be/jil7TWC_rNs?si=4EUHcwkZiYCRi5cD
@@ -1019,7 +1023,6 @@ https://youtu.be/jvEmoKgUVU0?si=eGRgQhBdtS91lQac
 https://youtu.be/jyXvoBxPP8I?si=wiQcPg_rtmEnX71A
 https://youtu.be/kldWRbWcsw4?si=dwxxVbD-c1bXOmhT
 https://youtu.be/l4GQ2fNxibs?si=nAr-lMG2bKd5VYfD
-https://youtu.be/lIES3ii-IOg?si=Wt6cq-WqsHGvH7KZ
 https://youtu.be/lPVBrRd9wCo?si=86FieHH-X9kPBBbm
 https://youtu.be/lXnw5hrc1bs?si=dcUyFnfyVmre2_qk
 https://youtu.be/lchZurZgsEM?si=uOzG4AL3Md9QIBHK

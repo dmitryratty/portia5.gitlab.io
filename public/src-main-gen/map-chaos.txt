@@ -75,6 +75,7 @@ https://portia5.gitlab.io/other/mathematicians-chaos
 https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/transparent-society
+https://portia5.gitlab.io/other/viewed/2025-01
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network
