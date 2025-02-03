@@ -59,23 +59,16 @@ https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/other-chaos
-    1 https://portia5.gitlab.io/other/coincidence-think
     1 https://portia5.gitlab.io/other/games-to-play
-    1 https://portia5.gitlab.io/other/horned-goodness
-https://portia5.gitlab.io/other/coincidence-think
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
-https://portia5.gitlab.io/other/horned-goodness
-https://portia5.gitlab.io/other/isekai
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/languages
-https://portia5.gitlab.io/other/llm-ale
 https://portia5.gitlab.io/other/location
 https://portia5.gitlab.io/other/mathematicians-chaos
 https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/transparent-society
-https://portia5.gitlab.io/other/viewed/2025-01
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/hardware
 https://portia5.gitlab.io/technology/neural-network

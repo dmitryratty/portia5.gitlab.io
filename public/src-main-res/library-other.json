@@ -412,10 +412,26 @@
             }
         ],
         "authors": [
-            "Энтони Бёрджесс"
+            "Anthony Burgess"
         ],
         "tags": [
             "recommendation",
+            "novel"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "The Wanting Seed",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Anthony Burgess"
+        ],
+        "tags": [
+            "archive",
             "novel"
         ],
         "rating": 800

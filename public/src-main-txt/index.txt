@@ -10,10 +10,10 @@
 
 #include link /gallery
 
-#include link /vidya
-
 #include link /selfie
 
 #include link /diary
+
+#include link /vidya
 
 #include link /other
