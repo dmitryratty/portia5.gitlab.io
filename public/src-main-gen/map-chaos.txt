@@ -1,3 +1,4 @@
+https://portia5.gitlab.io/biology
 https://portia5.gitlab.io/biology-chaos
 https://portia5.gitlab.io/diary-chaos
 https://portia5.gitlab.io/diary/because
@@ -56,6 +57,7 @@ https://portia5.gitlab.io/library/lesswrong/sequences
 https://portia5.gitlab.io/library/lesswrong/sequences/translation-done
 https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
+https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/other-chaos
@@ -103,7 +105,12 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
+https://portia5.gitlab.io/todo
+    1 https://portia5.gitlab.io/todo/humour
+    1 https://portia5.gitlab.io/todo/read
 https://portia5.gitlab.io/todo-chaos
+https://portia5.gitlab.io/todo/humour
+https://portia5.gitlab.io/todo/read
 https://portia5.gitlab.io/vidya-chaos
 https://portia5.gitlab.io/vidya/factorio
     1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings

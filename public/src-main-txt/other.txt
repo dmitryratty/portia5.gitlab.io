@@ -1,4 +1,4 @@
-✨ Other. Identity, ethics, biology, news, wealth, map, music, todo, contacts, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
+✨ Other. Identity, ethics, music, news, wealth, contacts, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
 
 << * * * >>
 
@@ -6,17 +6,11 @@
 
 #include link /ethics
 
-#include link /biology
+#include link /music
 
 #include link /news
 
 #include link /wealth
-
-#include link /map
-
-#include link /music
-
-#include link /todo
 
 #include link /contacts
 

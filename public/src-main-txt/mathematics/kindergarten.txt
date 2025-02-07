@@ -19,10 +19,17 @@
 
 * * *
 
+Хочу переводчик математического стиля записи с однобуквенными штуками и странными закорюками в программистский стиль с осмысленными названиями переменных, функций и прочего.
+
+* * *
+
 "A Mathematician's Lament" by "Tibees".
 - https://youtu.be/Ws6qmXDJgwU?si=41aiUl4cvHFB9g7g
 
-What Does a 1.585-Dimensional Shape Look Like? Zundamon's Theorem
+"What OVERFITTING Teaches You About Life | Machine Learning and Statistics" by "Luck by Numbers".
+https://youtu.be/Nhsw8x9vyc0?si=5O4MlOI-msgj5rnK
+
+"What Does a 1.585-Dimensional Shape Look Like?" by "Zundamon's Theorem".
 https://youtu.be/OjmzC0YPrOo?si=MJLuNLxKsk7mdKtu
 
 "Painting a Character with Maths" by "Inigo Quilez".
