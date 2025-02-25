@@ -161,6 +161,7 @@
 [3] /map[.html]
 [3] /map-order[.html]
 [3] /mathematics/kindergarten[.html]
+[3] /mathematics/kindergarten-chaos[.html]
 [3] /music[.html]
 [3] /music-chaos[.html]
 [3] /news[.html]

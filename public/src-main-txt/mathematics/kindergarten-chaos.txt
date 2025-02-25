@@ -1,0 +1,56 @@
+https://arbital.com/p/bayes_rule
+
+"A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best".
+- https://en.wikipedia.org/wiki/Inductive_bias
+
+"What's a Tensor?" by "Dan Fleisch".
+- https://youtu.be/f5liqUk0ZTw?si=iIUF4zNc1ILVhcXh
+
+Algorithmic Mathematical Art:
+- http://xahlee.info/math/algorithmic_math_art.html
+- https://readhacker.news/c/64ysi
+
+* * *
+
+https://t.me/math_channels
+
+Техножрица. Учёба на мехмате: https://t.me/tech_priestess/85 https://t.me/tech_priestess/86 https://t.me/tech_priestess/87 Навыки энкодер-декодер: https://t.me/tech_priestess/88 https://t.me/tech_priestess/90 https://t.me/tech_priestess/91 https://t.me/tech_priestess/93
+
+Раз уж речь зашла о математике для программистов, скину https://pimbook.org/ - я эту книгу не читал, но блог автора нравится.
+
+Именно быстрее понимать штуки - не думаю; математическая нотация в целом привычна. Развёрнуто называть и типизировать объекты - очень да; формальная математика регулярно грешит ёмкостью в ущерб понятности. Если забивать на формальную проверку доказательств, то выразимости обычных языков программирования... Технически достаточно, но нотация будет неудобнее, чем возможность писать/рисовать штуки на бумаге; теоркатные диаграммы и топологические иллюстрации в особенности. При этом есть как бы языки программирования, которые на самом деле про формулировку и доказательство теорем; они клёвые; в них всё ещё нужно быть многословными, но практика работы в них очень хорошо ставит общие навыки работы с доказательствами. Coq, Agda, Isabelle/HOL. Про Coq есть отличный курс https://softwarefoundations.cis.upenn.edu/lf-current/index.html </> Алсо, в личных заметках про математику я определённо заимствую термины/концепты/нотацию из разных ЯП, и всем советую.
+
+https://arxiv.org/abs/2011.00412 </> https://www.youtube.com/watch?v=4AuV93LOPcE </> https://www.scottaaronson.com/papers/bb.pdf </> https://youtube.com/user/numberphile - cамый не техничный. </> https://youtube.com/c/MichaelPennMath - cамый техничный. </> https://youtube.com/c/3blue1brown - золотая середина.
+
+Не знаю, какой у тебя контекст, но «вдруг пригодится»: на моей практике вот эти материалы помогают бороться с выученной беспомощностью в математике: читать теорию: https://spacemath.xyz </> Отрабатывать практику: https://school-assistant.ru/?class=5_matematika </> До конца это проходить это все необязательно и возможно даже излишне, но для внутренней уверенности может помочь.
+
+https://t.me/ai_newz/3056 -> https://adam.math.hhu.de/#/g/leanprover-community/nng4
+
+* * *
+
+Game theory. Cooperative and non-cooperative, zero-sum and non-zero-sum...
+- https://en.wikipedia.org/wiki/Game_theory
+
+Iterated prisoner's dilemma. Tit for tat with forgiveness. Bayesian Nash equilibrium. Monte Carlo method. Win–stay, lose–switch. Relatives self-sacrificing min-maxing.
+- https://en.wikipedia.org/wiki/Prisoner's_dilemma
+
+A tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Noise presence, revenge cycles - forgiveness.
+- https://en.wikipedia.org/wiki/Tit_for_tat
+
+- https://www.lesswrong.com/tag/acausal-trade
+- https://www.lesswrong.com/tag/parfits-hitchhiker
+- https://effectiviology.com/precommitment
+- https://en.wikipedia.org/wiki/Precommitment
+
+Veritasium, "What Game Theory Reveals About Life, The Universe, and Everything":
+- https://youtu.be/mScpHTIi-kM?si=xXgtSns8vpCcdGYA
+
+Nicky Case, curious shtuff you can play:
+- https://ncase.me
+
+https://en.wikipedia.org/wiki/Minimax
+https://en.wikipedia.org/wiki/Hawk-dove
+https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+https://en.wikipedia.org/wiki/The_Market_for_Lemons
+
+#GameTheory

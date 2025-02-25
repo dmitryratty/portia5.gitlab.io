@@ -1,3 +1,15 @@
+Знакомые последовательности букв. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish. Münchhausen trilemma. Time-of-check to time-of-use. Abilene paradox. Münchhausen trilemma.
+
+* * *
+
+Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web browser. Amnezia, VPN. Amaze, file manager. Termux. Fossify Contacts. VLC, media player.
+
+#include link /technology/ubuntu
+
+https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint.com/compile_cpp_online.php </> https://codepen.io </> https://console.firebase.google.com </> https://wiki.rossmanngroup.com/wiki/Mission_statement
+
+* * *
+
 Readed.
 
 Эндрю Таненбаум: "Современные операционные системы".

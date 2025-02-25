@@ -150,12 +150,12 @@ https://en.wikipedia.org/wiki/Kolmogorov_complexity
 https://en.wikipedia.org/wiki/Lawrence_Kohlberg's_stages_of_moral_development
 https://en.wikipedia.org/wiki/List_of_online_marketplaces
 https://en.wikipedia.org/wiki/Lyle_and_Erik_Menendez
-https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma
 https://en.wikipedia.org/wiki/MKUltra
 https://en.wikipedia.org/wiki/Marvin_Heemeyer
 https://en.wikipedia.org/wiki/Mean_world_syndrome
 https://en.wikipedia.org/wiki/Metaethics
 https://en.wikipedia.org/wiki/Minimax
+https://en.wikipedia.org/wiki/Modus_ponens
 https://en.wikipedia.org/wiki/Mystery_meat_navigation
 https://en.wikipedia.org/wiki/Na%C3%AFve_realism
 https://en.wikipedia.org/wiki/Nayirah_testimony
@@ -184,11 +184,11 @@ https://en.wikipedia.org/wiki/Sitemaps
 https://en.wikipedia.org/wiki/Slavery_in_the_21st_century
 https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference
 https://en.wikipedia.org/wiki/Spaced_repetition
+https://en.wikipedia.org/wiki/Split-brain
 https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
 https://en.wikipedia.org/wiki/Starvation
 https://en.wikipedia.org/wiki/Terry_Bisson
 https://en.wikipedia.org/wiki/Tetraethyllead
-https://en.wikipedia.org/wiki/The_Library_of_Babel
 https://en.wikipedia.org/wiki/The_Market_for_Lemons
 https://en.wikipedia.org/wiki/Three_Kingdoms
 https://en.wikipedia.org/wiki/Tit_for_tat
@@ -201,7 +201,6 @@ https://en.wikipedia.org/wiki/Tukhchar_massacre
 https://en.wikipedia.org/wiki/Turkey_illusion
 https://en.wikipedia.org/wiki/Universally_unique_identifier
 https://en.wikipedia.org/wiki/Utility_monster
-https://en.wikipedia.org/wiki/What_the_Tortoise_Said_to_Achilles
 https://en.wikiquote.org/wiki/Dune
 https://en.wikiquote.org/wiki/Frank_Herbert
 https://esquire.ru/articles/5869-neil-harbisson/
@@ -241,6 +240,7 @@ https://google.github.io/styleguide/cppguide.html
 https://ground.news
 https://grugbrain.dev
 https://habr.com/en/companies/hetmansoftware/articles/553866/
+https://habr.com/ru/articles/395965/
 https://habr.com/ru/articles/548154/
 https://habr.com/ru/articles/774844/
 https://habr.com/ru/articles/785186/
@@ -410,6 +410,7 @@ https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/mathematics/kindergarten
+https://portia5.gitlab.io/mathematics/kindergarten-chaos
 https://portia5.gitlab.io/music
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/news

@@ -2,35 +2,7 @@
 
 << * * * >>
 
-Знакомые последовательности букв. Kotlin. Git. Ubuntu. Android. Fediverse. Matrix. Java. C. C++. SQLite. OpenGL. HTML. CSS. NixOS. Reverse engineering. Assembly language. Machine code. Ghidra. IDA Pro. Regression toward the mean. IPFS. Blockchain. Lua. Embrace, extend, and extinguish.
-
-Интересное прочитанное. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems".
-
-Прочитанное. Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition". Nakamoto, Satoshi, Bitcoin: A Peer-to-Peer Electronic Cash System (August 21, 2008). Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019).
-
 #include link /mathematics/kindergarten
-
-* * *
-
-Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день.
-
-При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу.
-
-При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
-
-Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
-
-* * *
-
-Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
-
-* * *
-
-Android setup. Lawnchair, launcher. Bitwarden, password manager. Brave, web browser. Amnezia, VPN. Amaze, file manager. Termux. Fossify Contacts. VLC, media player.
-
-#include link /technology/ubuntu
-
-https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint.com/compile_cpp_online.php </> https://codepen.io </> https://console.firebase.google.com </> https://wiki.rossmanngroup.com/wiki/Mission_statement
 
 * * *
 
@@ -39,6 +11,20 @@ https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint
 * * *
 
 #include /diary/dotted-dotless
+
+* * *
+
+2021-06. Слово это указатель на смысл. На разные смыслы мы указываем с разной частотой. Для смыслов используемых в экстренных ситуациях важна скорость и удобство их передачи указанием. </> Чем чаще мы хотим указывать на какой-то смысл и чем чаще указание на этот смысл может требоваться в экстренных ситуациях, тем более короткий и удобный указатель на этот смысл хотелось бы, то есть более короткое и удобное слово.
+
+* * *
+
+2024-06. Хочу в социальных взаимодействиях функцию контроля объема потоков входящей информации. Например я подписан на 100 каналов. Для каждого из 80 я хотел бы получать не более 1 поста в месяц. Для 15 из них я хотел бы получать не более 1 поста в неделю. Для 5 из них я хотел бы получать не более 1 поста в день.
+
+При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу.
+
+При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
+
+Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
 
 * * *
 
@@ -79,3 +65,7 @@ https://google.github.io/styleguide/cppguide.html </> https://www.tutorialspoint
 * * *
 
 2024-12-06. Brave Web Browser на Linux, далее Settings, далее Privacy and security, далее Site and Shields Settings, далее Block cookies, далее Sites allowed to use third-party cookies, далее если в этом списке сайтов жать напротив сайта кнопку удаления в виде корзины, то ничего не происходит, сайт не удаляется, кнопка не работает.
+
+* * *
+
+2024-02-01. Прочитанное когда-то давно. Andrew Tanenbaum, Herbert Bos: "Modern Operating Systems". Scott Chacon, Ben Straub: "Pro Git". Raymond Gallardo, Scott Hommel, Sowmya Kannan, Joni Gordon, Sharon Biocca Zakhour: "The Java Tutorial: A Short Course on the Basics 6th Edition". Nakamoto, Satoshi, Bitcoin: A Peer-to-Peer Electronic Cash System (August 21, 2008). Vinyals, O., Babuschkin, I., Czarnecki, W.M. et al. Grandmaster level in StarCraft II using multi-agent reinforcement learning. Nature 575, 350–354 (2019). Позавчера читал "Münchhausen trilemma" на Википедии, сегодня "What the Tortoise Said to Achilles".
