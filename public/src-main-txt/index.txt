@@ -4,16 +4,14 @@
 
 #include link /humour
 
-#include link /technology
-
-#include link /library
-
 #include link /gallery
-
-#include link /selfie
 
 #include link /diary
 
-#include link /vidya
+#include link /selfie
+
+#include link /technology
+
+#include link /library
 
 #include link /other

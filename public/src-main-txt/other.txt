@@ -1,8 +1,10 @@
-✨ Other. Identity, ethics, music, news, wealth, contacts, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
+✨ Other. Identity, ethics, music, news, wealth, contacts, более 10 тысяч часов в видеоиграх, Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon.
 
 << * * * >>
 
 #include link /identity
+
+#include link /vidya
 
 #include link /ethics
 
