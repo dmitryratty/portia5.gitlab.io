@@ -41,6 +41,7 @@ https://portia5.gitlab.io/ethics-chaos
 https://portia5.gitlab.io/humour-chaos
 https://portia5.gitlab.io/humour/math-methods
 https://portia5.gitlab.io/humour/the-dragonfly-and-the-ant
+https://portia5.gitlab.io/identity
 https://portia5.gitlab.io/identity-chaos
     1 https://portia5.gitlab.io/other/fear-shame-guilt
     1 https://portia5.gitlab.io/other/judas-goat
@@ -61,6 +62,7 @@ https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/mathematics/kindergarten-chaos
 https://portia5.gitlab.io/music-chaos
+https://portia5.gitlab.io/news
 https://portia5.gitlab.io/other-chaos
     1 https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/other/fear-shame-guilt
@@ -114,7 +116,10 @@ https://portia5.gitlab.io/todo
 https://portia5.gitlab.io/todo-chaos
 https://portia5.gitlab.io/todo/humour
 https://portia5.gitlab.io/todo/read
+https://portia5.gitlab.io/vidya
+    1 https://portia5.gitlab.io/vidya/addiction
 https://portia5.gitlab.io/vidya-chaos
+https://portia5.gitlab.io/vidya/addiction
 https://portia5.gitlab.io/vidya/factorio
     1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
