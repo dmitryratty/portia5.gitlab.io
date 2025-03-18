@@ -1,4 +1,4 @@
-📚 Library. Элиезер Юдковский, Грег Иган, Тед Чан, Питер Уоттс, Эмили Нагоски. Несколько сотен прочитанной художки.
+📚 Library. Элиезер Юдковский, Грег Иган, Тед Чан, Питер Уоттс, Эмили Нагоски. Несколько сотен прочитанной художки. Более 10 тысяч часов в видеоиграх. Некоторое количество просмотренных японских мультфильмов.
 
 << * * * >>
 
@@ -6,4 +6,6 @@
 
 #include /library-interesting
 
-Other. </> "Juuni Taisen", "Bokurano", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!", "Made in Abyss".
+Vidya. </> World of Warcraft. Factorio. Diablo I, II, III. StarCraft I, II. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Red Alert 2. Path of Exile. Terraria. DotA, League of Legends.
+
+Anime. </> "Juuni Taisen", "Bokurano", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!", "Made in Abyss".
