@@ -397,7 +397,7 @@
         "names": [
             {
                 "name": "It Looks Like You’re Trying To Take Over The World",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -409,6 +409,24 @@
             "entertaining"
         ],
         "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "Coding Machines",
+                "language": "en",
+                "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
+            }
+        ],
+        "authors": [
+            "Lawrence Kesteloot"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1410
     },
     {
         "names": [

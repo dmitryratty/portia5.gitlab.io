@@ -3,7 +3,15 @@
         "names": [
             {
                 "name": "Alexander Davis",
-                "language": "?"
+                "language": "en"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
+                "name": "Lawrence Kesteloot",
+                "language": "en"
             }
         ]
     },
@@ -31,7 +39,7 @@
         "names": [
             {
                 "name": "David Chapman",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -39,7 +47,7 @@
         "names": [
             {
                 "name": "Domagoj Kurmaic",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -47,7 +55,7 @@
         "names": [
             {
                 "name": "Duncan Sabien",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -67,7 +75,7 @@
         "names": [
             {
                 "name": "Elizabeth Van Nostrand",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -75,7 +83,11 @@
         "names": [
             {
                 "name": "Franz Kafka",
-                "language": "?"
+                "language": "en"
+            },
+            {
+                "name": "Франц Ка́фка",
+                "language": "ru"
             }
         ]
     },
@@ -83,7 +95,7 @@
         "names": [
             {
                 "name": "Gustav Meyrink",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -91,7 +103,7 @@
         "names": [
             {
                 "name": "Guy de Maupassant",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -99,7 +111,7 @@
         "names": [
             {
                 "name": "Gwern Branwen",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -107,7 +119,7 @@
         "names": [
             {
                 "name": "H. G. Wells",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -115,7 +127,7 @@
         "names": [
             {
                 "name": "H. P. Lovecraft",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -135,7 +147,7 @@
         "names": [
             {
                 "name": "Itamar Shatz",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -143,7 +155,7 @@
         "names": [
             {
                 "name": "Jacob Falkovich",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -151,7 +163,7 @@
         "names": [
             {
                 "name": "James Hadley Chase",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -159,7 +171,7 @@
         "names": [
             {
                 "name": "James S. A. Corey",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -167,7 +179,7 @@
         "names": [
             {
                 "name": "Julia Galef",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -183,7 +195,7 @@
         "names": [
             {
                 "name": "Michael Smith",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -191,7 +203,7 @@
         "names": [
             {
                 "name": "Nate Soares",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -199,7 +211,7 @@
         "names": [
             {
                 "name": "Neel Nanda",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -207,7 +219,7 @@
         "names": [
             {
                 "name": "Nick Bostrom",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -223,7 +235,7 @@
         "names": [
             {
                 "name": "Oscar Wilde",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -239,7 +251,7 @@
         "names": [
             {
                 "name": "Prosper Merimee",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -247,7 +259,7 @@
         "names": [
             {
                 "name": "Robert Bloch",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -255,7 +267,7 @@
         "names": [
             {
                 "name": "Robert E. Howard",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -263,7 +275,7 @@
         "names": [
             {
                 "name": "Ross Macdonald",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -271,7 +283,7 @@
         "names": [
             {
                 "name": "Sam qntm Hughes",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -279,7 +291,7 @@
         "names": [
             {
                 "name": "Scott Alexander",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -287,7 +299,7 @@
         "names": [
             {
                 "name": "SenLinYu",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -303,7 +315,7 @@
         "names": [
             {
                 "name": "Wilhelm Hauff",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -311,7 +323,7 @@
         "names": [
             {
                 "name": "Xiaoyu He",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -319,7 +331,7 @@
         "names": [
             {
                 "name": "Zvi Mowshowitz",
-                "language": "?"
+                "language": "en"
             }
         ]
     },
@@ -335,7 +347,7 @@
         "names": [
             {
                 "name": "Александр Волков",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -343,7 +355,7 @@
         "names": [
             {
                 "name": "Алексей Толстой",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -351,7 +363,7 @@
         "names": [
             {
                 "name": "Анатолий Протопопов",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -359,7 +371,7 @@
         "names": [
             {
                 "name": "Андрей Ломачинский",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -379,7 +391,7 @@
         "names": [
             {
                 "name": "Антон Чехов",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -387,7 +399,11 @@
         "names": [
             {
                 "name": "Антуан де Сент-Экзюпери",
-                "language": "?"
+                "language": "ru"
+            },
+            {
+                "name": "Antoine de Saint-Exupéry",
+                "language": "en"
             }
         ]
     },
@@ -395,7 +411,7 @@
         "names": [
             {
                 "name": "Борис Полевой",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -403,7 +419,7 @@
         "names": [
             {
                 "name": "Братья Стругацкие",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
@@ -411,7 +427,7 @@
         "names": [
             {
                 "name": "Виктор Пелевин",
-                "language": "?"
+                "language": "ru"
             }
         ]
     },
