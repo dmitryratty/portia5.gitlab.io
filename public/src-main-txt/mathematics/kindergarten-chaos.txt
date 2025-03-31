@@ -1,3 +1,5 @@
+https://ncatlab.org/nlab/show/stuff,+structure,+property
+
 https://arbital.com/p/bayes_rule
 
 "A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best".

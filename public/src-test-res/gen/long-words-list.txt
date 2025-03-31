@@ -7,7 +7,6 @@
 "workbench.editor.tabCloseButton":
 "workbench.sideBar.location":
 "workbench.statusBar.visible":
-"Длинное&lt;wbr&gt;Длинное&lt;wbr&gt;Слово".
 &lt;///&gt;&lt;///&gt;&lt;///&gt;
 '/usr/lib/x86_64-linux-gnu/libkColorPicker.so.0',
 (0.3.0-0+22.04+jammy+release+build1)

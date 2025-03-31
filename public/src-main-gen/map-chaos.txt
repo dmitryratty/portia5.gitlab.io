@@ -110,12 +110,7 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
-https://portia5.gitlab.io/todo
-    1 https://portia5.gitlab.io/todo/humour
-    1 https://portia5.gitlab.io/todo/read
 https://portia5.gitlab.io/todo-chaos
-https://portia5.gitlab.io/todo/humour
-https://portia5.gitlab.io/todo/read
 https://portia5.gitlab.io/vidya
     1 https://portia5.gitlab.io/vidya/addiction
 https://portia5.gitlab.io/vidya-chaos
