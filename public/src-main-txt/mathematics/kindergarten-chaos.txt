@@ -1,5 +1,7 @@
 https://ncatlab.org/nlab/show/stuff,+structure,+property
 
+https://www.christo.sh/numbers-are-leaves/
+
 https://arbital.com/p/bayes_rule
 
 "A classical example of an inductive bias is Occam's razor, assuming that the simplest consistent hypothesis about the target function is actually the best".
@@ -13,6 +15,8 @@ Algorithmic Mathematical Art:
 - https://readhacker.news/c/64ysi
 
 * * *
+
+https://golem.ph.utexas.edu/category/2024/03/semisimplicial_types_part_i_mo.html
 
 https://t.me/math_channels
 

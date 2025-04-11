@@ -82,6 +82,7 @@
 [2] /image/selfie/1.jpeg
 [2] /image/selfie/10.jpeg
 [2] /image/selfie/11.jpeg
+[2] /image/selfie/12.jpeg
 [2] /image/selfie/2.jpeg
 [2] /image/selfie/3.jpeg
 [2] /image/selfie/4.jpeg
@@ -120,6 +121,7 @@
 [3] /diary/like-vodka[.html]
 [3] /diary/mind-your-words[.html]
 [3] /diary/mug-of-blood/death-of-grandfather[.html]
+[3] /diary/mug-of-blood/entertainment[.html]
 [3] /diary/mug-of-blood/heat-and-apricots[.html]
 [3] /diary/mug-of-blood/improvised-fertilizer[.html]
 [3] /diary/mug-of-blood/left-and-right[.html]

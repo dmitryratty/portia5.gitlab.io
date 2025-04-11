@@ -202,6 +202,7 @@ https://github.com/wabarc/wayback
 https://gitlab.com/gitlab-org/gitlab-pages/-/issues/9
 https://gitlab.com/portia5
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
+https://golem.ph.utexas.edu/category/2024/03/semisimplicial_types_part_i_mo.html
 https://google.github.io/styleguide/cppguide.html
 https://ground.news
 https://grugbrain.dev
@@ -331,6 +332,7 @@ https://portia5.gitlab.io/diary/like-vodka
 https://portia5.gitlab.io/diary/mind-your-words
 https://portia5.gitlab.io/diary/mug-of-blood
 https://portia5.gitlab.io/diary/mug-of-blood/death-of-grandfather
+https://portia5.gitlab.io/diary/mug-of-blood/entertainment
 https://portia5.gitlab.io/diary/mug-of-blood/heat-and-apricots
 https://portia5.gitlab.io/diary/mug-of-blood/improvised-fertilizer
 https://portia5.gitlab.io/diary/mug-of-blood/left-and-right
@@ -611,6 +613,7 @@ https://www.bitsofwonder.co/p/a-revolution-in-biology
 https://www.britannica.com/topic/2023-The-Year-in-Review
 https://www.buildblockchain.tech/newsletter/issues/no-107-metamask-changes-its-license
 https://www.businessinsider.com/man-livestreamed-life-bathroom-for-a-year-straight-michael-gerry-2020-8
+https://www.christo.sh/numbers-are-leaves/
 https://www.coingecko.com
 https://www.coinglass.com
 https://www.contrib.andrew.cmu.edu/~somlo/BTCP/
