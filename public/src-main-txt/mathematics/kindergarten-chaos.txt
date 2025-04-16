@@ -1,6 +1,12 @@
-https://ncatlab.org/nlab/show/stuff,+structure,+property
+Прочитано. https://en.wikipedia.org/wiki/Foundations_of_mathematics
 
-https://www.christo.sh/numbers-are-leaves/
+Прочитано. https://ncatlab.org/nlab/show/stuff,+structure,+property
+
+Прочитано. https://golem.ph.utexas.edu/category/2024/03/semisimplicial_types_part_i_mo.html
+
+Прочитано. https://www.christo.sh/numbers-are-leaves/
+
+Прочитано. https://medium.com/@williesayso/the-incompleteness-theorem-refuted-706ef146568c
 
 https://arbital.com/p/bayes_rule
 
@@ -15,8 +21,6 @@ Algorithmic Mathematical Art:
 - https://readhacker.news/c/64ysi
 
 * * *
-
-https://golem.ph.utexas.edu/category/2024/03/semisimplicial_types_part_i_mo.html
 
 https://t.me/math_channels
 
