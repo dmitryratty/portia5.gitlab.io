@@ -36,7 +36,7 @@
         "names": [
             {
                 "name": "Драконы Эдема: Рассуждения об эволюции человеческого разума",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -52,7 +52,7 @@
         "names": [
             {
                 "name": "Тройной контакт",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -68,7 +68,7 @@
         "names": [
             {
                 "name": "Гарри Поттер и методы рационального мышления",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -84,7 +84,7 @@
         "names": [
             {
                 "name": "Burnout: The Secret to Unlocking the Stress Cycle",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -276,7 +276,7 @@
         "names": [
             {
                 "name": "Как хочет женщина. Мастер-класс по науке секса",
-                "language": "?"
+                "language": "ru"
             },
             {
                 "name": "Come as You Are: The Surprising New Science that Will Transform Your Sex Life",
@@ -311,8 +311,24 @@
     {
         "names": [
             {
+                "name": "Want: Sexual Fantasies by Anonymous",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Gillian Anderson"
+        ],
+        "tags": [
+            "recommendation",
+            "novel"
+        ],
+        "rating": 560
+    },
+    {
+        "names": [
+            {
                 "name": "Эхопраксия",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -328,7 +344,7 @@
         "names": [
             {
                 "name": "Омон Ра",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -344,7 +360,7 @@
         "names": [
             {
                 "name": "The Star-Child",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -360,7 +376,7 @@
         "names": [
             {
                 "name": "Пикник на обочине",
-                "language": "?"
+                "language": "ru"
             }
         ],
         "authors": [
@@ -376,7 +392,7 @@
         "names": [
             {
                 "name": "Significant Digits",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
@@ -392,7 +408,7 @@
         "names": [
             {
                 "name": "The Curse of The Toad",
-                "language": "?"
+                "language": "en"
             }
         ],
         "authors": [
