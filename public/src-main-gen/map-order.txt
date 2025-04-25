@@ -16,7 +16,6 @@ https://portia5.gitlab.io
             3 https://portia5.gitlab.io/other/bourbaki-weil
             3 https://portia5.gitlab.io/other/srinivasa-ramanujan
         2 https://portia5.gitlab.io/other/thou-art-godshatter
-        2 https://portia5.gitlab.io/wealth
     1 https://portia5.gitlab.io/selfie
     1 https://portia5.gitlab.io/technology
         2 https://portia5.gitlab.io/mathematics/kindergarten

@@ -120,4 +120,5 @@ https://portia5.gitlab.io/vidya/factorio
     1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
 https://portia5.gitlab.io/vidya/other
+https://portia5.gitlab.io/wealth
 https://portia5.gitlab.io/wealth-chaos

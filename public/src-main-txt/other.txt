@@ -2,15 +2,11 @@
 
 << * * * >>
 
+#include link /contacts
+
 #include link /ethics
 
 #include link /music
-
-#include link /wealth
-
-#include link /contacts
-
-* * *
 
 Хочу источники новостей выпускающие краткие безоценочные статистические сводки главного за день, неделю, месяц, год.
 
