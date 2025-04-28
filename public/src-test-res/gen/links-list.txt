@@ -377,8 +377,6 @@ https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
-https://portia5.gitlab.io/mathematics/kindergarten
-https://portia5.gitlab.io/mathematics/kindergarten-chaos
 https://portia5.gitlab.io/music
 https://portia5.gitlab.io/music-chaos
 https://portia5.gitlab.io/news
@@ -405,6 +403,8 @@ https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/technology
 https://portia5.gitlab.io/technology-chaos
 https://portia5.gitlab.io/technology/hardware
+https://portia5.gitlab.io/technology/mathematics
+https://portia5.gitlab.io/technology/mathematics-chaos
 https://portia5.gitlab.io/technology/neural-network
 https://portia5.gitlab.io/technology/puzzles
 https://portia5.gitlab.io/technology/software
@@ -437,7 +437,6 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
-https://portia5.gitlab.io/todo-chaos
 https://portia5.gitlab.io/vidya
 https://portia5.gitlab.io/vidya-chaos
 https://portia5.gitlab.io/vidya/addiction
@@ -690,6 +689,7 @@ https://youtu.be/8--5LwHRhjk?si=mdgTEpJhTdyTTFZk
 https://youtu.be/8JXiXt0D6tw?si=xDO_3uJ9uHPdp26F
 https://youtu.be/8zZQwC31P7U?si=i-EYo_ruiGtPBjeu
 https://youtu.be/9ZzFZYQv90w?si=maWE6HOlbpDUb8F5
+https://youtu.be/9qlqVEUgdgo?si=v3wwHQjEXJwjGKek
 https://youtu.be/9yRRV8HfG68?si=5KdeLIHS6fCypZnF
 https://youtu.be/AAOuSq59Xpw?si=j_mxMGA0l2jTgCp2
 https://youtu.be/AMla4-Gsxuc?si=un0zVPOqkLlabROp

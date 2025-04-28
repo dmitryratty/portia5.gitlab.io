@@ -69,12 +69,6 @@
 [2] /image/gallery/61.jpeg
 [2] /image/gallery/62.jpeg
 [2] /image/gallery/63.jpeg
-[2] /image/gallery/64.jpeg
-[2] /image/gallery/65.jpeg
-[2] /image/gallery/66.jpeg
-[2] /image/gallery/67.jpeg
-[2] /image/gallery/68.jpeg
-[2] /image/gallery/69.jpeg
 [2] /image/gallery/7.jpeg
 [2] /image/gallery/8.jpeg
 [2] /image/gallery/9.jpeg
@@ -162,8 +156,6 @@
 [3] /library/reality-check[.html]
 [3] /map[.html]
 [3] /map-order[.html]
-[3] /mathematics/kindergarten[.html]
-[3] /mathematics/kindergarten-chaos[.html]
 [3] /music[.html]
 [3] /music-chaos[.html]
 [3] /news[.html]
@@ -190,6 +182,8 @@
 [3] /technology[.html]
 [3] /technology-chaos[.html]
 [3] /technology/hardware[.html]
+[3] /technology/mathematics[.html]
+[3] /technology/mathematics-chaos[.html]
 [3] /technology/neural-network[.html]
 [3] /technology/puzzles[.html]
 [3] /technology/software[.html]
@@ -221,7 +215,6 @@
 [3] /test/wrap1[.html]
 [3] /test/wrap2[.html]
 [3] /test/zalgo[.html]
-[3] /todo-chaos[.html]
 [3] /vidya[.html]
 [3] /vidya-chaos[.html]
 [3] /vidya/addiction[.html]

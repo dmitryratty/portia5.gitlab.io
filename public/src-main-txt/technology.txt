@@ -2,7 +2,7 @@
 
 << * * * >>
 
-#include link /mathematics/kindergarten
+#include link /technology/mathematics
 
 * * *
 

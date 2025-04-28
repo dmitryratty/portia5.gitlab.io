@@ -18,4 +18,4 @@ https://portia5.gitlab.io
         2 https://portia5.gitlab.io/other/thou-art-godshatter
     1 https://portia5.gitlab.io/selfie
     1 https://portia5.gitlab.io/technology
-        2 https://portia5.gitlab.io/mathematics/kindergarten
+        2 https://portia5.gitlab.io/technology/mathematics
