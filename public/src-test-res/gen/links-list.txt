@@ -359,10 +359,6 @@ https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics
 https://portia5.gitlab.io/ethics-chaos
 https://portia5.gitlab.io/gallery
-https://portia5.gitlab.io/humour
-https://portia5.gitlab.io/humour-chaos
-https://portia5.gitlab.io/humour/math-methods
-https://portia5.gitlab.io/humour/the-dragonfly-and-the-ant
 https://portia5.gitlab.io/identity
 https://portia5.gitlab.io/identity-chaos
 https://portia5.gitlab.io/library

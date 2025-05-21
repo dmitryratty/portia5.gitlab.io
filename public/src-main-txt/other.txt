@@ -2,15 +2,33 @@
 
 << * * * >>
 
+Вероятность того, что в самолете окажутся сразу две бомбы, ничтожно мала. Поэтому в каждый полет одну бомбу я беру с собой.
+
+Приносит экспериментатор теоретику опытный график. Теоретик смотрит:
+- А! Ну тут всё ясно. Так и должно быть потому-то и потому-то.
+В этот момент экспериментатор обнаруживает, что случайно положил на стол график вверх ногами, и переворачивает его. Теоретик снова смотрит:
+- А! Ну так тем более всё ясно!
+
+Скачит Илья Муромец по пустыне, устал, силы на исходе. Видит вдали оазис, в нем вода и еда, и там же Змей Горыныч. Илья Муромец достал свой меч и в бой с Змей Горынычем. Бьётся день и ночь с ним в жестоком бою, на третий день Змей Горыныч спрашивает у Ильи:
+- Да что ж тебе надо-то от меня?
+- Да пить я хочу.
+- Так пей, что ты ко мне пристал-то?!
+
+"Parachute use to prevent death and major trauma related to gravitational challenge: systematic review of randomised controlled trials".
+- https://doi.org/10.1136/bmj.327.7429.1459
+"Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".
+- https://doi.org/10.1136/bmj.k5094
+
+...a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger." "Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
+
+Хочу источники новостей выпускающие краткие безоценочные статистические сводки главного за день, неделю, месяц, год.
+
 #include link /contacts
 
 #include link /ethics
 
 #include link /music
-
-Хочу источники новостей выпускающие краткие безоценочные статистические сводки главного за день, неделю, месяц, год.
-
-#include link /other/thou-art-godshatter
 
 #include link /other/benjamin-jesty
 
@@ -19,3 +37,7 @@
 #include link /other/demon-core
 
 #include /other/transparent-society
+
+* * *
+
+#include section /other/thou-art-godshatter
