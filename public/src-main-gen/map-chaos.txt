@@ -72,18 +72,6 @@ https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
-https://portia5.gitlab.io/technology-chaos
-    1 https://portia5.gitlab.io/technology/ubuntu
-https://portia5.gitlab.io/technology/hardware
-https://portia5.gitlab.io/technology/mathematics-chaos
-https://portia5.gitlab.io/technology/neural-network
-https://portia5.gitlab.io/technology/puzzles
-https://portia5.gitlab.io/technology/software
-https://portia5.gitlab.io/technology/ubuntu
-https://portia5.gitlab.io/technology/unicode
-https://portia5.gitlab.io/technology/web
-    1 https://portia5.gitlab.io/technology/web-fonts
-https://portia5.gitlab.io/technology/web-fonts
 https://portia5.gitlab.io/test
 https://portia5.gitlab.io/test/bullet
 https://portia5.gitlab.io/test/emoji-font
