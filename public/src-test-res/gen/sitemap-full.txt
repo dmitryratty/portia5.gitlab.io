@@ -165,8 +165,6 @@
 [3] /other/fear-shame-guilt[.html]
 [3] /other/games-to-play[.html]
 [3] /other/judas-goat[.html]
-[3] /other/languages[.html]
-[3] /other/location[.html]
 [3] /other/mathematicians[.html]
 [3] /other/mathematicians-chaos[.html]
 [3] /other/routine[.html]

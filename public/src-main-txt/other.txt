@@ -1,4 +1,4 @@
-✨ Other. Программирую больше 10 лет, есть опыт человека-оркестра в проекте с нуля до миллиона ежедневных пользователей, использую Линукс, учу детскую математику. Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon. Good luck, have fun!
+✨ Other. Программирую больше 10 лет, обладаю опытом человека-оркестра в проекте с нуля до миллиона ежедневных пользователей, использую Линукс, учу детскую математику. Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon, good luck, have fun!
 
 << * * * >>
 
@@ -24,12 +24,6 @@
 
 Хочу источники новостей выпускающие краткие безоценочные статистические сводки главного за день, неделю, месяц, год.
 
-#include link /contacts
-
-#include link /ethics
-
-#include link /music
-
 #include link /other/benjamin-jesty
 
 #include link /other/mathematicians
@@ -49,3 +43,15 @@
 * * *
 
 #include section /other/thou-art-godshatter
+
+* * *
+
+#include link /ethics
+
+* * *
+
+#include link /music
+
+* * *
+
+#include link /contacts
