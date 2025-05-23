@@ -7,7 +7,6 @@ https://portia5.gitlab.io
         2 https://portia5.gitlab.io/ethics
             3 https://portia5.gitlab.io/other/demon-core
         2 https://portia5.gitlab.io/music
-        2 https://portia5.gitlab.io/other/benjamin-jesty
         2 https://portia5.gitlab.io/other/demon-core
         2 https://portia5.gitlab.io/other/mathematicians
             3 https://portia5.gitlab.io/other/alexander-grothendieck
