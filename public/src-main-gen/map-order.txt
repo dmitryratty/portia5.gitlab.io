@@ -11,4 +11,3 @@ https://portia5.gitlab.io
             3 https://portia5.gitlab.io/other/bourbaki-dieudonne
             3 https://portia5.gitlab.io/other/bourbaki-weil
             3 https://portia5.gitlab.io/other/srinivasa-ramanujan
-    1 https://portia5.gitlab.io/selfie

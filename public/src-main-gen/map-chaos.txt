@@ -73,6 +73,7 @@ https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
+https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/test
 https://portia5.gitlab.io/test/bullet
 https://portia5.gitlab.io/test/emoji-font
