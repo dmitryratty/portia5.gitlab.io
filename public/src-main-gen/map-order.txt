@@ -1,12 +1,10 @@
 https://portia5.gitlab.io
     1 https://portia5.gitlab.io/diary
     1 https://portia5.gitlab.io/gallery
-    1 https://portia5.gitlab.io/library
     1 https://portia5.gitlab.io/other
         2 https://portia5.gitlab.io/contacts
         2 https://portia5.gitlab.io/ethics
             3 https://portia5.gitlab.io/other/demon-core
-        2 https://portia5.gitlab.io/music
         2 https://portia5.gitlab.io/other/demon-core
         2 https://portia5.gitlab.io/other/mathematicians
             3 https://portia5.gitlab.io/other/alexander-grothendieck

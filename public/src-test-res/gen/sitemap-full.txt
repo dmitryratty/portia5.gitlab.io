@@ -66,9 +66,6 @@
 [2] /image/gallery/59.jpeg
 [2] /image/gallery/6.jpeg
 [2] /image/gallery/60.jpeg
-[2] /image/gallery/61.jpeg
-[2] /image/gallery/62.jpeg
-[2] /image/gallery/63.jpeg
 [2] /image/gallery/7.jpeg
 [2] /image/gallery/8.jpeg
 [2] /image/gallery/9.jpeg
