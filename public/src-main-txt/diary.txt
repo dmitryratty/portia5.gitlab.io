@@ -46,10 +46,6 @@
 
 * * *
 
-#include /diary/canister-of-gasoline
-
-* * *
-
 #include /diary/white-rat
 
 * * *

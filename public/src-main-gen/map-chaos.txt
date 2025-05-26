@@ -1,6 +1,4 @@
 https://portia5.gitlab.io/biology
-https://portia5.gitlab.io/biology-chaos
-https://portia5.gitlab.io/diary-chaos
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
 https://portia5.gitlab.io/diary/boxes
@@ -38,9 +36,9 @@ https://portia5.gitlab.io/diary/winter-sunny-day
 https://portia5.gitlab.io/diary/wire-cutters-music
 https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
-https://portia5.gitlab.io/ethics-chaos
+https://portia5.gitlab.io/ethics
+    1 https://portia5.gitlab.io/other/demon-core
 https://portia5.gitlab.io/identity
-https://portia5.gitlab.io/identity-chaos
     1 https://portia5.gitlab.io/other/fear-shame-guilt
     1 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/library
@@ -60,17 +58,27 @@ https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music
-https://portia5.gitlab.io/music-chaos
-https://portia5.gitlab.io/news
-https://portia5.gitlab.io/other-chaos
+https://portia5.gitlab.io/other
+    1 https://portia5.gitlab.io/ethics
+    1 https://portia5.gitlab.io/other/demon-core
     1 https://portia5.gitlab.io/other/games-to-play
+    1 https://portia5.gitlab.io/other/mathematicians
+        2 https://portia5.gitlab.io/other/alexander-grothendieck
+        2 https://portia5.gitlab.io/other/bourbaki-dieudonne
+        2 https://portia5.gitlab.io/other/bourbaki-weil
+        2 https://portia5.gitlab.io/other/srinivasa-ramanujan
+https://portia5.gitlab.io/other/alexander-grothendieck
 https://portia5.gitlab.io/other/benjamin-jesty
+https://portia5.gitlab.io/other/bourbaki-dieudonne
+https://portia5.gitlab.io/other/bourbaki-weil
+https://portia5.gitlab.io/other/demon-core
 https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/other/judas-goat
+https://portia5.gitlab.io/other/mathematicians
 https://portia5.gitlab.io/other/mathematicians-chaos
-https://portia5.gitlab.io/other/routine
 https://portia5.gitlab.io/other/sakalauskas-case
+https://portia5.gitlab.io/other/srinivasa-ramanujan
 https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/selfie
@@ -99,13 +107,3 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
-https://portia5.gitlab.io/vidya
-    1 https://portia5.gitlab.io/vidya/addiction
-https://portia5.gitlab.io/vidya-chaos
-https://portia5.gitlab.io/vidya/addiction
-https://portia5.gitlab.io/vidya/factorio
-    1 https://portia5.gitlab.io/vidya/factorio/smooth-warnings
-https://portia5.gitlab.io/vidya/factorio/smooth-warnings
-https://portia5.gitlab.io/vidya/other
-https://portia5.gitlab.io/wealth
-https://portia5.gitlab.io/wealth-chaos
