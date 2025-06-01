@@ -147,22 +147,6 @@
     {
         "names": [
             {
-                "name": "Живые мощи",
-                "language": "ru"
-            }
-        ],
-        "authors": [
-            "Иван Тургенев"
-        ],
-        "tags": [
-            "archive",
-            "nouvelle"
-        ],
-        "rating": 400
-    },
-    {
-        "names": [
-            {
                 "name": "Диаспора",
                 "language": "?"
             }
@@ -312,7 +296,8 @@
         "names": [
             {
                 "name": "Want: Sexual Fantasies by Anonymous",
-                "language": "en"
+                "language": "en",
+                "comment": "2025, апрель, 20, воскресенье"
             }
         ],
         "authors": [
@@ -323,6 +308,43 @@
             "novel"
         ],
         "rating": 560
+    },
+    {
+        "names": [
+            {
+                "name": "Москва - Петушки",
+                "language": "ru",
+                "comment": "Дочитано 2025-06-01."
+            },
+            {
+                "name": "Moscow-Petushki",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Venedikt Yerofeyev"
+        ],
+        "tags": [
+            "archive",
+            "novel"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
+                "name": "Живые мощи",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Иван Тургенев"
+        ],
+        "tags": [
+            "archive",
+            "nouvelle"
+        ],
+        "rating": 600
     },
     {
         "names": [

@@ -18,6 +18,18 @@
     {
         "names": [
             {
+                "name": "Venedikt Yerofeyev",
+                "language": "en"
+            },
+            {
+                "name": "Венедикт Ерофеев",
+                "language": "ru"
+            }
+        ]
+    },
+    {
+        "names": [
+            {
                 "name": "Lawrence Kesteloot",
                 "language": "en"
             }
