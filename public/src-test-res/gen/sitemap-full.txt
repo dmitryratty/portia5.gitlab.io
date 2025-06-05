@@ -131,7 +131,6 @@
 [3] /diary/yard-stories[.html]
 [3] /ethics[.html]
 [3] /gallery[.html]
-[3] /identity[.html]
 [3] /library[.html]
 [3] /library-favorites[.html]
 [3] /library-interesting[.html]

@@ -1,4 +1,5 @@
 https://portia5.gitlab.io/biology
+https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
 https://portia5.gitlab.io/diary/boxes
@@ -38,9 +39,6 @@ https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/ethics
     1 https://portia5.gitlab.io/other/demon-core
-https://portia5.gitlab.io/identity
-    1 https://portia5.gitlab.io/other/fear-shame-guilt
-    1 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/library
 https://portia5.gitlab.io/library-favorites
 https://portia5.gitlab.io/library-interesting
@@ -61,7 +59,9 @@ https://portia5.gitlab.io/music
 https://portia5.gitlab.io/other
     1 https://portia5.gitlab.io/ethics
     1 https://portia5.gitlab.io/other/demon-core
+    1 https://portia5.gitlab.io/other/fear-shame-guilt
     1 https://portia5.gitlab.io/other/games-to-play
+    1 https://portia5.gitlab.io/other/judas-goat
     1 https://portia5.gitlab.io/other/mathematicians
         2 https://portia5.gitlab.io/other/alexander-grothendieck
         2 https://portia5.gitlab.io/other/bourbaki-dieudonne

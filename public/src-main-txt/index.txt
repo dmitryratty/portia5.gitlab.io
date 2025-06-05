@@ -5,5 +5,3 @@
 #include link /gallery
 
 #include link /diary
-
-#include link /contacts
