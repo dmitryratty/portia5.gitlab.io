@@ -46,7 +46,6 @@ https://gitlab.com/portia5
 https://gizmodo.com/a-cellphones-missing-dot-kills-two-people-puts-three-m-382026
 https://katerinabogus.com
 https://katerinabogus.com/page31159801.html
-https://keeper.ai
 https://killedbygoogle.com
 https://lesswrong.com/tag/guess-ask-tell-culture
 https://lesswrong.ru/454
@@ -178,6 +177,7 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
+https://portia5.gitlab.io/voy
 https://redpillnootrop.ru/alpha-gpc/
 https://redpillnootrop.ru/fenylpiracetam/
 https://redpillnootrop.ru/gaba/
@@ -197,7 +197,6 @@ https://t.me/kate_and_secrets/992
 https://t.me/kissbarclub
 https://t.me/mathmemories/33
 https://t.me/mathmemories/44
-https://t.me/mf699/13872
 https://t.me/mf699/2027
 https://t.me/mtamtamtamtamta
 https://t.me/nyudsy_boys

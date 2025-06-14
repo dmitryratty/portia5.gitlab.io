@@ -184,3 +184,4 @@
 [3] /test/wrap1[.html]
 [3] /test/wrap2[.html]
 [3] /test/zalgo[.html]
+[3] /voy[.html]
