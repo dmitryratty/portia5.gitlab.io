@@ -1,4 +1,4 @@
-https://portia5.gitlab.io/biology
+https://portia5.gitlab.io/a
 https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
@@ -27,6 +27,7 @@ https://portia5.gitlab.io/diary/mug-of-blood/scream-and-dance
 https://portia5.gitlab.io/diary/mug-of-blood/smell-of-fist
 https://portia5.gitlab.io/diary/mug-of-blood/traditional-medicine
 https://portia5.gitlab.io/diary/nature-versus-nurture
+https://portia5.gitlab.io/diary/orders-of-emotions
 https://portia5.gitlab.io/diary/press-the-gazelle
 https://portia5.gitlab.io/diary/school-start
 https://portia5.gitlab.io/diary/stinksy-breath
@@ -45,21 +46,13 @@ https://portia5.gitlab.io/library-interesting
 https://portia5.gitlab.io/library/blindsight
 https://portia5.gitlab.io/library/conditions-of-personhood
 https://portia5.gitlab.io/library/echopraxia
-https://portia5.gitlab.io/library/lesswrong/chaos
-https://portia5.gitlab.io/library/lesswrong/sequences
-    1 https://portia5.gitlab.io/library/lesswrong/sequences/translation-done
-    1 https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
-    1 https://portia5.gitlab.io/other/thou-art-godshatter
-https://portia5.gitlab.io/library/lesswrong/sequences/translation-done
-https://portia5.gitlab.io/library/lesswrong/sequences/translation-todo
 https://portia5.gitlab.io/library/reality-check
+https://portia5.gitlab.io/library/sequences
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music
 https://portia5.gitlab.io/other
-    1 https://portia5.gitlab.io/ethics
     1 https://portia5.gitlab.io/other/demon-core
-    1 https://portia5.gitlab.io/other/fear-shame-guilt
     1 https://portia5.gitlab.io/other/games-to-play
     1 https://portia5.gitlab.io/other/judas-goat
     1 https://portia5.gitlab.io/other/mathematicians
@@ -72,14 +65,12 @@ https://portia5.gitlab.io/other/benjamin-jesty
 https://portia5.gitlab.io/other/bourbaki-dieudonne
 https://portia5.gitlab.io/other/bourbaki-weil
 https://portia5.gitlab.io/other/demon-core
-https://portia5.gitlab.io/other/fear-shame-guilt
 https://portia5.gitlab.io/other/games-to-play
 https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/mathematicians
 https://portia5.gitlab.io/other/mathematicians-chaos
 https://portia5.gitlab.io/other/sakalauskas-case
 https://portia5.gitlab.io/other/srinivasa-ramanujan
-https://portia5.gitlab.io/other/thou-art-godshatter
 https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/test
@@ -107,4 +98,3 @@ https://portia5.gitlab.io/test/urlmapping/a/b
 https://portia5.gitlab.io/test/wrap1
 https://portia5.gitlab.io/test/wrap2
 https://portia5.gitlab.io/test/zalgo
-https://portia5.gitlab.io/voy

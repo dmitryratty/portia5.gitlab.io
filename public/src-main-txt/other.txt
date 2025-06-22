@@ -1,4 +1,4 @@
-Вот вое. Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon: good luck, have fun!
+Вот вое. Алиса №42839, корабли 東亜重工 у Tannhäuser Gate й ███ ████ arriving soon. Любопытство, игры, абсурд, смерть, секс, кровь, гной, кал, флатуленция, вина, страх, боль. Good luck, have fun!
 
 << * * * >>
 
@@ -28,7 +28,9 @@ Levels of simulations. Choice to live. Here and now. Racing is risking. Shorter 
 
 Choice to live. If I dislike living I can stop doing it. If I have a weapon in my hands I have a freedom to direct it toward my head.
 
-Orders of desires. Желания разных порядков. Желание первого порядка - я хочу есть салат. Потому, что мне нравится его вкус. Желание второго порядка - я хочу хотеть есть салат. Потому, что считаю салат полезным для здоровья, но сейчас я хочу есть конфеты. Осознав ситуацию можно попробовать научиться наслаждению вкусом салата, чтобы чаще хотеть его желанием первого порядка. Abilene paradox.
+Orders of desires.
+
+Abilene paradox.
 
 Exploration–exploitation dilemma.
 
@@ -36,11 +38,7 @@ Exploration–exploitation dilemma.
 
 What level of simulation we may be at? Gender is a boring social construct.
 
-#include link /other/fear-shame-guilt
-
 Itamar Shatz: «Precommitment: Intentionally Limiting Your Future Options», «Premature Optimization: Why It's the "Root of All Evil" and How to Avoid It».
-
-Желание быть живым межзвёздным кораблём потерянном в бесконечном пространстве космоса.
 
 Погоня за происходящим - происходит слишком много всего, представляй себя в кипящем котле, расслабиться и получать удовольствие выцепляя самое вкусное.
 
@@ -96,14 +94,6 @@ Virtue of silence.
 При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
 
 Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
-
-* * *
-
-#include section /other/thou-art-godshatter
-
-* * *
-
-#include link /ethics
 
 * * *
 
