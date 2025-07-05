@@ -1,4 +1,3 @@
-https://portia5.gitlab.io/a
 https://portia5.gitlab.io/contacts
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
@@ -48,6 +47,7 @@ https://portia5.gitlab.io/library/conditions-of-personhood
 https://portia5.gitlab.io/library/echopraxia
 https://portia5.gitlab.io/library/reality-check
 https://portia5.gitlab.io/library/sequences
+https://portia5.gitlab.io/main
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/music

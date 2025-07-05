@@ -145,6 +145,7 @@
 [3] /library/echopraxia[.html]
 [3] /library/reality-check[.html]
 [3] /library/sequences[.html]
+[3] /main[.html]
 [3] /map[.html]
 [3] /map-order[.html]
 [3] /music[.html]
