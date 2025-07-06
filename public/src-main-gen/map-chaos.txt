@@ -37,8 +37,6 @@ https://portia5.gitlab.io/diary/winter-sunny-day
 https://portia5.gitlab.io/diary/wire-cutters-music
 https://portia5.gitlab.io/diary/work-unconsciousness
 https://portia5.gitlab.io/diary/yard-stories
-https://portia5.gitlab.io/ethics
-    1 https://portia5.gitlab.io/other/demon-core
 https://portia5.gitlab.io/library
 https://portia5.gitlab.io/library-favorites
 https://portia5.gitlab.io/library-interesting
@@ -54,23 +52,15 @@ https://portia5.gitlab.io/music
 https://portia5.gitlab.io/other
     1 https://portia5.gitlab.io/other/demon-core
     1 https://portia5.gitlab.io/other/games-to-play
-    1 https://portia5.gitlab.io/other/judas-goat
     1 https://portia5.gitlab.io/other/mathematicians
-        2 https://portia5.gitlab.io/other/alexander-grothendieck
         2 https://portia5.gitlab.io/other/bourbaki-dieudonne
         2 https://portia5.gitlab.io/other/bourbaki-weil
-        2 https://portia5.gitlab.io/other/srinivasa-ramanujan
-https://portia5.gitlab.io/other/alexander-grothendieck
 https://portia5.gitlab.io/other/benjamin-jesty
 https://portia5.gitlab.io/other/bourbaki-dieudonne
 https://portia5.gitlab.io/other/bourbaki-weil
 https://portia5.gitlab.io/other/demon-core
 https://portia5.gitlab.io/other/games-to-play
-https://portia5.gitlab.io/other/judas-goat
 https://portia5.gitlab.io/other/mathematicians
-https://portia5.gitlab.io/other/mathematicians-chaos
-https://portia5.gitlab.io/other/sakalauskas-case
-https://portia5.gitlab.io/other/srinivasa-ramanujan
 https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/test
