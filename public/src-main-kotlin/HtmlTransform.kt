@@ -1,4 +1,3 @@
-
 import UtilsAbsolute.HOST_NAME
 import java.util.*
 
@@ -12,22 +11,26 @@ class HtmlTransform(
     private val wbrElement = if (xhmtlCompatibleVoidElements) "<wbr/>" else "<wbr>"
     private val brElement = if (xhmtlCompatibleVoidElements) "<br/>" else "<br>"
     private val maxUnwrappedWordLenght = 25
+
     // "<span class=\"nowrap\">$1</span>"
     private val dashNoWrap = "(\\S+-\\S+)".toRegex()
+
     // "<a href=\"$1\">\$1</a>"
     private val hyperlink = "(http\\S+)".toRegex()
     val footnote = "(\\S+\\[\\d+])".toRegex()
     private val wbrBefore = "([/~.,\\-_?#%])".toRegex()
     private val wbrAfter = "([:])".toRegex()
     private val wbrBeforeAfter = "([=&])".toRegex()
-    private val htmlTemplate get() = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile().readText()
+    private val htmlTemplate
+        get() = UtilsAbsolute.srcResDir.resolve("page-template.html").toFile().readText()
     private val lineTransform = LineTransform(true, LineTransform().simpleSpacesTransformer)
     val setOfLinks = sortedSetOf<String>()
     val setOfLongWords = sortedSetOf<String>()
     val mapOfLinks = sortedMapOf<String, TreeSet<String>>()
 
+    private val bottomNavigationEnabled = false
     private val articleTextDivStart = """<div class="article-text">"""
-    private val bottomNavigationDinkus = """<p class="dinkus">* * *</p>"""
+    private val bottomNavigationDinkus = """<p class="dinkus">⁂ ⁂ ⁂</p>"""
     private val bottomNavigationHome = """<p>🏠 <a href="/">$HOST_NAME</a></p>"""
     private val bottomNavigationHtml = "    $articleTextDivStart" +
             "\n    $bottomNavigationDinkus" +
@@ -37,7 +40,10 @@ class HtmlTransform(
         return htmlTemplate
             .replace("<!--TITLE-->", title)
             .replace("<!--DATA-->", body)
-            .replace("<!--DATA-FOOTER-->", if (bottomNavigation) bottomNavigationHtml else "")
+            .replace(
+                "<!--DATA-FOOTER-->",
+                if (bottomNavigationEnabled && bottomNavigation) bottomNavigationHtml else ""
+            )
     }
 
     var inText = false
@@ -147,7 +153,7 @@ class HtmlTransform(
         }
         // Replace "…" with html entity?
         var newWord = word.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            //.replace("\"", "&quot;").replace("'", "&apos;")
+        //.replace("\"", "&quot;").replace("'", "&apos;")
         if (newWord.length > maxUnwrappedWordLenght) {
             newWord = longWordLineBreaks(newWord)
         } else {
