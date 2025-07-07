@@ -104,7 +104,7 @@ template {
 }
 
 :root {
-  font-size: calc(0.85rem + 0.1vw);
+  font-size: calc(0.88rem + 0.1vw);
 }
 html {
     font-family:
@@ -128,9 +128,10 @@ a, a:visited, a:hover, a:active {
 }
 .article-text {
   width: 100%;
-  max-width: 45rem;
+  max-width: 43rem;
   margin: 0rem auto;
   box-sizing: border-box;
+  color: rgba(0,0,0,.8);
 }
 p {
   margin: 1.4em 0rem;
