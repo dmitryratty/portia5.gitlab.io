@@ -172,19 +172,26 @@ class HtmlTransform(
     }
 
     fun transformLine(url: RatUrl, line: String): String {
-        if (line.startsWith("#gallery")) {
-            inText = false
-            val path = line.split(" ")[1]
-            return "\n    </div>\n" + GalleryGrid().resolve(path)
-        } else {
-            return lineTransform.transform(url, line, ::transformWord)
-        }
+        return lineTransform.transform(url, line, ::transformWord)
     }
 
     val beautifiedShortSeparator = TextTypography().beautifiedShortSeparator
 
     fun transformParagraph(url: RatUrl, paragraph: String): String {
         val result = StringBuilder()
+        if (paragraph.startsWith("#gallery")) {
+            val path = paragraph.split(" ")[1]
+            if (inText) {
+                inText = false
+                return "\n    </div>\n" + GalleryGrid().resolve(path)
+            } else {
+                return "\n" + GalleryGrid().resolve(path)
+            }
+        }
+        if (!inText) {
+            inText = true
+            result.append(articleTextDivStart)
+        }
         if (paragraph.contains("* * *")) {
             if (paragraph != "* * *") {
                 throw IllegalStateException(paragraph)
