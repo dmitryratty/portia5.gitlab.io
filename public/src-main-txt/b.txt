@@ -1,6 +1,8 @@
-Любопытство, игры, абсурд, смерть, секс, кровь, гной, кал, флатуленция, вина, страх, боль.
-
 Сейчас думаю о том, что штуки вроде мантр и молитв это как промпт инженеринг самого себя. Нужно написать себе текст, который перечитывать например три раза в день, настраивающий тебя в правильное состояние.
+
+Если мне не нравится жить, я могу умереть.
+
+Любопытство, игры, абсурд, смерть, секс, кровь, гной, кал, флатуленция, вина, страх, боль.
 
 Identity. Keep it small.
 
@@ -24,7 +26,9 @@ Choice to live. If I dislike living I can stop doing it. If I have a weapon in m
 
 Orders of desires.
 
-Abilene paradox.
+Abilene paradox. Guess, ask, tell culture. Platinum rule.
+
+Но что будет если страх смерти превратить в любопытство?
 
 "Deity loves freedom". "Violence is a restriction of freedom". "How instant creation of intelligence, including its memories, would be perceived from inside of it?" "What is time in four-dimensional space?" "Happiness of intelligence as a goal vs using intelligence as means for something". Acausal trade. Fear, shame and guilt may be used for control. "Attention and narratives, patterns, priming..." Concision. Precommitment. Premature optimization. Детально и чётко сформулированные задачи. Внутренний локус контроля или депрессивное бессилие. Личность как множество субличностей, которые могут обучаться и договариваться. При избыточности ресурса можно ужесточить фильтрацию его поступления по качеству. You don't have to play by other people's rules, you can create your own. Of what value is adding a few years to your life if the cost is a life worth living. Эскапизм: не интересоваться информацией о мире, не давать миру информации о себе, не менять мир, не позволять миру менять себя. При высокой сложности структур можно жертвовать эффективностью ради инкапсуляции сложности в модулях. Indecision is a decision. Пространство гипотез огромно, тратить когнитивные ресурсы на обдумывание гипотезы оправдано только если она уже подтверждена достаточным количеством данных. If you never miss a plane, you're spending too much time at the airport. Восприятие мира через мысли и через эмоции. If you stuck try move reflection one level up. Хочу больше хотеть увеличивать своё счастье через позитив и хочу меньше хотеть увеличивать своё счастье через негатив. Желания разных порядков. Judas goat. Троянский конь. Embrace, extend, and extinguish. Good cop, bad cop. #InformationOverload
 
@@ -34,10 +38,9 @@ Itamar Shatz: «Precommitment: Intentionally Limiting Your Future Options», «P
 
 Погоня за происходящим - происходит слишком много всего, представляй себя в кипящем котле, расслабиться и получать удовольствие выцепляя самое вкусное.
 
-MKUltra. Demon core. Дело Сакалаускаса. Игнац Земмельвейс. Idiot plot. Battle of May Island.
+MKUltra. Demon core. Дело Сакалаускаса. Игнац Земмельвейс. Idiot plot. Battle of May Island. Pale Blue Dot.
 
-Virtue of silence.
-- https://www.lesswrong.com/tag/virtue-of-silence
+"The banana is big, but its skin is even bigger".
 
 В жизни всегда есть место подвигу. Главное - держаться от этого места подальше.
 
@@ -58,22 +61,19 @@ Virtue of silence.
 "Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial".
 - https://doi.org/10.1136/bmj.k5094
 
-...a friend of his, while living in the Far East, smoked several pipes of opium every night, and every night a single phrase rang in his ear, which contained the whole secret of the universe; but in his euphoria he could not be bothered to write it down and by the morning it was gone. One night he managed to jot down the magic phrase after all, and in the morning he read: "The banana is big, but its skin is even bigger." "Return Trip to Nirvana" by "Arthur Koestler" at "12 March 1961" in "Sunday Telegraph".
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1117322
-
 Хочу источники новостей выпускающие краткие безоценочные статистические сводки главного за день, неделю, месяц, год.
 
 ...when deciding what to do, you can also try to visualize the perspective of an exemplar, which is someone you admire, and then ask yourself what would they do in that situation.
 
-#include /other/benjamin-jesty
+You don't have to play by other people's rules, you can create your own.
+
+Of what value is adding a few years to your life if the cost is a life worth living?
 
 #include /other/transparent-society
 
+#include /other/benjamin-jesty
+
 #include link /other/mathematicians
-
-#include link /other/demon-core
-
-#include link /other/games-to-play
 
 * * *
 
@@ -82,14 +82,3 @@ Virtue of silence.
 При кооперации канал, от которого я хочу получать один пост в месяц, сам выбирает какой пост я получу. При конкуренции я устанавливаю фильтр, пропускающий только один пост в месяц. Фильтр использует алгоритм выбора ежемесячного поста, например выбирает пост с наибольшим количеством реакций подписчиков канала.
 
 Социальные сети могли бы показывать статистику постов для каждого канала. Тогда решая подписываться или нет можно было бы оценить насколько канал шумный, будет там в среднем 1 или 10 постов в день.
-
-* * *
-
-#TheoryOfMind Ask, guess, tell culture. Platinum rule. << https://en.wikipedia.org/wiki/Abilene_paradox https://lesswrong.com/tag/guess-ask-tell-culture https://lesswrong.ru/wiki/Ask,_Guess,_Tell_Culture https://effectiviology.com/platinum-rule >>
-
-#Social https://bastyon.com https://rumble.com
-
-"Но что будет если страх смерти превратить в любопытство?"
-- https://t.me/mf699/2027
-
-https://en.wikipedia.org/wiki/Pale_Blue_Dot
