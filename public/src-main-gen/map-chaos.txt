@@ -1,7 +1,4 @@
 https://portia5.gitlab.io/b
-    1 https://portia5.gitlab.io/other/mathematicians
-        2 https://portia5.gitlab.io/other/bourbaki-dieudonne
-        2 https://portia5.gitlab.io/other/bourbaki-weil
 https://portia5.gitlab.io/diary/because
 https://portia5.gitlab.io/diary/blood-filled-mouth
 https://portia5.gitlab.io/diary/boxes
@@ -43,19 +40,9 @@ https://portia5.gitlab.io/diary/yard-stories
 https://portia5.gitlab.io/library
 https://portia5.gitlab.io/library-favorites
 https://portia5.gitlab.io/library-interesting
-https://portia5.gitlab.io/library/blindsight
-https://portia5.gitlab.io/library/conditions-of-personhood
-https://portia5.gitlab.io/library/echopraxia
-https://portia5.gitlab.io/library/reality-check
-https://portia5.gitlab.io/library/sequences
 https://portia5.gitlab.io/main1
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
-https://portia5.gitlab.io/other/benjamin-jesty
-https://portia5.gitlab.io/other/bourbaki-dieudonne
-https://portia5.gitlab.io/other/bourbaki-weil
-https://portia5.gitlab.io/other/mathematicians
-https://portia5.gitlab.io/other/transparent-society
 https://portia5.gitlab.io/selfie
 https://portia5.gitlab.io/test
 https://portia5.gitlab.io/test/bullet
