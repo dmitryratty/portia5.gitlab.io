@@ -2,6 +2,6 @@
 
 <<< * * * >>>
 
-#include link /gallery
+#include /main2
 
-#include link /diary
+https://portia5.gitlab.io/b
