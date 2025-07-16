@@ -2,13 +2,11 @@ https://doi.org/10.1136/bmj.327.7429.1459
 https://doi.org/10.1136/bmj.k5094
 https://portia5.gitlab.io
 https://portia5.gitlab.io/a
-https://portia5.gitlab.io/b
 https://portia5.gitlab.io/gallery
 https://portia5.gitlab.io/library
 https://portia5.gitlab.io/library-favorites
 https://portia5.gitlab.io/library-interesting
 https://portia5.gitlab.io/main1
-https://portia5.gitlab.io/main2
 https://portia5.gitlab.io/map
 https://portia5.gitlab.io/map-order
 https://portia5.gitlab.io/selfie

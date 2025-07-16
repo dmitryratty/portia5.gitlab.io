@@ -119,6 +119,10 @@ html {
 }
 body {
   margin: 0;
+  /* Prevent layout shift. */
+  overflow-y: auto;
+  /* Prevent layout shift. */
+  scrollbar-gutter: stable;
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
