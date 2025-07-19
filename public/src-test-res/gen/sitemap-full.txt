@@ -99,7 +99,7 @@
 [3] /library[.html]
 [3] /library-favorites[.html]
 [3] /library-interesting[.html]
-[3] /main1[.html]
+[3] /main[.html]
 [3] /map[.html]
 [3] /map-order[.html]
 [3] /selfie[.html]
