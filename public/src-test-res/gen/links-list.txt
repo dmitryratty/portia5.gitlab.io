@@ -1,5 +1,3 @@
-https://doi.org/10.1136/bmj.327.7429.1459
-https://doi.org/10.1136/bmj.k5094
 https://portia5.gitlab.io
 https://portia5.gitlab.io/a
 https://portia5.gitlab.io/gallery
