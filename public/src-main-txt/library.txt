@@ -5,7 +5,3 @@
 #include /library-favorites
 
 #include /library-interesting
-
-Vidya. </> World of Warcraft. Factorio. Diablo I, II, III. StarCraft I, II. Fallout 2. Arcanum. Heroes of Might and Magic III. Disciples II. Red Alert 2. Path of Exile. Terraria. DotA, League of Legends.
-
-Anime. </> "Juuni Taisen", "Bokurano", "Made in Abyss", "Psycho-Pass", "Ghost in the Shell", "The Saga of Tanya the Evil", "Blame!", "Akame ga Kill!".
