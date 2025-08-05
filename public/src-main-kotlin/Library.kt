@@ -99,7 +99,11 @@ class Library {
         }.sortedBy { it.rating }.groupBy { it.authors }.keys.toMutableList()
         listsBuilder.append(
             authorsList.joinToString(
-                separator = ", ", prefix = "", postfix = ".", transform = { it[0].names.first().name })
+                separator = ", ", prefix = "", postfix = ".", transform = {
+                    it.joinToString(separator = ", ", prefix = "", postfix = "", transform = {
+                            author -> author.names.first().name
+                    })
+                })
         )
         libraryOut.resolve("library-interesting.txt").toFile().writeText(listsBuilder.toString())
     }

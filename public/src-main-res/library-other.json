@@ -312,17 +312,14 @@
     {
         "names": [
             {
-                "name": "Москва - Петушки",
+                "name": "Москва - Петушки. С комментариями Эдуарда Власова",
                 "language": "ru",
-                "comment": "Дочитано 2025-06-01."
-            },
-            {
-                "name": "Moscow-Petushki",
-                "language": "en"
+                "comment": "Дочитано 2025-06-01. Дочитано с комментариями 2025-08-05."
             }
         ],
         "authors": [
-            "Venedikt Yerofeyev"
+            "Venedikt Yerofeyev",
+            "Эдуард Власов"
         ],
         "tags": [
             "archive",
