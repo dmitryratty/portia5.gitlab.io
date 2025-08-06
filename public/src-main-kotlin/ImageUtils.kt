@@ -1,9 +1,7 @@
-package image
-
 import java.io.File
 import java.io.FileFilter
 
-class Utils {
+class ImageUtils {
     companion object {
         fun getDigitsSuffix(s: String): String {
             val builder = StringBuilder()
