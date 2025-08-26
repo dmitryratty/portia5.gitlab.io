@@ -51,6 +51,56 @@
     {
         "names": [
             {
+                "name": "…And I Show You How Deep the Rabbit Hole Goes",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "chaos",
+            "nouvelle"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "In Praise of Boredom",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
+                "name": "Well-Kept Gardens Die By Pacifism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 100
+    },
+    {
+        "names": [
+            {
                 "name": "Тройной контакт",
                 "language": "ru"
             }
@@ -63,6 +113,57 @@
             "novel"
         ],
         "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "Eight Short Studies On Excuses",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "Hero Licensing",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Eliezer Yudkowsky"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 200
+    },
+    {
+        "names": [
+            {
+                "name": "The Demiurge’s Older Brother",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 250
     },
     {
         "names": [
@@ -147,6 +248,23 @@
     {
         "names": [
             {
+                "name": "The Parable Of The Talents",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 300
+    },
+    {
+        "names": [
+            {
                 "name": "Диаспора",
                 "language": "?"
             }
@@ -205,6 +323,23 @@
         "tags": [
             "archive",
             "nouvelle"
+        ],
+        "rating": 400
+    },
+    {
+        "names": [
+            {
+                "name": "Talents Part 2: Attitude vs. Altitude",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
         ],
         "rating": 400
     },
@@ -273,6 +408,23 @@
         "tags": [
             "recommendation",
             "novel"
+        ],
+        "rating": 500
+    },
+    {
+        "names": [
+            {
+                "name": "The Virtue of Silence",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
         ],
         "rating": 500
     },
@@ -394,6 +546,23 @@
     {
         "names": [
             {
+                "name": "Schelling fences on slippery slopes",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Scott Alexander"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 600
+    },
+    {
+        "names": [
+            {
                 "name": "Пикник на обочине",
                 "language": "ru"
             }
@@ -438,6 +607,186 @@
             "nouvelle"
         ],
         "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Simulacra Levels Summary",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Zvi Mowshowitz"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "Conditions of Personhood",
+                "language": "en",
+                "comment": "https://doi.org/10.1007/978-1-4612-3950-5_7"
+            },
+            {
+                "name": "Условия присутствия личности",
+                "language": "ru",
+                "comment": "http://www.ruthenia.ru/logos/number/37/07.pdf"
+            }
+        ],
+        "authors": [
+            "Daniel Dennett"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 700
+    },
+    {
+        "names": [
+            {
+                "name": "16 types of useful predictions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Julia Galef"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "Intentionally Making Close Friends",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Neel Nanda"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "Negative Feedback and Simulacra",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Elizabeth Van Nostrand"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "In praise of fake frameworks",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Michael Smith"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "Are You Living in a Computer Simulation?",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Nick Bostrom"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "The Stamp Collector",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Nate Soares"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "The Path to Reason",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Jacob Falkovich"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750
+    },
+    {
+        "names": [
+            {
+                "name": "Hammertime Day 7: Aversion Factoring",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Xiaoyu He"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos",
+            "rationality"
+        ],
+        "rating": 750
     },
     {
         "names": [
@@ -517,6 +866,23 @@
         "tags": [
             "archive",
             "nouvelle"
+        ],
+        "rating": 800
+    },
+    {
+        "names": [
+            {
+                "name": "Simulacra Levels and Their Interactions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Zvi Mowshowitz"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
         ],
         "rating": 800
     },
@@ -631,6 +997,113 @@
     {
         "names": [
             {
+                "name": "Unifying the Simulacra Definitions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Zvi Mowshowitz"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Keep Your Identity Small",
+                "language": "en",
+                "comment": "https://www.paulgraham.com/identity.html"
+            }
+        ],
+        "authors": [
+            "Paul Graham"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 900
+    },
+    {
+        "names": [
+            {
+                "name": "Introductory Antimemetics",
+                "language": "en",
+                "comment": "https://scp-wiki.wikidot.com/introductory-antimemetics"
+            }
+        ],
+        "authors": [
+            "Sam qntm Hughes"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 950
+    },
+    {
+        "names": [
+            {
+                "name": "If You Are Reading This",
+                "language": "?",
+                "comment": "https://qntm.org/readin"
+            }
+        ],
+        "authors": [
+            "Sam qntm Hughes"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 970
+    },
+    {
+        "names": [
+            {
+                "name": "Lena",
+                "language": "?",
+                "comment": "https://qntm.org/mmacevedo"
+            }
+        ],
+        "authors": [
+            "Sam qntm Hughes"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 975
+    },
+    {
+        "names": [
+            {
+                "name": "We Need To Talk About Fifty-Five",
+                "language": "?",
+                "comment": "https://scp-wiki.wikidot.com/we-need-to-talk-about-fifty-five"
+            }
+        ],
+        "authors": [
+            "Sam qntm Hughes"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 980
+    },
+    {
+        "names": [
+            {
                 "name": "Театр",
                 "language": "?"
             }
@@ -675,6 +1148,104 @@
             "novel"
         ],
         "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "The Four Children of the Seder as the Simulacra Levels",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Zvi Mowshowitz"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1000
+    },
+    {
+        "names": [
+            {
+                "name": "Precommitment: Intentionally Limiting Your Future Options",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1040
+    },
+    {
+        "names": [
+            {
+                "name": "Premature Optimization: Why It’s the “Root of All Evil” and How to Avoid It",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1050
+    },
+    {
+        "names": [
+            {
+                "name": "The Platinum Rule: Treat Others the Way They Want to Be Treated",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1060
+    },
+    {
+        "names": [
+            {
+                "name": "The Egocentric Bias: Why It’s Hard to See Things from a Different Perspective",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1061
+    },
+    {
+        "names": [
+            {
+                "name": "Self-Distancing: What It Is and How You Can Use It to Make Better Decisions",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Itamar Shatz"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1062
     },
     {
         "names": [
@@ -759,6 +1330,40 @@
     {
         "names": [
             {
+                "name": "Masculine Virtues",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Jacob Falkovich"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
+                "name": "Double Crux — A Strategy for Mutual Understanding",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Duncan Sabien"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1100
+    },
+    {
+        "names": [
+            {
                 "name": "Золотой жук",
                 "language": "?"
             }
@@ -817,6 +1422,39 @@
         "tags": [
             "archive",
             "nouvelle"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "100 Ways To Live Better",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Jacob Falkovich"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1200
+    },
+    {
+        "names": [
+            {
+                "name": "Preview: eternalism and nihilism",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "David Chapman"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
         ],
         "rating": 1200
     },
@@ -903,6 +1541,39 @@
     {
         "names": [
             {
+                "name": "Selfless Dating",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Jacob Falkovich"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "chaos"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
+                "name": "Geeks, MOPs, and sociopaths in subculture evolution",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "David Chapman"
+        ],
+        "tags": [
+            "blogging",
+            "essay"
+        ],
+        "rating": 1300
+    },
+    {
+        "names": [
+            {
                 "name": "Лолита",
                 "language": "?"
             }
@@ -931,6 +1602,41 @@
             "nouvelle"
         ],
         "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "It Looks Like You’re Trying To Take Over The World",
+                "language": "en"
+            }
+        ],
+        "authors": [
+            "Gwern Branwen"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1400
+    },
+    {
+        "names": [
+            {
+                "name": "Coding Machines",
+                "language": "en",
+                "comment": "https://www.teamten.com/lawrence/writings/coding-machines/ https://www.amazon.com/dp/B077WC9FG5"
+            }
+        ],
+        "authors": [
+            "Lawrence Kesteloot"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
+        ],
+        "rating": 1410
     },
     {
         "names": [
@@ -1234,6 +1940,24 @@
             "archive",
             "nouvelle",
             "recommendation"
+        ],
+        "rating": 1900
+    },
+    {
+        "names": [
+            {
+                "name": "Умер ли Никола Бурбаки?",
+                "language": "ru",
+                "comment": "https://www.mathnet.ru/rus/mp18"
+            }
+        ],
+        "authors": [
+            "А. Б. Сосинский"
+        ],
+        "tags": [
+            "blogging",
+            "essay",
+            "entertaining"
         ],
         "rating": 1900
     },
@@ -2618,5 +3342,202 @@
             "novel"
         ],
         "rating": 8400
+    },
+    {
+        "names": [
+            {
+                "name": "Carmen",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Prosper Merimee"
+        ],
+        "tags": [
+            "archive",
+            "novel",
+            "chaos"
+        ],
+        "rating": 8500
+    },
+    {
+        "names": [
+            {
+                "name": "Manacled",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "SenLinYu"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 8900
+    },
+    {
+        "names": [
+            {
+                "name": "The Tinderbox",
+                "language": "en"
+            },
+            {
+                "name": "Огниво",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Hans Christian Andersen"
+        ],
+        "tags": [
+            "short story",
+            "chaos"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Пятая гора",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Пауло Коэльо"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Книга воина света",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Пауло Коэльо"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Одиннадцать минут",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Пауло Коэльо"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Роза Мира",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Даниил Андреев"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Тайная доктрина",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Елена Блаватская"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Алхимик",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Пауло Коэльо"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Вынос мозга",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Андрей Ломачинский"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "Трактат о любви как ее понимает жуткий зануда",
+                "language": "?"
+            }
+        ],
+        "authors": [
+            "Анатолий Протопопов"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
+    },
+    {
+        "names": [
+            {
+                "name": "100 великих любовниц",
+                "language": "ru"
+            }
+        ],
+        "authors": [
+            "Муромов Игорь Анатольевич"
+        ],
+        "tags": [
+            "chaos",
+            "novel"
+        ],
+        "rating": 9000
     }
 ]

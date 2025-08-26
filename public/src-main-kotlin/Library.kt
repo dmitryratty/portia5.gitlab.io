@@ -1,8 +1,8 @@
+
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.nio.file.Path
-import kotlin.io.path.listDirectoryEntries
 
 /**
  * Novel - роман.
@@ -151,7 +151,7 @@ class Library {
 
     fun saveLibrary(dst: Path, authorsMap: MutableMap<String, Author>, writingsIn: MutableList<Writing>) {
         val format = Json { prettyPrint = true }
-        val outAuthorsFile = dst.resolve("authors.json").toFile()
+        val outAuthorsFile = dst.resolve("library-authors.json").toFile()
         outAuthorsFile.writeText(format.encodeToString(authorsMap.values.toList()))
 
         val writings = mutableListOf<WritingRecord>()
@@ -160,17 +160,9 @@ class Library {
             writings.add(WritingRecord(w.names, a, w.tags, w.rating))
         }
 
-        val articlesToSave = writings.filter { articlesFileFilter(it) }.sortedBy { it.rating }
-        val outArticleFile = dst.resolve("library-article.json").toFile()
-        outArticleFile.writeText(format.encodeToString(articlesToSave))
-
-        val othersToSave = writings.filter { otherFileFilter(it) }.sortedBy { it.rating }
-        val outOtherFile = dst.resolve("library-other.json").toFile()
-        outOtherFile.writeText(format.encodeToString(othersToSave))
-
-        val chaosToSave = writings.filter { chaosFileFilter(it) }.sortedBy { it.rating }
-        val outChaosFile = dst.resolve("library-chaos.json").toFile()
-        outChaosFile.writeText(format.encodeToString(chaosToSave))
+        val writingsToSave = writings.sortedBy { it.rating }
+        val outWritingsFile = dst.resolve("library-writings.json").toFile()
+        outWritingsFile.writeText(format.encodeToString(writingsToSave))
 
         val rest = writings.filter { !articlesFileFilter(it)
                 && !otherFileFilter(it) && !chaosFileFilter(it) }
@@ -179,7 +171,7 @@ class Library {
 
     fun loadAuthors(srcDir: Path): MutableMap<String, Author> {
         val authorsIn: List<Author> = Json.decodeFromString<List<Author>>(
-            srcDir.resolve("authors.json").toFile().readText())
+            srcDir.resolve("library-authors.json").toFile().readText())
         val authorsMap = mutableMapOf<String, Author>()
         authorsIn.forEach {
             authorsMap[it.id()] = it
@@ -188,10 +180,8 @@ class Library {
     }
 
     fun loadWritings(srcDir: Path, authorsMap: MutableMap<String, Author>): MutableList<Writing> {
-        val writingsRecords: MutableList<WritingRecord> = arrayListOf()
-        srcDir.listDirectoryEntries("library*.json").forEach {
-            writingsRecords.addAll(Json.decodeFromString<List<WritingRecord>>(it.toFile().readText()))
-        }
+        val writingsFile = srcDir.resolve("library-writings.json").toFile()
+        val writingsRecords = Json.decodeFromString<List<WritingRecord>>(writingsFile.readText())
         val writings = mutableListOf<Writing>()
         writingsRecords.forEach { writingRecord ->
             val authors = mutableListOf<Author>()
@@ -205,7 +195,7 @@ class Library {
                     authorsMap.values.forEach { authorFromMap ->
                         if (authorFromMap.names.find { it.name == authorId } != null) {
                             authorById = authorFromMap
-                            println("Author ID changed from $authorId to ${authorById!!.id()}")
+                            println("Author ID changed from $authorId to ${authorById.id()}")
                         }
                     }
                     if (authorById == null) {
@@ -213,7 +203,7 @@ class Library {
                         throw IllegalStateException(e)
                     }
                 }
-                authors.add(authorById!!)
+                authors.add(authorById)
             }
             writings.add(Writing(writingRecord.names, authors, writingRecord.tags, writingRecord.rating))
         }
