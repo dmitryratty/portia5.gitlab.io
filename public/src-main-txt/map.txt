@@ -1,5 +1,0 @@
-Map.
-
-<<< * * * >>>
-
-#include /map-order

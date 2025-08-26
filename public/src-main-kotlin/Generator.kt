@@ -61,7 +61,9 @@ class Generator(c: ContextInterface = Context()) : ContextInterface by c {
         sitemap.updateMaps(htmlTransform.mapOfLinks)
         processPage(sitemap.getMapOrder())
         processPage(sitemap.getMapChaos())
-        processPage(sitemap.getMap())
+        if (sitemap.getMap() != null) {
+            processPage(sitemap.getMap()!!)
+        }
         genRedirects()
         dstTestDir.resolve("links-list.txt").toFile()
             .writeText(htmlTransform.setOfLinks.joinToString("\n"))

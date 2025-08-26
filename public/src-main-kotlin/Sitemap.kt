@@ -7,7 +7,7 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
     val urls: MutableList<RatUrl> = mutableListOf()
     val srcPages: MutableMap<String, Page> = mutableMapOf()
     private var _map: Page? = null
-    fun getMap(): Page { return _map!! }
+    fun getMap(): Page? { return _map }
     private var _mapOrder: Page? = null
     fun getMapOrder(): Page { return _mapOrder!! }
     private var _mapChaos: Page? = null
@@ -53,9 +53,11 @@ class Sitemap(c: ContextInterface) : ContextInterface by c {
     fun updateMaps(mapOfLinks: SortedMap<String, TreeSet<String>>) {
         parsedMap = mapOfLinks
         // Recreate map page to allow it regeneration in reflective phase.
-        val mapUrl = urls.find { it.relativeUrl == UtilsRelative.MAP_RELATIVE_URL }!!
-        _map = Page(mapUrl)
-        srcPages[UtilsRelative.MAP_RELATIVE_URL] = getMap()
+        val mapUrl = urls.find { it.relativeUrl == UtilsRelative.MAP_RELATIVE_URL }
+        if (mapUrl != null) {
+            _map = Page(mapUrl)
+            srcPages[UtilsRelative.MAP_RELATIVE_URL] = getMap()!!
+        }
 
         val mapOrderSrcRelativePath = Path.of(UtilsRelative.MAP_ORDER_RELATIVE_PATH)
         val mapOrderSrcAbsolutePath: Path = srcGenDir.resolve(mapOrderSrcRelativePath)
