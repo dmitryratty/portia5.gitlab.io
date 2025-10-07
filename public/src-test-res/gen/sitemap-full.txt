@@ -30,15 +30,6 @@
 [2] /image/gallery/29.jpeg
 [2] /image/gallery/3.jpeg
 [2] /image/gallery/30.jpeg
-[2] /image/gallery/31.jpeg
-[2] /image/gallery/32.jpeg
-[2] /image/gallery/33.jpeg
-[2] /image/gallery/34.jpeg
-[2] /image/gallery/35.jpeg
-[2] /image/gallery/36.jpeg
-[2] /image/gallery/37.jpeg
-[2] /image/gallery/38.jpeg
-[2] /image/gallery/39.jpeg
 [2] /image/gallery/4.jpeg
 [2] /image/gallery/5.jpeg
 [2] /image/gallery/6.jpeg
@@ -51,7 +42,6 @@
 [2] /image/selfie/3.jpeg
 [2] /image/selfie/4.jpeg
 [2] /image/selfie/5.jpeg
-[2] /image/selfie/6.jpeg
 [2] /image/selfie/infos.json
 [2] /manifest.webmanifest
 [2] /test/font-size/main.css
