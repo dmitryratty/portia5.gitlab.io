@@ -13,9 +13,6 @@
 [2] /image/gallery/13.jpeg
 [2] /image/gallery/14.jpeg
 [2] /image/gallery/15.jpeg
-[2] /image/gallery/16.jpeg
-[2] /image/gallery/17.jpeg
-[2] /image/gallery/18.jpeg
 [2] /image/gallery/2.jpeg
 [2] /image/gallery/3.jpeg
 [2] /image/gallery/4.jpeg
