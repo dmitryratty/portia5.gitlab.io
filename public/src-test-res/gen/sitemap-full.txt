@@ -16,13 +16,7 @@
 [2] /image/gallery/16.jpeg
 [2] /image/gallery/17.jpeg
 [2] /image/gallery/18.jpeg
-[2] /image/gallery/19.jpeg
 [2] /image/gallery/2.jpeg
-[2] /image/gallery/20.jpeg
-[2] /image/gallery/21.jpeg
-[2] /image/gallery/22.jpeg
-[2] /image/gallery/23.jpeg
-[2] /image/gallery/24.jpeg
 [2] /image/gallery/3.jpeg
 [2] /image/gallery/4.jpeg
 [2] /image/gallery/5.jpeg
