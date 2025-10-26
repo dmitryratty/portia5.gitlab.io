@@ -22,6 +22,20 @@ class DatesTest {
         }
     }
 
+    @Test fun t7() {
+        val locale = Locale.forLanguageTag("ru-RU")
+        // MMMM - "Января", LLLL - "Январь", и при парсинге, и при выводе.
+        val formatter = DateTimeFormatterBuilder().parseCaseInsensitive()
+            .appendPattern("'█['yyyy',' LLLL',' d',' EEEE']█'").toFormatter(locale)
+        // Если вместо "понедельник" ошибочно указать например "вторник", то получим ошибку
+        // парсинга в виде исключения
+        val date = LocalDate.parse("█[2023, январь, 2, понедельник]█", formatter)
+        val formatted = date.format(DateTimeFormatter.ofPattern("'█['yyyy, LLLL, d, EEEE']█'", locale))
+        if (!formatted.equals("█[2023, январь, 2, понедельник]█")) {
+            throw IllegalStateException(formatted)
+        }
+    }
+
     @Test fun t2() {
         // Mon Jan 31 23:59:59 2000 +0300
         val formatter = DateTimeFormatter.ofPattern("MMM d HH:mm:ss yyyy", Locale.US)
@@ -50,17 +64,17 @@ class DatesTest {
         println("\nt4")
         val start = LocalDate.of(2000, 1, 10)
         val end = LocalDate.of(2000, 1, 12)
-        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 9)) == false)
-        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 10)) == false)
-        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 11)) == true)
-        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 12)) == false)
-        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 13)) == false)
+        println(!inRangeExclusive(start, end, LocalDate.of(2000, 1, 9)))
+        println(!inRangeExclusive(start, end, LocalDate.of(2000, 1, 10)))
+        println(inRangeExclusive(start, end, LocalDate.of(2000, 1, 11)))
+        println(!inRangeExclusive(start, end, LocalDate.of(2000, 1, 12)))
+        println(!inRangeExclusive(start, end, LocalDate.of(2000, 1, 13)))
         println()
-        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 9)) == false)
-        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 10)) == true)
-        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 11)) == true)
-        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 12)) == true)
-        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 13)) == false)
+        println(!inRangeInclusive(start, end, LocalDate.of(2000, 1, 9)))
+        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 10)))
+        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 11)))
+        println(inRangeInclusive(start, end, LocalDate.of(2000, 1, 12)))
+        println(!inRangeInclusive(start, end, LocalDate.of(2000, 1, 13)))
     }
 
     @Test fun t5 () {
